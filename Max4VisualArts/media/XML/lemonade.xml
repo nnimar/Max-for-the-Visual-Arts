@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inventory>
+    <drink>
+         <lemonade>
+         	<price>$2.50</price>
+             <amount>20</amount>
+         </lemonade>
+         <pop>
+             <price>$1.50</price>
+             <amount>10</amount>
+         </pop>
+     </drink>
+
+     <snack>
+         <chips>
+             <price>$4.50</price>
+             <amount>60</amount>
+         </chips>
+     </snack>
+</inventory>

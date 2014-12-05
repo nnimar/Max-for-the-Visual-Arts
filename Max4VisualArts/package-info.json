@@ -1,0 +1,18 @@
+{
+	"name": "Max for the Visual Arts",
+	"type": "package",
+	"author": "Nicolas Marechal",
+	"description": "Max for the Visual Arts (Max 7) is a self-learning tool and a repository for the Max patches made or used on the BA interaction design and arts (IDA) and the MA interactive design communication (IDC) at the London College of Communication (University of the Arts London, United Kingdom).",
+	"version": "2.50",
+	"major_version": "2",
+	"minor_version": "5",
+	"min_max_version": "701",
+	"min_osx_version": "None",
+	"min_win_version": "None",
+	"website": "https://github.com/imi/Max-for-the-Visual-Arts",
+	"link_mac32": "https://github.com/imi/Max-for-the-Visual-Arts/archive/master.zip",
+	"link_mac64": "https://github.com/imi/Max-for-the-Visual-Arts/archive/master.zip",
+	"link_win32": "https://github.com/imi/Max-for-the-Visual-Arts/archive/master.zip",
+	"link_win64": "https://github.com/imi/Max-for-the-Visual-Arts/archive/master.zip",
+	"relative_path": "Max4VisualArts"
+}

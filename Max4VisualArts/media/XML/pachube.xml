@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eeml xmlns="http://www.eeml.org/xsd/0.5.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="0.5.1" xsi:schemaLocation="http://www.eeml.org/xsd/0.5.1 http://www.eeml.org/xsd/0.5.1/0.5.1.xsd">
+  <environment updated="2010-12-30T21:04:34.188791Z" id="14348" creator="http://www.pachube.com">
+    <title>CC128 with Max 5</title>
+    <feed>http://api.pachube.com/v2/feeds/14348.xml</feed>
+    <status>frozen</status>
+    <private>false</private>
+    <location domain="physical" exposure="indoor" disposition="fixed">
+      <name>London</name>
+      <lat>51.4307618647924</lat>
+      <lon>-0.0420570373535156</lon>
+    </location>
+    <data id="100">
+      <current_value at="2010-12-30T21:04:34.188791Z">647</current_value>
+      <max_value>648.0</max_value>
+      <min_value>643.0</min_value>
+      <unit type="" symbol="W">Watt</unit>
+    </data>
+    <data id="101">
+      <current_value at="2010-12-30T21:04:34.188791Z"> 22.30</current_value>
+      <max_value>22.3</max_value>
+      <min_value>22.3</min_value>
+      <unit type="" symbol="C">Temperature</unit>
+    </data>
+  </environment>
+</eeml>
