@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<pattrstorage name = "myData">
+	<slot number = "1">
+		<pattr name = "MyGsw" value = "1" />
+		<pattr name = "MyGsw2" value = "0" />
+		<pattr name = "MyMenu" value = "9" />
+		<pattr name = "autohelp_see_menu" value = "0" />
+		<pattr name = "checkbox[10]" value = "1" />
+		<pattr name = "checkbox[1]" value = "1" />
+		<pattr name = "checkbox[2]" value = "0" />
+		<pattr name = "checkbox[3]" value = "1" />
+		<pattr name = "checkbox[4]" value = "1" />
+		<pattr name = "checkbox[5]" value = "0" />
+		<pattr name = "checkbox[6]" value = "0" />
+		<pattr name = "checkbox[7]" value = "0" />
+		<pattr name = "checkbox[8]" value = "1" />
+		<pattr name = "checkbox[9]" value = "0" />
+		<pattr name = "myDial" value = "6" />
+		<pattr name = "mySlider" value = "0" />
+	</slot>
+	<slot number = "2">
+		<pattr name = "MyGsw" value = "1" />
+		<pattr name = "MyGsw2" value = "0" />
+		<pattr name = "MyMenu" value = "9" />
+		<pattr name = "autohelp_see_menu" value = "0" />
+		<pattr name = "checkbox[10]" value = "1" />
+		<pattr name = "checkbox[1]" value = "0" />
+		<pattr name = "checkbox[2]" value = "0" />
+		<pattr name = "checkbox[3]" value = "0" />
+		<pattr name = "checkbox[4]" value = "0" />
+		<pattr name = "checkbox[5]" value = "0" />
+		<pattr name = "checkbox[6]" value = "0" />
+		<pattr name = "checkbox[7]" value = "0" />
+		<pattr name = "checkbox[8]" value = "1" />
+		<pattr name = "checkbox[9]" value = "0" />
+		<pattr name = "myDial" value = "6" />
+		<pattr name = "mySlider" value = "81" />
+	</slot>
+	<slot number = "3">
+		<pattr name = "MyGsw" value = "0" />
+		<pattr name = "MyGsw2" value = "0" />
+		<pattr name = "MyMenu" value = "2" />
+		<pattr name = "autohelp_see_menu" value = "" />
+		<pattr name = "checkbox[10]" value = "0" />
+		<pattr name = "checkbox[1]" value = "0" />
+		<pattr name = "checkbox[2]" value = "0" />
+		<pattr name = "checkbox[3]" value = "1" />
+		<pattr name = "checkbox[4]" value = "0" />
+		<pattr name = "checkbox[5]" value = "0" />
+		<pattr name = "checkbox[6]" value = "0" />
+		<pattr name = "checkbox[7]" value = "0" />
+		<pattr name = "checkbox[8]" value = "0" />
+		<pattr name = "checkbox[9]" value = "0" />
+		<pattr name = "myDial" value = "31" />
+		<pattr name = "mySlider" value = "28" />
+	</slot>
+	<slot number = "4">
+		<pattr name = "MyGsw" value = "1" />
+		<pattr name = "MyGsw2" value = "1" />
+		<pattr name = "MyMenu" value = "3" />
+		<pattr name = "autohelp_see_menu" value = "" />
+		<pattr name = "checkbox[10]" value = "0" />
+		<pattr name = "checkbox[1]" value = "0" />
+		<pattr name = "checkbox[2]" value = "0" />
+		<pattr name = "checkbox[3]" value = "0" />
+		<pattr name = "checkbox[4]" value = "1" />
+		<pattr name = "checkbox[5]" value = "0" />
+		<pattr name = "checkbox[6]" value = "0" />
+		<pattr name = "checkbox[7]" value = "0" />
+		<pattr name = "checkbox[8]" value = "0" />
+		<pattr name = "checkbox[9]" value = "0" />
+		<pattr name = "myDial" value = "39" />
+		<pattr name = "mySlider" value = "43" />
+	</slot>
+	<slot number = "5">
+		<pattr name = "MyGsw" value = "0" />
+		<pattr name = "MyGsw2" value = "0" />
+		<pattr name = "MyMenu" value = "4" />
+		<pattr name = "autohelp_see_menu" value = "" />
+		<pattr name = "checkbox[10]" value = "0" />
+		<pattr name = "checkbox[1]" value = "0" />
+		<pattr name = "checkbox[2]" value = "0" />
+		<pattr name = "checkbox[3]" value = "0" />
+		<pattr name = "checkbox[4]" value = "0" />
+		<pattr name = "checkbox[5]" value = "1" />
+		<pattr name = "checkbox[6]" value = "0" />
+		<pattr name = "checkbox[7]" value = "0" />
+		<pattr name = "checkbox[8]" value = "0" />
+		<pattr name = "checkbox[9]" value = "0" />
+		<pattr name = "myDial" value = "57" />
+		<pattr name = "mySlider" value = "57" />
+	</slot>
+	<slot number = "6">
+		<pattr name = "MyGsw" value = "1" />
+		<pattr name = "MyGsw2" value = "1" />
+		<pattr name = "MyMenu" value = "5" />
+		<pattr name = "autohelp_see_menu" value = "" />
+		<pattr name = "checkbox[10]" value = "0" />
+		<pattr name = "checkbox[1]" value = "0" />
+		<pattr name = "checkbox[2]" value = "0" />
+		<pattr name = "checkbox[3]" value = "0" />
+		<pattr name = "checkbox[4]" value = "0" />
+		<pattr name = "checkbox[5]" value = "0" />
+		<pattr name = "checkbox[6]" value = "1" />
+		<pattr name = "checkbox[7]" value = "0" />
+		<pattr name = "checkbox[8]" value = "0" />
+		<pattr name = "checkbox[9]" value = "0" />
+		<pattr name = "myDial" value = "74" />
+		<pattr name = "mySlider" value = "74" />
+	</slot>
+	<slot number = "7">
+		<pattr name = "MyGsw" value = "0" />
+		<pattr name = "MyGsw2" value = "0" />
+		<pattr name = "MyMenu" value = "6" />
+		<pattr name = "autohelp_see_menu" value = "" />
+		<pattr name = "checkbox[10]" value = "0" />
+		<pattr name = "checkbox[1]" value = "0" />
+		<pattr name = "checkbox[2]" value = "0" />
+		<pattr name = "checkbox[3]" value = "0" />
+		<pattr name = "checkbox[4]" value = "0" />
+		<pattr name = "checkbox[5]" value = "0" />
+		<pattr name = "checkbox[6]" value = "0" />
+		<pattr name = "checkbox[7]" value = "1" />
+		<pattr name = "checkbox[8]" value = "0" />
+		<pattr name = "checkbox[9]" value = "0" />
+		<pattr name = "myDial" value = "90" />
+		<pattr name = "mySlider" value = "87" />
+	</slot>
+	<slot number = "8">
+		<pattr name = "MyGsw" value = "1" />
+		<pattr name = "MyGsw2" value = "1" />
+		<pattr name = "MyMenu" value = "7" />
+		<pattr name = "autohelp_see_menu" value = "" />
+		<pattr name = "checkbox[10]" value = "0" />
+		<pattr name = "checkbox[1]" value = "0" />
+		<pattr name = "checkbox[2]" value = "0" />
+		<pattr name = "checkbox[3]" value = "0" />
+		<pattr name = "checkbox[4]" value = "0" />
+		<pattr name = "checkbox[5]" value = "0" />
+		<pattr name = "checkbox[6]" value = "0" />
+		<pattr name = "checkbox[7]" value = "0" />
+		<pattr name = "checkbox[8]" value = "1" />
+		<pattr name = "checkbox[9]" value = "0" />
+		<pattr name = "myDial" value = "116" />
+		<pattr name = "mySlider" value = "99" />
+	</slot>
+	<slot number = "9">
+		<pattr name = "MyGsw" value = "0" />
+		<pattr name = "MyGsw2" value = "0" />
+		<pattr name = "MyMenu" value = "8" />
+		<pattr name = "autohelp_see_menu" value = "" />
+		<pattr name = "checkbox[10]" value = "0" />
+		<pattr name = "checkbox[1]" value = "0" />
+		<pattr name = "checkbox[2]" value = "0" />
+		<pattr name = "checkbox[3]" value = "0" />
+		<pattr name = "checkbox[4]" value = "0" />
+		<pattr name = "checkbox[5]" value = "0" />
+		<pattr name = "checkbox[6]" value = "0" />
+		<pattr name = "checkbox[7]" value = "0" />
+		<pattr name = "checkbox[8]" value = "0" />
+		<pattr name = "checkbox[9]" value = "1" />
+		<pattr name = "myDial" value = "127" />
+		<pattr name = "mySlider" value = "113" />
+	</slot>
+	<slot number = "10">
+		<pattr name = "MyGsw" value = "1" />
+		<pattr name = "MyGsw2" value = "1" />
+		<pattr name = "MyMenu" value = "9" />
+		<pattr name = "autohelp_see_menu" value = "" />
+		<pattr name = "checkbox[10]" value = "1" />
+		<pattr name = "checkbox[1]" value = "0" />
+		<pattr name = "checkbox[2]" value = "0" />
+		<pattr name = "checkbox[3]" value = "0" />
+		<pattr name = "checkbox[4]" value = "0" />
+		<pattr name = "checkbox[5]" value = "0" />
+		<pattr name = "checkbox[6]" value = "0" />
+		<pattr name = "checkbox[7]" value = "0" />
+		<pattr name = "checkbox[8]" value = "0" />
+		<pattr name = "checkbox[9]" value = "0" />
+		<pattr name = "myDial" value = "64" />
+		<pattr name = "mySlider" value = "125" />
+	</slot>
+</pattrstorage>
+

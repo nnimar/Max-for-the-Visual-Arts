@@ -1,0 +1,27 @@
+{
+	"pattrstorage" : 	{
+		"name" : "news",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"gridshape_scale" : [ 0.5, 0.5, 0.5 ],
+					"gridshape_rotatexyz" : [ 0.0, -0.0, 0.0 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"gridshape_scale" : [ 0.2, 0.15, 2.4 ],
+					"gridshape_rotatexyz" : [ 0.0, -0.0, 0.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

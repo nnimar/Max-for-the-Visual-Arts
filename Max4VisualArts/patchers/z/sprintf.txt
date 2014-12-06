@@ -1,0 +1,10 @@
+%d, "print a signed decimal";
+%ld, "print a long signed decimal";
+%u, "print an unsigned int";
+%f, "print a float number";
+ÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐ,"ÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐ";
+%e, "print an exponenent number";
+%x, "print an hexadecimal number";
+ÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐ,"ÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐ";
+%s, "print a string";
+%c, "print a char as a string";

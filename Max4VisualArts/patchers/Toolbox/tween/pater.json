@@ -1,0 +1,25 @@
+{
+	"pattrstorage" : 	{
+		"name" : "pater",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"gridshape_scale" : [ 0.5, 0.5, 0.0 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"gridshape_scale" : [ 0.5, 0.5, 3.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

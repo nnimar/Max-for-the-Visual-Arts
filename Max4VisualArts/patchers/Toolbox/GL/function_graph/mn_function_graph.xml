@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<pattrstorage name = "mn_function_graph">
+	<slot number = "1">
+		<pattr name = "choice" value = "6" />
+		<pattr name = "offset_x" value = "2." />
+		<pattr name = "offset_y" value = "2." />
+		<pattr name = "scale_x" value = "5." />
+		<pattr name = "scale_y" value = "5." />
+		<pattr name = "slide" value = "25." />
+		<pattr name = "cell_abs" value = "1" />
+		<pattr name = "checker_abs" value = "1" />
+		<pattr name = "checker_smooth" value = "0.5" />
+		<pattr name = "simplex_abs" value = "1" />
+		<pattr name = "distorted_inner" value = "noise.voronoi" />
+		<pattr name = "distorted_outer" value = "noise.gradient" />
+		<pattr name = "distorted_dist_x" value = "5." />
+		<pattr name = "distorted_dist_y" value = "5." />
+		<pattr name = "gradient_abs" value = "1" />
+		<pattr name = "gradient_tablesize" value = "8" />
+		<pattr name = "gradient_transfert" value = "transfer.cubic" />
+		<pattr name = "spline_abs" value = "1" />
+		<pattr name = "spline_tablesize" value = "32" />
+		<pattr name = "voronoi_abs" value = "1" />
+		<pattr name = "voronoi_tablesize" value = "1" />
+		<pattr name = "voronoi_distance" value = "distance.euclidean.squared" />
+		<pattr name = "weight_1" value = "1." />
+		<pattr name = "weight_2" value = "1." />
+		<pattr name = "exp_1" value = "1." />
+		<pattr name = "exp_2" value = "1." />
+	</slot>
+	<slot number = "2">
+		<pattr name = "choice" value = "6" />
+		<pattr name = "offset_x" value = "2." />
+		<pattr name = "offset_y" value = "2." />
+		<pattr name = "scale_x" value = "5." />
+		<pattr name = "scale_y" value = "5." />
+		<pattr name = "slide" value = "25." />
+		<pattr name = "cell_abs" value = "1" />
+		<pattr name = "checker_abs" value = "1" />
+		<pattr name = "checker_smooth" value = "0.5" />
+		<pattr name = "simplex_abs" value = "1" />
+		<pattr name = "distorted_inner" value = "noise.voronoi" />
+		<pattr name = "distorted_outer" value = "noise.gradient" />
+		<pattr name = "distorted_dist_x" value = "5." />
+		<pattr name = "distorted_dist_y" value = "5." />
+		<pattr name = "gradient_abs" value = "1" />
+		<pattr name = "gradient_tablesize" value = "8" />
+		<pattr name = "gradient_transfert" value = "transfer.cubic" />
+		<pattr name = "spline_abs" value = "1" />
+		<pattr name = "spline_tablesize" value = "32" />
+		<pattr name = "voronoi_abs" value = "1" />
+		<pattr name = "voronoi_tablesize" value = "16" />
+		<pattr name = "voronoi_distance" value = "distance.euclidean.squared" />
+		<pattr name = "weight_1" value = "1." />
+		<pattr name = "weight_2" value = "0." />
+		<pattr name = "exp_1" value = "-0.05" />
+		<pattr name = "exp_2" value = "1." />
+	</slot>
+	<slot number = "3">
+		<pattr name = "choice" value = "6" />
+		<pattr name = "offset_x" value = "2." />
+		<pattr name = "offset_y" value = "2." />
+		<pattr name = "scale_x" value = "5." />
+		<pattr name = "scale_y" value = "5." />
+		<pattr name = "slide" value = "25." />
+		<pattr name = "cell_abs" value = "1" />
+		<pattr name = "checker_abs" value = "1" />
+		<pattr name = "checker_smooth" value = "0.5" />
+		<pattr name = "simplex_abs" value = "1" />
+		<pattr name = "distorted_inner" value = "noise.voronoi" />
+		<pattr name = "distorted_outer" value = "noise.gradient" />
+		<pattr name = "distorted_dist_x" value = "5." />
+		<pattr name = "distorted_dist_y" value = "5." />
+		<pattr name = "gradient_abs" value = "1" />
+		<pattr name = "gradient_tablesize" value = "8" />
+		<pattr name = "gradient_transfert" value = "transfer.cubic" />
+		<pattr name = "spline_abs" value = "1" />
+		<pattr name = "spline_tablesize" value = "32" />
+		<pattr name = "voronoi_abs" value = "1" />
+		<pattr name = "voronoi_tablesize" value = "16" />
+		<pattr name = "voronoi_distance" value = "distance.euclidean.squared" />
+		<pattr name = "weight_1" value = "1." />
+		<pattr name = "weight_2" value = "1." />
+		<pattr name = "exp_1" value = "1." />
+		<pattr name = "exp_2" value = "0." />
+	</slot>
+	<slot number = "4">
+		<pattr name = "choice" value = "6" />
+		<pattr name = "offset_x" value = "2." />
+		<pattr name = "offset_y" value = "2." />
+		<pattr name = "scale_x" value = "5." />
+		<pattr name = "scale_y" value = "0." />
+		<pattr name = "slide" value = "25." />
+		<pattr name = "cell_abs" value = "1" />
+		<pattr name = "checker_abs" value = "1" />
+		<pattr name = "checker_smooth" value = "0.5" />
+		<pattr name = "simplex_abs" value = "1" />
+		<pattr name = "distorted_inner" value = "noise.voronoi" />
+		<pattr name = "distorted_outer" value = "noise.gradient" />
+		<pattr name = "distorted_dist_x" value = "5." />
+		<pattr name = "distorted_dist_y" value = "5." />
+		<pattr name = "gradient_abs" value = "1" />
+		<pattr name = "gradient_tablesize" value = "8" />
+		<pattr name = "gradient_transfert" value = "transfer.cubic" />
+		<pattr name = "spline_abs" value = "1" />
+		<pattr name = "spline_tablesize" value = "32" />
+		<pattr name = "voronoi_abs" value = "1" />
+		<pattr name = "voronoi_tablesize" value = "16" />
+		<pattr name = "voronoi_distance" value = "distance.euclidean.squared" />
+		<pattr name = "weight_1" value = "1." />
+		<pattr name = "weight_2" value = "1." />
+		<pattr name = "exp_1" value = "1." />
+		<pattr name = "exp_2" value = "0." />
+	</slot>
+	<slot number = "5">
+		<pattr name = "choice" value = "6" />
+		<pattr name = "offset_x" value = "2." />
+		<pattr name = "offset_y" value = "2." />
+		<pattr name = "scale_x" value = "5." />
+		<pattr name = "scale_y" value = "5." />
+		<pattr name = "slide" value = "25." />
+		<pattr name = "cell_abs" value = "1" />
+		<pattr name = "checker_abs" value = "1" />
+		<pattr name = "checker_smooth" value = "0.5" />
+		<pattr name = "simplex_abs" value = "1" />
+		<pattr name = "distorted_inner" value = "noise.voronoi" />
+		<pattr name = "distorted_outer" value = "noise.gradient" />
+		<pattr name = "distorted_dist_x" value = "5." />
+		<pattr name = "distorted_dist_y" value = "5." />
+		<pattr name = "gradient_abs" value = "1" />
+		<pattr name = "gradient_tablesize" value = "8" />
+		<pattr name = "gradient_transfert" value = "transfer.cubic" />
+		<pattr name = "spline_abs" value = "1" />
+		<pattr name = "spline_tablesize" value = "21" />
+		<pattr name = "voronoi_abs" value = "1" />
+		<pattr name = "voronoi_tablesize" value = "1" />
+		<pattr name = "voronoi_distance" value = "distance.euclidean.squared" />
+		<pattr name = "weight_1" value = "1." />
+		<pattr name = "weight_2" value = "1." />
+		<pattr name = "exp_1" value = "1." />
+		<pattr name = "exp_2" value = "0." />
+	</slot>
+</pattrstorage>
+

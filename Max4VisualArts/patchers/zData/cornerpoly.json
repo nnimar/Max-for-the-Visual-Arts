@@ -1,0 +1,63 @@
+{
+	"pattrstorage" : 	{
+		"name" : "cornerpoly",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"patcher.1::patcher[2]::UR1" : [ 0.3295, 0.37 ],
+					"patcher.1::patcher[2]::UL1" : [ 0.0, 0.003333 ],
+					"patcher.1::patcher[2]::LL1" : [ 0.0, 1.0 ],
+					"patcher.1::patcher[2]::LR1" : [ 0.333, 1.0 ],
+					"patcher.2::patcher[2]::UR1" : [ 0.3295, 0.37 ],
+					"patcher.2::patcher[2]::UL1" : [ 0.0, 0.003333 ],
+					"patcher.2::patcher[2]::LL1" : [ 0.0, 1.0 ],
+					"patcher.2::patcher[2]::LR1" : [ 0.333, 1.0 ],
+					"patcher.3::patcher[2]::UR1" : [ 0.3295, 0.37 ],
+					"patcher.3::patcher[2]::UL1" : [ 0.0, 0.003333 ],
+					"patcher.3::patcher[2]::LL1" : [ 0.0, 1.0 ],
+					"patcher.3::patcher[2]::LR1" : [ 0.333, 1.0 ],
+					"patcher.4::patcher[2]::UR1" : [ 0.3295, 0.37 ],
+					"patcher.4::patcher[2]::UL1" : [ 0.0, 0.003333 ],
+					"patcher.4::patcher[2]::LL1" : [ 0.0, 1.0 ],
+					"patcher.4::patcher[2]::LR1" : [ 0.333, 1.0 ],
+					"patcher.5::patcher[2]::UR1" : [ 0.3295, 0.37 ],
+					"patcher.5::patcher[2]::UL1" : [ 0.0, 0.003333 ],
+					"patcher.5::patcher[2]::LL1" : [ 0.0, 1.0 ],
+					"patcher.5::patcher[2]::LR1" : [ 0.333, 1.0 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"patcher.1::patcher[2]::UR1" : [ 0.2, 0.0 ],
+					"patcher.1::patcher[2]::UL1" : [ 0.0, 0.0 ],
+					"patcher.1::patcher[2]::LL1" : [ 0.0, 0.5 ],
+					"patcher.1::patcher[2]::LR1" : [ 0.2, 0.5 ],
+					"patcher.2::patcher[2]::UR1" : [ 0.4, 0.0 ],
+					"patcher.2::patcher[2]::UL1" : [ 0.2, 0.0 ],
+					"patcher.2::patcher[2]::LL1" : [ 0.2, 0.5 ],
+					"patcher.2::patcher[2]::LR1" : [ 0.4, 0.5 ],
+					"patcher.3::patcher[2]::UR1" : [ 0.6, 0.0 ],
+					"patcher.3::patcher[2]::UL1" : [ 0.4, 0.0 ],
+					"patcher.3::patcher[2]::LL1" : [ 0.4, 0.5 ],
+					"patcher.3::patcher[2]::LR1" : [ 0.6, 0.5 ],
+					"patcher.4::patcher[2]::UR1" : [ 0.8, 0.0 ],
+					"patcher.4::patcher[2]::UL1" : [ 0.6, 0.0 ],
+					"patcher.4::patcher[2]::LL1" : [ 0.6, 0.5 ],
+					"patcher.4::patcher[2]::LR1" : [ 0.8, 0.5 ],
+					"patcher.5::patcher[2]::UR1" : [ 1.0, 0.0 ],
+					"patcher.5::patcher[2]::UL1" : [ 0.8, 0.0 ],
+					"patcher.5::patcher[2]::LL1" : [ 0.8, 0.5 ],
+					"patcher.5::patcher[2]::LR1" : [ 1.0, 0.5 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

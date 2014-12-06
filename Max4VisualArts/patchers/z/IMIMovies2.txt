@@ -1,0 +1,13 @@
+1, countdown.mov;
+2, dvkite.mov;
+3, crashtest.mov;
+4, isthatyou.aiff;
+5, bell.aif;
+6, cityroom.mov;
+7, monkey.png;
+8, dozer.mov;
+9, background.mov;
+10, alpha.mov;
+11, Bubbles.mov;
+12, drift.mov;
+13, binaryman.mov;

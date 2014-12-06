@@ -1,0 +1,21 @@
+{
+	"pattrstorage" : 	{
+		"name" : "multi-layer",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"alpha_position" : [ 0.0, 0.0, 0.0 ],
+					"alpha_scale" : [ 1.333, 1.0, 1.0 ],
+					"left_position" : [ -2.2, 0.0, 0.0 ],
+					"right_position" : [ 2.2, 0.0, 0.0 ],
+					"backg_position" : [ 0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

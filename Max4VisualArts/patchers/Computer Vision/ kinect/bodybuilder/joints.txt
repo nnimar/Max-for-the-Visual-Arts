@@ -1,0 +1,1 @@
+0, righthand;1, lefthand;2, rightelbow;3, leftelbow;4, rightfoot;5, leftfoot;6, rightknee;7, leftknee;8, head;9, torso;

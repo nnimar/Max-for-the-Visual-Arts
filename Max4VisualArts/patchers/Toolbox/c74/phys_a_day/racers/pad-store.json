@@ -1,0 +1,67 @@
+{
+	"pattrstorage" : 	{
+		"name" : "pad-store",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"pworldbox" : [ 100.0, 50.0, 50.0 ],
+					"pgravity" : [ 0.0, -15.0, 0.0 ],
+					"lfriction" : [ 5.0 ],
+					"lrest" : [ 0.0 ],
+					"mstrength" : [ 1.0 ],
+					"mvel" : [ 1.0 ],
+					"limb-bpatch::scale" : [ 0.5, 2.0, 1.0 ],
+					"limb-bpatch::pos1" : [ 2.0, -1.0, 3.0 ],
+					"limb-bpatch::rot1" : [ 0.0, 90.0, 0.0 ],
+					"limb-bpatch::rot2" : [ 0.0, 90.0, 0.0 ],
+					"limb-bpatch[1]::scale" : [ 0.5, 2.0, 1.0 ],
+					"limb-bpatch[1]::pos1" : [ -2.0, -1.0, 3.0 ],
+					"limb-bpatch[1]::rot1" : [ 0.0, 90.0, 0.0 ],
+					"limb-bpatch[1]::rot2" : [ 0.0, 90.0, 0.0 ],
+					"limb-bpatch[3]::scale" : [ 0.5, 2.0, 1.0 ],
+					"limb-bpatch[3]::pos1" : [ 2.0, -1.0, -3.0 ],
+					"limb-bpatch[3]::rot1" : [ 0.0, 90.0, 0.0 ],
+					"limb-bpatch[3]::rot2" : [ 0.0, 90.0, 0.0 ],
+					"limb-bpatch[2]::scale" : [ 0.5, 2.0, 1.0 ],
+					"limb-bpatch[2]::pos1" : [ -2.0, -1.0, -3.0 ],
+					"limb-bpatch[2]::rot1" : [ 0.0, 90.0, 0.0 ],
+					"limb-bpatch[2]::rot2" : [ 0.0, 90.0, 0.0 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"pworldbox" : [ 100.0, 50.0, 50.0 ],
+					"pgravity" : [ 0.0, -15.0, 0.0 ],
+					"lfriction" : [ 5.0 ],
+					"lrest" : [ 0.0 ],
+					"mstrength" : [ 1.0 ],
+					"mvel" : [ 0.0 ],
+					"limb-bpatch::scale" : [ 2.0, 1.0, 1.0 ],
+					"limb-bpatch::pos1" : [ 2.0, -1.0, 3.0 ],
+					"limb-bpatch::rot1" : [ 0.0, 90.0, 0.0 ],
+					"limb-bpatch::rot2" : [ 0.0, 0.0, 0.0 ],
+					"limb-bpatch[1]::scale" : [ 2.0, 1.0, 1.0 ],
+					"limb-bpatch[1]::pos1" : [ -2.0, -1.0, 3.0 ],
+					"limb-bpatch[1]::rot1" : [ 0.0, 90.0, 0.0 ],
+					"limb-bpatch[1]::rot2" : [ 0.0, 0.0, 0.0 ],
+					"limb-bpatch[3]::scale" : [ 2.0, 1.0, 1.0 ],
+					"limb-bpatch[3]::pos1" : [ 2.0, -1.0, -3.0 ],
+					"limb-bpatch[3]::rot1" : [ 0.0, 90.0, 0.0 ],
+					"limb-bpatch[3]::rot2" : [ 0.0, 0.0, 0.0 ],
+					"limb-bpatch[2]::scale" : [ 2.0, 1.0, 1.0 ],
+					"limb-bpatch[2]::pos1" : [ -2.0, -1.0, -3.0 ],
+					"limb-bpatch[2]::rot1" : [ 0.0, 90.0, 0.0 ],
+					"limb-bpatch[2]::rot2" : [ 0.0, 0.0, 0.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

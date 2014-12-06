@@ -1,0 +1,1 @@
+blue,4red,3purple,2orange,4green,4yellow,5grey,5

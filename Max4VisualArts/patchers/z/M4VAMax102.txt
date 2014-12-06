@@ -1,0 +1,52 @@
+1, <category> 1 Matrix;
+2, IMI_jit_matrix_introduction "introduction to the jit Matrix";
+3, IMI_jit_matrix_and_friends "matrix and friends";
+4, IMI_matrix_positioning "matrix positioning";
+5, matrix_lookup "matrix lookup data";
+6, matrix_feedback "matrix feedback";
+10, -----------------------;
+
+11, <category> 2 Text;
+12, IMI_text_basics "text basics";
+13, IMI_text_alpha "text + alpha layer";
+14, IMI_type_text "typing text in a window";
+15, IMI_text_oulipo "max and litterature";
+16, IMI_coll2text2d "a simple patch to place text";
+17, IMI_text_passingtime "interactive text patch";
+20, -----------------------;
+
+21, <category> 3 Internet;
+22, IMI_xml "use XML with Max";
+23, IMI_json "use JSON with Max";
+24, IMI_openWeather "access openWeather";
+25, IMI_xively_report "access xively feed";
+26, BBCnews "read the BBCnews";
+27, twitter_read "read the twitter api"; 
+28, regexp_tutorial "regular expression";
+30, -----------------------;
+
+31, <category> 4 Grab;
+32, IMI_videograb "simple video grab";
+33, IMI_timelapse "timelapse";
+34, grab2syphon "use webcam, netcam and dslr";
+35, grab_position "return the position of a light";
+36, grab_hotspot "return the position of movements";
+40, -----------------------;
+
+41, <category> 5 Computer_Vision;
+42, IMI_colourtrack "track a colour with jit.findbounds";
+43, c74_camera_data "frame differencing and silhouette";
+44, background_removal "background removal";
+45, v.regions "softVNS v.region object";
+46, faceOSC "an interface to faceOSC";
+47, TSPSosc "an interface to TSPS";
+50, -----------------------;
+
+51, <category> 6 CV_Objects;
+52, cv_faces.findreplace "cv face find & replace";
+53, cv_HSflow "basic gesture interface";
+55, cv_centroid "return the center mass (and the mass)";
+56, cv_jit.blobs "blob detections";
+57, cv_misc "miscellaneous cv";
+54, kinect "tools to use the kinect";
+60, -----------------------;

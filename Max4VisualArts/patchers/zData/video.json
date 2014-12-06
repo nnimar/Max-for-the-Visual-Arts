@@ -1,0 +1,117 @@
+{
+	"pattrstorage" : 	{
+		"name" : "video",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"flonum" : [ 0.8 ],
+					"flonum[10]" : [ 1.0 ],
+					"flonum[11]" : [ 1.0 ],
+					"flonum[13]" : [ 1.0 ],
+					"flonum[14]" : [ 1.0 ],
+					"flonum[15]" : [ 2.9 ],
+					"flonum[16]" : [ 0.0 ],
+					"flonum[17]" : [ 0.0 ],
+					"flonum[18]" : [ 1.0 ],
+					"flonum[19]" : [ 1.0 ],
+					"flonum[1]" : [ 0.0 ],
+					"flonum[21]" : [ 1.0 ],
+					"flonum[22]" : [ 1.0 ],
+					"flonum[25]" : [ 0.0 ],
+					"flonum[26]" : [ 0.5 ],
+					"flonum[27]" : [ 0.5 ],
+					"flonum[29]" : [ 0.5 ],
+					"flonum[2]" : [ 1.3 ],
+					"flonum[30]" : [ 1.0 ],
+					"flonum[3]" : [ -0.3 ],
+					"flonum[4]" : [ -0.3 ],
+					"flonum[6]" : [ -0.3 ],
+					"flonum[7]" : [ -2.3 ],
+					"flonum[8]" : [ 0.0 ],
+					"flonum[9]" : [ 0.0 ],
+					"toggle" : [ 1 ],
+					"alpha_posx" : [ 0.8 ],
+					"alpha_posy" : [ -0.4 ],
+					"flonum[5]" : [  ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"flonum" : [ 0.8 ],
+					"flonum[10]" : [ 1.0 ],
+					"flonum[11]" : [ 1.0 ],
+					"flonum[13]" : [ 1.0 ],
+					"flonum[14]" : [ 1.0 ],
+					"flonum[15]" : [ 2.9 ],
+					"flonum[16]" : [ 0.0 ],
+					"flonum[17]" : [ 0.0 ],
+					"flonum[18]" : [ 1.0 ],
+					"flonum[19]" : [ 1.0 ],
+					"flonum[1]" : [ 0.0 ],
+					"flonum[21]" : [ 1.0 ],
+					"flonum[22]" : [ 1.0 ],
+					"flonum[25]" : [ 0.0 ],
+					"flonum[26]" : [ 0.5 ],
+					"flonum[27]" : [ 0.5 ],
+					"flonum[29]" : [ 0.5 ],
+					"flonum[2]" : [ 1.3 ],
+					"flonum[30]" : [ 1.0 ],
+					"flonum[3]" : [ -0.3 ],
+					"flonum[4]" : [ -0.3 ],
+					"flonum[6]" : [ -0.3 ],
+					"flonum[7]" : [ -2.3 ],
+					"flonum[8]" : [ 0.0 ],
+					"flonum[9]" : [ 0.0 ],
+					"toggle" : [ 1 ],
+					"alpha_posx" : [ -0.9 ],
+					"alpha_posy" : [ -0.4 ],
+					"flonum[5]" : [  ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"flonum" : [ 0.8 ],
+					"flonum[10]" : [ 1.0 ],
+					"flonum[11]" : [ 1.0 ],
+					"flonum[13]" : [ 1.0 ],
+					"flonum[14]" : [ 1.0 ],
+					"flonum[15]" : [ 2.9 ],
+					"flonum[16]" : [ 0.0 ],
+					"flonum[17]" : [ 0.0 ],
+					"flonum[18]" : [ 1.0 ],
+					"flonum[19]" : [ 1.0 ],
+					"flonum[1]" : [ 0.0 ],
+					"flonum[21]" : [ 1.0 ],
+					"flonum[22]" : [ 1.0 ],
+					"flonum[25]" : [ 0.0 ],
+					"flonum[26]" : [ 0.5 ],
+					"flonum[27]" : [ 0.5 ],
+					"flonum[29]" : [ 0.5 ],
+					"flonum[2]" : [ 1.3 ],
+					"flonum[30]" : [ 1.0 ],
+					"flonum[3]" : [ -0.3 ],
+					"flonum[4]" : [ -0.3 ],
+					"flonum[6]" : [ -0.3 ],
+					"flonum[7]" : [ -2.3 ],
+					"flonum[8]" : [ 0.0 ],
+					"flonum[9]" : [ 0.0 ],
+					"toggle" : [ 1 ],
+					"alpha_posx" : [ 0.0 ],
+					"alpha_posy" : [ -1.4 ],
+					"flonum[5]" : [ 1.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

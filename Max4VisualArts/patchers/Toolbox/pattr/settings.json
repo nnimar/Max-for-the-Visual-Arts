@@ -1,0 +1,18 @@
+{
+	"pattrstorage" : 	{
+		"name" : "u142004093",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"numberVal" : [ 10.0 ],
+					"PattrSubpatcher::numberVal" : [ 70.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

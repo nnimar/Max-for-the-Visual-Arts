@@ -1,0 +1,15 @@
+/head, -1;
+/neck, -1;
+/torso, 5;
+/leftshoulder, 5;
+/rightshoulder, 5;
+/leftelbow, 11;
+/rightelbow, 12;
+/lefthand, 13;
+/righthand, 14;
+/lefthip, -1;
+/righthip, -1;
+/leftknee, 9;
+/rightknee, 10;
+/leftfoot, 1;
+/rightfoot, 0;

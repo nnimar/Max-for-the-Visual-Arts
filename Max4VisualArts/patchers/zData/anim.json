@@ -1,0 +1,39 @@
+{
+	"pattrstorage" : 	{
+		"name" : "anim",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"videoplane_position" : [ 0.85, -0.58, 0.0 ],
+					"anim_time" : [ 2000 ],
+					"videoplane_scale" : [ 0.23, 0.23, 1.0 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"videoplane_position" : [ -0.91, -0.58, 0.0 ],
+					"anim_time" : [ 2000 ],
+					"videoplane_scale" : [ 0.23, 0.23, 1.0 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"videoplane_position" : [ 0.07, 0.04, 0.0 ],
+					"anim_time" : [ 2000 ],
+					"videoplane_scale" : [ 0.23, 0.23, 1.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

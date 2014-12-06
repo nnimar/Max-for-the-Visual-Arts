@@ -1,0 +1,87 @@
+<jittershader name="lumagauss">
+	<description>
+	use luminance of second texture to set blur width
+	</description>
+	<param name="scale" type="vec2" default="1. 1.">
+		<description>scale the width</description>
+	</param>
+	<param name="offset" type="vec2" default="0. 0.">
+		<description>offset the width</description>
+	</param>
+	<param name="lumcoeff" type="vec4" default="0.299 .587 0.114 0.">
+		<description>Luminance coefficients (RGBA)</description>
+	</param>
+	<param name="invert" type="float" default="0." />
+	<param name="thresh" type="float" default="0.">
+		<description>brightness threshold</description>
+	</param>
+	<param name="fade" type="float" default="1.0">
+		<description>fade amount for threshold</description>
+	</param>
+
+	<param name="tex0" type="int" default="0" />
+	<param name="tex1" type="int" default="1" />
+	<language name="glsl" version="1.0">
+		<bind param="scale" program="fp" />
+		<bind param="lumcoeff" program="fp" />
+		<bind param="invert" program= "fp" />
+		<bind param="thresh" program="fp" />
+		<bind param="fade" program="fp" />
+		<bind param="tex0" program="fp" />
+		<bind param="tex1" program="fp" />	
+		<program name="vp" type="vertex" source="sh.passthrudim.vp.glsl" />
+		<program name="fp" type="fragment">
+<![CDATA[
+
+// Andrew Benson - andrewb@cycling74.com
+
+//setup for 2 texture
+varying vec2 texcoord0;
+varying vec2 texcoord1;
+uniform sampler2DRect tex0;
+uniform sampler2DRect tex1;
+
+//wipe state
+
+uniform vec2 scale;
+uniform vec2 offset;
+uniform vec4 lumcoeff;
+uniform float invert;
+uniform float fade;
+uniform float thresh;
+
+void main()
+{   
+	
+	vec4 bt = texture2DRect(tex1, texcoord1);
+
+	// grab the luminance
+	float lumi = dot(bt,lumcoeff);
+	lumi = smoothstep(thresh,thresh+fade,lumi);//apply treshold
+	lumi = mix(lumi,1.-lumi,invert);
+	vec2 wi = lumi*scale+offset;
+	
+	
+	vec2 texcoordM = texcoord0;
+    vec2 texcoordB0 = texcoord0 - wi;
+    vec2 texcoordF0 = texcoord0 + wi;
+    vec2 texcoordB1 = texcoord0 - wi * 2.0;
+    vec2 texcoordF1 = texcoord0 + wi * 2.0;
+    vec2 texcoordB2 = texcoord0 - wi * 3.0;
+    vec2 texcoordF2 = texcoord0 + wi * 3.0;
+    
+    vec4 sampleM  = texture2DRect(tex0, texcoordM);
+    vec4 sampleB0 = texture2DRect(tex0, texcoordB0);
+    vec4 sampleF0 = texture2DRect(tex0, texcoordF0);
+    vec4 sampleB1 = texture2DRect(tex0, texcoordB1);
+    vec4 sampleF1 = texture2DRect(tex0, texcoordF1);
+    vec4 sampleB2 = texture2DRect(tex0, texcoordB2);
+    vec4 sampleF2 = texture2DRect(tex0, texcoordF2);
+
+    gl_FragColor = 0.1752 * sampleM + 0.1658 * (sampleB0 + sampleF0) + 0.1403 * (sampleB1 + sampleF1) + 0.1063 * (sampleB2 + sampleF2);
+	
+}
+]]>
+		</program>
+	</language>
+</jittershader>
