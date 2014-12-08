@@ -2,7 +2,7 @@ loadbangs, "tricks to loadbang properly";
 filtering_change, "change to filter out repetitions";
 counter_uzi_line, "various methods for counting in max";
 spray_cycle_gate, "methods to pass numbers";
-modulo, "usage of modulo %";
+moduloo, "usage of modulo %";
 max2printer, "print from Max";
 network_scanner, "IP on your LAN";
 IP_broadcast, "get IP from computers on the network";

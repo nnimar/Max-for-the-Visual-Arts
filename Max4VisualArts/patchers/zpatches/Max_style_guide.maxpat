@@ -2,32 +2,63 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 6,
-			"minor" : 1,
-			"revision" : 7,
-			"architecture" : "x86"
+			"major" : 7,
+			"minor" : 0,
+			"revision" : 1,
+			"architecture" : "x86",
+			"modernui" : 1
 		}
 ,
-		"rect" : [ 0.0, 44.0, 739.0, 439.0 ],
+		"rect" : [ 0.0, 44.0, 738.0, 452.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 14.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 0,
+		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 0,
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 0,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 0,
+		"toolbars_unpinned_last_save" : 0,
+		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
-		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
+		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"args" : [ "Max with style : a guide for visual patching", "10 ideas for better patching", 3 ],
+					"bgmode" : 1,
+					"border" : 0,
+					"clickthrough" : 1,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-18",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "Max4VA-Title.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, -278.0 ],
+					"patching_rect" : [ 1.0, 0.0, 488.0, 56.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ -4.0, 0.0, 487.519531, 65.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 11.595187,
@@ -37,6 +68,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 573.0, 177.0, 81.0, 17.0 ],
+					"style" : "",
 					"text" : "offset -6504 0"
 				}
 
@@ -51,25 +83,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 3.0, 77.0, 82.0, 22.0 ],
+					"style" : "",
 					"text" : "loadmess 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.754705,
-					"frgb" : 0.0,
-					"id" : "obj-16",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 29.0, 467.0, 21.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 32.0, 317.0, 21.0 ],
-					"text" : "10 ideas for a better patching",
-					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
-					"varname" : "autohelp_top_digest[2]"
 				}
 
 			}
@@ -83,6 +98,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 488.0, 176.0, 81.0, 17.0 ],
+					"style" : "",
 					"text" : "offset -5914 0"
 				}
 
@@ -97,6 +113,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 414.0, 176.0, 81.0, 17.0 ],
+					"style" : "",
 					"text" : "offset -5324 0"
 				}
 
@@ -111,6 +128,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 369.0, 176.0, 81.0, 17.0 ],
+					"style" : "",
 					"text" : "offset -4734 0"
 				}
 
@@ -125,6 +143,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 323.0, 176.0, 81.0, 17.0 ],
+					"style" : "",
 					"text" : "offset -4139 0"
 				}
 
@@ -139,6 +158,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 277.0, 176.0, 82.0, 17.0 ],
+					"style" : "",
 					"text" : "offset -3550 0"
 				}
 
@@ -153,6 +173,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 232.0, 176.0, 82.0, 17.0 ],
+					"style" : "",
 					"text" : "offset -2956 0"
 				}
 
@@ -167,6 +188,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 186.0, 176.0, 82.0, 17.0 ],
+					"style" : "",
 					"text" : "offset -2368 0"
 				}
 
@@ -181,44 +203,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 140.0, 176.0, 82.0, 17.0 ],
+					"style" : "",
 					"text" : "offset -1778 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 1,
-					"fontname" : "Arial Bold Italic",
-					"fontsize" : 20.871338,
-					"frgb" : 0.0,
-					"id" : "obj-60",
-					"linecount" : 3,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 3.0, 221.0, 76.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 3.0, 497.0, 30.0 ],
-					"text" : "Max with style : a guide for visual patching",
-					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial Bold",
-					"fontsize" : 10.0,
-					"frgb" : 0.0,
-					"id" : "obj-61",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 490.0, 29.0, 63.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 690.0, 35.0, 43.0, 18.0 ],
-					"text" : "rev 003",
-					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
-					"varname" : "autohelp_top_digest[1]"
 				}
 
 			}
@@ -232,6 +218,7 @@
 					"numoutlets" : 12,
 					"outlettype" : [ "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "" ],
 					"patching_rect" : [ 3.0, 146.0, 672.5, 19.0 ],
+					"style" : "",
 					"text" : "sel 0 1 2 3 4 5 6 7 8 9 10"
 				}
 
@@ -246,6 +233,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 94.0, 176.0, 82.0, 17.0 ],
+					"style" : "",
 					"text" : "offset -1188 0"
 				}
 
@@ -260,6 +248,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 48.5, 176.0, 86.0, 17.0 ],
+					"style" : "",
 					"text" : "offset -600 0"
 				}
 
@@ -274,30 +263,37 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 3.0, 176.0, 72.0, 17.0 ],
+					"style" : "",
 					"text" : "offset -8 0"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
 					"id" : "obj-8",
+					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "style_guide.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ -1188.0, 0.0 ],
+					"offset" : [ -8.0, 0.0 ],
 					"patching_rect" : [ 3.0, 210.0, 588.0, 313.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 136.274536, 59.0, 593.0, 371.0 ]
+					"presentation_rect" : [ 136.274536, 70.0, 593.0, 371.0 ],
+					"viewvisibility" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"clicktabcolor" : [ 0.0, 0.321569, 0.545098, 1.0 ],
 					"fontface" : 1,
-					"fontname" : "Arial",
 					"fontsize" : 18.0,
+					"htabcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 					"id" : "obj-10",
 					"maxclass" : "tab",
 					"numinlets" : 1,
@@ -306,25 +302,9 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 3.0, 110.0, 907.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 59.0, 124.0, 373.0 ],
+					"presentation_rect" : [ 1.0, 70.0, 124.0, 373.0 ],
+					"style" : "",
 					"tabs" : [ "visual", "structure", "space", "grid", "gestalt", "colour", "typography", "presentation", "interaction", "GLobject" ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 180.0,
-					"background" : 1,
-					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
-					"id" : "obj-62",
-					"maxclass" : "panel",
-					"mode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 0.0, 2.0, 591.0, 51.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 3.0, 733.0, 51.0 ]
 				}
 
 			}
@@ -566,30 +546,37 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "style_guide.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/zpatches",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fpic_blue.png",
-				"bootpath" : "/Applications/Max 6.1/Cycling '74/max-help",
-				"patcherrelativepath" : "../../../../Cycling '74/max-help",
+				"bootpath" : "/Applications/Max.app/Contents/Resources/C74/help/max",
+				"patcherrelativepath" : "../../../../../../../Applications/Max.app/Contents/Resources/C74/help/max",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "purplebutton.png",
-				"bootpath" : "/Applications/Max 6.1/patches/picts",
-				"patcherrelativepath" : "../../../../patches/picts",
+				"bootpath" : "/Applications/Max.app/Contents/Resources/C74/media/max/picts",
+				"patcherrelativepath" : "../../../../../../../Applications/Max.app/Contents/Resources/C74/media/max/picts",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AS_knob2.png",
-				"bootpath" : "/Applications/Max 6.1/patches/picts",
-				"patcherrelativepath" : "../../../../patches/picts",
+				"bootpath" : "/Applications/Max.app/Contents/Resources/C74/media/max/picts",
+				"patcherrelativepath" : "../../../../../../../Applications/Max.app/Contents/Resources/C74/media/max/picts",
 				"type" : "PNG ",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Max4VA-Title.maxpat",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
@@ -604,7 +591,8 @@
 				"name" : "r2d.mxo",
 				"type" : "iLaX"
 			}
- ]
+ ],
+		"embedsnapshot" : 0
 	}
 
 }

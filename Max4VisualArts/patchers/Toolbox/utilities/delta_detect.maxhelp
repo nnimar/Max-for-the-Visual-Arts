@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 0.0, 44.0, 588.0, 613.0 ],
+		"rect" : [ 100.0, 100.0, 588.0, 613.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -43,7 +43,6 @@
 					"degrees" : 360,
 					"id" : "obj-14",
 					"maxclass" : "dial",
-					"mode" : 2,
 					"needlecolor" : [ 1.0, 0.74902, 0.0, 1.0 ],
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -294,7 +293,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -369,7 +368,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -563,7 +562,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -931,7 +930,6 @@
 					"degrees" : 360,
 					"id" : "obj-7",
 					"maxclass" : "dial",
-					"mode" : 2,
 					"needlecolor" : [ 1.0, 0.74902, 0.0, 1.0 ],
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -997,7 +995,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
 						}

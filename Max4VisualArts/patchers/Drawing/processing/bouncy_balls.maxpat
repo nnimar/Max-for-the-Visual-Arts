@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1.0, 44.0, 480.0, 502.0 ],
+		"rect" : [ 1.0, 44.0, 485.0, 498.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,28 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [ "bouncy balls (otherbirds)", "use dict to track the position and velocity of a ball" ],
+					"bgmode" : 1,
+					"border" : 0,
+					"clickthrough" : 1,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-4",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "Max4VA-Title.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, -278.0 ],
+					"patching_rect" : [ -1.5, -1.0, 485.0, 54.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ -22.0, -3.0, 487.519531, 73.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"hidden" : 1,
@@ -46,7 +68,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 369.0, 297.0, 60.0, 22.0 ],
+					"patching_rect" : [ 371.0, 297.0, 60.0, 22.0 ],
 					"style" : "",
 					"text" : "loadbang"
 				}
@@ -60,7 +82,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 7.0, 249.0, 320.0, 240.0 ]
+					"patching_rect" : [ 9.055542, 249.0, 320.0, 240.0 ]
 				}
 
 			}
@@ -73,7 +95,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 7.0, 218.0, 154.0, 24.0 ],
+					"patching_rect" : [ 9.055542, 218.0, 154.0, 24.0 ],
 					"style" : "",
 					"text" : "jit.mgraphics 320 240"
 				}
@@ -89,7 +111,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 46.0, 66.0, 50.0, 22.0 ],
+					"patching_rect" : [ 48.0, 66.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -103,42 +125,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 346.637512, 247.682678, 90.0, 22.0 ],
+					"patching_rect" : [ 348.637512, 247.682678, 90.0, 22.0 ],
 					"style" : "",
 					"text" : "set velocity 5 5"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 3,
-					"fontname" : "Arial",
-					"fontsize" : 20.871338,
-					"id" : "obj-9",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 3.0, 347.0, 30.0 ],
-					"style" : "",
-					"text" : "Bouncy balls (otherbirds)",
-					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
-					"varname" : "autohelp_top_title"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.754705,
-					"id" : "obj-1",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 31.0, 291.0, 21.0 ],
-					"style" : "",
-					"text" : "use dict to track the position and velocity of a ball",
-					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
-					"varname" : "autohelp_top_digest"
 				}
 
 			}
@@ -151,7 +140,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 346.637512, 272.682678, 90.0, 22.0 ],
+					"patching_rect" : [ 348.637512, 272.682678, 90.0, 22.0 ],
 					"style" : "",
 					"text" : "set velocity 2 5"
 				}
@@ -1028,7 +1017,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 52.055542, 155.448547, 57.0, 22.0 ],
+					"patching_rect" : [ 54.055542, 155.448547, 57.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1050,7 +1039,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 7.055542, 65.682671, 20.0, 20.0 ],
+					"patching_rect" : [ 9.055542, 65.682671, 20.0, 20.0 ],
 					"style" : ""
 				}
 
@@ -1064,7 +1053,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 7.055542, 124.871651, 64.0, 22.0 ],
+					"patching_rect" : [ 9.055542, 124.871651, 64.0, 22.0 ],
 					"style" : "",
 					"text" : "t b b"
 				}
@@ -1079,7 +1068,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 7.055542, 93.589516, 58.0, 22.0 ],
+					"patching_rect" : [ 9.055542, 93.589516, 58.0, 22.0 ],
 					"style" : "",
 					"text" : "metro 40"
 				}
@@ -1104,7 +1093,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 489.0, 44.0, 199.0, 237.0 ],
+						"rect" : [ 492.0, 44.0, 199.0, 237.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1271,7 +1260,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 6.722595, 186.448547, 57.0, 22.0 ],
+					"patching_rect" : [ 9.055542, 186.448547, 57.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1292,7 +1281,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 6.722595, 155.448547, 20.0, 20.0 ],
+					"patching_rect" : [ 9.055542, 155.448547, 20.0, 20.0 ],
 					"style" : ""
 				}
 
@@ -1303,7 +1292,7 @@
 					"maxclass" : "dict.view",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 347.498566, 352.677795, 101.546577, 87.599472 ],
+					"patching_rect" : [ 349.498566, 352.677795, 101.546577, 87.599472 ],
 					"style" : ""
 				}
 
@@ -1315,7 +1304,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 347.498566, 297.682678, 20.0, 20.0 ],
+					"patching_rect" : [ 349.498566, 297.682678, 20.0, 20.0 ],
 					"style" : ""
 				}
 
@@ -1323,8 +1312,8 @@
 , 			{
 				"box" : 				{
 					"data" : 					{
-						"position" : [ 278, 157 ],
-						"velocity" : [ -2, -5 ],
+						"position" : [ 86, 127 ],
+						"velocity" : [ -2, 5 ],
 						"width" : 320,
 						"height" : 240
 					}
@@ -1336,7 +1325,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "dictionary", "", "", "" ],
-					"patching_rect" : [ 347.498566, 323.997559, 113.0, 22.0 ],
+					"patching_rect" : [ 349.498566, 323.997559, 113.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
 						"parameter_enable" : 0
@@ -1357,26 +1346,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 46.0, 66.0, 79.0, 22.0 ],
+					"patching_rect" : [ 48.0, 66.0, 79.0, 22.0 ],
 					"style" : "",
 					"text" : "loadmess 40"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 180.0,
-					"background" : 1,
-					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
-					"id" : "obj-29",
-					"maxclass" : "panel",
-					"mode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 475.0, 51.0 ],
-					"proportion" : 0.39,
-					"style" : ""
 				}
 
 			}
@@ -1422,7 +1394,7 @@
 					"destination" : [ "obj-31", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 16.555542, 151.423325, 16.222595, 151.423325 ],
+					"midpoints" : [ 18.555542, 151.423325, 18.555542, 151.423325 ],
 					"source" : [ "obj-134", 0 ]
 				}
 
@@ -1441,7 +1413,7 @@
 					"destination" : [ "obj-8", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 356.137512, 298.340118, 356.998566, 298.340118 ],
+					"midpoints" : [ 358.137512, 298.340118, 358.998566, 298.340118 ],
 					"source" : [ "obj-183", 0 ]
 				}
 
@@ -1451,7 +1423,7 @@
 					"destination" : [ "obj-12", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 16.5, 243.0, 16.5, 243.0 ],
+					"midpoints" : [ 18.555542, 243.0, 18.555542, 243.0 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -1479,7 +1451,7 @@
 					"destination" : [ "obj-8", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 356.137512, 284.340118, 356.998566, 284.340118 ],
+					"midpoints" : [ 358.137512, 284.340118, 358.998566, 284.340118 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -1516,6 +1488,13 @@
 				"name" : "imi.wh_to_center.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/Toolbox/imi_objects",
 				"patcherrelativepath" : "../../Toolbox/imi_objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Max4VA-Title.maxpat",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
+				"patcherrelativepath" : "../../zpatches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
