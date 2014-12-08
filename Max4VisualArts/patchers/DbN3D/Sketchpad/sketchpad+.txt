@@ -1,0 +1,76 @@
+// JSK-atom2.txt
+// Created 06/17/2009 by Darwin Grosse
+// Example sketch routine for JitterSketching article
+// ===============================
+//
+// setup
+//
+reset
+glortho -1. 1. -1. 1. 1. -1.
+glclearcolor 0. 0. 0. 1.
+glclear
+//
+// nucleas
+//
+moveto 0. 0. 0.
+glcolor 1. 1. 0. 1.
+sphere 0.15
+moveto 0. 0.07 0.07
+glcolor 0. 1. 1. 1.
+sphere 0.15
+moveto 0.07 0.07 0.
+glcolor 1. .8 .8
+sphere 0.15
+moveto 0. 0. 0.
+//
+// electron paths
+//
+glcolor 1. 1. 1. 1.
+shapeslice 100
+shapeorient 90 0 0
+torus 1. 0.01
+glcolor 1. 1. 1. 1.
+shapeslice 100
+shapeorient 90 60 0
+torus 1. 0.01
+glcolor 1. 1. 1. 1.
+shapeslice 100
+shapeorient 90 120 0
+torus 1. 0.01
+//
+// electron 1
+//
+glenable texture
+glpushmatrix
+glcolor 1. 0. 0. 1.
+moveto 0. 0. 1.
+glrotate $1 0. 1. 0.
+glbindtexture pix1
+sphere 0.1
+glpopmatrix
+//
+// electron 2
+//
+glpushmatrix
+glcolor 0. 1. 0. 1.
+moveto 0. 0. 1.
+glrotate $2 -0.866 .5 0.
+glbindtexture pix2
+sphere 0.1
+glpopmatrix
+//
+// electron 3
+//
+glpushmatrix
+glcolor 1. 1. 1. 1.
+moveto 0. 0. 1.
+glrotate $3 -0.866 -.5 0.
+glbindtexture pix3
+sphere 0.1
+glpopmatrix
+//
+// finalize
+//
+render camera $4 $5 $6
+render lookat 0 0 0
+glflush

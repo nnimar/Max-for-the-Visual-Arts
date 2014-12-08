@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<pattrstorage name = "videoSynthStorage">
+	<slot number = "1">
+		<pattr name = "movie_read_in" value = "&quot;object (jpatcher)&quot;" />
+		<pattr name = "render_feedback" value = "&quot;object (jpatcher)&quot;" />
+		<pattr name = "render_scanlines" value = "&quot;object (jpatcher)&quot;" />
+		<pattr name = "videoout-keyboard-shortcuts" value = "&quot;object (jpatcher)&quot;" />
+		<pattr name = "z_deflect" value = "&quot;object (jpatcher)&quot;" />
+		<patcher name = "videoout-keyboard-shortcuts">
+			<pattr name = "dviz_window_border_toggle" value = "0" />
+			<pattr name = "dviz_window_floating_toggle" value = "1" />
+			<pattr name = "dviz_window_length_int" value = "512" />
+			<pattr name = "radviz_window_position_pictslider" value = "307 215" />
+			<pattr name = "vks_1_outlet" value = "&quot;object (outlet)&quot;" />
+			<pattr name = "vks_2_outlet" value = "&quot;object (outlet)&quot;" />
+		</patcher>
+		<patcher name = "movie_read_in">
+			<pattr name = "video_rate_float" value = "1." />
+			<pattr name = "wet_dry_mix_float" value = "0." />
+		</patcher>
+		<patcher name = "z_deflect">
+			<pattr name = "scale_z_deflect_float" value = "1.5" />
+			<pattr name = "slide_down_float" value = "3." />
+			<pattr name = "slide_up_float" value = "3." />
+		</patcher>
+		<patcher name = "render_scanlines">
+			<pattr name = "bump" value = "&quot;object (jpatcher)&quot;" />
+			<pattr name = "nurb_order_int" value = "3" />
+			<pattr name = "scan_region_height_float" value = "1." />
+			<pattr name = "scan_region_width_float" value = "1." />
+			<pattr name = "scanline_width_float" value = "1." />
+			<pattr name = "x_grid_points_int" value = "100" />
+			<pattr name = "y_num_lines_int" value = "150" />
+			<patcher name = "bump">
+				<pattr name = "bump_amount_float" value = "0.6" />
+				<pattr name = "x_coeff_float" value = "0.8" />
+				<pattr name = "x_offset_float" value = "0.32" />
+				<pattr name = "y_coeff_float" value = "0.8" />
+				<pattr name = "y_offset_float" value = "0.32" />
+			</patcher>
+		</patcher>
+		<patcher name = "render_feedback">
+			<pattr name = "bound_mode_int" value = "4" />
+			<pattr name = "feedback_amount_float" value = "0.8" />
+			<pattr name = "theta_float" value = "-0.000005" />
+			<pattr name = "zoom_float" value = "1.002" />
+		</patcher>
+	</slot>
+	<slot number = "2">
+		<pattr name = "movie_read_in" value = "&quot;object (jpatcher)&quot;" />
+		<pattr name = "render_feedback" value = "&quot;object (jpatcher)&quot;" />
+		<pattr name = "render_scanlines" value = "&quot;object (jpatcher)&quot;" />
+		<pattr name = "videoout-keyboard-shortcuts" value = "&quot;object (jpatcher)&quot;" />
+		<pattr name = "z_deflect" value = "&quot;object (jpatcher)&quot;" />
+		<patcher name = "videoout-keyboard-shortcuts">
+			<pattr name = "dviz_window_border_toggle" value = "0" />
+			<pattr name = "dviz_window_floating_toggle" value = "1" />
+			<pattr name = "dviz_window_length_int" value = "512" />
+			<pattr name = "radviz_window_position_pictslider" value = "307 215" />
+			<pattr name = "vks_1_outlet" value = "&quot;object (outlet)&quot;" />
+			<pattr name = "vks_2_outlet" value = "&quot;object (outlet)&quot;" />
+		</patcher>
+		<patcher name = "movie_read_in">
+			<pattr name = "video_rate_float" value = "1." />
+			<pattr name = "wet_dry_mix_float" value = "0." />
+		</patcher>
+		<patcher name = "z_deflect">
+			<pattr name = "scale_z_deflect_float" value = "1.5" />
+			<pattr name = "slide_down_float" value = "3." />
+			<pattr name = "slide_up_float" value = "3." />
+		</patcher>
+		<patcher name = "render_scanlines">
+			<pattr name = "bump" value = "&quot;object (jpatcher)&quot;" />
+			<pattr name = "nurb_order_int" value = "3" />
+			<pattr name = "scan_region_height_float" value = "1." />
+			<pattr name = "scan_region_width_float" value = "1." />
+			<pattr name = "scanline_width_float" value = "1." />
+			<pattr name = "x_grid_points_int" value = "100" />
+			<pattr name = "y_num_lines_int" value = "150" />
+			<patcher name = "bump">
+				<pattr name = "bump_amount_float" value = "0.6" />
+				<pattr name = "x_coeff_float" value = "0.8" />
+				<pattr name = "x_offset_float" value = "0.32" />
+				<pattr name = "y_coeff_float" value = "0.8" />
+				<pattr name = "y_offset_float" value = "0.32" />
+			</patcher>
+		</patcher>
+		<patcher name = "render_feedback">
+			<pattr name = "bound_mode_int" value = "4" />
+			<pattr name = "feedback_amount_float" value = "0.8" />
+			<pattr name = "theta_float" value = "-0.000005" />
+			<pattr name = "zoom_float" value = "1.002" />
+		</patcher>
+	</slot>
+</pattrstorage>
+

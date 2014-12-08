@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<pattrstorage name = "mn_extrude">
+	<slot number = "1">
+		<pattr name = "specular1_red" value = "0.1" />
+		<pattr name = "specular1_green" value = "0.05" />
+		<pattr name = "specular1_blue" value = "0.12" />
+		<pattr name = "specular1_intensity" value = "1." />
+		<pattr name = "specular2_red" value = "0.1" />
+		<pattr name = "specular2_green" value = "0.1" />
+		<pattr name = "specular2_blue" value = "0.05" />
+		<pattr name = "specular2_intensity" value = "-0.24" />
+		<pattr name = "diffuse_red" value = "0.5" />
+		<pattr name = "diffuse_green" value = "0.5" />
+		<pattr name = "diffuse_blue" value = "0.6" />
+		<pattr name = "diffuse_intensity" value = "0.15" />
+		<pattr name = "light_position_x" value = "0." />
+		<pattr name = "light_position_y" value = "3." />
+		<pattr name = "light_position_z" value = "-1." />
+		<pattr name = "scene_alpha" value = "0.6" />
+		<pattr name = "vertex_amount_x" value = "150" />
+		<pattr name = "vertex_amount_y" value = "150" />
+		<pattr name = "line_width" value = "1" />
+		<pattr name = "point_size" value = "2" />
+		<pattr name = "depth_enable" value = "1" />
+		<pattr name = "draw_mode" value = "3" />
+		<pattr name = "extruder" value = "1" />
+		<pattr name = "rotate_x" value = "0.21" />
+		<pattr name = "rotate_y" value = "0" />
+		<pattr name = "rotate_z" value = "0.503" />
+		<pattr name = "position_x" value = "0." />
+		<pattr name = "position_y" value = "-0.4" />
+		<pattr name = "position_z" value = "-0.3" />
+		<pattr name = "scale_x" value = "2." />
+		<pattr name = "scale_y" value = "1." />
+		<pattr name = "function_basis" value = "10" />
+		<pattr name = "function_scale_x" value = "3." />
+		<pattr name = "function_scale_y" value = "3." />
+		<pattr name = "function_offset_x" value = "0." />
+		<pattr name = "function_offset_y" value = "0." />
+		<pattr name = "displacement" value = "0.173" />
+		<pattr name = "sliding_time" value = "1." />
+	</slot>
+</pattrstorage>
+

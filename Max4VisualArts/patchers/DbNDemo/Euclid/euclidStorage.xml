@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<pattrstorage name = "euclidStorage">
+	<slot number = "1">
+		<pattr name = "euclidPattr" value = "16 4 2 0 0 36 16 2 1 0 1 58 16 8 4 0 0 44 16 3 2 0 0 63 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3" />
+	</slot>
+	<slot number = "2">
+		<pattr name = "euclidPattr" value = "16 4 2 0 0 36 16 5 1 0 1 58 16 13 2 0 3 44 16 3 2 0 0 63 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3" />
+	</slot>
+</pattrstorage>
+

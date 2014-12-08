@@ -1,0 +1,1 @@
+###, MMF-FS preferences are stored in this file - you can edit it manually or via preferences patcher in mmf-fs.core.maxpat;autoDetectDeviceIP, 1;iDevice.IP, 192.168.0.102;autoSendInterface, 1;enableScrollButton, 0;net.udp.recv.port, 6661;net.udp.send.port, 6662;webServerAddress, http://matcham-mbp.local/~mathieuchamagne/images/;

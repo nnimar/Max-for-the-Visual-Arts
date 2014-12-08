@@ -1,0 +1,78 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+\cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red255\green68\blue16;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww13660\viewh15020\viewkind0
+\deftab720
+\pard\pardeftab720
+
+\f0\b\fs48 \cf0 MMF-Fantastick\
+
+\fs28 Max Multitouch Framework for iPhone/iPod/iPad & Fantastick\
+
+\b0\fs24 \
+\
+MMF-Fantastick is an extension of MMF (Max Multitouch Framework) : a set of abstractions to\'a0control max user interface directly within a multitouch screen. ({\field{\*\fldinst{HYPERLINK "http://www.mathieuchamagne.com/MMF"}}{\fldrslt http://www.mathieuchamagne.com/MMF}} )\
+\
+MMF-Fantastick will draw on your ithing (thanks to Fantastick) a representation of all named UI objects that are visible in the presentation mode of your Max patch, and let you control them directly from the multitouch screen of your device.\
+It's really easy to configure, fast, bi-directionnal.. and free !\
+\
+\
+\
+- first, install and configure Fantastick on your iPad ({\field{\*\fldinst{HYPERLINK "http://pinktwins.com/fantastick/"}}{\fldrslt http://pinktwins.com/fantastick/}} )\
+\'a0\'a0(test it with the maxhelp patch)\
+- download & install MMF-Fantastick from\'a0http://www.mathieuchamagne.com/MMF-Fantastick\
+\'a0\'a0(copy it anywhere in your max search path) (delete any previous version of MMF-FS  first !)\
+- open\'a0MMF-Fantastick.maxhelp\
+- start Fantastick on your device\
+- multi-touch !\
+\
+
+\i\b\fs28 \cf2 Fantastick works MUCH better with an ad-hoc WIFI network, without WEP encryption\'a0
+\i0\b0\fs24 \cf0 \
+\
+
+\i\b\fs36 requires Max 5.1.7
+\i0\b0\fs24 \
+\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural
+\cf0 Mathieu Chamagne\
+\pard\pardeftab720
+{\field{\*\fldinst{HYPERLINK "http://www.mathieuchamagne.com/MMF-Fantastick"}}{\fldrslt \cf0 http://www.mathieuchamagne.com/MMF-Fantastick}}\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural
+\cf0 mathieu.chamagne@gmail.com\
+\pard\pardeftab720
+\cf0 \
+----------------------------\
+\
+versions :\
+\
+v1.2\
+- Max6 friendly\
+- fs.bundle added (send bundled messages to Fantastick)\
+- needs aka.datagram to avoid using mxj to receive udp data\
+\
+v1.1\
+- new and simplified abstractions & folders structure\
+now everything is in mmf-fs.core (including the network connection patch)\
+- preferences (IP ports, UI preferences, ..) are stored in a mmf-fs.preferences.txt file\
+- new example & template interfaces patches.\
+- interface orientation option added\
+- waveform~, Tab & Nodes support added\
+- fpic support (webserver must be configured on local host)\
+- scrolling interface option added\
+- "touch area" Fantastick messages added\
+...\
+\
+v1.02\
+- max 5.1.5 required\
+- "ignoreclick" objects attribute is now used to filter controllable objects.\
+\
+\
+v1.01 (aug 26 2010)\
+fix pattr "bindto" issu (--> crash Max 5.1.4 when sending a bindto message without argument to a patter object)\
+\
+v 1.00 (aug 25 2010)\
+first release\
+\
+}

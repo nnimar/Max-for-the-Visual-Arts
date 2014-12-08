@@ -1,0 +1,9 @@
+reset
+glortho -1. 1. -1. 1. 1. -1. 
+glclearcolor 0. 0. 0. 1. 
+glclear
+moveto 0. 0. 1.
+glrotate $1 0. 1. 0.
+glcolor .5 0. 0.
+sphere 0.2
+glflush
