@@ -395,7 +395,13 @@
 
 							}
  ],
-						"lines" : [  ]
+						"lines" : [  ],
+						"styles" : [ 							{
+								"name" : "simple",
+								"parentstyle" : "",
+								"multi" : 0
+							}
+ ]
 					}
 ,
 					"patching_rect" : [ 11.0, 142.0, 51.0, 21.0 ],
@@ -475,7 +481,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 0,
 									"offset" : [ 0.0, -278.0 ],
-									"patching_rect" : [ 1.0, 1.0, 392.0, 36.0 ],
+									"patching_rect" : [ 0.0, 0.0, 392.0, 36.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ -22.0, -3.0, 487.519531, 73.0 ],
 									"viewvisibility" : 1

@@ -56,7 +56,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 0.0, 26.0, 421.0, 638.0 ],
+						"rect" : [ 0.0, 70.0, 421.0, 638.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -86,18 +86,23 @@
 						"showontab" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
-									"fontface" : 3,
-									"fontname" : "Arial",
-									"fontsize" : 20.871338,
-									"id" : "obj-28",
-									"maxclass" : "comment",
-									"numinlets" : 1,
+									"args" : [ "Matrix feedback (Peter Elsea)", "from Peter Elsea's tutorial on Jitter" ],
+									"bgmode" : 1,
+									"border" : 0,
+									"clickthrough" : 1,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
+									"id" : "obj-62",
+									"lockeddragscroll" : 0,
+									"maxclass" : "bpatcher",
+									"name" : "Max4VA-Title.maxpat",
+									"numinlets" : 0,
 									"numoutlets" : 0,
-									"patching_rect" : [ 3.0, 3.0, 370.0, 30.0 ],
-									"style" : "",
-									"text" : "Matrix feedback using LCD / part 03",
-									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
-									"varname" : "autohelp_top_title"
+									"offset" : [ 0.0, -278.0 ],
+									"patching_rect" : [ 0.0, 0.0, 419.0, 33.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ -7.0, 12.0, 487.519531, 73.0 ],
+									"viewvisibility" : 1
 								}
 
 							}
@@ -504,6 +509,12 @@
 												}
 
 											}
+ ],
+										"styles" : [ 											{
+												"name" : "simple",
+												"parentstyle" : "",
+												"multi" : 0
+											}
  ]
 									}
 ,
@@ -668,23 +679,6 @@
 								}
 
 							}
-, 							{
-								"box" : 								{
-									"angle" : 180.0,
-									"background" : 1,
-									"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
-									"id" : "obj-30",
-									"maxclass" : "panel",
-									"mode" : 1,
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 3.0, 2.0, 414.0, 31.0 ],
-									"proportion" : 0.39,
-									"style" : ""
-								}
-
-							}
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
@@ -826,6 +820,12 @@
 								}
 
 							}
+ ],
+						"styles" : [ 							{
+								"name" : "simple",
+								"parentstyle" : "",
+								"multi" : 0
+							}
  ]
 					}
 ,
@@ -893,6 +893,28 @@
 						"showontab" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
+									"args" : [ "Matrix feedback (Peter Elsea)", "from Peter Elsea's tutorial on Jitter" ],
+									"bgmode" : 1,
+									"border" : 0,
+									"clickthrough" : 1,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
+									"id" : "obj-62",
+									"lockeddragscroll" : 0,
+									"maxclass" : "bpatcher",
+									"name" : "Max4VA-Title.maxpat",
+									"numinlets" : 0,
+									"numoutlets" : 0,
+									"offset" : [ 0.0, -278.0 ],
+									"patching_rect" : [ 0.0, 0.0, 419.0, 33.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ -7.0, 12.0, 487.519531, 73.0 ],
+									"viewvisibility" : 1
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"fontname" : "Arial Bold",
 									"fontsize" : 14.0,
 									"id" : "obj-5",
@@ -903,23 +925,6 @@
 									"patching_rect" : [ 31.0, 308.0, 102.0, 24.0 ],
 									"style" : "",
 									"text" : "jit.matrix loop"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontface" : 3,
-									"fontname" : "Arial",
-									"fontsize" : 20.871338,
-									"id" : "obj-28",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 3.0, 3.0, 366.0, 30.0 ],
-									"style" : "",
-									"text" : "Matrix feedback using LCD / part 02",
-									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
-									"varname" : "autohelp_top_title"
 								}
 
 							}
@@ -1429,23 +1434,6 @@
 								}
 
 							}
-, 							{
-								"box" : 								{
-									"angle" : 180.0,
-									"background" : 1,
-									"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
-									"id" : "obj-30",
-									"maxclass" : "panel",
-									"mode" : 1,
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 3.0, 2.0, 414.0, 31.0 ],
-									"proportion" : 0.39,
-									"style" : ""
-								}
-
-							}
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
@@ -1558,6 +1546,12 @@
 								}
 
 							}
+ ],
+						"styles" : [ 							{
+								"name" : "simple",
+								"parentstyle" : "",
+								"multi" : 0
+							}
  ]
 					}
 ,
@@ -1595,7 +1589,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 0.0, 70.0, 421.0, 638.0 ],
+						"rect" : [ 0.0, 26.0, 421.0, 638.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -1625,17 +1619,23 @@
 						"showontab" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.754705,
-									"id" : "obj-6",
-									"maxclass" : "comment",
-									"numinlets" : 1,
+									"args" : [ "Matrix feedback (Peter Elsea)", "from Peter Elsea's tutorial on Jitter" ],
+									"bgmode" : 1,
+									"border" : 0,
+									"clickthrough" : 1,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
+									"id" : "obj-62",
+									"lockeddragscroll" : 0,
+									"maxclass" : "bpatcher",
+									"name" : "Max4VA-Title.maxpat",
+									"numinlets" : 0,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4.0, 30.0, 226.0, 21.0 ],
-									"style" : "",
-									"text" : "from Peter Elsea's tutorial on Jitter",
-									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
-									"varname" : "autohelp_top_digest[1]"
+									"offset" : [ 0.0, -278.0 ],
+									"patching_rect" : [ 0.0, 0.0, 415.0, 55.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ -7.0, 12.0, 487.519531, 73.0 ],
+									"viewvisibility" : 1
 								}
 
 							}
@@ -1696,23 +1696,6 @@
 									"patching_rect" : [ 27.0, 323.0, 102.0, 24.0 ],
 									"style" : "",
 									"text" : "jit.matrix loop"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontface" : 3,
-									"fontname" : "Arial",
-									"fontsize" : 20.871338,
-									"id" : "obj-28",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 3.0, 2.0, 357.0, 30.0 ],
-									"style" : "",
-									"text" : "Matrix feedback (Peter Elsea)",
-									"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
-									"varname" : "autohelp_top_title"
 								}
 
 							}
@@ -1832,23 +1815,6 @@
 								}
 
 							}
-, 							{
-								"box" : 								{
-									"angle" : 180.0,
-									"background" : 1,
-									"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
-									"id" : "obj-11",
-									"maxclass" : "panel",
-									"mode" : 1,
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 3.0, 2.0, 416.0, 51.0 ],
-									"proportion" : 0.39,
-									"style" : ""
-								}
-
-							}
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
@@ -1950,6 +1916,12 @@
 								}
 
 							}
+ ],
+						"styles" : [ 							{
+								"name" : "simple",
+								"parentstyle" : "",
+								"multi" : 0
+							}
  ]
 					}
 ,
@@ -1992,6 +1964,13 @@
 				"bootpath" : "/Applications/Max.app/Contents/Resources/C74/help/resources",
 				"patcherrelativepath" : "../../../../../../../Applications/Max.app/Contents/Resources/C74/help/resources",
 				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Max4VA-Title.maxpat",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
+				"patcherrelativepath" : "../zpatches",
+				"type" : "JSON",
 				"implicit" : 1
 			}
  ],

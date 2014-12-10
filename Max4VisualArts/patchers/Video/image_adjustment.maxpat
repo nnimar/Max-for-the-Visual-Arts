@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -156,7 +156,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -302,7 +302,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -584,7 +584,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -1013,7 +1013,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, -278.0 ],
-					"patching_rect" : [ 0.0, 1.0, 536.0, 64.0 ],
+					"patching_rect" : [ 0.0, 0.0, 536.0, 59.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -22.0, -3.0, 487.519531, 73.0 ],
 					"viewvisibility" : 1
@@ -1326,21 +1326,21 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "Max4VA-Title.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/IMIpatches/templates",
-				"patcherrelativepath" : "../../templates",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
+				"patcherrelativepath" : "../zpatches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "imi.movieloader.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/IMIpatches/patchers/Toolbox/imi_objects",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/Toolbox/imi_objects",
 				"patcherrelativepath" : "../Toolbox/imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "IMIMovies.txt",
-				"bootpath" : "/Users/Shared/Max 7/Packages/IMIpatches/patchers/z",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/z",
 				"patcherrelativepath" : "../z",
 				"type" : "TEXT",
 				"implicit" : 1

@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 0.0, 45.0, 559.0, 591.0 ],
+		"rect" : [ 0.0, 45.0, 562.0, 580.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,28 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"args" : [ "searchtweet 1.1 (Gokce Kinayoglu)", "twitter reader is built on the Twitter4j library by Yusuke Yomomoto (twitter4j.org)" ],
+					"bgmode" : 1,
+					"border" : 0,
+					"clickthrough" : 1,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-62",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "Max4VA-Title.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, -278.0 ],
+					"patching_rect" : [ 0.0, 0.0, 488.0, 56.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ -7.0, 12.0, 487.519531, 73.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -180,7 +202,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-9",
@@ -193,13 +215,12 @@
 					"patching_rect" : [ 468.0, 550.0, 84.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 656.0, 208.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
 					"style" : "",
 					"text" : "searchtweet",
-					"textcolor" : [ 0.15, 0.15, 0.15, 1.0 ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -261,7 +282,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 122.0, 236.0, 146.0, 24.0 ],
+					"patching_rect" : [ 122.0, 237.0, 146.0, 24.0 ],
 					"style" : "",
 					"text" : "username | text | date"
 				}
@@ -809,56 +830,6 @@
 				}
 
 			}
-, 			{
-				"box" : 				{
-					"fontface" : 3,
-					"fontname" : "Arial",
-					"fontsize" : 20.899994,
-					"id" : "obj-21",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 2.0, 392.0, 30.0 ],
-					"style" : "",
-					"text" : "searchtweet 1.1 (Gokce Kinayoglu)",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"varname" : "autohelp_top_title[1]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.800003,
-					"id" : "obj-22",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 31.0, 532.0, 21.0 ],
-					"style" : "",
-					"text" : "twitter reader is built on the Twitter4j library by Yusuke Yomomoto (twitter4j.org)",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"varname" : "autohelp_top_digest"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 180.0,
-					"background" : 1,
-					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
-					"id" : "obj-23",
-					"maxclass" : "panel",
-					"mode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 554.0, 51.0 ],
-					"proportion" : 0.39,
-					"style" : ""
-				}
-
-			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -1133,8 +1104,35 @@
 
 			}
  ],
-		"dependency_cache" : [  ],
-		"embedsnapshot" : 0
+		"dependency_cache" : [ 			{
+				"name" : "Max4VA-Title.maxpat",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
+				"patcherrelativepath" : "../zpatches",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"embedsnapshot" : 0,
+		"styles" : [ 			{
+				"name" : "m4vatextbutton",
+				"default" : 				{
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"fontsize" : [ 14.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "simple",
+				"parentstyle" : "",
+				"multi" : 0
+			}
+ ]
 	}
 
 }

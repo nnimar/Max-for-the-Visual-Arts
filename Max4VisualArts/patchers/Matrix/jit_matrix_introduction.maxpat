@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1.0, 45.0, 637.0, 306.0 ],
+		"rect" : [ 1.0, 45.0, 621.0, 305.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -39,8 +39,30 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
-					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
+					"args" : [ "m4va jit.matrix" ],
+					"bgmode" : 1,
+					"border" : 0,
+					"clickthrough" : 1,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-62",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "Max4VA-Title.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, -278.0 ],
+					"patching_rect" : [ -1.0, 0.0, 487.0, 34.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ -7.0, 12.0, 487.519531, 73.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"bgoncolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-29",
 					"legacytextcolor" : 1,
@@ -49,14 +71,13 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 163.0, 281.0, 159.0, 20.0 ],
-					"rounded" : 20.0,
+					"patching_rect" : [ 162.0, 281.0, 145.0, 20.0 ],
 					"style" : "",
-					"text" : "IMI_compositing_modes",
-					"textcolor" : [ 0.15, 0.15, 0.15, 1.0 ],
+					"text" : "compositing_modes",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -72,16 +93,16 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 161.0, 281.0, 139.0, 20.0 ],
+					"patching_rect" : [ 161.0, 281.0, 121.0, 20.0 ],
 					"style" : "",
-					"text" : "load IMI_compositing_modes"
+					"text" : "load compositing_modes"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
-					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"bgoncolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-28",
 					"legacytextcolor" : 1,
@@ -90,16 +111,15 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 330.0, 281.0, 113.0, 20.0 ],
+					"patching_rect" : [ 312.666656, 281.0, 113.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 222.0, 277.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
 					"style" : "",
 					"text" : "matrix workflows",
-					"textcolor" : [ 0.15, 0.15, 0.15, 1.0 ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -131,9 +151,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 307.0, 281.0, 134.0, 20.0 ],
+					"patching_rect" : [ 309.0, 281.0, 117.0, 20.0 ],
 					"style" : "",
-					"text" : "load IMI_jit_matrix_workflow"
+					"text" : "load jit_matrix_workflow"
 				}
 
 			}
@@ -168,8 +188,8 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
-					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"bgoncolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-16",
 					"legacytextcolor" : 1,
@@ -178,16 +198,15 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 579.0, 281.0, 51.0, 20.0 ],
+					"patching_rect" : [ 563.0, 281.0, 51.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 469.0, 261.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
 					"style" : "",
 					"text" : "more",
-					"textcolor" : [ 0.15, 0.15, 0.15, 1.0 ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -195,8 +214,8 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
-					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"bgoncolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-49",
 					"legacytextcolor" : 1,
@@ -205,16 +224,15 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 448.0, 281.0, 126.0, 20.0 ],
+					"patching_rect" : [ 431.333344, 281.0, 126.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 596.0, 148.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
 					"style" : "",
 					"text" : "matrix and friends",
-					"textcolor" : [ 0.15, 0.15, 0.15, 1.0 ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -230,9 +248,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 447.0, 281.0, 126.0, 20.0 ],
+					"patching_rect" : [ 445.0, 281.0, 126.0, 20.0 ],
 					"style" : "",
-					"text" : "IMI_jit_matrix_and_friends"
+					"text" : "jit_matrix_and_friends"
 				}
 
 			}
@@ -415,23 +433,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 3,
-					"fontname" : "Arial",
-					"fontsize" : 20.871338,
-					"id" : "obj-24",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 5.0, 264.0, 30.0 ],
-					"style" : "",
-					"text" : "IMI jit.matrix",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"varname" : "autohelp_top_title"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"handoff" : "",
 					"hltcolor" : [ 1.0, 1.0, 1.0, 0.501961 ],
 					"id" : "obj-23",
@@ -498,7 +499,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6.0, 20.0, 135.0, 20.0 ],
+					"patching_rect" : [ 11.0, 14.0, 135.0, 20.0 ],
 					"style" : "",
 					"text" : "loadmess read imimatrix.jpg"
 				}
@@ -572,9 +573,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 535.0, 281.0, 98.0, 20.0 ],
+					"patching_rect" : [ 552.0, 281.0, 77.0, 20.0 ],
 					"style" : "",
-					"text" : "IMI_jit_matrix_tools"
+					"text" : "jit_matrix_tools"
 				}
 
 			}
@@ -591,23 +592,6 @@
 					"patching_rect" : [ 162.0, 281.0, 46.0, 20.0 ],
 					"style" : "",
 					"text" : "pcontrol"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 180.0,
-					"background" : 1,
-					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
-					"id" : "obj-25",
-					"maxclass" : "panel",
-					"mode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 3.0, 632.0, 34.0 ],
-					"proportion" : 0.39,
-					"style" : ""
 				}
 
 			}
@@ -872,8 +856,21 @@
 				"type" : "JPEG",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "Max4VA-Title.maxpat",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
+				"patcherrelativepath" : "../zpatches",
+				"type" : "JSON",
+				"implicit" : 1
+			}
  ],
-		"embedsnapshot" : 0
+		"embedsnapshot" : 0,
+		"styles" : [ 			{
+				"name" : "simple",
+				"parentstyle" : "",
+				"multi" : 0
+			}
+ ]
 	}
 
 }

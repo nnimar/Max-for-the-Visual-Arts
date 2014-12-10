@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1.0, 45.0, 542.0, 347.0 ],
+		"rect" : [ 1.0, 45.0, 518.0, 356.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 13.0,
@@ -38,6 +38,28 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [ "m4va jit.matrix tools" ],
+					"bgmode" : 1,
+					"border" : 0,
+					"clickthrough" : 1,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-62",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "Max4VA-Title.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, -278.0 ],
+					"patching_rect" : [ -1.0, 1.0, 487.0, 34.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ -7.0, 12.0, 487.519531, 73.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"handoff" : "",
 					"hltcolor" : [ 1.0, 1.0, 1.0, 0.501961 ],
 					"id" : "obj-40",
@@ -59,7 +81,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 119.0, 326.0, 83.0, 16.0 ],
+					"patching_rect" : [ 119.0, 326.0, 83.0, 20.0 ],
 					"style" : "",
 					"text" : "help jit.matrixset"
 				}
@@ -75,7 +97,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 204.0, 326.0, 52.0, 20.0 ],
+					"patching_rect" : [ 204.0, 326.0, 52.0, 21.0 ],
 					"style" : "",
 					"text" : "pcontrol"
 				}
@@ -91,7 +113,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 117.0, 329.0, 72.0, 16.0 ],
+					"patching_rect" : [ 117.0, 329.0, 72.0, 20.0 ],
 					"style" : "",
 					"text" : "help jit.coerce"
 				}
@@ -120,7 +142,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 117.0, 326.0, 90.0, 16.0 ],
+					"patching_rect" : [ 117.0, 326.0, 90.0, 20.0 ],
 					"style" : "",
 					"text" : "help imi.matrixinfo"
 				}
@@ -149,7 +171,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 116.0, 327.0, 70.0, 16.0 ],
+					"patching_rect" : [ 116.0, 327.0, 70.0, 20.0 ],
 					"style" : "",
 					"text" : "help jit.peek~"
 				}
@@ -204,7 +226,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 115.0, 327.0, 73.0, 16.0 ],
+					"patching_rect" : [ 115.0, 327.0, 73.0, 20.0 ],
 					"style" : "",
 					"text" : "help jit.buffer~"
 				}
@@ -220,26 +242,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 115.0, 327.0, 70.0, 16.0 ],
+					"patching_rect" : [ 115.0, 327.0, 70.0, 20.0 ],
 					"style" : "",
 					"text" : "help jit.poke~"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 3,
-					"fontname" : "Arial",
-					"fontsize" : 20.871338,
-					"id" : "obj-24",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 286.0, 30.0 ],
-					"style" : "",
-					"text" : "IMI jit.matrix tools",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"varname" : "autohelp_top_title"
 				}
 
 			}
@@ -253,7 +258,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6.0, 37.0, 145.0, 18.0 ],
+					"patching_rect" : [ 6.0, 37.0, 145.0, 20.0 ],
 					"style" : "",
 					"text" : "loadmess read imimatrix3.png"
 				}
@@ -269,24 +274,6 @@
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 5.0, 44.5, 509.0, 283.0 ],
 					"pic" : "imimatrix3.png"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 180.0,
-					"background" : 1,
-					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
-					"id" : "obj-25",
-					"maxclass" : "panel",
-					"mode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 537.0, 30.0 ],
-					"proportion" : 0.39,
-					"style" : "",
-					"varname" : "autohelp_top_panel[1]"
 				}
 
 			}
@@ -411,13 +398,26 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "imimatrix3.png",
-				"bootpath" : "/Users/Shared/Max 7/Packages/IMIpatches/patchers/Global/image",
-				"patcherrelativepath" : "../Global/image",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/Sources/images",
+				"patcherrelativepath" : "../Sources/images",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "Max4VA-Title.maxpat",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
+				"patcherrelativepath" : "../zpatches",
+				"type" : "JSON",
+				"implicit" : 1
+			}
  ],
-		"embedsnapshot" : 0
+		"embedsnapshot" : 0,
+		"styles" : [ 			{
+				"name" : "simple",
+				"parentstyle" : "",
+				"multi" : 0
+			}
+ ]
 	}
 
 }

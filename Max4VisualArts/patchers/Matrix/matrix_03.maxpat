@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 645.0, 45.0, 748.0, 530.0 ],
+		"rect" : [ 630.0, 44.0, 748.0, 530.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 13.0,
@@ -37,6 +37,28 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"args" : [ "the matrix, part 3: jit.noise" ],
+					"bgmode" : 1,
+					"border" : 0,
+					"clickthrough" : 1,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-62",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "Max4VA-Title.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, -278.0 ],
+					"patching_rect" : [ 0.0, -1.0, 487.0, 34.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ -7.0, 12.0, 487.519531, 73.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -106,7 +128,7 @@
 				"box" : 				{
 					"bblend" : 100,
 					"bgcolor" : [ 0.992218, 0.992218, 0.992218, 1.0 ],
-					"cols" : 5,
+					"cols" : 3,
 					"colwidth" : 25,
 					"fblend" : 100,
 					"fontface" : 0,
@@ -125,7 +147,7 @@
 					"patching_rect" : [ 588.0, 335.0, 106.0, 61.0 ],
 					"precision" : 0,
 					"rowheight" : 20,
-					"rows" : 5,
+					"rows" : 3,
 					"savemode" : 1,
 					"selsync" : 0,
 					"vscroll" : 0,
@@ -145,23 +167,6 @@
 					"patching_rect" : [ 588.0, 306.0, 99.0, 24.0 ],
 					"style" : "",
 					"text" : "imi.matrix2cell"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 3,
-					"fontname" : "Arial",
-					"fontsize" : 20.899994,
-					"id" : "obj-25",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 4.0, 196.0, 30.0 ],
-					"style" : "",
-					"text" : "Matrix 3 : jit.noise",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"varname" : "autohelp_top_title[1]"
 				}
 
 			}
@@ -189,7 +194,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 470.0, 229.0, 43.0, 22.0 ],
+					"patching_rect" : [ 470.0, 229.0, 43.0, 23.0 ],
 					"style" : "default",
 					"triscale" : 0.9
 				}
@@ -267,7 +272,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 367.0, 229.0, 43.0, 22.0 ],
+					"patching_rect" : [ 367.0, 229.0, 43.0, 23.0 ],
 					"style" : "default",
 					"triscale" : 0.9
 				}
@@ -281,7 +286,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 282.0, 229.0, 31.0, 22.0 ],
+					"patching_rect" : [ 282.0, 229.0, 31.0, 23.0 ],
 					"style" : "default",
 					"triscale" : 0.9
 				}
@@ -321,7 +326,7 @@
 					"bgcolor" : [ 0.992218, 0.992218, 0.992218, 1.0 ],
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"colhead" : 1,
-					"cols" : 5,
+					"cols" : 3,
 					"colwidth" : 97,
 					"fontface" : 0,
 					"fontname" : "Geneva",
@@ -339,7 +344,7 @@
 					"precision" : 4,
 					"rowhead" : 1,
 					"rowheight" : 64,
-					"rows" : 5,
+					"rows" : 3,
 					"vscroll" : 0
 				}
 
@@ -469,23 +474,6 @@
 					"patching_rect" : [ 38.0, 87.0, 72.0, 22.0 ],
 					"style" : "",
 					"text" : "loadmess 3"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 180.0,
-					"background" : 1,
-					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
-					"id" : "obj-26",
-					"maxclass" : "panel",
-					"mode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 744.0, 33.0 ],
-					"proportion" : 0.39,
-					"style" : ""
 				}
 
 			}
@@ -681,13 +669,26 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "imi.matrix2cell.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/IMIpatches/patchers/Toolbox/imi_objects",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/Toolbox/imi_objects",
 				"patcherrelativepath" : "../Toolbox/imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "Max4VA-Title.maxpat",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
+				"patcherrelativepath" : "../zpatches",
+				"type" : "JSON",
+				"implicit" : 1
+			}
  ],
-		"embedsnapshot" : 0
+		"embedsnapshot" : 0,
+		"styles" : [ 			{
+				"name" : "simple",
+				"parentstyle" : "",
+				"multi" : 0
+			}
+ ]
 	}
 
 }

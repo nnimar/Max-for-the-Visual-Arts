@@ -38,6 +38,28 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [ "m4va xively report", "download a xively feed (JSON) using the dict object (you need an API to download)", 3 ],
+					"bgmode" : 1,
+					"border" : 0,
+					"clickthrough" : 1,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-62",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "Max4VA-Title.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, -278.0 ],
+					"patching_rect" : [ 0.0, 0.0, 528.0, 56.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ -7.0, 12.0, 487.519531, 73.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -45,7 +67,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 553.0, 318.0, 76.0, 24.0 ],
+					"patching_rect" : [ 553.0, 317.0, 76.0, 24.0 ],
 					"style" : "",
 					"text" : "open dict"
 				}
@@ -53,7 +75,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-46",
@@ -66,13 +88,12 @@
 					"patching_rect" : [ 501.0, 416.5, 145.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 419.0, 50.5, 79.0, 17.0 ],
-					"rounded" : 20.0,
 					"style" : "",
 					"text" : "launch xively account",
-					"textcolor" : [ 0.15, 0.15, 0.15, 1.0 ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -84,12 +105,12 @@
 					"fontsize" : 10.0,
 					"hidden" : 1,
 					"id" : "obj-48",
-					"linecount" : 4,
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 504.0, 389.0, 110.0, 53.0 ],
+					"patching_rect" : [ 343.0, 406.5, 303.0, 31.0 ],
 					"style" : "",
 					"text" : ";\rmax launchbrowser https://xively.com/pricing/#developer-account"
 				}
@@ -104,7 +125,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 318.0, 267.0, 82.0, 22.0 ],
+					"patching_rect" : [ 318.0, 266.0, 82.0, 22.0 ],
 					"style" : "",
 					"text" : "get unit::label"
 				}
@@ -119,7 +140,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 318.0, 292.0, 95.0, 22.0 ],
+					"patching_rect" : [ 318.0, 291.0, 95.0, 22.0 ],
 					"style" : "",
 					"text" : "get unit::symbol"
 				}
@@ -134,7 +155,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 318.0, 242.0, 103.0, 22.0 ],
+					"patching_rect" : [ 318.0, 241.0, 103.0, 22.0 ],
 					"style" : "",
 					"text" : "get current_value"
 				}
@@ -149,7 +170,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 185.0, 267.0, 82.0, 22.0 ],
+					"patching_rect" : [ 185.0, 266.0, 82.0, 22.0 ],
 					"style" : "",
 					"text" : "get unit::label"
 				}
@@ -164,7 +185,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 185.0, 292.0, 95.0, 22.0 ],
+					"patching_rect" : [ 185.0, 291.0, 95.0, 22.0 ],
 					"style" : "",
 					"text" : "get unit::symbol"
 				}
@@ -180,7 +201,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 200.0, 390.0, 81.0, 22.0 ],
+					"patching_rect" : [ 200.0, 389.0, 81.0, 22.0 ],
 					"style" : "",
 					"text" : "loadmess set"
 				}
@@ -195,7 +216,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 109.0, 167.0, 51.0, 24.0 ],
+					"patching_rect" : [ 109.0, 166.0, 51.0, 24.0 ],
 					"style" : "",
 					"text" : "error"
 				}
@@ -209,7 +230,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 85.0, 169.0, 20.0, 20.0 ],
+					"patching_rect" : [ 85.0, 168.0, 20.0, 20.0 ],
 					"style" : ""
 				}
 
@@ -221,7 +242,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 531.0, 318.0, 20.0, 20.0 ],
+					"patching_rect" : [ 531.0, 317.0, 20.0, 20.0 ],
 					"style" : ""
 				}
 
@@ -233,7 +254,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 380.0, 318.0, 20.0, 20.0 ],
+					"patching_rect" : [ 380.0, 317.0, 20.0, 20.0 ],
 					"style" : ""
 				}
 
@@ -245,7 +266,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 247.0, 318.0, 20.0, 20.0 ],
+					"patching_rect" : [ 247.0, 317.0, 20.0, 20.0 ],
 					"style" : ""
 				}
 
@@ -257,7 +278,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 124.0, 318.0, 20.0, 20.0 ],
+					"patching_rect" : [ 124.0, 317.0, 20.0, 20.0 ],
 					"style" : ""
 				}
 
@@ -271,7 +292,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 318.0, 344.0, 81.0, 22.0 ],
+					"patching_rect" : [ 318.0, 343.0, 81.0, 22.0 ],
 					"style" : "",
 					"text" : "imi.dict data2"
 				}
@@ -286,7 +307,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 320.0, 373.0, 79.0, 22.0 ],
+					"patching_rect" : [ 320.0, 372.0, 79.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -300,7 +321,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 318.0, 318.0, 40.0, 22.0 ],
+					"patching_rect" : [ 318.0, 317.0, 40.0, 22.0 ],
 					"style" : "",
 					"text" : "get id"
 				}
@@ -315,7 +336,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 185.0, 242.0, 103.0, 22.0 ],
+					"patching_rect" : [ 185.0, 241.0, 103.0, 22.0 ],
 					"style" : "",
 					"text" : "get current_value"
 				}
@@ -330,7 +351,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 185.0, 344.0, 81.0, 22.0 ],
+					"patching_rect" : [ 185.0, 343.0, 81.0, 22.0 ],
 					"style" : "",
 					"text" : "imi.dict data1"
 				}
@@ -345,7 +366,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 183.0, 373.0, 77.0, 22.0 ],
+					"patching_rect" : [ 183.0, 372.0, 77.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -357,7 +378,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 390.0, 159.0, 20.0, 20.0 ],
+					"patching_rect" : [ 390.0, 158.0, 20.0, 20.0 ],
 					"style" : ""
 				}
 
@@ -371,7 +392,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 32.0, 373.0, 110.0, 22.0 ],
+					"patching_rect" : [ 32.0, 372.0, 110.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -385,7 +406,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 66.0, 292.0, 40.0, 22.0 ],
+					"patching_rect" : [ 66.0, 291.0, 40.0, 22.0 ],
 					"style" : "",
 					"text" : "get id"
 				}
@@ -400,7 +421,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 66.0, 318.0, 49.0, 22.0 ],
+					"patching_rect" : [ 66.0, 317.0, 49.0, 22.0 ],
 					"style" : "",
 					"text" : "get title"
 				}
@@ -415,7 +436,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 185.0, 318.0, 40.0, 22.0 ],
+					"patching_rect" : [ 185.0, 317.0, 40.0, 22.0 ],
 					"style" : "",
 					"text" : "get id"
 				}
@@ -430,7 +451,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 457.0, 267.0, 43.0, 22.0 ],
+					"patching_rect" : [ 457.0, 266.0, 43.0, 22.0 ],
 					"style" : "",
 					"text" : "get lat"
 				}
@@ -445,7 +466,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 457.0, 292.0, 47.0, 22.0 ],
+					"patching_rect" : [ 457.0, 291.0, 47.0, 22.0 ],
 					"style" : "",
 					"text" : "get lon"
 				}
@@ -460,7 +481,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 459.0, 373.0, 87.0, 22.0 ],
+					"patching_rect" : [ 459.0, 372.0, 87.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -474,7 +495,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 457.0, 318.0, 61.0, 22.0 ],
+					"patching_rect" : [ 457.0, 317.0, 61.0, 22.0 ],
 					"style" : "",
 					"text" : "get name"
 				}
@@ -776,7 +797,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 9.0, 196.0, 103.0, 24.0 ],
+					"patching_rect" : [ 9.0, 195.0, 103.0, 24.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -799,7 +820,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 66.0, 344.0, 77.0, 22.0 ],
+					"patching_rect" : [ 66.0, 343.0, 77.0, 22.0 ],
 					"style" : "",
 					"text" : "imi.dict main"
 				}
@@ -814,7 +835,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 457.0, 344.0, 93.0, 22.0 ],
+					"patching_rect" : [ 457.0, 343.0, 93.0, 22.0 ],
 					"style" : "",
 					"text" : "imi.dict location"
 				}
@@ -827,7 +848,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 9.0, 169.0, 20.0, 20.0 ],
+					"patching_rect" : [ 9.0, 168.0, 20.0, 20.0 ],
 					"style" : ""
 				}
 
@@ -842,7 +863,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 389.0, 93.0, 52.0, 20.0 ],
+					"patching_rect" : [ 389.0, 92.0, 52.0, 20.0 ],
 					"style" : "",
 					"text" : "loadbang"
 				}
@@ -857,25 +878,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 389.0, 181.0, 32.0, 20.0 ],
+					"patching_rect" : [ 389.0, 180.0, 32.0, 20.0 ],
 					"style" : "",
 					"text" : "s api"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"id" : "obj-87",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 603.0, 33.0, 44.0, 18.0 ],
-					"style" : "",
-					"text" : "rev 003",
-					"textcolor" : [ 1.0, 0.999969, 1.0, 1.0 ]
 				}
 
 			}
@@ -891,7 +896,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 505.0, 86.0, 130.0, 39.0 ],
+					"patching_rect" : [ 505.0, 85.0, 130.0, 39.0 ],
 					"style" : "",
 					"text" : "enter your xively API"
 				}
@@ -910,7 +915,7 @@
 					"outlettype" : [ "", "int", "", "" ],
 					"outputmode" : 1,
 					"parameter_enable" : 0,
-					"patching_rect" : [ 389.0, 117.0, 247.0, 37.0 ],
+					"patching_rect" : [ 389.0, 116.0, 247.0, 37.0 ],
 					"style" : "",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
@@ -1453,7 +1458,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 304.0, 403.0, 188.0, 31.0 ],
 									"style" : "",
-									"text" : "import /Users/hubbles/Desktop/.json"
+									"text" : "import /Users/nimar/Desktop/.json"
 								}
 
 							}
@@ -1758,7 +1763,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 9.0, 139.0, 95.0, 24.0 ],
+					"patching_rect" : [ 9.0, 138.0, 95.0, 24.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1781,7 +1786,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 109.0, 98.0, 41.0, 24.0 ],
+					"patching_rect" : [ 109.0, 97.0, 41.0, 24.0 ],
 					"style" : "",
 					"text" : "go"
 				}
@@ -1794,41 +1799,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 89.0, 100.0, 20.0, 20.0 ],
+					"patching_rect" : [ 89.0, 99.0, 20.0, 20.0 ],
 					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 3,
-					"fontname" : "Arial",
-					"fontsize" : 20.899994,
-					"id" : "obj-5",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 2.0, 249.0, 30.0 ],
-					"style" : "",
-					"text" : "IMI xively report ",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"varname" : "autohelp_top_title[1]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.800003,
-					"id" : "obj-6",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 31.0, 487.0, 21.0 ],
-					"style" : "",
-					"text" : "download a xively feed (JSON) using the dict object (you need an API to download)",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"varname" : "autohelp_top_digest"
 				}
 
 			}
@@ -1844,7 +1816,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 71.0, 63.0, 98.0, 39.0 ],
+					"patching_rect" : [ 71.0, 62.0, 98.0, 39.0 ],
 					"style" : "",
 					"text" : "enter your feed"
 				}
@@ -1853,7 +1825,7 @@
 , 			{
 				"box" : 				{
 					"clickmode" : 1,
-					"fontsize" : 20.0,
+					"fontsize" : 18.0,
 					"id" : "obj-29",
 					"keymode" : 1,
 					"maxclass" : "textedit",
@@ -1862,7 +1834,7 @@
 					"outlettype" : [ "", "int", "", "" ],
 					"outputmode" : 1,
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.0, 89.0, 74.0, 33.0 ],
+					"patching_rect" : [ 9.0, 92.0, 69.0, 27.0 ],
 					"style" : "default",
 					"text" : "14348"
 				}
@@ -1879,28 +1851,10 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 231.0, 639.0, 4.0 ],
+					"patching_rect" : [ 7.0, 230.0, 639.0, 4.0 ],
 					"proportion" : 0.39,
 					"style" : "",
 					"varname" : "autohelp_top_panel[1]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 180.0,
-					"background" : 1,
-					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
-					"id" : "obj-7",
-					"maxclass" : "panel",
-					"mode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 647.0, 51.0 ],
-					"proportion" : 0.39,
-					"style" : "",
-					"varname" : "autohelp_top_panel[3]"
 				}
 
 			}
@@ -2219,8 +2173,35 @@
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "Max4VA-Title.maxpat",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
+				"patcherrelativepath" : "../zpatches",
+				"type" : "JSON",
+				"implicit" : 1
+			}
  ],
-		"embedsnapshot" : 0
+		"embedsnapshot" : 0,
+		"styles" : [ 			{
+				"name" : "m4vatextbutton",
+				"default" : 				{
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"fontsize" : [ 14.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "simple",
+				"parentstyle" : "",
+				"multi" : 0
+			}
+ ]
 	}
 
 }

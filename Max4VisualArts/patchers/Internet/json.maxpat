@@ -38,6 +38,28 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [ "m4va JSON and the dict object", "json is very easy to use thanks to the new dict functionality in Max 6 / 7" ],
+					"bgmode" : 1,
+					"border" : 0,
+					"clickthrough" : 1,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-5",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "Max4VA-Title.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, -278.0 ],
+					"patching_rect" : [ 0.0, 0.0, 488.0, 56.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ -7.0, 12.0, 487.519531, 73.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -232,7 +254,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 957.0, 241.0, 398.0, 313.0 ],
+						"rect" : [ 962.0, 241.0, 398.0, 313.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -268,8 +290,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 314.0, 142.0, 36.0, 18.0 ],
-									"style" : ""
+									"patching_rect" : [ 314.0, 142.0, 36.0, 22.0 ],
+									"style" : "",
+									"text" : "7.03"
 								}
 
 							}
@@ -282,8 +305,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 219.0, 143.0, 93.0, 18.0 ],
-									"style" : ""
+									"patching_rect" : [ 219.0, 143.0, 93.0, 22.0 ],
+									"style" : "",
+									"text" : "\"Kindle Edition\""
 								}
 
 							}
@@ -296,7 +320,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 216.0, 114.0, 133.0, 20.0 ],
+									"patching_rect" : [ 216.0, 114.0, 133.0, 22.0 ],
 									"style" : "",
 									"text" : "dict.unpack type: price:"
 								}
@@ -311,8 +335,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 145.0, 141.0, 50.0, 18.0 ],
-									"style" : ""
+									"patching_rect" : [ 145.0, 141.0, 50.0, 22.0 ],
+									"style" : "",
+									"text" : "16.65"
 								}
 
 							}
@@ -325,8 +350,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 62.0, 141.0, 73.0, 18.0 ],
-									"style" : ""
+									"patching_rect" : [ 62.0, 141.0, 73.0, 22.0 ],
+									"style" : "",
+									"text" : "Hardcover"
 								}
 
 							}
@@ -339,7 +365,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 62.0, 112.0, 133.0, 20.0 ],
+									"patching_rect" : [ 62.0, 112.0, 133.0, 22.0 ],
 									"style" : "",
 									"text" : "dict.unpack type: price:"
 								}
@@ -354,7 +380,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 62.0, 86.0, 326.0, 20.0 ],
+									"patching_rect" : [ 62.0, 86.0, 326.0, 22.0 ],
 									"style" : "",
 									"text" : "route Price[0] Price[1]"
 								}
@@ -369,7 +395,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 113.0, 16.0, 71.0, 18.0 ],
+									"patching_rect" : [ 113.0, 16.0, 71.0, 22.0 ],
 									"style" : "",
 									"text" : "get Price[1]"
 								}
@@ -384,7 +410,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 40.0, 16.0, 71.0, 18.0 ],
+									"patching_rect" : [ 40.0, 16.0, 71.0, 22.0 ],
 									"style" : "",
 									"text" : "get Price[0]"
 								}
@@ -427,8 +453,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 188.0, 255.0, 81.0, 18.0 ],
-									"style" : ""
+									"patching_rect" : [ 188.0, 255.0, 81.0, 22.0 ],
+									"style" : "",
+									"text" : "English"
 								}
 
 							}
@@ -441,7 +468,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 188.0, 227.0, 129.0, 20.0 ],
+									"patching_rect" : [ 188.0, 227.0, 129.0, 22.0 ],
 									"style" : "",
 									"text" : "dict.unpack Language:"
 								}
@@ -456,8 +483,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 11.0, 226.0, 135.0, 18.0 ],
-									"style" : ""
+									"patching_rect" : [ 11.0, 226.0, 135.0, 22.0 ],
+									"style" : "",
+									"text" : "\"The Cuckoo's Calling\""
 								}
 
 							}
@@ -482,7 +510,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 11.0, 196.0, 373.0, 22.0 ],
+									"patching_rect" : [ 11.0, 196.0, 373.0, 24.0 ],
 									"style" : "",
 									"text" : "dict.unpack Title: Detail: Price:"
 								}
@@ -520,7 +548,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "dictionary", "", "", "" ],
-									"patching_rect" : [ 11.0, 56.0, 172.0, 22.0 ],
+									"patching_rect" : [ 11.0, 56.0, 172.0, 24.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 1,
 										"parameter_enable" : 0
@@ -815,18 +843,20 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-35",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 541.0, 297.0, 117.0, 22.0 ],
-					"style" : ""
+					"patching_rect" : [ 541.0, 297.0, 117.0, 35.0 ],
+					"style" : "",
+					"text" : "Title \"The Cuckoo's Calling\""
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-31",
@@ -836,16 +866,15 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 858.0, 480.5, 87.0, 22.0 ],
+					"patching_rect" : [ 857.0, 482.0, 87.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 551.0, 389.5, 79.0, 17.0 ],
-					"rounded" : 20.0,
 					"style" : "",
 					"text" : "more JSON",
-					"textcolor" : [ 0.15, 0.15, 0.15, 1.0 ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -861,9 +890,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 857.0, 482.0, 89.0, 22.0 ],
+					"patching_rect" : [ 857.0, 482.0, 66.0, 22.0 ],
 					"style" : "",
-					"text" : "load IMI_json+"
+					"text" : "load json+"
 				}
 
 			}
@@ -1020,12 +1049,14 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-62",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 489.0, 371.0, 89.0, 22.0 ],
-					"style" : ""
+					"patching_rect" : [ 489.0, 371.0, 89.0, 35.0 ],
+					"style" : "",
+					"text" : "\"The Cuckoo's Calling\""
 				}
 
 			}
@@ -1067,38 +1098,6 @@
 ,
 					"style" : "m4va",
 					"text" : "dict example @embed 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 3,
-					"fontname" : "Arial",
-					"fontsize" : 20.871338,
-					"id" : "obj-25",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 3.0, 310.0, 30.0 ],
-					"style" : "",
-					"text" : "IMI json (the dict object)",
-					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
-					"varname" : "autohelp_top_title[1]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-34",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 31.0, 692.0, 21.0 ],
-					"style" : "",
-					"text" : "json is an alternative to xml, but much easier thanks to the new dict functionality in Max 6 (updated for Max 7)",
-					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ]
 				}
 
 			}
@@ -1174,26 +1173,6 @@
 					"textovercolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 180.0,
-					"background" : 1,
-					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
-					"id" : "obj-39",
-					"maxclass" : "panel",
-					"mode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 945.0, 51.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 17.0, 18.0, 300.0, 51.0 ],
-					"proportion" : 0.39,
-					"style" : "",
-					"varname" : "autohelp_top_panel[1]"
 				}
 
 			}
@@ -1356,9 +1335,16 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "json.jpg",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/z/images",
-				"patcherrelativepath" : "../z/images",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/Sources/images",
+				"patcherrelativepath" : "../Sources/images",
 				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Max4VA-Title.maxpat",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
+				"patcherrelativepath" : "../zpatches",
+				"type" : "JSON",
 				"implicit" : 1
 			}
  ],
@@ -1367,11 +1353,30 @@
 				"name" : "m4va",
 				"default" : 				{
 					"fontname" : [ "Arial" ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
-					"fontsize" : [ 12.0 ]
+					"fontsize" : [ 12.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "m4vatextbutton",
+				"default" : 				{
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"fontsize" : [ 14.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "simple",
 				"parentstyle" : "",
 				"multi" : 0
 			}

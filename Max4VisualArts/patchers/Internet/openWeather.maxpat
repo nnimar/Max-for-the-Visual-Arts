@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 0.0, 45.0, 619.0, 499.0 ],
+		"rect" : [ 0.0, 45.0, 619.0, 482.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,7 +38,29 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"args" : [ "open weather map", " access the Open Weather Map API" ],
+					"bgmode" : 1,
+					"border" : 0,
+					"clickthrough" : 1,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-13",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "Max4VA-Title.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, -278.0 ],
+					"patching_rect" : [ 0.0, 0.0, 488.0, 56.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ -7.0, 12.0, 487.519531, 73.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-10",
@@ -48,16 +70,15 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2.0, 468.5, 170.0, 21.0 ],
+					"patching_rect" : [ 5.0, 457.0, 170.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 434.0, 65.5, 79.0, 17.0 ],
-					"rounded" : 20.0,
 					"style" : "",
 					"text" : "launch open weather map",
-					"textcolor" : [ 0.15, 0.15, 0.15, 1.0 ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -74,7 +95,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2.0, 463.5, 241.0, 31.0 ],
+					"patching_rect" : [ 5.0, 445.5, 241.0, 31.0 ],
 					"style" : "",
 					"text" : ";\rmax launchbrowser http://openweathermap.org/API"
 				}
@@ -116,7 +137,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 37.0, 133.0, 49.0, 20.0 ],
+					"patching_rect" : [ 37.0, 140.0, 49.0, 20.0 ],
 					"style" : "",
 					"text" : "done"
 				}
@@ -132,7 +153,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 172.5, 57.5, 181.0, 37.0 ],
+					"patching_rect" : [ 172.5, 64.5, 181.0, 37.0 ],
 					"style" : "",
 					"text" : "enter a city and the country\n(London, uk or Brussels, be)"
 				}
@@ -283,7 +304,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 504.5, 457.0, 95.0, 22.0 ],
 					"style" : "",
-					"text" : "250"
+					"text" : "230"
 				}
 
 			}
@@ -323,7 +344,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 142.0, 70.0, 20.0, 20.0 ],
+					"patching_rect" : [ 142.0, 77.0, 20.0, 20.0 ],
 					"style" : ""
 				}
 
@@ -335,7 +356,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 9.0, 133.0, 20.0, 20.0 ],
+					"patching_rect" : [ 9.0, 140.0, 20.0, 20.0 ],
 					"style" : ""
 				}
 
@@ -355,7 +376,7 @@
 					"outlettype" : [ "", "int", "", "" ],
 					"outputmode" : 1,
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.0, 62.0, 130.0, 28.0 ],
+					"patching_rect" : [ 9.0, 69.0, 130.0, 28.0 ],
 					"style" : "",
 					"text" : "Brussels, be",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -772,22 +793,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"id" : "obj-87",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 571.0, 31.0, 44.0, 18.0 ],
-					"style" : "",
-					"text" : "rev 001",
-					"textcolor" : [ 1.0, 0.999969, 1.0, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"color" : [ 1.0, 0.741176, 0.611765, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
@@ -1199,7 +1204,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 298.0, 347.0, 245.0, 22.0 ],
 									"style" : "",
-									"text" : "import /Users/hubbles/Desktop/weather.json"
+									"text" : "import /Users/nimar/Desktop/weather.json"
 								}
 
 							}
@@ -1357,7 +1362,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 9.0, 99.0, 95.0, 24.0 ],
+					"patching_rect" : [ 9.0, 106.0, 95.0, 24.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1368,57 +1373,6 @@
 ,
 					"style" : "",
 					"text" : "p json_import"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 3,
-					"fontname" : "Arial",
-					"fontsize" : 20.899994,
-					"id" : "obj-5",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 249.0, 30.0 ],
-					"style" : "",
-					"text" : "Open Weather Map",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"varname" : "autohelp_top_title[1]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.800003,
-					"id" : "obj-6",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 29.0, 221.0, 21.0 ],
-					"style" : "",
-					"text" : "access the Open Weather Map API",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"varname" : "autohelp_top_digest"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 180.0,
-					"background" : 1,
-					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
-					"id" : "obj-7",
-					"maxclass" : "panel",
-					"mode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 615.0, 47.0 ],
-					"proportion" : 0.39,
-					"style" : "",
-					"varname" : "autohelp_top_panel[3]"
 				}
 
 			}
@@ -1755,17 +1709,43 @@
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "Max4VA-Title.maxpat",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
+				"patcherrelativepath" : "../zpatches",
+				"type" : "JSON",
+				"implicit" : 1
+			}
  ],
 		"embedsnapshot" : 0,
 		"styles" : [ 			{
 				"name" : "m4va",
 				"default" : 				{
 					"fontname" : [ "Arial" ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
-					"fontsize" : [ 12.0 ]
+					"fontsize" : [ 12.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "m4vatextbutton",
+				"default" : 				{
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"fontsize" : [ 14.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "simple",
 				"parentstyle" : "",
 				"multi" : 0
 			}

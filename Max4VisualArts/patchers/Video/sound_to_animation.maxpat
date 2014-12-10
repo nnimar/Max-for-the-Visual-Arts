@@ -51,7 +51,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, -278.0 ],
-					"patching_rect" : [ 0.0, 0.0, 485.0, 65.0 ],
+					"patching_rect" : [ 0.0, 0.0, 485.0, 58.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -22.0, -3.0, 487.519531, 73.0 ],
 					"viewvisibility" : 1
@@ -448,7 +448,7 @@
 								"box" : 								{
 									"fontsize" : 11.595187,
 									"id" : "obj-36",
-									"items" : [ "Built-in Line Input", ",", "Built-in Digital Input", ",", "Soundflower (2ch)", ",", "Soundflower (64ch)", ",", "Pro Tools Aggregate I/O" ],
+									"items" : [ "Built-in Microphone", ",", "Built-in Input", ",", "Soundflower (2ch)", ",", "Soundflower (64ch)" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,

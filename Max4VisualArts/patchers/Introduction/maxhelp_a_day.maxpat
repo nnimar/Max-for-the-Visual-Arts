@@ -51,9 +51,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, -278.0 ],
-					"patching_rect" : [ 358.0, 58.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -3.0, -3.0, 487.519531, 64.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 487.519531, 64.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -234,12 +233,12 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 166.0, 435.0, 114.422852, 41.515625 ],
+					"patching_rect" : [ 166.0, 435.0, 112.738274, 41.515625 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 101.0, 114.422852, 41.515625 ],
+					"presentation_rect" : [ 13.0, 101.0, 112.738274, 41.515625 ],
 					"rounded" : 20.0,
 					"style" : "",
-					"text" : "change",
+					"text" : "unpack",
 					"textcolor" : [ 0.15, 0.15, 0.15, 1.0 ],
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -290,7 +289,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 166.0, 348.0, 98.0, 22.0 ],
 					"style" : "",
-					"text" : "help change"
+					"text" : "help unpack"
 				}
 
 			}
@@ -573,7 +572,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 15.0, 348.0, 83.0, 22.0 ],
 					"style" : "",
-					"text" : "help togedge"
+					"text" : "help pack"
 				}
 
 			}
@@ -590,12 +589,12 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 17.0, 435.0, 124.442383, 41.515625 ],
+					"patching_rect" : [ 17.0, 435.0, 79.369141, 41.515625 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 91.0, 180.0, 124.442383, 41.515625 ],
+					"presentation_rect" : [ 91.0, 180.0, 79.369141, 41.515625 ],
 					"rounded" : 20.0,
 					"style" : "",
-					"text" : "togedge",
+					"text" : "pack",
 					"textcolor" : [ 0.15, 0.15, 0.15, 1.0 ],
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -879,7 +878,13 @@
 				"implicit" : 1
 			}
  ],
-		"embedsnapshot" : 0
+		"embedsnapshot" : 0,
+		"styles" : [ 			{
+				"name" : "simple",
+				"parentstyle" : "",
+				"multi" : 0
+			}
+ ]
 	}
 
 }

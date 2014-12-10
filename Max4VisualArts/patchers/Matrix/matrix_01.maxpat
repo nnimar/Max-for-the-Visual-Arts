@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 646.0, 79.0, 573.0, 516.0 ],
+		"rect" : [ 629.0, 44.0, 573.0, 516.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 13.0,
@@ -38,6 +38,28 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [ "what is a matrix ?" ],
+					"bgmode" : 1,
+					"border" : 0,
+					"clickthrough" : 1,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-62",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "Max4VA-Title.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, -278.0 ],
+					"patching_rect" : [ 1.0, 1.0, 487.0, 34.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ -7.0, 12.0, 487.519531, 73.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"hidden" : 1,
@@ -51,7 +73,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -196,10 +218,11 @@
  ]
 					}
 ,
-					"patching_rect" : [ 6.0, 290.0, 71.0, 20.0 ],
+					"patching_rect" : [ 14.0, 290.0, 71.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
+						"fontsize" : 13.0,
 						"globalpatchername" : "",
 						"style" : "",
 						"tags" : ""
@@ -220,7 +243,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 481.0, 165.0, 26.0 ],
+					"patching_rect" : [ 13.0, 485.0, 164.0, 26.0 ],
 					"style" : "",
 					"text" : "cell position and value"
 				}
@@ -229,15 +252,15 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 18.0,
+					"fontsize" : 14.0,
 					"id" : "obj-18",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 174.0, 481.0, 72.0, 29.0 ],
+					"patching_rect" : [ 186.5, 485.0, 68.0, 24.0 ],
 					"style" : "",
-					"text" : "0 0 114"
+					"text" : "6 1 16"
 				}
 
 			}
@@ -254,7 +277,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -506,7 +529,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -723,23 +746,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 3,
-					"fontname" : "Arial",
-					"fontsize" : 20.899994,
-					"id" : "obj-17",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 4.0, 390.0, 30.0 ],
-					"style" : "",
-					"text" : "What is a matrix ?",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"varname" : "autohelp_top_title[1]"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"hidden" : 1,
@@ -748,7 +754,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 9.0, 213.0, 61.0, 20.0 ],
+					"patching_rect" : [ 17.0, 213.0, 61.0, 22.0 ],
 					"style" : "",
 					"text" : "loadbang"
 				}
@@ -764,7 +770,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 9.0, 235.0, 112.0, 20.0 ],
+					"patching_rect" : [ 17.0, 240.0, 112.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.noise 1 char 9 9"
 				}
@@ -789,7 +795,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
-					"patching_rect" : [ 5.0, 341.0, 361.0, 121.0 ],
+					"patching_rect" : [ 13.0, 341.0, 361.0, 121.0 ],
 					"precision" : 4,
 					"rowheight" : 40,
 					"rows" : 3,
@@ -817,7 +823,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
-					"patching_rect" : [ 159.0, 164.0, 81.0, 81.0 ],
+					"patching_rect" : [ 167.0, 164.0, 81.0, 81.0 ],
 					"precision" : 4,
 					"rowheight" : 40,
 					"rows" : 9,
@@ -845,7 +851,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
-					"patching_rect" : [ 326.0, 164.0, 121.0, 121.0 ],
+					"patching_rect" : [ 334.0, 164.0, 121.0, 121.0 ],
 					"precision" : 4,
 					"rowheight" : 40,
 					"rows" : 9,
@@ -873,7 +879,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
-					"patching_rect" : [ 8.0, 164.0, 41.0, 41.0 ],
+					"patching_rect" : [ 16.0, 164.0, 41.0, 41.0 ],
 					"precision" : 4,
 					"rowheight" : 40,
 					"rows" : 9,
@@ -891,7 +897,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 40.0, 560.0, 67.0 ],
+					"patching_rect" : [ 13.0, 51.0, 506.0, 67.0 ],
 					"style" : "",
 					"text" : "A matrix is a collection of items, ordered in columns and rows. Every item in the matrix has a specific address, given by its horizontal and vertical position."
 				}
@@ -905,7 +911,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 313.0, 104.0, 27.0 ],
+					"patching_rect" : [ 10.0, 313.0, 104.0, 27.0 ],
 					"style" : "",
 					"text" : "9x3 matrix"
 				}
@@ -919,7 +925,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 137.0, 115.0, 27.0 ],
+					"patching_rect" : [ 13.0, 137.0, 115.0, 27.0 ],
 					"style" : "",
 					"text" : "1x1 matrix"
 				}
@@ -933,7 +939,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 155.0, 137.0, 115.0, 27.0 ],
+					"patching_rect" : [ 163.0, 137.0, 115.0, 27.0 ],
 					"style" : "",
 					"text" : "2x2 matrix"
 				}
@@ -947,7 +953,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 322.0, 137.0, 115.0, 27.0 ],
+					"patching_rect" : [ 330.0, 137.0, 115.0, 27.0 ],
 					"style" : "",
 					"text" : "3x3 matrix"
 				}
@@ -963,27 +969,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 371.0, 341.0, 176.0, 57.0 ],
+					"patching_rect" : [ 379.0, 341.0, 176.0, 57.0 ],
 					"style" : "",
 					"text" : "A cell is referred to by its position in the matrix (column then row). "
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 180.0,
-					"background" : 1,
-					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
-					"id" : "obj-20",
-					"maxclass" : "panel",
-					"mode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 570.0, 34.0 ],
-					"proportion" : 0.39,
-					"style" : "",
-					"varname" : "autohelp_top_panel[3]"
 				}
 
 			}
@@ -1070,8 +1058,21 @@
 
 			}
  ],
-		"dependency_cache" : [  ],
-		"embedsnapshot" : 0
+		"dependency_cache" : [ 			{
+				"name" : "Max4VA-Title.maxpat",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
+				"patcherrelativepath" : "../zpatches",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"embedsnapshot" : 0,
+		"styles" : [ 			{
+				"name" : "simple",
+				"parentstyle" : "",
+				"multi" : 0
+			}
+ ]
 	}
 
 }

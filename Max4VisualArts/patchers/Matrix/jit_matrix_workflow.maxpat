@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -38,6 +38,28 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [ "m4va matrix workflow" ],
+					"bgmode" : 1,
+					"border" : 0,
+					"clickthrough" : 1,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-62",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "Max4VA-Title.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, -278.0 ],
+					"patching_rect" : [ 0.0, 1.0, 487.0, 34.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ -7.0, 12.0, 487.519531, 73.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"hidden" : 1,
@@ -46,7 +68,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 476.0, 106.0, 16.0 ],
+					"patching_rect" : [ 30.0, 476.0, 106.0, 20.0 ],
 					"style" : "",
 					"text" : "load gen_code_index"
 				}
@@ -88,7 +110,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 32.0, 476.0, 66.0, 16.0 ],
+					"patching_rect" : [ 32.0, 476.0, 66.0, 20.0 ],
 					"style" : "",
 					"text" : "load IMI_iter"
 				}
@@ -143,7 +165,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 29.0, 476.0, 76.0, 16.0 ],
+					"patching_rect" : [ 29.0, 476.0, 76.0, 20.0 ],
 					"style" : "",
 					"text" : "load matrix_06"
 				}
@@ -159,7 +181,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 27.0, 476.0, 87.0, 16.0 ],
+					"patching_rect" : [ 27.0, 476.0, 87.0, 20.0 ],
 					"style" : "",
 					"text" : "load gen_vs_expr"
 				}
@@ -240,7 +262,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 34.0, 476.0, 78.0, 16.0 ],
+					"patching_rect" : [ 34.0, 476.0, 78.0, 20.0 ],
 					"style" : "",
 					"text" : "load IMI_jitexpr"
 				}
@@ -256,7 +278,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 24.0, 474.0, 52.0, 19.0 ],
+					"patching_rect" : [ 24.0, 474.0, 52.0, 21.0 ],
 					"style" : "",
 					"text" : "pcontrol"
 				}
@@ -272,7 +294,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 31.0, 476.0, 76.0, 16.0 ],
+					"patching_rect" : [ 31.0, 476.0, 76.0, 20.0 ],
 					"style" : "",
 					"text" : "load matrix_04"
 				}
@@ -288,7 +310,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 476.0, 76.0, 16.0 ],
+					"patching_rect" : [ 30.0, 476.0, 76.0, 20.0 ],
 					"style" : "",
 					"text" : "load matrix_05"
 				}
@@ -304,26 +326,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 27.0, 476.0, 76.0, 16.0 ],
+					"patching_rect" : [ 27.0, 476.0, 76.0, 20.0 ],
 					"style" : "",
 					"text" : "load matrix_03"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 3,
-					"fontname" : "Arial",
-					"fontsize" : 20.871338,
-					"id" : "obj-24",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 4.0, 264.0, 30.0 ],
-					"style" : "",
-					"text" : "IMI matrix workflow",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"varname" : "autohelp_top_title"
 				}
 
 			}
@@ -337,7 +342,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1.0, 19.0, 166.0, 18.0 ],
+					"patching_rect" : [ 1.0, 19.0, 166.0, 20.0 ],
 					"style" : "",
 					"text" : "loadmess read matrix_workflow.jpg"
 				}
@@ -353,23 +358,6 @@
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 1.0, 39.5, 633.0, 458.0 ],
 					"pic" : "matrix_workflow.jpg"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 180.0,
-					"background" : 1,
-					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
-					"id" : "obj-25",
-					"maxclass" : "panel",
-					"mode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 633.0, 35.0 ],
-					"proportion" : 0.39,
-					"style" : ""
 				}
 
 			}
@@ -548,13 +536,26 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "matrix_workflow.jpg",
-				"bootpath" : "/Users/Shared/Max 7/Packages/IMIpatches/patchers/Global/image",
-				"patcherrelativepath" : "../Global/image",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/Sources/images",
+				"patcherrelativepath" : "../Sources/images",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "Max4VA-Title.maxpat",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
+				"patcherrelativepath" : "../zpatches",
+				"type" : "JSON",
+				"implicit" : 1
+			}
  ],
-		"embedsnapshot" : 0
+		"embedsnapshot" : 0,
+		"styles" : [ 			{
+				"name" : "simple",
+				"parentstyle" : "",
+				"multi" : 0
+			}
+ ]
 	}
 
 }

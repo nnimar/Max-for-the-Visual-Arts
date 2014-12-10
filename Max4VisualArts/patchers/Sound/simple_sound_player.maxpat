@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -51,7 +51,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -94,7 +94,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 329.5, 439.0, 100.0, 20.0 ],
+									"patching_rect" : [ 329.5, 444.0, 100.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 357.0, 140.0, 100.0, 20.0 ],
 									"style" : "",
@@ -115,7 +115,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 329.5, 439.0, 35.0, 20.0 ],
+									"patching_rect" : [ 329.5, 444.0, 35.0, 20.0 ],
 									"style" : "",
 									"text" : "open"
 								}
@@ -131,7 +131,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 329.5, 439.0, 48.0, 20.0 ],
+									"patching_rect" : [ 329.5, 444.0, 48.0, 20.0 ],
 									"style" : "",
 									"text" : "pcontrol"
 								}
@@ -152,7 +152,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -160,7 +160,7 @@
 										"rect" : [ 445.0, 44.0, 371.0, 107.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
-										"default_fontsize" : 13.0,
+										"default_fontsize" : 10.0,
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
 										"gridonopen" : 1,
@@ -203,8 +203,6 @@
 											}
 , 											{
 												"box" : 												{
-													"fontface" : 0,
-													"fontname" : "Arial",
 													"fontsize" : 11.595187,
 													"id" : "obj-36",
 													"items" : [ "Built-in Microphone", ",", "Built-in Input", ",", "Soundflower (2ch)", ",", "Soundflower (64ch)" ],
@@ -358,8 +356,6 @@
 											}
 , 											{
 												"box" : 												{
-													"fontface" : 0,
-													"fontname" : "Arial",
 													"fontsize" : 11.595187,
 													"id" : "obj-94",
 													"items" : [ "Off", ",", "On" ],
@@ -452,8 +448,6 @@
 											}
 , 											{
 												"box" : 												{
-													"fontface" : 0,
-													"fontname" : "Arial",
 													"fontsize" : 11.595187,
 													"id" : "obj-61",
 													"items" : [ "None", ",", "Core Audio", ",", "NonRealTime", ",", "ad_portaudio", "Core Audio", ",", "ad_rewire", ",", "Live" ],
@@ -649,7 +643,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 329.5, 439.0, 51.0, 20.0 ],
+									"patching_rect" : [ 329.5, 444.0, 51.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -679,7 +673,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 0,
 									"offset" : [ 0.0, -278.0 ],
-									"patching_rect" : [ 0.5, 0.0, 394.0, 64.0 ],
+									"patching_rect" : [ 0.0, 0.0, 394.0, 59.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ -22.0, -3.0, 487.519531, 73.0 ],
 									"viewvisibility" : 1
@@ -727,7 +721,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -990,7 +984,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 304.5, 370.0, 98.0, 39.0 ],
+									"patching_rect" : [ 304.5, 375.0, 98.0, 39.0 ],
 									"style" : "",
 									"text" : "alias + file name"
 								}
@@ -1005,7 +999,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "bang" ],
-									"patching_rect" : [ 270.5, 408.0, 159.0, 22.0 ],
+									"patching_rect" : [ 270.5, 413.0, 159.0, 22.0 ],
 									"style" : "",
 									"text" : "buffer~ soundz cherokee.aif"
 								}
@@ -1149,8 +1143,8 @@
 										"loopend" : [ 0.0, "ms" ],
 										"loopstart" : [ 0.0, "ms" ],
 										"mode" : "basic",
-										"originallength" : [ 1039.395142, "ticks" ],
-										"originaltempo" : 37.647614,
+										"originallength" : [ 856.787964, "ticks" ],
+										"originaltempo" : 31.033457,
 										"phase" : [ 0.0, "ticks" ],
 										"pitchcorrection" : 0,
 										"quality" : "basic",
@@ -1386,7 +1380,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -1487,7 +1481,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -1495,7 +1489,7 @@
 										"rect" : [ 445.0, 44.0, 371.0, 107.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
-										"default_fontsize" : 13.0,
+										"default_fontsize" : 10.0,
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
 										"gridonopen" : 1,
@@ -1538,8 +1532,6 @@
 											}
 , 											{
 												"box" : 												{
-													"fontface" : 0,
-													"fontname" : "Arial",
 													"fontsize" : 11.595187,
 													"id" : "obj-36",
 													"items" : [ "Built-in Microphone", ",", "Built-in Input", ",", "Soundflower (2ch)", ",", "Soundflower (64ch)" ],
@@ -1693,8 +1685,6 @@
 											}
 , 											{
 												"box" : 												{
-													"fontface" : 0,
-													"fontname" : "Arial",
 													"fontsize" : 11.595187,
 													"id" : "obj-94",
 													"items" : [ "Off", ",", "On" ],
@@ -1787,8 +1777,6 @@
 											}
 , 											{
 												"box" : 												{
-													"fontface" : 0,
-													"fontname" : "Arial",
 													"fontsize" : 11.595187,
 													"id" : "obj-61",
 													"items" : [ "None", ",", "Core Audio", ",", "NonRealTime", ",", "ad_portaudio", "Core Audio", ",", "ad_rewire", ",", "Live" ],
@@ -2014,7 +2002,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 0,
 									"offset" : [ 0.0, -278.0 ],
-									"patching_rect" : [ 1.0, 0.0, 394.0, 64.0 ],
+									"patching_rect" : [ 0.0, 0.0, 394.0, 64.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ -22.0, -3.0, 487.519531, 73.0 ],
 									"viewvisibility" : 1
@@ -2072,7 +2060,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -2659,7 +2647,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -2707,7 +2695,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 0,
 									"offset" : [ 0.0, -278.0 ],
-									"patching_rect" : [ 1.0, 0.0, 341.0, 61.0 ],
+									"patching_rect" : [ 0.0, 0.0, 341.0, 61.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ -22.0, -3.0, 487.519531, 73.0 ],
 									"viewvisibility" : 1
@@ -2963,7 +2951,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -2971,7 +2959,7 @@
 										"rect" : [ 445.0, 44.0, 371.0, 107.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
-										"default_fontsize" : 13.0,
+										"default_fontsize" : 10.0,
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
 										"gridonopen" : 1,
@@ -3014,8 +3002,6 @@
 											}
 , 											{
 												"box" : 												{
-													"fontface" : 0,
-													"fontname" : "Arial",
 													"fontsize" : 11.595187,
 													"id" : "obj-36",
 													"items" : [ "Built-in Microphone", ",", "Built-in Input", ",", "Soundflower (2ch)", ",", "Soundflower (64ch)" ],
@@ -3169,8 +3155,6 @@
 											}
 , 											{
 												"box" : 												{
-													"fontface" : 0,
-													"fontname" : "Arial",
 													"fontsize" : 11.595187,
 													"id" : "obj-94",
 													"items" : [ "Off", ",", "On" ],
@@ -3263,8 +3247,6 @@
 											}
 , 											{
 												"box" : 												{
-													"fontface" : 0,
-													"fontname" : "Arial",
 													"fontsize" : 11.595187,
 													"id" : "obj-61",
 													"items" : [ "None", ",", "Core Audio", ",", "NonRealTime", ",", "ad_portaudio", "Core Audio", ",", "ad_rewire", ",", "Live" ],
@@ -3634,7 +3616,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 14.0, 77.0, 42.0, 22.0 ],
+									"patching_rect" : [ 14.0, 77.0, 42.0, 23.0 ],
 									"style" : "default",
 									"triscale" : 0.9
 								}
@@ -3662,7 +3644,6 @@
 									"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
 									"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 									"fontname" : "Arial Bold",
-									"fontsize" : 13.0,
 									"hint" : "",
 									"id" : "obj-29",
 									"ignoreclick" : 1,
@@ -3691,7 +3672,6 @@
 									"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
 									"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 									"fontname" : "Arial Bold",
-									"fontsize" : 13.0,
 									"hint" : "",
 									"id" : "obj-24",
 									"ignoreclick" : 1,
@@ -3954,6 +3934,7 @@
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
+						"fontsize" : 13.0,
 						"globalpatchername" : "",
 						"style" : "",
 						"tags" : ""
@@ -3974,36 +3955,36 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "past2.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/IMIpatches/patchers/Toolbox/imi_objects",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/Toolbox/imi_objects",
 				"patcherrelativepath" : "../Toolbox/imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "imi.desktop.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/IMIpatches/patchers/Toolbox/imi_objects",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/Toolbox/imi_objects",
 				"patcherrelativepath" : "../Toolbox/imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "imi.movieloader.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/IMIpatches/patchers/Toolbox/imi_objects",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/Toolbox/imi_objects",
 				"patcherrelativepath" : "../Toolbox/imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "IMIMovies.txt",
-				"bootpath" : "/Users/Shared/Max 7/Packages/IMIpatches/patchers/z",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/z",
 				"patcherrelativepath" : "../z",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Max4VA-Title.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/IMIpatches/templates",
-				"patcherrelativepath" : "../../templates",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
+				"patcherrelativepath" : "../zpatches",
 				"type" : "JSON",
 				"implicit" : 1
 			}

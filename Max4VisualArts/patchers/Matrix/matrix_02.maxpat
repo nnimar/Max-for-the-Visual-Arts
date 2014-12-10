@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 646.0, 79.0, 711.0, 421.0 ],
+		"rect" : [ 631.0, 44.0, 711.0, 421.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 13.0,
@@ -38,6 +38,28 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [ "the matrix, part 2: a digital image" ],
+					"bgmode" : 1,
+					"border" : 0,
+					"clickthrough" : 1,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-62",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "Max4VA-Title.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, -278.0 ],
+					"patching_rect" : [ 0.0, 0.0, 487.0, 34.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ -7.0, 12.0, 487.519531, 73.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-4",
@@ -49,7 +71,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -131,7 +153,7 @@
 									"bblend" : 100,
 									"bgcolor" : [ 0.992218, 0.992218, 0.992218, 1.0 ],
 									"cols" : 1,
-									"colwidth" : 350,
+									"colwidth" : 250,
 									"fblend" : 100,
 									"fontface" : 0,
 									"fontname" : "Arial",
@@ -254,10 +276,16 @@
 								}
 
 							}
+ ],
+						"styles" : [ 							{
+								"name" : "simple",
+								"parentstyle" : "",
+								"multi" : 0
+							}
  ]
 					}
 ,
-					"patching_rect" : [ 151.0, 391.5, 64.0, 24.0 ],
+					"patching_rect" : [ 153.0, 391.5, 64.0, 24.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -315,7 +343,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -393,17 +421,18 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 656.0, 15.0, 49.0, 20.0 ],
+					"patching_rect" : [ 504.0, 14.0, 57.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
+						"fontsize" : 13.0,
 						"globalpatchername" : "",
 						"style" : "",
 						"tags" : ""
 					}
 ,
 					"style" : "",
-					"text" : "p source"
+					"text" : "p copyright"
 				}
 
 			}
@@ -424,8 +453,8 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
-					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"bgoncolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-24",
 					"legacytextcolor" : 1,
@@ -437,13 +466,12 @@
 					"patching_rect" : [ 586.0, 392.5, 117.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 716.0, 268.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
 					"style" : "",
 					"text" : "jit unpack planes",
-					"textcolor" : [ 0.15, 0.15, 0.15, 1.0 ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -494,7 +522,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -797,7 +825,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 5.0, 391.5, 141.0, 24.0 ],
+					"patching_rect" : [ 7.0, 391.5, 141.0, 24.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -814,23 +842,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 3,
-					"fontname" : "Arial",
-					"fontsize" : 20.899994,
-					"id" : "obj-17",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 4.0, 390.0, 30.0 ],
-					"style" : "",
-					"text" : "Matrix 2 : a digital image",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"varname" : "autohelp_top_title[1]"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 18.0,
 					"id" : "obj-5",
@@ -838,7 +849,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 44.0, 393.0, 328.0 ],
+					"patching_rect" : [ 7.0, 44.0, 393.0, 328.0 ],
 					"style" : "",
 					"text" : "A digital image is represented as a matrix with numbers representing each pixel.\n\nTypically, images are saved with 8 bits, so there are 256 values to choose from (char).\n\nColours are represented in ARGB where A is the alpha channel (transparency) and RGB is the red, green, blue.\n\nThus to represent a colour image, it is necessary with 4 values for each pixel (planes)\n\nA jitter matrix is 4 planes, x by y dimension (the resolution) with values between 0 and 255 to describe every pixels. "
 				}
@@ -854,24 +865,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 442.0, 46.0, 242.0, 183.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 180.0,
-					"background" : 1,
-					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
-					"id" : "obj-20",
-					"maxclass" : "panel",
-					"mode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 2.0, 705.0, 34.0 ],
-					"proportion" : 0.39,
-					"style" : "",
-					"varname" : "autohelp_top_panel[3]"
 				}
 
 			}
@@ -897,13 +890,26 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "imi.matrix2cell.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/IMIpatches/patchers/Toolbox/imi_objects",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/Toolbox/imi_objects",
 				"patcherrelativepath" : "../Toolbox/imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "Max4VA-Title.maxpat",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
+				"patcherrelativepath" : "../zpatches",
+				"type" : "JSON",
+				"implicit" : 1
+			}
  ],
-		"embedsnapshot" : 0
+		"embedsnapshot" : 0,
+		"styles" : [ 			{
+				"name" : "simple",
+				"parentstyle" : "",
+				"multi" : 0
+			}
+ ]
 	}
 
 }
