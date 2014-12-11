@@ -20,20 +20,11 @@ function do5Installation {
 
 function doInstallation {
 
-	# CLEAN
-	
-	if [ -e "$IMIextra/_IMI_help.maxpat" ] ; then
-		rm "$IMIextra/_IMI_help.maxpat";
-		rm "$IMIextra/_IMI_help_advanced.maxpat";
-		rm -r -f "$IMIextra/_IMI";
-		echo ""
-	fi
-		
 	# PREPARE
 	
 	if [ -e "$C74Examples" ] ; then
 		
-		if [[ $whichVersion == 3 ]]; then
+		if [[ $whichVersion == 4 ]]; then
 			if [[ ! -e "$IMIpatches" ]] ; then
 				mkdir "$C74Examples/IMIpatches";
 				mkdir "$IMIpatches";
@@ -43,7 +34,7 @@ function doInstallation {
 
 		if [[ ! -e "$IMIpatches" ]] ; then
 			mkdir "$IMIpatches";
-			echo "- Create IMIpatches folder\n";
+			echo "- Create the m4va patches folder\n";
 		fi
 
 		cd "$IMIpatches";
@@ -51,22 +42,22 @@ function doInstallation {
 		
 		if [[ $whichVersion == 2 ]]; then
 			
-			cp -R "$InstallFolder/IMIpatches/patchers" "$IMIpatches" && echo -ne "... patchers\n";
-			cp -R "$InstallFolder/IMIpatches/media" "$IMIpatches" && echo -ne "... media.\n";
-			cp -R "$InstallFolder/IMIpatches/apps" "$IMIpatches" && echo -ne "... applications.\n";
-			cp -R "$InstallFolder/IMIpatches/scripts" "$IMIpatches" && echo -ne "... scripts.\n";
-			cp "$InstallFolder/IMIpatches/_IMI_Read me.rtf" "$IMIpatches" && echo -ne "... read_me file\n";	
+			cp -R "$InstallFolder/Max4VisualArts/patchers" "$IMIpatches" && echo -ne "... patchers\n";
+			cp -R "$InstallFolder/Max4VisualArts/media" "$IMIpatches" && echo -ne "... media.\n";
+			cp -R "$InstallFolder/Max4VisualArts/apps" "$IMIpatches" && echo -ne "... applications.\n";
+			cp -R "$InstallFolder/Max4VisualArts/scripts" "$IMIpatches" && echo -ne "... scripts.\n";
+			cp "$InstallFolder/Max4VisualArts/__M4VA_Read me.rtf" "$IMIpatches" && echo -ne "... read_me file\n";	
 			echo ""
-			echo -ne "- Install IMI help in ($IMIextra)\n";
-			cp -R "$InstallFolder/IMIpatches/extras/_IMI" "$IMIextra";
-			cp -R "$InstallFolder/IMIpatches/extras/_IMI_help_advanced.maxpat" "$IMIextra";
-			cp -R "$InstallFolder/IMIpatches/extras/_IMI_help.maxpat" "$IMIextra";
+			echo -ne "- Install M4VA help in ($IMIextra)\n";
+			cp -R "$InstallFolder/Max4VisualArts/extras/_IMI" "$IMIextra";
+			cp -R "$InstallFolder/Max4VisualArts/extras/_IMI_help_advanced.maxpat" "$IMIextra";
+			cp -R "$InstallFolder/Max4VisualArts/extras/_IMI_help.maxpat" "$IMIextra";
 			
 		fi
 
 		if [[ $whichVersion == 3 ]]; then
 			
-			cp -R "$InstallFolder/IMIpatches/" "$IMIpatches" && echo -ne "... done\n";	
+			cp -R "$InstallFolder/Max4VisualArts/" "$IMIpatches" && echo -ne "... done\n";	
 			
 		fi	
 	
@@ -82,7 +73,7 @@ function doInstallation {
 ################################
 clear
 echo "------------------------"
-echo "-- IMI Installation --"
+echo "-- M4VA Installation --"
 echo "------------------------"
 echo ""
 echo ""
