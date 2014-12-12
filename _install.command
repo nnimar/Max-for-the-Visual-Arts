@@ -2,11 +2,11 @@
 # This file must be saved in UTF-8 (because of the shortcuts)
 # Based on the eijes installer, thanks !
 
-#####################################
+###############################################
 # Max for the Visual Arts Installation v2.50
 # Nicolas Marechal
 # n.marechal@lcc.arts.ac.uk
-#####################################
+###############################################
 
 function do5Installation {
 	echo "- Installing Max for the Visual Arts patches";
@@ -24,42 +24,27 @@ function doInstallation {
 	
 	if [ -e "$C74Examples" ] ; then
 		
-		if [[ $whichVersion == 4 ]]; then
-			if [[ ! -e "$IMIpatches" ]] ; then
-				mkdir "$C74Examples/IMIpatches";
-				mkdir "$IMIpatches";
-				echo "- Create IMIpatches and patchers folder\n";
-			fi
-		fi		
-
-		if [[ ! -e "$IMIpatches" ]] ; then
-			mkdir "$IMIpatches";
-			echo "- Create the m4va patches folder\n";
+		if [[ ! -e "$M4VApatches" ]] ; then
+			mkdir "$M4VApatches";
+			echo "- Create the m4va patches folder";
 		fi
 
-		cd "$IMIpatches";
-		echo -ne "- Install IMI patches folder in ($IMIpatches)\n";
+		cd "$M4VApatches";
+		echo -ne "- Install Max for Visual Arts folder in $M4VApatches\n";
 		
-		if [[ $whichVersion == 2 ]]; then
+	# INSTALL
+		
+		if [[ $whichVersion == 4 ]]; then
 			
-			cp -R "$InstallFolder/Max4VisualArts/patchers" "$IMIpatches" && echo -ne "... patchers\n";
-			cp -R "$InstallFolder/Max4VisualArts/media" "$IMIpatches" && echo -ne "... media.\n";
-			cp -R "$InstallFolder/Max4VisualArts/apps" "$IMIpatches" && echo -ne "... applications.\n";
-			cp -R "$InstallFolder/Max4VisualArts/scripts" "$IMIpatches" && echo -ne "... scripts.\n";
-			cp "$InstallFolder/Max4VisualArts/__M4VA_Read me.rtf" "$IMIpatches" && echo -ne "... read_me file\n";	
+			cp -R "$InstallFolder/Max4VisualArts/patchers" "$M4VApatches" && echo -ne "... patchers\n";
+			cp -R "$InstallFolder/Max4VisualArts/media" "$M4VApatches" && echo -ne "... media\n";
+			cp -R "$InstallFolder/Max4VisualArts/apps" "$M4VApatches" && echo -ne "... applications.\n";
+			cp "$InstallFolder/Max4VisualArts/_M4VA_Read me.rtf" "$M4VApatches" && echo -ne "... read_me file\n";	
 			echo ""
-			echo -ne "- Install M4VA help in ($IMIextra)\n";
-			cp -R "$InstallFolder/Max4VisualArts/extras/_IMI" "$IMIextra";
-			cp -R "$InstallFolder/Max4VisualArts/extras/_IMI_help_advanced.maxpat" "$IMIextra";
-			cp -R "$InstallFolder/Max4VisualArts/extras/_IMI_help.maxpat" "$IMIextra";
+			echo -ne "- Install Max for Visual Arts help in $M4VAextra \n";
+			cp -R "$InstallFolder/Max4VisualArts/extras" "$M4VAextra" && echo -ne "... help\n";
 			
 		fi
-
-		if [[ $whichVersion == 3 ]]; then
-			
-			cp -R "$InstallFolder/Max4VisualArts/" "$IMIpatches" && echo -ne "... done\n";	
-			
-		fi	
 	
 		echo ""
 		echo -ne "\n";
@@ -72,9 +57,9 @@ function doInstallation {
 # Installation process
 ################################
 clear
-echo "------------------------"
-echo "-- M4VA Installation --"
-echo "------------------------"
+echo "--------------------------------------"
+echo "--------- M4VA Installation ----------"
+echo "--------------------------------------"
 echo ""
 echo ""
 
@@ -103,7 +88,7 @@ if [ -e "/Applications/Max 6.1" ]; then
 	whichVersion=3; # got Max 6.1
 fi
 
-if [ -e "/Applications/Max 7" ]; then
+if [ -e "/Applications/Max" ]; then
 	whichVersion=4; # got Max 7
 fi
 
@@ -111,13 +96,10 @@ fi
 
 echo -ne "- Checking version... ";
 
-if [[ $whichVersion == 0 ]]; then
-	echo "Max is not installed in the Applications folder. The automatic installation is not possible.";
-	exit 1;
-fi
-
-if [[ $whichVersion > 1 && $whichVersion < 4]]; then
-	echo "This installer is for Max 7 only. Get the Max 5 version: https://github.com/imi/IMI-Max-patches" or the Max 6.1 version: https://github.com/imi/IMI-Max-patches-for-Max6";
+if [[ $whichVersion < 4 ]]; then
+	echo "This installer is for Max 7 only.";
+	echo "Get the Max 5 version: https://github.com/imi/IMI-Max-patches or"; 
+	echo "the Max 6.1 version: https://github.com/imi/IMI-Max-patches-for-Max6";
 	exit 1;
 fi
 
@@ -125,10 +107,10 @@ if [[ $whichVersion == 4 ]]; then
 
 	echo "Max 7 is installed.";
 	echo ""
-	maxAppFolder="/Users/Shared/Documents/Max 7";
+	maxAppFolder="/Users/Shared/Max 7";
 	C74Examples="$maxAppFolder/packages/";
-	IMIpatches="$maxAppFolder/packages/Max4VisualArts/";
-	IMIextra="$maxAppFolder/patches/extras/";
+	M4VApatches="$maxAppFolder/packages/Max4VisualArts/";
+	M4VAextra="$maxAppFolder/packages/Max4VisualArts/extras/";
 	do5Installation;
 fi
 
