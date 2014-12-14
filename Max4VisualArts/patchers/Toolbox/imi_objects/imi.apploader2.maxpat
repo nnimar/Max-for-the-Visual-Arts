@@ -2,31 +2,40 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 6,
-			"minor" : 1,
-			"revision" : 2,
-			"architecture" : "x86"
+			"major" : 7,
+			"minor" : 0,
+			"revision" : 1,
+			"architecture" : "x86",
+			"modernui" : 1
 		}
 ,
-		"rect" : [ 837.0, 44.0, 597.0, 233.0 ],
+		"rect" : [ 512.0, 177.0, 597.0, 233.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 0,
+		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 0,
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 0,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 0,
+		"toolbars_unpinned_last_save" : 0,
+		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
-		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
+		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
@@ -37,7 +46,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 181.0, 570.0, 31.0 ],
+					"patching_rect" : [ 12.0, 181.0, 570.0, 35.0 ],
+					"style" : "",
 					"text" : ";\rmax launchbrowser \\\"file:///Applications/Max%206.1/packages/IMIpatches/apps/faceOSC/faceOSC.app\\\""
 				}
 
@@ -50,7 +60,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 9.0, 25.0, 25.0 ]
+					"patching_rect" : [ 12.0, 9.0, 25.0, 25.0 ],
+					"style" : ""
 				}
 
 			}
@@ -63,7 +74,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "bang", "bang", "bang", "bang" ],
-					"patching_rect" : [ 12.0, 50.0, 84.5, 20.0 ],
+					"patching_rect" : [ 12.0, 50.0, 84.5, 22.0 ],
+					"style" : "",
 					"text" : "t b b b b"
 				}
 
@@ -77,7 +89,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 403.0, 99.0, 24.5, 18.0 ],
+					"patching_rect" : [ 403.0, 99.0, 24.5, 22.0 ],
+					"style" : "",
 					"text" : "#2"
 				}
 
@@ -91,23 +104,26 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 219.0, 99.0, 24.5, 18.0 ],
+					"patching_rect" : [ 219.0, 99.0, 24.5, 22.0 ],
+					"style" : "",
 					"text" : "#1"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-7",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 34.0, 127.0, 388.0, 33.0 ],
-					"text" : "sprintf \\; max launchbrowser \\\\\\\"file:///Applications/Max%206.1/packages/IMIpatches/apps/%s/%s\\\\\\\""
+					"patching_rect" : [ 34.0, 127.0, 388.0, 49.0 ],
+					"style" : "",
+					"text" : "sprintf \\; max launchbrowser \\\\\\\"file:////Users/Shared/Max%207/Packages/Max4VisualArts/apps/%s/%s\\\\\\\""
 				}
 
 			}
@@ -188,7 +204,8 @@
 
 			}
  ],
-		"dependency_cache" : [  ]
+		"dependency_cache" : [  ],
+		"embedsnapshot" : 0
 	}
 
 }

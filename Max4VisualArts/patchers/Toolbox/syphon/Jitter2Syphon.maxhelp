@@ -2,74 +2,89 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 6,
-			"minor" : 1,
-			"revision" : 7,
-			"architecture" : "x86"
+			"major" : 7,
+			"minor" : 0,
+			"revision" : 1,
+			"architecture" : "x86",
+			"modernui" : 1
 		}
 ,
-		"rect" : [ 100.0, 100.0, 440.0, 339.0 ],
+		"rect" : [ 100.0, 100.0, 439.0, 342.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 0,
+		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 0,
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 0,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 0,
+		"toolbars_unpinned_last_save" : 0,
+		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
-		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
+		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
-					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
-					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : "Arial",
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-1",
+					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 212.0, 315.0, 97.0, 20.0 ],
+					"patching_rect" : [ 205.5, 315.0, 97.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 302.0, 189.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
+					"style" : "",
 					"text" : "Syphon tools",
-					"texton" : "Stop"
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"texton" : "Stop",
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
-					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
-					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : "Arial",
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-27",
+					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 316.0, 315.0, 118.0, 20.0 ],
+					"patching_rect" : [ 313.0, 315.0, 118.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 866.0, 418.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
+					"style" : "",
 					"text" : "Syphon Recorder",
-					"texton" : "Stop"
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"texton" : "Stop",
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
 				}
 
 			}
@@ -83,7 +98,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 289.0, 302.5, 147.0, 33.0 ],
+					"patching_rect" : [ 286.0, 302.5, 147.0, 35.0 ],
+					"style" : "",
 					"text" : "imi.apploader2 Syphon Syphon%20Recorder.app"
 				}
 
@@ -97,7 +113,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 154.0, 64.0, 45.0, 20.0 ],
+					"patching_rect" : [ 154.0, 64.0, 45.0, 22.0 ],
+					"style" : "",
 					"text" : "r bang"
 				}
 
@@ -110,7 +127,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 34.0, 156.0, 47.0, 20.0 ],
+					"patching_rect" : [ 34.0, 156.0, 47.0, 22.0 ],
+					"style" : "",
 					"text" : "s bang"
 				}
 
@@ -125,7 +143,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 154.0, 254.0, 200.0, 38.0 ],
+					"patching_rect" : [ 154.0, 254.0, 200.0, 40.0 ],
+					"style" : "",
 					"text" : "jit.gl.syphonserver @servername Jitter2Syphon"
 				}
 
@@ -139,7 +158,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 176.0, 223.0, 93.0, 20.0 ],
+					"patching_rect" : [ 176.0, 223.0, 93.0, 22.0 ],
+					"style" : "",
 					"text" : "jit.gl.videoplane"
 				}
 
@@ -164,7 +184,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 154.0, 106.0, 123.0, 20.0 ],
+					"patching_rect" : [ 154.0, 106.0, 123.0, 22.0 ],
+					"style" : "",
 					"text" : "jit.qt.movie @adapt 1"
 				}
 
@@ -178,7 +199,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 212.0, 64.0, 99.0, 18.0 ],
+					"patching_rect" : [ 212.0, 64.0, 99.0, 22.0 ],
+					"style" : "",
 					"text" : "read sophie.mov"
 				}
 
@@ -188,12 +210,12 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.871338,
-					"frgb" : 0.0,
 					"id" : "obj-128",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2.0, 2.0, 179.0, 30.0 ],
+					"style" : "",
 					"text" : "Jitter2Syphon",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -204,12 +226,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.754705,
-					"frgb" : 0.0,
 					"id" : "obj-129",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 3.0, 31.0, 336.0, 21.0 ],
+					"style" : "",
 					"text" : "basic patch to use Syphon (open Syphon recorder to test)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -218,6 +240,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 11.595187,
 					"id" : "obj-39",
@@ -225,7 +248,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 8.0, 209.0, 61.0, 34.0 ]
+					"patching_rect" : [ 8.0, 209.0, 61.0, 34.0 ],
+					"style" : ""
 				}
 
 			}
@@ -239,7 +263,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 8.0, 254.0, 106.0, 33.0 ],
+					"patching_rect" : [ 8.0, 254.0, 106.0, 35.0 ],
+					"style" : "",
 					"text" : "jit.window syphon @visible 0"
 				}
 
@@ -253,7 +278,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 8.0, 182.0, 70.0, 20.0 ],
+					"patching_rect" : [ 8.0, 182.0, 70.0, 22.0 ],
+					"style" : "",
 					"text" : "jit.gl.render"
 				}
 
@@ -267,7 +293,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "erase" ],
-					"patching_rect" : [ 8.0, 119.0, 71.0, 20.0 ],
+					"patching_rect" : [ 8.0, 119.0, 71.0, 22.0 ],
+					"style" : "",
 					"text" : "t b b erase"
 				}
 
@@ -281,7 +308,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 8.0, 90.0, 65.0, 20.0 ],
+					"patching_rect" : [ 8.0, 90.0, 65.0, 22.0 ],
+					"style" : "",
 					"text" : "qmetro 20"
 				}
 
@@ -294,20 +322,24 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 62.0, 20.0, 20.0 ]
+					"patching_rect" : [ 8.0, 62.0, 20.0, 20.0 ],
+					"style" : ""
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"angle" : 0.0,
 					"bgcolor" : [ 0.666667, 0.666667, 0.666667, 0.27451 ],
-					"grad1" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"id" : "obj-17",
 					"maxclass" : "panel",
+					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 3.0, 57.0, 119.147247, 236.0 ],
-					"rounded" : 30
+					"proportion" : 0.39,
+					"rounded" : 30,
+					"style" : ""
 				}
 
 			}
@@ -321,7 +353,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 198.0, 315.0, 53.0, 20.0 ],
+					"patching_rect" : [ 205.5, 315.0, 53.0, 22.0 ],
+					"style" : "",
 					"text" : "pcontrol"
 				}
 
@@ -336,8 +369,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 198.0, 315.0, 115.0, 18.0 ],
-					"text" : "load IMI_GLsyphon"
+					"patching_rect" : [ 205.5, 315.0, 91.0, 22.0 ],
+					"style" : "",
+					"text" : "load GLsyphon"
 				}
 
 			}
@@ -353,6 +387,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2.0, 2.0, 436.0, 50.0 ],
+					"proportion" : 0.39,
+					"style" : "",
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -491,7 +527,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "imi.apploader2.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/imi_objects",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/Toolbox/imi_objects",
 				"patcherrelativepath" : "../imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
@@ -500,7 +536,8 @@
 				"name" : "jit.gl.syphonserver.mxo",
 				"type" : "iLaX"
 			}
- ]
+ ],
+		"embedsnapshot" : 0
 	}
 
 }

@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1.0, 44.0, 602.0, 517.0 ],
+		"rect" : [ 1.0, 44.0, 623.0, 517.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1164,31 +1164,13 @@
 					"fontface" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 10.301881,
-					"id" : "obj-83",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 404.0, 160.0, 73.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 347.0, 102.0, 72.702438, 18.0 ],
-					"style" : "",
-					"text" : "Input Source"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontface" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 10.301881,
 					"id" : "obj-84",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 404.0, 133.0, 72.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 347.0, 74.0, 70.907318, 18.0 ],
+					"presentation_rect" : [ 347.0, 75.5, 70.907318, 18.0 ],
 					"style" : "",
 					"text" : "Input Device"
 				}
@@ -1527,31 +1509,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgfillcolor_angle" : 270.0,
-					"bgfillcolor_color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-					"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"bgfillcolor_proportion" : 0.39,
-					"bgfillcolor_type" : "color",
-					"fontsize" : 11.595187,
-					"hint" : "Select Input Source",
-					"id" : "obj-67",
-					"items" : "FaceTime HD Camera (Built-in)",
-					"maxclass" : "umenu",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "int", "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 1155.0, 243.5, 103.0, 21.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 424.297577, 102.0, 155.146347, 21.0 ],
-					"style" : "",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 11.595187,
 					"id" : "obj-70",
@@ -1584,7 +1541,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 971.0, 243.5, 164.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 424.297577, 74.0, 155.146347, 21.0 ],
+					"presentation_rect" : [ 424.297577, 74.0, 187.146347, 21.0 ],
 					"style" : "",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
@@ -2457,16 +2414,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-67", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 1054.5, 293.0, 1146.5, 293.0, 1146.5, 236.5, 1164.5, 236.5 ],
-					"source" : [ "obj-47", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-70", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2480,16 +2427,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-49", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-67", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 1008.5, 236.25, 1164.5, 236.25 ],
-					"source" : [ "obj-53", 1 ]
 				}
 
 			}
@@ -2622,15 +2559,6 @@
 					"hidden" : 0,
 					"midpoints" : [ 1164.5, 322.0, 980.5, 322.0 ],
 					"source" : [ "obj-66", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-66", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-67", 0 ]
 				}
 
 			}
@@ -2866,8 +2794,8 @@
 					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"fontsize" : [ 14.0 ],
+					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
