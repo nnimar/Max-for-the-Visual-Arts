@@ -1,6 +1,6 @@
 max_messaging, "max message demystified";
 list_in_max, "a list overview";
-zl_graph_help, "graphic overview of the ZL object";
+zlgraph_help, "graphic overview of the ZL object";
 zl_help, "list overview of the ZL object";
 sprintf_help, "format a message of words and numbers";
 ÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐ,"";

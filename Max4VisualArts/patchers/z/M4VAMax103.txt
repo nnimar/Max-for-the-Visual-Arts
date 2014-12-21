@@ -7,7 +7,7 @@
 10, -----------------------;
 11, <category> 2 Exhibition;
 12, GLsyphon "examples using Syphon";
-13, triplehead2go "using the triplehead2go";
+13, triplehead2go_basic "using the triplehead2go";
 14, multi-layered_video "multi-layered video";
 15, video_twoscreens "video player for multi screens";
 16, iCinema "iCinema";

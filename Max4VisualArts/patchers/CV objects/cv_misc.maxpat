@@ -112,7 +112,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 266.0, 435.0, 85.0, 20.0 ],
+					"patching_rect" : [ 269.0, 435.0, 85.0, 20.0 ],
 					"style" : "",
 					"text" : "cv_features",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -144,6 +144,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"hidden" : 1,
 					"id" : "obj-34",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -421,7 +422,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 456.0, 529.0, 73.0, 20.0 ],
+					"patching_rect" : [ 456.0, 532.0, 73.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 103.0, 472.5, 79.0, 17.0 ],
 					"style" : "",
@@ -447,7 +448,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 535.0, 529.0, 78.0, 20.0 ],
+					"patching_rect" : [ 535.0, 532.0, 78.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 405.0, 468.0, 79.0, 17.0 ],
 					"style" : "",
@@ -471,7 +472,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 535.0, 529.0, 69.0, 20.0 ],
+					"patching_rect" : [ 535.0, 532.0, 69.0, 20.0 ],
 					"style" : "",
 					"text" : "load cv2draw"
 				}
@@ -487,7 +488,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 536.0, 529.0, 46.0, 20.0 ],
+					"patching_rect" : [ 536.0, 532.0, 46.0, 20.0 ],
 					"style" : "",
 					"text" : "pcontrol"
 				}
@@ -1431,7 +1432,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 458.0, 529.0, 89.0, 21.0 ],
+					"patching_rect" : [ 458.0, 532.0, 89.0, 21.0 ],
 					"style" : "",
 					"text" : "load Taptools"
 				}
@@ -1537,7 +1538,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
 					"disabled" : 0,
-					"hidden" : 0,
+					"hidden" : 1,
 					"source" : [ "obj-28", 0 ]
 				}
 
@@ -1906,12 +1907,12 @@
 		"styles" : [ 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
-					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"fontsize" : [ 14.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

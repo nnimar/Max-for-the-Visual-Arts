@@ -2,61 +2,59 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 6,
-			"minor" : 1,
-			"revision" : 3,
-			"architecture" : "x86"
+			"major" : 7,
+			"minor" : 0,
+			"revision" : 1,
+			"architecture" : "x86",
+			"modernui" : 1
 		}
 ,
-		"rect" : [ 1.0, 44.0, 823.0, 319.0 ],
+		"rect" : [ 1.0, 44.0, 773.0, 317.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 13.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 0,
+		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 0,
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 0,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 0,
+		"toolbars_unpinned_last_save" : 0,
+		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
-		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
+		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"fontface" : 3,
-					"fontname" : "Arial",
-					"fontsize" : 20.871338,
-					"frgb" : 0.0,
-					"id" : "obj-46",
-					"maxclass" : "comment",
-					"numinlets" : 1,
+					"args" : [ "osc-route alternatives (spectro/pid)", "here are some good OSC alternatives for cross platform development" ],
+					"bgmode" : 1,
+					"border" : 0,
+					"clickthrough" : 1,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-62",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "Max4VA-Title.maxpat",
+					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 377.0, 30.0 ],
-					"text" : "osc-route alternatives (spectro/pid)",
-					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
-					"varname" : "autohelp_top_title"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.754705,
-					"frgb" : 0.0,
-					"id" : "obj-47",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 31.0, 724.0, 21.0 ],
-					"text" : "OSC-route is a CNMAT object and is not included in Max, here are some good alternatives for cross platform development",
-					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
-					"varname" : "autohelp_top_digest"
+					"offset" : [ 0.0, -278.0 ],
+					"patching_rect" : [ 0.0, 0.0, 779.0, 55.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ -7.0, 12.0, 487.519531, 73.0 ],
+					"viewvisibility" : 1
 				}
 
 			}
@@ -64,12 +62,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-42",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 616.0, 206.0, 97.0, 20.0 ],
+					"style" : "",
 					"text" : "by James Drake"
 				}
 
@@ -83,7 +81,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 478.0, 69.0, 189.0, 20.0 ],
+					"patching_rect" : [ 478.0, 69.0, 189.0, 24.0 ],
+					"style" : "",
 					"text" : "/long/message/format/here 1"
 				}
 
@@ -95,7 +94,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 650.896484, 287.0, 20.0, 20.0 ]
+					"patching_rect" : [ 650.896484, 287.0, 20.0, 20.0 ],
+					"style" : ""
 				}
 
 			}
@@ -106,7 +106,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 591.229858, 287.0, 20.0, 20.0 ]
+					"patching_rect" : [ 591.229858, 287.0, 20.0, 20.0 ],
+					"style" : ""
 				}
 
 			}
@@ -117,7 +118,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 530.563171, 287.0, 20.0, 20.0 ]
+					"patching_rect" : [ 530.563171, 287.0, 20.0, 20.0 ],
+					"style" : ""
 				}
 
 			}
@@ -130,7 +132,8 @@
 					"numinlets" : 4,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 530.563171, 253.0, 199.0, 22.0 ],
+					"patching_rect" : [ 530.563171, 253.0, 199.0, 24.0 ],
+					"style" : "",
 					"text" : "route /here /there /everywhere"
 				}
 
@@ -144,7 +147,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 513.0, 97.0, 191.0, 20.0 ],
+					"patching_rect" : [ 513.0, 97.0, 191.0, 24.0 ],
+					"style" : "",
 					"text" : "/long/message/format/there 1"
 				}
 
@@ -158,7 +162,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 591.0, 163.0, 145.0, 20.0 ],
+					"patching_rect" : [ 591.0, 163.0, 145.0, 24.0 ],
+					"style" : "",
 					"text" : "/long/message/format"
 				}
 
@@ -172,7 +177,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 531.0, 127.0, 233.0, 20.0 ],
+					"patching_rect" : [ 531.0, 127.0, 233.0, 24.0 ],
+					"style" : "",
 					"text" : "/long/message/format/everywhere 1"
 				}
 
@@ -186,12 +192,13 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 531.0, 206.0, 79.0, 22.0 ],
+					"patching_rect" : [ 531.0, 206.0, 79.0, 24.0 ],
 					"saved_object_attributes" : 					{
 						"filename" : "oscroute",
 						"parameter_enable" : 0
 					}
 ,
+					"style" : "",
 					"text" : "js oscroute"
 				}
 
@@ -203,7 +210,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 419.896484, 287.0, 20.0, 20.0 ]
+					"patching_rect" : [ 419.896484, 287.0, 20.0, 20.0 ],
+					"style" : ""
 				}
 
 			}
@@ -214,7 +222,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 364.229858, 287.0, 20.0, 20.0 ]
+					"patching_rect" : [ 364.229858, 287.0, 20.0, 20.0 ],
+					"style" : ""
 				}
 
 			}
@@ -225,7 +234,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 307.563171, 287.0, 20.0, 20.0 ]
+					"patching_rect" : [ 307.563171, 287.0, 20.0, 20.0 ],
+					"style" : ""
 				}
 
 			}
@@ -238,7 +248,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 307.563171, 222.0, 81.0, 22.0 ],
+					"patching_rect" : [ 307.563171, 222.0, 81.0, 24.0 ],
+					"style" : "",
 					"text" : "fromsymbol"
 				}
 
@@ -252,7 +263,8 @@
 					"numinlets" : 4,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 307.563171, 253.0, 188.0, 22.0 ],
+					"patching_rect" : [ 307.563171, 253.0, 188.0, 24.0 ],
+					"style" : "",
 					"text" : "route here there everywhere"
 				}
 
@@ -266,7 +278,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 257.0, 192.0, 222.0, 22.0 ],
+					"patching_rect" : [ 257.0, 192.0, 222.0, 24.0 ],
+					"style" : "",
 					"text" : "regexp /long/message/format/(.+)"
 				}
 
@@ -278,7 +291,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 165.333344, 287.0, 20.0, 20.0 ]
+					"patching_rect" : [ 165.333344, 287.0, 20.0, 20.0 ],
+					"style" : ""
 				}
 
 			}
@@ -289,7 +303,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 91.666672, 287.0, 20.0, 20.0 ]
+					"patching_rect" : [ 91.666672, 287.0, 20.0, 20.0 ],
+					"style" : ""
 				}
 
 			}
@@ -300,7 +315,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 20.0, 287.0, 20.0, 20.0 ]
+					"patching_rect" : [ 20.0, 287.0, 20.0, 20.0 ],
+					"style" : ""
 				}
 
 			}
@@ -313,7 +329,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 20.0, 253.0, 236.0, 22.0 ],
+					"patching_rect" : [ 20.0, 253.0, 236.0, 24.0 ],
+					"style" : "",
 					"text" : "OSC-route /here /there /everywhere"
 				}
 
@@ -327,7 +344,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 58.0, 137.0, 233.0, 20.0 ],
+					"patching_rect" : [ 58.0, 137.0, 233.0, 24.0 ],
+					"style" : "",
 					"text" : "/long/message/format/everywhere 1"
 				}
 
@@ -341,7 +359,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 35.0, 107.0, 191.0, 20.0 ],
+					"patching_rect" : [ 35.0, 107.0, 191.0, 24.0 ],
+					"style" : "",
 					"text" : "/long/message/format/there 1"
 				}
 
@@ -355,7 +374,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 20.0, 76.0, 189.0, 20.0 ],
+					"patching_rect" : [ 20.0, 76.0, 189.0, 24.0 ],
+					"style" : "",
 					"text" : "/long/message/format/here 1"
 				}
 
@@ -369,7 +389,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 20.0, 192.0, 218.0, 22.0 ],
+					"patching_rect" : [ 20.0, 192.0, 218.0, 24.0 ],
+					"style" : "",
 					"text" : "OSC-route /long/message/format"
 				}
 
@@ -378,13 +399,12 @@
 				"box" : 				{
 					"background" : 1,
 					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
-					"border" : 0,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontname" : "Arial Bold",
-					"fontsize" : 13.0,
 					"hint" : "",
 					"id" : "obj-53",
 					"ignoreclick" : 1,
+					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -392,9 +412,13 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 672.5, 68.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
+					"style" : "",
 					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1,
 					"varname" : "textbutton[1]"
 				}
 
@@ -403,13 +427,12 @@
 				"box" : 				{
 					"background" : 1,
 					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
-					"border" : 0,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontname" : "Arial Bold",
-					"fontsize" : 13.0,
 					"hint" : "",
 					"id" : "obj-52",
 					"ignoreclick" : 1,
+					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -417,25 +440,14 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 742.0, 163.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
+					"style" : "",
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1,
 					"varname" : "textbutton"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 180.0,
-					"background" : 1,
-					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
-					"id" : "obj-29",
-					"maxclass" : "panel",
-					"mode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 819.0, 51.0 ]
 				}
 
 			}
@@ -655,14 +667,42 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "oscroute.js",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Sensor_Interfaces/5. OSCuino/OSC tools",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/Sensor_Interfaces/5. OSCuino/OSC tools",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "Max4VA-Title.maxpat",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
+				"patcherrelativepath" : "../../../zpatches",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "OSC-route.mxo",
 				"type" : "iLaX"
+			}
+ ],
+		"embedsnapshot" : 0,
+		"styles" : [ 			{
+				"name" : "m4vatextbutton",
+				"default" : 				{
+					"fontsize" : [ 14.0 ],
+					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "simple",
+				"parentstyle" : "",
+				"multi" : 0
 			}
  ]
 	}
