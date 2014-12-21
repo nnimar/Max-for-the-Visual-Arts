@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 0.0, 44.0, 771.0, 548.0 ],
+		"rect" : [ 0.0, 45.0, 771.0, 548.0 ],
 		"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -48,7 +48,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 550.0, 29.0, 32.0, 19.0 ],
+					"patching_rect" : [ 429.0, 28.0, 32.0, 19.0 ],
 					"style" : "",
 					"text" : "r pan"
 				}
@@ -192,7 +192,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 1,
 					"fontname" : "Arial Bold Italic",
 					"fontsize" : 16.233263,
 					"hint" : "Click on a tab to display a list of examples",
@@ -205,12 +204,12 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 490.0, 49.0, 257.0, 21.0 ],
+					"patching_rect" : [ 454.0, 48.0, 284.0, 22.0 ],
 					"spacing_x" : 1.0,
 					"spacing_y" : 0.0,
 					"style" : "",
 					"tabcolor" : [ 0.0, 0.0, 0.0, 0.188235 ],
-					"tabs" : [ "Max101", "Max102", "Max103" ],
+					"tabs" : [ "Max101", "Max102", "Max103", "Max104" ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"valign" : 2,
 					"varname" : "tab[9]"
@@ -242,7 +241,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 20.0, 50.0, 203.0, 18.0 ],
+					"patching_rect" : [ 20.0, 52.0, 203.0, 18.0 ],
 					"style" : "",
 					"text" : "Nicolas Marechal, v2.50 (1/2015)",
 					"textcolor" : [ 0.277516, 0.278843, 0.36965, 1.0 ]
@@ -265,7 +264,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -622,12 +621,11 @@
 					"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 					"bgfillcolor_proportion" : 0.39,
 					"bgfillcolor_type" : "color",
-					"fontface" : 1,
 					"fontname" : "Arial Bold Italic",
 					"fontsize" : 18.0,
 					"id" : "obj-24",
 					"ignoreclick" : 1,
-					"items" : "Global",
+					"items" : "CV_Objects",
 					"maxclass" : "umenu",
 					"menumode" : 1,
 					"numinlets" : 1,
@@ -651,12 +649,11 @@
 					"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 					"bgfillcolor_proportion" : 0.39,
 					"bgfillcolor_type" : "color",
-					"fontface" : 1,
 					"fontname" : "Arial Bold Italic",
 					"fontsize" : 10.435669,
 					"id" : "obj-25",
 					"ignoreclick" : 1,
-					"items" : [ ",", "useful objects for Max", ",", "max message demystified", ",", "useful objects to handle lists", ",", "a few rules to help you patching", ",", "a visual guide for visual programming" ],
+					"items" : [ ",", "cv face find & replace", ",", "basic gesture interface", ",", "return the center mass (and the mass)", ",", "blob detections", ",", "miscellaneous cv", ",", "tools to use the kinect" ],
 					"maxclass" : "umenu",
 					"menumode" : 1,
 					"numinlets" : 1,
@@ -674,7 +671,6 @@
 , 			{
 				"box" : 				{
 					"button" : 1,
-					"fontface" : 1,
 					"fontname" : "Arial Bold",
 					"fontsize" : 10.435669,
 					"hint" : "",
@@ -688,7 +684,7 @@
 					"patching_rect" : [ 535.0, 354.0, 209.0, 155.0 ],
 					"style" : "",
 					"tabcolor" : [ 0.0, 0.0, 0.0, 0.188235 ],
-					"tabs" : [ "IMI_toolbox", "IMI_max_messaging", "list_toolbox", "Max_patching_rules", "Max_style_guide" ],
+					"tabs" : [ "cv_faces.findreplace", "cv_HSflow", "cv_centroid", "cv_jit.blobs", "cv_misc", "kinect" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[6]"
 				}
@@ -710,7 +706,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -1067,12 +1063,11 @@
 					"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 					"bgfillcolor_proportion" : 0.39,
 					"bgfillcolor_type" : "color",
-					"fontface" : 1,
 					"fontname" : "Arial Bold Italic",
 					"fontsize" : 18.0,
 					"id" : "obj-19",
 					"ignoreclick" : 1,
-					"items" : "Sensors",
+					"items" : "Computer_Vision",
 					"maxclass" : "umenu",
 					"menumode" : 1,
 					"numinlets" : 1,
@@ -1096,12 +1091,11 @@
 					"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 					"bgfillcolor_proportion" : 0.39,
 					"bgfillcolor_type" : "color",
-					"fontface" : 1,
 					"fontname" : "Arial Bold Italic",
 					"fontsize" : 10.435669,
 					"id" : "obj-20",
 					"ignoreclick" : 1,
-					"items" : [ ",", "arduino interfaces", ",", "wii interfaces", ",", "wireless interfaces", ",", "misc interfaces and protocols", ",", "introduction to open sound control (OSC)", ",", "sensor tools" ],
+					"items" : [ ",", "track a colour with jit.findbounds", ",", "frame differencing and silhouette", ",", "background removal", ",", "softVNS v.region object", ",", "an interface to faceOSC", ",", "an interface to TSPS" ],
 					"maxclass" : "umenu",
 					"menumode" : 1,
 					"numinlets" : 1,
@@ -1119,7 +1113,6 @@
 , 			{
 				"box" : 				{
 					"button" : 1,
-					"fontface" : 1,
 					"fontname" : "Arial Bold",
 					"fontsize" : 10.435669,
 					"hint" : "",
@@ -1133,7 +1126,7 @@
 					"patching_rect" : [ 283.0, 354.0, 209.0, 155.0 ],
 					"style" : "",
 					"tabcolor" : [ 0.0, 0.0, 0.0, 0.188235 ],
-					"tabs" : [ "IMI_arduino_interfaces", "IMI_wii_interfaces", "IMI_xbee_interfaces", "IMI_misc_interfaces", "IMI_osc_protocol", "IMI_sensors_tools" ],
+					"tabs" : [ "colourtrack", "c74_camera_data", "background_removal", "v.regions", "faceOSC", "TSPSosc" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[5]"
 				}
@@ -1155,7 +1148,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -1512,12 +1505,11 @@
 					"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 					"bgfillcolor_proportion" : 0.39,
 					"bgfillcolor_type" : "color",
-					"fontface" : 1,
 					"fontname" : "Arial Bold Italic",
 					"fontsize" : 18.0,
 					"id" : "obj-14",
 					"ignoreclick" : 1,
-					"items" : "Drawing",
+					"items" : "Grab",
 					"maxclass" : "umenu",
 					"menumode" : 1,
 					"numinlets" : 1,
@@ -1541,12 +1533,11 @@
 					"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 					"bgfillcolor_proportion" : 0.39,
 					"bgfillcolor_type" : "color",
-					"fontface" : 1,
 					"fontname" : "Arial Bold Italic",
 					"fontsize" : 10.435669,
 					"id" : "obj-15",
 					"ignoreclick" : 1,
-					"items" : [ ",", "intro to LCD", ",", "intro to jit.mgraphics", ",", "simple drawing with jit.magraphics", ",", "drawing like Processing" ],
+					"items" : [ ",", "simple video grab", ",", "timelapse", ",", "use webcam, netcam and dslr", ",", "return the position of a light", ",", "return the position of movements" ],
 					"maxclass" : "umenu",
 					"menumode" : 1,
 					"numinlets" : 1,
@@ -1564,7 +1555,6 @@
 , 			{
 				"box" : 				{
 					"button" : 1,
-					"fontface" : 1,
 					"fontname" : "Arial Bold",
 					"fontsize" : 10.435669,
 					"hint" : "",
@@ -1578,7 +1568,7 @@
 					"patching_rect" : [ 30.0, 354.0, 209.0, 155.0 ],
 					"style" : "",
 					"tabcolor" : [ 0.0, 0.0, 0.0, 0.188235 ],
-					"tabs" : [ "IMI_jit_lcd", "IMI_jit_mgraphics", "mgraphics_drawing", "IMI_max_processing" ],
+					"tabs" : [ "videograb", "timelapse", "grab2syphon", "grab_position", "grab_hotspot" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[4]"
 				}
@@ -1600,7 +1590,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -1957,12 +1947,11 @@
 					"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 					"bgfillcolor_proportion" : 0.39,
 					"bgfillcolor_type" : "color",
-					"fontface" : 1,
 					"fontname" : "Arial Bold Italic",
 					"fontsize" : 18.0,
 					"id" : "obj-9",
 					"ignoreclick" : 1,
-					"items" : "Sound",
+					"items" : "Internet",
 					"maxclass" : "umenu",
 					"menumode" : 1,
 					"numinlets" : 1,
@@ -1986,12 +1975,11 @@
 					"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 					"bgfillcolor_proportion" : 0.39,
 					"bgfillcolor_type" : "color",
-					"fontface" : 1,
 					"fontname" : "Arial Bold Italic",
 					"fontsize" : 10.435669,
 					"id" : "obj-10",
 					"ignoreclick" : 1,
-					"items" : [ ",", "sound player using jit.qt.movie", ",", "sound players (sfplay, play, groove)", ",", "multi sound player using sfplay", ",", "simple loop maker", ",", "sound toolbox" ],
+					"items" : [ ",", "use XML with Max", ",", "use JSON with Max", ",", "access openWeather", ",", "access xively feed", ",", "read the BBCnews", ",", "read the twitter api", ",", "regular expression" ],
 					"maxclass" : "umenu",
 					"menumode" : 1,
 					"numinlets" : 1,
@@ -2009,7 +1997,6 @@
 , 			{
 				"box" : 				{
 					"button" : 1,
-					"fontface" : 1,
 					"fontname" : "Arial Bold",
 					"fontsize" : 10.435669,
 					"frozen_box_attributes" : [ "border" ],
@@ -2024,7 +2011,7 @@
 					"patching_rect" : [ 534.0, 121.0, 209.0, 155.0 ],
 					"style" : "",
 					"tabcolor" : [ 0.0, 0.0, 0.0, 0.188235 ],
-					"tabs" : [ "IMI_sound_player_qtmovie", "IMI_simple_sound_player", "IMI_multi_sound_player", "loop_maker", "sound_toolbox" ],
+					"tabs" : [ "xml", "json", "openWeather", "xively_report", "BBCnews", "twitter_read", "regexp_tutorial" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[3]"
 				}
@@ -2046,7 +2033,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -2403,12 +2390,11 @@
 					"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 					"bgfillcolor_proportion" : 0.39,
 					"bgfillcolor_type" : "color",
-					"fontface" : 1,
 					"fontname" : "Arial Bold Italic",
 					"fontsize" : 18.0,
 					"id" : "obj-4",
 					"ignoreclick" : 1,
-					"items" : "Video",
+					"items" : "Text",
 					"maxclass" : "umenu",
 					"menumode" : 1,
 					"numinlets" : 1,
@@ -2432,12 +2418,11 @@
 					"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 					"bgfillcolor_proportion" : 0.39,
 					"bgfillcolor_type" : "color",
-					"fontface" : 1,
 					"fontname" : "Arial Bold Italic",
 					"fontsize" : 10.435669,
 					"id" : "obj-7",
 					"ignoreclick" : 1,
-					"items" : [ ",", "help for jit.qt.movie", ",", "sound to animation", ",", "brightness and colouring" ],
+					"items" : [ ",", "text basics", ",", "text + alpha layer", ",", "typing text in a window", ",", "max and litterature", ",", "a simple patch to place text", ",", "interactive text patch" ],
 					"maxclass" : "umenu",
 					"menumode" : 1,
 					"numinlets" : 1,
@@ -2455,7 +2440,6 @@
 , 			{
 				"box" : 				{
 					"button" : 1,
-					"fontface" : 1,
 					"fontname" : "Arial Bold",
 					"fontsize" : 10.435669,
 					"hint" : "",
@@ -2469,7 +2453,7 @@
 					"patching_rect" : [ 282.0, 121.0, 209.0, 155.0 ],
 					"style" : "",
 					"tabcolor" : [ 0.0, 0.0, 0.0, 0.188235 ],
-					"tabs" : [ "IMI_quicktime", "IMI_sound_to_animation", "image_adjustment" ],
+					"tabs" : [ "text_basics", "text_alpha", "type_text", "text_oulipo", "coll2text2d", "text_passingtime" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[2]"
 				}
@@ -2491,7 +2475,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -2848,12 +2832,11 @@
 					"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 					"bgfillcolor_proportion" : 0.39,
 					"bgfillcolor_type" : "color",
-					"fontface" : 1,
 					"fontname" : "Arial Bold Italic",
 					"fontsize" : 18.0,
 					"id" : "obj-45",
 					"ignoreclick" : 1,
-					"items" : "Introduction",
+					"items" : "Matrix",
 					"maxclass" : "umenu",
 					"menumode" : 1,
 					"numinlets" : 1,
@@ -2877,12 +2860,11 @@
 					"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
 					"bgfillcolor_proportion" : 0.39,
 					"bgfillcolor_type" : "color",
-					"fontface" : 1,
 					"fontname" : "Arial Bold Italic",
 					"fontsize" : 10.435669,
 					"id" : "obj-47",
 					"ignoreclick" : 1,
-					"items" : [ ",", "intro to Max", ",", "max sandpit", ",", "patch a day, healthy everyday", ",", "credits" ],
+					"items" : [ ",", "introduction to the jit Matrix", ",", "matrix and friends", ",", "matrix positioning", ",", "matrix lookup data", ",", "matrix feedback" ],
 					"maxclass" : "umenu",
 					"menumode" : 1,
 					"numinlets" : 1,
@@ -2899,9 +2881,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"button" : 1,
-					"fontface" : 1,
 					"fontname" : "Arial Bold",
 					"fontsize" : 10.435669,
 					"hint" : "",
@@ -2915,7 +2895,7 @@
 					"patching_rect" : [ 30.0, 121.0, 209.0, 155.0 ],
 					"style" : "",
 					"tabcolor" : [ 0.0, 0.0, 0.0, 0.188235 ],
-					"tabs" : [ "IMI_introduction", "IMI_max_sandpit", "IMI_maxhelp_a_day", "IMI_credits" ],
+					"tabs" : [ "jit_matrix_introduction", "jit_matrix_and_friends", "matrix_positioning", "matrix_lookup", "matrix_feedback" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[1]"
 				}
@@ -3025,7 +3005,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 712.0, 19.0, 47.0, 19.0 ],
+					"patching_rect" : [ 702.0, 17.0, 47.0, 19.0 ],
 					"style" : "",
 					"text" : "onecopy"
 				}
@@ -3063,12 +3043,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 383.0, 78.0, 914.0, 674.0 ],
+						"rect" : [ 50.0, 190.0, 914.0, 674.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 9.0,
@@ -3099,6 +3079,65 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.435669,
+									"id" : "obj-27",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 671.0, 269.0, 64.0, 20.0 ],
+									"style" : "",
+									"text" : "renumber 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"color" : [ 0.545098, 0.85098, 0.592157, 1.0 ],
+									"fontface" : 0,
+									"fontname" : "Arial Bold",
+									"fontsize" : 10.435669,
+									"id" : "obj-28",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "", "", "", "" ],
+									"patching_rect" : [ 572.0, 284.0, 97.0, 20.0 ],
+									"saved_object_attributes" : 									{
+										"embed" : 0
+									}
+,
+									"style" : "",
+									"text" : "coll M4VAMax104"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgfillcolor_angle" : 270.0,
+									"bgfillcolor_autogradient" : 0.79,
+									"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+									"bgfillcolor_color1" : [ 0.545098, 0.85098, 0.592157, 1.0 ],
+									"bgfillcolor_color2" : [ 0.685, 0.685, 0.685, 1.0 ],
+									"bgfillcolor_proportion" : 0.39,
+									"bgfillcolor_type" : "gradient",
+									"fontname" : "Arial Bold",
+									"fontsize" : 10.435669,
+									"id" : "obj-25",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 75.0, 168.0, 137.0, 20.0 ],
+									"style" : "",
+									"text" : "refer M4VAMax104, dump",
+									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 10.435669,
 									"id" : "obj-8",
 									"maxclass" : "message",
 									"numinlets" : 2,
@@ -3113,6 +3152,7 @@
 , 							{
 								"box" : 								{
 									"color" : [ 0.545098, 0.85098, 0.592157, 1.0 ],
+									"fontface" : 0,
 									"fontname" : "Arial Bold",
 									"fontsize" : 10.435669,
 									"id" : "obj-24",
@@ -3120,13 +3160,13 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 572.0, 244.0, 84.0, 20.0 ],
+									"patching_rect" : [ 572.0, 244.0, 97.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0
 									}
 ,
 									"style" : "",
-									"text" : "coll IMIMax103"
+									"text" : "coll M4VAMax103"
 								}
 
 							}
@@ -3146,9 +3186,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 62.0, 141.0, 123.0, 20.0 ],
+									"patching_rect" : [ 62.0, 141.0, 138.0, 20.0 ],
 									"style" : "",
-									"text" : "refer IMIMax103, dump",
+									"text" : "refer M4VAMax103, dump",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 
@@ -3156,6 +3196,7 @@
 , 							{
 								"box" : 								{
 									"color" : [ 0.545098, 0.85098, 0.592157, 1.0 ],
+									"fontface" : 0,
 									"fontname" : "Arial Bold",
 									"fontsize" : 10.0,
 									"id" : "obj-16",
@@ -3163,13 +3204,13 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 571.0, 177.0, 81.0, 20.0 ],
+									"patching_rect" : [ 571.0, 177.0, 94.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0
 									}
 ,
 									"style" : "",
-									"text" : "coll IMIMax101"
+									"text" : "coll M4VAMax101"
 								}
 
 							}
@@ -3409,6 +3450,7 @@
 , 							{
 								"box" : 								{
 									"color" : [ 0.545098, 0.85098, 0.592157, 1.0 ],
+									"fontface" : 0,
 									"fontname" : "Arial Bold",
 									"fontsize" : 10.435669,
 									"id" : "obj-26",
@@ -3416,13 +3458,13 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 572.0, 211.0, 84.0, 20.0 ],
+									"patching_rect" : [ 572.0, 211.0, 97.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0
 									}
 ,
 									"style" : "",
-									"text" : "coll IMIMax102"
+									"text" : "coll M4VAMax102"
 								}
 
 							}
@@ -3665,16 +3707,17 @@
 							}
 , 							{
 								"box" : 								{
+									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 10.435669,
 									"id" : "obj-10",
 									"maxclass" : "newobj",
-									"numinlets" : 4,
-									"numoutlets" : 4,
-									"outlettype" : [ "bang", "bang", "bang", "" ],
-									"patching_rect" : [ 35.0, 75.0, 59.5, 20.0 ],
+									"numinlets" : 5,
+									"numoutlets" : 5,
+									"outlettype" : [ "bang", "bang", "bang", "bang", "" ],
+									"patching_rect" : [ 35.0, 75.0, 72.333336, 20.0 ],
 									"style" : "",
-									"text" : "sel 0 1 2"
+									"text" : "sel 0 1 2 3"
 								}
 
 							}
@@ -3694,9 +3737,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 49.0, 117.0, 123.0, 20.0 ],
+									"patching_rect" : [ 49.0, 117.0, 137.0, 20.0 ],
 									"style" : "",
-									"text" : "refer IMIMax102, dump",
+									"text" : "refer M4VAMax102, dump",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 
@@ -3717,9 +3760,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 35.0, 97.0, 123.0, 20.0 ],
+									"patching_rect" : [ 35.0, 97.0, 137.0, 20.0 ],
 									"style" : "",
-									"text" : "refer IMIMax101, dump",
+									"text" : "refer M4VAMax101, dump",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 
@@ -4004,6 +4047,15 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
+									"destination" : [ "obj-25", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-10", 3 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-5", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -4188,6 +4240,24 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-21", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-47", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-25", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-28", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-27", 0 ]
 								}
 
 							}
@@ -4554,7 +4624,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 522.0, 320.0, 235.0, 216.0 ],
 					"proportion" : 0.39,
-					"rounded" : 20,
+					"rounded" : 0,
 					"style" : "",
 					"varname" : "panel[6]"
 				}
@@ -4572,7 +4642,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 270.0, 320.0, 235.0, 216.0 ],
 					"proportion" : 0.39,
-					"rounded" : 20,
+					"rounded" : 0,
 					"style" : "",
 					"varname" : "panel[5]"
 				}
@@ -4590,7 +4660,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 17.0, 320.0, 235.0, 216.0 ],
 					"proportion" : 0.39,
-					"rounded" : 20,
+					"rounded" : 0,
 					"style" : "",
 					"varname" : "panel[4]"
 				}
@@ -4608,7 +4678,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 521.0, 87.0, 235.0, 216.0 ],
 					"proportion" : 0.39,
-					"rounded" : 20,
+					"rounded" : 0,
 					"style" : "",
 					"varname" : "panel[3]"
 				}
@@ -4626,7 +4696,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 269.0, 87.0, 235.0, 216.0 ],
 					"proportion" : 0.39,
-					"rounded" : 20,
+					"rounded" : 0,
 					"style" : "",
 					"varname" : "panel[2]"
 				}
@@ -4644,7 +4714,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 17.0, 87.0, 235.0, 217.0 ],
 					"proportion" : 0.39,
-					"rounded" : 20,
+					"rounded" : 0,
 					"style" : "",
 					"varname" : "panel[1]"
 				}
@@ -4662,7 +4732,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 17.0, 17.0, 738.0, 54.0 ],
 					"proportion" : 0.39,
-					"rounded" : 20,
+					"rounded" : 0,
 					"style" : ""
 				}
 
@@ -5196,22 +5266,29 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "IMIMax101.txt",
-				"bootpath" : "/Users/Shared/Max 7/Packages/IMIpatches/patchers/z",
+				"name" : "M4VAMax102.txt",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/z",
 				"patcherrelativepath" : "../patchers/z",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "IMIMax102.txt",
-				"bootpath" : "/Users/Shared/Max 7/Packages/IMIpatches/patchers/z",
+				"name" : "M4VAMax101.txt",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/z",
 				"patcherrelativepath" : "../patchers/z",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "IMIMax103.txt",
-				"bootpath" : "/Users/Shared/Max 7/Packages/IMIpatches/patchers/z",
+				"name" : "M4VAMax103.txt",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/z",
+				"patcherrelativepath" : "../patchers/z",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "M4VAMax104.txt",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/z",
 				"patcherrelativepath" : "../patchers/z",
 				"type" : "TEXT",
 				"implicit" : 1
