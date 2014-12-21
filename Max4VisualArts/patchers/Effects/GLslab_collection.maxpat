@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ -2.0, 44.0, 675.0, 477.0 ],
+		"rect" : [ 0.0, 44.0, 675.0, 486.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,8 +38,28 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"args" : [ "GLslab collection", "jit.gl.slab is the object that deals with shaders, programs written to use the speed of the GPU" ],
+					"bgmode" : 1,
+					"border" : 0,
+					"clickthrough" : 1,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-1",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "Max4VA-Title.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, -278.0 ],
+					"patching_rect" : [ 0.0, 0.0, 532.0, 55.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ -7.0, 12.0, 487.519531, 73.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -49,7 +69,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -95,7 +115,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -745,7 +765,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 4.0, 130.0, 139.0, 22.0 ],
+					"patching_rect" : [ 4.0, 139.0, 139.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -754,7 +774,7 @@
 						"tags" : ""
 					}
 ,
-					"style" : "",
+					"style" : "default",
 					"text" : "p slab-comparison-GEN"
 				}
 
@@ -767,7 +787,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 136.0, 393.0, 155.0, 20.0 ],
+					"patching_rect" : [ 136.0, 399.0, 155.0, 20.0 ],
 					"style" : "",
 					"text" : "difference between frames"
 				}
@@ -781,7 +801,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 494.0, 136.0, 85.0, 20.0 ],
+					"patching_rect" : [ 494.0, 142.0, 85.0, 20.0 ],
 					"style" : "",
 					"text" : "radial blur"
 				}
@@ -789,7 +809,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-36",
@@ -799,16 +819,15 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 355.0, 135.0, 136.0, 20.0 ],
+					"patching_rect" : [ 355.0, 141.0, 136.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 375.0, 433.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
 					"style" : "",
 					"text" : "cf.radialblur.jxs-help",
-					"textcolor" : [ 0.15, 0.15, 0.15, 1.0 ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -822,7 +841,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 554.0, 216.0, 85.0, 20.0 ],
+					"patching_rect" : [ 554.0, 222.0, 85.0, 20.0 ],
 					"style" : "",
 					"text" : "selective blur"
 				}
@@ -830,7 +849,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-33",
@@ -840,16 +859,15 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 355.0, 215.0, 196.0, 20.0 ],
+					"patching_rect" : [ 355.0, 221.0, 196.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 353.0, 212.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
 					"style" : "",
 					"text" : "jit.gl.pix.blur.bilinear.exfoliatior",
-					"textcolor" : [ 0.15, 0.15, 0.15, 1.0 ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -863,7 +881,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 426.0, 189.0, 190.0, 20.0 ],
+					"patching_rect" : [ 426.0, 195.0, 190.0, 20.0 ],
 					"style" : "",
 					"text" : "shader translated in Gen Expr"
 				}
@@ -871,7 +889,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-19",
@@ -881,16 +899,15 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 355.0, 162.0, 151.0, 20.0 ],
+					"patching_rect" : [ 355.0, 168.0, 151.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 307.0, 464.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
 					"style" : "",
 					"text" : "GLslab_glow_and_blur",
-					"textcolor" : [ 0.15, 0.15, 0.15, 1.0 ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -898,7 +915,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-18",
@@ -908,16 +925,15 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 4.0, 394.0, 128.0, 20.0 ],
+					"patching_rect" : [ 4.0, 400.0, 128.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 511.0, 443.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
 					"style" : "",
 					"text" : "jit.gl.slab-framediff",
-					"textcolor" : [ 0.15, 0.15, 0.15, 1.0 ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -925,7 +941,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-17",
@@ -935,16 +951,15 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 355.0, 80.0, 87.0, 20.0 ],
+					"patching_rect" : [ 355.0, 86.0, 87.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 522.0, 147.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
 					"style" : "",
 					"text" : "GLslab_blur",
-					"textcolor" : [ 0.15, 0.15, 0.15, 1.0 ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -952,7 +967,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-14",
@@ -962,16 +977,15 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 355.0, 107.0, 178.0, 20.0 ],
+					"patching_rect" : [ 355.0, 113.0, 178.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 584.0, 211.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
 					"style" : "",
 					"text" : "jit.gl.slab.gauss6x-example",
-					"textcolor" : [ 0.15, 0.15, 0.15, 1.0 ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -979,34 +993,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
-					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
-					"fontsize" : 14.0,
-					"id" : "obj-32",
-					"legacytextcolor" : 1,
-					"maxclass" : "textbutton",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 355.0, 396.0, 100.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 558.0, 474.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
-					"style" : "",
-					"text" : "v001.rutt-etra",
-					"textcolor" : [ 0.15, 0.15, 0.15, 1.0 ],
-					"texton" : "Stop",
-					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
-					"usebgoncolor" : 1,
-					"usetextovercolor" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-31",
@@ -1016,16 +1003,15 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 355.0, 342.0, 89.0, 20.0 ],
+					"patching_rect" : [ 355.0, 348.0, 89.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 541.0, 421.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
 					"style" : "",
 					"text" : "brightLights",
-					"textcolor" : [ 0.15, 0.15, 0.15, 1.0 ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -1033,7 +1019,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-30",
@@ -1043,16 +1029,15 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 355.0, 369.0, 54.0, 20.0 ],
+					"patching_rect" : [ 355.0, 375.0, 54.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 500.0, 444.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
 					"style" : "",
 					"text" : "hsflow",
-					"textcolor" : [ 0.15, 0.15, 0.15, 1.0 ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -1060,7 +1045,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-28",
@@ -1070,16 +1055,15 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 355.0, 315.0, 100.0, 20.0 ],
+					"patching_rect" : [ 355.0, 321.0, 100.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 421.0, 479.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
 					"style" : "",
 					"text" : "shaders-ahoy",
-					"textcolor" : [ 0.15, 0.15, 0.15, 1.0 ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -1087,7 +1071,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-27",
@@ -1097,16 +1081,15 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 5.0, 368.0, 111.0, 20.0 ],
+					"patching_rect" : [ 5.0, 374.0, 111.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 279.0, 503.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
 					"style" : "",
 					"text" : "cf.sobel.jxs-help",
-					"textcolor" : [ 0.15, 0.15, 0.15, 1.0 ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -1114,7 +1097,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-26",
@@ -1124,16 +1107,15 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 5.0, 342.0, 126.0, 20.0 ],
+					"patching_rect" : [ 5.0, 348.0, 126.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 292.0, 477.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
 					"style" : "",
 					"text" : "td.kaleido.jxs-help",
-					"textcolor" : [ 0.15, 0.15, 0.15, 1.0 ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -1141,7 +1123,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-25",
@@ -1151,16 +1133,15 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 5.0, 316.0, 140.0, 20.0 ],
+					"patching_rect" : [ 5.0, 322.0, 140.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 247.0, 495.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
 					"style" : "",
 					"text" : "tr.edgeblend.jxs-help",
-					"textcolor" : [ 0.15, 0.15, 0.15, 1.0 ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -1168,7 +1149,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-20",
@@ -1178,16 +1159,15 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 5.0, 290.0, 141.0, 20.0 ],
+					"patching_rect" : [ 5.0, 296.0, 141.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 127.0, 475.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
 					"style" : "",
 					"text" : "cc.alphaglue.jxs-help",
-					"textcolor" : [ 0.15, 0.15, 0.15, 1.0 ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -1195,7 +1175,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-6",
@@ -1205,16 +1185,15 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 6.0, 194.0, 132.0, 20.0 ],
+					"patching_rect" : [ 6.0, 200.0, 100.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 281.0, 255.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
 					"style" : "",
-					"text" : "IMI_GLslab_simple",
-					"textcolor" : [ 0.15, 0.15, 0.15, 1.0 ],
+					"text" : "GLslab_simple",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -1222,7 +1201,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-3",
@@ -1232,16 +1211,15 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 5.0, 221.0, 91.0, 20.0 ],
+					"patching_rect" : [ 6.0, 227.0, 91.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 269.0, 150.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
 					"style" : "",
-					"text" : "IMI_GLslab+",
-					"textcolor" : [ 0.15, 0.15, 0.15, 1.0 ],
+					"text" : "GLslab+",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -1255,7 +1233,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 132.0, 341.0, 159.0, 20.0 ],
+					"patching_rect" : [ 132.0, 347.0, 159.0, 20.0 ],
 					"style" : "",
 					"text" : "kaleidoscope (texdisplace)"
 				}
@@ -1269,7 +1247,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 514.0, 288.0, 92.0, 20.0 ],
+					"patching_rect" : [ 514.0, 294.0, 92.0, 20.0 ],
 					"style" : "",
 					"text" : "Vade's shaders"
 				}
@@ -1283,7 +1261,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 123.0, 367.0, 142.0, 20.0 ],
+					"patching_rect" : [ 123.0, 373.0, 142.0, 20.0 ],
 					"style" : "",
 					"text" : "sobel filter (convolution)"
 				}
@@ -1299,7 +1277,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 3.0, 341.0, 63.0, 19.0 ],
+					"patching_rect" : [ 3.0, 347.0, 63.0, 19.0 ],
 					"style" : "",
 					"text" : "prepend load"
 				}
@@ -1315,7 +1293,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 4.0, 342.0, 45.0, 19.0 ],
+					"patching_rect" : [ 4.0, 348.0, 45.0, 19.0 ],
 					"style" : "",
 					"text" : "pcontrol"
 				}
@@ -1329,7 +1307,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 152.0, 315.0, 189.0, 20.0 ],
+					"patching_rect" : [ 152.0, 321.0, 189.0, 20.0 ],
 					"style" : "",
 					"text" : "smooth video edges (transition)"
 				}
@@ -1343,7 +1321,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 152.0, 289.0, 191.0, 20.0 ],
+					"patching_rect" : [ 152.0, 295.0, 191.0, 20.0 ],
 					"style" : "",
 					"text" : "mix two images together (color) "
 				}
@@ -1357,7 +1335,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 56.0, 159.0, 22.0 ],
+					"patching_rect" : [ 5.0, 62.0, 159.0, 22.0 ],
 					"style" : "",
 					"text" : "1. CPU vs GL vs GEN"
 				}
@@ -1365,9 +1343,6 @@
 			}
 , 			{
 				"box" : 				{
-					"color" : [ 0.690023, 0.869565, 0.635101, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-4",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -1377,7 +1352,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -1844,7 +1819,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 4.0, 82.0, 138.0, 22.0 ],
+					"patching_rect" : [ 4.0, 88.0, 138.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1853,16 +1828,13 @@
 						"tags" : ""
 					}
 ,
-					"style" : "",
+					"style" : "default",
 					"text" : "p slab-comparison-CPU"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"color" : [ 0.690023, 0.869565, 0.635101, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-5",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -1872,7 +1844,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -2441,7 +2413,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 4.0, 107.0, 139.0, 22.0 ],
+					"patching_rect" : [ 4.0, 113.0, 139.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -2450,7 +2422,7 @@
 						"tags" : ""
 					}
 ,
-					"style" : "",
+					"style" : "default",
 					"text" : "p slab-comparison-GPU"
 				}
 
@@ -2463,7 +2435,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 512.0, 162.0, 150.0, 20.0 ],
+					"patching_rect" : [ 512.0, 168.0, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "glow (co.accum.jxs) + blur"
 				}
@@ -2477,7 +2449,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 541.0, 111.0, 131.0, 20.0 ],
+					"patching_rect" : [ 541.0, 117.0, 131.0, 20.0 ],
 					"style" : "",
 					"text" : "6 pass gaussian blur"
 				}
@@ -2491,7 +2463,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 355.0, 55.0, 89.0, 22.0 ],
+					"patching_rect" : [ 355.0, 61.0, 89.0, 22.0 ],
 					"style" : "",
 					"text" : "4. Blur"
 				}
@@ -2507,7 +2479,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 384.0, 216.0, 63.0, 19.0 ],
+					"patching_rect" : [ 384.0, 222.0, 63.0, 19.0 ],
 					"style" : "",
 					"text" : "prepend load"
 				}
@@ -2523,7 +2495,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 382.0, 219.0, 45.0, 19.0 ],
+					"patching_rect" : [ 382.0, 225.0, 45.0, 19.0 ],
 					"style" : "",
 					"text" : "pcontrol"
 				}
@@ -2537,7 +2509,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 263.0, 89.0, 22.0 ],
+					"patching_rect" : [ 4.0, 269.0, 89.0, 22.0 ],
 					"style" : "",
 					"text" : "3. Examples"
 				}
@@ -2553,7 +2525,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 355.0, 396.0, 63.0, 19.0 ],
+					"patching_rect" : [ 355.0, 401.0, 63.0, 19.0 ],
 					"style" : "",
 					"text" : "prepend load"
 				}
@@ -2569,7 +2541,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 355.0, 395.0, 45.0, 19.0 ],
+					"patching_rect" : [ 355.0, 401.0, 45.0, 19.0 ],
 					"style" : "",
 					"text" : "pcontrol"
 				}
@@ -2583,7 +2555,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 101.0, 221.0, 152.0, 20.0 ],
+					"patching_rect" : [ 101.0, 227.0, 152.0, 20.0 ],
 					"style" : "",
 					"text" : "easy experimenting patch"
 				}
@@ -2597,7 +2569,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 144.0, 194.0, 133.0, 20.0 ],
+					"patching_rect" : [ 120.0, 200.0, 133.0, 20.0 ],
 					"style" : "",
 					"text" : "a simple patch to start"
 				}
@@ -2611,23 +2583,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 444.0, 81.0, 152.0, 20.0 ],
+					"patching_rect" : [ 444.0, 87.0, 152.0, 20.0 ],
 					"style" : "",
 					"text" : "2 x 2 pass gaussian blur"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-89",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 458.0, 396.0, 150.0, 20.0 ],
-					"style" : "",
-					"text" : "Vade's Rutt Etra extrusion"
 				}
 
 			}
@@ -2639,7 +2597,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 414.0, 369.0, 194.0, 20.0 ],
+					"patching_rect" : [ 414.0, 375.0, 194.0, 20.0 ],
 					"style" : "",
 					"text" : "image distorsion (andrew benson)"
 				}
@@ -2653,7 +2611,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 444.0, 342.0, 170.0, 20.0 ],
+					"patching_rect" : [ 444.0, 348.0, 170.0, 20.0 ],
 					"style" : "",
 					"text" : "spot lights (andrew benson)"
 				}
@@ -2667,7 +2625,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 455.0, 316.0, 123.0, 20.0 ],
+					"patching_rect" : [ 455.0, 322.0, 123.0, 20.0 ],
 					"style" : "",
 					"text" : "photobooth emulator"
 				}
@@ -2681,9 +2639,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 167.0, 160.0, 22.0 ],
+					"patching_rect" : [ 4.0, 173.0, 215.0, 22.0 ],
 					"style" : "",
-					"text" : "2. Max's Shader object"
+					"text" : "2. Intro to Max's shader object"
 				}
 
 			}
@@ -2697,7 +2655,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 4.0, 223.0, 63.0, 19.0 ],
+					"patching_rect" : [ 10.0, 228.0, 63.0, 19.0 ],
 					"style" : "",
 					"text" : "prepend load"
 				}
@@ -2711,7 +2669,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 355.0, 263.0, 160.0, 22.0 ],
+					"patching_rect" : [ 355.0, 269.0, 160.0, 22.0 ],
 					"style" : "",
 					"text" : "5. Advanced shaders"
 				}
@@ -2727,7 +2685,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 4.0, 215.0, 45.0, 19.0 ],
+					"patching_rect" : [ 10.0, 228.0, 45.0, 19.0 ],
 					"style" : "",
 					"text" : "pcontrol"
 				}
@@ -2735,7 +2693,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-51",
@@ -2745,16 +2703,15 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 355.0, 288.0, 157.0, 20.0 ],
+					"patching_rect" : [ 355.0, 294.0, 157.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 454.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
 					"style" : "",
 					"text" : "shader_overview_v001",
-					"textcolor" : [ 0.15, 0.15, 0.15, 1.0 ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -2770,7 +2727,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 355.0, 288.0, 53.0, 22.0 ],
+					"patching_rect" : [ 355.0, 294.0, 53.0, 22.0 ],
 					"style" : "",
 					"text" : "pcontrol"
 				}
@@ -2786,7 +2743,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 355.0, 288.0, 135.0, 20.0 ],
+					"patching_rect" : [ 355.0, 294.0, 135.0, 20.0 ],
 					"style" : "",
 					"text" : "load shader_overview_v001"
 				}
@@ -2800,7 +2757,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 123.0, 447.0, 135.0, 20.0 ],
+					"patching_rect" : [ 123.0, 453.0, 135.0, 20.0 ],
 					"style" : "",
 					"text" : "play video on the GPU"
 				}
@@ -2814,7 +2771,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 123.0, 419.0, 189.0, 20.0 ],
+					"patching_rect" : [ 123.0, 425.0, 189.0, 20.0 ],
 					"style" : "",
 					"text" : "composite modes (starts with co.)"
 				}
@@ -2822,7 +2779,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-41",
@@ -2832,16 +2789,15 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 4.0, 420.0, 110.0, 20.0 ],
+					"patching_rect" : [ 4.0, 426.0, 110.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 29.0, 497.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
 					"style" : "",
 					"text" : "transfer_modes",
-					"textcolor" : [ 0.15, 0.15, 0.15, 1.0 ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -2857,7 +2813,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 4.0, 420.0, 53.0, 22.0 ],
+					"patching_rect" : [ 4.0, 426.0, 53.0, 22.0 ],
 					"style" : "",
 					"text" : "pcontrol"
 				}
@@ -2873,7 +2829,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 4.0, 420.0, 102.0, 20.0 ],
+					"patching_rect" : [ 4.0, 426.0, 102.0, 20.0 ],
 					"style" : "",
 					"text" : "load transfer_modes"
 				}
@@ -2881,7 +2837,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-38",
@@ -2891,16 +2847,15 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 4.0, 447.0, 110.0, 20.0 ],
+					"patching_rect" : [ 4.0, 453.0, 110.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 95.0, 475.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
 					"style" : "",
 					"text" : "GLsmooth_slab",
-					"textcolor" : [ 0.15, 0.15, 0.15, 1.0 ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -2916,7 +2871,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 4.0, 448.0, 53.0, 22.0 ],
+					"patching_rect" : [ 4.0, 454.0, 53.0, 22.0 ],
 					"style" : "",
 					"text" : "pcontrol"
 				}
@@ -2932,7 +2887,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 4.0, 447.0, 102.0, 20.0 ],
+					"patching_rect" : [ 4.0, 453.0, 102.0, 20.0 ],
 					"style" : "",
 					"text" : "load GLsmooth_slab"
 				}
@@ -2940,7 +2895,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-34",
@@ -2950,69 +2905,17 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 355.0, 188.0, 65.0, 20.0 ],
+					"patching_rect" : [ 355.0, 194.0, 65.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 416.0, 338.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
 					"style" : "",
 					"text" : "Gen_blur",
-					"textcolor" : [ 0.15, 0.15, 0.15, 1.0 ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 3,
-					"fontname" : "Arial",
-					"fontsize" : 20.899994,
-					"id" : "obj-8",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 343.0, 30.0 ],
-					"style" : "",
-					"text" : "GLslab collection",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"varname" : "autohelp_top_title"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.754705,
-					"id" : "obj-9",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 29.0, 534.0, 21.0 ],
-					"style" : "",
-					"text" : "jit.gl.slab is the object that deals with shaders, programs written to use the speed of the GPU",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"varname" : "autohelp_top_digest"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 180.0,
-					"background" : 1,
-					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
-					"id" : "obj-29",
-					"maxclass" : "panel",
-					"mode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 669.0, 47.0 ],
-					"proportion" : 0.39,
-					"style" : "",
-					"varname" : "autohelp_top_panel[1]"
 				}
 
 			}
@@ -3136,15 +3039,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-57", 0 ],
-					"disabled" : 0,
-					"hidden" : 1,
-					"source" : [ "obj-32", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-56", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
@@ -3183,7 +3077,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-39", 0 ],
 					"disabled" : 0,
-					"hidden" : 0,
+					"hidden" : 1,
 					"source" : [ "obj-40", 0 ]
 				}
 
@@ -3201,7 +3095,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-43", 0 ],
 					"disabled" : 0,
-					"hidden" : 0,
+					"hidden" : 1,
 					"source" : [ "obj-44", 0 ]
 				}
 
@@ -3261,8 +3155,21 @@
 
 			}
  ],
-		"dependency_cache" : [  ],
-		"embedsnapshot" : 0
+		"dependency_cache" : [ 			{
+				"name" : "Max4VA-Title.maxpat",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
+				"patcherrelativepath" : "../zpatches",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"embedsnapshot" : 0,
+		"styles" : [ 			{
+				"name" : "simple",
+				"parentstyle" : "",
+				"multi" : 0
+			}
+ ]
 	}
 
 }

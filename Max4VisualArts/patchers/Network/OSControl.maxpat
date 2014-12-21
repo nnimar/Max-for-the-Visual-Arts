@@ -51,7 +51,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, -278.0 ],
-					"patching_rect" : [ 0.0, -4.0, 410.0, 54.0 ],
+					"patching_rect" : [ 0.0, 0.0, 410.0, 55.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -7.0, 12.0, 487.519531, 73.0 ],
 					"viewvisibility" : 1
@@ -66,7 +66,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 169.0, 271.5, 160.0, 22.0 ],
+					"patching_rect" : [ 169.0, 277.5, 160.0, 22.0 ],
 					"style" : "",
 					"text" : "alternatives to osc-route"
 				}
@@ -85,7 +85,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 7.0, 269.5, 101.0, 22.0 ],
+					"patching_rect" : [ 7.0, 275.5, 101.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 249.0, 278.5, 79.0, 17.0 ],
 					"style" : "",
@@ -110,7 +110,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 271.5, 96.0, 20.0 ],
+					"patching_rect" : [ 7.0, 277.5, 96.0, 20.0 ],
 					"style" : "",
 					"text" : "load OSC-route_alt"
 				}
@@ -125,7 +125,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 169.0, 223.5, 156.0, 38.0 ],
+					"patching_rect" : [ 169.0, 229.5, 156.0, 38.0 ],
 					"style" : "",
 					"text" : "how to use OSCulator \nto route messages"
 				}
@@ -144,7 +144,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 7.0, 231.5, 130.0, 22.0 ],
+					"patching_rect" : [ 7.0, 237.5, 130.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 82.0, 263.5, 79.0, 17.0 ],
 					"style" : "",
@@ -169,7 +169,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 234.5, 115.0, 20.0 ],
+					"patching_rect" : [ 7.0, 240.5, 115.0, 20.0 ],
 					"style" : "",
 					"text" : "load OSCulator_routing"
 				}
@@ -183,7 +183,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 169.0, 136.5, 177.0, 22.0 ],
+					"patching_rect" : [ 169.0, 142.5, 177.0, 22.0 ],
 					"style" : "",
 					"text" : "control Modul8 using OSC"
 				}
@@ -202,7 +202,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 7.0, 136.5, 100.0, 21.0 ],
+					"patching_rect" : [ 7.0, 142.5, 100.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 59.0, 163.5, 79.0, 17.0 ],
 					"style" : "",
@@ -227,7 +227,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 136.5, 112.0, 20.0 ],
+					"patching_rect" : [ 7.0, 142.5, 112.0, 20.0 ],
 					"style" : "",
 					"text" : "load OSC2Modul8"
 				}
@@ -241,7 +241,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 169.0, 174.5, 177.0, 22.0 ],
+					"patching_rect" : [ 169.0, 180.5, 177.0, 22.0 ],
 					"style" : "",
 					"text" : "control Millumin using OSC"
 				}
@@ -260,7 +260,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 6.0, 177.5, 100.0, 21.0 ],
+					"patching_rect" : [ 6.0, 183.5, 100.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 101.0, 152.5, 79.0, 17.0 ],
 					"style" : "",
@@ -285,7 +285,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6.0, 177.5, 118.0, 20.0 ],
+					"patching_rect" : [ 6.0, 183.5, 118.0, 20.0 ],
 					"style" : "",
 					"text" : "load OSC2Millumin"
 				}
@@ -304,7 +304,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 7.0, 100.5, 113.0, 21.0 ],
+					"patching_rect" : [ 7.0, 106.5, 113.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 404.0, 741.0, 79.0, 17.0 ],
 					"style" : "",
@@ -329,7 +329,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 100.5, 104.0, 20.0 ],
+					"patching_rect" : [ 7.0, 106.5, 104.0, 20.0 ],
 					"style" : "",
 					"text" : "load OSC2Resolume"
 				}
@@ -348,7 +348,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 7.0, 61.5, 75.0, 22.0 ],
+					"patching_rect" : [ 7.0, 67.5, 75.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 716.0, 268.0, 79.0, 17.0 ],
 					"style" : "",
@@ -373,7 +373,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 63.5, 111.0, 20.0 ],
+					"patching_rect" : [ 7.0, 69.5, 111.0, 20.0 ],
 					"style" : "",
 					"text" : "load OSC2VPT"
 				}
@@ -387,7 +387,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 169.0, 100.5, 193.0, 22.0 ],
+					"patching_rect" : [ 169.0, 106.5, 193.0, 22.0 ],
 					"style" : "",
 					"text" : "control Resolume using OSC"
 				}
@@ -401,7 +401,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 169.0, 61.5, 160.0, 22.0 ],
+					"patching_rect" : [ 169.0, 67.5, 160.0, 22.0 ],
 					"style" : "",
 					"text" : "control VPT using OSC"
 				}
@@ -417,7 +417,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6.0, 177.5, 52.0, 21.0 ],
+					"patching_rect" : [ 6.0, 183.5, 52.0, 21.0 ],
 					"style" : "",
 					"text" : "pcontrol"
 				}
@@ -433,7 +433,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 271.5, 52.0, 21.0 ],
+					"patching_rect" : [ 7.0, 277.5, 52.0, 21.0 ],
 					"style" : "",
 					"text" : "pcontrol"
 				}
@@ -450,7 +450,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -62.0, 211.0, 433.0, 4.0 ],
+					"patching_rect" : [ -62.0, 217.0, 433.0, 4.0 ],
 					"proportion" : 0.39,
 					"style" : "",
 					"varname" : "autohelp_top_panel[4]"
@@ -579,11 +579,11 @@
 		"styles" : [ 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
-					"fontsize" : [ 14.0 ],
 					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"fontsize" : [ 14.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
