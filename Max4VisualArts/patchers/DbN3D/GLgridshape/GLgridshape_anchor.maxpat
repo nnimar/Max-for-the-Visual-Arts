@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1.0, 44.0, 590.0, 274.0 ],
+		"rect" : [ 1.0, 44.0, 596.0, 279.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 13.0,
@@ -38,6 +38,28 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [ "GLgridshape - anchor point", "change the anchor attribute to change the axis of rotation" ],
+					"bgmode" : 1,
+					"border" : 0,
+					"clickthrough" : 1,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-62",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "Max4VA-Title.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, -278.0 ],
+					"patching_rect" : [ 0.0, 0.0, 572.0, 55.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ -7.0, 12.0, 487.519531, 73.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-4",
@@ -47,7 +69,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 495.0, 249.0, 90.514488, 21.098633 ],
+					"patching_rect" : [ 498.0, 254.0, 90.514488, 21.098633 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 212.0, 320.0, 91.514488, 24.098633 ],
 					"style" : "",
@@ -69,7 +91,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 458.0, 252.0, 128.0, 20.0 ],
+					"patching_rect" : [ 461.0, 254.0, 128.0, 20.0 ],
 					"style" : "",
 					"text" : "load GLgridshape_rotation"
 				}
@@ -84,7 +106,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 478.0, 169.0, 82.0, 24.0 ],
+					"patching_rect" : [ 478.0, 174.0, 82.0, 24.0 ],
 					"style" : "",
 					"text" : "the center"
 				}
@@ -101,7 +123,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 165.0, 89.0, 220.0, 22.0 ],
+					"patching_rect" : [ 165.0, 94.0, 220.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -116,7 +138,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 164.0, 62.0, 220.0, 22.0 ],
+					"patching_rect" : [ 164.0, 67.0, 220.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -131,7 +153,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 166.0, 167.0, 309.0, 40.0 ],
+					"patching_rect" : [ 166.0, 172.0, 309.0, 40.0 ],
 					"style" : "",
 					"text" : "jit.gl.gridshape @shape circle @position 0. 0. 0. @scale 0.02 0.02 @dim 10 10"
 				}
@@ -767,11 +789,10 @@
  ]
 					}
 ,
-					"patching_rect" : [ 11.0, 201.142548, 110.0, 22.0 ],
+					"patching_rect" : [ 11.0, 204.142548, 110.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
-						"fontsize" : 12.0,
 						"globalpatchername" : "",
 						"style" : "",
 						"tags" : ""
@@ -784,39 +805,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 3,
-					"fontname" : "Arial",
-					"fontsize" : 20.899994,
-					"id" : "obj-8",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 4.0, 342.0, 30.0 ],
-					"style" : "",
-					"text" : "GLgridshape_anchor point ",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"varname" : "autohelp_top_title"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.754705,
-					"id" : "obj-9",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 32.0, 415.0, 21.0 ],
-					"style" : "",
-					"text" : "use the anchor attribute to change the axis of rotation",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"varname" : "autohelp_top_digest"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -824,7 +812,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 498.0, 117.0, 77.0, 24.0 ],
+					"patching_rect" : [ 498.0, 122.0, 77.0, 24.0 ],
 					"style" : "",
 					"text" : "a square"
 				}
@@ -841,7 +829,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 165.0, 116.0, 329.0, 40.0 ],
+					"patching_rect" : [ 165.0, 121.0, 329.0, 40.0 ],
 					"style" : "",
 					"text" : "jit.gl.gridshape @shape plane @position 0. 0. 0. @scale 0.3 @poly_mode 1 1 @dim 0 2"
 				}
@@ -857,7 +845,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 11.0, 226.0, 124.0, 35.0 ],
+					"patching_rect" : [ 11.0, 229.0, 124.0, 35.0 ],
 					"style" : "",
 					"text" : "jit.window anchorP @fsmenubar 0"
 				}
@@ -873,7 +861,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 11.0, 158.0, 125.0, 35.0 ],
+					"patching_rect" : [ 11.0, 161.0, 125.0, 35.0 ],
 					"style" : "",
 					"text" : "jit.gl.render @erase_color 0 0 0 1"
 				}
@@ -888,7 +876,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "erase" ],
-					"patching_rect" : [ 11.0, 122.0, 57.0, 22.0 ],
+					"patching_rect" : [ 11.0, 125.0, 57.0, 22.0 ],
 					"style" : "",
 					"text" : "t b erase"
 				}
@@ -902,7 +890,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 67.0, 21.0, 21.0 ],
+					"patching_rect" : [ 11.0, 70.0, 21.0, 21.0 ],
 					"style" : ""
 				}
 
@@ -916,7 +904,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 11.0, 95.0, 65.0, 22.0 ],
+					"patching_rect" : [ 11.0, 98.0, 65.0, 22.0 ],
 					"style" : "",
 					"text" : "qmetro 40"
 				}
@@ -932,7 +920,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 57.0, 138.147247, 215.0 ],
+					"patching_rect" : [ 5.0, 60.0, 138.147247, 215.0 ],
 					"proportion" : 0.39,
 					"rounded" : 30,
 					"style" : ""
@@ -949,7 +937,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 163.0, 62.0, 92.0, 22.0 ],
+					"patching_rect" : [ 163.0, 67.0, 92.0, 22.0 ],
 					"style" : "",
 					"text" : "loadmess 0 0 0"
 				}
@@ -965,26 +953,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 493.0, 249.0, 53.0, 22.0 ],
+					"patching_rect" : [ 496.0, 254.0, 53.0, 22.0 ],
 					"style" : "",
 					"text" : "pcontrol"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 180.0,
-					"background" : 1,
-					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
-					"id" : "obj-5",
-					"maxclass" : "panel",
-					"mode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 586.0, 51.0 ],
-					"proportion" : 0.39,
-					"style" : ""
 				}
 
 			}
@@ -1048,7 +1019,7 @@
 					"destination" : [ "obj-21", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 58.5, 149.5, 20.5, 149.5 ],
+					"midpoints" : [ 58.5, 152.5, 20.5, 152.5 ],
 					"source" : [ "obj-22", 1 ]
 				}
 
@@ -1090,7 +1061,14 @@
 
 			}
  ],
-		"dependency_cache" : [  ],
+		"dependency_cache" : [ 			{
+				"name" : "Max4VA-Title.maxpat",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
+				"patcherrelativepath" : "../../zpatches",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
 		"embedsnapshot" : 0,
 		"styles" : [ 			{
 				"name" : "m4va",
@@ -1101,6 +1079,25 @@
 					"fontsize" : [ 12.0 ]
 				}
 ,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "m4vatextbutton",
+				"default" : 				{
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"fontsize" : [ 14.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "simple",
 				"parentstyle" : "",
 				"multi" : 0
 			}
