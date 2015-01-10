@@ -733,9 +733,9 @@
 								"name" : "m4vatextbutton",
 								"default" : 								{
 									"fontsize" : [ 14.0 ],
+									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 									"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -747,8 +747,6 @@
 								"name" : "message001",
 								"default" : 								{
 									"fontsize" : [ 11.595187 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontname" : [ "Arial" ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color1" : [ 0.870588, 0.870588, 0.870588, 1.0 ],
@@ -758,7 +756,9 @@
 										"proportion" : 0.39,
 										"autogradient" : 0.79
 									}
-
+,
+									"fontname" : [ "Arial" ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1065,7 +1065,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 217.0, 265.0, 146.984375, 60.0 ],
+									"patching_rect" : [ 217.0, 265.0, 147.0, 60.0 ],
 									"style" : ""
 								}
 
@@ -1277,7 +1277,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 12.0, 264.0, 146.984375, 60.0 ],
+									"patching_rect" : [ 12.0, 264.0, 147.0, 60.0 ],
 									"style" : ""
 								}
 
@@ -2039,7 +2039,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 831.0, 116.638428, 92.0, 35.0 ],
+					"patching_rect" : [ 831.0, 124.638428, 92.0, 35.0 ],
 					"style" : "",
 					"text" : "jit.window iC03 @fsmenubar 0"
 				}
@@ -4317,9 +4317,9 @@
 				"name" : "m4vatextbutton",
 				"default" : 				{
 					"fontsize" : [ 14.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -4331,8 +4331,6 @@
 				"name" : "message001",
 				"default" : 				{
 					"fontsize" : [ 11.595187 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : [ "Arial" ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.870588, 0.870588, 0.870588, 1.0 ],
@@ -4342,7 +4340,9 @@
 						"proportion" : 0.39,
 						"autogradient" : 0.79
 					}
-
+,
+					"fontname" : [ "Arial" ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

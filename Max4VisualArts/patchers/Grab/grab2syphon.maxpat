@@ -124,7 +124,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 200.0, 184.0, 186.0, 21.0 ],
+					"patching_rect" : [ 200.0, 188.0, 186.0, 21.0 ],
 					"style" : "",
 					"text" : "use the BlackMagic interface"
 				}
@@ -132,6 +132,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
@@ -142,12 +143,13 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 7.0, 184.0, 135.0, 21.0 ],
+					"patching_rect" : [ 7.0, 188.0, 135.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 405.0, 224.0, 79.0, 17.0 ],
 					"style" : "",
 					"text" : "BlackMagic Syphon",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
@@ -166,7 +168,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 183.5, 131.0, 49.0 ],
+					"patching_rect" : [ 7.0, 187.5, 131.0, 49.0 ],
 					"style" : "",
 					"text" : "imi.apploader2 BlackSyphon Black%20Syphon.app"
 				}
@@ -180,7 +182,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 200.0, 153.5, 161.0, 21.0 ],
+					"patching_rect" : [ 200.0, 157.5, 161.0, 21.0 ],
 					"style" : "",
 					"text" : "use the PS3 eye camera"
 				}
@@ -188,6 +190,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
@@ -198,12 +201,13 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 7.0, 153.5, 86.0, 20.0 ],
+					"patching_rect" : [ 7.0, 157.5, 86.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 731.0, 283.0, 79.0, 17.0 ],
 					"style" : "",
 					"text" : "SyphonEye",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
@@ -222,7 +226,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 154.5, 83.0, 20.0 ],
+					"patching_rect" : [ 7.0, 158.5, 83.0, 20.0 ],
 					"style" : "",
 					"text" : "load SyphonEye"
 				}
@@ -238,7 +242,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 154.5, 52.0, 21.0 ],
+					"patching_rect" : [ 7.0, 158.5, 52.0, 21.0 ],
 					"style" : "",
 					"text" : "pcontrol"
 				}
@@ -252,7 +256,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 200.0, 124.0, 208.0, 22.0 ],
+					"patching_rect" : [ 200.0, 128.0, 208.0, 22.0 ],
 					"style" : "",
 					"text" : "use a net webcam with Syphon"
 				}
@@ -266,7 +270,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 200.0, 94.0, 183.0, 22.0 ],
+					"patching_rect" : [ 200.0, 98.0, 183.0, 22.0 ],
 					"style" : "",
 					"text" : "use webcam with Syphon"
 				}
@@ -280,7 +284,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 200.0, 64.0, 212.0, 22.0 ],
+					"patching_rect" : [ 200.0, 68.0, 212.0, 22.0 ],
 					"style" : "",
 					"text" : "use a Canon DSLR with Syphon"
 				}
@@ -372,6 +376,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
@@ -382,12 +387,13 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 7.0, 124.0, 132.0, 20.0 ],
+					"patching_rect" : [ 7.0, 128.0, 132.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 174.0, 255.0, 79.0, 17.0 ],
 					"style" : "",
 					"text" : "SyphonNetCamera",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
@@ -398,6 +404,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
@@ -408,12 +415,13 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 7.0, 94.0, 112.0, 21.0 ],
+					"patching_rect" : [ 7.0, 98.0, 112.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 98.0, 216.0, 79.0, 17.0 ],
 					"style" : "",
 					"text" : "SyphonCamera",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
@@ -424,6 +432,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
@@ -434,12 +443,13 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 7.0, 64.0, 148.0, 20.0 ],
+					"patching_rect" : [ 7.0, 68.0, 148.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 821.0, 373.0, 79.0, 17.0 ],
 					"style" : "",
 					"text" : "Canon2Syphon (v1.2)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
@@ -474,7 +484,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.0, 95.0, 117.0, 49.0 ],
+					"patching_rect" : [ 6.0, 99.0, 117.0, 49.0 ],
 					"style" : "",
 					"text" : "imi.apploader SyphonCamera-r9 SyphonCamera.app"
 				}
@@ -490,7 +500,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 62.0, 133.0, 49.0 ],
+					"patching_rect" : [ 5.0, 66.0, 133.0, 49.0 ],
 					"style" : "",
 					"text" : "imi.apploader Canon2Syphon Canon2Syphon1.2.app"
 				}
@@ -506,7 +516,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 124.0, 138.0, 49.0 ],
+					"patching_rect" : [ 5.0, 128.0, 138.0, 49.0 ],
 					"style" : "",
 					"text" : "imi.apploader SyphonCamera-r9 SyphonNetCamera.app"
 				}
@@ -643,12 +653,12 @@
 		"styles" : [ 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
-					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"fontsize" : [ 14.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"fontsize" : [ 14.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

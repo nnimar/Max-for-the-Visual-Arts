@@ -2,10 +2,11 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 6,
-			"minor" : 1,
-			"revision" : 3,
-			"architecture" : "x86"
+			"major" : 7,
+			"minor" : 0,
+			"revision" : 1,
+			"architecture" : "x86",
+			"modernui" : 1
 		}
 ,
 		"rect" : [ 0.0, 44.0, 695.0, 731.0 ],
@@ -14,24 +15,54 @@
 		"default_fontsize" : 13.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 0,
+		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 0,
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 0,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 0,
+		"toolbars_unpinned_last_save" : 0,
+		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
-		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
+		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"fontname" : "Arial",
+					"args" : [ "Movie 2 LED using WS2801 (Gavin)", "sends a movie to my 8x8 panel of ws2801 panel (use LEDstream.ino)" ],
+					"bgmode" : 1,
+					"border" : 0,
+					"clickthrough" : 1,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-1",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "Max4VA-Title.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, -278.0 ],
+					"patching_rect" : [ 0.0, 0.0, 486.0, 55.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ -22.0, -3.0, 487.519531, 73.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontsize" : 14.0,
 					"id" : "obj-10",
+					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -40,7 +71,11 @@
 					"patching_rect" : [ 536.0, 699.5, 155.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 134.0, 337.0, 100.0, 20.0 ],
-					"text" : "Sensor interface folder"
+					"style" : "",
+					"text" : "Sensor interface folder",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
 				}
 
 			}
@@ -56,31 +91,40 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 6,
-							"minor" : 1,
-							"revision" : 3,
-							"architecture" : "x86"
+							"major" : 7,
+							"minor" : 0,
+							"revision" : 1,
+							"architecture" : "x86",
+							"modernui" : 1
 						}
 ,
 						"rect" : [ 963.0, 470.0, 270.0, 238.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
-						"default_fontsize" : 13.0,
+						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"gridonopen" : 0,
+						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 0,
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
 						"statusbarvisible" : 2,
 						"toolbarvisible" : 0,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
 						"boxanimatetime" : 200,
-						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
 						"devicewidth" : 0.0,
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -91,6 +135,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 143.0, 143.0, 20.0 ],
+									"style" : "",
 									"text" : "sprintf osascript \\\\\\\"%s\\\\\\\""
 								}
 
@@ -105,6 +150,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"patching_rect" : [ 50.0, 177.0, 35.0, 20.0 ],
+									"style" : "",
 									"text" : "shell"
 								}
 
@@ -119,6 +165,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "int" ],
 									"patching_rect" : [ 50.0, 111.0, 140.0, 21.0 ],
+									"style" : "",
 									"text" : "conformpath max boot"
 								}
 
@@ -133,6 +180,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 80.0, 85.0, 21.0 ],
+									"style" : "",
 									"text" : "absolutepath"
 								}
 
@@ -145,7 +193,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 40.0, 25.0, 25.0 ]
+									"patching_rect" : [ 50.0, 40.0, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -189,20 +238,17 @@
  ]
 					}
 ,
-					"patching_rect" : [ 535.5, 700.0, 76.0, 20.0 ],
+					"patching_rect" : [ 535.5, 700.0, 76.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"default_fontsize" : 13.0,
 						"description" : "",
 						"digest" : "",
-						"fontface" : 0,
-						"fontname" : "Arial",
 						"fontsize" : 12.0,
 						"globalpatchername" : "",
+						"style" : "",
 						"tags" : ""
 					}
 ,
+					"style" : "",
 					"text" : "p shell-open"
 				}
 
@@ -217,7 +263,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 535.5, 679.0, 94.0, 19.0 ],
+					"patching_rect" : [ 535.5, 679.0, 94.0, 23.0 ],
+					"style" : "",
 					"text" : "SSensors.scpt"
 				}
 
@@ -228,12 +275,12 @@
 					"bubbleside" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-8",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 329.0, 699.0, 202.0, 24.0 ],
+					"style" : "",
 					"text" : "use LEDstream.ino (13.Adalight)"
 				}
 
@@ -242,13 +289,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-21",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 185.0, 474.0, 202.0, 33.0 ],
+					"style" : "",
 					"text" : "We need to swap the rgb around to get my pixels to display properly"
 				}
 
@@ -275,42 +322,51 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 6,
-							"minor" : 1,
-							"revision" : 3,
-							"architecture" : "x86"
+							"major" : 7,
+							"minor" : 0,
+							"revision" : 1,
+							"architecture" : "x86",
+							"modernui" : 1
 						}
 ,
 						"rect" : [ 702.0, 44.0, 429.0, 450.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
-						"default_fontsize" : 13.0,
+						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"gridonopen" : 0,
+						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 0,
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
 						"statusbarvisible" : 2,
 						"toolbarvisible" : 0,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
 						"boxanimatetime" : 200,
-						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
 						"devicewidth" : 0.0,
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
 									"id" : "obj-4",
 									"linecount" : 17,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 3.5, 201.0, 440.0, 234.0 ],
+									"style" : "",
 									"text" : "This patch is for 64 LED's in my patch.\n\nThe host software will need to  generate a compatible header\n\n1/ the magic word : ADa (65 100 97)\n2/ three bytes: a 16-bit count of the number of LEDs (high byte // first) \n3/ a simple checksum value (high byte XOR low byte  XOR 0x55). \n4/ LED data follows\n\nIf you look at the Arduino code it says the first 3 characters must conform to \nthe magic word (by default, A,D and a - ascii codes 65 100 97\n\nThen you have the most significant byte and the least significant byte of the number of led's : in this case 0 63.\n\nFinally you have a checksum which can be calculated by expr MSB^LSB^85. \nSo say you had 512 led's you would send 1 255 171."
 								}
 
@@ -319,13 +375,13 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
 									"id" : "obj-110",
 									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 3.5, 5.0, 415.0, 47.0 ],
+									"style" : "",
 									"text" : "This is just to show how you generate the 'magic' phrase that the Arduino patch requires as a header. It is 'Ada\" + the number of pixels + a checksum. After that you just send the rgb values of each pixel in order"
 								}
 
@@ -338,9 +394,10 @@
 									"maxclass" : "number",
 									"numinlets" : 1,
 									"numoutlets" : 2,
-									"outlettype" : [ "int", "bang" ],
+									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 176.5, 79.0, 50.0, 20.0 ]
+									"patching_rect" : [ 176.5, 79.0, 50.0, 20.0 ],
+									"style" : ""
 								}
 
 							}
@@ -354,6 +411,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 145.5, 153.0, 50.0, 18.0 ],
+									"style" : "",
 									"text" : "123"
 								}
 
@@ -368,6 +426,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 176.5, 114.0, 91.0, 20.0 ],
+									"style" : "",
 									"text" : "expr $i1^63^85"
 								}
 
@@ -382,6 +441,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 17.0, 153.0, 63.5, 18.0 ],
+									"style" : "",
 									"text" : "65 100 97"
 								}
 
@@ -396,6 +456,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 61.5, 79.0, 32.5, 18.0 ],
+									"style" : "",
 									"text" : "Ada"
 								}
 
@@ -410,6 +471,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "list" ],
 									"patching_rect" : [ 61.5, 114.0, 46.0, 20.0 ],
+									"style" : "",
 									"text" : "atoi"
 								}
 
@@ -457,54 +519,18 @@
  ]
 					}
 ,
-					"patching_rect" : [ 637.5, 34.0, 49.0, 18.0 ],
+					"patching_rect" : [ 637.5, 34.0, 49.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"default_fontsize" : 13.0,
 						"description" : "",
 						"digest" : "",
-						"fontface" : 0,
-						"fontname" : "Arial",
 						"fontsize" : 12.0,
 						"globalpatchername" : "",
+						"style" : "",
 						"tags" : ""
 					}
 ,
+					"style" : "",
 					"text" : "p tutorial"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 3,
-					"fontname" : "Arial",
-					"fontsize" : 20.871338,
-					"frgb" : 0.0,
-					"id" : "obj-9",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 4.0, 438.0, 30.0 ],
-					"text" : "Movie 2 LED using WS2801 (Gavin)",
-					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
-					"varname" : "autohelp_top_title[1]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.754705,
-					"frgb" : 0.0,
-					"id" : "obj-16",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 32.0, 413.0, 21.0 ],
-					"text" : "sends a movie to my 8x8 panel of ws2801 panel (use LEDstream.ino)",
-					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
-					"varname" : "autohelp_top_digest[1]"
 				}
 
 			}
@@ -517,7 +543,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 208.0, 135.0, 49.0, 20.0 ],
+					"patching_rect" : [ 208.0, 135.0, 49.0, 22.0 ],
+					"style" : "",
 					"text" : "delay 1"
 				}
 
@@ -529,7 +556,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 240.0, 188.0, 20.0, 20.0 ]
+					"patching_rect" : [ 240.0, 188.0, 20.0, 20.0 ],
+					"style" : ""
 				}
 
 			}
@@ -540,7 +568,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 208.0, 188.0, 20.0, 20.0 ]
+					"patching_rect" : [ 208.0, 188.0, 20.0, 20.0 ],
+					"style" : ""
 				}
 
 			}
@@ -553,7 +582,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 208.0, 163.0, 51.0, 20.0 ],
+					"patching_rect" : [ 208.0, 163.0, 51.0, 22.0 ],
+					"style" : "",
 					"text" : "t b b"
 				}
 
@@ -567,7 +597,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 208.0, 107.0, 54.0, 20.0 ],
+					"patching_rect" : [ 208.0, 107.0, 54.0, 22.0 ],
+					"style" : "",
 					"text" : "togedge"
 				}
 
@@ -576,12 +607,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-118",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 192.0, 651.0, 101.0, 20.0 ],
+					"style" : "",
 					"text" : "send the header"
 				}
 
@@ -590,13 +621,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-112",
 					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 404.0, 324.0, 275.0, 74.0 ],
+					"style" : "",
 					"text" : "this part of the patch is generating a transformation matrix so as we can convert the jitter matrix which starts at 0,0 in top left to my led panel which is 0,0 at bottom left and wired in a snake formation"
 				}
 
@@ -610,7 +641,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "bang", "bang", "bang", "bang" ],
-					"patching_rect" : [ 351.0, 163.0, 59.5, 20.0 ],
+					"patching_rect" : [ 351.0, 163.0, 59.5, 22.0 ],
+					"style" : "",
 					"text" : "t b b b b"
 				}
 
@@ -624,7 +656,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 351.0, 135.0, 60.0, 20.0 ],
+					"patching_rect" : [ 351.0, 135.0, 60.0, 22.0 ],
+					"style" : "",
 					"text" : "loadbang"
 				}
 
@@ -638,7 +671,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 35.0, 570.0, 43.0, 20.0 ],
+					"patching_rect" : [ 35.0, 570.0, 43.0, 22.0 ],
+					"style" : "",
 					"text" : "jit.spill"
 				}
 
@@ -652,7 +686,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 35.0, 507.0, 134.0, 20.0 ],
+					"patching_rect" : [ 35.0, 507.0, 134.0, 22.0 ],
+					"style" : "",
 					"text" : "jit.multiplex @scan_a 2"
 				}
 
@@ -666,7 +701,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 35.0, 476.0, 70.0, 20.0 ],
+					"patching_rect" : [ 35.0, 476.0, 70.0, 22.0 ],
+					"style" : "",
 					"text" : "jit.multiplex"
 				}
 
@@ -680,7 +716,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "jit_matrix", "jit_matrix", "jit_matrix", "" ],
-					"patching_rect" : [ 35.0, 426.0, 71.0, 20.0 ],
+					"patching_rect" : [ 35.0, 426.0, 71.0, 22.0 ],
+					"style" : "",
 					"text" : "jit.unpack 3"
 				}
 
@@ -694,7 +731,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 35.0, 354.0, 62.0, 20.0 ],
+					"patching_rect" : [ 35.0, 354.0, 62.0, 22.0 ],
+					"style" : "",
 					"text" : "jit.pack 3"
 				}
 
@@ -708,7 +746,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "jit_matrix", "jit_matrix", "jit_matrix", "jit_matrix", "" ],
-					"patching_rect" : [ 14.0, 324.0, 104.0, 20.0 ],
+					"patching_rect" : [ 14.0, 324.0, 104.0, 22.0 ],
+					"style" : "",
 					"text" : "jit.unpack 4"
 				}
 
@@ -733,7 +772,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.5, 138.0, 100.0, 18.0 ],
+					"patching_rect" : [ 30.5, 138.0, 100.0, 22.0 ],
+					"style" : "",
 					"text" : "read sophie.mov"
 				}
 
@@ -746,7 +786,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 14.0, 65.0, 20.0, 20.0 ]
+					"patching_rect" : [ 14.0, 65.0, 20.0, 20.0 ],
+					"style" : ""
 				}
 
 			}
@@ -759,7 +800,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 14.0, 107.0, 65.0, 20.0 ],
+					"patching_rect" : [ 14.0, 107.0, 65.0, 22.0 ],
+					"style" : "",
 					"text" : "qmetro 50"
 				}
 
@@ -773,7 +815,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 14.0, 163.0, 88.0, 20.0 ],
+					"patching_rect" : [ 14.0, 163.0, 88.0, 22.0 ],
+					"style" : "",
 					"text" : "jit.qt.movie 8 8"
 				}
 
@@ -787,7 +830,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 35.0, 397.0, 53.0, 20.0 ],
+					"patching_rect" : [ 35.0, 397.0, 53.0, 22.0 ],
+					"style" : "",
 					"text" : "jit.repos"
 				}
 
@@ -801,7 +845,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 291.5, 354.0, 78.0, 20.0 ],
+					"patching_rect" : [ 291.5, 354.0, 78.0, 22.0 ],
+					"style" : "",
 					"text" : "jit.pack 2"
 				}
 
@@ -815,7 +860,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 463.5, 252.0, 79.0, 18.0 ],
+					"patching_rect" : [ 463.5, 252.0, 79.0, 22.0 ],
+					"style" : "",
 					"text" : "expr 7-cell[1]"
 				}
 
@@ -829,7 +875,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 351.0, 324.0, 46.0, 20.0 ],
+					"patching_rect" : [ 351.0, 324.0, 46.0, 22.0 ],
+					"style" : "",
 					"text" : "jit.expr"
 				}
 
@@ -844,7 +891,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 181.0, 255.0, 163.0, 31.0 ],
+					"patching_rect" : [ 181.0, 255.0, 163.0, 35.0 ],
+					"style" : "",
 					"text" : "expr abs(((cell[1]+0)%2)*7-cell[0])"
 				}
 
@@ -858,7 +906,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 351.0, 252.0, 107.0, 20.0 ],
+					"patching_rect" : [ 351.0, 252.0, 107.0, 22.0 ],
+					"style" : "",
 					"text" : "jit.noise 1 long 8 8"
 				}
 
@@ -872,7 +921,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 292.0, 324.0, 46.0, 20.0 ],
+					"patching_rect" : [ 292.0, 324.0, 46.0, 22.0 ],
+					"style" : "",
 					"text" : "jit.expr"
 				}
 
@@ -886,7 +936,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "" ],
-					"patching_rect" : [ 35.0, 700.0, 92.0, 20.0 ],
+					"patching_rect" : [ 35.0, 700.0, 92.0, 22.0 ],
+					"style" : "",
 					"text" : "serial a 115200"
 				}
 
@@ -900,7 +951,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 35.0, 626.0, 57.5, 20.0 ],
+					"patching_rect" : [ 35.0, 626.0, 57.5, 22.0 ],
+					"style" : "",
 					"text" : "t l b"
 				}
 
@@ -914,7 +966,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 35.0, 598.0, 77.0, 20.0 ],
+					"patching_rect" : [ 35.0, 598.0, 77.0, 22.0 ],
+					"style" : "",
 					"text" : "zl group 192"
 				}
 
@@ -928,23 +981,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 74.0, 655.0, 114.0, 18.0 ],
+					"patching_rect" : [ 74.0, 655.0, 114.0, 22.0 ],
+					"style" : "",
 					"text" : "65 100 97 0 63 106"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 180.0,
-					"background" : 1,
-					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
-					"id" : "obj-18",
-					"maxclass" : "panel",
-					"mode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 689.0, 51.0 ]
 				}
 
 			}
@@ -1348,10 +1387,18 @@
 			}
  ],
 		"dependency_cache" : [ 			{
+				"name" : "Max4VA-Title.maxpat",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
+				"patcherrelativepath" : "../../../zpatches",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "shell.mxo",
 				"type" : "iLaX"
 			}
- ]
+ ],
+		"embedsnapshot" : 0
 	}
 
 }

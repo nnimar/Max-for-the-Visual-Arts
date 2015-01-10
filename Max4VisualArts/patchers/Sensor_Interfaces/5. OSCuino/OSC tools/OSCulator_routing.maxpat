@@ -227,7 +227,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 25.0, 132.0, 133.0, 22.0 ],
 					"style" : "",
-					"text" : "/layer1/pos_x 0.423913"
+					"text" : "/layer1/pos_x 0.663043"
 				}
 
 			}
@@ -265,6 +265,7 @@
 				"box" : 				{
 					"floatoutput" : 1,
 					"id" : "obj-32",
+					"knobshape" : 5,
 					"maxclass" : "slider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -491,9 +492,9 @@
 				"name" : "m4vatextbutton",
 				"default" : 				{
 					"fontsize" : [ 14.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}

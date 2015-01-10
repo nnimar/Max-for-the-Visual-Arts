@@ -896,7 +896,6 @@
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
-						"fontsize" : 12.0,
 						"globalpatchername" : "",
 						"style" : "",
 						"tags" : ""
@@ -1123,7 +1122,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 224.0, 106.0, 47.0, 22.0 ],
+					"patching_rect" : [ 228.0, 106.0, 47.0, 22.0 ],
 					"style" : "",
 					"text" : "layer 0",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -1146,7 +1145,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 61.333344, 106.0, 47.0, 22.0 ],
+					"patching_rect" : [ 67.333344, 106.0, 47.0, 22.0 ],
 					"style" : "",
 					"text" : "layer 0",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -1500,7 +1499,7 @@
 					"destination" : [ "obj-13", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 70.833344, 200.0, 232.0, 200.0, 232.0, 329.0, 302.5, 329.0 ],
+					"midpoints" : [ 76.833344, 200.0, 232.0, 200.0, 232.0, 329.0, 302.5, 329.0 ],
 					"source" : [ "obj-49", 0 ]
 				}
 
@@ -1529,7 +1528,7 @@
 					"destination" : [ "obj-25", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 233.5, 191.99176, 302.5, 191.99176 ],
+					"midpoints" : [ 237.5, 191.99176, 302.5, 191.99176 ],
 					"source" : [ "obj-51", 0 ]
 				}
 
@@ -1602,12 +1601,12 @@
 		"styles" : [ 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
+					"fontsize" : [ 14.0 ],
 					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"fontsize" : [ 14.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 100.0, 100.0, 538.0, 415.0 ],
+		"rect" : [ 100.0, 100.0, 540.0, 416.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -37,6 +37,28 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"args" : [ "PattrKitty (Chris Muir)", "record presets using autopattr and pattrstorage." ],
+					"bgmode" : 1,
+					"border" : 0,
+					"clickthrough" : 1,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-50",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "Max4VA-Title.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, -278.0 ],
+					"patching_rect" : [ 0.0, 0.0, 486.0, 55.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ -22.0, -3.0, 487.519531, 73.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"attr" : "varname",
 					"fontname" : "Arial",
@@ -121,7 +143,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 107.699249, 133.212158, 77.0, 22.0 ],
+					"patching_rect" : [ 127.699249, 132.212158, 77.0, 22.0 ],
 					"restore" : 					{
 						"MyGsw" : [ 1 ],
 						"MyGsw2" : [ 0 ],
@@ -145,39 +167,6 @@
 					"style" : "",
 					"text" : "autopattr top",
 					"varname" : "top"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 3,
-					"fontname" : "Arial",
-					"fontsize" : 20.871338,
-					"id" : "obj-5",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2.510893, 3.332659, 365.0, 30.0 ],
-					"style" : "",
-					"text" : "PattrKitty (Chris Muir)",
-					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
-					"varname" : "autohelp_top_title"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.754705,
-					"id" : "obj-10",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 3.510893, 30.332659, 429.0, 21.0 ],
-					"style" : "",
-					"text" : "record presets using autopattr and pattrstorage.",
-					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
-					"varname" : "autohelp_top_digest"
 				}
 
 			}
@@ -654,7 +643,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 188.699249, 102.826599, 15.0, 19.876116 ],
+					"patching_rect" : [ 200.699249, 102.826599, 15.0, 19.876116 ],
 					"style" : ""
 				}
 
@@ -772,7 +761,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 127.699249, 104.215637, 15.0, 15.0 ],
+					"patching_rect" : [ 128.699249, 105.215637, 15.0, 15.0 ],
 					"style" : ""
 				}
 
@@ -787,7 +776,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 143.699249, 101.826599, 39.0, 23.0 ],
+					"patching_rect" : [ 155.699249, 101.826599, 39.0, 23.0 ],
 					"style" : "",
 					"triscale" : 0.9
 				}
@@ -839,7 +828,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 95.10199, 101.826599, 38.235672, 21.0 ],
+					"patching_rect" : [ 87.463577, 103.215637, 38.235672, 21.0 ],
 					"style" : "",
 					"text" : "store"
 				}
@@ -911,24 +900,6 @@
 					"proportion" : 0.39,
 					"style" : "",
 					"varname" : "autohelp_see_panel"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 180.0,
-					"background" : 1,
-					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
-					"id" : "obj-6",
-					"maxclass" : "panel",
-					"mode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2.510893, 2.332659, 533.0, 51.0 ],
-					"proportion" : 0.39,
-					"style" : "",
-					"varname" : "autohelp_top_panel[1]"
 				}
 
 			}
@@ -1169,6 +1140,13 @@
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/Toolbox/pattr",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Max4VA-Title.maxpat",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
+				"patcherrelativepath" : "../../zpatches",
+				"type" : "JSON",
 				"implicit" : 1
 			}
  ],

@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 3.0, 44.0, 538.0, 506.0 ],
+		"rect" : [ 34.0, 78.0, 538.0, 506.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -20,7 +20,7 @@
 		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
+		"toolbarvisible" : 0,
 		"lefttoolbarpinned" : 0,
 		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
@@ -51,6 +51,7 @@
 					"presentation_rect" : [ 42.0, 278.0, 100.0, 20.0 ],
 					"style" : "",
 					"text" : "fxwdmxusbpro",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -66,7 +67,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 448.0, 418.0, 53.0, 20.0 ],
+					"patching_rect" : [ 448.0, 418.0, 53.0, 22.0 ],
 					"style" : "",
 					"text" : "pcontrol"
 				}
@@ -82,7 +83,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 411.0, 419.0, 120.0, 18.0 ],
+					"patching_rect" : [ 411.0, 419.0, 120.0, 22.0 ],
 					"style" : "",
 					"text" : "help fxwdmxusbpro"
 				}
@@ -152,7 +153,7 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 460.0, 61.0, 57.0, 22.0 ],
+					"patching_rect" : [ 460.0, 37.0, 57.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -370,8 +371,13 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"outlettype" : [ "list", "" ],
 					"patching_rect" : [ 10.5, 383.0, 99.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"mode" : 0,
+						"num_channels" : 512
+					}
+,
 					"style" : "",
 					"text" : "imp.dmx.usbpro"
 				}
@@ -393,6 +399,7 @@
 					"presentation_rect" : [ 82.0, 386.0, 100.0, 20.0 ],
 					"style" : "",
 					"text" : "buttler's DMX",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 0,
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
@@ -409,7 +416,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 433.0, 478.0, 79.0, 17.0 ],
+					"patching_rect" : [ 433.0, 478.0, 79.0, 21.0 ],
 					"style" : "",
 					"text" : "load imp.dmx"
 				}
@@ -425,7 +432,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 434.0, 480.0, 52.0, 19.0 ],
+					"patching_rect" : [ 434.0, 480.0, 52.0, 21.0 ],
 					"style" : "",
 					"text" : "pcontrol"
 				}
@@ -447,6 +454,7 @@
 					"presentation_rect" : [ 57.0, 293.0, 100.0, 20.0 ],
 					"style" : "",
 					"text" : "enttec_simple",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 0,
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
@@ -463,7 +471,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 419.0, 449.0, 53.0, 20.0 ],
+					"patching_rect" : [ 419.0, 449.0, 53.0, 22.0 ],
 					"style" : "",
 					"text" : "pcontrol"
 				}
@@ -479,47 +487,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 418.0, 448.0, 113.0, 18.0 ],
+					"patching_rect" : [ 418.0, 448.0, 113.0, 22.0 ],
 					"style" : "",
 					"text" : "load Enttec_simple"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 3,
-					"fontname" : "Arial",
-					"fontsize" : 20.899994,
-					"id" : "obj-2",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 3.0, 319.0, 30.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 33.0, 32.0, 319.0, 30.0 ],
-					"style" : "",
-					"text" : "DMX Enttec USB Pro",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"varname" : "autohelp_top_title"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.754705,
-					"id" : "obj-9",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 31.0, 524.0, 21.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 3,
-					"presentation_rect" : [ 33.0, 61.0, 249.0, 49.0 ],
-					"style" : "",
-					"text" : "dmxusbpro (v 1.5) and imp.dmx.usbpro (v 0.8) are two objects to use the Enttecc USB Pro.",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"varname" : "autohelp_top_digest"
 				}
 
 			}
@@ -3645,6 +3615,28 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "DMX Enttec Pro", "dmxusbpro (1.5) and imp.dmx.usbpro (0.8) to use with the Enttec USB Pro" ],
+					"bgmode" : 1,
+					"border" : 0,
+					"clickthrough" : 1,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-19",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "Max4VA-Title.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, -278.0 ],
+					"patching_rect" : [ -5.0, 0.0, 522.0, 59.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 0.0, 333.519531, 58.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"angle" : 180.0,
 					"background" : 1,
 					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -3744,26 +3736,6 @@
 					"textovercolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 180.0,
-					"background" : 1,
-					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
-					"id" : "obj-11",
-					"maxclass" : "panel",
-					"mode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 3.0, 532.0, 49.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 32.0, 32.0, 428.0, 51.0 ],
-					"proportion" : 0.39,
-					"style" : "",
-					"varname" : "autohelp_top_panel[1]"
 				}
 
 			}
@@ -3977,8 +3949,36 @@
 
 			}
  ],
-		"dependency_cache" : [  ],
-		"embedsnapshot" : 0
+		"dependency_cache" : [ 			{
+				"name" : "Max4VA-Title.maxpat",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
+				"patcherrelativepath" : "../zpatches",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dmxusbpro.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "imp.dmx.usbpro.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"embedsnapshot" : 0,
+		"styles" : [ 			{
+				"name" : "m4va",
+				"default" : 				{
+					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
+					"fontsize" : [ 12.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : [ "Arial" ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+ ]
 	}
 
 }

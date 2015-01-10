@@ -75,6 +75,7 @@
 , 			{
 				"box" : 				{
 					"align" : 0,
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-5",
 					"legacytextcolor" : 1,
@@ -90,7 +91,7 @@
 					"text" : "OSC specs",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 0,
-					"textovercolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -113,6 +114,7 @@
 , 			{
 				"box" : 				{
 					"align" : 0,
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-38",
 					"legacytextcolor" : 1,
@@ -121,14 +123,14 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.0, 331.5, 93.0, 20.0 ],
+					"patching_rect" : [ 8.0, 332.5, 93.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 30.0, 408.0, 100.0, 20.0 ],
 					"style" : "",
 					"text" : "OSCuino",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 0,
-					"textovercolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -146,7 +148,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 8.0, 332.5, 119.0, 21.0 ],
 					"style" : "",
-					"text" : "load IMIoscuinoSerial"
+					"text" : "load oscuinoSerial"
 				}
 
 			}
@@ -169,6 +171,7 @@
 , 			{
 				"box" : 				{
 					"align" : 0,
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-76",
 					"legacytextcolor" : 1,
@@ -184,7 +187,7 @@
 					"text" : "OSC synching video",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 0,
-					"textovercolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -253,6 +256,7 @@
 , 			{
 				"box" : 				{
 					"align" : 0,
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-66",
 					"legacytextcolor" : 1,
@@ -268,7 +272,7 @@
 					"text" : "IanniX",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 0,
-					"textovercolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -323,6 +327,7 @@
 , 			{
 				"box" : 				{
 					"align" : 0,
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-65",
 					"legacytextcolor" : 1,
@@ -338,7 +343,7 @@
 					"text" : "OSCTestApp",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 0,
-					"textovercolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -361,6 +366,7 @@
 , 			{
 				"box" : 				{
 					"align" : 0,
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-58",
 					"legacytextcolor" : 1,
@@ -376,7 +382,7 @@
 					"text" : "OSCseq",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 0,
-					"textovercolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -401,6 +407,7 @@
 , 			{
 				"box" : 				{
 					"align" : 0,
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-42",
 					"legacytextcolor" : 1,
@@ -416,7 +423,7 @@
 					"text" : "Open Sound Control",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 0,
-					"textovercolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -425,6 +432,7 @@
 , 			{
 				"box" : 				{
 					"align" : 0,
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-41",
 					"legacytextcolor" : 1,
@@ -433,14 +441,14 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.0, 197.125, 75.0, 20.0 ],
+					"patching_rect" : [ 9.0, 196.75, 75.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 170.0, 431.0, 100.0, 20.0 ],
 					"style" : "",
 					"text" : "OSControl",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 0,
-					"textovercolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -463,6 +471,7 @@
 , 			{
 				"box" : 				{
 					"align" : 0,
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-30",
 					"legacytextcolor" : 1,
@@ -478,7 +487,7 @@
 					"text" : "OSC tools",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 0,
-					"textovercolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -510,7 +519,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 9.0, 196.75, 98.0, 20.0 ],
 					"style" : "",
-					"text" : "load IMI_OSControl"
+					"text" : "load OSControl"
 				}
 
 			}
@@ -561,6 +570,7 @@
 , 			{
 				"box" : 				{
 					"align" : 0,
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-15",
 					"legacytextcolor" : 1,
@@ -576,7 +586,7 @@
 					"text" : "OSC2Processing",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 0,
-					"textovercolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}

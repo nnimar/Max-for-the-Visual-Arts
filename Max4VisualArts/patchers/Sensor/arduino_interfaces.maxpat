@@ -91,9 +91,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 131.0, 183.0, 118.0, 21.0 ],
+					"patching_rect" : [ 131.0, 182.0, 118.0, 21.0 ],
 					"style" : "",
-					"text" : "load IMI_movie2LED"
+					"text" : "load movie2LED"
 				}
 
 			}
@@ -107,7 +107,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 133.0, 181.0, 52.0, 21.0 ],
+					"patching_rect" : [ 133.0, 180.0, 52.0, 21.0 ],
 					"style" : "",
 					"text" : "pcontrol"
 				}
@@ -399,7 +399,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 15.0, 46.0, 107.0, 20.0 ],
+					"patching_rect" : [ 15.0, 47.0, 107.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 189.0, 207.0, 100.0, 20.0 ],
 					"style" : "",
@@ -422,7 +422,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 15.0, 79.0, 132.0, 20.0 ],
+					"patching_rect" : [ 15.0, 80.0, 132.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 189.0, 180.0, 100.0, 20.0 ],
 					"style" : "",
@@ -488,7 +488,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 15.0, 79.0, 132.0, 21.0 ],
 					"style" : "",
-					"text" : "load IMI_arduino2max6"
+					"text" : "load arduino2max6"
 				}
 
 			}
@@ -672,7 +672,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 15.0, 46.0, 166.0, 21.0 ],
 					"style" : "",
-					"text" : "load IMI_arduino2max.maxpat"
+					"text" : "load arduino2max.maxpat"
 				}
 
 			}
@@ -1080,7 +1080,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-41", 0 ],
 					"disabled" : 0,
-					"hidden" : 0,
+					"hidden" : 1,
 					"source" : [ "obj-43", 0 ]
 				}
 

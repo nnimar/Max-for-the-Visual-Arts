@@ -38,6 +38,28 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [ "Pattrstorage Save (Charles Veasey)", "change value (1), store them in pattrstorage (2), do it again then save it to file (setting.json). Values will be recalled as the patch is open." ],
+					"bgmode" : 1,
+					"border" : 0,
+					"clickthrough" : 1,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-50",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "Max4VA-Title.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, -278.0 ],
+					"patching_rect" : [ 0.0, 0.0, 881.0, 52.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ -22.0, -3.0, 487.519531, 73.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-26",
@@ -243,40 +265,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u701002413"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 3,
-					"fontname" : "Arial",
-					"fontsize" : 20.871338,
-					"id" : "obj-3",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 2.0, 365.0, 30.0 ],
-					"style" : "",
-					"text" : "Pattrstorage Save (Charles Veasey)",
-					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
-					"varname" : "autohelp_top_title"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.754705,
-					"id" : "obj-10",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 30.0, 778.0, 21.0 ],
-					"style" : "",
-					"text" : "change value (1), store them in pattrstorage (2), do it again then save it to file (setting.json). Values will be recalled as the patch is open.",
-					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
-					"varname" : "autohelp_top_digest"
+					"varname" : "u229007993"
 				}
 
 			}
@@ -510,7 +499,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u940002412"
+									"varname" : "u080007992"
 								}
 
 							}
@@ -725,10 +714,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.988235, 0.988235, 0.988235, 0.0 ],
-					"fontname" : "Gill Sans",
-					"fontsize" : 13.74338,
-					"htricolor" : [ 0.87, 0.82, 0.24, 1.0 ],
 					"id" : "obj-89",
 					"maxclass" : "number",
 					"minimum" : 1,
@@ -736,21 +721,15 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 214.75, 154.0, 29.0, 24.0 ],
+					"patching_rect" : [ 214.75, 154.0, 29.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 243.75, 14.105263, 36.0, 24.0 ],
-					"style" : "",
-					"textcolor" : [ 0.6, 0.6, 0.6, 1.0 ],
-					"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+					"presentation_rect" : [ 243.75, 14.105263, 36.0, 22.0 ],
+					"style" : "default"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.988235, 0.988235, 0.988235, 0.0 ],
-					"fontname" : "Gill Sans",
-					"fontsize" : 13.74338,
-					"htricolor" : [ 0.87, 0.82, 0.24, 1.0 ],
 					"id" : "obj-86",
 					"maxclass" : "number",
 					"minimum" : 1,
@@ -758,12 +737,10 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 111.0, 123.0, 30.0, 24.0 ],
+					"patching_rect" : [ 111.0, 123.0, 30.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 334.5, 15.105263, 36.0, 24.0 ],
-					"style" : "",
-					"textcolor" : [ 0.6, 0.6, 0.6, 1.0 ],
-					"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ]
+					"presentation_rect" : [ 334.5, 15.105263, 36.0, 22.0 ],
+					"style" : "default"
 				}
 
 			}
@@ -851,7 +828,7 @@
 ,
 					"style" : "",
 					"text" : "pattrstorage @greedy 1 @fileusagemode 1 @savemode 2",
-					"varname" : "u786002404"
+					"varname" : "u813007984"
 				}
 
 			}
@@ -1068,23 +1045,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 535.0, 61.0, 4.0, 415.0 ],
-					"proportion" : 0.39,
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 180.0,
-					"background" : 1,
-					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
-					"id" : "obj-29",
-					"maxclass" : "panel",
-					"mode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 1.0, 877.0, 51.0 ],
 					"proportion" : 0.39,
 					"style" : ""
 				}
@@ -1402,7 +1362,14 @@
 
 			}
  ],
-		"dependency_cache" : [  ],
+		"dependency_cache" : [ 			{
+				"name" : "Max4VA-Title.maxpat",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
+				"patcherrelativepath" : "../../zpatches",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
 		"embedsnapshot" : 0
 	}
 

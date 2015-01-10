@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1.0, 44.0, 515.0, 586.0 ],
+		"rect" : [ 1.0, 44.0, 513.0, 569.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -51,7 +51,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, -278.0 ],
-					"patching_rect" : [ 0.0, 4.0, 483.0, 33.0 ],
+					"patching_rect" : [ 0.0, 0.0, 483.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -22.0, -3.0, 487.519531, 73.0 ],
 					"viewvisibility" : 1
@@ -61,6 +61,7 @@
 , 			{
 				"box" : 				{
 					"align" : 0,
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-40",
 					"legacytextcolor" : 1,
@@ -76,7 +77,7 @@
 					"text" : "GPS",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 0,
-					"textovercolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -115,6 +116,7 @@
 , 			{
 				"box" : 				{
 					"align" : 0,
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-31",
 					"legacytextcolor" : 1,
@@ -130,7 +132,7 @@
 					"text" : "aka.leapmotion",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 0,
-					"textovercolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -187,6 +189,7 @@
 , 			{
 				"box" : 				{
 					"align" : 0,
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-47",
 					"legacytextcolor" : 1,
@@ -202,7 +205,7 @@
 					"text" : "Mira examples",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 0,
-					"textovercolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -239,6 +242,7 @@
 , 			{
 				"box" : 				{
 					"align" : 0,
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-71",
 					"legacytextcolor" : 1,
@@ -254,7 +258,7 @@
 					"text" : "touche_peak",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 0,
-					"textovercolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -279,6 +283,7 @@
 , 			{
 				"box" : 				{
 					"align" : 0,
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-66",
 					"legacytextcolor" : 1,
@@ -294,7 +299,7 @@
 					"text" : "touche_graph",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 0,
-					"textovercolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -349,6 +354,7 @@
 , 			{
 				"box" : 				{
 					"align" : 0,
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-58",
 					"legacytextcolor" : 1,
@@ -357,14 +363,14 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 179.405457, 134.0, 20.0 ],
+					"patching_rect" : [ 12.0, 180.310913, 134.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 59.0, 531.0, 100.0, 20.0 ],
 					"style" : "",
 					"text" : "capsense2max (12)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 0,
-					"textovercolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -380,9 +386,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 180.310913, 149.0, 21.0 ],
+					"patching_rect" : [ 12.0, 180.310913, 127.0, 21.0 ],
 					"style" : "",
-					"text" : "load IMI_capsense2max12"
+					"text" : "load capsense2max12"
 				}
 
 			}
@@ -419,6 +425,7 @@
 , 			{
 				"box" : 				{
 					"align" : 0,
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-36",
 					"legacytextcolor" : 1,
@@ -434,7 +441,7 @@
 					"text" : "artnet controller",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 0,
-					"textovercolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -489,6 +496,7 @@
 , 			{
 				"box" : 				{
 					"align" : 0,
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-11",
 					"legacytextcolor" : 1,
@@ -504,7 +512,7 @@
 					"text" : "piezo translator",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 0,
-					"textovercolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -559,6 +567,7 @@
 , 			{
 				"box" : 				{
 					"align" : 0,
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-4",
 					"legacytextcolor" : 1,
@@ -574,7 +583,7 @@
 					"text" : "conductive_tea",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 0,
-					"textovercolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -643,6 +652,7 @@
 , 			{
 				"box" : 				{
 					"align" : 0,
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-85",
 					"legacytextcolor" : 1,
@@ -658,7 +668,7 @@
 					"text" : "phidgetAdvancedServo 8",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 0,
-					"textovercolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -683,6 +693,7 @@
 , 			{
 				"box" : 				{
 					"align" : 0,
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-79",
 					"legacytextcolor" : 1,
@@ -698,7 +709,7 @@
 					"text" : "phidgetLED-64",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 0,
-					"textovercolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -739,6 +750,7 @@
 , 			{
 				"box" : 				{
 					"align" : 0,
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-35",
 					"legacytextcolor" : 1,
@@ -754,7 +766,7 @@
 					"text" : "philipsHue",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 0,
-					"textovercolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -823,6 +835,7 @@
 , 			{
 				"box" : 				{
 					"align" : 0,
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-60",
 					"legacytextcolor" : 1,
@@ -838,7 +851,7 @@
 					"text" : "Touch OSC",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 0,
-					"textovercolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -879,6 +892,7 @@
 , 			{
 				"box" : 				{
 					"align" : 0,
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-54",
 					"legacytextcolor" : 1,
@@ -894,7 +908,7 @@
 					"text" : "TuioClient",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 0,
-					"textovercolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -949,6 +963,7 @@
 , 			{
 				"box" : 				{
 					"align" : 0,
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-50",
 					"legacytextcolor" : 1,
@@ -964,7 +979,7 @@
 					"text" : "witilt",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 0,
-					"textovercolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -1035,6 +1050,7 @@
 , 			{
 				"box" : 				{
 					"align" : 0,
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-13",
 					"legacytextcolor" : 1,
@@ -1050,7 +1066,7 @@
 					"text" : "jitter2DMX",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 0,
-					"textovercolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -1073,6 +1089,7 @@
 , 			{
 				"box" : 				{
 					"align" : 0,
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-7",
 					"legacytextcolor" : 1,
@@ -1088,7 +1105,7 @@
 					"text" : "Mira help",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 0,
-					"textovercolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -1097,6 +1114,7 @@
 , 			{
 				"box" : 				{
 					"align" : 0,
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-8",
 					"legacytextcolor" : 1,
@@ -1112,7 +1130,7 @@
 					"text" : "TuioDemo",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 0,
-					"textovercolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -1195,6 +1213,7 @@
 , 			{
 				"box" : 				{
 					"align" : 0,
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-16",
 					"legacytextcolor" : 1,
@@ -1210,7 +1229,7 @@
 					"text" : "dmx_enttec",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 0,
-					"textovercolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -1732,8 +1751,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "Max4VA-Title.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/IMIpatches/templates",
-				"patcherrelativepath" : "../../templates",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
+				"patcherrelativepath" : "../zpatches",
 				"type" : "JSON",
 				"implicit" : 1
 			}

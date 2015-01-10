@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ -2.0, 44.0, 629.0, 549.0 ],
+		"rect" : [ 843.0, 103.0, 613.0, 539.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -431,8 +431,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
-					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
 					"id" : "obj-19",
 					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
@@ -440,16 +439,13 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 508.0, 61.0, 21.0 ],
+					"patching_rect" : [ 9.0, 508.0, 61.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 140.0, 486.5, 79.0, 17.0 ],
-					"rounded" : 20.0,
-					"style" : "",
+					"style" : "default",
 					"text" : "nmap",
-					"textcolor" : [ 0.15, 0.15, 0.15, 1.0 ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"texton" : "Stop",
-					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -466,7 +462,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 501.0, 275.0, 31.0 ],
+					"patching_rect" : [ 10.0, 501.0, 275.0, 31.0 ],
 					"style" : "",
 					"text" : ";\rmax launchbrowser http://nmap.org/download.html#macosx"
 				}

@@ -1771,6 +1771,7 @@
 				"box" : 				{
 					"floatoutput" : 1,
 					"id" : "obj-47",
+					"knobshape" : 5,
 					"maxclass" : "slider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -1853,7 +1854,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 13.0, 197.0, 261.0, 20.0 ],
 									"style" : "",
-									"text" : "/millumin/layer/media/time/2 0.33"
+									"text" : "/millumin/layer/media/time/0 0.66"
 								}
 
 							}
@@ -4097,9 +4098,9 @@
 				"name" : "m4vatextbutton",
 				"default" : 				{
 					"fontsize" : [ 14.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}

@@ -2,10 +2,11 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 6,
-			"minor" : 1,
-			"revision" : 2,
-			"architecture" : "x86"
+			"major" : 7,
+			"minor" : 0,
+			"revision" : 1,
+			"architecture" : "x86",
+			"modernui" : 1
 		}
 ,
 		"rect" : [ 100.0, 100.0, 933.0, 492.0 ],
@@ -14,19 +15,27 @@
 		"default_fontsize" : 13.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 0,
+		"gridonopen" : 1,
 		"gridsize" : [ 10.0, 10.0 ],
-		"gridsnaponopen" : 0,
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 0,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 0,
+		"toolbars_unpinned_last_save" : 0,
+		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
-		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
+		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
@@ -38,42 +47,51 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 6,
-							"minor" : 1,
-							"revision" : 2,
-							"architecture" : "x86"
+							"major" : 7,
+							"minor" : 0,
+							"revision" : 1,
+							"architecture" : "x86",
+							"modernui" : 1
 						}
 ,
 						"rect" : [ 1037.0, 103.0, 454.0, 171.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
-						"default_fontsize" : 13.0,
+						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"gridonopen" : 0,
+						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 0,
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
 						"statusbarvisible" : 2,
 						"toolbarvisible" : 0,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
 						"boxanimatetime" : 200,
-						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
 						"devicewidth" : 0.0,
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
 									"id" : "obj-84",
 									"linecount" : 11,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 6.0, 8.0, 435.0, 154.0 ],
+									"patching_rect" : [ 6.0, 8.0, 437.0, 154.0 ],
+									"style" : "",
 									"text" : "The XBee4Max mxj supports simple sending and receiving of byte data from Series 2 XBees (Zigbee Protocol). Series 1 and ADC_IO support can easily be added by fiddling the source code. For XBees to work with this external they need to be named (i.e. their 'Node Identifier' strings must be non null). \n\nYou can name XBees with the X-CTU program. The external requires a valid port that is connected to an XBee coordinator. On receiving the open command the external issues  an 'ND' node discovery command and deposits the names of responding XBees out of its fifth outlet. If an end device XBee is not turned on when this initial node discovert takes place then sending data from an 'unknown' XBee will cause the 'ND' command to be reissued. "
 								}
 
@@ -82,20 +100,17 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 770.0, 37.0, 46.0, 20.0 ],
+					"patching_rect" : [ 770.0, 37.0, 46.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"default_fontsize" : 13.0,
 						"description" : "",
 						"digest" : "",
-						"fontface" : 0,
-						"fontname" : "Arial",
 						"fontsize" : 12.0,
 						"globalpatchername" : "",
+						"style" : "",
 						"tags" : ""
 					}
 ,
+					"style" : "",
 					"text" : "p infos"
 				}
 
@@ -104,13 +119,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-16",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 708.0, 195.0, 106.0, 33.0 ],
+					"style" : "",
 					"text" : "6) close the port when you're done"
 				}
 
@@ -119,12 +134,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-11",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 68.0, 96.0, 150.0, 20.0 ],
+					"style" : "",
 					"text" : "2) Open the port"
 				}
 
@@ -138,7 +153,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 551.0, 231.0, 101.0, 18.0 ],
+					"patching_rect" : [ 551.0, 231.0, 101.0, 22.0 ],
+					"style" : "",
 					"text" : "send all 115 90 1"
 				}
 
@@ -147,13 +163,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-8",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 551.0, 195.0, 145.0, 33.0 ],
+					"style" : "",
 					"text" : "5) Send 'all' broadcasts the message to all nodes"
 				}
 
@@ -162,13 +178,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-4",
 					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 387.0, 165.0, 150.0, 60.0 ],
+					"style" : "",
 					"text" : "4) Send data with the send command followed by a node name and a list of bytes. "
 				}
 
@@ -182,7 +198,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 387.0, 231.0, 145.0, 18.0 ],
+					"patching_rect" : [ 387.0, 231.0, 145.0, 22.0 ],
+					"style" : "",
 					"text" : "send B1 116 101 115 116"
 				}
 
@@ -191,13 +208,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-42",
 					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 127.0, 165.0, 252.0, 74.0 ],
+					"style" : "",
 					"text" : "3) Wait for nodes to be discovered and return with their 'Node Identifier' strings. If an unrecognised node sends data after the external is loaded it will not be output but will trigger a discovery command. "
 				}
 
@@ -206,12 +223,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-40",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 68.0, 71.0, 335.0, 20.0 ],
+					"style" : "",
 					"text" : "1) Supply initialisation arguments, port name and baud rate."
 				}
 
@@ -225,7 +242,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 16.0, 84.0, 37.0, 18.0 ],
+					"patching_rect" : [ 16.0, 84.0, 37.0, 22.0 ],
+					"style" : "",
 					"text" : "open"
 				}
 
@@ -239,7 +257,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 708.0, 231.0, 39.0, 18.0 ],
+					"patching_rect" : [ 708.0, 231.0, 39.0, 22.0 ],
+					"style" : "",
 					"text" : "close"
 				}
 
@@ -248,13 +267,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
 					"id" : "obj-28",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 577.0, 355.0, 114.0, 29.0 ],
+					"style" : "",
 					"text" : "outlet 5: name of  xbee when discovered. "
 				}
 
@@ -263,13 +282,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
 					"id" : "obj-26",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 437.0, 355.0, 131.0, 40.0 ],
+					"style" : "",
 					"text" : "outlet 4: bang on failed transmission when working in acknowledge mode."
 				}
 
@@ -278,13 +297,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
 					"id" : "obj-25",
 					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 297.0, 355.0, 131.0, 51.0 ],
+					"style" : "",
 					"text" : "outlet 3: bang on successful transmission when working in acknowledge mode."
 				}
 
@@ -293,13 +312,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
 					"id" : "obj-23",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 157.0, 355.0, 124.0, 29.0 ],
+					"style" : "",
 					"text" : "outlet 2: bang when done *attempting* to send."
 				}
 
@@ -308,13 +327,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
 					"id" : "obj-85",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 33.0, 308.0, 100.0, 40.0 ],
+					"style" : "",
 					"text" : "outlet 1: name of transmitting xbee and byte data."
 				}
 
@@ -328,7 +347,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 577.0, 315.0, 188.0, 27.0 ],
+					"patching_rect" : [ 717.0, 315.0, 188.0, 29.0 ],
+					"style" : "",
 					"text" : "print XBee-discovered"
 				}
 
@@ -340,7 +360,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 437.0, 315.0, 30.0, 30.0 ]
+					"patching_rect" : [ 542.0, 315.0, 30.0, 30.0 ],
+					"style" : ""
 				}
 
 			}
@@ -351,7 +372,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 297.0, 315.0, 30.0, 30.0 ]
+					"patching_rect" : [ 367.0, 315.0, 30.0, 30.0 ],
+					"style" : ""
 				}
 
 			}
@@ -362,7 +384,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 157.0, 315.0, 30.0, 30.0 ]
+					"patching_rect" : [ 192.0, 315.0, 30.0, 30.0 ],
+					"style" : ""
 				}
 
 			}
@@ -374,7 +397,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, 421.0, 136.0, 27.0 ],
+					"patching_rect" : [ 17.0, 421.0, 136.0, 29.0 ],
+					"style" : "",
 					"text" : "print XBee-data"
 				}
 
@@ -388,7 +412,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 17.0, 456.0, 154.0, 25.0 ],
+					"patching_rect" : [ 17.0, 456.0, 154.0, 29.0 ],
+					"style" : "",
 					"text" : "B9 113 129 0"
 				}
 
@@ -402,7 +427,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 17.0, 168.0, 97.0, 18.0 ],
+					"patching_rect" : [ 17.0, 168.0, 97.0, 22.0 ],
+					"style" : "",
 					"text" : "acknowledge $1"
 				}
 
@@ -411,12 +437,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-29",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 47.0, 138.0, 287.0, 20.0 ],
+					"style" : "",
 					"text" : "(Optional) Request transmission acknowledgement"
 				}
 
@@ -429,7 +455,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 17.0, 138.0, 20.0, 20.0 ]
+					"patching_rect" : [ 17.0, 138.0, 20.0, 20.0 ],
+					"style" : ""
 				}
 
 			}
@@ -441,9 +468,10 @@
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 6,
-					"outlettype" : [ "list", "", "", "", "", "" ],
-					"patching_rect" : [ 17.0, 275.0, 719.0, 27.0 ],
+					"numoutlets" : 5,
+					"outlettype" : [ "", "", "", "", "" ],
+					"patching_rect" : [ 17.0, 275.0, 719.0, 29.0 ],
+					"style" : "",
 					"text" : "mxj XBee4Max @port /dev/tty.usbserial-A8008KtW @baud 9600 @acknowledge 0"
 				}
 
@@ -452,12 +480,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-39",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 820.0, 37.0, 103.0, 20.0 ],
+					"style" : "",
 					"text" : "Robin Price 2011",
 					"textcolor" : [ 0.176471, 0.086275, 0.0, 1.0 ]
 				}
@@ -467,12 +495,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-38",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 8.0, 37.0, 168.0, 20.0 ],
+					"style" : "",
 					"text" : "API mode Zigbee transceiver",
 					"textcolor" : [ 0.176471, 0.086275, 0.0, 1.0 ]
 				}
@@ -483,7 +511,8 @@
 					"id" : "obj-50",
 					"maxclass" : "fpic",
 					"numinlets" : 1,
-					"numoutlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 13.0, 11.0, 92.0, 20.0 ],
 					"pic" : "XBee4Max-mxj.jpg"
 				}
@@ -494,12 +523,12 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.870001,
-					"frgb" : 0.0,
 					"id" : "obj-36",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 112.0, 7.0, 207.0, 30.0 ],
+					"style" : "",
 					"text" : "mxj XBee4Max",
 					"textcolor" : [ 0.258824, 0.207843, 0.145098, 1.0 ]
 				}
@@ -507,20 +536,24 @@
 			}
 , 			{
 				"box" : 				{
+					"angle" : 0.0,
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"border" : 2,
 					"bordercolor" : [ 1.0, 1.0, 1.0, 0.74902 ],
-					"grad1" : [ 1.0, 0.858824, 0.721569, 1.0 ],
 					"id" : "obj-52",
 					"maxclass" : "panel",
+					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 7.0, 100.0, 27.0 ]
+					"patching_rect" : [ 8.0, 7.0, 100.0, 27.0 ],
+					"proportion" : 0.39,
+					"style" : ""
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"angle" : 0.0,
 					"background" : 1,
 					"grad1" : [ 0.890196, 0.890196, 0.0, 1.0 ],
 					"grad2" : [ 0.941176, 0.921569, 0.905882, 1.0 ],
@@ -529,7 +562,9 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 3.0, 930.0, 55.0 ]
+					"patching_rect" : [ 3.0, 3.0, 930.0, 55.0 ],
+					"proportion" : 0.39,
+					"style" : ""
 				}
 
 			}
@@ -650,12 +685,13 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "XBee4Max-mxj.jpg",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Sensor_Interfaces/12. Xbee/XBee4Max",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/Sensor_Interfaces/10. Xbee/XBee4Max",
 				"patcherrelativepath" : ".",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
- ]
+ ],
+		"embedsnapshot" : 0
 	}
 
 }

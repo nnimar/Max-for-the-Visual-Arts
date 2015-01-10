@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -38,34 +38,23 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"fontface" : 3,
-					"fontname" : "Arial",
-					"fontsize" : 20.871338,
-					"id" : "obj-3",
-					"maxclass" : "comment",
-					"numinlets" : 1,
+					"args" : [ "fxw-dmx usb pro (Olivier Pasquet and fxw)", "simple ENTTEC DMX USB Pro controller" ],
+					"bgmode" : 1,
+					"border" : 0,
+					"clickthrough" : 1,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-1",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "Max4VA-Title.maxpat",
+					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 3.0, 445.0, 30.0 ],
-					"style" : "",
-					"text" : "fxw-dmx usb pro (Olivier Pasquet and fxw)",
-					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
-					"varname" : "autohelp_top_title"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.754705,
-					"id" : "obj-21",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 31.0, 486.0, 21.0 ],
-					"style" : "",
-					"text" : "simple ENTTEC DMX USB Pro controller",
-					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
-					"varname" : "autohelp_top_digest"
+					"offset" : [ 0.0, -278.0 ],
+					"patching_rect" : [ 0.0, 0.0, 522.0, 59.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 0.0, 333.519531, 58.0 ],
+					"viewvisibility" : 1
 				}
 
 			}
@@ -83,7 +72,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -296,7 +285,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 124.0, 90.0, 22.0, 22.0 ],
 					"style" : "",
-					"text" : "5"
+					"text" : "5",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
 			}
@@ -310,7 +300,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 97.0, 90.0, 22.0, 22.0 ],
 					"style" : "",
-					"text" : "4"
+					"text" : "4",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
 			}
@@ -324,7 +315,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 71.0, 90.0, 22.0, 22.0 ],
 					"style" : "",
-					"text" : "3"
+					"text" : "3",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
 			}
@@ -338,7 +330,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 44.5, 90.0, 22.0, 22.0 ],
 					"style" : "",
-					"text" : "2"
+					"text" : "2",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
 			}
@@ -352,20 +345,13 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 17.5, 90.0, 22.0, 22.0 ],
 					"style" : "",
-					"text" : "1"
+					"text" : "1",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgfillcolor_angle" : 270.0,
-					"bgfillcolor_color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
-					"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"bgfillcolor_proportion" : 0.39,
-					"bgfillcolor_type" : "color",
-					"fontface" : 0,
-					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-30",
 					"items" : [ "SparkFun-BT-COM0", ",", "BTGPS74R-SPP-1", ",", "Bluetooth-Modem", ",", "Bluetooth-Incoming-Port" ],
@@ -375,8 +361,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 139.0, 396.0, 156.0, 24.0 ],
-					"style" : "",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"style" : "default"
 				}
 
 			}
@@ -442,6 +427,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-13",
+					"knobshape" : 5,
 					"maxclass" : "slider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -456,6 +442,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-12",
+					"knobshape" : 5,
 					"maxclass" : "slider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -470,6 +457,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-11",
+					"knobshape" : 5,
 					"maxclass" : "slider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -484,6 +472,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-9",
+					"knobshape" : 5,
 					"maxclass" : "slider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -498,6 +487,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-8",
+					"knobshape" : 5,
 					"maxclass" : "slider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -538,24 +528,6 @@
 					"patching_rect" : [ 15.0, 242.0, 125.0, 24.0 ],
 					"style" : "",
 					"text" : "pak 0 0 0 0 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 180.0,
-					"background" : 1,
-					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
-					"id" : "obj-39",
-					"maxclass" : "panel",
-					"mode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 504.0, 51.0 ],
-					"proportion" : 0.39,
-					"style" : "",
-					"varname" : "autohelp_top_panel[1]"
 				}
 
 			}
@@ -663,13 +635,33 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "fxwdmxusbpro.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/IMIpatches/patchers/Toolbox/communication/Enttec_fxwdmxusbpro",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/Toolbox/communication/Enttec_fxwdmxusbpro",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "Max4VA-Title.maxpat",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
+				"patcherrelativepath" : "../../../zpatches",
+				"type" : "JSON",
+				"implicit" : 1
+			}
  ],
-		"embedsnapshot" : 0
+		"embedsnapshot" : 0,
+		"styles" : [ 			{
+				"name" : "m4va",
+				"default" : 				{
+					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
+					"fontsize" : [ 12.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : [ "Arial" ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+ ]
 	}
 
 }

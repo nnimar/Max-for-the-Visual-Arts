@@ -1546,7 +1546,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-30",
@@ -1559,13 +1559,12 @@
 					"patching_rect" : [ 390.5, 556.0, 141.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 269.0, 324.5, 79.0, 17.0 ],
-					"rounded" : 20.0,
 					"style" : "",
 					"text" : "open serial_parseint",
-					"textcolor" : [ 0.15, 0.15, 0.15, 1.0 ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -1692,7 +1691,7 @@
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 1.0, 1.0 ],
 					"id" : "obj-3",
-					"knobcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"knobcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"knobshape" : 5,
 					"maxclass" : "slider",
 					"numinlets" : 1,
@@ -1709,7 +1708,7 @@
 				"box" : 				{
 					"bgcolor" : [ 0.0, 1.0, 0.0, 1.0 ],
 					"id" : "obj-2",
-					"knobcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"knobcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"knobshape" : 5,
 					"maxclass" : "slider",
 					"numinlets" : 1,
@@ -1726,7 +1725,7 @@
 				"box" : 				{
 					"bgcolor" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-1",
-					"knobcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"knobcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"knobshape" : 5,
 					"maxclass" : "slider",
 					"numinlets" : 1,

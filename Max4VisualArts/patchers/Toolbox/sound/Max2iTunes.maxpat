@@ -2,41 +2,72 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 6,
-			"minor" : 1,
-			"revision" : 3,
-			"architecture" : "x86"
+			"major" : 7,
+			"minor" : 0,
+			"revision" : 1,
+			"architecture" : "x86",
+			"modernui" : 1
 		}
 ,
-		"rect" : [ 640.0, 44.0, 621.0, 479.0 ],
+		"rect" : [ 102.0, 101.0, 621.0, 479.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 0,
+		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 0,
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 0,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 0,
+		"toolbars_unpinned_last_save" : 0,
+		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
-		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
+		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"args" : [ "Max2iTunes", "send applescript commands to itunes via the shell object and osascript" ],
+					"bgmode" : 1,
+					"border" : 0,
+					"clickthrough" : 1,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-62",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "Max4VA-Title.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, -278.0 ],
+					"patching_rect" : [ 0.0, 0.0, 488.0, 56.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ -7.0, 12.0, 487.519531, 73.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
-					"frgb" : 0.0,
 					"id" : "obj-6",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 118.0, 185.0, 54.0, 22.0 ],
+					"style" : "",
 					"text" : "(0-100)"
 				}
 
@@ -45,12 +76,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
-					"frgb" : 0.0,
 					"id" : "obj-4",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 258.0, 288.0, 34.0, 22.0 ],
+					"style" : "",
 					"text" : "EQ"
 				}
 
@@ -63,7 +94,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 234.0, 290.0, 20.0, 20.0 ]
+					"patching_rect" : [ 234.0, 290.0, 20.0, 20.0 ],
+					"style" : ""
 				}
 
 			}
@@ -76,7 +108,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 513.0, 290.0, 97.0, 20.0 ],
+					"patching_rect" : [ 513.0, 290.0, 97.0, 24.0 ],
+					"style" : "",
 					"text" : "Vocal Booster"
 				}
 
@@ -90,7 +123,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 410.0, 290.0, 98.0, 20.0 ],
+					"patching_rect" : [ 410.0, 290.0, 98.0, 24.0 ],
+					"style" : "",
 					"text" : "Bass Reducer"
 				}
 
@@ -104,7 +138,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 311.0, 290.0, 94.0, 20.0 ],
+					"patching_rect" : [ 311.0, 290.0, 94.0, 24.0 ],
+					"style" : "",
 					"text" : "Bass Booster"
 				}
 
@@ -116,7 +151,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 197.0, 132.0, 20.0, 20.0 ]
+					"patching_rect" : [ 197.0, 132.0, 20.0, 20.0 ],
+					"style" : ""
 				}
 
 			}
@@ -129,7 +165,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 280.0, 206.0, 105.0, 20.0 ],
+					"patching_rect" : [ 280.0, 206.0, 105.0, 24.0 ],
+					"style" : "",
 					"text" : "Kronos Quartet"
 				}
 
@@ -143,7 +180,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 234.0, 206.0, 41.0, 20.0 ],
+					"patching_rect" : [ 234.0, 206.0, 41.0, 24.0 ],
+					"style" : "",
 					"text" : "Feist"
 				}
 
@@ -152,12 +190,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
-					"frgb" : 0.0,
 					"id" : "obj-77",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 203.0, 448.0, 41.0, 22.0 ],
+					"style" : "",
 					"text" : "done"
 				}
 
@@ -169,7 +207,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 181.0, 448.0, 20.0, 20.0 ]
+					"patching_rect" : [ 181.0, 448.0, 20.0, 20.0 ],
+					"style" : ""
 				}
 
 			}
@@ -181,41 +220,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 106.0, 448.0, 71.0, 21.0 ],
+					"patching_rect" : [ 106.0, 448.0, 71.0, 23.0 ],
+					"style" : "",
 					"text" : "print shell"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 3,
-					"fontname" : "Arial",
-					"fontsize" : 20.899994,
-					"frgb" : 0.0,
-					"id" : "obj-76",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 3.0, 140.0, 30.0 ],
-					"text" : "Max2iTunes\n",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"varname" : "autohelp_top_title"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.754705,
-					"frgb" : 0.0,
-					"id" : "obj-9",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 32.0, 537.0, 21.0 ],
-					"text" : "here is an example to send applescript commands to itunes via the shell object and osascript",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"varname" : "autohelp_top_digest"
 				}
 
 			}
@@ -223,12 +230,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-54",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 271.669403, 132.0, 30.0, 20.0 ],
+					"style" : "",
 					"text" : "rew"
 				}
 
@@ -237,12 +244,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-52",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 437.107361, 132.0, 35.0, 20.0 ],
+					"style" : "",
 					"text" : "back"
 				}
 
@@ -251,12 +258,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-2",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 326.851257, 132.0, 27.0, 20.0 ],
+					"style" : "",
 					"text" : "fwd"
 				}
 
@@ -265,12 +272,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-5",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 380.702393, 132.0, 32.0, 20.0 ],
+					"style" : "",
 					"text" : "next"
 				}
 
@@ -279,12 +286,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-8",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 216.074402, 132.0, 33.0, 20.0 ],
+					"style" : "",
 					"text" : "play"
 				}
 
@@ -296,7 +303,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 418.0, 132.0, 20.0, 20.0 ]
+					"patching_rect" : [ 418.0, 132.0, 20.0, 20.0 ],
+					"style" : ""
 				}
 
 			}
@@ -307,7 +315,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 363.0, 132.0, 20.0, 20.0 ]
+					"patching_rect" : [ 363.0, 132.0, 20.0, 20.0 ],
+					"style" : ""
 				}
 
 			}
@@ -319,7 +328,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 308.0, 132.0, 20.0, 20.0 ]
+					"patching_rect" : [ 308.0, 132.0, 20.0, 20.0 ],
+					"style" : ""
 				}
 
 			}
@@ -331,7 +341,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 253.0, 132.0, 20.0, 20.0 ]
+					"patching_rect" : [ 253.0, 132.0, 20.0, 20.0 ],
+					"style" : ""
 				}
 
 			}
@@ -343,9 +354,10 @@
 					"maxclass" : "number",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "int", "bang" ],
+					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 106.0, 130.0, 50.0, 22.0 ]
+					"patching_rect" : [ 106.0, 130.0, 50.0, 24.0 ],
+					"style" : ""
 				}
 
 			}
@@ -361,10 +373,11 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 6,
-							"minor" : 1,
-							"revision" : 3,
-							"architecture" : "x86"
+							"major" : 7,
+							"minor" : 0,
+							"revision" : 1,
+							"architecture" : "x86",
+							"modernui" : 1
 						}
 ,
 						"rect" : [ 676.0, 44.0, 477.0, 257.0 ],
@@ -373,19 +386,27 @@
 						"default_fontsize" : 14.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"gridonopen" : 0,
+						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 0,
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
 						"statusbarvisible" : 2,
 						"toolbarvisible" : 0,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
 						"boxanimatetime" : 200,
-						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
 						"devicewidth" : 0.0,
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -393,8 +414,9 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
-									"patching_rect" : [ 5.5, 15.0, 25.0, 25.0 ]
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 5.5, 15.0, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -408,6 +430,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 59.5, 55.512405, 33.0, 18.0 ],
+									"style" : "",
 									"text" : "50"
 								}
 
@@ -416,12 +439,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
 									"id" : "obj-35",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 126.276871, 15.0, 36.0, 20.0 ],
+									"style" : "",
 									"text" : "Mute"
 								}
 
@@ -436,13 +459,20 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 103.797516, 51.0, 38.0, 20.0 ],
+									"style" : "",
 									"text" : "route"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+									"bgfillcolor_angle" : 270.0,
+									"bgfillcolor_autogradient" : 0.79,
+									"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+									"bgfillcolor_color1" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+									"bgfillcolor_color2" : [ 0.685, 0.685, 0.685, 1.0 ],
+									"bgfillcolor_proportion" : 0.39,
+									"bgfillcolor_type" : "gradient",
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-33",
@@ -451,7 +481,9 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 123.152893, 113.512405, 346.0, 18.0 ],
-									"text" : "osascript -e 'tell application \\\"iTunes\\\" to set sound volume to 0'"
+									"style" : "",
+									"text" : "osascript -e 'tell application \\\"iTunes\\\" to set sound volume to 0'",
+									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
 							}
@@ -463,7 +495,8 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 103.797516, 15.0, 20.0, 20.0 ]
+									"patching_rect" : [ 103.797516, 15.0, 20.0, 20.0 ],
+									"style" : ""
 								}
 
 							}
@@ -471,12 +504,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
 									"id" : "obj-10",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 328.805786, 20.909103, 138.0, 20.0 ],
+									"style" : "",
 									"text" : "Set the volume of itunes"
 								}
 
@@ -486,23 +519,32 @@
 									"bgcolor" : [ 0.866667, 0.866667, 0.866667, 1.0 ],
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"htextcolor" : [ 0.870588, 0.870588, 0.870588, 1.0 ],
+									"htricolor" : [ 0.87, 0.82, 0.24, 1.0 ],
 									"id" : "obj-20",
 									"maxclass" : "number",
 									"maximum" : 100,
 									"minimum" : 0,
 									"numinlets" : 1,
 									"numoutlets" : 2,
-									"outlettype" : [ "int", "bang" ],
+									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 59.5, 113.512405, 39.0, 20.0 ],
+									"style" : "",
+									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 									"triscale" : 0.9
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+									"bgfillcolor_angle" : 270.0,
+									"bgfillcolor_autogradient" : 0.79,
+									"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+									"bgfillcolor_color1" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+									"bgfillcolor_color2" : [ 0.685, 0.685, 0.685, 1.0 ],
+									"bgfillcolor_proportion" : 0.39,
+									"bgfillcolor_type" : "gradient",
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-21",
@@ -511,7 +553,9 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 59.5, 151.51239, 353.0, 18.0 ],
-									"text" : "osascript -e 'tell application \\\"iTunes\\\" to set sound volume to $1'"
+									"style" : "",
+									"text" : "osascript -e 'tell application \\\"iTunes\\\" to set sound volume to $1'",
+									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
 							}
@@ -523,7 +567,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 59.5, 15.0, 25.0, 25.0 ]
+									"patching_rect" : [ 59.5, 15.0, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -534,7 +579,8 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 60.326447, 216.041321, 25.0, 25.0 ]
+									"patching_rect" : [ 60.326447, 216.041321, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -626,20 +672,17 @@
  ]
 					}
 ,
-					"patching_rect" : [ 105.5, 162.48761, 67.0, 22.0 ],
+					"patching_rect" : [ 105.5, 162.48761, 67.0, 24.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"default_fontsize" : 14.0,
 						"description" : "",
 						"digest" : "",
-						"fontface" : 0,
-						"fontname" : "Arial",
 						"fontsize" : 14.0,
 						"globalpatchername" : "",
+						"style" : "",
 						"tags" : ""
 					}
 ,
+					"style" : "",
 					"text" : "p volume"
 				}
 
@@ -656,10 +699,11 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 6,
-							"minor" : 1,
-							"revision" : 3,
-							"architecture" : "x86"
+							"major" : 7,
+							"minor" : 0,
+							"revision" : 1,
+							"architecture" : "x86",
+							"modernui" : 1
 						}
 ,
 						"rect" : [ 670.0, 44.0, 347.0, 271.0 ],
@@ -668,36 +712,50 @@
 						"default_fontsize" : 14.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"gridonopen" : 0,
+						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 0,
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
 						"statusbarvisible" : 2,
 						"toolbarvisible" : 0,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
 						"boxanimatetime" : 200,
-						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
 						"devicewidth" : 0.0,
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
 									"id" : "obj-11",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 96.0, 36.0, 149.0, 20.0 ],
+									"style" : "",
 									"text" : "open and close the itunes"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+									"bgfillcolor_angle" : 270.0,
+									"bgfillcolor_autogradient" : 0.79,
+									"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+									"bgfillcolor_color1" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+									"bgfillcolor_color2" : [ 0.685, 0.685, 0.685, 1.0 ],
+									"bgfillcolor_proportion" : 0.39,
+									"bgfillcolor_type" : "gradient",
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-23",
@@ -706,13 +764,21 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 32.0, 85.0, 264.0, 18.0 ],
-									"text" : "osascript -e 'tell application \\\"iTunes\\\" to open'"
+									"style" : "",
+									"text" : "osascript -e 'tell application \\\"iTunes\\\" to open'",
+									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+									"bgfillcolor_angle" : 270.0,
+									"bgfillcolor_autogradient" : 0.79,
+									"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+									"bgfillcolor_color1" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+									"bgfillcolor_color2" : [ 0.685, 0.685, 0.685, 1.0 ],
+									"bgfillcolor_proportion" : 0.39,
+									"bgfillcolor_type" : "gradient",
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-27",
@@ -721,7 +787,9 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 62.0, 124.0, 261.0, 18.0 ],
-									"text" : "osascript -e 'tell application \\\"iTunes\\\" to quit'"
+									"style" : "",
+									"text" : "osascript -e 'tell application \\\"iTunes\\\" to quit'",
+									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
 							}
@@ -733,7 +801,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 32.0, 32.0, 25.0, 25.0 ]
+									"patching_rect" : [ 32.0, 32.0, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -745,7 +814,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 62.0, 32.0, 25.0, 25.0 ]
+									"patching_rect" : [ 62.0, 32.0, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -756,7 +826,8 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 31.5, 198.0, 25.0, 25.0 ]
+									"patching_rect" : [ 31.5, 198.0, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -800,20 +871,17 @@
  ]
 					}
 ,
-					"patching_rect" : [ 9.132233, 164.090912, 90.0, 22.0 ],
+					"patching_rect" : [ 9.132233, 164.090912, 90.0, 24.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"default_fontsize" : 14.0,
 						"description" : "",
 						"digest" : "",
-						"fontface" : 0,
-						"fontname" : "Arial",
 						"fontsize" : 14.0,
 						"globalpatchername" : "",
+						"style" : "",
 						"tags" : ""
 					}
 ,
+					"style" : "",
 					"text" : "p open/close"
 				}
 
@@ -830,10 +898,11 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 6,
-							"minor" : 1,
-							"revision" : 3,
-							"architecture" : "x86"
+							"major" : 7,
+							"minor" : 0,
+							"revision" : 1,
+							"architecture" : "x86",
+							"modernui" : 1
 						}
 ,
 						"rect" : [ 672.0, 44.0, 733.0, 375.0 ],
@@ -842,19 +911,27 @@
 						"default_fontsize" : 14.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"gridonopen" : 0,
+						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 0,
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
 						"statusbarvisible" : 2,
 						"toolbarvisible" : 0,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
 						"boxanimatetime" : 200,
-						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
 						"devicewidth" : 0.0,
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -863,7 +940,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 426.190125, 260.0, 25.0, 25.0 ]
+									"patching_rect" : [ 426.190125, 260.0, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -875,7 +953,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 400.190125, 201.0, 25.0, 25.0 ]
+									"patching_rect" : [ 400.190125, 201.0, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -887,7 +966,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 347.190125, 10.0, 25.0, 25.0 ]
+									"patching_rect" : [ 347.190125, 10.0, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -899,7 +979,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 246.190125, 10.0, 25.0, 25.0 ]
+									"patching_rect" : [ 246.190125, 10.0, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -911,7 +992,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 17.190125, 10.0, 25.0, 25.0 ]
+									"patching_rect" : [ 17.190125, 10.0, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -925,13 +1007,20 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
 									"patching_rect" : [ 43.0, 112.0, 69.0, 20.0 ],
+									"style" : "",
 									"text" : "delay 4000"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.858824, 0.858824, 0.858824, 1.0 ],
+									"bgfillcolor_angle" : 270.0,
+									"bgfillcolor_autogradient" : 0.79,
+									"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+									"bgfillcolor_color1" : [ 0.858824, 0.858824, 0.858824, 1.0 ],
+									"bgfillcolor_color2" : [ 0.685, 0.685, 0.685, 1.0 ],
+									"bgfillcolor_proportion" : 0.39,
+									"bgfillcolor_type" : "gradient",
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-91",
@@ -940,7 +1029,9 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 346.595032, 140.760376, 269.0, 18.0 ],
-									"text" : "osascript -e 'tell application \\\"iTunes\\\" to resume'"
+									"style" : "",
+									"text" : "osascript -e 'tell application \\\"iTunes\\\" to resume'",
+									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
 							}
@@ -948,12 +1039,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
 									"id" : "obj-54",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 267.669403, 45.0, 49.0, 20.0 ],
+									"style" : "",
 									"text" : "Rewind"
 								}
 
@@ -962,19 +1053,25 @@
 								"box" : 								{
 									"fontname" : "Arial Bold",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
 									"id" : "obj-52",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 637.702393, 266.421509, 68.0, 20.0 ],
+									"style" : "",
 									"text" : "Backtrack"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.858824, 0.858824, 0.858824, 1.0 ],
+									"bgfillcolor_angle" : 270.0,
+									"bgfillcolor_autogradient" : 0.79,
+									"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+									"bgfillcolor_color1" : [ 0.858824, 0.858824, 0.858824, 1.0 ],
+									"bgfillcolor_color2" : [ 0.685, 0.685, 0.685, 1.0 ],
+									"bgfillcolor_proportion" : 0.39,
+									"bgfillcolor_type" : "gradient",
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-51",
@@ -983,7 +1080,9 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 426.190125, 286.595062, 280.0, 18.0 ],
-									"text" : "osascript -e 'tell application \\\"itunes\\\" to back track'"
+									"style" : "",
+									"text" : "osascript -e 'tell application \\\"itunes\\\" to back track'",
+									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
 							}
@@ -997,6 +1096,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 346.851257, 76.396729, 38.0, 20.0 ],
+									"style" : "",
 									"text" : "route"
 								}
 
@@ -1009,7 +1109,8 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 346.851257, 45.0, 20.0, 20.0 ]
+									"patching_rect" : [ 346.851257, 45.0, 20.0, 20.0 ],
+									"style" : ""
 								}
 
 							}
@@ -1023,6 +1124,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 245.826431, 76.396729, 38.0, 20.0 ],
+									"style" : "",
 									"text" : "route"
 								}
 
@@ -1035,13 +1137,20 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 245.826431, 45.0, 20.0, 20.0 ]
+									"patching_rect" : [ 245.826431, 45.0, 20.0, 20.0 ],
+									"style" : ""
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.858824, 0.858824, 0.858824, 1.0 ],
+									"bgfillcolor_angle" : 270.0,
+									"bgfillcolor_autogradient" : 0.79,
+									"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+									"bgfillcolor_color1" : [ 0.858824, 0.858824, 0.858824, 1.0 ],
+									"bgfillcolor_color2" : [ 0.685, 0.685, 0.685, 1.0 ],
+									"bgfillcolor_proportion" : 0.39,
+									"bgfillcolor_type" : "gradient",
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-37",
@@ -1050,7 +1159,9 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 265.0, 173.413269, 265.0, 18.0 ],
-									"text" : "osascript -e 'tell application \\\"iTunes\\\" to rewind'"
+									"style" : "",
+									"text" : "osascript -e 'tell application \\\"iTunes\\\" to rewind'",
+									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
 							}
@@ -1058,12 +1169,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
 									"id" : "obj-2",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 368.851257, 45.0, 76.0, 20.0 ],
+									"style" : "",
 									"text" : "Fast forward"
 								}
 
@@ -1072,12 +1183,12 @@
 								"box" : 								{
 									"fontname" : "Arial Bold",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
 									"id" : "obj-5",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 637.702393, 211.421509, 67.0, 20.0 ],
+									"style" : "",
 									"text" : "Next track"
 								}
 
@@ -1086,19 +1197,25 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
 									"id" : "obj-8",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 45.074402, 10.0, 113.0, 20.0 ],
+									"style" : "",
 									"text" : "Toggle play - pause"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.858824, 0.858824, 0.858824, 1.0 ],
+									"bgfillcolor_angle" : 270.0,
+									"bgfillcolor_autogradient" : 0.79,
+									"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+									"bgfillcolor_color1" : [ 0.858824, 0.858824, 0.858824, 1.0 ],
+									"bgfillcolor_color2" : [ 0.685, 0.685, 0.685, 1.0 ],
+									"bgfillcolor_proportion" : 0.39,
+									"bgfillcolor_type" : "gradient",
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-13",
@@ -1107,13 +1224,21 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 365.776855, 109.45459, 292.0, 18.0 ],
-									"text" : "osascript -e 'tell application \\\"iTunes\\\" to fast forward'"
+									"style" : "",
+									"text" : "osascript -e 'tell application \\\"iTunes\\\" to fast forward'",
+									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.858824, 0.858824, 0.858824, 1.0 ],
+									"bgfillcolor_angle" : 270.0,
+									"bgfillcolor_autogradient" : 0.79,
+									"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+									"bgfillcolor_color1" : [ 0.858824, 0.858824, 0.858824, 1.0 ],
+									"bgfillcolor_color2" : [ 0.685, 0.685, 0.685, 1.0 ],
+									"bgfillcolor_proportion" : 0.39,
+									"bgfillcolor_type" : "gradient",
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-18",
@@ -1122,13 +1247,21 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 400.190125, 232.247925, 307.0, 18.0 ],
-									"text" : "osascript -e 'tell application \\\"itunes\\\" to play next track'"
+									"style" : "",
+									"text" : "osascript -e 'tell application \\\"itunes\\\" to play next track'",
+									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.858824, 0.858824, 0.858824, 1.0 ],
+									"bgfillcolor_angle" : 270.0,
+									"bgfillcolor_autogradient" : 0.79,
+									"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+									"bgfillcolor_color1" : [ 0.858824, 0.858824, 0.858824, 1.0 ],
+									"bgfillcolor_color2" : [ 0.685, 0.685, 0.685, 1.0 ],
+									"bgfillcolor_proportion" : 0.39,
+									"bgfillcolor_type" : "gradient",
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-22",
@@ -1138,7 +1271,9 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 17.190125, 150.479309, 164.0, 32.0 ],
-									"text" : "osascript -e 'tell application \\\"iTunes\\\" to playpause'"
+									"style" : "",
+									"text" : "osascript -e 'tell application \\\"iTunes\\\" to playpause'",
+									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
 							}
@@ -1149,7 +1284,8 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 347.376038, 339.413269, 25.0, 25.0 ]
+									"patching_rect" : [ 347.376038, 339.413269, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -1327,20 +1463,17 @@
  ]
 					}
 ,
-					"patching_rect" : [ 197.421478, 162.48761, 240.0, 22.0 ],
+					"patching_rect" : [ 197.421478, 162.48761, 240.0, 24.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"default_fontsize" : 14.0,
 						"description" : "",
 						"digest" : "",
-						"fontface" : 0,
-						"fontname" : "Arial",
 						"fontsize" : 14.0,
 						"globalpatchername" : "",
+						"style" : "",
 						"tags" : ""
 					}
 ,
+					"style" : "",
 					"text" : "p command"
 				}
 
@@ -1357,10 +1490,11 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 6,
-							"minor" : 1,
-							"revision" : 3,
-							"architecture" : "x86"
+							"major" : 7,
+							"minor" : 0,
+							"revision" : 1,
+							"architecture" : "x86",
+							"modernui" : 1
 						}
 ,
 						"rect" : [ 669.0, 44.0, 537.0, 255.0 ],
@@ -1369,29 +1503,37 @@
 						"default_fontsize" : 14.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"gridonopen" : 0,
+						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 0,
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
 						"statusbarvisible" : 2,
 						"toolbarvisible" : 0,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
 						"boxanimatetime" : 200,
-						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
 						"devicewidth" : 0.0,
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 14.0,
-									"frgb" : 0.0,
 									"id" : "obj-5",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 76.0, 47.0, 150.0, 23.0 ],
+									"style" : "",
 									"text" : "doesn't work..."
 								}
 
@@ -1406,6 +1548,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 40.0, 159.0, 422.0, 21.0 ],
+									"style" : "",
 									"text" : "\"osascript -e 'tell application \\\"iTunes\\\" to set EQ enabled to 1'\""
 								}
 
@@ -1418,7 +1561,8 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 21.0, 20.0, 20.0, 20.0 ]
+									"patching_rect" : [ 21.0, 20.0, 20.0, 20.0 ],
+									"style" : ""
 								}
 
 							}
@@ -1432,6 +1576,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 21.0, 48.0, 42.0, 23.0 ],
+									"style" : "",
 									"text" : "route"
 								}
 
@@ -1446,6 +1591,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 46.0, 77.0, 21.5, 21.0 ],
+									"style" : "",
 									"text" : "0"
 								}
 
@@ -1460,6 +1606,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 20.0, 77.0, 21.5, 21.0 ],
+									"style" : "",
 									"text" : "1"
 								}
 
@@ -1474,6 +1621,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 20.0, 119.0, 495.0, 23.0 ],
+									"style" : "",
 									"text" : "sprintf symout osascript -e 'tell application \\\"iTunes\\\" to set EQ enabled to %ld'"
 								}
 
@@ -1485,7 +1633,8 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 20.214844, 194.880157, 25.0, 25.0 ]
+									"patching_rect" : [ 20.214844, 194.880157, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -1557,20 +1706,17 @@
  ]
 					}
 ,
-					"patching_rect" : [ 233.595093, 374.5, 63.0, 22.0 ],
+					"patching_rect" : [ 233.595093, 374.5, 63.0, 24.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"default_fontsize" : 14.0,
 						"description" : "",
 						"digest" : "",
-						"fontface" : 0,
-						"fontname" : "Arial",
 						"fontsize" : 14.0,
 						"globalpatchername" : "",
+						"style" : "",
 						"tags" : ""
 					}
 ,
+					"style" : "",
 					"text" : "p shuffle"
 				}
 
@@ -1587,10 +1733,11 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 6,
-							"minor" : 1,
-							"revision" : 3,
-							"architecture" : "x86"
+							"major" : 7,
+							"minor" : 0,
+							"revision" : 1,
+							"architecture" : "x86",
+							"modernui" : 1
 						}
 ,
 						"rect" : [ 621.0, 44.0, 588.0, 379.0 ],
@@ -1599,19 +1746,27 @@
 						"default_fontsize" : 14.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"gridonopen" : 0,
+						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 0,
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
 						"statusbarvisible" : 2,
 						"toolbarvisible" : 0,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
 						"boxanimatetime" : 200,
-						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
 						"devicewidth" : 0.0,
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -1620,7 +1775,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 75.0, 97.0, 25.0, 25.0 ]
+									"patching_rect" : [ 75.0, 97.0, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -1634,6 +1790,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 75.0, 291.0, 32.5, 21.0 ],
+									"style" : "",
 									"text" : "1"
 								}
 
@@ -1647,6 +1804,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 75.0, 321.0, 47.0, 23.0 ],
+									"style" : "",
 									"text" : "s play"
 								}
 
@@ -1661,6 +1819,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 74.0, 154.0, 67.0, 23.0 ],
+									"style" : "",
 									"text" : "tosymbol"
 								}
 
@@ -1675,6 +1834,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 170.0, 102.0, 105.0, 21.0 ],
+									"style" : "",
 									"text" : "Kronos Quartet"
 								}
 
@@ -1689,6 +1849,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 73.0, 241.0, 484.0, 37.0 ],
+									"style" : "",
 									"text" : "\"osascript -e 'tell application \\\"iTunes\\\" to play playlist \\\"Feist\\\"'\""
 								}
 
@@ -1703,6 +1864,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 119.0, 104.0, 41.0, 21.0 ],
+									"style" : "",
 									"text" : "Feist"
 								}
 
@@ -1717,6 +1879,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 74.0, 189.0, 469.0, 23.0 ],
+									"style" : "",
 									"text" : "sprintf symout osascript -e 'tell application \\\"iTunes\\\" to play playlist \\\"%s\\\"'"
 								}
 
@@ -1731,6 +1894,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 36.652954, 34.826416, 389.0, 21.0 ],
+									"style" : "",
 									"text" : "osascript -e 'tell application \\\"iTunes\\\" to play playlist \\\"Feist\\\"'"
 								}
 
@@ -1742,7 +1906,8 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 36.886383, 237.842896, 25.0, 25.0 ]
+									"patching_rect" : [ 36.886383, 237.842896, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -1822,20 +1987,17 @@
  ]
 					}
 ,
-					"patching_rect" : [ 233.595093, 238.950409, 72.0, 22.0 ],
+					"patching_rect" : [ 233.595093, 238.950409, 72.0, 24.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"default_fontsize" : 14.0,
 						"description" : "",
 						"digest" : "",
-						"fontface" : 0,
-						"fontname" : "Arial",
 						"fontsize" : 14.0,
 						"globalpatchername" : "",
+						"style" : "",
 						"tags" : ""
 					}
 ,
+					"style" : "",
 					"text" : "p playlists"
 				}
 
@@ -1852,10 +2014,11 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 6,
-							"minor" : 1,
-							"revision" : 3,
-							"architecture" : "x86"
+							"major" : 7,
+							"minor" : 0,
+							"revision" : 1,
+							"architecture" : "x86",
+							"modernui" : 1
 						}
 ,
 						"rect" : [ 672.0, 44.0, 802.0, 257.0 ],
@@ -1864,29 +2027,37 @@
 						"default_fontsize" : 14.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"gridonopen" : 0,
+						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 0,
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
 						"statusbarvisible" : 2,
 						"toolbarvisible" : 0,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
 						"boxanimatetime" : 200,
-						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
 						"devicewidth" : 0.0,
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 14.0,
-									"frgb" : 0.0,
 									"id" : "obj-23",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 49.0, 12.0, 34.0, 23.0 ],
+									"style" : "",
 									"text" : "EQ"
 								}
 
@@ -1899,7 +2070,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 22.0, 12.0, 25.0, 25.0 ]
+									"patching_rect" : [ 22.0, 12.0, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -1911,7 +2083,8 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 22.0, 42.0, 20.0, 20.0 ]
+									"patching_rect" : [ 22.0, 42.0, 20.0, 20.0 ],
+									"style" : ""
 								}
 
 							}
@@ -1925,6 +2098,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 22.0, 70.0, 42.0, 23.0 ],
+									"style" : "",
 									"text" : "route"
 								}
 
@@ -1939,6 +2113,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 68.0, 99.0, 40.0, 21.0 ],
+									"style" : "",
 									"text" : "false"
 								}
 
@@ -1953,6 +2128,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 16.0, 99.0, 35.0, 21.0 ],
+									"style" : "",
 									"text" : "true"
 								}
 
@@ -1967,6 +2143,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 160.0, 141.0, 508.0, 23.0 ],
+									"style" : "",
 									"text" : "sprintf symout osascript -e 'tell application \\\"iTunes\\\" to set EQ enabled to \\\"%s\\\"'"
 								}
 
@@ -1979,7 +2156,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 134.0, 12.0, 25.0, 25.0 ]
+									"patching_rect" : [ 134.0, 12.0, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -1993,6 +2171,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 134.0, 70.0, 67.0, 23.0 ],
+									"style" : "",
 									"text" : "tosymbol"
 								}
 
@@ -2007,6 +2186,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 134.0, 101.0, 657.0, 23.0 ],
+									"style" : "",
 									"text" : "sprintf symout osascript -e 'tell application \\\"iTunes\\\" to set the current EQ preset to EQ preset \\\"%s\\\"'"
 								}
 
@@ -2015,12 +2195,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 16.0,
-									"frgb" : 0.0,
 									"id" : "obj-90",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 163.04126, 12.0, 95.0, 25.0 ],
+									"style" : "",
 									"text" : "EQ Presets"
 								}
 
@@ -2032,7 +2212,8 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 134.0, 196.603271, 25.0, 25.0 ]
+									"patching_rect" : [ 134.0, 196.603271, 25.0, 25.0 ],
+									"style" : ""
 								}
 
 							}
@@ -2132,20 +2313,17 @@
  ]
 					}
 ,
-					"patching_rect" : [ 233.595093, 326.760315, 96.0, 22.0 ],
+					"patching_rect" : [ 233.595093, 326.760315, 96.0, 24.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"default_fontsize" : 14.0,
 						"description" : "",
 						"digest" : "",
-						"fontface" : 0,
-						"fontname" : "Arial",
 						"fontsize" : 14.0,
 						"globalpatchername" : "",
+						"style" : "",
 						"tags" : ""
 					}
 ,
+					"style" : "",
 					"text" : "p EQ_presets"
 				}
 
@@ -2155,12 +2333,12 @@
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-50",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 104.123962, 58.23967, 104.0, 24.0 ],
+					"style" : "",
 					"text" : "launch iTunes"
 				}
 
@@ -2174,7 +2352,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 80.347107, 87.347107, 93.0, 22.0 ],
+					"patching_rect" : [ 80.347107, 87.347107, 93.0, 24.0 ],
+					"style" : "",
 					"text" : "route"
 				}
 
@@ -2187,7 +2366,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 79.98349, 60.752068, 20.0, 20.0 ]
+					"patching_rect" : [ 79.98349, 60.752068, 20.0, 20.0 ],
+					"style" : ""
 				}
 
 			}
@@ -2200,23 +2380,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 106.173569, 412.47934, 94.0, 27.0 ],
+					"patching_rect" : [ 106.173569, 412.47934, 94.0, 29.0 ],
+					"style" : "",
 					"text" : "shell"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 180.0,
-					"background" : 1,
-					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
-					"id" : "obj-29",
-					"maxclass" : "panel",
-					"mode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 617.0, 51.0 ]
 				}
 
 			}
@@ -2454,8 +2620,40 @@
 			}
  ],
 		"dependency_cache" : [ 			{
+				"name" : "Max4VA-Title.maxpat",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
+				"patcherrelativepath" : "../../zpatches",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "shell.mxo",
 				"type" : "iLaX"
+			}
+ ],
+		"embedsnapshot" : 0,
+		"styles" : [ 			{
+				"name" : "AudioStatus_Menu",
+				"default" : 				{
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
+						"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "simple",
+				"parentstyle" : "",
+				"multi" : 0
 			}
  ]
 	}

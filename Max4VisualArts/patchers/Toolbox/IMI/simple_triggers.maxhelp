@@ -327,6 +327,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-32",
+					"knobshape" : 5,
 					"maxclass" : "slider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -385,6 +386,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-6",
+					"knobshape" : 5,
 					"maxclass" : "slider",
 					"numinlets" : 1,
 					"numoutlets" : 1,

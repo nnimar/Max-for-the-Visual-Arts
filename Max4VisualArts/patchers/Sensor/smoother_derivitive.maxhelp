@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -74,7 +74,7 @@
 					"style" : "",
 					"text" : "can_smoother",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textovercolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -128,7 +128,7 @@
 					"style" : "",
 					"text" : "dot.smooth",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textovercolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -179,7 +179,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -292,7 +292,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -426,7 +426,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -1114,43 +1114,43 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "delta.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/IMIpatches/externals/CNMAT/CNMAT-CNMAT-MMJ-Depot-v3.1.0-0/patchers/basic_programming",
-				"patcherrelativepath" : "../../externals/CNMAT/CNMAT-CNMAT-MMJ-Depot-v3.1.0-0/patchers/basic_programming",
+				"bootpath" : "/Users/Shared/Max 7/Packages/CNMAT-CNMAT-MMJ-Depot-v3.1.0-0/patchers/basic_programming",
+				"patcherrelativepath" : "../../../CNMAT-CNMAT-MMJ-Depot-v3.1.0-0/patchers/basic_programming",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "badge.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/IMIpatches/externals/CNMAT/CNMAT-CNMAT-MMJ-Depot-v3.1.0-0/patchers/depot_support",
-				"patcherrelativepath" : "../../externals/CNMAT/CNMAT-CNMAT-MMJ-Depot-v3.1.0-0/patchers/depot_support",
+				"bootpath" : "/Users/Shared/Max 7/Packages/CNMAT-CNMAT-MMJ-Depot-v3.1.0-0/patchers/depot_support",
+				"patcherrelativepath" : "../../../CNMAT-CNMAT-MMJ-Depot-v3.1.0-0/patchers/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uc_license.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/IMIpatches/externals/CNMAT/CNMAT-CNMAT-MMJ-Depot-v3.1.0-0/patchers/depot_support",
-				"patcherrelativepath" : "../../externals/CNMAT/CNMAT-CNMAT-MMJ-Depot-v3.1.0-0/patchers/depot_support",
+				"bootpath" : "/Users/Shared/Max 7/Packages/CNMAT-CNMAT-MMJ-Depot-v3.1.0-0/patchers/depot_support",
+				"patcherrelativepath" : "../../../CNMAT-CNMAT-MMJ-Depot-v3.1.0-0/patchers/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_blue.gif",
-				"bootpath" : "/Users/Shared/Max 7/Packages/IMIpatches/externals/CNMAT/CNMAT-CNMAT-MMJ-Depot-v3.1.0-0/patchers/depot_support",
-				"patcherrelativepath" : "../../externals/CNMAT/CNMAT-CNMAT-MMJ-Depot-v3.1.0-0/patchers/depot_support",
+				"bootpath" : "/Users/Shared/Max 7/Packages/CNMAT-CNMAT-MMJ-Depot-v3.1.0-0/patchers/depot_support",
+				"patcherrelativepath" : "../../../CNMAT-CNMAT-MMJ-Depot-v3.1.0-0/patchers/depot_support",
 				"type" : "GIFf",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "onepole.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/IMIpatches/externals/CNMAT/CNMAT-CNMAT-MMJ-Depot-v3.1.0-0/patchers/data_transformation",
-				"patcherrelativepath" : "../../externals/CNMAT/CNMAT-CNMAT-MMJ-Depot-v3.1.0-0/patchers/data_transformation",
+				"bootpath" : "/Users/Shared/Max 7/Packages/CNMAT-CNMAT-MMJ-Depot-v3.1.0-0/patchers/data_transformation",
+				"patcherrelativepath" : "../../../CNMAT-CNMAT-MMJ-Depot-v3.1.0-0/patchers/data_transformation",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Max4VA-Title.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/IMIpatches/templates",
-				"patcherrelativepath" : "../../templates",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
+				"patcherrelativepath" : "../zpatches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
