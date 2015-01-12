@@ -134,6 +134,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
@@ -150,6 +151,7 @@
 					"style" : "",
 					"text" : "GLsketch_join",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
@@ -174,6 +176,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
@@ -190,6 +193,7 @@
 					"style" : "",
 					"text" : "Noise2GLsketch",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
@@ -206,7 +210,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 214.0, 350.5, 184.0, 22.0 ],
+					"patching_rect" : [ 214.0, 353.5, 184.0, 22.0 ],
 					"style" : "",
 					"text" : "a practical example"
 				}
@@ -230,6 +234,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
@@ -246,6 +251,7 @@
 					"style" : "",
 					"text" : "GLsketchpad_alt",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
@@ -380,6 +386,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
@@ -396,6 +403,7 @@
 					"style" : "",
 					"text" : "GLsketch_noise",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
@@ -426,7 +434,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 214.0, 240.5, 136.0, 22.0 ],
+					"patching_rect" : [ 214.0, 239.5, 136.0, 22.0 ],
 					"style" : "",
 					"text" : "GLsketch stroke line"
 				}
@@ -450,6 +458,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
@@ -466,6 +475,7 @@
 					"style" : "",
 					"text" : "GLsketch_stroke",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
@@ -492,6 +502,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
@@ -508,6 +519,7 @@
 					"style" : "",
 					"text" : "GLsketchpad",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
@@ -549,6 +561,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
@@ -565,6 +578,7 @@
 					"style" : "",
 					"text" : "GLsketch_assemble",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
@@ -575,6 +589,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
@@ -591,6 +606,7 @@
 					"style" : "",
 					"text" : "GLsketch_command",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
@@ -689,6 +705,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
@@ -705,6 +722,7 @@
 					"style" : "",
 					"text" : "GLsketch_turtle",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
@@ -1025,10 +1043,10 @@
 		"styles" : [ 			{
 				"name" : "m4va",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontsize" : [ 12.0 ],
 					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
-					"fontname" : [ "Arial" ],
-					"fontsize" : [ 12.0 ]
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",
@@ -1037,12 +1055,12 @@
 , 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
-					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"fontsize" : [ 14.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"fontsize" : [ 14.0 ]
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

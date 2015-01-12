@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1.0, 44.0, 763.0, 491.0 ],
+		"rect" : [ 1.0, 44.0, 763.0, 483.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -341,7 +341,6 @@
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
-						"fontsize" : 12.0,
 						"globalpatchername" : "",
 						"style" : "",
 						"tags" : ""
@@ -1015,7 +1014,6 @@
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
-						"fontsize" : 12.0,
 						"globalpatchername" : "",
 						"style" : "",
 						"tags" : ""
@@ -2529,14 +2527,26 @@
  ],
 		"embedsnapshot" : 0,
 		"styles" : [ 			{
+				"name" : "m4va",
+				"default" : 				{
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : [ "Arial" ],
+					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
+					"fontsize" : [ 12.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
-					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"fontsize" : [ 14.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"fontsize" : [ 14.0 ],
+					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

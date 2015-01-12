@@ -2,10 +2,11 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 6,
-			"minor" : 1,
-			"revision" : 7,
-			"architecture" : "x86"
+			"major" : 7,
+			"minor" : 0,
+			"revision" : 1,
+			"architecture" : "x86",
+			"modernui" : 1
 		}
 ,
 		"rect" : [ 1.0, 44.0, 1057.0, 448.0 ],
@@ -14,51 +15,77 @@
 		"default_fontsize" : 14.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 0,
+		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 0,
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 0,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 0,
+		"toolbars_unpinned_last_save" : 0,
+		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
-		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
+		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
-					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
-					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"id" : "obj-24",
-					"maxclass" : "textbutton",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 864.0, 423.5, 71.0, 20.0 ],
+					"args" : [ "fractals (jit.bfg)", "evaluates a procedural basis function graph : fractal, noise, filter, transfer, and distance operations" ],
+					"bgmode" : 1,
+					"border" : 0,
+					"clickthrough" : 1,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-62",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "Max4VA-Title.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, -278.0 ],
+					"patching_rect" : [ 0.0, 0.0, 807.0, 52.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 656.0, 208.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
-					"text" : "fractals+",
-					"texton" : "Stop"
+					"presentation_rect" : [ -7.0, 12.0, 487.519531, 73.0 ],
+					"viewvisibility" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
-					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
-					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
+					"id" : "obj-24",
+					"legacytextcolor" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 863.0, 423.5, 71.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 656.0, 208.0, 79.0, 17.0 ],
+					"style" : "default",
+					"text" : "fractals+",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"texton" : "Stop",
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
 					"id" : "obj-49",
+					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -67,9 +94,13 @@
 					"patching_rect" : [ 939.0, 423.5, 111.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 641.0, 193.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
+					"style" : "default",
 					"text" : "function_graph",
-					"texton" : "Stop"
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"texton" : "Stop",
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
 				}
 
 			}
@@ -83,7 +114,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 938.0, 423.5, 98.0, 16.0 ],
+					"patching_rect" : [ 938.0, 423.5, 98.0, 20.0 ],
+					"style" : "",
 					"text" : "load function_graph"
 				}
 
@@ -98,7 +130,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 863.0, 423.5, 70.0, 16.0 ],
+					"patching_rect" : [ 863.0, 423.5, 70.0, 20.0 ],
+					"style" : "",
 					"text" : "load fractals+"
 				}
 
@@ -113,41 +146,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 863.0, 424.5, 52.0, 19.0 ],
+					"patching_rect" : [ 863.0, 424.5, 52.0, 21.0 ],
+					"style" : "",
 					"text" : "pcontrol"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 3,
-					"fontname" : "Arial",
-					"fontsize" : 20.871338,
-					"frgb" : 0.0,
-					"id" : "obj-1",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 4.0, 278.0, 30.0 ],
-					"text" : "fractals (jit.bfg)",
-					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
-					"varname" : "autohelp_top_title[1]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.754705,
-					"frgb" : 0.0,
-					"id" : "obj-14",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 32.0, 767.0, 21.0 ],
-					"text" : "evaluates a procedural basis function graph : fractal, noise, filter, transfer, and distance operations",
-					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
-					"varname" : "autohelp_top_digest[1]"
 				}
 
 			}
@@ -158,7 +159,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 539.0, 104.0, 20.0, 20.0 ]
+					"patching_rect" : [ 539.0, 104.0, 20.0, 20.0 ],
+					"style" : ""
 				}
 
 			}
@@ -171,8 +173,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 584.0, 145.0, 467.0, 20.0 ],
-					"text" : "setattr basis basis noise.value.cubicspline, setattr basis level -0.1"
+					"patching_rect" : [ 584.0, 145.0, 418.0, 24.0 ],
+					"style" : "",
+					"text" : "setattr basis basis noise.value.cubicspline, setattr basis level 0.55"
 				}
 
 			}
@@ -180,13 +183,15 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
+					"format" : 6,
 					"id" : "obj-17",
 					"maxclass" : "flonum",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "float", "bang" ],
+					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 565.0, 61.0, 50.0, 22.0 ]
+					"patching_rect" : [ 565.0, 61.0, 50.0, 24.0 ],
+					"style" : ""
 				}
 
 			}
@@ -199,7 +204,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 565.0, 102.0, 464.0, 22.0 ],
+					"patching_rect" : [ 565.0, 102.0, 465.0, 24.0 ],
+					"style" : "",
 					"text" : "sprintf setattr basis basis noise.value.cubicspline\\, setattr basis level %.2f"
 				}
 
@@ -224,7 +230,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 566.0, 238.0, 85.0, 22.0 ],
+					"patching_rect" : [ 566.0, 238.0, 86.0, 24.0 ],
+					"style" : "",
 					"text" : "jit.normalize"
 				}
 
@@ -239,7 +246,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 566.0, 188.0, 194.0, 38.0 ],
+					"patching_rect" : [ 566.0, 188.0, 195.0, 40.0 ],
+					"style" : "",
 					"text" : "jit.bfg 1 float32 256 256 @basis fractal.multi.ridged"
 				}
 
@@ -264,7 +272,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 286.0, 238.0, 85.0, 22.0 ],
+					"patching_rect" : [ 286.0, 238.0, 85.0, 24.0 ],
+					"style" : "",
 					"text" : "jit.normalize"
 				}
 
@@ -279,7 +288,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 286.0, 188.0, 177.0, 38.0 ],
+					"patching_rect" : [ 286.0, 188.0, 177.0, 40.0 ],
+					"style" : "",
 					"text" : "jit.bfg 1 float32 256 256 @basis noise.voronoi"
 				}
 
@@ -304,7 +314,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 12.0, 238.0, 85.0, 22.0 ],
+					"patching_rect" : [ 12.0, 238.0, 85.0, 24.0 ],
+					"style" : "",
 					"text" : "jit.normalize"
 				}
 
@@ -319,7 +330,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 12.0, 188.0, 186.0, 38.0 ],
+					"patching_rect" : [ 12.0, 188.0, 186.0, 40.0 ],
+					"style" : "",
 					"text" : "jit.bfg 1 float32 256 256 @basis distance euclidean"
 				}
 
@@ -333,7 +345,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 12.0, 140.0, 58.0, 22.0 ],
+					"patching_rect" : [ 12.0, 140.0, 58.0, 24.0 ],
+					"style" : "",
 					"text" : "metro 2"
 				}
 
@@ -346,23 +359,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 110.0, 20.0, 20.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 180.0,
-					"background" : 1,
-					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
-					"id" : "obj-29",
-					"maxclass" : "panel",
-					"mode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 1054.0, 53.0 ],
-					"varname" : "autohelp_top_panel[1]"
+					"patching_rect" : [ 12.0, 110.0, 20.0, 20.0 ],
+					"style" : ""
 				}
 
 			}
@@ -409,7 +407,7 @@
 					"destination" : [ "obj-21", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 574.5, 137.5, 1041.5, 137.5 ],
+					"midpoints" : [ 574.5, 137.5, 992.5, 137.5 ],
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -474,7 +472,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
 					"disabled" : 0,
-					"hidden" : 0,
+					"hidden" : 1,
 					"source" : [ "obj-26", 0 ]
 				}
 
@@ -554,7 +552,35 @@
 
 			}
  ],
-		"dependency_cache" : [  ]
+		"dependency_cache" : [ 			{
+				"name" : "Max4VA-Title.maxpat",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
+				"patcherrelativepath" : "../zpatches",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"embedsnapshot" : 0,
+		"styles" : [ 			{
+				"name" : "m4vatextbutton",
+				"default" : 				{
+					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"fontsize" : [ 14.0 ],
+					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "simple",
+				"parentstyle" : "",
+				"multi" : 0
+			}
+ ]
 	}
 
 }

@@ -56,7 +56,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 100.0, 126.0, 617.0, 566.0 ],
+						"rect" : [ 0.0, 26.0, 617.0, 566.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -702,12 +702,12 @@
 						"styles" : [ 							{
 								"name" : "m4vatextbutton",
 								"default" : 								{
-									"fontsize" : [ 14.0 ],
-									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
+									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"fontsize" : [ 14.0 ],
+									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1283,12 +1283,12 @@
 						"styles" : [ 							{
 								"name" : "m4vatextbutton",
 								"default" : 								{
-									"fontsize" : [ 14.0 ],
-									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
+									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"fontsize" : [ 14.0 ],
+									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2132,12 +2132,12 @@
 						"styles" : [ 							{
 								"name" : "m4vatextbutton",
 								"default" : 								{
-									"fontsize" : [ 14.0 ],
-									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
+									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"fontsize" : [ 14.0 ],
+									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2185,7 +2185,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 0.0, 26.0, 617.0, 566.0 ],
+						"rect" : [ 100.0, 126.0, 617.0, 566.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -2847,12 +2847,12 @@
 						"styles" : [ 							{
 								"name" : "m4vatextbutton",
 								"default" : 								{
-									"fontsize" : [ 14.0 ],
-									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
+									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"fontsize" : [ 14.0 ],
+									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3092,7 +3092,8 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 42.0, 334.0, 109.0, 24.0 ],
-									"style" : ""
+									"style" : "",
+									"text" : "move_to 50 50"
 								}
 
 							}
@@ -3136,7 +3137,8 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 24.0, 234.0, 109.0, 24.0 ],
-									"style" : ""
+									"style" : "",
+									"text" : "move_to 30 30"
 								}
 
 							}
@@ -3180,7 +3182,8 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 24.0, 136.0, 109.0, 24.0 ],
-									"style" : ""
+									"style" : "",
+									"text" : "move_to 30 50"
 								}
 
 							}
@@ -3413,12 +3416,12 @@
 						"styles" : [ 							{
 								"name" : "m4vatextbutton",
 								"default" : 								{
-									"fontsize" : [ 14.0 ],
-									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
+									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"fontsize" : [ 14.0 ],
+									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -3496,6 +3499,69 @@
 						"showontab" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-11",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 268.0, 130.5, 19.0, 21.0 ],
+									"presentation_rect" : [ 242.0, 133.0, 0.0, 0.0 ],
+									"style" : "",
+									"text" : "="
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-10",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 330.0, 121.0, 39.0, 23.0 ],
+									"presentation_rect" : [ 330.0, 109.0, 0.0, 0.0 ],
+									"style" : "",
+									"text" : "paint"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-2",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 330.0, 152.0, 151.0, 23.0 ],
+									"presentation_rect" : [ 330.0, 109.0, 0.0, 0.0 ],
+									"style" : "",
+									"text" : "set_source_rgba 0 0 0 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-9",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 330.0, 92.0, 151.0, 23.0 ],
+									"presentation_rect" : [ 330.0, 77.0, 0.0, 0.0 ],
+									"style" : "",
+									"text" : "set_source_rgba 1 1 1 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"args" : [ "m4va max messaging", "formatting message is an important part of your life with Max" ],
 									"bgmode" : 1,
 									"border" : 0,
@@ -3528,22 +3594,6 @@
 									"patching_rect" : [ 29.0, 288.0, 79.0, 22.0 ],
 									"style" : "",
 									"text" : "size 320 240"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bubble" : 1,
-									"fontname" : "Arial",
-									"fontsize" : 13.0,
-									"id" : "obj-21",
-									"linecount" : 2,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 227.0, 119.0, 166.0, 40.0 ],
-									"style" : "",
-									"text" : "white background, paint\nblack foreground"
 								}
 
 							}
@@ -3737,6 +3787,24 @@
 								"patchline" : 								{
 									"destination" : [ "obj-5", 0 ],
 									"disabled" : 0,
+									"hidden" : 1,
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"disabled" : 0,
+									"hidden" : 1,
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-20", 0 ]
 								}
@@ -3805,16 +3873,25 @@
 								}
 
 							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"disabled" : 0,
+									"hidden" : 1,
+									"source" : [ "obj-9", 0 ]
+								}
+
+							}
  ],
 						"styles" : [ 							{
 								"name" : "m4vatextbutton",
 								"default" : 								{
-									"fontsize" : [ 14.0 ],
-									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
+									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"fontsize" : [ 14.0 ],
+									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
 								}
 ,
 								"parentstyle" : "",

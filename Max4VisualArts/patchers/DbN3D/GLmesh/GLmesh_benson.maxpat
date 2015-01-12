@@ -2,52 +2,86 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 6,
-			"minor" : 1,
+			"major" : 7,
+			"minor" : 0,
 			"revision" : 1,
-			"architecture" : "x86"
+			"architecture" : "x86",
+			"modernui" : 1
 		}
 ,
-		"rect" : [ 446.0, 44.0, 438.0, 261.0 ],
+		"rect" : [ 446.0, 44.0, 438.0, 263.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 13.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 0,
+		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 0,
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 0,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 0,
+		"toolbars_unpinned_last_save" : 0,
+		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
-		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
+		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [ "Andrew Benson's GLmesh recipes", "more advanced tutorials" ],
+					"bgmode" : 1,
+					"border" : 0,
+					"clickthrough" : 1,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-4",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "Max4VA-Title.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, -278.0 ],
+					"patching_rect" : [ -0.5, 2.0, 446.0, 52.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ -7.0, 12.0, 487.519531, 73.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"annotation" : "tutorial 41",
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
-					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
-					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : "Arial",
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
+					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-3",
+					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 311.0, 236.0, 123.0, 20.0 ],
+					"patching_rect" : [ 311.0, 239.0, 123.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 327.0, 175.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
+					"style" : "",
 					"text" : "Jitter recipe 2 web",
-					"texton" : "Stop"
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"texton" : "Stop",
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
 				}
 
 			}
@@ -62,7 +96,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 141.0, 214.0, 293.0, 41.0 ],
+					"patching_rect" : [ 141.0, 217.0, 293.0, 45.0 ],
+					"style" : "",
 					"text" : ";\rmax launchbrowser http://cycling74.com/2006/02/14/jitter-recipes-book-2/"
 				}
 
@@ -71,12 +106,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
-					"frgb" : 0.0,
 					"id" : "obj-8",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 144.0, 171.0, 197.0, 22.0 ],
+					"patching_rect" : [ 144.0, 174.0, 197.0, 22.0 ],
+					"style" : "",
 					"text" : "turn an image into small lights"
 				}
 
@@ -84,24 +119,27 @@
 , 			{
 				"box" : 				{
 					"annotation" : "tutorial 38",
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
-					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
-					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : "Arial",
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
+					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-5",
+					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 13.0, 172.0, 92.0, 20.0 ],
+					"patching_rect" : [ 13.0, 175.0, 92.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 99.0, 172.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
+					"style" : "",
 					"text" : "Bright Lights",
-					"texton" : "Stop"
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"texton" : "Stop",
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
 				}
 
 			}
@@ -115,7 +153,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 172.0, 99.0, 16.0 ],
+					"patching_rect" : [ 13.0, 175.0, 99.0, 20.0 ],
+					"style" : "",
 					"text" : "load 38.BrightLights"
 				}
 
@@ -123,24 +162,27 @@
 , 			{
 				"box" : 				{
 					"annotation" : "tutorial 37",
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
-					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
-					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : "Arial",
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
+					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-33",
+					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 13.0, 143.0, 91.0, 20.0 ],
+					"patching_rect" : [ 13.0, 146.0, 91.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 66.0, 427.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
+					"style" : "",
 					"text" : "Shatter",
-					"texton" : "Stop"
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"texton" : "Stop",
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
 				}
 
 			}
@@ -154,7 +196,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 143.0, 78.0, 16.0 ],
+					"patching_rect" : [ 13.0, 146.0, 78.0, 20.0 ],
+					"style" : "",
 					"text" : "load 37.Shatter"
 				}
 
@@ -162,24 +205,27 @@
 , 			{
 				"box" : 				{
 					"annotation" : "tutorial 36",
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
-					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
-					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : "Arial",
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
+					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-30",
+					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 13.0, 116.0, 92.0, 20.0 ],
+					"patching_rect" : [ 13.0, 119.0, 92.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 24.0, 152.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
+					"style" : "",
 					"text" : "TinyVideo",
-					"texton" : "Stop"
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"texton" : "Stop",
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
 				}
 
 			}
@@ -193,7 +239,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 116.0, 103.0, 17.0 ],
+					"patching_rect" : [ 13.0, 119.0, 103.0, 21.0 ],
+					"style" : "",
 					"text" : "load 36.TinyVideo"
 				}
 
@@ -201,24 +248,27 @@
 , 			{
 				"box" : 				{
 					"annotation" : "tutorial 41",
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
-					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
-					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : "Arial",
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
+					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-27",
+					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 13.0, 202.0, 92.0, 19.0 ],
+					"patching_rect" : [ 13.0, 205.0, 92.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 50.0, 216.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
+					"style" : "",
 					"text" : "Verlets",
-					"texton" : "Stop"
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"texton" : "Stop",
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
 				}
 
 			}
@@ -232,7 +282,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 202.0, 87.0, 17.0 ],
+					"patching_rect" : [ 13.0, 205.0, 87.0, 21.0 ],
+					"style" : "",
 					"text" : "load 41.Verlets"
 				}
 
@@ -240,49 +291,55 @@
 , 			{
 				"box" : 				{
 					"annotation" : "tutorial 31",
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
-					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
-					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : "Arial",
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
+					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-16",
+					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 13.0, 88.0, 92.0, 21.0 ],
+					"patching_rect" : [ 13.0, 91.0, 92.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 59.0, 125.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
+					"style" : "",
 					"text" : "Animator",
-					"texton" : "Stop"
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"texton" : "Stop",
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"annotation" : "tutorial 30",
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
-					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
-					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : "Arial",
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
+					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
 					"hint" : "",
 					"id" : "obj-12",
+					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 13.0, 60.0, 91.0, 20.0 ],
+					"patching_rect" : [ 13.0, 63.0, 91.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 35.0, 96.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
+					"style" : "",
 					"text" : "SoundLump",
-					"texton" : "Stop"
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"texton" : "Stop",
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
 				}
 
 			}
@@ -296,7 +353,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 60.0, 103.0, 16.0 ],
+					"patching_rect" : [ 13.0, 63.0, 103.0, 20.0 ],
+					"style" : "",
 					"text" : "load 30.SoundLump"
 				}
 
@@ -305,12 +363,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
-					"frgb" : 0.0,
 					"id" : "obj-35",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 144.0, 143.0, 195.0, 22.0 ],
+					"patching_rect" : [ 144.0, 146.0, 195.0, 22.0 ],
+					"style" : "",
 					"text" : "shatter an image into pieces"
 				}
 
@@ -319,12 +377,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
-					"frgb" : 0.0,
 					"id" : "obj-25",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 144.0, 116.0, 200.0, 22.0 ],
+					"patching_rect" : [ 144.0, 119.0, 200.0, 22.0 ],
+					"style" : "",
 					"text" : "record images and place them"
 				}
 
@@ -333,12 +391,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
-					"frgb" : 0.0,
 					"id" : "obj-11",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 144.0, 201.0, 157.0, 22.0 ],
+					"patching_rect" : [ 144.0, 204.0, 157.0, 22.0 ],
+					"style" : "",
 					"text" : "images and constraints"
 				}
 
@@ -347,12 +405,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
-					"frgb" : 0.0,
 					"id" : "obj-2",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 144.0, 88.0, 177.0, 22.0 ],
+					"patching_rect" : [ 144.0, 91.0, 177.0, 22.0 ],
+					"style" : "",
 					"text" : "animation tool for GLmesh"
 				}
 
@@ -361,29 +419,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
-					"frgb" : 0.0,
 					"id" : "obj-1",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 144.0, 60.0, 236.0, 22.0 ],
+					"patching_rect" : [ 144.0, 63.0, 236.0, 22.0 ],
+					"style" : "",
 					"text" : "mesh and texture reactive to sound"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.754705,
-					"frgb" : 0.0,
-					"id" : "obj-14",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 29.0, 161.0, 21.0 ],
-					"text" : "more advanced tutorials",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"varname" : "autohelp_top_digest"
 				}
 
 			}
@@ -397,25 +439,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 237.0, 52.0, 19.0 ],
+					"patching_rect" : [ 13.0, 240.0, 52.0, 21.0 ],
+					"style" : "",
 					"text" : "pcontrol"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 3,
-					"fontname" : "Arial",
-					"fontsize" : 20.871338,
-					"frgb" : 0.0,
-					"id" : "obj-22",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 399.0, 30.0 ],
-					"text" : "Andrew Benson's GLmesh recipes",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"varname" : "autohelp_top_title"
 				}
 
 			}
@@ -429,24 +455,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 88.0, 98.0, 17.0 ],
+					"patching_rect" : [ 13.0, 91.0, 98.0, 21.0 ],
+					"style" : "",
 					"text" : "load 31.Animator"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 180.0,
-					"background" : 1,
-					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
-					"id" : "obj-17",
-					"maxclass" : "panel",
-					"mode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 434.0, 49.0 ],
-					"varname" : "autohelp_top_panel[1]"
 				}
 
 			}
@@ -569,7 +580,47 @@
 
 			}
  ],
-		"dependency_cache" : [  ]
+		"dependency_cache" : [ 			{
+				"name" : "Max4VA-Title.maxpat",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
+				"patcherrelativepath" : "../../zpatches",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"embedsnapshot" : 0,
+		"styles" : [ 			{
+				"name" : "m4va",
+				"default" : 				{
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : [ "Arial" ],
+					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
+					"fontsize" : [ 12.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "m4vatextbutton",
+				"default" : 				{
+					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"fontsize" : [ 14.0 ],
+					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "simple",
+				"parentstyle" : "",
+				"multi" : 0
+			}
+ ]
 	}
 
 }

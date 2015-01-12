@@ -2,51 +2,87 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 6,
-			"minor" : 1,
-			"revision" : 7,
-			"architecture" : "x86"
+			"major" : 7,
+			"minor" : 0,
+			"revision" : 1,
+			"architecture" : "x86",
+			"modernui" : 1
 		}
 ,
-		"rect" : [ 0.0, 44.0, 437.0, 596.0 ],
+		"rect" : [ 0.0, 44.0, 440.0, 603.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 13.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 0,
+		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 0,
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 0,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 0,
+		"toolbars_unpinned_last_save" : 0,
+		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
-		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
+		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
-					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
-					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : "Arial",
+					"args" : [ "GL mesh", " jit.gl.mesh is a wrapper for drawing vertex arrays" ],
+					"bgmode" : 1,
+					"border" : 0,
+					"clickthrough" : 1,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-46",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "Max4VA-Title.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, -278.0 ],
+					"patching_rect" : [ 0.0, -0.099014, 488.0, 56.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ -7.0, 12.0, 487.519531, 73.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"align" : 0,
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
+					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-41",
+					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 389.0, 115.0, 21.0 ],
+					"patching_rect" : [ 10.0, 392.0, 115.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 73.0, 394.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
+					"style" : "",
 					"text" : "GLmesh_catch~",
-					"texton" : "Stop"
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
+					"texton" : "Stop",
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
 				}
 
 			}
@@ -60,7 +96,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 389.0, 105.0, 16.0 ],
+					"patching_rect" : [ 9.0, 392.0, 105.0, 20.0 ],
+					"style" : "",
 					"text" : "load GLmesh_catch~"
 				}
 
@@ -69,36 +106,39 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
-					"frgb" : 0.0,
 					"id" : "obj-44",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.0, 388.0, 146.0, 22.0 ],
+					"patching_rect" : [ 193.0, 391.0, 146.0, 22.0 ],
+					"style" : "",
 					"text" : "visualise sound"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
-					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
-					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : "Arial",
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
+					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-29",
+					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 88.123764, 152.0, 21.0 ],
+					"patching_rect" : [ 11.0, 91.123764, 152.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 45.0, 101.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
+					"style" : "",
 					"text" : "GLmesh_transparency",
-					"texton" : "Stop"
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"texton" : "Stop",
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
 				}
 
 			}
@@ -112,7 +152,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 91.0, 133.0, 16.0 ],
+					"patching_rect" : [ 11.0, 94.0, 133.0, 20.0 ],
+					"style" : "",
 					"text" : "load GLmesh_transparency"
 				}
 
@@ -121,12 +162,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
-					"frgb" : 0.0,
 					"id" : "obj-37",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.0, 88.0, 196.0, 22.0 ],
+					"patching_rect" : [ 193.0, 91.0, 196.0, 22.0 ],
+					"style" : "",
 					"text" : "use of transparency"
 				}
 
@@ -135,36 +176,41 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
-					"frgb" : 0.0,
 					"id" : "obj-11",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.0, 442.0, 109.0, 22.0 ],
+					"patching_rect" : [ 193.0, 445.0, 109.0, 22.0 ],
+					"style" : "",
 					"text" : "mesh distorter"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
-					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
-					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : "Arial",
+					"align" : 0,
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
+					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-13",
+					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 442.0, 120.0, 21.0 ],
+					"patching_rect" : [ 10.0, 445.0, 120.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 45.0, 393.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
+					"style" : "",
 					"text" : "GLmesh_distorter",
-					"texton" : "Stop"
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
+					"texton" : "Stop",
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
 				}
 
 			}
@@ -178,7 +224,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 442.0, 103.0, 16.0 ],
+					"patching_rect" : [ 11.0, 445.0, 103.0, 20.0 ],
+					"style" : "",
 					"text" : "load TextureDistorter"
 				}
 
@@ -194,10 +241,11 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 6,
-							"minor" : 1,
-							"revision" : 7,
-							"architecture" : "x86"
+							"major" : 7,
+							"minor" : 0,
+							"revision" : 1,
+							"architecture" : "x86",
+							"modernui" : 1
 						}
 ,
 						"rect" : [ 453.0, 44.0, 660.0, 531.0 ],
@@ -206,25 +254,34 @@
 						"default_fontsize" : 14.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"gridonopen" : 0,
+						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 0,
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
 						"statusbarvisible" : 2,
 						"toolbarvisible" : 0,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
 						"boxanimatetime" : 200,
-						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
 						"devicewidth" : 0.0,
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-1",
 									"maxclass" : "fpic",
 									"numinlets" : 1,
-									"numoutlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "jit_matrix" ],
 									"patching_rect" : [ 4.0, 2.0, 646.0, 527.0 ],
 									"pic" : "gl_primitives3.png"
 								}
@@ -234,20 +291,17 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 12.0, 569.0, 100.0, 22.0 ],
+					"patching_rect" : [ 12.0, 572.0, 100.0, 24.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"default_fontsize" : 14.0,
 						"description" : "",
 						"digest" : "",
-						"fontface" : 0,
-						"fontname" : "Arial",
 						"fontsize" : 14.0,
 						"globalpatchername" : "",
+						"style" : "",
 						"tags" : ""
 					}
 ,
+					"style" : "",
 					"text" : "p gl_primitives"
 				}
 
@@ -256,36 +310,41 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
-					"frgb" : 0.0,
 					"id" : "obj-19",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.0, 494.0, 165.0, 22.0 ],
+					"patching_rect" : [ 193.0, 497.0, 165.0, 22.0 ],
+					"style" : "",
 					"text" : "use javascript to draw"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
-					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
-					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : "Arial",
+					"align" : 0,
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
+					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-2",
+					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 495.0, 135.0, 20.0 ],
+					"patching_rect" : [ 10.0, 498.0, 135.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 82.0, 548.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
+					"style" : "",
 					"text" : "GLmesh_procedural",
-					"texton" : "Stop"
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
+					"texton" : "Stop",
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
 				}
 
 			}
@@ -299,7 +358,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 496.0, 123.0, 16.0 ],
+					"patching_rect" : [ 12.0, 499.0, 123.0, 20.0 ],
+					"style" : "",
 					"text" : "load GLmesh_procedural"
 				}
 
@@ -308,36 +368,41 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
-					"frgb" : 0.0,
 					"id" : "obj-64",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.0, 469.0, 164.0, 22.0 ],
+					"patching_rect" : [ 193.0, 472.0, 164.0, 22.0 ],
+					"style" : "",
 					"text" : "catch to mesh, use mask"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
-					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
-					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : "Arial",
+					"align" : 0,
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
+					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-62",
+					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 469.0, 102.0, 20.0 ],
+					"patching_rect" : [ 10.0, 472.0, 102.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 127.0, 501.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
+					"style" : "",
 					"text" : "GLmesh_mask",
-					"texton" : "Stop"
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
+					"texton" : "Stop",
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
 				}
 
 			}
@@ -351,7 +416,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 470.0, 99.0, 16.0 ],
+					"patching_rect" : [ 12.0, 473.0, 99.0, 20.0 ],
+					"style" : "",
 					"text" : "load GLmesh_mask"
 				}
 
@@ -360,36 +426,39 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
-					"frgb" : 0.0,
 					"id" : "obj-59",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.0, 142.0, 236.0, 22.0 ],
+					"patching_rect" : [ 193.0, 145.0, 236.0, 22.0 ],
+					"style" : "",
 					"text" : "gridshapes to mesh (matrixoutput)"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
-					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
-					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : "Arial",
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
+					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-60",
+					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 141.386139, 145.0, 20.0 ],
+					"patching_rect" : [ 11.0, 144.386139, 145.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 14.0, 154.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
+					"style" : "",
 					"text" : "GLmesh_matrixoutput",
-					"texton" : "Stop"
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"texton" : "Stop",
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
 				}
 
 			}
@@ -403,7 +472,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 142.0, 150.0, 17.0 ],
+					"patching_rect" : [ 11.0, 145.0, 150.0, 21.0 ],
+					"style" : "",
 					"text" : "load GLmesh_matrixoutput"
 				}
 
@@ -412,36 +482,39 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
-					"frgb" : 0.0,
 					"id" : "obj-58",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.0, 114.0, 205.0, 22.0 ],
+					"patching_rect" : [ 193.0, 117.0, 205.0, 22.0 ],
+					"style" : "",
 					"text" : "math expression to mesh (grid)"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
-					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
-					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : "Arial",
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
+					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-56",
+					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 114.252472, 153.0, 21.0 ],
+					"patching_rect" : [ 11.0, 117.252472, 153.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 76.0, 148.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
+					"style" : "",
 					"text" : "GLmesh_displacement",
-					"texton" : "Stop"
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"texton" : "Stop",
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
 				}
 
 			}
@@ -455,7 +528,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 114.0, 154.0, 17.0 ],
+					"patching_rect" : [ 11.0, 117.0, 154.0, 21.0 ],
+					"style" : "",
 					"text" : "load GLmesh_displacement"
 				}
 
@@ -464,36 +538,39 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
-					"frgb" : 0.0,
 					"id" : "obj-53",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.0, 282.5, 154.0, 22.0 ],
+					"patching_rect" : [ 193.0, 285.5, 154.0, 22.0 ],
+					"style" : "",
 					"text" : "make multiple shapes"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
-					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
-					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : "Arial",
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
+					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-54",
+					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 283.5, 162.0, 20.0 ],
+					"patching_rect" : [ 11.0, 286.5, 162.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 38.0, 206.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
+					"style" : "",
 					"text" : "GLmesh_matrix_multiple",
-					"texton" : "Stop"
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"texton" : "Stop",
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
 				}
 
 			}
@@ -507,7 +584,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 286.5, 164.0, 17.0 ],
+					"patching_rect" : [ 11.0, 289.5, 164.0, 21.0 ],
+					"style" : "",
 					"text" : "load GLmesh_matrix_multiple"
 				}
 
@@ -516,36 +594,39 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
-					"frgb" : 0.0,
 					"id" : "obj-52",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.0, 309.5, 203.0, 22.0 ],
+					"patching_rect" : [ 193.0, 312.5, 203.0, 22.0 ],
+					"style" : "",
 					"text" : "animate balls using a matrix"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
-					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
-					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : "Arial",
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
+					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-50",
+					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 309.5, 137.0, 20.0 ],
+					"patching_rect" : [ 11.0, 312.5, 137.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 369.0, 550.5, 79.0, 17.0 ],
-					"rounded" : 20.0,
+					"style" : "",
 					"text" : "GLmesh_bouncebox",
-					"texton" : "Stop"
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"texton" : "Stop",
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
 				}
 
 			}
@@ -559,31 +640,35 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 309.5, 143.0, 17.0 ],
+					"patching_rect" : [ 11.0, 312.5, 143.0, 21.0 ],
+					"style" : "",
 					"text" : "load GLmesh_bouncebox"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
-					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
-					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : "Arial",
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
+					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-9",
+					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 257.0, 571.0, 172.0, 20.0 ],
+					"patching_rect" : [ 257.0, 574.0, 172.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 312.0, 488.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
+					"style" : "",
 					"text" : "Andrew Benson's recipes",
-					"texton" : "Stop"
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"texton" : "Stop",
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
 				}
 
 			}
@@ -591,12 +676,14 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"hidden" : 1,
 					"id" : "obj-45",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 316.0, 571.0, 108.0, 16.0 ],
+					"patching_rect" : [ 316.0, 574.0, 108.0, 20.0 ],
+					"style" : "",
 					"text" : "load GLmesh_benson"
 				}
 
@@ -605,36 +692,39 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
-					"frgb" : 0.0,
 					"id" : "obj-8",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.0, 218.0, 169.0, 22.0 ],
+					"patching_rect" : [ 193.0, 221.0, 169.0, 22.0 ],
+					"style" : "",
 					"text" : "bfg + gridshape to mesh"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
-					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
-					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : "Arial",
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
+					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-5",
+					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 219.772278, 98.0, 20.0 ],
+					"patching_rect" : [ 11.0, 222.772278, 98.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 99.0, 172.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
+					"style" : "",
 					"text" : "GLmesh_bfg+",
-					"texton" : "Stop"
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"texton" : "Stop",
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
 				}
 
 			}
@@ -648,7 +738,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 221.0, 95.0, 16.0 ],
+					"patching_rect" : [ 11.0, 224.0, 95.0, 20.0 ],
+					"style" : "",
 					"text" : "load GLmesh_bfg+"
 				}
 
@@ -657,36 +748,41 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
-					"frgb" : 0.0,
 					"id" : "obj-42",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.0, 244.900986, 222.0, 22.0 ],
+					"patching_rect" : [ 193.0, 247.900986, 222.0, 22.0 ],
+					"style" : "",
 					"text" : "practical example (masato tsutsui)"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
-					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
-					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : "Arial",
+					"align" : 0,
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
+					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-38",
+					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 521.0, 171.0, 20.0 ],
+					"patching_rect" : [ 10.0, 524.0, 171.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 263.0, 511.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
+					"style" : "",
 					"text" : "GLmesh_computer_vision",
-					"texton" : "Stop"
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
+					"texton" : "Stop",
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
 				}
 
 			}
@@ -700,31 +796,35 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 522.0, 121.0, 16.0 ],
+					"patching_rect" : [ 12.0, 525.0, 121.0, 20.0 ],
+					"style" : "",
 					"text" : "load cv2draw"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
-					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
-					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : "Arial",
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
+					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-33",
+					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 193.64357, 89.0, 20.0 ],
+					"patching_rect" : [ 11.0, 196.64357, 89.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 66.0, 427.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
+					"style" : "",
 					"text" : "GLmesh_bfg",
-					"texton" : "Stop"
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"texton" : "Stop",
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
 				}
 
 			}
@@ -738,31 +838,35 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 193.0, 89.0, 16.0 ],
+					"patching_rect" : [ 11.0, 196.0, 89.0, 20.0 ],
+					"style" : "",
 					"text" : "load GLmesh_bfg"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
-					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
-					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : "Arial",
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
+					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-30",
+					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 167.514847, 105.0, 20.0 ],
+					"patching_rect" : [ 11.0, 170.514847, 105.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 24.0, 152.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
+					"style" : "",
 					"text" : "GLmesh_noise",
-					"texton" : "Stop"
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"texton" : "Stop",
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
 				}
 
 			}
@@ -776,31 +880,35 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 167.0, 114.0, 17.0 ],
+					"patching_rect" : [ 11.0, 170.0, 114.0, 21.0 ],
+					"style" : "",
 					"text" : "load GLmesh_noise"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
-					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
-					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : "Arial",
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
+					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-12",
+					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 63.0, 112.0, 20.0 ],
+					"patching_rect" : [ 11.0, 66.0, 112.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 35.0, 96.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
+					"style" : "",
 					"text" : "GLmesh_matrix",
-					"texton" : "Stop"
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"texton" : "Stop",
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
 				}
 
 			}
@@ -814,7 +922,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 63.0, 103.0, 16.0 ],
+					"patching_rect" : [ 11.0, 66.0, 103.0, 20.0 ],
+					"style" : "",
 					"text" : "load GLmesh_matrix"
 				}
 
@@ -830,42 +939,51 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 6,
-							"minor" : 1,
-							"revision" : 7,
-							"architecture" : "x86"
+							"major" : 7,
+							"minor" : 0,
+							"revision" : 1,
+							"architecture" : "x86",
+							"modernui" : 1
 						}
 ,
 						"rect" : [ 444.0, 44.0, 589.0, 524.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
-						"default_fontsize" : 13.0,
+						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"gridonopen" : 0,
+						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 0,
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
 						"statusbarvisible" : 2,
 						"toolbarvisible" : 0,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
 						"boxanimatetime" : 200,
-						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
 						"devicewidth" : 0.0,
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 14.0,
-									"frgb" : 0.0,
 									"id" : "obj-3",
 									"linecount" : 4,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 238.0, 5.0, 339.0, 69.0 ],
+									"style" : "",
 									"text" : "Vertex Arrays are a great way of improving performance in OpenGL applications. By using them you minimise the amount of OpenGL calls necessary to draw an object."
 								}
 
@@ -874,13 +992,13 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
 									"id" : "obj-2",
 									"linecount" : 23,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 4.0, 201.0, 578.0, 315.0 ],
+									"style" : "",
 									"text" : "inlet 1 :  xyz position of the vertices (in the form of a 3-plane float32 matrix, where plane \n0 are x positions, plane a are y positions and plane 2 are z positions)\n\ninlet 2 : you pass texture coordinates for each vertex. This is only necessary when you want to map texture in a special way. Usually you will use 2D textures that need a 2-plane float32 matrix (x and y coords).\n\ninlet 3 : you pass normal information for each vertex, in the form of a 3-plane matrix. Normals are vectors used to make lighting calculations. More on normals here: http://en.wikipedia.org/wiki/Surface_normal\n\ninlet 4 : you pass color information: which color your vertex will be colored with. Later on, the fragment part of the GL pipeline will generate interpolation between vertices so that you can see smooth transitions.\n\ninlet 5 : you pass specular information, meaning the grade of specular component (how bright) is each vertex in relation to the light source.\n\ninlet 6 : you pass edge flag information, which I don't know exactly what is, but I think it has to do with the way polygons are rendered in a shape. (http://www.talisman.org/opengl-1.1/Reference/glEdgeFlag.html)\n\ninlet 6 and 8 serve to input tangent and bitangent info, which as far as I know can also be used for lighting calculations\n\ninlet 9 is used to input the index array of the vertices...which I guess must serve to determine the order in which the vertices are rendered and related to each other. ."
 								}
 
@@ -889,13 +1007,13 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 14.0,
-									"frgb" : 0.0,
 									"id" : "obj-8",
 									"linecount" : 11,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 4.0, 4.0, 227.0, 179.0 ],
+									"style" : "",
 									"text" : "Planecount is as follows:\n\n- vertex: 2 -3 planes (x,y,z) \n- texcoord: 1-4 planes (s,t,r,q) \n- normal: 3 plane (nx,ny,nz)\n - color: 3 or 4 planes (r,g,b,a) \n- specular: 4 planes (r,g,b,a) \n- edgeflag: 1 plane (on/off) \n- tangent: 4 planes (tx,ty,tz,tw)\n - bitangent: 4 planes (bx,by,bz,bw)\n - index: 1 plane (vertex index)"
 								}
 
@@ -904,44 +1022,44 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 119.0, 569.0, 90.0, 22.0 ],
+					"patching_rect" : [ 119.0, 572.0, 90.0, 24.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"default_fontsize" : 13.0,
 						"description" : "",
 						"digest" : "",
-						"fontface" : 0,
-						"fontname" : "Arial",
 						"fontsize" : 12.0,
 						"globalpatchername" : "",
+						"style" : "",
 						"tags" : ""
 					}
 ,
+					"style" : "",
 					"text" : "p gl_meshes"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
-					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
-					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : "Arial",
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
+					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-28",
+					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 245.900986, 137.0, 20.0 ],
+					"patching_rect" : [ 11.0, 248.900986, 137.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 331.0, 349.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
+					"style" : "",
 					"text" : "GLmesh_mai_points",
-					"texton" : "Stop"
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"texton" : "Stop",
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
 				}
 
 			}
@@ -955,54 +1073,65 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 247.0, 81.0, 16.0 ],
+					"patching_rect" : [ 11.0, 250.0, 81.0, 20.0 ],
+					"style" : "",
 					"text" : "load mai_points"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
-					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
-					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : "Arial",
+					"align" : 0,
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
+					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-24",
+					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 362.0, 118.0, 21.0 ],
+					"patching_rect" : [ 10.0, 365.0, 118.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 731.0, 283.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
+					"style" : "",
 					"text" : "GLmesh_buffer~",
-					"texton" : "Stop"
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
+					"texton" : "Stop",
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
-					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
-					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : "Arial",
+					"align" : 0,
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
+					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-21",
+					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 416.0, 102.0, 21.0 ],
+					"patching_rect" : [ 10.0, 419.0, 102.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 340.0, 341.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
+					"style" : "",
 					"text" : "GLmesh_video",
-					"texton" : "Stop"
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
+					"texton" : "Stop",
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
 				}
 
 			}
@@ -1016,7 +1145,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 418.0, 99.0, 16.0 ],
+					"patching_rect" : [ 12.0, 421.0, 99.0, 20.0 ],
+					"style" : "",
 					"text" : "load GLmesh_video"
 				}
 
@@ -1031,7 +1161,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 362.0, 108.0, 16.0 ],
+					"patching_rect" : [ 10.0, 365.0, 108.0, 20.0 ],
+					"style" : "",
 					"text" : "load GLmesh_buffer~"
 				}
 
@@ -1040,12 +1171,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
-					"frgb" : 0.0,
 					"id" : "obj-35",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.0, 193.0, 228.0, 22.0 ],
+					"patching_rect" : [ 193.0, 196.0, 228.0, 22.0 ],
+					"style" : "",
 					"text" : "bfg (advanced random) to mesh"
 				}
 
@@ -1054,12 +1185,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
-					"frgb" : 0.0,
 					"id" : "obj-25",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.0, 167.0, 156.0, 22.0 ],
+					"patching_rect" : [ 193.0, 170.0, 156.0, 22.0 ],
+					"style" : "",
 					"text" : "noise (random) to mesh"
 				}
 
@@ -1068,12 +1199,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
-					"frgb" : 0.0,
 					"id" : "obj-23",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.0, 416.0, 208.0, 22.0 ],
+					"patching_rect" : [ 193.0, 419.0, 208.0, 22.0 ],
+					"style" : "",
 					"text" : "transform a video into a 3D grid"
 				}
 
@@ -1082,12 +1213,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
-					"frgb" : 0.0,
 					"id" : "obj-18",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.0, 520.0, 171.0, 22.0 ],
+					"patching_rect" : [ 193.0, 523.0, 171.0, 22.0 ],
+					"style" : "",
 					"text" : "drawing using a live feed"
 				}
 
@@ -1096,12 +1227,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
-					"frgb" : 0.0,
 					"id" : "obj-4",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.0, 362.0, 146.0, 22.0 ],
+					"patching_rect" : [ 193.0, 365.0, 146.0, 22.0 ],
+					"style" : "",
 					"text" : "visualise a waveform"
 				}
 
@@ -1110,29 +1241,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
-					"frgb" : 0.0,
 					"id" : "obj-1",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.0, 63.0, 196.0, 22.0 ],
+					"patching_rect" : [ 193.0, 66.0, 196.0, 22.0 ],
+					"style" : "",
 					"text" : "simple matrix to mesh (line)"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.754705,
-					"frgb" : 0.0,
-					"id" : "obj-14",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 30.0, 303.0, 21.0 ],
-					"text" : " jit.gl.mesh is a wrapper for drawing vertex arrays",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"varname" : "autohelp_top_digest"
 				}
 
 			}
@@ -1146,25 +1261,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 545.0, 52.0, 19.0 ],
+					"patching_rect" : [ 12.0, 548.0, 52.0, 21.0 ],
+					"style" : "",
 					"text" : "pcontrol"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 3,
-					"fontname" : "Arial",
-					"fontsize" : 20.871338,
-					"frgb" : 0.0,
-					"id" : "obj-22",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 272.0, 30.0 ],
-					"text" : "GLmesh",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"varname" : "autohelp_top_title"
 				}
 
 			}
@@ -1179,24 +1278,10 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 344.0, 428.0, 4.0 ],
+					"patching_rect" : [ 5.0, 347.0, 428.0, 4.0 ],
+					"proportion" : 0.39,
+					"style" : "",
 					"varname" : "autohelp_top_panel[2]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 180.0,
-					"background" : 1,
-					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
-					"id" : "obj-17",
-					"maxclass" : "panel",
-					"mode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 434.0, 51.0 ],
-					"varname" : "autohelp_top_panel[1]"
 				}
 
 			}
@@ -1528,10 +1613,38 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "gl_primitives3.png",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/z/images",
-				"patcherrelativepath" : "../../z/images",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/Sources/images",
+				"patcherrelativepath" : "../../Sources/images",
 				"type" : "PNG ",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "Max4VA-Title.maxpat",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
+				"patcherrelativepath" : "../../zpatches",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"embedsnapshot" : 0,
+		"styles" : [ 			{
+				"name" : "m4vatextbutton",
+				"default" : 				{
+					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"fontsize" : [ 14.0 ],
+					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "simple",
+				"parentstyle" : "",
+				"multi" : 0
 			}
  ]
 	}
