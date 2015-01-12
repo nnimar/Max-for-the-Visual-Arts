@@ -724,7 +724,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 352.0, 250.0, 110.0, 22.0 ],
+					"patching_rect" : [ 350.0, 250.0, 110.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1045,7 +1045,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 351.574097, 275.638428, 97.0, 49.0 ],
+					"patching_rect" : [ 349.574097, 275.638428, 97.0, 49.0 ],
 					"style" : "",
 					"text" : "jit.window noisy @fsmenubar 0 @depthbuffer 0"
 				}
@@ -1286,7 +1286,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 376.0, 157.0, 46.0, 22.0 ],
+					"patching_rect" : [ 374.0, 157.0, 46.0, 22.0 ],
 					"style" : "",
 					"text" : "s draw"
 				}
@@ -1317,7 +1317,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 352.0, 208.0, 65.0, 35.0 ],
+					"patching_rect" : [ 350.0, 208.0, 65.0, 35.0 ],
 					"style" : ""
 				}
 
@@ -1389,7 +1389,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 352.0, 64.0, 20.0, 20.0 ],
+					"patching_rect" : [ 350.0, 64.0, 20.0, 20.0 ],
 					"style" : ""
 				}
 
@@ -1403,7 +1403,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 352.0, 92.0, 65.0, 22.0 ],
+					"patching_rect" : [ 350.0, 92.0, 65.0, 22.0 ],
 					"style" : "",
 					"text" : "qmetro 20"
 				}
@@ -1418,7 +1418,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "erase" ],
-					"patching_rect" : [ 352.0, 119.0, 67.0, 22.0 ],
+					"patching_rect" : [ 350.0, 119.0, 67.0, 22.0 ],
 					"style" : "",
 					"text" : "t b b erase"
 				}
@@ -1433,7 +1433,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 352.0, 181.0, 123.0, 22.0 ],
+					"patching_rect" : [ 350.0, 181.0, 123.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.gl.render @ortho 1"
 				}
@@ -1524,7 +1524,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 340.0, 55.0, 140.147247, 262.0 ],
+					"patching_rect" : [ 341.0, 59.0, 136.0, 271.0 ],
 					"proportion" : 0.39,
 					"rounded" : 30,
 					"style" : ""
@@ -1850,7 +1850,7 @@
 					"destination" : [ "obj-25", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 409.5, 148.5, 361.5, 148.5 ],
+					"midpoints" : [ 407.5, 148.5, 359.5, 148.5 ],
 					"source" : [ "obj-26", 2 ]
 				}
 

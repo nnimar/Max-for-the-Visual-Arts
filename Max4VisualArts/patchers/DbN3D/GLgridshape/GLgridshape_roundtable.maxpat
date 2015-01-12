@@ -169,10 +169,10 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 769.0, 316.0, 400.0, 311.0 ],
+						"rect" : [ 521.0, 376.0, 400.0, 311.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
+						"default_fontsize" : 13.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"gridonopen" : 1,
@@ -784,6 +784,7 @@
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
+						"fontsize" : 13.0,
 						"globalpatchername" : "",
 						"style" : "",
 						"tags" : ""
@@ -1737,7 +1738,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 344.0, 189.0, 119.0, 22.0 ],
+					"patching_rect" : [ 344.0, 181.0, 119.0, 22.0 ],
 					"style" : "",
 					"text" : "screentoworld $1 $2"
 				}
@@ -1752,7 +1753,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 344.0, 161.0, 96.0, 22.0 ],
+					"patching_rect" : [ 344.0, 153.0, 96.0, 22.0 ],
 					"style" : "",
 					"text" : "route mouseidle"
 				}
@@ -1766,7 +1767,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 344.0, 216.0, 53.0, 22.0 ],
+					"patching_rect" : [ 344.0, 208.0, 53.0, 22.0 ],
 					"style" : "",
 					"text" : "s render"
 				}
@@ -1994,7 +1995,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 338.0, 58.0, 131.147247, 186.0 ],
+					"patching_rect" : [ 338.0, 58.0, 129.147247, 178.0 ],
 					"proportion" : 0.39,
 					"rounded" : 30,
 					"style" : ""
@@ -2210,7 +2211,7 @@
 					"destination" : [ "obj-17", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 436.5, 150.0, 353.5, 150.0 ],
+					"midpoints" : [ 436.5, 144.0, 353.5, 144.0 ],
 					"source" : [ "obj-29", 1 ]
 				}
 
@@ -2386,9 +2387,9 @@
 		"styles" : [ 			{
 				"name" : "m4va",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
 					"fontsize" : [ 12.0 ],
+					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontname" : [ "Arial" ]
 				}
 ,
@@ -2398,12 +2399,12 @@
 , 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
-					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"fontsize" : [ 14.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
+					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
