@@ -85,7 +85,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-24",
@@ -98,13 +98,12 @@
 					"patching_rect" : [ 716.0, 482.0, 87.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 701.0, 253.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
 					"style" : "",
 					"text" : "color_tinting",
-					"textcolor" : [ 0.15, 0.15, 0.15, 1.0 ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -272,6 +271,12 @@
 								}
 
 							}
+ ],
+						"styles" : [ 							{
+								"name" : "simple",
+								"parentstyle" : "",
+								"multi" : 0
+							}
  ]
 					}
 ,
@@ -350,7 +355,27 @@
 
 							}
  ],
-						"lines" : [  ]
+						"lines" : [  ],
+						"styles" : [ 							{
+								"name" : "m4vatextbutton",
+								"default" : 								{
+									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"fontsize" : [ 14.0 ],
+									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "simple",
+								"parentstyle" : "",
+								"multi" : 0
+							}
+ ]
 					}
 ,
 					"patching_rect" : [ 754.0, 45.0, 49.0, 20.0 ],
@@ -1000,7 +1025,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "Image adjustement (Eric Marty)", "brcosa, scalebias (scale = multiply like brightness, bias = add) and hue", 1.1 ],
+					"args" : [ "image adjustement (Eric Marty)", "brcosa, scalebias (scale = multiply like brightness, bias = add) and hue", 1.1 ],
 					"bgmode" : 1,
 					"border" : 0,
 					"clickthrough" : 1,
@@ -1344,6 +1369,10 @@
 				"patcherrelativepath" : "../z",
 				"type" : "TEXT",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"embedsnapshot" : 0

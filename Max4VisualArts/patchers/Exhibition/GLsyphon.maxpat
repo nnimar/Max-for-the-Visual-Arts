@@ -71,7 +71,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 94.175156, 119.0, 20.374847 ],
+					"patching_rect" : [ 8.0, 94.175156, 113.0, 19.324844 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 118.5, 79.0, 17.0 ],
 					"style" : "",
@@ -185,7 +185,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 65.28344, 98.0, 21.0 ],
+					"patching_rect" : [ 8.0, 65.28344, 94.0, 20.866562 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 133.0, 279.5, 79.0, 17.0 ],
 					"style" : "",
@@ -521,13 +521,17 @@
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
+			}
  ],
 		"embedsnapshot" : 0,
 		"styles" : [ 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
-					"fontsize" : [ 14.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontsize" : [ 14.0 ],
 					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],

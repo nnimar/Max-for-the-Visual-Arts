@@ -38,7 +38,7 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"args" : [ "m4va multi layer video", "play multiple video using the GPU, the closest video (layer 10) has an alpha channel, the furthest is the background (layer 2)" ],
+					"args" : [ "m4va multi layer video", "play multiple video, the closest video (layer 10) has an alpha channel, the furthest is the background (layer 2)" ],
 					"bgmode" : 1,
 					"border" : 0,
 					"clickthrough" : 1,
@@ -1758,7 +1758,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 8.0, 6.0, 60.0, 20.0 ],
+									"patching_rect" : [ 8.0, 6.0, 60.0, 22.0 ],
 									"style" : "",
 									"text" : "loadbang"
 								}
@@ -1787,7 +1787,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 8.0, 168.0, 60.0, 20.0 ],
+									"patching_rect" : [ 8.0, 168.0, 60.0, 22.0 ],
 									"style" : "",
 									"text" : "s movie4"
 								}
@@ -1816,7 +1816,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 24.0, 135.0, 60.0, 20.0 ],
+									"patching_rect" : [ 24.0, 135.0, 60.0, 22.0 ],
 									"style" : "",
 									"text" : "s movie3"
 								}
@@ -1830,7 +1830,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 37.0, 103.0, 60.0, 20.0 ],
+									"patching_rect" : [ 37.0, 103.0, 60.0, 22.0 ],
 									"style" : "",
 									"text" : "s movie2"
 								}
@@ -1844,7 +1844,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 54.0, 73.0, 60.0, 20.0 ],
+									"patching_rect" : [ 54.0, 73.0, 60.0, 22.0 ],
 									"style" : "",
 									"text" : "s movie1"
 								}
@@ -1859,7 +1859,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 8.0, 34.0, 63.0, 20.0 ],
+									"patching_rect" : [ 8.0, 34.0, 63.0, 22.0 ],
 									"style" : "",
 									"text" : "delay 500"
 								}
@@ -1953,7 +1953,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 697.0, 78.0, 93.0, 37.0 ],
+					"patching_rect" : [ 697.0, 78.0, 98.0, 37.0 ],
 					"style" : "",
 					"text" : "alpha video \n(layer 10)"
 				}
@@ -1969,7 +1969,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 688.0, 272.0, 88.0, 37.0 ],
+					"patching_rect" : [ 688.0, 272.0, 90.0, 37.0 ],
 					"style" : "",
 					"text" : "right video (layer 5)"
 				}
@@ -1985,7 +1985,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 268.0, 273.5, 81.0, 37.0 ],
+					"patching_rect" : [ 268.0, 273.5, 82.0, 37.0 ],
 					"style" : "",
 					"text" : "left video (layer 4)"
 				}
@@ -2001,7 +2001,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 274.0, 76.0, 129.0, 37.0 ],
+					"patching_rect" : [ 274.0, 76.0, 136.0, 37.0 ],
 					"style" : "",
 					"text" : "background video \n(layer 2)"
 				}
@@ -4022,17 +4022,21 @@
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
+			}
  ],
 		"embedsnapshot" : 0,
 		"styles" : [ 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontsize" : [ 14.0 ],
 					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

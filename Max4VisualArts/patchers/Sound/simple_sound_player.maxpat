@@ -56,7 +56,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 1.0, 70.0, 441.0, 470.0 ],
+						"rect" : [ 0.0, 26.0, 441.0, 470.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -860,6 +860,38 @@
 												}
 
 											}
+ ],
+										"styles" : [ 											{
+												"name" : "m4va",
+												"default" : 												{
+													"fontsize" : [ 12.0 ],
+													"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"fontname" : [ "Arial" ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "m4vatextbutton",
+												"default" : 												{
+													"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+													"fontsize" : [ 14.0 ],
+													"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+													"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+													"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+													"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "simple",
+												"parentstyle" : "",
+												"multi" : 0
+											}
  ]
 									}
 ,
@@ -1143,8 +1175,8 @@
 										"loopend" : [ 0.0, "ms" ],
 										"loopstart" : [ 0.0, "ms" ],
 										"mode" : "basic",
-										"originallength" : [ 856.787964, "ticks" ],
-										"originaltempo" : 31.033457,
+										"originallength" : [ 706.26239, "ticks" ],
+										"originaltempo" : 25.581316,
 										"phase" : [ 0.0, "ticks" ],
 										"pitchcorrection" : 0,
 										"quality" : "basic",
@@ -1347,6 +1379,26 @@
 									"source" : [ "obj-7", 0 ]
 								}
 
+							}
+ ],
+						"styles" : [ 							{
+								"name" : "m4vatextbutton",
+								"default" : 								{
+									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"fontsize" : [ 14.0 ],
+									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "simple",
+								"parentstyle" : "",
+								"multi" : 0
 							}
  ]
 					}
@@ -2224,6 +2276,26 @@
 												}
 
 											}
+ ],
+										"styles" : [ 											{
+												"name" : "m4vatextbutton",
+												"default" : 												{
+													"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+													"fontsize" : [ 14.0 ],
+													"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+													"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+													"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+													"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
+												}
+,
+												"parentstyle" : "",
+												"multi" : 0
+											}
+, 											{
+												"name" : "simple",
+												"parentstyle" : "",
+												"multi" : 0
+											}
  ]
 									}
 ,
@@ -2652,7 +2724,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 0.0, 26.0, 441.0, 470.0 ],
+						"rect" : [ 1.0, 70.0, 441.0, 470.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -2956,7 +3028,7 @@
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 445.0, 44.0, 371.0, 107.0 ],
+										"rect" : [ 447.0, 433.0, 371.0, 107.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
 										"default_fontsize" : 10.0,
@@ -2972,7 +3044,7 @@
 										"toptoolbarpinned" : 0,
 										"righttoolbarpinned" : 0,
 										"bottomtoolbarpinned" : 2,
-										"toolbars_unpinned_last_save" : 0,
+										"toolbars_unpinned_last_save" : 9,
 										"tallnewobj" : 0,
 										"boxanimatetime" : 200,
 										"enablehscroll" : 1,
@@ -3987,6 +4059,10 @@
 				"patcherrelativepath" : "../zpatches",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"embedsnapshot" : 0

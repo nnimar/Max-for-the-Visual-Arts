@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 0.0, 44.0, 630.0, 621.0 ],
+		"rect" : [ 0.0, 44.0, 646.0, 626.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 13.0,
@@ -70,7 +70,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 511.0, 594.5, 114.0, 20.0 ],
+					"patching_rect" : [ 528.5, 597.5, 114.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 481.0, 345.5, 79.0, 17.0 ],
 					"style" : "",
@@ -94,7 +94,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 498.0, 596.0, 53.0, 22.0 ],
+					"patching_rect" : [ 515.5, 599.0, 53.0, 22.0 ],
 					"style" : "",
 					"text" : "pcontrol"
 				}
@@ -110,7 +110,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 498.0, 597.5, 126.0, 22.0 ],
+					"patching_rect" : [ 515.5, 600.5, 126.0, 22.0 ],
 					"style" : "",
 					"text" : "load phys_membrane"
 				}
@@ -750,7 +750,6 @@
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
-						"fontsize" : 12.0,
 						"globalpatchername" : "",
 						"style" : "",
 						"tags" : ""
@@ -1090,7 +1089,6 @@
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
-						"fontsize" : 12.0,
 						"globalpatchername" : "",
 						"style" : "",
 						"tags" : ""
@@ -1224,13 +1222,12 @@
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 12.0,
 					"id" : "obj-50",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 317.5, 562.0, 303.0, 22.0 ],
+					"patching_rect" : [ 317.5, 562.0, 325.0, 23.0 ],
 					"style" : "default",
 					"text" : "jit.phys.hinge @body1 testy_9_9 @position2 -4.1 3.7 0"
 				}
@@ -1253,13 +1250,12 @@
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 12.0,
 					"id" : "obj-37",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 12.0, 562.0, 299.0, 22.0 ],
+					"patching_rect" : [ 12.0, 562.0, 321.0, 23.0 ],
 					"style" : "default",
 					"text" : "jit.phys.hinge @body1 testy_0_9 @position2 4.1 3.7 0"
 				}
@@ -1464,14 +1460,13 @@
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 12.0,
 					"id" : "obj-5",
 					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 4,
 					"numoutlets" : 3,
 					"outlettype" : [ "jit_matrix", "jit_matrix", "" ],
-					"patching_rect" : [ 246.0, 362.0, 259.0, 35.0 ],
+					"patching_rect" : [ 246.0, 362.0, 277.0, 38.0 ],
 					"style" : "default",
 					"text" : "jit.phys.multiple 4 @name testy @physparams position scale force @constraint 6dof"
 				}
@@ -1562,7 +1557,7 @@
 					"destination" : [ "obj-5", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 446.5, 347.0, 335.5, 347.0 ],
+					"midpoints" : [ 446.5, 347.0, 341.5, 347.0 ],
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -1828,10 +1823,10 @@
 		"styles" : [ 			{
 				"name" : "m4va",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : [ "Arial" ],
+					"fontsize" : [ 12.0 ],
 					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
-					"fontsize" : [ 12.0 ]
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",
@@ -1840,12 +1835,12 @@
 , 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
-					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"fontsize" : [ 14.0 ],
 					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
+					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

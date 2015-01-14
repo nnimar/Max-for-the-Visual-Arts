@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 0.0, 44.0, 479.0, 286.0 ],
+		"rect" : [ 0.0, 44.0, 504.0, 284.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -233,12 +233,12 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 166.0, 435.0, 112.738274, 41.515625 ],
+					"patching_rect" : [ 166.0, 435.0, 99.422852, 41.515625 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 101.0, 112.738274, 41.515625 ],
+					"presentation_rect" : [ 13.0, 101.0, 99.422852, 41.515625 ],
 					"rounded" : 20.0,
 					"style" : "",
-					"text" : "unpack",
+					"text" : "bondo",
 					"textcolor" : [ 0.15, 0.15, 0.15, 1.0 ],
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -289,7 +289,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 166.0, 348.0, 98.0, 22.0 ],
 					"style" : "",
-					"text" : "help unpack"
+					"text" : "help bondo"
 				}
 
 			}
@@ -572,7 +572,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 15.0, 348.0, 83.0, 22.0 ],
 					"style" : "",
-					"text" : "help pack"
+					"text" : "help buddy"
 				}
 
 			}
@@ -589,12 +589,12 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 17.0, 435.0, 79.369141, 41.515625 ],
+					"patching_rect" : [ 17.0, 435.0, 97.738274, 41.515625 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 91.0, 180.0, 79.369141, 41.515625 ],
+					"presentation_rect" : [ 91.0, 180.0, 97.738274, 41.515625 ],
 					"rounded" : 20.0,
 					"style" : "",
-					"text" : "pack",
+					"text" : "buddy",
 					"textcolor" : [ 0.15, 0.15, 0.15, 1.0 ],
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -876,6 +876,10 @@
 				"patcherrelativepath" : "../zpatches",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"embedsnapshot" : 0,

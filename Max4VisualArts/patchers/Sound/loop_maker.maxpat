@@ -501,7 +501,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 683.0, 44.0, 445.0, 85.0 ],
+						"rect" : [ 683.0, 542.0, 445.0, 85.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 10.0,
@@ -1513,6 +1513,10 @@
 				"patcherrelativepath" : "../zpatches",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"embedsnapshot" : 0
