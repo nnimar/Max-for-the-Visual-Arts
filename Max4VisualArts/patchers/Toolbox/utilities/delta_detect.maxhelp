@@ -38,7 +38,7 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"args" : [ "delata detect", "detect the delta's direction and speed" ],
+					"args" : [ "delta detect", "detect the delta's direction and speed" ],
 					"bgmode" : 1,
 					"border" : 0,
 					"clickthrough" : 1,
@@ -288,7 +288,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 601.0, 44.0, 220.0, 285.0 ],
+						"rect" : [ 639.0, 102.0, 220.0, 285.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -337,7 +337,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 20.0, 203.0, 118.5, 22.0 ],
+									"patching_rect" : [ 20.0, 203.0, 118.5, 24.0 ],
 									"style" : "",
 									"text" : "- 0."
 								}
@@ -522,7 +522,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 120.0, 169.0, 81.0, 22.0 ],
+									"patching_rect" : [ 120.0, 169.0, 81.0, 24.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -716,7 +716,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 20.0, 169.0, 81.0, 22.0 ],
+									"patching_rect" : [ 20.0, 169.0, 81.0, 24.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -740,7 +740,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "bang" ],
-									"patching_rect" : [ 20.0, 60.0, 81.0, 22.0 ],
+									"patching_rect" : [ 20.0, 60.0, 81.0, 24.0 ],
 									"style" : "",
 									"text" : "t f b"
 								}
@@ -755,7 +755,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 82.0, 98.0, 59.0, 22.0 ],
+									"patching_rect" : [ 82.0, 98.0, 59.0, 24.0 ],
 									"style" : "",
 									"text" : "float 0."
 								}
@@ -991,7 +991,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 596.0, 44.0, 133.0, 353.0 ],
+						"rect" : [ 642.0, 101.0, 133.0, 353.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -1027,7 +1027,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "int" ],
-									"patching_rect" : [ 37.0, 238.0, 79.0, 22.0 ],
+									"patching_rect" : [ 37.0, 238.0, 79.0, 24.0 ],
 									"style" : "",
 									"text" : "split -90 90"
 								}
@@ -1042,7 +1042,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 90.0, 193.0, 26.0, 22.0 ],
+									"patching_rect" : [ 90.0, 193.0, 26.0, 24.0 ],
 									"style" : "",
 									"text" : "t 0"
 								}
@@ -1070,7 +1070,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "int" ],
-									"patching_rect" : [ 20.0, 158.0, 36.0, 22.0 ],
+									"patching_rect" : [ 20.0, 158.0, 36.0, 24.0 ],
 									"style" : "",
 									"text" : "t b i"
 								}
@@ -1085,7 +1085,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 20.0, 276.0, 52.0, 22.0 ],
+									"patching_rect" : [ 20.0, 276.0, 52.0, 24.0 ],
 									"style" : "",
 									"text" : "accum"
 								}
@@ -1100,7 +1100,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 20.0, 129.0, 53.5, 22.0 ],
+									"patching_rect" : [ 20.0, 129.0, 53.5, 24.0 ],
 									"style" : "",
 									"text" : "- 0"
 								}
@@ -1115,7 +1115,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 54.0, 98.0, 29.5, 22.0 ],
+									"patching_rect" : [ 54.0, 98.0, 29.5, 24.0 ],
 									"style" : "",
 									"text" : "int"
 								}
@@ -1130,7 +1130,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "int", "bang" ],
-									"patching_rect" : [ 20.0, 52.0, 53.0, 22.0 ],
+									"patching_rect" : [ 20.0, 52.0, 53.0, 24.0 ],
 									"style" : "",
 									"text" : "t i i b"
 								}
@@ -1632,6 +1632,10 @@
 				"patcherrelativepath" : "../../zpatches",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"embedsnapshot" : 0

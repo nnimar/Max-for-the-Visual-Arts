@@ -242,7 +242,6 @@
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
-						"fontsize" : 12.0,
 						"globalpatchername" : "",
 						"style" : "",
 						"tags" : ""
@@ -523,7 +522,6 @@
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
-						"fontsize" : 12.0,
 						"globalpatchername" : "",
 						"style" : "",
 						"tags" : ""
@@ -830,7 +828,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 35.0, 397.0, 53.0, 22.0 ],
+					"patching_rect" : [ 35.0, 397.0, 276.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.repos"
 				}
@@ -1200,7 +1198,7 @@
 					"destination" : [ "obj-65", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 301.0, 386.0, 78.5, 386.0 ],
+					"midpoints" : [ 301.0, 386.0, 301.5, 386.0 ],
 					"source" : [ "obj-62", 0 ]
 				}
 
@@ -1395,6 +1393,10 @@
 			}
 , 			{
 				"name" : "shell.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "strlen.mxo",
 				"type" : "iLaX"
 			}
  ],

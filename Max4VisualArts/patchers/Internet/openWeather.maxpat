@@ -38,7 +38,65 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"args" : [ "open weather map", " access the Open Weather Map API" ],
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
+					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
+					"fontsize" : 14.0,
+					"id" : "obj-5",
+					"legacytextcolor" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 181.0, 456.0, 145.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 312.0, 99.5, 79.0, 17.0 ],
+					"style" : "",
+					"text" : "weather map (maxurl)",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"texton" : "Stop",
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 181.0, 457.0, 53.0, 22.0 ],
+					"style" : "",
+					"text" : "pcontrol"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"hidden" : 1,
+					"id" : "obj-7",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 181.0, 457.0, 128.0, 20.0 ],
+					"style" : "",
+					"text" : "load openWeather_maxurl"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "open weather map", "access the Open Weather Map API" ],
 					"bgmode" : 1,
 					"border" : 0,
 					"clickthrough" : 1,
@@ -110,9 +168,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 223.0, 399.0, 94.0, 22.0 ],
+					"patching_rect" : [ 223.0, 396.0, 94.0, 22.0 ],
 					"style" : "",
-					"text" : "fog"
+					"text" : "overcast clouds"
 				}
 
 			}
@@ -123,7 +181,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 223.0, 370.0, 94.0, 22.0 ],
+					"patching_rect" : [ 223.0, 367.0, 94.0, 22.0 ],
 					"style" : "m4va",
 					"text" : "imi.dict weather"
 				}
@@ -167,7 +225,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 504.5, 175.0, 53.0, 20.0 ],
+					"patching_rect" : [ 504.5, 177.0, 53.0, 20.0 ],
 					"style" : "",
 					"text" : "misc"
 				}
@@ -182,7 +240,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 504.5, 229.0, 85.0, 22.0 ],
+					"patching_rect" : [ 504.5, 226.0, 85.0, 22.0 ],
 					"style" : "",
 					"text" : "get wind::gust"
 				}
@@ -197,7 +255,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 504.5, 399.0, 61.0, 22.0 ],
+					"patching_rect" : [ 504.5, 396.0, 61.0, 22.0 ],
 					"style" : "",
 					"text" : "get cod"
 				}
@@ -212,7 +270,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 504.5, 374.0, 61.0, 22.0 ],
+					"patching_rect" : [ 504.5, 371.0, 61.0, 22.0 ],
 					"style" : "",
 					"text" : "get name"
 				}
@@ -227,7 +285,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 504.5, 350.0, 40.0, 22.0 ],
+					"patching_rect" : [ 504.5, 347.0, 40.0, 22.0 ],
 					"style" : "",
 					"text" : "get id"
 				}
@@ -242,7 +300,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 504.5, 327.0, 41.0, 22.0 ],
+					"patching_rect" : [ 504.5, 324.0, 41.0, 22.0 ],
 					"style" : "",
 					"text" : "get dt"
 				}
@@ -257,7 +315,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 504.5, 303.0, 84.0, 22.0 ],
+					"patching_rect" : [ 504.5, 300.0, 84.0, 22.0 ],
 					"style" : "",
 					"text" : "get clouds::all"
 				}
@@ -272,7 +330,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 504.5, 205.0, 95.0, 22.0 ],
+					"patching_rect" : [ 504.5, 202.0, 95.0, 22.0 ],
 					"style" : "",
 					"text" : "get wind::speed"
 				}
@@ -287,7 +345,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 504.5, 254.0, 83.0, 22.0 ],
+					"patching_rect" : [ 504.5, 251.0, 83.0, 22.0 ],
 					"style" : "",
 					"text" : "get wind::deg"
 				}
@@ -302,9 +360,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 504.5, 457.0, 95.0, 22.0 ],
+					"patching_rect" : [ 504.5, 454.0, 95.0, 22.0 ],
 					"style" : "",
-					"text" : "230"
+					"text" : "200"
 				}
 
 			}
@@ -317,7 +375,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 504.5, 279.0, 71.0, 22.0 ],
+					"patching_rect" : [ 504.5, 276.0, 71.0, 22.0 ],
 					"style" : "",
 					"text" : "get rain::3h"
 				}
@@ -330,7 +388,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 504.5, 428.0, 95.0, 22.0 ],
+					"patching_rect" : [ 504.5, 425.0, 95.0, 22.0 ],
 					"style" : "m4va",
 					"text" : "imi.dict feed"
 				}
@@ -344,7 +402,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 142.0, 77.0, 20.0, 20.0 ],
+					"patching_rect" : [ 145.0, 73.0, 20.0, 20.0 ],
 					"style" : ""
 				}
 
@@ -391,7 +449,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 106.0, 175.0, 40.0, 20.0 ],
+					"patching_rect" : [ 106.0, 177.0, 40.0, 20.0 ],
 					"style" : "",
 					"text" : "sys"
 				}
@@ -405,7 +463,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 175.0, 84.0, 20.0 ],
+					"patching_rect" : [ 9.0, 177.0, 84.0, 20.0 ],
 					"style" : "",
 					"text" : "coordinates"
 				}
@@ -419,7 +477,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 223.0, 175.0, 139.0, 20.0 ],
+					"patching_rect" : [ 223.0, 177.0, 139.0, 20.0 ],
 					"style" : "",
 					"text" : "weather (nested array)"
 				}
@@ -433,7 +491,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 366.5, 175.0, 51.0, 20.0 ],
+					"patching_rect" : [ 366.5, 177.0, 51.0, 20.0 ],
 					"style" : "",
 					"text" : "main"
 				}
@@ -448,7 +506,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 366.5, 351.0, 108.0, 22.0 ],
+					"patching_rect" : [ 366.5, 348.0, 108.0, 22.0 ],
 					"style" : "",
 					"text" : "get main::humidity"
 				}
@@ -463,7 +521,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 366.5, 327.0, 119.0, 22.0 ],
+					"patching_rect" : [ 366.5, 324.0, 119.0, 22.0 ],
 					"style" : "",
 					"text" : "get main::grnd_level"
 				}
@@ -478,7 +536,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 366.5, 303.0, 114.0, 22.0 ],
+					"patching_rect" : [ 366.5, 300.0, 114.0, 22.0 ],
 					"style" : "",
 					"text" : "get main::sea_level"
 				}
@@ -493,7 +551,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 366.5, 279.0, 110.0, 22.0 ],
+					"patching_rect" : [ 366.5, 276.0, 110.0, 22.0 ],
 					"style" : "",
 					"text" : "get main::pressure"
 				}
@@ -508,7 +566,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 223.0, 344.0, 89.0, 22.0 ],
+					"patching_rect" : [ 223.0, 341.0, 89.0, 22.0 ],
 					"style" : "",
 					"text" : "get description"
 				}
@@ -523,7 +581,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 223.0, 319.0, 57.0, 22.0 ],
+					"patching_rect" : [ 223.0, 316.0, 57.0, 22.0 ],
 					"style" : "",
 					"text" : "get main"
 				}
@@ -538,7 +596,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 223.0, 294.0, 40.0, 22.0 ],
+					"patching_rect" : [ 223.0, 291.0, 40.0, 22.0 ],
 					"style" : "",
 					"text" : "get id"
 				}
@@ -553,7 +611,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 223.0, 262.0, 118.0, 22.0 ],
+					"patching_rect" : [ 223.0, 259.0, 118.0, 22.0 ],
 					"style" : "",
 					"text" : "routepass dictionary"
 				}
@@ -568,7 +626,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 223.0, 205.0, 89.0, 22.0 ],
+					"patching_rect" : [ 223.0, 202.0, 89.0, 22.0 ],
 					"style" : "",
 					"text" : "get weather[0]"
 				}
@@ -583,7 +641,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 106.0, 229.0, 94.0, 22.0 ],
+					"patching_rect" : [ 106.0, 226.0, 94.0, 22.0 ],
 					"style" : "",
 					"text" : "get sys::sunrise"
 				}
@@ -598,7 +656,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 106.0, 254.0, 95.0, 22.0 ],
+					"patching_rect" : [ 106.0, 251.0, 95.0, 22.0 ],
 					"style" : "",
 					"text" : "get sys::sunset"
 				}
@@ -611,7 +669,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 223.0, 232.0, 75.0, 22.0 ],
+					"patching_rect" : [ 223.0, 229.0, 75.0, 22.0 ],
 					"style" : "m4va",
 					"text" : "imi.dict feed"
 				}
@@ -626,7 +684,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 106.0, 205.0, 103.0, 22.0 ],
+					"patching_rect" : [ 106.0, 202.0, 103.0, 22.0 ],
 					"style" : "",
 					"text" : "get sys::country"
 				}
@@ -639,7 +697,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 106.0, 286.0, 95.0, 22.0 ],
+					"patching_rect" : [ 106.0, 283.0, 95.0, 22.0 ],
 					"style" : "m4va",
 					"text" : "imi.dict feed"
 				}
@@ -654,9 +712,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 106.0, 315.0, 95.0, 22.0 ],
+					"patching_rect" : [ 106.0, 312.0, 95.0, 22.0 ],
 					"style" : "",
-					"text" : "1417880266"
+					"text" : "1422462433"
 				}
 
 			}
@@ -669,7 +727,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 315.0, 83.0, 22.0 ],
+					"patching_rect" : [ 9.0, 312.0, 83.0, 22.0 ],
 					"style" : "",
 					"text" : "50.85"
 				}
@@ -684,7 +742,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 205.0, 84.0, 22.0 ],
+					"patching_rect" : [ 9.0, 202.0, 84.0, 22.0 ],
 					"style" : "",
 					"text" : "get coord::lon"
 				}
@@ -699,7 +757,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 229.0, 83.0, 22.0 ],
+					"patching_rect" : [ 9.0, 226.0, 83.0, 22.0 ],
 					"style" : "",
 					"text" : "get coord::lat"
 				}
@@ -714,7 +772,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 366.5, 205.0, 91.0, 22.0 ],
+					"patching_rect" : [ 366.5, 202.0, 91.0, 22.0 ],
 					"style" : "",
 					"text" : "get main::temp"
 				}
@@ -729,7 +787,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 366.5, 229.0, 116.0, 22.0 ],
+					"patching_rect" : [ 366.5, 226.0, 116.0, 22.0 ],
 					"style" : "",
 					"text" : "get main::temp_min"
 				}
@@ -744,9 +802,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 366.5, 405.0, 108.0, 22.0 ],
+					"patching_rect" : [ 366.5, 402.0, 108.0, 22.0 ],
 					"style" : "",
-					"text" : "93"
+					"text" : "46"
 				}
 
 			}
@@ -759,7 +817,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 366.5, 254.0, 119.0, 22.0 ],
+					"patching_rect" : [ 366.5, 251.0, 119.0, 22.0 ],
 					"style" : "",
 					"text" : "get main::temp_max"
 				}
@@ -772,7 +830,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 286.0, 83.0, 22.0 ],
+					"patching_rect" : [ 9.0, 283.0, 83.0, 22.0 ],
 					"style" : "m4va",
 					"text" : "imi.dict feed"
 				}
@@ -785,7 +843,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 366.5, 376.0, 108.0, 22.0 ],
+					"patching_rect" : [ 366.5, 374.0, 108.0, 22.0 ],
 					"style" : "m4va",
 					"text" : "imi.dict feed"
 				}
@@ -793,9 +851,6 @@
 			}
 , 			{
 				"box" : 				{
-					"color" : [ 1.0, 0.741176, 0.611765, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
 					"id" : "obj-3",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -811,7 +866,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 687.0, 78.0, 566.0, 427.0 ],
+						"rect" : [ 625.0, 44.0, 566.0, 427.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1362,7 +1417,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 9.0, 106.0, 95.0, 24.0 ],
+					"patching_rect" : [ 9.0, 106.0, 83.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1371,7 +1426,7 @@
 						"tags" : ""
 					}
 ,
-					"style" : "",
+					"style" : "default",
 					"text" : "p json_import"
 				}
 
@@ -1577,6 +1632,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1658,6 +1722,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-71", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1716,15 +1789,19 @@
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
+			}
  ],
 		"embedsnapshot" : 0,
 		"styles" : [ 			{
 				"name" : "m4va",
 				"default" : 				{
-					"fontname" : [ "Arial" ],
 					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
-					"fontsize" : [ 12.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 12.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1733,12 +1810,12 @@
 , 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"fontsize" : [ 14.0 ]
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontsize" : [ 14.0 ],
+					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

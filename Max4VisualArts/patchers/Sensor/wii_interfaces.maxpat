@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 0.0, 44.0, 537.0, 384.0 ],
+		"rect" : [ 0.0, 44.0, 538.0, 342.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -124,20 +124,6 @@
 					"patching_rect" : [ 10.0, 180.0, 132.0, 21.0 ],
 					"style" : "",
 					"text" : "load Wii_accelerometer"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial Bold",
-					"fontsize" : 14.0,
-					"id" : "obj-12",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 18.0, 350.0, 477.0, 22.0 ],
-					"style" : "",
-					"text" : "Warning : ajh.wiiremote is NOT compatible with Mac OS 10.8 and over"
 				}
 
 			}
@@ -447,7 +433,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 260.0, 254.0, 258.0, 38.0 ],
 					"style" : "",
-					"text" : "use the  z.wii patches for 3d navigation\n(not compatible with 10.8)"
+					"text" : "use the  z.wii patches for 3d navigation\n(not compatible with 10.8 and later)"
 				}
 
 			}
@@ -733,6 +719,10 @@
 			}
 , 			{
 				"name" : "shell.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "strlen.mxo",
 				"type" : "iLaX"
 			}
  ],

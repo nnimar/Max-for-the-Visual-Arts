@@ -38,6 +38,21 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bubble" : 1,
+					"bubblepoint" : 0.0,
+					"bubbleside" : 0,
+					"id" : "obj-15",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 468.0, 137.0, 89.0, 41.0 ],
+					"style" : "",
+					"text" : "click to open"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"args" : [ "m4va XML parse", "various methods to parse XML - prefer the JSON format, much easier." ],
 					"bgmode" : 1,
 					"border" : 0,
@@ -84,7 +99,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 717.0, 618.0, 121.0, 22.0 ],
+					"patching_rect" : [ 713.0, 616.0, 121.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 687.0, 528.5, 79.0, 17.0 ],
 					"style" : "",
@@ -109,7 +124,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 602.0, 618.0, 108.0, 22.0 ],
+					"patching_rect" : [ 598.0, 616.0, 108.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 667.0, 500.5, 79.0, 17.0 ],
 					"style" : "",
@@ -134,7 +149,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 487.0, 618.0, 108.0, 22.0 ],
+					"patching_rect" : [ 483.0, 616.0, 108.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 746.0, 298.0, 79.0, 17.0 ],
 					"style" : "",
@@ -174,7 +189,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 718.0, 590.0, 119.0, 52.0 ],
+					"patching_rect" : [ 714.0, 588.0, 119.0, 52.0 ],
 					"style" : "",
 					"text" : ";\rmax launchbrowser http://www.xmlnews.org/docs/xml-basics.html"
 				}
@@ -283,7 +298,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 849.0, 413.0, 596.0, 260.0 ],
+						"rect" : [ 847.0, 428.0, 596.0, 260.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -348,7 +363,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 6.0, 72.0, 42.0, 20.0 ],
+									"patching_rect" : [ 6.0, 72.0, 42.0, 24.0 ],
 									"style" : "",
 									"text" : "open"
 								}
@@ -363,7 +378,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 470.0, 43.0, 120.0, 20.0 ],
+									"patching_rect" : [ 470.0, 43.0, 120.0, 24.0 ],
 									"style" : "",
 									"text" : "read pachube.xml"
 								}
@@ -378,7 +393,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 327.0, 43.0, 135.0, 20.0 ],
+									"patching_rect" : [ 327.0, 43.0, 135.0, 24.0 ],
 									"style" : "",
 									"text" : "read cd_catalog.xml"
 								}
@@ -393,7 +408,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 194.0, 43.0, 126.0, 20.0 ],
+									"patching_rect" : [ 194.0, 43.0, 126.0, 24.0 ],
 									"style" : "",
 									"text" : "read attributes.xml"
 								}
@@ -408,7 +423,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "jit_matrix", "jit_matrix", "" ],
-									"patching_rect" : [ 58.0, 109.0, 69.0, 22.0 ],
+									"patching_rect" : [ 58.0, 109.0, 69.0, 24.0 ],
 									"style" : "",
 									"text" : "jit.textfile"
 								}
@@ -423,7 +438,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 58.0, 43.0, 130.0, 20.0 ],
+									"patching_rect" : [ 58.0, 43.0, 130.0, 24.0 ],
 									"style" : "",
 									"text" : "read lemonade.xml"
 								}
@@ -1694,6 +1709,56 @@
 									"source" : [ "obj-9", 0 ]
 								}
 
+							}
+ ],
+						"styles" : [ 							{
+								"name" : "AudioStatus_Menu",
+								"default" : 								{
+									"bgfillcolor" : 									{
+										"type" : "color",
+										"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
+										"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
+										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39,
+										"autogradient" : 0
+									}
+
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "m4va",
+								"default" : 								{
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontname" : [ "Arial" ],
+									"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
+									"fontsize" : [ 12.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "m4vatextbutton",
+								"default" : 								{
+									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"fontsize" : [ 14.0 ],
+									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "simple",
+								"parentstyle" : "",
+								"multi" : 0
 							}
  ]
 					}
@@ -3145,8 +3210,9 @@
 					"fontsize" : 14.0,
 					"id" : "obj-16",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"outlettype" : [ "", "", "", "", "" ],
 					"patching_rect" : [ 454.0, 480.0, 101.0, 24.0 ],
 					"style" : "",
 					"text" : "tap.xml.sax"
@@ -3163,7 +3229,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 603.0, 617.0, 98.0, 20.0 ],
+					"patching_rect" : [ 599.0, 615.0, 98.0, 20.0 ],
 					"style" : "",
 					"text" : "load regexp_tutorial"
 				}
@@ -3195,7 +3261,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 487.0, 617.0, 124.0, 22.0 ],
+					"patching_rect" : [ 483.0, 615.0, 124.0, 22.0 ],
 					"style" : "",
 					"text" : "load weather_report2"
 				}
@@ -3391,6 +3457,13 @@
 			}
  ],
 		"dependency_cache" : [ 			{
+				"name" : "tap.xml.sax.maxpat",
+				"bootpath" : "/Users/Shared/Max 7/Packages/TapTools/patchers/abstractions",
+				"patcherrelativepath" : "../../../TapTools/patchers/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "dot.xmlread.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/externals/tools/dot_20121204/data/dot.xmlread",
 				"patcherrelativepath" : "../../externals/tools/dot_20121204/data/dot.xmlread",
@@ -3426,17 +3499,21 @@
 				"name" : "sadam.rapidXML.mxo",
 				"type" : "iLaX"
 			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
+			}
  ],
 		"embedsnapshot" : 0,
 		"styles" : [ 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
+					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"fontsize" : [ 14.0 ],
 					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"fontsize" : [ 14.0 ]
+					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

@@ -132,9 +132,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 85.0, 67.0, 166.0, 37.0 ],
+									"patching_rect" : [ 85.0, 67.0, 120.0, 37.0 ],
 									"style" : "",
-									"text" : "unpack a movie (alpha red green blue or ARGB)"
+									"text" : "unpack the alpha of a movie"
 								}
 
 							}
@@ -212,12 +212,12 @@
 						"styles" : [ 							{
 								"name" : "m4vatextbutton",
 								"default" : 								{
+									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"fontsize" : [ 14.0 ],
-									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-									"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -252,7 +252,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 196.0, 218.0, 80.0, 60.0 ]
+					"patching_rect" : [ 196.0, 222.0, 80.0, 60.0 ]
 				}
 
 			}
@@ -263,7 +263,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 33.0, 218.0, 80.0, 60.0 ]
+					"patching_rect" : [ 33.0, 222.0, 80.0, 60.0 ]
 				}
 
 			}
@@ -276,7 +276,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 32.0, 156.0, 46.0, 22.0 ],
+					"patching_rect" : [ 32.0, 160.0, 46.0, 22.0 ],
 					"style" : "",
 					"text" : "r alpha"
 				}
@@ -620,6 +620,32 @@
 							}
  ],
 						"styles" : [ 							{
+								"name" : "m4va",
+								"default" : 								{
+									"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "m4vatextbutton",
+								"default" : 								{
+									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"fontsize" : [ 14.0 ],
+									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
 								"name" : "simple",
 								"parentstyle" : "",
 								"multi" : 0
@@ -683,7 +709,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 247.0, 183.0, 96.0, 24.0 ],
+					"patching_rect" : [ 247.0, 187.0, 96.0, 24.0 ],
 					"style" : "",
 					"text" : "background"
 				}
@@ -698,7 +724,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 190.0, 156.0, 79.0, 22.0 ],
+					"patching_rect" : [ 190.0, 160.0, 79.0, 22.0 ],
 					"style" : "",
 					"text" : "r background"
 				}
@@ -713,7 +739,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 88.0, 183.0, 60.0, 24.0 ],
+					"patching_rect" : [ 88.0, 187.0, 60.0, 24.0 ],
 					"style" : "",
 					"text" : "alpha"
 				}
@@ -728,7 +754,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 14.0, 300.0, 179.0, 24.0 ],
+					"patching_rect" : [ 14.0, 304.0, 179.0, 24.0 ],
 					"style" : "",
 					"text" : "jit.alphablend"
 				}
@@ -743,7 +769,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 14.0, 185.0, 71.0, 22.0 ],
+					"patching_rect" : [ 14.0, 189.0, 71.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.qt.movie"
 				}
@@ -758,7 +784,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 174.0, 185.0, 70.0, 22.0 ],
+					"patching_rect" : [ 174.0, 189.0, 70.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.qt.movie"
 				}
@@ -772,7 +798,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 14.0, 59.0, 20.0, 20.0 ],
+					"patching_rect" : [ 14.0, 63.0, 20.0, 20.0 ],
 					"style" : ""
 				}
 
@@ -786,7 +812,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 14.0, 121.0, 179.0, 22.0 ],
+					"patching_rect" : [ 14.0, 125.0, 179.0, 22.0 ],
 					"style" : "",
 					"text" : "t b b"
 				}
@@ -801,7 +827,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 14.0, 90.0, 60.0, 22.0 ],
+					"patching_rect" : [ 14.0, 94.0, 60.0, 22.0 ],
 					"style" : "",
 					"text" : "metro 40"
 				}
@@ -885,7 +911,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 14.0, 344.0, 320.0, 240.0 ]
+					"patching_rect" : [ 14.0, 348.0, 320.0, 240.0 ]
 				}
 
 			}
@@ -1069,17 +1095,21 @@
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
+			}
  ],
 		"embedsnapshot" : 0,
 		"styles" : [ 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
+					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontsize" : [ 14.0 ],
-					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

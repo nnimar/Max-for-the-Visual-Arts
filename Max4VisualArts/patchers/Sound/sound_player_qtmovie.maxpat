@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -218,7 +218,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 18.0, 163.0, 22.0, 22.0 ],
+					"patching_rect" : [ 18.0, 211.0, 22.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -232,7 +232,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 18.0, 257.0, 80.0, 24.0 ],
+					"patching_rect" : [ 18.0, 248.0, 80.0, 24.0 ],
 					"style" : "",
 					"text" : "togedge"
 				}
@@ -247,7 +247,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 18.0, 133.0, 41.0, 22.0 ],
+					"patching_rect" : [ 18.0, 181.0, 41.0, 22.0 ],
 					"style" : "",
 					"text" : "> 100"
 				}
@@ -298,7 +298,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 211.0, 377.0, 37.0, 22.0 ],
+					"patching_rect" : [ 211.0, 377.0, 37.0, 23.0 ],
 					"style" : "default",
 					"triscale" : 0.9
 				}
@@ -326,7 +326,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 79.0, 289.0, 23.0, 23.0 ],
+					"patching_rect" : [ 79.0, 280.0, 23.0, 23.0 ],
 					"style" : ""
 				}
 
@@ -338,7 +338,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 18.0, 289.0, 23.0, 23.0 ],
+					"patching_rect" : [ 18.0, 280.0, 23.0, 23.0 ],
 					"style" : ""
 				}
 
@@ -352,7 +352,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 18.0, 320.0, 34.0, 22.0 ],
+					"patching_rect" : [ 18.0, 311.0, 34.0, 22.0 ],
 					"style" : "",
 					"text" : "start"
 				}
@@ -367,7 +367,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 79.0, 320.0, 34.0, 22.0 ],
+					"patching_rect" : [ 79.0, 311.0, 34.0, 22.0 ],
 					"style" : "",
 					"text" : "stop"
 				}
@@ -425,7 +425,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 18.0, 72.0, 42.0, 22.0 ],
+					"patching_rect" : [ 18.0, 72.0, 42.0, 23.0 ],
 					"style" : "default",
 					"triscale" : 0.9
 				}
@@ -585,7 +585,7 @@
 					"destination" : [ "obj-27", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 88.5, 351.0, 27.5, 351.0 ],
+					"midpoints" : [ 88.5, 343.0, 27.5, 343.0 ],
 					"source" : [ "obj-25", 0 ]
 				}
 
@@ -660,31 +660,35 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "imi.desktop.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/IMIpatches/patchers/Toolbox/imi_objects",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/Toolbox/imi_objects",
 				"patcherrelativepath" : "../Toolbox/imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "imi.movieloader.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/IMIpatches/patchers/Toolbox/imi_objects",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/Toolbox/imi_objects",
 				"patcherrelativepath" : "../Toolbox/imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "IMIMovies.txt",
-				"bootpath" : "/Users/Shared/Max 7/Packages/IMIpatches/patchers/z",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/z",
 				"patcherrelativepath" : "../z",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Max4VA-Title.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/IMIpatches/templates",
-				"patcherrelativepath" : "../../templates",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
+				"patcherrelativepath" : "../zpatches",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"embedsnapshot" : 0

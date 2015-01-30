@@ -32,7 +32,7 @@
 47, sensors_tools "sensor tools";
 50, -----------------------;
 51, <category> 6 Global;
-52, toolbox "useful objects for Max";
+52, m4va_toolbox "useful objects for Max";
 53, max_messaging "max message demystified";
 54, list_toolbox "useful objects to handle lists";
 55, Max_patching_rules "a few rules to help you patching";

@@ -51,7 +51,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, -278.0 ],
-					"patching_rect" : [ 0.0, 2.0, 485.0, 34.0 ],
+					"patching_rect" : [ 0.0, 0.0, 485.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -22.0, -3.0, 487.519531, 73.0 ],
 					"viewvisibility" : 1
@@ -69,7 +69,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 353.0, 158.0, 207.0, 29.0 ],
+					"patching_rect" : [ 343.0, 158.0, 207.0, 29.0 ],
 					"style" : "",
 					"text" : ";\rmax launchbrowser http://cycling74.com/forums/"
 				}
@@ -86,7 +86,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 195.0, 570.0, 274.0, 29.0 ],
+					"patching_rect" : [ 185.0, 570.0, 274.0, 29.0 ],
 					"style" : "",
 					"text" : ";\rmax launchbrowser https://github.com/imi/Max-for-the-Visual-Arts"
 				}
@@ -101,7 +101,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "bang", "bang", "", "int" ],
-					"patching_rect" : [ 195.0, 572.0, 365.0, 27.0 ],
+					"patching_rect" : [ 185.0, 572.0, 365.0, 27.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 189.0, 600.0, 87.0, 31.0 ]
 				}
@@ -125,7 +125,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 664.0, 78.0, 651.0, 585.0 ],
+						"rect" : [ 683.0, 44.0, 651.0, 585.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -209,7 +209,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 16.0, 572.0, 551.0, 27.0 ],
+					"patching_rect" : [ 6.0, 572.0, 551.0, 27.0 ],
 					"style" : "",
 					"text" : "Updates available on https://github.com/imi/Max-for-the-Visual-Arts"
 				}
@@ -233,7 +233,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 664.0, 44.0, 657.0, 157.0 ],
+						"rect" : [ 683.0, 44.0, 657.0, 157.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -260,6 +260,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -303,7 +304,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "bang", "bang", "", "int" ],
-					"patching_rect" : [ 348.5, 163.0, 226.0, 19.0 ],
+					"patching_rect" : [ 338.5, 163.0, 226.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 245.0, 325.0, 87.0, 31.0 ]
 				}
@@ -318,7 +319,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 16.0, 515.849854, 603.0, 47.0 ],
+					"patching_rect" : [ 6.0, 515.849854, 603.0, 47.0 ],
 					"style" : "",
 					"text" : "Medias: James Gilpin and Holly Yoon, Maximo Recio, Eri Sawatari, Penny Webb, Anna Szumiec, Romain Meunier, Luke Dubois, iMal Belgium."
 				}
@@ -333,7 +334,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 16.0, 141.0, 659.0, 107.0 ],
+					"patching_rect" : [ 6.0, 141.0, 659.0, 107.0 ],
 					"style" : "",
 					"text" : "The patches which start with M4VA were made or improved by Nicolas Maréchal. Others were great solutions found on the http://cycling74.com/forums/ or\nborrowed from Max's evangelists Peter Elsea, Robert Ramirez, Andrew Benson, Luke DuBois and Sam Tarakajian, thanks for their great tutorials and support to \nthe non tilda (!~) users."
 				}
@@ -348,7 +349,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 16.0, 256.0, 657.0, 248.0 ],
+					"patching_rect" : [ 6.0, 256.0, 657.0, 248.0 ],
 					"style" : "",
 					"text" : "Credits also goes to the students who have contributed to this project through their research, their project or simply a request for clarification. \n\nParticular thanks to: Jonathan Emralino, James Gilpin, Holly Yoon (2008)\nKim Jeong-Hoon, Maximo Recio, Tobias Revell, Ayesha Sowani (2009)\nRichard Harvey, Sin-Yee Hau, Pen Ho Lau Chun, Libby Mor, Eri Sawatari, Kayleigh Thomson, Anastasia Vikhornova, Penny Webb, Darren Wong (2010)\nLeo Choi, Jake Dowling, Kirsty Greig, James Morrison, Vanessa Yeo (2011),\nYoung Eun Kim, Anita Leung, Romain Meunier, Camille Leproust (2012), \nAlan Hong, Catiana Becker, Svenja Frahm, Jaap de Maat, Mattia Bernini (2013), Masato Seki, Miyu Hayashi, Maisie Bowes, Sayanee Halder, Sam Aldrige, Jessica Bishops (2014)."
 				}
@@ -363,7 +364,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 16.0, 47.0, 662.0, 87.0 ],
+					"patching_rect" : [ 6.0, 47.0, 662.0, 87.0 ],
 					"style" : "",
 					"text" : "Max for Visual Arts patches is a self-learning tool and a repository for the patches made or used on the BA interaction design and arts (IDA) and the MA interactive design communication (IDC) at the London College of Communication (University of the Arts London, United Kingdom)."
 				}
@@ -395,6 +396,10 @@
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"embedsnapshot" : 0

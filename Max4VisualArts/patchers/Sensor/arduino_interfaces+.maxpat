@@ -44,7 +44,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 169.0, 50.0, 262.0, 22.0 ],
+					"patching_rect" : [ 169.0, 49.0, 262.0, 22.0 ],
 					"style" : "",
 					"text" : "Arduino (analog) >> Max (call-response)"
 				}
@@ -185,7 +185,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 169.0, 143.375, 121.0, 22.0 ],
+					"patching_rect" : [ 169.0, 142.375, 121.0, 22.0 ],
 					"style" : "",
 					"text" : "Max >> Lightuino"
 				}
@@ -220,7 +220,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 169.0, 112.25, 199.0, 22.0 ],
+					"patching_rect" : [ 169.0, 111.25, 199.0, 22.0 ],
 					"style" : "",
 					"text" : "Arduino >> Max (compressed)"
 				}
@@ -236,7 +236,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 114.5, 108.0, 21.0 ],
+					"patching_rect" : [ 10.0, 110.5, 108.0, 21.0 ],
 					"style" : "",
 					"text" : "load SensorBoxAB"
 				}
@@ -252,7 +252,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 116.5, 52.0, 21.0 ],
+					"patching_rect" : [ 10.0, 110.5, 52.0, 21.0 ],
 					"style" : "",
 					"text" : "pcontrol"
 				}
@@ -287,7 +287,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 169.0, 81.125, 204.0, 22.0 ],
+					"patching_rect" : [ 169.0, 80.125, 204.0, 22.0 ],
 					"style" : "",
 					"text" : "Arduino >> Max (call-response)"
 				}
@@ -303,7 +303,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 84.5, 118.0, 21.0 ],
+					"patching_rect" : [ 10.0, 80.5, 118.0, 21.0 ],
 					"style" : "",
 					"text" : "load SerialResponse"
 				}
@@ -319,7 +319,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 84.5, 52.0, 21.0 ],
+					"patching_rect" : [ 10.0, 80.5, 52.0, 21.0 ],
 					"style" : "",
 					"text" : "pcontrol"
 				}
@@ -335,7 +335,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 143.375, 101.0, 20.0 ],
+					"patching_rect" : [ 10.0, 142.5, 101.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 79.0, 564.0, 100.0, 20.0 ],
 					"style" : "",
@@ -356,9 +356,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 146.5, 131.0, 21.0 ],
+					"patching_rect" : [ 10.0, 142.5, 107.0, 21.0 ],
 					"style" : "",
-					"text" : "load IMI_max4lightuino"
+					"text" : "load max4lightuino"
 				}
 
 			}
@@ -372,7 +372,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 146.5, 52.0, 21.0 ],
+					"patching_rect" : [ 10.0, 143.5, 52.0, 21.0 ],
 					"style" : "",
 					"text" : "pcontrol"
 				}
@@ -492,6 +492,10 @@
 				"patcherrelativepath" : "../zpatches",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"embedsnapshot" : 0

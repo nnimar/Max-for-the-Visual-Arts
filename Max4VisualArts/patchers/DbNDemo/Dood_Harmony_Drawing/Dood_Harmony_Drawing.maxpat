@@ -9,10 +9,10 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 2.0, 44.0, 721.0, 289.0 ],
+		"rect" : [ 2.0, 44.0, 720.0, 271.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
-		"default_fontsize" : 12.0,
+		"default_fontsize" : 13.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
 		"gridonopen" : 1,
@@ -37,6 +37,28 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"args" : [ "Mr Dood harmony's procedural drawing", "http://mrdoob.com/projects/harmony/" ],
+					"bgmode" : 1,
+					"border" : 0,
+					"clickthrough" : 1,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-48",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "Max4VA-Title.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, -278.0 ],
+					"patching_rect" : [ 0.0, 0.0, 487.0, 52.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ -7.0, 12.0, 487.519531, 73.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -507,7 +529,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 77.0, 165.0, 48.0, 22.0 ],
+					"patching_rect" : [ 77.0, 159.0, 48.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -519,39 +541,6 @@
 ,
 					"style" : "",
 					"text" : "p more"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 3,
-					"fontname" : "Arial",
-					"fontsize" : 20.871338,
-					"id" : "obj-9",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 416.0, 30.0 ],
-					"style" : "",
-					"text" : "Mr Dood harmony's procedural drawing",
-					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
-					"varname" : "autohelp_top_title"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial Italic",
-					"fontsize" : 12.7547,
-					"id" : "obj-52",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 31.0, 222.0, 21.0 ],
-					"style" : "",
-					"text" : "http://mrdoob.com/projects/harmony/",
-					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
-					"varname" : "autohelp_top_digest"
 				}
 
 			}
@@ -612,7 +601,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 151.0, 106.0, 18.0 ],
 									"style" : "",
-									"text" : "setBrush shaded"
+									"text" : "setBrush longFur"
 								}
 
 							}
@@ -720,7 +709,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 176.0, 165.0, 80.0, 22.0 ],
+					"patching_rect" : [ 176.0, 159.0, 80.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -792,7 +781,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 204.0, 135.0, 18.0 ],
 									"style" : "",
-									"text" : "setBrushSize 0.010552"
+									"text" : "setBrushSize 0.012284"
 								}
 
 							}
@@ -949,7 +938,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 264.0, 165.0, 79.0, 22.0 ],
+					"patching_rect" : [ 264.0, 159.0, 79.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1021,7 +1010,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 203.0, 171.0, 18.0 ],
 									"style" : "",
-									"text" : "setBrushPressure 0.314961"
+									"text" : "setBrushPressure 0.866142"
 								}
 
 							}
@@ -1178,7 +1167,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 392.0, 165.0, 104.0, 22.0 ],
+					"patching_rect" : [ 392.0, 159.0, 104.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1400,7 +1389,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 292.0, 200.0, 18.0 ],
 									"style" : "",
-									"text" : "setBrushColor 88 136 255"
+									"text" : "setBrushColor 143 210 255"
 								}
 
 							}
@@ -1429,7 +1418,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 180.0, 213.0, 35.996094, 20.0 ],
+									"patching_rect" : [ 180.0, 213.0, 36.0, 20.0 ],
 									"style" : ""
 								}
 
@@ -1459,7 +1448,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 90.0, 213.0, 36.996094, 20.0 ],
+									"patching_rect" : [ 90.0, 213.0, 37.0, 20.0 ],
 									"style" : ""
 								}
 
@@ -1689,7 +1678,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 528.0, 165.0, 53.0, 22.0 ],
+					"patching_rect" : [ 528.0, 159.0, 53.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1712,7 +1701,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 528.0, 106.0, 173.0, 55.0 ],
+					"patching_rect" : [ 528.0, 100.0, 173.0, 55.0 ],
 					"saturation" : 1.0
 				}
 
@@ -1726,7 +1715,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 392.0, 116.0, 118.0, 20.0 ],
+					"patching_rect" : [ 392.0, 110.0, 118.0, 20.0 ],
 					"style" : ""
 				}
 
@@ -1740,7 +1729,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 264.0, 116.0, 120.0, 20.0 ],
+					"patching_rect" : [ 264.0, 110.0, 120.0, 20.0 ],
 					"style" : ""
 				}
 
@@ -1753,7 +1742,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 528.0, 85.0, 74.0, 20.0 ],
+					"patching_rect" : [ 528.0, 79.0, 74.0, 20.0 ],
 					"style" : "",
 					"text" : "brush color"
 				}
@@ -1767,7 +1756,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 36.0, 137.0, 80.0, 20.0 ],
+					"patching_rect" : [ 36.0, 131.0, 80.0, 20.0 ],
 					"style" : "",
 					"text" : "clear Canvas"
 				}
@@ -1782,7 +1771,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 135.0, 138.0, 100.0, 22.0 ],
+					"patching_rect" : [ 135.0, 132.0, 100.0, 23.0 ],
 					"style" : ""
 				}
 
@@ -1795,7 +1784,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 135.0, 115.0, 72.0, 20.0 ],
+					"patching_rect" : [ 135.0, 109.0, 72.0, 20.0 ],
 					"style" : "",
 					"text" : "brush type"
 				}
@@ -1809,7 +1798,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 412.0, 140.0, 93.0, 20.0 ],
+					"patching_rect" : [ 412.0, 134.0, 93.0, 20.0 ],
 					"style" : "",
 					"text" : "brush pressure"
 				}
@@ -1823,7 +1812,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 276.0, 139.0, 71.0, 20.0 ],
+					"patching_rect" : [ 276.0, 133.0, 71.0, 20.0 ],
 					"style" : "",
 					"text" : "brush size"
 				}
@@ -1836,7 +1825,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 14.0, 136.0, 20.0, 20.0 ],
+					"patching_rect" : [ 14.0, 130.0, 20.0, 20.0 ],
 					"style" : ""
 				}
 
@@ -1850,7 +1839,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 77.0, 228.0, 151.0, 22.0 ],
+					"patching_rect" : [ 77.0, 222.0, 151.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 482.0, 220.0, 151.0, 22.0 ],
 					"saved_object_attributes" : 					{
@@ -1860,23 +1849,6 @@
 ,
 					"style" : "",
 					"text" : "js harmonyDrawingJitter.js"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 180.0,
-					"background" : 1,
-					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
-					"id" : "obj-29",
-					"maxclass" : "panel",
-					"mode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 717.0, 51.0 ],
-					"proportion" : 0.39,
-					"style" : ""
 				}
 
 			}
@@ -1904,7 +1876,7 @@
 					"destination" : [ "obj-64", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 23.5, 206.0, 86.5, 206.0 ],
+					"midpoints" : [ 23.5, 200.0, 86.5, 200.0 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -1932,7 +1904,7 @@
 					"destination" : [ "obj-64", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 537.5, 206.5, 86.5, 206.5 ],
+					"midpoints" : [ 537.5, 200.5, 86.5, 200.5 ],
 					"source" : [ "obj-34", 0 ]
 				}
 
@@ -1942,7 +1914,7 @@
 					"destination" : [ "obj-64", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 401.5, 206.5, 86.5, 206.5 ],
+					"midpoints" : [ 401.5, 200.5, 86.5, 200.5 ],
 					"source" : [ "obj-39", 0 ]
 				}
 
@@ -1952,7 +1924,7 @@
 					"destination" : [ "obj-64", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 273.5, 206.5, 86.5, 206.5 ],
+					"midpoints" : [ 273.5, 200.5, 86.5, 200.5 ],
 					"source" : [ "obj-43", 0 ]
 				}
 
@@ -1962,7 +1934,7 @@
 					"destination" : [ "obj-64", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 185.5, 206.5, 86.5, 206.5 ],
+					"midpoints" : [ 185.5, 200.5, 86.5, 200.5 ],
 					"source" : [ "obj-46", 0 ]
 				}
 
@@ -1984,8 +1956,39 @@
 				"type" : "TEXT",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "Max4VA-Title.maxpat",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
+				"patcherrelativepath" : "../../zpatches",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
+			}
  ],
-		"embedsnapshot" : 0
+		"embedsnapshot" : 0,
+		"styles" : [ 			{
+				"name" : "m4vatextbutton",
+				"default" : 				{
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"fontsize" : [ 14.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "simple",
+				"parentstyle" : "",
+				"multi" : 0
+			}
+ ]
 	}
 
 }

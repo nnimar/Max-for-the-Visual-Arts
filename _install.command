@@ -77,19 +77,19 @@ InstallFolder=$(dirname "$InstallFolderPath")
 whichVersion=0;
 
 if [ -e "/Applications/Max5" ]; then
-	whichVersion=1; # got Max 5
+	whichVersion=1; # Max 5
 fi
 
 if [ -e "/Applications/Max6" ]; then
-	whichVersion=2; # got Max 6
+	whichVersion=2; # Max 6
 fi
 
 if [ -e "/Applications/Max 6.1" ]; then
-	whichVersion=3; # got Max 6.1
+	whichVersion=3; # Max 6.1
 fi
 
-if [ -e "/Applications/Max" ]; then
-	whichVersion=4; # got Max 7
+if [ -e "/Applications/Max.app" ]; then
+	whichVersion=4; # Max 7
 fi
 
 # Feedback
@@ -113,8 +113,6 @@ if [[ $whichVersion == 4 ]]; then
 	M4VAextra="$maxAppFolder/packages/Max4VisualArts/extras/";
 	do5Installation;
 fi
-
-
 
 ################################
 # End of the installation

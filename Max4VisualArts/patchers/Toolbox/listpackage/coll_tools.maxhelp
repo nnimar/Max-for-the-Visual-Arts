@@ -3287,7 +3287,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 93.0, 158.0, 93.0, 22.0 ],
+									"patching_rect" : [ 26.0, 202.0, 93.0, 24.0 ],
 									"style" : "",
 									"text" : "loadmess set"
 								}
@@ -3345,8 +3345,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 26.0, 202.0, 259.0, 24.0 ],
-									"style" : "",
-									"text" : "a b c de foxtrot golf hotel a b a bab bab"
+									"style" : ""
 								}
 
 							}
@@ -3448,6 +3447,26 @@
 									"source" : [ "obj-9", 0 ]
 								}
 
+							}
+ ],
+						"styles" : [ 							{
+								"name" : "m4vatextbutton",
+								"default" : 								{
+									"fontsize" : [ 14.0 ],
+									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "simple",
+								"parentstyle" : "",
+								"multi" : 0
 							}
  ]
 					}
@@ -3749,7 +3768,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 668.0, 100.0, 413.0, 382.0 ],
+						"rect" : [ 668.0, 100.0, 442.0, 362.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -3815,7 +3834,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 20.0, 325.0, 59.5, 24.0 ],
+									"patching_rect" : [ 80.0, 320.0, 59.5, 24.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0
 									}
@@ -3834,9 +3853,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 33.0, 292.0, 333.0, 24.0 ],
+									"patching_rect" : [ 93.0, 287.0, 333.0, 24.0 ],
 									"style" : "",
-									"text" : "write ///Users/imi/Desktop/name.1900@20h00.txt"
+									"text" : "write ///Users/imi/Desktop/name.1700@18h52.txt"
 								}
 
 							}
@@ -3849,7 +3868,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 20.0, 251.0, 327.0, 24.0 ],
+									"patching_rect" : [ 80.0, 246.0, 327.0, 24.0 ],
 									"style" : "",
 									"text" : "sprintf write ///Users/imi/Desktop/name.%s@%s.txt"
 								}
@@ -3906,7 +3925,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 20.0, 220.0, 116.0, 24.0 ],
+									"patching_rect" : [ 80.0, 215.0, 116.0, 24.0 ],
 									"style" : "",
 									"text" : "sprintf %.2d%.2d"
 								}
@@ -3957,6 +3976,7 @@
 									"destination" : [ "obj-267", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"midpoints" : [ 29.5, 201.0, 186.5, 201.0 ],
 									"source" : [ "obj-2", 0 ]
 								}
 
@@ -3975,7 +3995,7 @@
 									"destination" : [ "obj-262", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 29.5, 283.0, 356.5, 283.0 ],
+									"midpoints" : [ 89.5, 278.0, 416.5, 278.0 ],
 									"source" : [ "obj-263", 0 ]
 								}
 
@@ -3985,7 +4005,7 @@
 									"destination" : [ "obj-263", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 43.5, 152.0, 337.5, 152.0 ],
+									"midpoints" : [ 43.5, 152.0, 397.5, 152.0 ],
 									"source" : [ "obj-264", 0 ]
 								}
 
@@ -4158,6 +4178,10 @@
 			}
 , 			{
 				"name" : "idx.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "strlen.mxo",
 				"type" : "iLaX"
 			}
  ],

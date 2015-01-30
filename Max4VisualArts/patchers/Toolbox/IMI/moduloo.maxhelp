@@ -122,7 +122,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 85.0, 262.0, 113.0, 21.0 ],
+					"patching_rect" : [ 82.0, 263.0, 113.0, 21.0 ],
 					"style" : "",
 					"text" : "max : 8 0 (64 / 8)"
 				}

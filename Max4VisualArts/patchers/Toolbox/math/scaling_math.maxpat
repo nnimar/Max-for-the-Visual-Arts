@@ -38,7 +38,7 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"args" : [ "Scaling math (matmat)", "source:  https://github.com/warrenm/AHEasing/blob/master/AHEasing/easing.c" ],
+					"args" : [ "scaling math (matmat)", "source:  https://github.com/warrenm/AHEasing/blob/master/AHEasing/easing.c" ],
 					"bgmode" : 1,
 					"border" : 0,
 					"clickthrough" : 1,
