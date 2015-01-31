@@ -259,12 +259,12 @@
 						"styles" : [ 							{
 								"name" : "m4vatextbutton",
 								"default" : 								{
+									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"fontsize" : [ 14.0 ],
-									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
+									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -282,7 +282,6 @@
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
-						"fontsize" : 12.0,
 						"globalpatchername" : "",
 						"style" : "",
 						"tags" : ""
@@ -317,7 +316,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 210.0, 158.0, 188.0, 22.0 ],
+					"patching_rect" : [ 216.0, 158.0, 188.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.gl.videoplane @scale 1.33 1. 1."
 				}
@@ -353,16 +352,14 @@
 			}
 , 			{
 				"box" : 				{
-					"color" : [ 0.836957, 0.836957, 0.836957, 1.0 ],
-					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-15",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 151.244202, 187.0, 45.0, 22.0 ],
-					"style" : "",
+					"patching_rect" : [ 157.244202, 187.0, 46.0, 22.0 ],
+					"style" : "default",
 					"text" : "r bang"
 				}
 
@@ -512,7 +509,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 149.0, 70.0, 52.0, 20.0 ],
+									"patching_rect" : [ 149.0, 70.0, 53.0, 20.0 ],
 									"style" : "",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ],
@@ -1866,7 +1863,6 @@
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
-						"fontsize" : 12.0,
 						"globalpatchername" : "",
 						"style" : "",
 						"tags" : ""
@@ -1902,7 +1898,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 132.244202, 59.0, 45.0, 22.0 ],
+					"patching_rect" : [ 138.244202, 59.0, 45.0, 22.0 ],
 					"style" : "",
 					"text" : "r bang"
 				}
@@ -1917,7 +1913,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 148.347992, 89.251862, 109.0, 22.0 ],
+					"patching_rect" : [ 154.347992, 89.251862, 109.0, 22.0 ],
 					"style" : "",
 					"text" : "read cityroom.mov"
 				}
@@ -1932,7 +1928,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 132.244202, 115.054932, 123.0, 22.0 ],
+					"patching_rect" : [ 138.244202, 115.054932, 123.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.qt.movie @adapt 1"
 				}
@@ -1947,7 +1943,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 58.0, 116.0, 255.0 ],
+					"patching_rect" : [ 4.0, 58.0, 120.0, 257.0 ],
 					"proportion" : 0.39,
 					"rounded" : 30,
 					"style" : ""
@@ -1956,65 +1952,56 @@
 			}
 , 			{
 				"box" : 				{
-					"color" : [ 0.836957, 0.836957, 0.836957, 1.0 ],
-					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-45",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 151.244202, 240.0, 220.0, 22.0 ],
-					"style" : "",
+					"patching_rect" : [ 157.244202, 240.0, 221.0, 22.0 ],
+					"style" : "default",
 					"text" : "jit.slide @slide_up 30 @slide_down 20"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"color" : [ 0.836957, 0.836957, 0.836957, 1.0 ],
-					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-46",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 151.244202, 213.0, 178.0, 22.0 ],
-					"style" : "",
+					"patching_rect" : [ 157.244202, 213.0, 179.0, 22.0 ],
+					"style" : "default",
 					"text" : "jit.matrix rad 1 float32 50 50 50"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"color" : [ 0.836957, 0.836957, 0.836957, 1.0 ],
-					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-49",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 132.244202, 158.0, 74.0, 22.0 ],
-					"style" : "",
+					"patching_rect" : [ 138.244202, 158.0, 75.0, 22.0 ],
+					"style" : "default",
 					"text" : "jit.gl.texture"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"color" : [ 0.836957, 0.836957, 0.836957, 1.0 ],
-					"fontname" : "Arial Bold",
-					"fontsize" : 14.0,
 					"id" : "obj-50",
 					"linecount" : 9,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 132.244202, 267.0, 150.0, 149.0 ],
-					"style" : "",
+					"patching_rect" : [ 138.244202, 273.638458, 132.0, 139.0 ],
+					"style" : "default",
 					"text" : "jit.gl.isosurf @lighting_enable 1 @color 1 1 1 0.5 @isolevel 0.41 @blend_enable 1 @depth_enable 1 @smooth_shading 1 @scale 1.7 1.5 1. @cull_face 1. 1."
 				}
 
@@ -2204,7 +2191,7 @@
 					"destination" : [ "obj-23", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 141.744202, 146.027466, 219.5, 146.027466 ],
+					"midpoints" : [ 147.744202, 146.027466, 225.5, 146.027466 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -2226,14 +2213,18 @@
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
+			}
  ],
 		"embedsnapshot" : 0,
 		"styles" : [ 			{
 				"name" : "m4va",
 				"default" : 				{
+					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontname" : [ "Arial" ],
-					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
 					"fontsize" : [ 12.0 ]
 				}
 ,
@@ -2243,12 +2234,12 @@
 , 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
+					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontsize" : [ 14.0 ],
-					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
+					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

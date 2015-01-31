@@ -856,6 +856,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.803922, 0.898039, 0.909804, 1.0 ],
 					"id" : "obj-13",
 					"maxclass" : "multislider",
 					"numinlets" : 1,
@@ -868,6 +869,7 @@
 					"setminmax" : [ 0.0, 127.0 ],
 					"setstyle" : 5,
 					"settype" : 0,
+					"slidercolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 					"style" : ""
 				}
 
@@ -1077,7 +1079,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 172.0, 166.0, 52.0, 22.0 ],
+					"patching_rect" : [ 172.0, 166.0, 53.0, 22.0 ],
 					"style" : "",
 					"triscale" : 0.9
 				}
@@ -1109,7 +1111,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 109.0, 166.0, 52.0, 22.0 ],
+					"patching_rect" : [ 109.0, 166.0, 53.0, 22.0 ],
 					"style" : "",
 					"triscale" : 0.9
 				}
@@ -1153,7 +1155,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 41.0, 166.0, 52.0, 22.0 ],
+					"patching_rect" : [ 41.0, 166.0, 53.0, 22.0 ],
 					"style" : "",
 					"triscale" : 0.9
 				}
@@ -1593,17 +1595,21 @@
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
+			}
  ],
 		"embedsnapshot" : 0,
 		"styles" : [ 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
-					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"fontsize" : [ 14.0 ]
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontsize" : [ 14.0 ],
+					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
