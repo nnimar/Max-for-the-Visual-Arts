@@ -2,40 +2,69 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 6,
-			"minor" : 1,
-			"revision" : 6,
-			"architecture" : "x86"
+			"major" : 7,
+			"minor" : 0,
+			"revision" : 1,
+			"architecture" : "x86",
+			"modernui" : 1
 		}
 ,
-		"rect" : [ 1.0, 44.0, 739.0, 423.0 ],
+		"rect" : [ 545.0, 44.0, 738.0, 422.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 13.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 0,
+		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 0,
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 0,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 0,
+		"toolbars_unpinned_last_save" : 0,
+		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
-		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
+		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
-					"bgovercolor" : [ 0.784314, 0.909804, 0.917647, 1.0 ],
-					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : "Arial",
+					"args" : [ "BlinkM", "use the BlinkMCommu (arduino) to send messages to the BlinkM (8 bytes long) " ],
+					"bgmode" : 1,
+					"border" : 0,
+					"clickthrough" : 1,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-24",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "Max4VA-Title.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, -278.0 ],
+					"patching_rect" : [ -1.0, -2.0, 486.0, 55.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ -22.0, -3.0, 487.519531, 73.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
+					"bgoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-11",
+					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -44,9 +73,14 @@
 					"patching_rect" : [ 622.0, 396.0, 110.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 239.0, 294.5, 79.0, 17.0 ],
-					"rounded" : 20.0,
+					"style" : "",
 					"text" : "open BlinkM.ino",
-					"texton" : "Stop"
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"texton" : "Stop",
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
 				}
 
 			}
@@ -60,7 +94,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 593.0, 396.5, 141.0, 18.0 ],
+					"patching_rect" : [ 593.0, 396.5, 141.0, 22.0 ],
+					"style" : "",
 					"text" : "BlinkMCommu_v100.ino"
 				}
 
@@ -74,7 +109,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 589.0, 396.5, 82.0, 20.0 ],
+					"patching_rect" : [ 589.0, 396.5, 82.0, 22.0 ],
+					"style" : "",
 					"text" : "imi.docloader"
 				}
 
@@ -90,10 +126,11 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 6,
-							"minor" : 1,
-							"revision" : 6,
-							"architecture" : "x86"
+							"major" : 7,
+							"minor" : 0,
+							"revision" : 1,
+							"architecture" : "x86",
+							"modernui" : 1
 						}
 ,
 						"rect" : [ 747.0, 44.0, 458.0, 203.0 ],
@@ -102,29 +139,37 @@
 						"default_fontsize" : 14.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"gridonopen" : 0,
+						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 0,
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
 						"statusbarvisible" : 2,
 						"toolbarvisible" : 0,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
 						"boxanimatetime" : 200,
-						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
 						"devicewidth" : 0.0,
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 18.0,
-									"frgb" : 0.0,
 									"id" : "obj-2",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 11.0, 12.0, 436.0, 27.0 ],
+									"style" : "",
 									"text" : "Fade to RGB Color: 99, R, G, B"
 								}
 
@@ -133,13 +178,13 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 18.0,
-									"frgb" : 0.0,
 									"id" : "obj-19",
 									"linecount" : 6,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 10.0, 61.0, 437.0, 127.0 ],
+									"style" : "",
 									"text" : "Go to RGB Color Now: 110, R, G, B\nFade to HSB Color: 104, H, S, B\nPlay Light Script: 112, n, r, p\nStop Script: 111\nSet Fade Speed  102, fade_speed\nSet Time Adjust  116, time_adjust"
 								}
 
@@ -148,20 +193,17 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 686.0, 33.0, 49.0, 18.0 ],
+					"patching_rect" : [ 686.0, 33.0, 49.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"default_fontsize" : 14.0,
 						"description" : "",
 						"digest" : "",
-						"fontface" : 0,
-						"fontname" : "Arial",
 						"fontsize" : 14.0,
 						"globalpatchername" : "",
+						"style" : "",
 						"tags" : ""
 					}
 ,
+					"style" : "",
 					"text" : "p tutorial"
 				}
 
@@ -170,47 +212,14 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-17",
 					"linecount" : 10,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 11.0, 276.0, 592.0, 141.0 ],
+					"style" : "",
 					"text" : "Commands look like this {1 0 4 0 99 0 255 0} and means change all BlinkM's to the colour green (0 255 0)\n1 is the start byte\n0 is the i2c address (0 is to all)\n4 is the number of bytes to send (from the command name)\n0 is the number if bytes to receive (back from the Arduino)\n99 is the command name (99 is the ASCII for c or Fade to RGB Color) - see p13 of the BlinkM's datasheet\nThe next three bytes is the color in RGB (255 0 0 is red, 0 0 0 is white) \n\n\nUse BlinkM tester from the Arduino Example to start then use the BlinkMultiple to work with several BlinkM's"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 3,
-					"fontname" : "Arial",
-					"fontsize" : 20.871338,
-					"frgb" : 0.0,
-					"id" : "obj-14",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 179.0, 30.0 ],
-					"text" : "BlinkM",
-					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
-					"varname" : "autohelp_top_title"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.754705,
-					"frgb" : 0.0,
-					"id" : "obj-15",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 31.0, 475.0, 21.0 ],
-					"text" : "use the BlinkMCommu (arduino) to send messages to the BlinkM (8 bytes long) ",
-					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
-					"varname" : "autohelp_top_digest"
 				}
 
 			}
@@ -221,7 +230,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 605.0, 101.0, 20.0, 20.0 ]
+					"patching_rect" : [ 605.0, 101.0, 20.0, 20.0 ],
+					"style" : ""
 				}
 
 			}
@@ -232,7 +242,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 492.0, 101.0, 20.0, 20.0 ]
+					"patching_rect" : [ 492.0, 101.0, 20.0, 20.0 ],
+					"style" : ""
 				}
 
 			}
@@ -243,7 +254,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 364.0, 101.0, 20.0, 20.0 ]
+					"patching_rect" : [ 364.0, 101.0, 20.0, 20.0 ],
+					"style" : ""
 				}
 
 			}
@@ -254,7 +266,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 255.0, 101.0, 20.0, 20.0 ]
+					"patching_rect" : [ 255.0, 101.0, 20.0, 20.0 ],
+					"style" : ""
 				}
 
 			}
@@ -262,12 +275,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-13",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 387.0, 101.0, 50.0, 20.0 ],
+					"style" : "",
 					"text" : "Orange"
 				}
 
@@ -281,7 +294,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 364.0, 125.0, 121.0, 18.0 ],
+					"patching_rect" : [ 364.0, 125.0, 121.0, 22.0 ],
+					"style" : "",
 					"text" : "1 0 4 0 99 255 0 255"
 				}
 
@@ -293,7 +307,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 29.0, 64.0, 20.0, 20.0 ]
+					"patching_rect" : [ 29.0, 64.0, 20.0, 20.0 ],
+					"style" : ""
 				}
 
 			}
@@ -307,7 +322,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 52.0, 65.0, 180.0, 20.0 ],
+					"patching_rect" : [ 52.0, 65.0, 180.0, 22.0 ],
+					"style" : "",
 					"text" : "loadmess set FireFly-2573-SPP"
 				}
 
@@ -316,12 +332,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-9",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 627.0, 101.0, 40.0, 20.0 ],
+					"style" : "",
 					"text" : "White"
 				}
 
@@ -335,7 +351,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 605.0, 125.0, 94.0, 18.0 ],
+					"patching_rect" : [ 605.0, 125.0, 94.0, 22.0 ],
+					"style" : "",
 					"text" : "1 0 4 0 99 0 0 0"
 				}
 
@@ -344,12 +361,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-6",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 285.0, 101.0, 43.0, 20.0 ],
+					"style" : "",
 					"text" : "Green"
 				}
 
@@ -363,7 +380,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 255.0, 125.0, 107.0, 18.0 ],
+					"patching_rect" : [ 255.0, 125.0, 107.0, 22.0 ],
+					"style" : "",
 					"text" : "1 0 4 0 99 0 255 0"
 				}
 
@@ -372,12 +390,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-5",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 514.0, 101.0, 40.0, 20.0 ],
+					"style" : "",
 					"text" : "Red"
 				}
 
@@ -391,7 +409,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 492.0, 125.0, 107.0, 18.0 ],
+					"patching_rect" : [ 492.0, 125.0, 107.0, 22.0 ],
+					"style" : "",
 					"text" : "1 0 4 0 99 255 0 0"
 				}
 
@@ -405,24 +424,25 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 104.0, 143.0, 84.0, 20.0 ],
+					"patching_rect" : [ 104.0, 143.0, 84.0, 22.0 ],
+					"style" : "",
 					"text" : "prepend port"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-38",
-					"items" : [ "Bluetooth-Serial-1", ",", "Bluetooth-Serial-2", ",", "SparkFun-BT-COM0", ",", "Bluetooth-PDA-Sync", ",", "BTGPS74R-SPP-1", ",", "FireFly-2573-SPP" ],
+					"items" : [ "SparkFun-BT-COM0", ",", "BTGPS74R-SPP-1", ",", "Bluetooth-Modem", ",", "Bluetooth-Incoming-Port", ",", "BTGPS74R-SPP-1", ",", "FireFly-2573-SPP" ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 29.0, 109.0, 169.0, 22.0 ]
+					"patching_rect" : [ 29.0, 109.0, 169.0, 24.0 ],
+					"style" : ""
 				}
 
 			}
@@ -436,7 +456,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 148.0, 173.0, 72.0, 17.0 ],
+					"patching_rect" : [ 148.0, 173.0, 72.0, 19.0 ],
+					"style" : "",
 					"text" : "loadmess print"
 				}
 
@@ -453,31 +474,40 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 6,
-							"minor" : 1,
-							"revision" : 6,
-							"architecture" : "x86"
+							"major" : 7,
+							"minor" : 0,
+							"revision" : 1,
+							"architecture" : "x86",
+							"modernui" : 1
 						}
 ,
 						"rect" : [ 76.0, 74.0, 496.0, 343.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
-						"default_fontsize" : 13.0,
+						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"gridonopen" : 0,
+						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 0,
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
 						"statusbarvisible" : 2,
 						"toolbarvisible" : 0,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
 						"boxanimatetime" : 200,
-						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
 						"devicewidth" : 0.0,
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -485,7 +515,8 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 31.0, 253.0, 20.0, 20.0 ]
+									"patching_rect" : [ 31.0, 253.0, 20.0, 20.0 ],
+									"style" : ""
 								}
 
 							}
@@ -497,7 +528,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 31.0, 39.0, 20.0, 20.0 ]
+									"patching_rect" : [ 31.0, 39.0, 20.0, 20.0 ],
+									"style" : ""
 								}
 
 							}
@@ -512,6 +544,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 311.0, 203.0, 108.0, 20.0 ],
+									"style" : "",
 									"text" : "prepend setitem 7"
 								}
 
@@ -527,6 +560,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 271.0, 177.0, 107.0, 20.0 ],
+									"style" : "",
 									"text" : "prepend setitem 6"
 								}
 
@@ -542,6 +576,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 231.0, 152.0, 108.0, 20.0 ],
+									"style" : "",
 									"text" : "prepend setitem 5"
 								}
 
@@ -557,6 +592,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 188.0, 126.0, 114.0, 20.0 ],
+									"style" : "",
 									"text" : "prepend setitem 4"
 								}
 
@@ -572,6 +608,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 150.0, 204.0, 109.0, 20.0 ],
+									"style" : "",
 									"text" : "prepend setitem 3"
 								}
 
@@ -587,6 +624,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 111.0, 178.0, 109.0, 20.0 ],
+									"style" : "",
 									"text" : "prepend setitem 2"
 								}
 
@@ -602,6 +640,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 71.0, 153.0, 110.0, 20.0 ],
+									"style" : "",
 									"text" : "prepend setitem 1"
 								}
 
@@ -617,6 +656,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 31.0, 126.0, 112.0, 20.0 ],
+									"style" : "",
 									"text" : "prepend setitem 0"
 								}
 
@@ -632,6 +672,7 @@
 									"numoutlets" : 8,
 									"outlettype" : [ "", "", "", "", "", "", "", "" ],
 									"patching_rect" : [ 31.0, 96.0, 293.0, 20.0 ],
+									"style" : "",
 									"text" : "unpack s s s s s s s s"
 								}
 
@@ -647,6 +688,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 31.0, 66.0, 93.0, 20.0 ],
+									"style" : "",
 									"text" : "route port"
 								}
 
@@ -655,13 +697,13 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : 0.0,
 									"id" : "obj-13",
 									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 169.0, 285.0, 316.0, 47.0 ],
+									"style" : "",
 									"text" : "Manages serial name data. Each port name (up to 8, in this case) replaces an item in the drop-down menu of the parent patch (items in drop-down are numbered 0 - 7)."
 								}
 
@@ -670,27 +712,31 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : 0.0,
 									"id" : "obj-14",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 58.0, 42.0, 416.0, 17.0 ],
+									"style" : "",
 									"text" : "This code yoinked from Arduino2Max, found at http://www.arduino.cc/playground/Interfacing/MaxMSP"
 								}
 
 							}
 , 							{
 								"box" : 								{
+									"angle" : 0.0,
 									"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
 									"border" : 1,
 									"bordercolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
 									"id" : "obj-15",
 									"maxclass" : "panel",
+									"mode" : 0,
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 56.0, 39.0, 429.0, 19.0 ],
-									"rounded" : 0
+									"proportion" : 0.39,
+									"rounded" : 0,
+									"style" : ""
 								}
 
 							}
@@ -878,20 +924,17 @@
  ]
 					}
 ,
-					"patching_rect" : [ 184.0, 236.0, 61.0, 20.0 ],
+					"patching_rect" : [ 184.0, 236.0, 61.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"default_fontsize" : 13.0,
 						"description" : "",
 						"digest" : "",
-						"fontface" : 0,
-						"fontname" : "Arial",
 						"fontsize" : 12.0,
 						"globalpatchername" : "",
+						"style" : "",
 						"tags" : ""
 					}
 ,
+					"style" : "",
 					"text" : "p portinfo"
 				}
 
@@ -905,24 +948,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "" ],
-					"patching_rect" : [ 104.0, 208.0, 99.0, 22.0 ],
+					"patching_rect" : [ 104.0, 208.0, 99.0, 24.0 ],
+					"style" : "",
 					"text" : "serial a 57600"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 180.0,
-					"background" : 1,
-					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
-					"id" : "obj-29",
-					"maxclass" : "panel",
-					"mode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 2.0, 736.0, 51.0 ],
-					"varname" : "autohelp_top_panel[1]"
 				}
 
 			}
@@ -1092,8 +1120,15 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "imi.docloader.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/imi_objects",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/Toolbox/imi_objects",
 				"patcherrelativepath" : "../../../Toolbox/imi_objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Max4VA-Title.maxpat",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
+				"patcherrelativepath" : "../../../zpatches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1101,7 +1136,12 @@
 				"name" : "shell.mxo",
 				"type" : "iLaX"
 			}
- ]
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"embedsnapshot" : 0
 	}
 
 }

@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1.0, 44.0, 414.0, 313.0 ],
+		"rect" : [ 1.0, 44.0, 413.0, 360.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 13.0,
@@ -37,6 +37,83 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-3",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 169.0, 218.5, 209.0, 22.0 ],
+					"presentation_rect" : [ 212.0, 227.5, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "receive data from DeepBeliever"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"align" : 0,
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
+					"fontsize" : 14.0,
+					"id" : "obj-17",
+					"legacytextcolor" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 7.0, 218.5, 100.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 49.0, 230.5, 79.0, 17.0 ],
+					"style" : "",
+					"text" : "DeepBeliever",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
+					"texton" : "Stop",
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"hidden" : 1,
+					"id" : "obj-18",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 7.0, 218.5, 111.0, 20.0 ],
+					"presentation_rect" : [ 49.0, 230.5, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "load OSCdeepbeliever"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.595187,
+					"hidden" : 1,
+					"id" : "obj-19",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 7.0, 218.5, 52.0, 21.0 ],
+					"presentation_rect" : [ 49.0, 230.5, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "pcontrol"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"args" : [ "m4va OSC control", "OSC is a content format for messaging between applications " ],
 					"bgmode" : 1,
@@ -66,7 +143,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 169.0, 277.5, 160.0, 22.0 ],
+					"patching_rect" : [ 169.0, 319.5, 160.0, 22.0 ],
 					"style" : "",
 					"text" : "alternatives to osc-route"
 				}
@@ -85,7 +162,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 7.0, 275.5, 101.0, 22.0 ],
+					"patching_rect" : [ 7.0, 317.5, 101.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 249.0, 278.5, 79.0, 17.0 ],
 					"style" : "",
@@ -110,7 +187,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 277.5, 96.0, 20.0 ],
+					"patching_rect" : [ 7.0, 319.5, 96.0, 20.0 ],
 					"style" : "",
 					"text" : "load OSC-route_alt"
 				}
@@ -125,7 +202,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 169.0, 229.5, 156.0, 38.0 ],
+					"patching_rect" : [ 169.0, 271.5, 156.0, 38.0 ],
 					"style" : "",
 					"text" : "how to use OSCulator \nto route messages"
 				}
@@ -144,7 +221,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 7.0, 237.5, 130.0, 22.0 ],
+					"patching_rect" : [ 7.0, 279.5, 130.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 82.0, 263.5, 79.0, 17.0 ],
 					"style" : "",
@@ -169,7 +246,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 240.5, 115.0, 20.0 ],
+					"patching_rect" : [ 7.0, 282.5, 115.0, 20.0 ],
 					"style" : "",
 					"text" : "load OSCulator_routing"
 				}
@@ -433,7 +510,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 277.5, 52.0, 21.0 ],
+					"patching_rect" : [ 7.0, 319.5, 52.0, 21.0 ],
 					"style" : "",
 					"text" : "pcontrol"
 				}
@@ -450,7 +527,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -62.0, 217.0, 433.0, 4.0 ],
+					"patching_rect" : [ 7.0, 258.0, 403.0, 4.0 ],
 					"proportion" : 0.39,
 					"style" : "",
 					"varname" : "autohelp_top_panel[4]"
@@ -491,6 +568,24 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-18", 0 ]
 				}
 
 			}
@@ -574,6 +669,10 @@
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
+			}
  ],
 		"embedsnapshot" : 0,
 		"styles" : [ 			{
@@ -583,8 +682,8 @@
 					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"fontsize" : [ 14.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontsize" : [ 14.0 ]
 				}
 ,
 				"parentstyle" : "",

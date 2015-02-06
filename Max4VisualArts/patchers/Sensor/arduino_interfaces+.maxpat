@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 546.0, 44.0, 441.0, 216.0 ],
+		"rect" : [ 546.0, 44.0, 481.0, 224.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -52,6 +52,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"fontsize" : 14.0,
 					"id" : "obj-38",
 					"legacytextcolor" : 1,
@@ -60,13 +61,14 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 50.0, 101.0, 20.0 ],
+					"patching_rect" : [ 10.0, 50.0, 93.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 393.0, 100.0, 20.0 ],
 					"style" : "",
 					"text" : "analog_miller",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textovercolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"textjustification" : 0,
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -142,6 +144,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"fontsize" : 14.0,
 					"id" : "obj-4",
 					"legacytextcolor" : 1,
@@ -150,12 +153,14 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 174.5, 71.0, 20.0 ],
+					"patching_rect" : [ 10.0, 174.5, 53.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 14.0, 167.5, 100.0, 20.0 ],
 					"style" : "",
 					"text" : "BlinkM",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -193,6 +198,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"fontsize" : 14.0,
 					"id" : "obj-62",
 					"legacytextcolor" : 1,
@@ -207,6 +213,8 @@
 					"style" : "",
 					"text" : "Benson's sensorBox",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -260,6 +268,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"fontsize" : 14.0,
 					"id" : "obj-1",
 					"legacytextcolor" : 1,
@@ -274,6 +283,8 @@
 					"style" : "",
 					"text" : "arduino handshake",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -327,6 +338,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"fontsize" : 14.0,
 					"id" : "obj-41",
 					"legacytextcolor" : 1,
@@ -341,6 +353,8 @@
 					"style" : "",
 					"text" : "Max4Lightuino",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}

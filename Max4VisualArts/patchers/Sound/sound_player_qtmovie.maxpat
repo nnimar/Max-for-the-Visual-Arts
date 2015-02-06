@@ -38,7 +38,7 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"args" : [ "m4va sound player (qt)", "when a sensor hits a certain value (100) then start the sound" ],
+					"args" : [ "m4va sound player (quicktime engine)", "when a sensor hits a certain value (100) then start the sound" ],
 					"bgmode" : 1,
 					"border" : 0,
 					"clickthrough" : 1,

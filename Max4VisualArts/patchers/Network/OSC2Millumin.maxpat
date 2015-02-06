@@ -760,7 +760,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.0, 553.0, 112.0, 20.0 ],
+					"patching_rect" : [ 10.0, 553.0, 112.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 573.0, 433.0, 79.0, 17.0 ],
 					"style" : "",
@@ -786,7 +786,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 130.0, 553.0, 149.0, 20.0 ],
+					"patching_rect" : [ 128.0, 553.0, 149.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 761.0, 313.0, 79.0, 17.0 ],
 					"style" : "",
@@ -811,7 +811,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 129.0, 548.0, 220.0, 29.0 ],
+					"patching_rect" : [ 127.0, 548.0, 220.0, 29.0 ],
 					"style" : "",
 					"text" : ";\rmax launchbrowser http://lab.millumin.com/#tutorials"
 				}
@@ -2632,7 +2632,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 548.0, 232.0, 29.0 ],
+					"patching_rect" : [ 11.0, 548.0, 232.0, 29.0 ],
 					"style" : "",
 					"text" : ";\rmax launchbrowser \\\"file:/Applications/Millumin.app\\\""
 				}
@@ -4092,17 +4092,21 @@
 				"name" : "OSC-route.mxo",
 				"type" : "iLaX"
 			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
+			}
  ],
 		"embedsnapshot" : 0,
 		"styles" : [ 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
-					"fontsize" : [ 14.0 ],
-					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontsize" : [ 14.0 ]
 				}
 ,
 				"parentstyle" : "",
