@@ -81,7 +81,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 361.0, 514.0, 40.0, 22.0 ],
+					"patching_rect" : [ 361.0, 515.0, 40.0, 22.0 ],
 					"style" : "",
 					"text" : "r pins"
 				}
@@ -96,7 +96,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 361.0, 490.0, 33.0, 22.0 ],
+					"patching_rect" : [ 361.0, 489.0, 33.0, 22.0 ],
 					"style" : "",
 					"text" : "r init"
 				}
@@ -111,7 +111,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 361.0, 468.0, 58.0, 22.0 ],
+					"patching_rect" : [ 361.0, 464.0, 58.0, 22.0 ],
 					"style" : "",
 					"text" : "r arduino"
 				}
@@ -380,7 +380,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 361.0, 241.0, 50.0, 22.0 ],
+					"patching_rect" : [ 373.0, 243.0, 50.0, 22.0 ],
 					"style" : "",
 					"text" : "bang"
 				}
@@ -394,7 +394,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 361.0, 183.0, 20.0, 20.0 ],
+					"patching_rect" : [ 404.0, 183.0, 20.0, 20.0 ],
 					"style" : ""
 				}
 
@@ -408,7 +408,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 361.0, 65.0, 60.0, 22.0 ],
+					"patching_rect" : [ 404.0, 65.0, 60.0, 22.0 ],
 					"style" : "",
 					"text" : "loadbang"
 				}
@@ -423,7 +423,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 361.0, 214.0, 41.0, 22.0 ],
+					"patching_rect" : [ 404.0, 214.0, 41.0, 22.0 ],
 					"style" : "",
 					"text" : "r start"
 				}
@@ -438,7 +438,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 361.0, 154.0, 53.0, 22.0 ],
+					"patching_rect" : [ 404.0, 154.0, 53.0, 22.0 ],
 					"style" : "",
 					"text" : "r render"
 				}
@@ -454,7 +454,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 361.0, 94.0, 71.0, 49.0 ],
+					"patching_rect" : [ 404.0, 94.0, 71.0, 49.0 ],
 					"style" : "",
 					"text" : ";\rrender 1;\rstart bang;\r"
 				}
@@ -922,6 +922,10 @@
 				"patcherrelativepath" : "../../zpatches",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"embedsnapshot" : 0

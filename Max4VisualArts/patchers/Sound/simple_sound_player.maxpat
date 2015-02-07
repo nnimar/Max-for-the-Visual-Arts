@@ -864,10 +864,10 @@
 										"styles" : [ 											{
 												"name" : "m4va",
 												"default" : 												{
+													"fontname" : [ "Arial" ],
 													"fontsize" : [ 12.0 ],
-													"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
 													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontname" : [ "Arial" ]
+													"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -876,12 +876,12 @@
 , 											{
 												"name" : "m4vatextbutton",
 												"default" : 												{
-													"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-													"fontsize" : [ 14.0 ],
 													"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 													"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+													"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+													"fontsize" : [ 14.0 ],
 													"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-													"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
+													"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -1175,8 +1175,8 @@
 										"loopend" : [ 0.0, "ms" ],
 										"loopstart" : [ 0.0, "ms" ],
 										"mode" : "basic",
-										"originallength" : [ 706.26239, "ticks" ],
-										"originaltempo" : 25.581316,
+										"originallength" : [ 479.900879, "ticks" ],
+										"originaltempo" : 17.382343,
 										"phase" : [ 0.0, "ticks" ],
 										"pitchcorrection" : 0,
 										"quality" : "basic",
@@ -1384,12 +1384,12 @@
 						"styles" : [ 							{
 								"name" : "m4vatextbutton",
 								"default" : 								{
-									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontsize" : [ 14.0 ],
 									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+									"fontsize" : [ 14.0 ],
 									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
+									"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2280,12 +2280,12 @@
 										"styles" : [ 											{
 												"name" : "m4vatextbutton",
 												"default" : 												{
-													"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-													"fontsize" : [ 14.0 ],
 													"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 													"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+													"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+													"fontsize" : [ 14.0 ],
 													"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-													"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
+													"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -2781,7 +2781,7 @@
 									"maxclass" : "ezdac~",
 									"numinlets" : 2,
 									"numoutlets" : 0,
-									"patching_rect" : [ 16.0, 404.0, 45.0, 45.0 ],
+									"patching_rect" : [ 16.0, 399.0, 45.0, 45.0 ],
 									"style" : ""
 								}
 
@@ -2912,6 +2912,7 @@
 							}
 , 							{
 								"box" : 								{
+									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-3",
@@ -3538,7 +3539,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 110.0, 284.0, 97.0, 24.0 ],
+									"patching_rect" : [ 110.0, 285.0, 97.0, 24.0 ],
 									"style" : "",
 									"text" : "end of sound"
 								}
@@ -3551,7 +3552,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 89.0, 286.0, 20.0, 20.0 ],
+									"patching_rect" : [ 89.0, 287.0, 20.0, 20.0 ],
 									"style" : ""
 								}
 
@@ -3593,7 +3594,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 64.0, 414.0, 131.0, 24.0 ],
+									"patching_rect" : [ 64.0, 409.0, 131.0, 24.0 ],
 									"style" : "",
 									"text" : "turn the sound ON"
 								}
@@ -3662,7 +3663,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 3,
 									"outlettype" : [ "signal", "signal", "bang" ],
-									"patching_rect" : [ 16.0, 252.0, 92.0, 24.0 ],
+									"patching_rect" : [ 16.0, 253.0, 92.0, 24.0 ],
 									"saved_object_attributes" : 									{
 										"basictuning" : 440,
 										"followglobaltempo" : 0,
@@ -3725,7 +3726,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 201.0, 415.0, 20.0, 20.0 ],
+									"patching_rect" : [ 201.0, 410.0, 20.0, 20.0 ],
 									"rounded" : 60.0,
 									"style" : "",
 									"text" : "1",
@@ -3864,7 +3865,7 @@
 									"destination" : [ "obj-7", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 62.0, 297.0, 25.5, 297.0 ],
+									"midpoints" : [ 62.0, 310.0, 25.5, 310.0 ],
 									"source" : [ "obj-23", 1 ]
 								}
 
@@ -3967,7 +3968,7 @@
 									"destination" : [ "obj-62", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 25.5, 389.5, 51.5, 389.5 ],
+									"midpoints" : [ 25.5, 388.5, 51.5, 388.5 ],
 									"source" : [ "obj-7", 0 ]
 								}
 

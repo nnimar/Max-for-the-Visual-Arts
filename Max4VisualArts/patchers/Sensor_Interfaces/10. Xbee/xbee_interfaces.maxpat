@@ -60,6 +60,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
@@ -76,6 +77,7 @@
 					"style" : "",
 					"text" : "Sensor interface folder",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
@@ -274,6 +276,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
@@ -290,6 +293,7 @@
 					"style" : "",
 					"text" : "Xbee4Max",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
@@ -442,6 +446,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
@@ -458,6 +463,7 @@
 					"style" : "",
 					"text" : "2. xbee_api",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
@@ -466,6 +472,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
@@ -482,6 +489,7 @@
 					"style" : "",
 					"text" : "1. xbee_at",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
@@ -825,6 +833,10 @@
 			}
 , 			{
 				"name" : "shell.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "strlen.mxo",
 				"type" : "iLaX"
 			}
  ],

@@ -2,31 +2,40 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 6,
-			"minor" : 1,
-			"revision" : 3,
-			"architecture" : "x86"
+			"major" : 7,
+			"minor" : 0,
+			"revision" : 1,
+			"architecture" : "x86",
+			"modernui" : 1
 		}
 ,
-		"rect" : [ 0.0, 44.0, 213.0, 208.0 ],
+		"rect" : [ 446.0, 44.0, 224.0, 212.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 0,
+		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 0,
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 0,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 0,
+		"toolbars_unpinned_last_save" : 0,
+		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
-		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
+		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"comment" : "",
@@ -35,7 +44,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 164.0, 54.0, 25.0, 25.0 ]
+					"patching_rect" : [ 164.0, 54.0, 25.0, 25.0 ],
+					"style" : ""
 				}
 
 			}
@@ -48,7 +58,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 164.0, 93.0, 37.0, 22.0 ],
+					"patching_rect" : [ 164.0, 93.0, 37.0, 24.0 ],
+					"style" : "",
 					"text" : "t b s"
 				}
 
@@ -60,7 +71,8 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 173.0, 25.0, 25.0 ]
+					"patching_rect" : [ 8.0, 173.0, 25.0, 25.0 ],
+					"style" : ""
 				}
 
 			}
@@ -68,19 +80,20 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
-					"frgb" : 0.0,
 					"id" : "obj-5",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 8.0, 6.0, 193.0, 38.0 ],
+					"style" : "",
 					"text" : "help to load from the desktop regardless of the computer"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-34",
@@ -88,13 +101,15 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 138.0, 193.0, 22.0 ],
-					"text" : "sprintf #1 %sDesktop/%s"
+					"patching_rect" : [ 8.0, 138.0, 193.0, 24.0 ],
+					"style" : "",
+					"text" : "sprintf #1 %s%s"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-31",
@@ -102,8 +117,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 56.0, 82.0, 22.0 ],
-					"text" : "loadmess ~"
+					"patching_rect" : [ 8.0, 56.0, 123.0, 24.0 ],
+					"style" : "",
+					"text" : "loadmess desktop"
 				}
 
 			}
@@ -116,7 +132,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 8.0, 93.0, 150.0, 22.0 ],
+					"patching_rect" : [ 8.0, 93.0, 150.0, 24.0 ],
+					"style" : "",
 					"text" : "conformpath max boot"
 				}
 
@@ -178,7 +195,8 @@
 
 			}
  ],
-		"dependency_cache" : [  ]
+		"dependency_cache" : [  ],
+		"embedsnapshot" : 0
 	}
 
 }

@@ -60,6 +60,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"fontsize" : 14.0,
 					"id" : "obj-9",
 					"legacytextcolor" : 1,
@@ -74,6 +75,7 @@
 					"style" : "",
 					"text" : "Wii_accelerometer",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
@@ -143,6 +145,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"fontsize" : 14.0,
 					"id" : "obj-4",
 					"legacytextcolor" : 1,
@@ -157,6 +160,7 @@
 					"style" : "",
 					"text" : "Wiimote2Max_simple",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
@@ -212,6 +216,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"fontsize" : 14.0,
 					"id" : "obj-46",
 					"legacytextcolor" : 1,
@@ -226,6 +231,7 @@
 					"style" : "",
 					"text" : "Wiimote2Max",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
@@ -267,6 +273,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"fontsize" : 14.0,
 					"id" : "obj-41",
 					"legacytextcolor" : 1,
@@ -281,6 +288,7 @@
 					"style" : "",
 					"text" : "z.wii.glNav_quad",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
@@ -338,6 +346,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"fontsize" : 14.0,
 					"id" : "obj-30",
 					"legacytextcolor" : 1,
@@ -352,6 +361,7 @@
 					"style" : "",
 					"text" : "z.wii.glNav1",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
@@ -439,6 +449,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"fontsize" : 14.0,
 					"id" : "obj-31",
 					"legacytextcolor" : 1,
@@ -453,6 +464,7 @@
 					"style" : "",
 					"text" : "z.wii.glNav2",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
@@ -510,6 +522,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"fontsize" : 14.0,
 					"id" : "obj-2",
 					"legacytextcolor" : 1,
@@ -524,6 +537,7 @@
 					"style" : "",
 					"text" : "launch OSCulator ",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,

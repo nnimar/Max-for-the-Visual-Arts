@@ -135,7 +135,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-41",
-					"items" : "<empty>",
+					"items" : "192.168.0.3",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -238,7 +238,13 @@
 
 							}
  ],
-						"lines" : [  ]
+						"lines" : [  ],
+						"styles" : [ 							{
+								"name" : "simple",
+								"parentstyle" : "",
+								"multi" : 0
+							}
+ ]
 					}
 ,
 					"patching_rect" : [ 565.0, 36.0, 59.0, 20.0 ],
@@ -371,7 +377,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 151.25, 183.0, 101.0, 22.0 ],
 					"style" : "",
-					"text" : "90.204.178.216"
+					"text" : "90.197.23.180"
 				}
 
 			}
@@ -1009,7 +1015,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 390.5, 690.0, 127.0, 18.0 ],
 									"style" : "",
-									"text" : "90.204.178.216"
+									"text" : "90.197.23.180"
 								}
 
 							}
@@ -1387,7 +1393,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 151.25, 404.0, 50.0, 22.0 ],
+					"patching_rect" : [ 151.25, 410.0, 50.0, 22.0 ],
 					"style" : "",
 					"text" : "print IP"
 				}
@@ -1474,7 +1480,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 67.0, 290.0, 60.0, 22.0 ],
+					"patching_rect" : [ 67.0, 305.0, 60.0, 22.0 ],
 					"style" : "",
 					"text" : "gate 1 1"
 				}
@@ -1519,7 +1525,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 52.0, 371.0, 186.0, 22.0 ],
+					"patching_rect" : [ 52.0, 380.0, 186.0, 22.0 ],
 					"style" : "",
 					"text" : "regexp ^[\\\\d]+.[\\\\d]+.[\\\\d]+.[\\\\d]+$"
 				}
@@ -1534,7 +1540,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 52.0, 347.0, 86.0, 22.0 ],
+					"patching_rect" : [ 52.0, 356.0, 86.0, 22.0 ],
 					"style" : "",
 					"text" : "route append"
 				}
@@ -1564,7 +1570,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 52.0, 323.0, 86.0, 22.0 ],
+					"patching_rect" : [ 52.0, 332.0, 86.0, 22.0 ],
 					"style" : "",
 					"text" : "mxj net.local"
 				}
@@ -1666,6 +1672,7 @@
 					"destination" : [ "obj-16", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 38.5, 295.0, 76.5, 295.0 ],
 					"source" : [ "obj-17", 0 ]
 				}
 
@@ -1889,6 +1896,10 @@
 			}
 , 			{
 				"name" : "OSC-route.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "strlen.mxo",
 				"type" : "iLaX"
 			}
  ],

@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 843.0, 103.0, 613.0, 539.0 ],
+		"rect" : [ 100.0, 100.0, 613.0, 539.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -569,7 +569,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 307.0, 508.0, 94.0, 24.0 ],
-					"style" : ""
+					"style" : "",
+					"text" : "192.168.0.3"
 				}
 
 			}
@@ -673,9 +674,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 135.0, 60.0, 98.0, 24.0 ],
+					"patching_rect" : [ 135.0, 60.0, 163.0, 24.0 ],
 					"style" : "",
-					"text" : "nmap (Unix)"
+					"text" : "nmap (Unix application)"
 				}
 
 			}
@@ -735,7 +736,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 8.0, 133.0, 122.0, 24.0 ],
-					"style" : ""
+					"style" : "",
+					"text" : "192.168.0.3"
 				}
 
 			}
@@ -814,13 +816,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-6",
-					"items" : [ "fe80:0:0:0:4e8d:79ff:fedf:88bc%4", ",", "192.168.0.2" ],
+					"items" : [ "fe80:0:0:0:4e8d:79ff:fedf:88bc%4", ",", "192.168.0.3" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 367.0, 173.0, 180.0, 24.0 ],
+					"patching_rect" : [ 367.0, 173.0, 105.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -895,7 +897,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 98.0, 406.0, 53.0, 18.0 ],
+									"patching_rect" : [ 98.0, 406.0, 53.0, 22.0 ],
 									"style" : "",
 									"text" : "delete 0"
 								}
@@ -910,7 +912,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 63.0, 151.0, 36.0, 20.0 ],
+									"patching_rect" : [ 63.0, 151.0, 36.0, 22.0 ],
 									"style" : "",
 									"text" : "sel 1"
 								}
@@ -925,7 +927,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 63.0, 447.0, 124.0, 18.0 ],
+									"patching_rect" : [ 63.0, 447.0, 124.0, 22.0 ],
 									"style" : "",
 									"text" : "append processing..."
 								}
@@ -940,7 +942,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "bang", "dump", "int" ],
-									"patching_rect" : [ 98.0, 216.0, 100.0, 20.0 ],
+									"patching_rect" : [ 98.0, 216.0, 100.0, 22.0 ],
 									"style" : "",
 									"text" : "t bang dump 0"
 								}
@@ -955,7 +957,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "bang" ],
-									"patching_rect" : [ 231.0, 55.0, 67.0, 20.0 ],
+									"patching_rect" : [ 231.0, 55.0, 67.0, 22.0 ],
 									"style" : "",
 									"text" : "onebang 1"
 								}
@@ -970,7 +972,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "clear", "int" ],
-									"patching_rect" : [ 231.0, 112.0, 85.0, 20.0 ],
+									"patching_rect" : [ 231.0, 112.0, 85.0, 22.0 ],
 									"style" : "",
 									"text" : "trigger clear 0"
 								}
@@ -997,7 +999,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 98.0, 188.0, 69.0, 20.0 ],
+									"patching_rect" : [ 98.0, 188.0, 69.0, 22.0 ],
 									"style" : "",
 									"text" : "delay 2000"
 								}
@@ -1012,7 +1014,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 276.0, 184.0, 19.0, 18.0 ],
+									"patching_rect" : [ 276.0, 184.0, 19.0, 22.0 ],
 									"style" : "",
 									"text" : "1"
 								}
@@ -1027,7 +1029,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 23.0, 152.0, 36.0, 20.0 ],
+									"patching_rect" : [ 23.0, 152.0, 36.0, 22.0 ],
 									"style" : "",
 									"text" : "sel 2"
 								}
@@ -1055,7 +1057,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 276.0, 283.0, 65.0, 20.0 ],
+									"patching_rect" : [ 276.0, 283.0, 65.0, 22.0 ],
 									"style" : "",
 									"text" : "gate"
 								}
@@ -1070,7 +1072,7 @@
 									"numinlets" : 5,
 									"numoutlets" : 4,
 									"outlettype" : [ "int", "", "", "int" ],
-									"patching_rect" : [ 23.0, 113.0, 73.0, 20.0 ],
+									"patching_rect" : [ 23.0, 113.0, 73.0, 22.0 ],
 									"style" : "",
 									"text" : "counter"
 								}
@@ -1085,7 +1087,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 181.0, 374.0, 98.0, 20.0 ],
+									"patching_rect" : [ 181.0, 374.0, 98.0, 22.0 ],
 									"style" : "",
 									"text" : "prepend append"
 								}
@@ -1100,7 +1102,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
-									"patching_rect" : [ 139.0, 349.0, 185.0, 20.0 ],
+									"patching_rect" : [ 139.0, 349.0, 185.0, 22.0 ],
 									"style" : "",
 									"text" : "regexp ((?:\\\\d{1\\,3}\\\\.){3}\\\\d{1\\,3})"
 								}
@@ -1127,7 +1129,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "bang", "int" ],
-									"patching_rect" : [ 139.0, 324.0, 46.0, 20.0 ],
+									"patching_rect" : [ 139.0, 324.0, 46.0, 22.0 ],
 									"style" : "",
 									"text" : "text"
 								}
@@ -1429,13 +1431,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-30",
-					"items" : "192.168.0.2",
+					"items" : [ "192.168.0.3", ",", "192.168.0.5" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 266.0, 149.0, 24.0 ],
+					"patching_rect" : [ 8.0, 266.0, 108.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -1758,6 +1760,10 @@
 			}
 , 			{
 				"name" : "shell.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "strlen.mxo",
 				"type" : "iLaX"
 			}
  ],

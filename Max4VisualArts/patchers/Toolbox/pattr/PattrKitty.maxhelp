@@ -159,7 +159,7 @@
 						"checkbox[7]" : [ 0 ],
 						"checkbox[8]" : [ 1 ],
 						"checkbox[9]" : [ 0 ],
-						"hello" : [ 0 ],
+						"hello" : [ 52 ],
 						"myDial" : [ 6 ],
 						"mySlider" : [ 0 ]
 					}
@@ -285,6 +285,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-7",
+					"knobshape" : 5,
 					"maxclass" : "slider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -379,6 +380,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-17",
+					"knobshape" : 5,
 					"maxclass" : "slider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -1148,6 +1150,10 @@
 				"patcherrelativepath" : "../../zpatches",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"embedsnapshot" : 0

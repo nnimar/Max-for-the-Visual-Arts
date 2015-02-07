@@ -2,10 +2,11 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 6,
-			"minor" : 1,
-			"revision" : 5,
-			"architecture" : "x86"
+			"major" : 7,
+			"minor" : 0,
+			"revision" : 1,
+			"architecture" : "x86",
+			"modernui" : 1
 		}
 ,
 		"rect" : [ 100.0, 100.0, 562.0, 522.0 ],
@@ -14,19 +15,27 @@
 		"default_fontsize" : 14.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 0,
+		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 0,
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 0,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 0,
+		"toolbars_unpinned_last_save" : 0,
+		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
-		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
+		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
@@ -36,8 +45,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 374.0, 106.0, 121.0, 17.0 ],
-					"presentation_rect" : [ 374.0, 106.0, 0.0, 0.0 ],
+					"patching_rect" : [ 374.0, 106.0, 121.0, 21.0 ],
+					"style" : "",
 					"text" : "looppoints 15 50 go 1"
 				}
 
@@ -51,7 +60,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 96.0, 140.0, 124.0, 18.0 ],
+					"patching_rect" : [ 96.0, 140.0, 124.0, 22.0 ],
+					"style" : "",
 					"text" : "read hapticanna.mov"
 				}
 
@@ -66,7 +76,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 96.0, 114.0, 62.0, 18.0 ],
+					"patching_rect" : [ 96.0, 114.0, 62.0, 20.0 ],
+					"style" : "",
 					"text" : "loadmess 2"
 				}
 
@@ -81,7 +92,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 96.0, 140.0, 81.0, 18.0 ],
+					"patching_rect" : [ 96.0, 140.0, 81.0, 20.0 ],
+					"style" : "",
 					"text" : "imi.movieloader"
 				}
 
@@ -95,7 +107,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "float", "float", "bang" ],
-					"patching_rect" : [ 344.0, 217.0, 141.0, 22.0 ],
+					"patching_rect" : [ 344.0, 217.0, 141.0, 24.0 ],
+					"style" : "",
 					"text" : "imi.looptheloop"
 				}
 
@@ -107,7 +120,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 466.0, 250.0, 20.0, 20.0 ]
+					"patching_rect" : [ 466.0, 250.0, 20.0, 20.0 ],
+					"style" : ""
 				}
 
 			}
@@ -120,7 +134,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 389.0, 157.0, 142.0, 17.0 ],
+					"patching_rect" : [ 389.0, 157.0, 142.0, 21.0 ],
+					"style" : "",
 					"text" : "looppoints 100 150 wait 1"
 				}
 
@@ -134,7 +149,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 225.0, 139.0, 100.0, 20.0 ],
+					"patching_rect" : [ 225.0, 139.0, 100.0, 22.0 ],
+					"style" : "",
 					"text" : "r imi.looptheloop"
 				}
 
@@ -148,7 +164,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 389.0, 182.0, 143.0, 17.0 ],
+					"patching_rect" : [ 389.0, 182.0, 143.0, 21.0 ],
+					"style" : "",
 					"text" : "looppoints 100 150 wait 2"
 				}
 
@@ -162,41 +179,38 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 374.0, 131.0, 122.0, 17.0 ],
+					"patching_rect" : [ 374.0, 131.0, 122.0, 21.0 ],
+					"style" : "",
 					"text" : "looppoints 15 50 go 2"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.866667, 0.866667, 0.866667, 1.0 ],
-					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"htextcolor" : [ 0.870588, 0.870588, 0.870588, 1.0 ],
 					"id" : "obj-33",
 					"maxclass" : "number",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "int", "bang" ],
+					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 405.0, 250.0, 56.0, 20.0 ],
+					"patching_rect" : [ 405.0, 250.0, 52.0, 22.0 ],
+					"style" : "default",
 					"triscale" : 0.9
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.866667, 0.866667, 0.866667, 1.0 ],
-					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"htextcolor" : [ 0.870588, 0.870588, 0.870588, 1.0 ],
 					"id" : "obj-29",
 					"maxclass" : "number",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "int", "bang" ],
+					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 344.0, 250.0, 52.0, 20.0 ],
+					"patching_rect" : [ 344.0, 250.0, 48.0, 22.0 ],
+					"style" : "default",
 					"triscale" : 0.9
 				}
 
@@ -205,12 +219,12 @@
 				"box" : 				{
 					"fontname" : "Arial Bold",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-7",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 407.0, 272.0, 57.0, 20.0 ],
+					"patching_rect" : [ 404.0, 273.0, 57.0, 20.0 ],
+					"style" : "",
 					"text" : "duration"
 				}
 
@@ -219,12 +233,12 @@
 				"box" : 				{
 					"fontname" : "Arial Bold",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-31",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 344.0, 272.0, 41.0, 20.0 ],
+					"patching_rect" : [ 341.0, 273.0, 41.0, 20.0 ],
+					"style" : "",
 					"text" : "frame"
 				}
 
@@ -238,7 +252,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 9.0, 178.0, 354.0, 27.0 ],
+					"patching_rect" : [ 9.0, 178.0, 354.0, 29.0 ],
+					"style" : "",
 					"text" : "jit.qt.movie @adapt 1 @autostart 1"
 				}
 
@@ -252,13 +267,15 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 140.0, 84.0, 18.0 ],
+					"patching_rect" : [ 9.0, 140.0, 84.0, 22.0 ],
+					"style" : "",
 					"text" : "bang, gettime"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 11.595187,
 					"id" : "obj-39",
@@ -266,7 +283,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 9.0, 484.0, 80.0, 34.0 ]
+					"patching_rect" : [ 9.0, 484.0, 80.0, 34.0 ],
+					"style" : ""
 				}
 
 			}
@@ -278,7 +296,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.0, 76.0, 20.0, 20.0 ]
+					"patching_rect" : [ 9.0, 76.0, 20.0, 20.0 ],
+					"style" : ""
 				}
 
 			}
@@ -291,7 +310,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 9.0, 106.0, 63.0, 19.0 ],
+					"patching_rect" : [ 9.0, 106.0, 63.0, 21.0 ],
+					"style" : "",
 					"text" : "qmetro 40"
 				}
 
@@ -301,12 +321,12 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 20.871338,
-					"frgb" : 0.0,
 					"id" : "obj-46",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1.510893, 3.332659, 175.0, 30.0 ],
+					"style" : "",
 					"text" : "imi.looptheloop",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_title"
@@ -317,13 +337,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.754705,
-					"frgb" : 0.0,
 					"id" : "obj-91",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1.510893, 30.332657, 556.0, 35.0 ],
+					"style" : "",
 					"text" : "universal frame converter to make loop points easier to use. It has two modes wait (wait for the end of the loop to be reached) or go (immediate jump). Accepts normal loop (1) or palindrome (2)",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "autohelp_top_digest"
@@ -342,6 +362,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1.510895, 2.332661, 558.0, 63.0 ],
+					"proportion" : 0.39,
+					"style" : "",
 					"varname" : "autohelp_top_panel[1]"
 				}
 
@@ -521,26 +543,27 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "imi.looptheloop.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/imi_objects",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/Toolbox/imi_objects",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "imi.movieloader.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/Toolbox/imi_objects",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/Toolbox/imi_objects",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "IMIMovies.txt",
-				"bootpath" : "/Applications/Max 6.1/packages/IMIpatches/patchers/z",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/z",
 				"patcherrelativepath" : "../../z",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
- ]
+ ],
+		"embedsnapshot" : 0
 	}
 
 }
