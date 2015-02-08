@@ -721,7 +721,6 @@
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
-						"fontsize" : 12.0,
 						"globalpatchername" : "",
 						"style" : "",
 						"tags" : ""
@@ -1089,31 +1088,28 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 11.0,
 					"id" : "obj-9",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 362.0, 450.0, 132.0, 22.0 ],
-					"style" : "",
+					"patching_rect" : [ 362.0, 450.0, 124.0, 21.0 ],
+					"style" : "default",
 					"text" : "jit.dimmap @invert 0 1"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"color" : [ 0.836957, 0.836957, 0.836957, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 11.0,
 					"id" : "obj-10",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 362.0, 478.0, 60.0, 22.0 ],
-					"style" : "",
+					"patching_rect" : [ 362.0, 478.0, 58.0, 21.0 ],
+					"style" : "default",
 					"text" : "jit.gl.slab"
 				}
 
@@ -1127,7 +1123,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 414.0, 390.0, 97.0, 22.0 ],
+					"patching_rect" : [ 414.0, 389.0, 97.0, 22.0 ],
 					"style" : "",
 					"text" : "read sophie.mov"
 				}
@@ -1135,16 +1131,14 @@
 			}
 , 			{
 				"box" : 				{
-					"color" : [ 0.836957, 0.836957, 0.836957, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 11.0,
 					"id" : "obj-14",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 362.0, 424.0, 118.0, 22.0 ],
-					"style" : "",
+					"patching_rect" : [ 362.0, 424.0, 111.0, 21.0 ],
+					"style" : "default",
 					"text" : "jit.qt.movie 320 240"
 				}
 
@@ -2046,15 +2040,19 @@
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
+			}
  ],
 		"embedsnapshot" : 0,
 		"styles" : [ 			{
 				"name" : "m4va",
 				"default" : 				{
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontsize" : [ 12.0 ],
 					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
-					"fontname" : [ "Arial" ],
-					"fontsize" : [ 12.0 ]
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",
@@ -2063,12 +2061,12 @@
 , 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
+					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"fontsize" : [ 14.0 ],
 					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"fontsize" : [ 14.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

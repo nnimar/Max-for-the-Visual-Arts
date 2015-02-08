@@ -38,7 +38,7 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"args" : [ "v.region", "v.region uses the frame differencing methods but adds the possibility of creating zones.  It was adapted from the SoftVNS (David Rokeby)", 3 ],
+					"args" : [ "v.region", "v.region uses the frame differencing methods but adds the possibility of creating zones.  Adapted from SoftVNS (David Rokeby)", 3 ],
 					"bgmode" : 1,
 					"border" : 0,
 					"clickthrough" : 1,
@@ -84,7 +84,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 219.0, 99.0, 100.0, 24.0 ],
+					"patching_rect" : [ 219.0, 95.0, 100.0, 24.0 ],
 					"style" : "",
 					"text" : "open camera"
 				}
@@ -2472,7 +2472,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 162.402374, 102.0, 53.0, 22.0 ],
+					"patching_rect" : [ 162.402374, 98.0, 53.0, 22.0 ],
 					"style" : "",
 					"text" : "settings"
 				}
@@ -2487,7 +2487,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 113.402374, 102.0, 43.5, 22.0 ],
+					"patching_rect" : [ 113.402374, 98.0, 43.5, 22.0 ],
 					"style" : "",
 					"text" : "close"
 				}
@@ -2502,7 +2502,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 71.402374, 102.0, 36.5, 22.0 ],
+					"patching_rect" : [ 71.402374, 98.0, 36.5, 22.0 ],
 					"style" : "",
 					"text" : "open"
 				}
@@ -2531,7 +2531,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.402374, 71.5, 23.0, 23.0 ],
+					"patching_rect" : [ 11.402374, 67.5, 23.0, 23.0 ],
 					"style" : ""
 				}
 
@@ -2545,7 +2545,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 11.402374, 102.0, 52.0, 22.0 ],
+					"patching_rect" : [ 11.402374, 98.0, 52.0, 22.0 ],
 					"style" : "",
 					"text" : "metro 2"
 				}
@@ -2917,15 +2917,15 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "cv.jit.blobs.color.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/externals/cv.jit-support/Abstractions",
-				"patcherrelativepath" : "../../externals/cv.jit-support/Abstractions",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/externals/cv/cv.jit-support/Abstractions",
+				"patcherrelativepath" : "../../externals/cv/cv.jit-support/Abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cv.jit.framesub.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/externals/cv.jit-support/Abstractions",
-				"patcherrelativepath" : "../../externals/cv.jit-support/Abstractions",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/externals/cv/cv.jit-support/Abstractions",
+				"patcherrelativepath" : "../../externals/cv/cv.jit-support/Abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2936,17 +2936,21 @@
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
+			}
  ],
 		"embedsnapshot" : 0,
 		"styles" : [ 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
-					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"fontsize" : [ 14.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

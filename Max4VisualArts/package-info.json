@@ -3,7 +3,7 @@
 	"type": "package",
 	"author": "Nicolas Marechal",
 	"description": "Max for the Visual Arts (Max 7) is a self-learning tool and a repository for the Max patches made or used on the BA interaction design and arts (IDA) and the MA interactive design communication (IDC) at the London College of Communication (University of the Arts London, United Kingdom).",
-	"version": "2.50",
+	"version": "2.51",
 	"major_version": "2",
 	"minor_version": "5",
 	"min_max_version": "701",

@@ -38,7 +38,7 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"args" : [ "GL mesh", " jit.gl.mesh is a wrapper for drawing vertex arrays" ],
+					"args" : [ "GLmesh", " jit.gl.mesh is a wrapper for drawing vertex arrays" ],
 					"bgmode" : 1,
 					"border" : 0,
 					"clickthrough" : 1,
@@ -118,6 +118,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
@@ -128,12 +129,13 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 91.123764, 152.0, 21.0 ],
+					"patching_rect" : [ 11.0, 93.123764, 152.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 45.0, 101.0, 79.0, 17.0 ],
 					"style" : "",
 					"text" : "GLmesh_transparency",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
@@ -152,7 +154,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 94.0, 133.0, 20.0 ],
+					"patching_rect" : [ 11.0, 96.0, 133.0, 20.0 ],
 					"style" : "",
 					"text" : "load GLmesh_transparency"
 				}
@@ -166,7 +168,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.0, 91.0, 196.0, 22.0 ],
+					"patching_rect" : [ 193.0, 93.0, 196.0, 22.0 ],
 					"style" : "",
 					"text" : "use of transparency"
 				}
@@ -248,7 +250,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 453.0, 44.0, 660.0, 531.0 ],
+						"rect" : [ 444.0, 44.0, 660.0, 531.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -430,7 +432,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.0, 145.0, 236.0, 22.0 ],
+					"patching_rect" : [ 193.0, 147.0, 236.0, 22.0 ],
 					"style" : "",
 					"text" : "gridshapes to mesh (matrixoutput)"
 				}
@@ -438,6 +440,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
@@ -448,12 +451,13 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 144.386139, 145.0, 20.0 ],
+					"patching_rect" : [ 11.0, 146.386139, 145.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 14.0, 154.0, 79.0, 17.0 ],
 					"style" : "",
 					"text" : "GLmesh_matrixoutput",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
@@ -472,7 +476,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 145.0, 150.0, 21.0 ],
+					"patching_rect" : [ 11.0, 147.0, 150.0, 21.0 ],
 					"style" : "",
 					"text" : "load GLmesh_matrixoutput"
 				}
@@ -486,7 +490,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.0, 117.0, 205.0, 22.0 ],
+					"patching_rect" : [ 193.0, 119.0, 205.0, 22.0 ],
 					"style" : "",
 					"text" : "math expression to mesh (grid)"
 				}
@@ -494,6 +498,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
@@ -504,12 +509,13 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 117.252472, 153.0, 21.0 ],
+					"patching_rect" : [ 11.0, 119.252472, 153.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 76.0, 148.0, 79.0, 17.0 ],
 					"style" : "",
 					"text" : "GLmesh_displacement",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
@@ -528,7 +534,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 117.0, 154.0, 21.0 ],
+					"patching_rect" : [ 11.0, 119.0, 154.0, 21.0 ],
 					"style" : "",
 					"text" : "load GLmesh_displacement"
 				}
@@ -542,7 +548,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.0, 285.5, 154.0, 22.0 ],
+					"patching_rect" : [ 193.0, 287.5, 154.0, 22.0 ],
 					"style" : "",
 					"text" : "make multiple shapes"
 				}
@@ -550,6 +556,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
@@ -560,12 +567,13 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 286.5, 162.0, 20.0 ],
+					"patching_rect" : [ 11.0, 288.5, 162.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 38.0, 206.0, 79.0, 17.0 ],
 					"style" : "",
 					"text" : "GLmesh_matrix_multiple",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
@@ -584,7 +592,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 289.5, 164.0, 21.0 ],
+					"patching_rect" : [ 11.0, 291.5, 164.0, 21.0 ],
 					"style" : "",
 					"text" : "load GLmesh_matrix_multiple"
 				}
@@ -598,7 +606,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.0, 312.5, 203.0, 22.0 ],
+					"patching_rect" : [ 193.0, 314.5, 203.0, 22.0 ],
 					"style" : "",
 					"text" : "animate balls using a matrix"
 				}
@@ -606,6 +614,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
@@ -616,12 +625,13 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 312.5, 137.0, 20.0 ],
+					"patching_rect" : [ 11.0, 314.5, 137.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 369.0, 550.5, 79.0, 17.0 ],
 					"style" : "",
 					"text" : "GLmesh_bouncebox",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
@@ -640,7 +650,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 312.5, 143.0, 21.0 ],
+					"patching_rect" : [ 11.0, 314.5, 143.0, 21.0 ],
 					"style" : "",
 					"text" : "load GLmesh_bouncebox"
 				}
@@ -696,7 +706,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.0, 221.0, 169.0, 22.0 ],
+					"patching_rect" : [ 193.0, 223.0, 169.0, 22.0 ],
 					"style" : "",
 					"text" : "bfg + gridshape to mesh"
 				}
@@ -704,6 +714,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
@@ -714,12 +725,13 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 222.772278, 98.0, 20.0 ],
+					"patching_rect" : [ 11.0, 224.772278, 98.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 99.0, 172.0, 79.0, 17.0 ],
 					"style" : "",
 					"text" : "GLmesh_bfg+",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
@@ -738,7 +750,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 224.0, 95.0, 20.0 ],
+					"patching_rect" : [ 11.0, 226.0, 95.0, 20.0 ],
 					"style" : "",
 					"text" : "load GLmesh_bfg+"
 				}
@@ -752,9 +764,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.0, 247.900986, 222.0, 22.0 ],
+					"patching_rect" : [ 193.0, 249.900986, 222.0, 22.0 ],
 					"style" : "",
-					"text" : "practical example (masato tsutsui)"
+					"text" : "case study (masato tsutsui)"
 				}
 
 			}
@@ -804,6 +816,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
@@ -814,12 +827,13 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 196.64357, 89.0, 20.0 ],
+					"patching_rect" : [ 11.0, 198.64357, 89.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 66.0, 427.0, 79.0, 17.0 ],
 					"style" : "",
 					"text" : "GLmesh_bfg",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
@@ -838,7 +852,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 196.0, 89.0, 20.0 ],
+					"patching_rect" : [ 11.0, 198.0, 89.0, 20.0 ],
 					"style" : "",
 					"text" : "load GLmesh_bfg"
 				}
@@ -846,6 +860,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
@@ -856,12 +871,13 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 170.514847, 105.0, 20.0 ],
+					"patching_rect" : [ 11.0, 172.514847, 105.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 24.0, 152.0, 79.0, 17.0 ],
 					"style" : "",
 					"text" : "GLmesh_noise",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
@@ -880,7 +896,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 170.0, 114.0, 21.0 ],
+					"patching_rect" : [ 11.0, 172.0, 114.0, 21.0 ],
 					"style" : "",
 					"text" : "load GLmesh_noise"
 				}
@@ -888,6 +904,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
@@ -898,12 +915,13 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 66.0, 112.0, 20.0 ],
+					"patching_rect" : [ 11.0, 68.0, 112.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 35.0, 96.0, 79.0, 17.0 ],
 					"style" : "",
 					"text" : "GLmesh_matrix",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
@@ -922,7 +940,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 66.0, 103.0, 20.0 ],
+					"patching_rect" : [ 11.0, 68.0, 103.0, 20.0 ],
 					"style" : "",
 					"text" : "load GLmesh_matrix"
 				}
@@ -1026,7 +1044,6 @@
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
-						"fontsize" : 12.0,
 						"globalpatchername" : "",
 						"style" : "",
 						"tags" : ""
@@ -1039,6 +1056,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
@@ -1049,12 +1067,13 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 248.900986, 137.0, 20.0 ],
+					"patching_rect" : [ 11.0, 250.900986, 137.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 331.0, 349.0, 79.0, 17.0 ],
 					"style" : "",
 					"text" : "GLmesh_mai_points",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
@@ -1073,7 +1092,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 250.0, 81.0, 20.0 ],
+					"patching_rect" : [ 11.0, 252.0, 81.0, 20.0 ],
 					"style" : "",
 					"text" : "load mai_points"
 				}
@@ -1175,7 +1194,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.0, 196.0, 228.0, 22.0 ],
+					"patching_rect" : [ 193.0, 198.0, 228.0, 22.0 ],
 					"style" : "",
 					"text" : "bfg (advanced random) to mesh"
 				}
@@ -1189,7 +1208,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.0, 170.0, 156.0, 22.0 ],
+					"patching_rect" : [ 193.0, 172.0, 156.0, 22.0 ],
 					"style" : "",
 					"text" : "noise (random) to mesh"
 				}
@@ -1245,7 +1264,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.0, 66.0, 196.0, 22.0 ],
+					"patching_rect" : [ 193.0, 68.0, 196.0, 22.0 ],
 					"style" : "",
 					"text" : "simple matrix to mesh (line)"
 				}
@@ -1625,17 +1644,21 @@
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
+			}
  ],
 		"embedsnapshot" : 0,
 		"styles" : [ 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
 					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"fontsize" : [ 14.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
+					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

@@ -787,7 +787,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 136.0, 399.0, 155.0, 20.0 ],
+					"patching_rect" : [ 136.0, 427.0, 155.0, 20.0 ],
 					"style" : "",
 					"text" : "difference between frames"
 				}
@@ -809,6 +809,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
@@ -825,6 +826,7 @@
 					"style" : "",
 					"text" : "cf.radialblur.jxs-help",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
@@ -849,6 +851,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
@@ -865,6 +868,7 @@
 					"style" : "",
 					"text" : "jit.gl.pix.blur.bilinear.exfoliatior",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
@@ -889,6 +893,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
@@ -905,6 +910,7 @@
 					"style" : "",
 					"text" : "GLslab_glow_and_blur",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
@@ -926,7 +932,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 4.0, 400.0, 128.0, 20.0 ],
+					"patching_rect" : [ 7.0, 428.0, 128.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 511.0, 443.0, 79.0, 17.0 ],
 					"style" : "",
@@ -943,6 +949,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
@@ -959,6 +966,7 @@
 					"style" : "",
 					"text" : "GLslab_blur",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
@@ -969,6 +977,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
@@ -985,6 +994,7 @@
 					"style" : "",
 					"text" : "jit.gl.slab.gauss6x-example",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
@@ -1090,7 +1100,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 5.0, 374.0, 111.0, 20.0 ],
+					"patching_rect" : [ 7.0, 402.0, 111.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 279.0, 503.0, 79.0, 17.0 ],
 					"style" : "",
@@ -1118,7 +1128,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 5.0, 348.0, 126.0, 20.0 ],
+					"patching_rect" : [ 7.0, 376.0, 126.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 292.0, 477.0, 79.0, 17.0 ],
 					"style" : "",
@@ -1146,7 +1156,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 5.0, 322.0, 140.0, 20.0 ],
+					"patching_rect" : [ 7.0, 350.0, 140.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 247.0, 495.0, 79.0, 17.0 ],
 					"style" : "",
@@ -1174,7 +1184,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 5.0, 296.0, 141.0, 20.0 ],
+					"patching_rect" : [ 7.0, 324.0, 141.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 127.0, 475.0, 79.0, 17.0 ],
 					"style" : "",
@@ -1191,6 +1201,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
@@ -1201,12 +1212,13 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 6.0, 200.0, 100.0, 20.0 ],
+					"patching_rect" : [ 6.0, 206.0, 100.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 281.0, 255.0, 79.0, 17.0 ],
 					"style" : "",
 					"text" : "GLslab_simple",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
@@ -1228,7 +1240,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 6.0, 227.0, 91.0, 20.0 ],
+					"patching_rect" : [ 6.0, 233.0, 91.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 269.0, 150.0, 79.0, 17.0 ],
 					"style" : "",
@@ -1251,7 +1263,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 132.0, 347.0, 159.0, 20.0 ],
+					"patching_rect" : [ 132.0, 375.0, 159.0, 20.0 ],
 					"style" : "",
 					"text" : "kaleidoscope (texdisplace)"
 				}
@@ -1279,7 +1291,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 123.0, 374.0, 142.0, 20.0 ],
+					"patching_rect" : [ 123.0, 402.0, 142.0, 20.0 ],
 					"style" : "",
 					"text" : "sobel filter (convolution)"
 				}
@@ -1295,7 +1307,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 3.0, 347.0, 63.0, 19.0 ],
+					"patching_rect" : [ 3.0, 375.0, 63.0, 19.0 ],
 					"style" : "",
 					"text" : "prepend load"
 				}
@@ -1325,7 +1337,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 152.0, 321.0, 189.0, 20.0 ],
+					"patching_rect" : [ 152.0, 349.0, 189.0, 20.0 ],
 					"style" : "",
 					"text" : "smooth video edges (transition)"
 				}
@@ -1339,7 +1351,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 152.0, 295.0, 191.0, 20.0 ],
+					"patching_rect" : [ 152.0, 323.0, 191.0, 20.0 ],
 					"style" : "",
 					"text" : "mix two images together (color) "
 				}
@@ -2573,7 +2585,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 101.0, 227.0, 152.0, 20.0 ],
+					"patching_rect" : [ 101.0, 233.0, 152.0, 20.0 ],
 					"style" : "",
 					"text" : "easy experimenting patch"
 				}
@@ -2587,7 +2599,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 120.0, 200.0, 133.0, 20.0 ],
+					"patching_rect" : [ 120.0, 206.0, 133.0, 20.0 ],
 					"style" : "",
 					"text" : "a simple patch to start"
 				}
@@ -2657,7 +2669,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 173.0, 215.0, 22.0 ],
+					"patching_rect" : [ 4.0, 179.0, 215.0, 22.0 ],
 					"style" : "",
 					"text" : "2. Intro to Max's shader object"
 				}
@@ -2673,7 +2685,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 228.0, 63.0, 19.0 ],
+					"patching_rect" : [ 10.0, 234.0, 63.0, 19.0 ],
 					"style" : "",
 					"text" : "prepend load"
 				}
@@ -2703,7 +2715,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 228.0, 45.0, 19.0 ],
+					"patching_rect" : [ 10.0, 234.0, 45.0, 19.0 ],
 					"style" : "",
 					"text" : "pcontrol"
 				}
@@ -2791,7 +2803,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 123.0, 425.0, 189.0, 20.0 ],
+					"patching_rect" : [ 123.0, 297.0, 189.0, 20.0 ],
 					"style" : "",
 					"text" : "composite modes (starts with co.)"
 				}
@@ -2810,11 +2822,11 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 4.0, 426.0, 110.0, 20.0 ],
+					"patching_rect" : [ 7.0, 297.0, 110.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 29.0, 497.0, 79.0, 17.0 ],
 					"style" : "",
-					"text" : "transfer_modes",
+					"text" : "blending modes",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 0,
 					"texton" : "Stop",
@@ -2835,7 +2847,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 4.0, 426.0, 53.0, 22.0 ],
+					"patching_rect" : [ 7.0, 297.0, 53.0, 22.0 ],
 					"style" : "",
 					"text" : "pcontrol"
 				}
@@ -2851,7 +2863,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 4.0, 426.0, 102.0, 20.0 ],
+					"patching_rect" : [ 7.0, 297.0, 102.0, 20.0 ],
 					"style" : "",
 					"text" : "load transfer_modes"
 				}
@@ -2870,7 +2882,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 4.0, 453.0, 110.0, 20.0 ],
+					"patching_rect" : [ 7.0, 453.0, 110.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 95.0, 475.0, 79.0, 17.0 ],
 					"style" : "",
@@ -2919,6 +2931,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
@@ -2935,6 +2948,7 @@
 					"style" : "",
 					"text" : "Gen_blur",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
@@ -3185,6 +3199,10 @@
 				"patcherrelativepath" : "../zpatches",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"embedsnapshot" : 0,

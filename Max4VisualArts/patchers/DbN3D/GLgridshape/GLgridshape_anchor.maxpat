@@ -789,7 +789,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 11.0, 204.142548, 110.0, 22.0 ],
+					"patching_rect" : [ 14.0, 204.142548, 110.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -845,7 +845,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 11.0, 229.0, 124.0, 35.0 ],
+					"patching_rect" : [ 14.0, 229.0, 124.0, 35.0 ],
 					"style" : "",
 					"text" : "jit.window anchorP @fsmenubar 0"
 				}
@@ -861,7 +861,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 11.0, 161.0, 125.0, 35.0 ],
+					"patching_rect" : [ 14.0, 161.0, 125.0, 35.0 ],
 					"style" : "",
 					"text" : "jit.gl.render @erase_color 0 0 0 1"
 				}
@@ -876,7 +876,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "erase" ],
-					"patching_rect" : [ 11.0, 125.0, 57.0, 22.0 ],
+					"patching_rect" : [ 14.0, 125.0, 57.0, 22.0 ],
 					"style" : "",
 					"text" : "t b erase"
 				}
@@ -890,7 +890,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 70.0, 21.0, 21.0 ],
+					"patching_rect" : [ 14.0, 70.0, 21.0, 21.0 ],
 					"style" : ""
 				}
 
@@ -904,7 +904,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 11.0, 98.0, 65.0, 22.0 ],
+					"patching_rect" : [ 14.0, 98.0, 65.0, 22.0 ],
 					"style" : "",
 					"text" : "qmetro 40"
 				}
@@ -920,7 +920,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 60.0, 138.147247, 215.0 ],
+					"patching_rect" : [ 8.0, 60.0, 138.147247, 215.0 ],
 					"proportion" : 0.39,
 					"rounded" : 30,
 					"style" : ""
@@ -1019,7 +1019,7 @@
 					"destination" : [ "obj-21", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 58.5, 152.5, 20.5, 152.5 ],
+					"midpoints" : [ 61.5, 152.5, 23.5, 152.5 ],
 					"source" : [ "obj-22", 1 ]
 				}
 
@@ -1068,15 +1068,19 @@
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
+			}
  ],
 		"embedsnapshot" : 0,
 		"styles" : [ 			{
 				"name" : "m4va",
 				"default" : 				{
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontsize" : [ 12.0 ],
 					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
-					"fontname" : [ "Arial" ],
-					"fontsize" : [ 12.0 ]
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",
@@ -1085,12 +1089,12 @@
 , 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
+					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"fontsize" : [ 14.0 ],
 					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"fontsize" : [ 14.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

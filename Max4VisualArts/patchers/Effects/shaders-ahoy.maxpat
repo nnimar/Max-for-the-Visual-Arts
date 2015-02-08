@@ -38,7 +38,7 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"args" : [ "shaders ahoy! (Ivica Ico Bukvic)", "code snippets borrowed (where noted) from Libero Spagnolini's awesome Photobooth demystified demo." ],
+					"args" : [ "shaders ahoy! (Ivica Ico Bukvic)", "code snippets borrowed from Libero Spagnolini's Photobooth demo." ],
 					"bgmode" : 1,
 					"border" : 0,
 					"clickthrough" : 1,
@@ -423,11 +423,11 @@
 						"styles" : [ 							{
 								"name" : "m4vatextbutton",
 								"default" : 								{
-									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 									"fontsize" : [ 14.0 ],
+									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 									"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 ,
@@ -1298,7 +1298,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 12.0,
 					"id" : "obj-14",
 					"items" : [ "params", ",", "source", ",", "assembly" ],
 					"maxclass" : "umenu",
@@ -1331,7 +1330,6 @@
 				"box" : 				{
 					"autopopulate" : 1,
 					"depth" : 1,
-					"fontsize" : 12.0,
 					"id" : "obj-18",
 					"items" : [ "td.bulge.jxs", ",", "td.dent.jxs", ",", "td.fisheye2.jxs", ",", "td.halfmirror.jxs", ",", "td.mirror.jxs", ",", "td.rays.jxs", ",", "td.squeeze.jxs", ",", "td.stretch.jxs", ",", "td.subway.jxs", ",", "td.tunnel.jxs", ",", "td.twirl.jxs" ],
 					"maxclass" : "umenu",
@@ -1953,16 +1951,20 @@
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
+			}
  ],
 		"embedsnapshot" : 0,
 		"styles" : [ 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
-					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"fontsize" : [ 14.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,

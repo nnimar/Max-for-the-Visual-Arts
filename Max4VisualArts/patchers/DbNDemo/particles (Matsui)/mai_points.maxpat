@@ -685,6 +685,26 @@
 								}
 
 							}
+ ],
+						"styles" : [ 							{
+								"name" : "m4vatextbutton",
+								"default" : 								{
+									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+									"fontsize" : [ 14.0 ],
+									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "simple",
+								"parentstyle" : "",
+								"multi" : 0
+							}
  ]
 					}
 ,
@@ -692,7 +712,6 @@
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
-						"fontsize" : 12.0,
 						"globalpatchername" : "",
 						"style" : "",
 						"tags" : ""
@@ -748,7 +767,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 244.0, 440.0, 125.0, 22.0 ],
+					"patching_rect" : [ 244.0, 443.0, 125.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.op @op * @val 0.1"
 				}
@@ -862,7 +881,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 244.0, 412.0, 206.0, 22.0 ],
+					"patching_rect" : [ 244.0, 416.0, 206.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.slide @slide_up 5 @slide_down 5"
 				}
@@ -892,7 +911,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 30.0, 412.0, 123.0, 22.0 ],
+					"patching_rect" : [ 30.0, 416.0, 123.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.gencoord 3 float32"
 				}
@@ -907,7 +926,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 30.0, 440.0, 196.0, 22.0 ],
+					"patching_rect" : [ 30.0, 443.0, 196.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.expr @expr \\\"sin(in[0]*TWOPI)\\\""
 				}
@@ -922,7 +941,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 30.0, 470.0, 233.0, 22.0 ],
+					"patching_rect" : [ 30.0, 472.0, 233.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.op @op +"
 				}
@@ -1123,7 +1142,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "preset", "int", "preset", "int" ],
-					"patching_rect" : [ 49.0, 66.0, 47.0, 16.0 ],
+					"patching_rect" : [ 51.0, 60.0, 47.0, 16.0 ],
 					"preset_data" : [ 						{
 							"number" : 1,
 							"data" : [ 5, "obj-25", "flonum", "float", 0.01, 5, "obj-22", "number", "int", 500, 5, "obj-21", "umenu", "int", 31, 5, "obj-19", "number", "int", 30, 5, "obj-7", "umenu", "int", 0, 5, "obj-5", "number", "int", 90, 5, "obj-1", "number", "int", 5000 ]
@@ -1327,16 +1346,14 @@
 			}
 , 			{
 				"box" : 				{
-					"color" : [ 0.836957, 0.836957, 0.836957, 1.0 ],
-					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-28",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 30.0, 275.0, 88.0, 22.0 ],
-					"style" : "",
+					"patching_rect" : [ 30.0, 278.0, 89.0, 22.0 ],
+					"style" : "default",
 					"text" : "jit.bfg 3 float32"
 				}
 
@@ -1513,7 +1530,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 49.0, 65.0, 77.0, 22.0 ],
+					"patching_rect" : [ 51.0, 59.0, 77.0, 22.0 ],
 					"style" : "",
 					"text" : "loadmess 2"
 				}
@@ -1876,17 +1893,33 @@
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
+			}
  ],
 		"embedsnapshot" : 0,
 		"styles" : [ 			{
+				"name" : "m4va",
+				"default" : 				{
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontsize" : [ 12.0 ],
+					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
+					"fontname" : [ "Arial" ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
 					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"fontsize" : [ 14.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
+					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

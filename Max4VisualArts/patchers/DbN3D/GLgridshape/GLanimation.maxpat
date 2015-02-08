@@ -85,7 +85,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 235.050003, 106.0, 21.0 ],
+					"patching_rect" : [ 10.0, 235.050003, 106.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 49.0, 243.050003, 79.0, 17.0 ],
 					"style" : "",
@@ -110,7 +110,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 235.050003, 101.0, 20.0 ],
+					"patching_rect" : [ 10.0, 235.050003, 101.0, 20.0 ],
 					"style" : "",
 					"text" : "help pattr_animation"
 				}
@@ -143,7 +143,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 205.050003, 84.0, 21.0 ],
+					"patching_rect" : [ 10.0, 205.050003, 84.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 208.050003, 79.0, 17.0 ],
 					"style" : "",
@@ -168,7 +168,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 205.050003, 84.0, 20.0 ],
+					"patching_rect" : [ 10.0, 205.050003, 84.0, 20.0 ],
 					"style" : "",
 					"text" : "load anim_path3"
 				}
@@ -245,7 +245,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 312.399994, 124.0, 19.5 ],
+					"patching_rect" : [ 10.0, 312.399994, 124.0, 19.5 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 236.399994, 79.0, 17.0 ],
 					"style" : "",
@@ -403,7 +403,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 147.546494, 74.0, 21.00351 ],
+					"patching_rect" : [ 10.0, 147.546494, 74.0, 21.00351 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 118.5, 79.0, 17.0 ],
 					"style" : "",
@@ -428,7 +428,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 145.5, 79.0, 20.0 ],
+					"patching_rect" : [ 10.0, 145.5, 79.0, 20.0 ],
 					"style" : "",
 					"text" : "load anim_path"
 				}
@@ -475,7 +475,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.5, 117.5, 74.0, 21.00351 ],
+					"patching_rect" : [ 10.5, 117.5, 74.0, 21.00351 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 133.0, 279.5, 79.0, 17.0 ],
 					"style" : "",
@@ -500,7 +500,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 117.5, 75.0, 20.0 ],
+					"patching_rect" : [ 10.0, 117.5, 75.0, 20.0 ],
 					"style" : "",
 					"text" : "load anim_lobj"
 				}
@@ -533,7 +533,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 282.399994, 131.0, 21.0 ],
+					"patching_rect" : [ 10.0, 282.399994, 131.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 34.0, 178.5, 79.0, 17.0 ],
 					"style" : "",
@@ -558,7 +558,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 278.5, 117.0, 20.0 ],
+					"patching_rect" : [ 10.0, 278.5, 117.0, 20.0 ],
 					"style" : "",
 					"text" : "load GLgridshape_anim"
 				}
@@ -577,7 +577,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 177.050003, 84.0, 21.0 ],
+					"patching_rect" : [ 10.0, 177.050003, 84.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 235.0, 239.5, 79.0, 17.0 ],
 					"style" : "",
@@ -602,7 +602,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 175.5, 84.0, 20.0 ],
+					"patching_rect" : [ 10.0, 175.5, 84.0, 20.0 ],
 					"style" : "",
 					"text" : "load anim_path2"
 				}
@@ -621,7 +621,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 60.871338, 74.0, 21.0 ],
+					"patching_rect" : [ 10.0, 60.871338, 74.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 226.0, 245.5, 79.0, 17.0 ],
 					"style" : "",
@@ -649,7 +649,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 89.763054, 81.0, 20.736946 ],
+					"patching_rect" : [ 10.0, 89.763054, 81.0, 20.736946 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 17.0, 206.5, 79.0, 17.0 ],
 					"style" : "",
@@ -674,7 +674,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 62.5, 75.0, 20.0 ],
+					"patching_rect" : [ 10.0, 62.5, 75.0, 20.0 ],
 					"style" : "",
 					"text" : "load anim_line"
 				}
@@ -732,7 +732,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 340.5, 52.0, 21.0 ],
+					"patching_rect" : [ 10.0, 340.5, 52.0, 21.0 ],
 					"style" : "",
 					"text" : "pcontrol"
 				}
@@ -748,7 +748,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 94.5, 81.0, 20.0 ],
+					"patching_rect" : [ 10.0, 94.5, 81.0, 20.0 ],
 					"style" : "",
 					"text" : "load anim_bline"
 				}
@@ -764,7 +764,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 312.899994, 118.0, 22.0 ],
+					"patching_rect" : [ 10.0, 312.899994, 118.0, 22.0 ],
 					"style" : "",
 					"text" : "help vector_practice"
 				}
@@ -995,15 +995,19 @@
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
+			}
  ],
 		"embedsnapshot" : 0,
 		"styles" : [ 			{
 				"name" : "m4va",
 				"default" : 				{
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontsize" : [ 12.0 ],
 					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
-					"fontname" : [ "Arial" ],
-					"fontsize" : [ 12.0 ]
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",
@@ -1012,12 +1016,12 @@
 , 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
+					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"fontsize" : [ 14.0 ],
 					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"fontsize" : [ 14.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
