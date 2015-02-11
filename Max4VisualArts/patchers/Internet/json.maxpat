@@ -199,7 +199,7 @@
 						"parameter_enable" : 0
 					}
 ,
-					"style" : "m4va",
+					"style" : "default",
 					"text" : "dict example @embed 1"
 				}
 
@@ -291,8 +291,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 314.0, 142.0, 36.0, 22.0 ],
-									"style" : "",
-									"text" : "7.03"
+									"style" : ""
 								}
 
 							}
@@ -306,8 +305,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 219.0, 143.0, 93.0, 22.0 ],
-									"style" : "",
-									"text" : "\"Kindle Edition\""
+									"style" : ""
 								}
 
 							}
@@ -336,8 +334,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 145.0, 141.0, 50.0, 22.0 ],
-									"style" : "",
-									"text" : "16.65"
+									"style" : ""
 								}
 
 							}
@@ -351,8 +348,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 62.0, 141.0, 73.0, 22.0 ],
-									"style" : "",
-									"text" : "Hardcover"
+									"style" : ""
 								}
 
 							}
@@ -454,8 +450,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 188.0, 255.0, 81.0, 22.0 ],
-									"style" : "",
-									"text" : "English"
+									"style" : ""
 								}
 
 							}
@@ -484,8 +479,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 11.0, 226.0, 135.0, 22.0 ],
-									"style" : "",
-									"text" : "\"The Cuckoo's Calling\""
+									"style" : ""
 								}
 
 							}
@@ -850,7 +844,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 541.0, 297.0, 117.0, 35.0 ],
 					"style" : "",
-					"text" : "Title \"The Cuckoo's Calling\""
+					"text" : "Price[0] dictionary u806004630"
 				}
 
 			}
@@ -1056,7 +1050,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 489.0, 371.0, 89.0, 35.0 ],
 					"style" : "",
-					"text" : "\"The Cuckoo's Calling\""
+					"text" : "dictionary u806004630"
 				}
 
 			}
@@ -1096,7 +1090,7 @@
 						"parameter_enable" : 0
 					}
 ,
-					"style" : "m4va",
+					"style" : "default",
 					"text" : "dict example @embed 1"
 				}
 
@@ -1347,15 +1341,19 @@
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
+			}
  ],
 		"embedsnapshot" : 0,
 		"styles" : [ 			{
 				"name" : "m4va",
 				"default" : 				{
-					"fontname" : [ "Arial" ],
 					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
-					"fontsize" : [ 12.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"fontname" : [ "Arial" ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontsize" : [ 12.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1364,11 +1362,11 @@
 , 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontsize" : [ 14.0 ]
 				}
 ,

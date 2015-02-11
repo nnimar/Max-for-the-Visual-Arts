@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ -2.0, 44.0, 553.0, 371.0 ],
+		"rect" : [ 0.0, 44.0, 553.0, 371.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -869,6 +869,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-11",
@@ -876,9 +877,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 194.0, 339.0, 63.0, 22.0 ],
+					"patching_rect" : [ 194.0, 339.0, 111.0, 22.0 ],
 					"style" : "",
-					"text" : "jit.window"
+					"text" : "jit.window maxvine"
 				}
 
 			}
@@ -1059,15 +1060,15 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "maxvine.js",
-				"bootpath" : "~/Desktop/Max in progress/good/maxvine (ajax)",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/javascript/ajax",
+				"patcherrelativepath" : "../../javascript/ajax",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Max4VA-Title.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
-				"patcherrelativepath" : "../../../../../Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
+				"patcherrelativepath" : "../zpatches",
 				"type" : "JSON",
 				"implicit" : 1
 			}

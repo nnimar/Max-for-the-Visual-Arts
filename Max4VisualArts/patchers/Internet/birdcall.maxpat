@@ -141,7 +141,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 59.0, 103.0, 390.0, 432.0 ],
+						"rect" : [ 759.0, 78.0, 390.0, 432.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -206,7 +206,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 161.0, 338.0, 46.0, 22.0 ],
+									"patching_rect" : [ 161.0, 345.0, 46.0, 22.0 ],
 									"style" : "",
 									"text" : "itoa"
 								}
@@ -358,7 +358,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 210.0, 264.0, 150.0, 33.0 ],
+									"patching_rect" : [ 210.0, 258.5, 150.0, 33.0 ],
 									"style" : "",
 									"text" : "the xml output from http request goes here"
 								}
@@ -384,7 +384,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 161.0, 369.0, 30.0, 30.0 ],
+									"patching_rect" : [ 161.0, 383.0, 30.0, 30.0 ],
 									"style" : ""
 								}
 
@@ -1200,7 +1200,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "Max4VA-Title.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
-				"patcherrelativepath" : "../../../../Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
+				"patcherrelativepath" : "../zpatches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
