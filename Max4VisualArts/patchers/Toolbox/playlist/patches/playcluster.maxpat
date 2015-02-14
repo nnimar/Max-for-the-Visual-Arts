@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 403.0, 44.0, 661.0, 697.0 ],
+		"rect" : [ 408.0, 44.0, 661.0, 697.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -578,28 +578,40 @@
 , 			{
 				"box" : 				{
 					"data" : 					{
-						"u710002265" : 						{
+						"u879001277" : 						{
 							"file" : "whatever",
 							"length" : 0.4,
 							"color" : [ 0.593496, 0.793624, 0.355756 ]
 						}
 ,
-						"u192002266" : 						{
+						"u833001278" : 						{
 							"file" : "shiny",
 							"length" : 0.12,
 							"color" : [ 0.430088, 0.208555, 0.777186 ]
 						}
 ,
-						"u535002267" : 						{
+						"u271001279" : 						{
 							"file" : "happy",
 							"length" : 0.15,
 							"color" : [ 0.52682, 0.556768, 0.713096 ]
 						}
 ,
-						"u370002268" : 						{
+						"u675001280" : 						{
 							"file" : "happy",
 							"length" : 0.05,
 							"color" : [ 0.219999, 0.15015, 0.74522 ]
+						}
+,
+						"u952001281" : 						{
+							"file" : "happy",
+							"length" : 0.05,
+							"color" : [ 0.056903, 0.914177, 0.605154 ]
+						}
+,
+						"u664001282" : 						{
+							"file" : "happy",
+							"length" : 0.05,
+							"color" : [ 0.546925, 0.928151, 0.270358 ]
 						}
 
 					}
@@ -894,7 +906,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 24.5, 238.0, 144.0, 22.0 ],
 					"style" : "",
-					"text" : "0"
+					"text" : "whatever 0"
 				}
 
 			}
@@ -943,7 +955,7 @@
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
 						"mode" : "basic",
-						"originallength" : [ 2219.080322, "ticks" ],
+						"originallength" : [ 3339.319824, "ticks" ],
 						"originaltempo" : 120.0,
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -1449,15 +1461,19 @@
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
+			}
  ],
 		"embedsnapshot" : 0,
 		"styles" : [ 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
-					"fontsize" : [ 14.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"fontsize" : [ 14.0 ],
 					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}

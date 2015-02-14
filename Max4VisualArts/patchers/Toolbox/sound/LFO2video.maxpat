@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 0.0, 44.0, 583.0, 560.0 ],
+		"rect" : [ 0.0, 44.0, 604.0, 567.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 11.595187,
@@ -69,7 +69,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 450.0, 489.0, 125.0, 39.0 ],
+					"patching_rect" : [ 473.0, 497.0, 125.0, 39.0 ],
 					"style" : "",
 					"text" : "turn on the speaker"
 				}
@@ -81,7 +81,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 427.0, 519.0, 35.0, 35.0 ],
+					"patching_rect" : [ 450.0, 527.0, 35.0, 35.0 ],
 					"style" : ""
 				}
 
@@ -96,7 +96,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 470.0, 533.0, 100.0, 20.0 ],
+					"patching_rect" : [ 493.0, 541.0, 100.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 387.0, 170.0, 100.0, 20.0 ],
 					"style" : "",
@@ -117,7 +117,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 473.0, 533.0, 35.0, 20.0 ],
+					"patching_rect" : [ 496.0, 541.0, 35.0, 20.0 ],
 					"style" : "",
 					"text" : "open"
 				}
@@ -133,7 +133,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 470.0, 537.0, 48.0, 20.0 ],
+					"patching_rect" : [ 493.0, 545.0, 48.0, 20.0 ],
 					"style" : "",
 					"text" : "pcontrol"
 				}
@@ -645,7 +645,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 514.0, 537.0, 51.0, 20.0 ],
+					"patching_rect" : [ 537.0, 545.0, 51.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -669,7 +669,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 76.0, 101.0, 96.0, 21.0 ],
+					"patching_rect" : [ 76.0, 100.0, 96.0, 21.0 ],
 					"style" : "",
 					"text" : "read sophie.mov"
 				}
@@ -726,7 +726,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 593.0, 44.0, 132.0, 134.0 ],
+						"rect" : [ 611.0, 234.0, 132.0, 134.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -762,7 +762,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 9.0, 39.0, 32.5, 20.0 ],
+									"patching_rect" : [ 9.0, 39.0, 32.5, 22.0 ],
 									"style" : "",
 									"text" : "* 1."
 								}
@@ -777,7 +777,7 @@
 									"numinlets" : 6,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 9.0, 68.0, 106.0, 20.0 ],
+									"patching_rect" : [ 9.0, 68.0, 106.0, 22.0 ],
 									"style" : "",
 									"text" : "scale -1. 1. 0. 127"
 								}
@@ -911,7 +911,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 311.0, 97.0, 41.0, 21.0 ],
+					"patching_rect" : [ 311.0, 98.0, 41.0, 21.0 ],
 					"style" : "default",
 					"triscale" : 0.9
 				}
@@ -1278,7 +1278,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 426.0, 491.0, 20.0, 20.0 ],
+					"patching_rect" : [ 449.0, 499.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"style" : "",
 					"text" : "1",
@@ -1604,12 +1604,12 @@
 		"styles" : [ 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
-					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"fontsize" : [ 14.0 ],
-					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

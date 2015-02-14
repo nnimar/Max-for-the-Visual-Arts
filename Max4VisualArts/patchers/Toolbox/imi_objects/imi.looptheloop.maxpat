@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 3.0, 295.0, 836.0, 611.0 ],
+		"rect" : [ 590.0, 44.0, 836.0, 611.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -561,6 +561,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-9",
@@ -653,7 +654,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 681.0, 224.0, 26.0, 22.0 ],
+					"patching_rect" : [ 681.0, 224.0, 27.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -915,7 +916,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "int" ],
-					"patching_rect" : [ 431.0, 299.0, 39.0, 22.0 ],
+					"patching_rect" : [ 431.0, 297.0, 64.0, 22.0 ],
 					"style" : "",
 					"text" : "t b i"
 				}

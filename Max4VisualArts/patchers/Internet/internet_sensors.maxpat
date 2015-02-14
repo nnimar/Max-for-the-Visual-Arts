@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1.0, 44.0, 492.0, 534.0 ],
+		"rect" : [ 1.0, 44.0, 492.0, 541.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 13.0,
@@ -37,6 +37,80 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-49",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 289.5, 516.549988, 102.0, 22.0 ],
+					"presentation_rect" : [ 277.5, 297.549988, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "echo nest API"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"align" : 0,
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
+					"fontsize" : 14.0,
+					"id" : "obj-46",
+					"legacytextcolor" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 392.0, 517.549988, 97.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 335.0, 270.549988, 79.0, 17.0 ],
+					"style" : "",
+					"text" : "en_analyzer~",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
+					"texton" : "Stop",
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"hidden" : 1,
+					"id" : "obj-48",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 392.0, 515.549988, 57.0, 23.0 ],
+					"style" : "",
+					"text" : "pcontrol"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"hidden" : 1,
+					"id" : "obj-47",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 392.0, 515.549988, 93.0, 20.0 ],
+					"presentation_rect" : [ 335.0, 270.549988, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "help en_analyzer~"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"align" : 0,
 					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
@@ -75,7 +149,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 8.0, 151.5, 83.0, 20.0 ],
-					"presentation_rect" : [ 37.0, 172.5, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "load soundcloud"
 				}
@@ -90,7 +163,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 168.5, 151.166672, 208.0, 22.0 ],
-					"presentation_rect" : [ 197.5, 171.5, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "sounds from soundcloud (jit.uld)"
 				}
@@ -394,7 +466,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 168.5, 498.549988, 253.0, 22.0 ],
+					"patching_rect" : [ 168.5, 486.549988, 253.0, 22.0 ],
 					"style" : "",
 					"text" : "search a word on twitter"
 				}
@@ -413,7 +485,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 499.549988, 135.0, 20.0 ],
+					"patching_rect" : [ 8.0, 487.549988, 135.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 340.549988, 79.0, 17.0 ],
 					"style" : "",
@@ -438,7 +510,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 499.549988, 119.0, 20.0 ],
+					"patching_rect" : [ 8.0, 487.549988, 119.0, 20.0 ],
 					"style" : "",
 					"text" : "load node_tweet_search"
 				}
@@ -452,7 +524,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 168.5, 470.549988, 253.0, 22.0 ],
+					"patching_rect" : [ 168.5, 458.549988, 253.0, 22.0 ],
 					"style" : "",
 					"text" : "look at a twitter stream"
 				}
@@ -471,7 +543,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 471.549988, 135.0, 20.0 ],
+					"patching_rect" : [ 8.0, 459.549988, 135.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 313.549988, 79.0, 17.0 ],
 					"style" : "",
@@ -496,7 +568,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 471.549988, 120.0, 20.0 ],
+					"patching_rect" : [ 8.0, 459.549988, 120.0, 20.0 ],
 					"style" : "",
 					"text" : "load node_tweet_stream"
 				}
@@ -510,7 +582,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 168.5, 442.549988, 313.0, 22.0 ],
+					"patching_rect" : [ 168.5, 430.549988, 313.0, 22.0 ],
 					"style" : "",
 					"text" : "real time communication between Max and node"
 				}
@@ -529,7 +601,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 443.549988, 135.0, 20.0 ],
+					"patching_rect" : [ 8.0, 431.549988, 135.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 250.0, 300.549988, 79.0, 17.0 ],
 					"style" : "",
@@ -554,7 +626,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 442.549988, 82.0, 20.0 ],
+					"patching_rect" : [ 8.0, 430.549988, 82.0, 20.0 ],
 					"style" : "",
 					"text" : "load tcp-io"
 				}
@@ -626,7 +698,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.0, 380.0, 327.0, 22.0 ],
+					"patching_rect" : [ 6.0, 374.0, 216.0, 22.0 ],
 					"style" : "",
 					"text" : "NodeJS: an advanced method"
 				}
@@ -641,7 +713,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 360.5, 418.5, 4.0 ],
+					"patching_rect" : [ 8.0, 357.5, 418.5, 4.0 ],
 					"proportion" : 0.39,
 					"rounded" : 30,
 					"style" : ""
@@ -810,7 +882,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 168.5, 414.549988, 253.0, 22.0 ],
+					"patching_rect" : [ 168.5, 402.549988, 253.0, 22.0 ],
 					"style" : "",
 					"text" : "post a picture and message to twitter"
 				}
@@ -843,7 +915,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 415.549988, 135.0, 20.0 ],
+					"patching_rect" : [ 8.0, 403.549988, 135.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 226.0, 245.5, 79.0, 17.0 ],
 					"style" : "",
@@ -868,7 +940,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 415.549988, 119.0, 20.0 ],
+					"patching_rect" : [ 8.0, 403.549988, 119.0, 20.0 ],
 					"style" : "",
 					"text" : "load node_tweet_upload"
 				}
@@ -1146,6 +1218,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-47", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-46", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-48", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-47", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
@@ -1206,10 +1296,10 @@
 , 			{
 				"name" : "m4va",
 				"default" : 				{
-					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
-					"fontname" : [ "Arial" ],
+					"fontsize" : [ 12.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontsize" : [ 12.0 ]
+					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",
@@ -1218,12 +1308,12 @@
 , 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
-					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontsize" : [ 14.0 ]
+					"fontsize" : [ 14.0 ],
+					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

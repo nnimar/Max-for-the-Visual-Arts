@@ -122,7 +122,7 @@
 					"presentation_rect" : [ 761.0, 313.0, 79.0, 17.0 ],
 					"rounded" : 3.0,
 					"style" : "",
-					"text" : "IMI_iCinema01",
+					"text" : "iCinema01",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -369,7 +369,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 391.0, 418.0, 66.0, 34.0 ],
+					"patching_rect" : [ 391.0, 416.0, 66.0, 34.0 ],
 					"style" : "message001",
 					"text" : "looppoints 0 138 go 2"
 				}
@@ -1901,7 +1901,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 663.0, 418.0, 57.0, 22.0 ],
+					"patching_rect" : [ 663.0, 422.0, 57.0, 22.0 ],
 					"style" : "",
 					"text" : "past 300"
 				}
@@ -2075,7 +2075,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 565.0, 418.0, 78.0, 34.0 ],
+					"patching_rect" : [ 565.0, 416.0, 78.0, 34.0 ],
 					"style" : "message001",
 					"text" : "looppoints 140 395 go 1"
 				}
@@ -2131,7 +2131,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 474.0, 418.0, 74.0, 34.0 ],
+					"patching_rect" : [ 474.0, 416.0, 74.0, 34.0 ],
 					"style" : "message001",
 					"text" : "looppoints 0 138 wait 2"
 				}
@@ -2559,15 +2559,19 @@
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
+			}
  ],
 		"embedsnapshot" : 0,
 		"styles" : [ 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
-					"fontsize" : [ 14.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"fontsize" : [ 14.0 ],
 					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -2578,7 +2582,6 @@
 , 			{
 				"name" : "message001",
 				"default" : 				{
-					"fontsize" : [ 11.595187 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontname" : [ "Arial" ],
 					"bgfillcolor" : 					{
@@ -2590,7 +2593,8 @@
 						"proportion" : 0.39,
 						"autogradient" : 0.79
 					}
-
+,
+					"fontsize" : [ 11.595187 ]
 				}
 ,
 				"parentstyle" : "",
