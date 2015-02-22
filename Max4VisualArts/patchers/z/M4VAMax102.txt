@@ -20,7 +20,7 @@
 23, json "use JSON with Max";
 24, regexp_tutorial "regular expression";
 25, twitter_read "read the twitter api"; 
-26, internet_sensors “use the internet to get data”;
+26, internet_sensors "use the internet to get data"; 
 30, -----------------------;
 
 31, <category> 4 Grab;

@@ -162,7 +162,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 303.0, 48.0, 121.0, 17.0 ],
 					"style" : "",
-					"text" : "Max for the Visual Arts v2.50"
+					"text" : "Max for the Visual Arts v2.51"
 				}
 
 			}
@@ -243,7 +243,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 20.0, 52.0, 203.0, 18.0 ],
 					"style" : "",
-					"text" : "Nicolas Marechal, v2.50 (1/2015)",
+					"text" : "Nicolas Marechal, v2.51 (5/2015)",
 					"textcolor" : [ 0.277516, 0.278843, 0.36965, 1.0 ]
 				}
 
@@ -625,7 +625,7 @@
 					"fontsize" : 18.0,
 					"id" : "obj-24",
 					"ignoreclick" : 1,
-					"items" : "CV_Objects",
+					"items" : "Global",
 					"maxclass" : "umenu",
 					"menumode" : 1,
 					"numinlets" : 1,
@@ -653,7 +653,7 @@
 					"fontsize" : 10.435669,
 					"id" : "obj-25",
 					"ignoreclick" : 1,
-					"items" : [ ",", "cv face find & replace", ",", "basic gesture interface", ",", "return the center mass (and the mass)", ",", "blob detections", ",", "miscellaneous cv", ",", "tools to use the kinect" ],
+					"items" : [ ",", "useful objects for Max", ",", "max message demystified", ",", "useful objects to handle lists", ",", "a few rules to help you patching", ",", "a visual guide for visual programming" ],
 					"maxclass" : "umenu",
 					"menumode" : 1,
 					"numinlets" : 1,
@@ -684,7 +684,7 @@
 					"patching_rect" : [ 535.0, 354.0, 209.0, 155.0 ],
 					"style" : "",
 					"tabcolor" : [ 0.0, 0.0, 0.0, 0.188235 ],
-					"tabs" : [ "cv_faces.findreplace", "cv_HSflow", "cv_centroid", "cv_jit.blobs", "cv_misc", "kinect" ],
+					"tabs" : [ "m4va_toolbox", "max_messaging", "list_toolbox", "Max_patching_rules", "Max_style_guide" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[6]"
 				}
@@ -1067,7 +1067,7 @@
 					"fontsize" : 18.0,
 					"id" : "obj-19",
 					"ignoreclick" : 1,
-					"items" : "Computer_Vision",
+					"items" : "Sensors",
 					"maxclass" : "umenu",
 					"menumode" : 1,
 					"numinlets" : 1,
@@ -1095,7 +1095,7 @@
 					"fontsize" : 10.435669,
 					"id" : "obj-20",
 					"ignoreclick" : 1,
-					"items" : [ ",", "track a colour with jit.findbounds", ",", "frame differencing and silhouette", ",", "background removal", ",", "softVNS v.region object", ",", "an interface to faceOSC", ",", "an interface to TSPS" ],
+					"items" : [ ",", "arduino interfaces", ",", "wii interfaces", ",", "wireless interfaces", ",", "misc interfaces and protocols", ",", "introduction to open sound control (OSC)", ",", "sensor tools" ],
 					"maxclass" : "umenu",
 					"menumode" : 1,
 					"numinlets" : 1,
@@ -1126,7 +1126,7 @@
 					"patching_rect" : [ 283.0, 354.0, 209.0, 155.0 ],
 					"style" : "",
 					"tabcolor" : [ 0.0, 0.0, 0.0, 0.188235 ],
-					"tabs" : [ "colourtrack", "c74_camera_data", "background_removal", "v.regions", "faceOSC", "TSPSosc" ],
+					"tabs" : [ "arduino_interfaces", "wii_interfaces", "xbee_interfaces", "misc_interfaces", "osc_protocol", "sensors_tools" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[5]"
 				}
@@ -1509,7 +1509,7 @@
 					"fontsize" : 18.0,
 					"id" : "obj-14",
 					"ignoreclick" : 1,
-					"items" : "Grab",
+					"items" : "Drawing",
 					"maxclass" : "umenu",
 					"menumode" : 1,
 					"numinlets" : 1,
@@ -1537,7 +1537,7 @@
 					"fontsize" : 10.435669,
 					"id" : "obj-15",
 					"ignoreclick" : 1,
-					"items" : [ ",", "simple video grab", ",", "timelapse", ",", "use webcam, netcam and dslr", ",", "return the position of a light", ",", "return the position of movements" ],
+					"items" : [ ",", "intro to LCD", ",", "intro to jit.mgraphics", ",", "simple drawing with jit.magraphics", ",", "drawing like Processing" ],
 					"maxclass" : "umenu",
 					"menumode" : 1,
 					"numinlets" : 1,
@@ -1568,7 +1568,7 @@
 					"patching_rect" : [ 30.0, 354.0, 209.0, 155.0 ],
 					"style" : "",
 					"tabcolor" : [ 0.0, 0.0, 0.0, 0.188235 ],
-					"tabs" : [ "videograb", "timelapse", "grab2syphon", "grab_position", "grab_hotspot" ],
+					"tabs" : [ "jit_lcd", "jit_mgraphics", "mgraphics_drawing", "max_processing" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[4]"
 				}
@@ -1951,7 +1951,7 @@
 					"fontsize" : 18.0,
 					"id" : "obj-9",
 					"ignoreclick" : 1,
-					"items" : "Internet",
+					"items" : "Sound",
 					"maxclass" : "umenu",
 					"menumode" : 1,
 					"numinlets" : 1,
@@ -1979,7 +1979,7 @@
 					"fontsize" : 10.435669,
 					"id" : "obj-10",
 					"ignoreclick" : 1,
-					"items" : [ ",", "use XML with Max", ",", "use JSON with Max", ",", "access openWeather", ",", "access xively feed", ",", "read the BBCnews", ",", "read the twitter api", ",", "regular expression" ],
+					"items" : [ ",", "sound player using jit.qt.movie", ",", "sound players (sfplay, play, groove)", ",", "multi sound player using sfplay", ",", "simple loop maker", ",", "sound toolbox" ],
 					"maxclass" : "umenu",
 					"menumode" : 1,
 					"numinlets" : 1,
@@ -2011,7 +2011,7 @@
 					"patching_rect" : [ 534.0, 121.0, 209.0, 155.0 ],
 					"style" : "",
 					"tabcolor" : [ 0.0, 0.0, 0.0, 0.188235 ],
-					"tabs" : [ "xml", "json", "openWeather", "xively_report", "BBCnews", "twitter_read", "regexp_tutorial" ],
+					"tabs" : [ "sound_player_qtmovie", "simple_sound_player", "multi_sound_player", "loop_maker", "sound_toolbox" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[3]"
 				}
@@ -2394,7 +2394,7 @@
 					"fontsize" : 18.0,
 					"id" : "obj-4",
 					"ignoreclick" : 1,
-					"items" : "Text",
+					"items" : "Video",
 					"maxclass" : "umenu",
 					"menumode" : 1,
 					"numinlets" : 1,
@@ -2422,7 +2422,7 @@
 					"fontsize" : 10.435669,
 					"id" : "obj-7",
 					"ignoreclick" : 1,
-					"items" : [ ",", "text basics", ",", "text + alpha layer", ",", "typing text in a window", ",", "max and litterature", ",", "a simple patch to place text", ",", "interactive text patch" ],
+					"items" : [ ",", "help for jit.qt.movie", ",", "sound to animation", ",", "brightness and colouring" ],
 					"maxclass" : "umenu",
 					"menumode" : 1,
 					"numinlets" : 1,
@@ -2453,7 +2453,7 @@
 					"patching_rect" : [ 282.0, 121.0, 209.0, 155.0 ],
 					"style" : "",
 					"tabcolor" : [ 0.0, 0.0, 0.0, 0.188235 ],
-					"tabs" : [ "text_basics", "text_alpha", "type_text", "text_oulipo", "coll2text2d", "text_passingtime" ],
+					"tabs" : [ "quicktime", "sound_to_animation", "image_adjustment" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[2]"
 				}
@@ -2836,7 +2836,7 @@
 					"fontsize" : 18.0,
 					"id" : "obj-45",
 					"ignoreclick" : 1,
-					"items" : "Matrix",
+					"items" : "Introduction",
 					"maxclass" : "umenu",
 					"menumode" : 1,
 					"numinlets" : 1,
@@ -2864,7 +2864,7 @@
 					"fontsize" : 10.435669,
 					"id" : "obj-47",
 					"ignoreclick" : 1,
-					"items" : [ ",", "introduction to the jit Matrix", ",", "matrix and friends", ",", "matrix positioning", ",", "matrix lookup data", ",", "matrix feedback" ],
+					"items" : [ ",", "intro to Max", ",", "max sandpit", ",", "patch a day, healthy everyday", ",", "credits" ],
 					"maxclass" : "umenu",
 					"menumode" : 1,
 					"numinlets" : 1,
@@ -2895,7 +2895,7 @@
 					"patching_rect" : [ 30.0, 121.0, 209.0, 155.0 ],
 					"style" : "",
 					"tabcolor" : [ 0.0, 0.0, 0.0, 0.188235 ],
-					"tabs" : [ "jit_matrix_introduction", "jit_matrix_and_friends", "matrix_positioning", "matrix_lookup", "matrix_feedback" ],
+					"tabs" : [ "introduction", "max_sandpit", "maxhelp_a_day", "credits" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[1]"
 				}
@@ -5266,30 +5266,30 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "M4VAMax102.txt",
+				"name" : "M4VAMax101.txt",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/z",
-				"patcherrelativepath" : "../patchers/z",
+				"patcherrelativepath" : "../../../../../../Users/Shared/Max 7/Packages/Max4VisualArts/patchers/z",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "M4VAMax101.txt",
+				"name" : "M4VAMax102.txt",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/z",
-				"patcherrelativepath" : "../patchers/z",
+				"patcherrelativepath" : "../../../../../../Users/Shared/Max 7/Packages/Max4VisualArts/patchers/z",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "M4VAMax103.txt",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/z",
-				"patcherrelativepath" : "../patchers/z",
+				"patcherrelativepath" : "../../../../../../Users/Shared/Max 7/Packages/Max4VisualArts/patchers/z",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "M4VAMax104.txt",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/z",
-				"patcherrelativepath" : "../patchers/z",
+				"patcherrelativepath" : "../../../../../../Users/Shared/Max 7/Packages/Max4VisualArts/patchers/z",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

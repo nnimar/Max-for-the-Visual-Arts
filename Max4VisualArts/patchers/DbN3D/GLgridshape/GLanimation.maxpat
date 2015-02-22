@@ -66,7 +66,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 168.5, 235.050003, 253.0, 22.0 ],
+					"patching_rect" : [ 168.5, 241.050003, 230.0, 22.0 ],
 					"style" : "",
 					"text" : "pattrstorage to create animations"
 				}
@@ -85,7 +85,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 235.050003, 106.0, 21.0 ],
+					"patching_rect" : [ 10.0, 241.050003, 106.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 49.0, 243.050003, 79.0, 17.0 ],
 					"style" : "",
@@ -110,7 +110,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 235.050003, 101.0, 20.0 ],
+					"patching_rect" : [ 10.0, 241.050003, 101.0, 20.0 ],
 					"style" : "",
 					"text" : "help pattr_animation"
 				}
@@ -124,7 +124,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 168.5, 205.050003, 253.0, 22.0 ],
+					"patching_rect" : [ 168.5, 211.050003, 230.0, 22.0 ],
 					"style" : "",
 					"text" : "z.glPath to draw bspline (uses line)"
 				}
@@ -143,7 +143,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 205.050003, 84.0, 21.0 ],
+					"patching_rect" : [ 10.0, 211.050003, 84.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 208.050003, 79.0, 17.0 ],
 					"style" : "",
@@ -168,7 +168,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 205.050003, 84.0, 20.0 ],
+					"patching_rect" : [ 10.0, 211.050003, 84.0, 20.0 ],
 					"style" : "",
 					"text" : "load anim_path3"
 				}
@@ -403,7 +403,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 147.546494, 74.0, 21.00351 ],
+					"patching_rect" : [ 10.0, 153.546494, 74.0, 21.00351 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 118.5, 79.0, 17.0 ],
 					"style" : "",
@@ -428,7 +428,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 145.5, 79.0, 20.0 ],
+					"patching_rect" : [ 10.0, 151.5, 79.0, 20.0 ],
 					"style" : "",
 					"text" : "load anim_path"
 				}
@@ -442,7 +442,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 168.5, 147.550003, 189.5, 22.0 ],
+					"patching_rect" : [ 168.5, 153.550003, 189.5, 22.0 ],
 					"style" : "",
 					"text" : "intro to jit.path (eval method)"
 				}
@@ -456,7 +456,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 168.5, 177.050003, 182.0, 22.0 ],
+					"patching_rect" : [ 168.5, 183.050003, 182.0, 22.0 ],
 					"style" : "",
 					"text" : "more jit.path (play method)"
 				}
@@ -475,7 +475,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.5, 117.5, 74.0, 21.00351 ],
+					"patching_rect" : [ 10.5, 123.5, 74.0, 21.00351 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 133.0, 279.5, 79.0, 17.0 ],
 					"style" : "",
@@ -500,7 +500,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 117.5, 75.0, 20.0 ],
+					"patching_rect" : [ 10.0, 123.5, 75.0, 20.0 ],
 					"style" : "",
 					"text" : "load anim_lobj"
 				}
@@ -514,7 +514,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 168.5, 117.5, 253.0, 22.0 ],
+					"patching_rect" : [ 168.5, 123.5, 189.5, 22.0 ],
 					"style" : "",
 					"text" : "lobject for more control"
 				}
@@ -577,7 +577,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 177.050003, 84.0, 21.0 ],
+					"patching_rect" : [ 10.0, 183.050003, 84.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 235.0, 239.5, 79.0, 17.0 ],
 					"style" : "",
@@ -602,7 +602,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 175.5, 84.0, 20.0 ],
+					"patching_rect" : [ 10.0, 181.5, 84.0, 20.0 ],
 					"style" : "",
 					"text" : "load anim_path2"
 				}
@@ -621,7 +621,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 60.871338, 74.0, 21.0 ],
+					"patching_rect" : [ 10.0, 66.871338, 74.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 226.0, 245.5, 79.0, 17.0 ],
 					"style" : "",
@@ -649,7 +649,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 89.763054, 81.0, 20.736946 ],
+					"patching_rect" : [ 10.0, 95.763054, 81.0, 20.736946 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 17.0, 206.5, 79.0, 17.0 ],
 					"style" : "",
@@ -674,7 +674,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 62.5, 75.0, 20.0 ],
+					"patching_rect" : [ 10.0, 68.5, 75.0, 20.0 ],
 					"style" : "",
 					"text" : "load anim_line"
 				}
@@ -702,7 +702,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 168.5, 61.5, 253.0, 22.0 ],
+					"patching_rect" : [ 168.5, 67.5, 189.5, 22.0 ],
 					"style" : "",
 					"text" : "line is simple but ineffecient"
 				}
@@ -716,7 +716,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 168.5, 89.849998, 253.0, 22.0 ],
+					"patching_rect" : [ 168.5, 95.849998, 189.5, 22.0 ],
 					"style" : "",
 					"text" : "bline is much better"
 				}
@@ -748,7 +748,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 94.5, 81.0, 20.0 ],
+					"patching_rect" : [ 10.0, 100.5, 81.0, 20.0 ],
 					"style" : "",
 					"text" : "load anim_bline"
 				}
@@ -1004,10 +1004,10 @@
 		"styles" : [ 			{
 				"name" : "m4va",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : [ "Arial" ],
 					"fontsize" : [ 12.0 ],
 					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
-					"fontname" : [ "Arial" ]
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1016,12 +1016,12 @@
 , 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
-					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"fontsize" : [ 14.0 ],
-					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"fontsize" : [ 14.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

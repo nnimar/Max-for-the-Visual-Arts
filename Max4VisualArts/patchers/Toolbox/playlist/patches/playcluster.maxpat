@@ -874,7 +874,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 175.0, 412.0, 124.0, 22.0 ],
+					"patching_rect" : [ 175.0, 415.0, 124.0, 22.0 ],
 					"style" : "",
 					"text" : "open drumLoop.aif, 1"
 				}
@@ -889,7 +889,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 175.0, 436.0, 32.5, 22.0 ],
+					"patching_rect" : [ 175.0, 443.0, 32.5, 22.0 ],
 					"style" : "",
 					"text" : "0"
 				}
@@ -906,7 +906,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 24.5, 238.0, 144.0, 22.0 ],
 					"style" : "",
-					"text" : "whatever 0"
+					"text" : "happy 2"
 				}
 
 			}
@@ -955,7 +955,7 @@
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
 						"mode" : "basic",
-						"originallength" : [ 3339.319824, "ticks" ],
+						"originallength" : [ 2219.080322, "ticks" ],
 						"originaltempo" : 120.0,
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -1470,12 +1470,12 @@
 		"styles" : [ 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
-					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"fontsize" : [ 14.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"fontsize" : [ 14.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

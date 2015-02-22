@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ -1.0, 44.0, 592.0, 810.0 ],
+		"rect" : [ 0.0, 44.0, 592.0, 810.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -108,7 +108,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "clear", "bang" ],
-					"patching_rect" : [ 11.0, 122.0, 167.0, 22.0 ],
+					"patching_rect" : [ 11.0, 124.0, 167.0, 22.0 ],
 					"style" : "",
 					"text" : "t b clear b"
 				}
@@ -122,7 +122,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 43.0, 69.0, 75.0, 20.0 ],
+					"patching_rect" : [ 33.0, 69.0, 75.0, 20.0 ],
 					"style" : "",
 					"text" : "start polling"
 				}
@@ -1443,10 +1443,10 @@
 						"styles" : [ 							{
 								"name" : "m4va",
 								"default" : 								{
+									"fontsize" : [ 12.0 ],
 									"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
-									"fontname" : [ "Arial" ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontsize" : [ 12.0 ]
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"parentstyle" : "",
@@ -1455,12 +1455,12 @@
 , 							{
 								"name" : "m4vatextbutton",
 								"default" : 								{
+									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+									"fontsize" : [ 14.0 ],
+									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontsize" : [ 14.0 ]
+									"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1664,7 +1664,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 292.0, 483.0, 163.583313, 22.0 ],
+					"patching_rect" : [ 292.0, 485.0, 163.583313, 22.0 ],
 					"style" : "",
 					"text" : "scale 0. 1. 440. 660."
 				}
@@ -1879,7 +1879,7 @@
 					"destination" : [ "obj-48", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 370.541656, 349.0, 359.333313, 349.0 ],
+					"midpoints" : [ 370.541656, 476.0, 359.333313, 476.0 ],
 					"source" : [ "obj-31", 1 ]
 				}
 
@@ -1898,7 +1898,7 @@
 					"destination" : [ "obj-49", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 450.624939, 349.0, 435.999939, 349.0 ],
+					"midpoints" : [ 450.624939, 390.0, 435.999939, 390.0 ],
 					"source" : [ "obj-31", 3 ]
 				}
 
@@ -2035,15 +2035,15 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "mbta.js",
-				"bootpath" : "~/Desktop/Max in progress/good/mbta (ajax)",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/javascript/ajax",
+				"patcherrelativepath" : "../../javascript/ajax",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Max4VA-Title.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
-				"patcherrelativepath" : "../../../../../Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
+				"patcherrelativepath" : "../zpatches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2056,10 +2056,10 @@
 		"styles" : [ 			{
 				"name" : "m4va",
 				"default" : 				{
+					"fontsize" : [ 12.0 ],
 					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
-					"fontname" : [ "Arial" ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontsize" : [ 12.0 ]
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",
@@ -2068,12 +2068,12 @@
 , 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
+					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"fontsize" : [ 14.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontsize" : [ 14.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

@@ -162,7 +162,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 398.0, 357.0, 122.0, 21.0 ],
+					"patching_rect" : [ 398.0, 359.0, 122.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 836.0, 388.0, 79.0, 17.0 ],
 					"style" : "",
@@ -186,7 +186,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 367.0, 345.0, 153.0, 35.0 ],
+					"patching_rect" : [ 367.0, 347.0, 153.0, 35.0 ],
 					"style" : "",
 					"text" : "imi.apploader2 Syphon Syphon%20Recorder.app"
 				}
@@ -1298,17 +1298,21 @@
 				"name" : "jit.gl.syphonserver.mxo",
 				"type" : "iLaX"
 			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
+			}
  ],
 		"embedsnapshot" : 0,
 		"styles" : [ 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
-					"fontsize" : [ 14.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"fontsize" : [ 14.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

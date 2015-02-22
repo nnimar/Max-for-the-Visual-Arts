@@ -66,7 +66,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 149.0, 213.5, 207.0, 22.0 ],
+					"patching_rect" : [ 149.0, 214.5, 207.0, 22.0 ],
 					"style" : "",
 					"text" : "a graphical timeline application"
 				}
@@ -80,7 +80,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 148.0, 153.5, 178.0, 22.0 ],
+					"patching_rect" : [ 148.0, 154.5, 178.0, 22.0 ],
 					"style" : "",
 					"text" : "a graphical timeline"
 				}
@@ -98,7 +98,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.0, 183.5, 70.0, 20.0 ],
+					"patching_rect" : [ 9.0, 184.5, 70.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 133.0, 279.5, 79.0, 17.0 ],
 					"style" : "",
@@ -122,7 +122,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 184.5, 80.0, 20.0 ],
+					"patching_rect" : [ 9.0, 185.5, 80.0, 20.0 ],
 					"style" : "",
 					"text" : "load playcluster"
 				}
@@ -136,7 +136,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 148.0, 183.5, 229.0, 22.0 ],
+					"patching_rect" : [ 148.0, 184.5, 229.0, 22.0 ],
 					"style" : "",
 					"text" : "a simple graphical timeline"
 				}
@@ -154,7 +154,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.0, 123.5, 124.0, 20.0 ],
+					"patching_rect" : [ 9.0, 124.5, 124.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 34.0, 178.5, 79.0, 17.0 ],
 					"style" : "",
@@ -178,7 +178,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 123.5, 116.0, 20.0 ],
+					"patching_rect" : [ 9.0, 124.5, 116.0, 20.0 ],
 					"style" : "",
 					"text" : "load Scheduled_Events"
 				}
@@ -196,7 +196,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.0, 213.5, 70.0, 20.0 ],
+					"patching_rect" : [ 9.0, 214.5, 70.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 274.0, 263.5, 79.0, 17.0 ],
 					"style" : "",
@@ -220,7 +220,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 213.5, 61.0, 20.0 ],
+					"patching_rect" : [ 9.0, 214.5, 61.0, 20.0 ],
 					"style" : "",
 					"text" : "load IanniX"
 				}
@@ -238,7 +238,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.0, 153.5, 70.0, 20.0 ],
+					"patching_rect" : [ 9.0, 154.5, 70.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 235.0, 239.5, 79.0, 17.0 ],
 					"style" : "",
@@ -262,7 +262,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 152.5, 67.0, 20.0 ],
+					"patching_rect" : [ 9.0, 153.5, 67.0, 20.0 ],
 					"style" : "",
 					"text" : "help timeline"
 				}
@@ -280,7 +280,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.0, 93.5, 78.0, 20.0 ],
+					"patching_rect" : [ 9.0, 94.5, 78.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 226.0, 245.5, 79.0, 17.0 ],
 					"style" : "",
@@ -306,7 +306,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.0, 63.5, 68.0, 20.0 ],
+					"patching_rect" : [ 9.0, 64.5, 68.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 17.0, 206.5, 79.0, 17.0 ],
 					"style" : "",
@@ -330,7 +330,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 91.5, 79.0, 20.0 ],
+					"patching_rect" : [ 9.0, 92.5, 79.0, 20.0 ],
 					"style" : "",
 					"text" : "load sequencer"
 				}
@@ -344,7 +344,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 148.0, 123.5, 178.0, 22.0 ],
+					"patching_rect" : [ 148.0, 124.5, 178.0, 22.0 ],
 					"style" : "",
 					"text" : "uses <counter> and <coll>"
 				}
@@ -358,7 +358,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 148.0, 93.5, 184.0, 22.0 ],
+					"patching_rect" : [ 148.0, 94.5, 184.0, 22.0 ],
 					"style" : "",
 					"text" : "sequencer (a musical clock)"
 				}
@@ -372,7 +372,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 148.0, 63.5, 214.0, 22.0 ],
+					"patching_rect" : [ 148.0, 64.5, 214.0, 22.0 ],
 					"style" : "",
 					"text" : "sequencer (an interface of steps)"
 				}
@@ -388,7 +388,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 212.5, 52.0, 21.0 ],
+					"patching_rect" : [ 9.0, 213.5, 52.0, 21.0 ],
 					"style" : "",
 					"text" : "pcontrol"
 				}
@@ -404,7 +404,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 66.5, 64.0, 20.0 ],
+					"patching_rect" : [ 9.0, 67.5, 64.0, 20.0 ],
 					"style" : "",
 					"text" : "load livegrid"
 				}
@@ -527,17 +527,21 @@
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
+			}
  ],
 		"embedsnapshot" : 0,
 		"styles" : [ 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
-					"fontsize" : [ 14.0 ],
 					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"fontsize" : [ 14.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

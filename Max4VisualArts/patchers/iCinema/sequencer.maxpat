@@ -53,7 +53,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 1104.0, 44.0, 538.0, 181.0 ],
+						"rect" : [ 1104.0, 44.0, 327.0, 181.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -80,7 +80,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -1337,16 +1336,13 @@
 			}
 , 			{
 				"box" : 				{
-					"color" : [ 0.858824, 0.858824, 0.858824, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 11.595187,
 					"id" : "obj-103",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 163.0, 316.0, 32.5, 21.0 ],
-					"style" : "",
+					"patching_rect" : [ 163.0, 316.0, 34.0, 22.0 ],
+					"style" : "default",
 					"text" : "> 1"
 				}
 
@@ -1564,7 +1560,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial Bold",
 					"fontsize" : 14.0,
 					"id" : "obj-4",
 					"maxclass" : "number",
@@ -1572,7 +1567,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 163.0, 286.0, 28.0, 24.0 ],
+					"patching_rect" : [ 163.0, 286.0, 29.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -1821,12 +1816,12 @@
 		"styles" : [ 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
-					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"fontsize" : [ 14.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"fontsize" : [ 14.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

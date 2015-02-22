@@ -67,7 +67,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 122.0, 250.0, 158.0, 24.0 ],
+					"patching_rect" : [ 125.0, 254.0, 158.0, 24.0 ],
 					"style" : "",
 					"text" : "use the \"Everything\" coll"
 				}
@@ -84,7 +84,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 119.0, 404.0, 50.0, 22.0 ],
+					"patching_rect" : [ 119.0, 388.0, 48.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -98,7 +98,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 228.0, 381.0, 73.0, 22.0 ],
+					"patching_rect" : [ 228.0, 388.0, 73.0, 22.0 ],
 					"style" : "",
 					"text" : "fromsymbol"
 				}
@@ -128,7 +128,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 234.0, 73.0, 94.0, 22.0 ],
+					"patching_rect" : [ 234.0, 70.0, 94.0, 22.0 ],
 					"style" : "",
 					"text" : "scale 0 40 0. 1."
 				}
@@ -223,7 +223,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 361.0, 250.0, 98.0, 22.0 ],
+					"patching_rect" : [ 361.0, 257.3013, 98.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1
 					}
@@ -272,7 +272,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 234.0, 99.0, 55.0, 22.0 ],
+					"patching_rect" : [ 234.0, 97.0, 55.0, 22.0 ],
 					"style" : "",
 					"text" : "set 1 $1"
 				}
@@ -287,7 +287,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 10.0, 307.0, 89.0, 22.0 ],
+					"patching_rect" : [ 10.0, 318.0, 89.0, 22.0 ],
 					"style" : "",
 					"text" : "route symbol"
 				}
@@ -301,7 +301,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 132.0, 380.0, 46.0, 20.0 ],
+					"patching_rect" : [ 169.0, 389.0, 46.0, 20.0 ],
 					"style" : "",
 					"text" : "Floats"
 				}
@@ -328,7 +328,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 404.0, 37.0, 22.0 ],
+					"patching_rect" : [ 10.0, 388.0, 37.0, 22.0 ],
 					"style" : "default",
 					"triscale" : 0.9
 				}
@@ -342,7 +342,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 23.0, 380.0, 52.0, 20.0 ],
+					"patching_rect" : [ 48.222931, 389.0, 52.0, 20.0 ],
 					"style" : "",
 					"text" : "On/Off"
 				}
@@ -386,7 +386,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 24.722931, 253.3013, 93.0, 22.0 ],
+					"patching_rect" : [ 27.722931, 257.3013, 93.0, 22.0 ],
 					"style" : "",
 					"text" : "refer Everything"
 				}
@@ -501,20 +501,17 @@
  ]
 					}
 ,
-					"color" : [ 0.836957, 0.836957, 0.836957, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-43",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 10.0, 276.0, 85.0, 22.0 ],
+					"patching_rect" : [ 10.0, 287.0, 86.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1
 					}
 ,
-					"style" : "",
+					"style" : "default",
 					"text" : "coll schedule"
 				}
 
@@ -582,7 +579,7 @@
 					"destination" : [ "obj-22", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 89.5, 341.5, 19.5, 341.5 ],
+					"midpoints" : [ 89.5, 348.5, 19.5, 348.5 ],
 					"source" : [ "obj-10", 1 ]
 				}
 
@@ -786,12 +783,12 @@
 		"styles" : [ 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
-					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"fontsize" : [ 14.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"fontsize" : [ 14.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

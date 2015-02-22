@@ -98,13 +98,16 @@ echo -ne "- Checking version... ";
 
 if [[ $whichVersion < 4 ]]; then
 	echo "This installer is for Max 7 only.";
-	echo "Get the Max 5 version: https://github.com/imi/IMI-Max-patches or"; 
+	if [[ $whichVersion = 1 ]]; then
+	echo "Get the Max 5 version: https://github.com/imi/IMI-Max-patches"; 
+	fi
+	if [[ $whichVersion = 3 ]]; then
 	echo "the Max 6.1 version: https://github.com/imi/IMI-Max-patches-for-Max6";
+	fi
 	exit 1;
 fi
 
 if [[ $whichVersion == 4 ]]; then
-
 	echo "Max 7 is installed.";
 	echo ""
 	maxAppFolder="/Users/Shared/Max 7";

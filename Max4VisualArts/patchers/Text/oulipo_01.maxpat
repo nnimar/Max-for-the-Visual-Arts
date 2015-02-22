@@ -103,7 +103,6 @@
 					"patching_rect" : [ 524.0, 409.5, 101.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 434.0, 65.5, 79.0, 17.0 ],
-					"rounded" : 20.0,
 					"style" : "",
 					"text" : "open website",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -384,7 +383,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 189.0, 168.0, 37.0, 18.0 ],
+									"patching_rect" : [ 189.0, 168.0, 37.0, 22.0 ],
 									"style" : "",
 									"text" : "clear"
 								}
@@ -399,7 +398,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 41.0, 75.0, 18.0, 18.0 ],
+									"patching_rect" : [ 41.0, 75.0, 18.0, 22.0 ],
 									"style" : "",
 									"text" : "0"
 								}
@@ -414,7 +413,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 115.0, 103.0, 57.0, 20.0 ],
+									"patching_rect" : [ 115.0, 103.0, 57.0, 22.0 ],
 									"style" : "",
 									"text" : "route set"
 								}
@@ -429,7 +428,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 13.5, 165.0, 120.0, 20.0 ],
+									"patching_rect" : [ 13.5, 165.0, 120.0, 22.0 ],
 									"style" : "",
 									"text" : "zl.join"
 								}
@@ -457,7 +456,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 13.5, 133.0, 50.0, 20.0 ],
+									"patching_rect" : [ 13.5, 133.0, 50.0, 22.0 ],
 									"style" : ""
 								}
 
@@ -471,7 +470,7 @@
 									"numinlets" : 5,
 									"numoutlets" : 4,
 									"outlettype" : [ "int", "", "", "int" ],
-									"patching_rect" : [ 13.5, 103.0, 73.0, 20.0 ],
+									"patching_rect" : [ 13.5, 103.0, 73.0, 22.0 ],
 									"style" : "",
 									"text" : "counter"
 								}
@@ -846,7 +845,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 30.0, 305.0, 380.0, 24.0 ],
 					"style" : "",
-					"text" : "Quand se carbonisait la fureur des châteaux"
+					"text" : "Des narcisses on cueille ou bien on est des veaux"
 				}
 
 			}
@@ -926,7 +925,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 35.5, 66.0, 20.0, 20.0 ],
+					"patching_rect" : [ 37.5, 66.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"style" : "",
 					"text" : "2",
@@ -955,7 +954,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 155.0, 241.0, 20.0, 20.0 ],
+					"patching_rect" : [ 155.0, 244.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"style" : "",
 					"text" : "1",
@@ -1251,6 +1250,10 @@
 				"patcherrelativepath" : "../zpatches",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"embedsnapshot" : 0,
