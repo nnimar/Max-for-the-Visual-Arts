@@ -990,7 +990,7 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 677.0, 387.0, 65.0, 22.0 ],
-					"style" : "m4va",
+					"style" : "default",
 					"triscale" : 0.9
 				}
 
@@ -1005,7 +1005,7 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 594.0, 387.0, 73.0, 22.0 ],
-					"style" : "m4va",
+					"style" : "default",
 					"triscale" : 0.9
 				}
 
@@ -1020,7 +1020,7 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 498.0, 387.0, 89.0, 22.0 ],
-					"style" : "m4va",
+					"style" : "default",
 					"triscale" : 0.9
 				}
 
@@ -1035,7 +1035,7 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 414.0, 387.0, 77.0, 22.0 ],
-					"style" : "m4va",
+					"style" : "default",
 					"triscale" : 0.9
 				}
 
@@ -1050,7 +1050,7 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 332.0, 387.0, 77.0, 22.0 ],
-					"style" : "m4va",
+					"style" : "default",
 					"triscale" : 0.9
 				}
 
@@ -1065,7 +1065,7 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 242.0, 387.0, 83.0, 22.0 ],
-					"style" : "m4va",
+					"style" : "default",
 					"triscale" : 0.9
 				}
 
@@ -1278,6 +1278,10 @@
 				"patcherrelativepath" : "../zpatches",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"embedsnapshot" : 0,

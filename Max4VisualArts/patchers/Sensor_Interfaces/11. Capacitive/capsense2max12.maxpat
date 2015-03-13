@@ -117,9 +117,9 @@
 								"name" : "m4va",
 								"default" : 								{
 									"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
-									"fontsize" : [ 12.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -144,7 +144,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "m4va arduino2max", "monitor one analog or digital input on the Arduino", 3 ],
+					"args" : [ "m4va capsense2max", "monitor one analog or digital input on the Arduino", 3 ],
 					"bgmode" : 1,
 					"border" : 0,
 					"clickthrough" : 1,
@@ -2462,15 +2462,19 @@
 				"name" : "shell.mxo",
 				"type" : "iLaX"
 			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
+			}
  ],
 		"embedsnapshot" : 0,
 		"styles" : [ 			{
 				"name" : "m4va",
 				"default" : 				{
 					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
-					"fontsize" : [ 12.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 12.0 ]
 				}
 ,
 				"parentstyle" : "",

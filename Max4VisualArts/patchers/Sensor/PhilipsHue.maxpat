@@ -116,12 +116,12 @@
 					"fontsize" : 10.0,
 					"hidden" : 1,
 					"id" : "obj-38",
-					"linecount" : 5,
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 886.0, 415.0, 131.0, 64.0 ],
+					"patching_rect" : [ 654.0, 424.5, 364.0, 42.0 ],
 					"style" : "",
 					"text" : ";\rmax launchbrowser http://cycling74.com/forums/topic/controlling-philips-hue-using-jython-and-phue/"
 				}
@@ -842,14 +842,14 @@
 					"fontsize" : 10.0,
 					"hidden" : 1,
 					"id" : "obj-13",
-					"linecount" : 4,
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 886.0, 424.0, 106.0, 53.0 ],
+					"patching_rect" : [ 845.0, 431.0, 172.0, 42.0 ],
 					"style" : "",
-					"text" : ";\rmax launchbrowser http://developers.meethue.com/index.html"
+					"text" : ";\rmax launchbrowser http://www.developers.meethue.com"
 				}
 
 			}
@@ -1211,15 +1211,19 @@
 				"name" : "shell.mxo",
 				"type" : "iLaX"
 			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
+			}
  ],
 		"embedsnapshot" : 0,
 		"styles" : [ 			{
 				"name" : "m4va",
 				"default" : 				{
 					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
-					"fontsize" : [ 12.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 12.0 ]
 				}
 ,
 				"parentstyle" : "",

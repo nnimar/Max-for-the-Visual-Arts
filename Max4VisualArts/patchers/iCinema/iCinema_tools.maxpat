@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 407.0, 44.0, 456.0, 253.0 ],
+		"rect" : [ 407.0, 44.0, 415.0, 292.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -37,6 +37,83 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-22",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 148.0, 222.0, 191.0, 22.0 ],
+					"presentation_rect" : [ 148.0, 215.5, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "another simple playlist (c74)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"align" : 0,
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
+					"fontsize" : 14.0,
+					"id" : "obj-3",
+					"legacytextcolor" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 9.0, 221.166672, 86.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 93.0, 227.5, 79.0, 17.0 ],
+					"style" : "",
+					"text" : "playlist (c74)",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
+					"texton" : "Stop",
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"hidden" : 1,
+					"id" : "obj-17",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 9.0, 218.5, 63.0, 20.0 ],
+					"presentation_rect" : [ 93.0, 227.5, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "load playlist"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.595187,
+					"hidden" : 1,
+					"id" : "obj-19",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 9.0, 217.5, 52.0, 21.0 ],
+					"presentation_rect" : [ 93.0, 226.5, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "pcontrol"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"args" : [ "iCinema tools", "different types of timeline" ],
 					"bgmode" : 1,
@@ -66,7 +143,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 149.0, 214.5, 207.0, 22.0 ],
+					"patching_rect" : [ 148.0, 253.5, 207.0, 22.0 ],
 					"style" : "",
 					"text" : "a graphical timeline application"
 				}
@@ -80,7 +157,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 148.0, 154.5, 178.0, 22.0 ],
+					"patching_rect" : [ 148.0, 159.0, 178.0, 22.0 ],
 					"style" : "",
 					"text" : "a graphical timeline"
 				}
@@ -88,6 +165,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
@@ -98,12 +176,13 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.0, 184.5, 70.0, 20.0 ],
+					"patching_rect" : [ 9.0, 189.833328, 70.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 133.0, 279.5, 79.0, 17.0 ],
 					"style" : "",
 					"text" : "playlist",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
@@ -136,7 +215,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 148.0, 184.5, 229.0, 22.0 ],
+					"patching_rect" : [ 148.0, 190.5, 191.0, 22.0 ],
 					"style" : "",
 					"text" : "a simple graphical timeline"
 				}
@@ -144,6 +223,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
@@ -154,12 +234,13 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.0, 124.5, 124.0, 20.0 ],
+					"patching_rect" : [ 9.0, 127.166664, 124.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 34.0, 178.5, 79.0, 17.0 ],
 					"style" : "",
 					"text" : "scheduled_events",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
@@ -186,6 +267,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
@@ -196,12 +278,13 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.0, 214.5, 70.0, 20.0 ],
+					"patching_rect" : [ 8.0, 253.5, 52.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 274.0, 263.5, 79.0, 17.0 ],
 					"style" : "",
 					"text" : "IanniX",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
@@ -220,7 +303,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 214.5, 61.0, 20.0 ],
+					"patching_rect" : [ 8.0, 253.5, 61.0, 20.0 ],
 					"style" : "",
 					"text" : "load IanniX"
 				}
@@ -228,6 +311,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
@@ -238,12 +322,13 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.0, 154.5, 70.0, 20.0 ],
+					"patching_rect" : [ 9.0, 158.5, 70.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 235.0, 239.5, 79.0, 17.0 ],
 					"style" : "",
 					"text" : "timeline",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
@@ -270,6 +355,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
@@ -280,12 +366,13 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.0, 94.5, 78.0, 20.0 ],
+					"patching_rect" : [ 9.0, 95.833336, 78.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 226.0, 245.5, 79.0, 17.0 ],
 					"style" : "",
 					"text" : "sequencer",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
@@ -296,6 +383,7 @@
 			}
 , 			{
 				"box" : 				{
+					"align" : 0,
 					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
@@ -312,6 +400,7 @@
 					"style" : "",
 					"text" : "live_grid",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 0,
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
@@ -344,7 +433,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 148.0, 124.5, 178.0, 22.0 ],
+					"patching_rect" : [ 148.0, 127.5, 178.0, 22.0 ],
 					"style" : "",
 					"text" : "uses <counter> and <coll>"
 				}
@@ -358,7 +447,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 148.0, 94.5, 184.0, 22.0 ],
+					"patching_rect" : [ 148.0, 96.0, 184.0, 22.0 ],
 					"style" : "",
 					"text" : "sequencer (a musical clock)"
 				}
@@ -388,7 +477,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 9.0, 213.5, 52.0, 21.0 ],
+					"patching_rect" : [ 8.0, 252.5, 52.0, 21.0 ],
 					"style" : "",
 					"text" : "pcontrol"
 				}
@@ -476,10 +565,28 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
@@ -536,12 +643,12 @@
 		"styles" : [ 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
-					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontsize" : [ 14.0 ],
-					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
+					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
