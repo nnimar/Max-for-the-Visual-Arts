@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -293,7 +293,7 @@
 				"box" : 				{
 					"fontface" : 1,
 					"fontsize" : 18.0,
-					"htabcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"htabcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 					"id" : "obj-10",
 					"maxclass" : "tab",
 					"numinlets" : 1,
@@ -304,6 +304,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 1.0, 70.0, 124.0, 373.0 ],
 					"style" : "",
+					"tabcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 					"tabs" : [ "visual", "structure", "space", "grid", "gestalt", "colour", "typography", "presentation", "interaction", "GLobject" ]
 				}
 
@@ -553,22 +554,19 @@
 			}
 , 			{
 				"name" : "fpic_blue.png",
-				"bootpath" : "/Applications/Max.app/Contents/Resources/C74/help/max",
-				"patcherrelativepath" : "../../../../../../../Applications/Max.app/Contents/Resources/C74/help/max",
+				"bootpath" : "C74:/help/max",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "purplebutton.png",
-				"bootpath" : "/Applications/Max.app/Contents/Resources/C74/media/max/picts",
-				"patcherrelativepath" : "../../../../../../../Applications/Max.app/Contents/Resources/C74/media/max/picts",
+				"bootpath" : "C74:/media/max/picts",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AS_knob2.png",
-				"bootpath" : "/Applications/Max.app/Contents/Resources/C74/media/max/picts",
-				"patcherrelativepath" : "../../../../../../../Applications/Max.app/Contents/Resources/C74/media/max/picts",
+				"bootpath" : "C74:/media/max/picts",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
@@ -589,6 +587,10 @@
 			}
 , 			{
 				"name" : "r2d.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "strlen.mxo",
 				"type" : "iLaX"
 			}
  ],

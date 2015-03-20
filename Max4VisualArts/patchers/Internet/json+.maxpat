@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -362,7 +362,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 351.0, 175.0, 191.0, 23.0 ],
+					"patching_rect" : [ 351.0, 173.0, 191.0, 23.0 ],
 					"style" : "",
 					"text" : "get drivetrain::cassette::cogs[4]"
 				}
@@ -392,7 +392,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 406.0, 257.0, 50.0, 22.0 ],
+					"patching_rect" : [ 406.0, 264.0, 50.0, 22.0 ],
 					"style" : "",
 					"text" : "16"
 				}
@@ -407,7 +407,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 399.0, 231.0, 57.0, 22.0 ],
+					"patching_rect" : [ 399.0, 238.0, 57.0, 22.0 ],
 					"style" : "",
 					"text" : "zl slice 1"
 				}
@@ -483,7 +483,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "dictionary", "", "", "" ],
-					"patching_rect" : [ 351.0, 202.0, 164.0, 24.0 ],
+					"patching_rect" : [ 351.0, 209.0, 164.0, 24.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
 						"parameter_enable" : 0
@@ -627,16 +627,13 @@
 			}
 , 			{
 				"box" : 				{
-					"color" : [ 0.545098, 0.85098, 0.592157, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-51",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 32.5, 287.0, 52.0, 22.0 ],
-					"style" : "",
+					"style" : "default",
 					"text" : "dict.iter"
 				}
 
@@ -1749,10 +1746,10 @@
 		"styles" : [ 			{
 				"name" : "m4va",
 				"default" : 				{
-					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
 					"fontname" : [ "Arial" ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontsize" : [ 12.0 ]
+					"fontsize" : [ 12.0 ],
+					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1763,10 +1760,10 @@
 				"default" : 				{
 					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"fontsize" : [ 14.0 ],
 					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontsize" : [ 14.0 ]
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
