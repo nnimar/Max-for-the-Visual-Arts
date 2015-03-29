@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -175,7 +175,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -368,7 +368,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 41.0, 45.0, 125.0, 20.0 ],
+									"patching_rect" : [ 41.0, 45.0, 126.0, 20.0 ],
 									"style" : "",
 									"text_width" : 62.0
 								}
@@ -385,7 +385,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 41.0, 63.0, 125.0, 20.0 ],
+									"patching_rect" : [ 41.0, 63.0, 126.0, 20.0 ],
 									"style" : "",
 									"text_width" : 78.0
 								}
@@ -722,12 +722,12 @@
 						"styles" : [ 							{
 								"name" : "m4vatextbutton",
 								"default" : 								{
-									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 									"fontsize" : [ 14.0 ],
-									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
+									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+									"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -889,7 +889,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -930,7 +930,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 161.0, 187.0, 36.0, 20.0 ],
+									"patching_rect" : [ 161.0, 187.0, 36.0, 22.0 ],
 									"style" : "",
 									"text" : "sel 1"
 								}
@@ -945,7 +945,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 248.0, 334.0, 59.0, 20.0 ],
+									"patching_rect" : [ 248.0, 334.0, 59.0, 22.0 ],
 									"style" : "",
 									"text" : "onemess"
 								}
@@ -960,7 +960,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 248.0, 263.0, 36.0, 20.0 ],
+									"patching_rect" : [ 248.0, 263.0, 36.0, 22.0 ],
 									"style" : "",
 									"text" : "sel 2"
 								}
@@ -975,7 +975,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 234.0, 110.0, 64.0, 20.0 ],
+									"patching_rect" : [ 234.0, 110.0, 64.0, 22.0 ],
 									"style" : "",
 									"text" : "sel 1"
 								}
@@ -990,7 +990,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 150.0, 111.0, 57.0, 20.0 ],
+									"patching_rect" : [ 150.0, 111.0, 57.0, 22.0 ],
 									"style" : "",
 									"text" : "sel 1"
 								}
@@ -1005,7 +1005,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 150.0, 83.0, 103.0, 20.0 ],
+									"patching_rect" : [ 150.0, 83.0, 103.0, 22.0 ],
 									"style" : "",
 									"text" : "gate 2"
 								}
@@ -1020,7 +1020,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 86.0, 101.0, 18.0, 18.0 ],
+									"patching_rect" : [ 86.0, 101.0, 18.0, 22.0 ],
 									"style" : "",
 									"text" : "1"
 								}
@@ -1035,7 +1035,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 61.0, 101.0, 18.0, 18.0 ],
+									"patching_rect" : [ 61.0, 101.0, 18.0, 22.0 ],
 									"style" : "",
 									"text" : "0"
 								}
@@ -1050,7 +1050,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 59.0, 74.0, 44.0, 20.0 ],
+									"patching_rect" : [ 59.0, 74.0, 44.0, 22.0 ],
 									"style" : "",
 									"text" : "sel 0"
 								}
@@ -1065,7 +1065,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 150.0, 219.0, 34.0, 18.0 ],
+									"patching_rect" : [ 150.0, 219.0, 34.0, 22.0 ],
 									"style" : "",
 									"text" : "start"
 								}
@@ -1080,7 +1080,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 188.0, 219.0, 33.0, 18.0 ],
+									"patching_rect" : [ 188.0, 219.0, 33.0, 22.0 ],
 									"style" : "",
 									"text" : "stop"
 								}
@@ -1095,7 +1095,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 20.0, 184.0, 60.0, 20.0 ],
+									"patching_rect" : [ 20.0, 184.0, 60.0, 22.0 ],
 									"style" : "",
 									"text" : "gate 2"
 								}
@@ -1110,7 +1110,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 279.30127, 303.0, 39.0, 18.0 ],
+									"patching_rect" : [ 279.30127, 303.0, 39.0, 22.0 ],
 									"style" : "",
 									"text" : "close"
 								}
@@ -1125,7 +1125,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 234.0, 303.0, 37.0, 18.0 ],
+									"patching_rect" : [ 234.0, 303.0, 37.0, 22.0 ],
 									"style" : "",
 									"text" : "open"
 								}
@@ -1133,6 +1133,7 @@
 							}
 , 							{
 								"box" : 								{
+									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-57",
@@ -1140,9 +1141,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 61.0, 375.2258, 231.0, 20.0 ],
+									"patching_rect" : [ 61.0, 375.2258, 168.0, 22.0 ],
 									"style" : "",
-									"text" : "jit.qt.grab 320 240 @vmode 2 @unique 1"
+									"text" : "jit.qt.grab 320 240 @unique 1"
 								}
 
 							}
@@ -1168,7 +1169,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 61.0, 156.0, 65.0, 20.0 ],
+									"patching_rect" : [ 61.0, 156.0, 65.0, 22.0 ],
 									"style" : "",
 									"text" : "qmetro 40"
 								}
@@ -1183,7 +1184,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 20.0, 281.0, 176.0, 20.0 ],
+									"patching_rect" : [ 20.0, 281.0, 176.0, 22.0 ],
 									"style" : "",
 									"text" : "jit.qt.movie 320 240 @unique 1"
 								}
@@ -1543,12 +1544,12 @@
 						"styles" : [ 							{
 								"name" : "m4vatextbutton",
 								"default" : 								{
-									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 									"fontsize" : [ 14.0 ],
-									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
+									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+									"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1706,7 +1707,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -2495,8 +2496,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "cv.jit.blobs.bounds.draw.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/externals/cv.jit-support/Abstractions",
-				"patcherrelativepath" : "../../externals/cv.jit-support/Abstractions",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/externals/cv/cv.jit-support/Abstractions",
+				"patcherrelativepath" : "../../externals/cv/cv.jit-support/Abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2509,8 +2510,8 @@
 			}
 , 			{
 				"name" : "cv.jit.close.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/externals/cv.jit-support/Abstractions",
-				"patcherrelativepath" : "../../externals/cv.jit-support/Abstractions",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/externals/cv/cv.jit-support/Abstractions",
+				"patcherrelativepath" : "../../externals/cv/cv.jit-support/Abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2541,17 +2542,21 @@
 				"name" : "cv.jit.dilate.mxo",
 				"type" : "iLaX"
 			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
+			}
  ],
 		"embedsnapshot" : 0,
 		"styles" : [ 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
-					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"fontsize" : [ 14.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
