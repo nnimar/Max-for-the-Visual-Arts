@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -50,7 +50,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -668,9 +668,9 @@
 								"name" : "m4va",
 								"default" : 								{
 									"fontname" : [ "Arial" ],
-									"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
+									"fontsize" : [ 12.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontsize" : [ 12.0 ]
+									"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -700,6 +700,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-142",
@@ -708,9 +709,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 9.689697, 367.0, 109.0, 35.0 ],
+					"patching_rect" : [ 9.689697, 367.0, 122.0, 35.0 ],
 					"style" : "",
-					"text" : "jit.window maximo @fsmenubar 0"
+					"text" : "jit.window playlist @fsmenubar 0"
 				}
 
 			}
@@ -772,7 +773,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -1441,30 +1442,30 @@
 									"outputmode" : [ 1 ],
 									"out_name" : [ "u001000482" ],
 									"dim" : [ 1, 1 ],
-									"time_secs" : [ 0.0 ],
+									"loopreport" : [ 0 ],
 									"moviefile" : [ "" ],
+									"usesrcrect" : [ 0 ],
 									"loopstart" : [ 0 ],
 									"looppoints" : [ 0, 0 ],
-									"position" : [ 0.0 ],
-									"rate" : [ 1.0 ],
-									"adapt" : [ 1 ],
-									"vol" : [ 1.0 ],
-									"unique" : [ 0 ],
-									"drawto" : [ "" ],
 									"colormode" : [ "argb" ],
-									"usedstrect" : [ 0 ],
-									"framereport" : [ 0 ],
-									"loopend" : [ 0 ],
-									"time" : [ 0 ],
-									"automatic" : [ 0 ],
-									"dstrect" : [ 0, 0, 1, 1 ],
-									"output_texture" : [ 0 ],
-									"usesrcrect" : [ 0 ],
-									"texture_name" : [ "u412000480" ],
+									"position" : [ 0.0 ],
+									"time_secs" : [ 0.0 ],
+									"vol" : [ 1.0 ],
 									"srcrect" : [ 0, 0, 1, 1 ],
-									"autostart" : [ 1 ],
+									"texture_name" : [ "u412000480" ],
+									"unique" : [ 0 ],
 									"engine" : [ "avf" ],
-									"loopreport" : [ 0 ],
+									"usedstrect" : [ 0 ],
+									"drawto" : [ "" ],
+									"time" : [ 0 ],
+									"loopend" : [ 0 ],
+									"autostart" : [ 1 ],
+									"dstrect" : [ 0, 0, 1, 1 ],
+									"automatic" : [ 0 ],
+									"rate" : [ 1.0 ],
+									"output_texture" : [ 0 ],
+									"framereport" : [ 0 ],
+									"adapt" : [ 1 ],
 									"interp" : [ 0 ]
 								}
 
@@ -1478,30 +1479,30 @@
 									"outputmode" : [ 1 ],
 									"out_name" : [ "u001000482" ],
 									"dim" : [ 1, 1 ],
-									"time_secs" : [ 0.0 ],
+									"loopreport" : [ 0 ],
 									"moviefile" : [ "" ],
+									"usesrcrect" : [ 0 ],
 									"loopstart" : [ 0 ],
 									"looppoints" : [ 0, 0 ],
-									"position" : [ 0.0 ],
-									"rate" : [ 1.0 ],
-									"adapt" : [ 1 ],
-									"vol" : [ 1.0 ],
-									"unique" : [ 0 ],
-									"drawto" : [ "" ],
 									"colormode" : [ "argb" ],
-									"usedstrect" : [ 0 ],
-									"framereport" : [ 0 ],
-									"loopend" : [ 0 ],
-									"time" : [ 0 ],
-									"automatic" : [ 0 ],
-									"dstrect" : [ 0, 0, 1, 1 ],
-									"output_texture" : [ 0 ],
-									"usesrcrect" : [ 0 ],
-									"texture_name" : [ "u412000480" ],
+									"position" : [ 0.0 ],
+									"time_secs" : [ 0.0 ],
+									"vol" : [ 1.0 ],
 									"srcrect" : [ 0, 0, 1, 1 ],
-									"autostart" : [ 1 ],
+									"texture_name" : [ "u412000480" ],
+									"unique" : [ 0 ],
 									"engine" : [ "avf" ],
-									"loopreport" : [ 0 ],
+									"usedstrect" : [ 0 ],
+									"drawto" : [ "" ],
+									"time" : [ 0 ],
+									"loopend" : [ 0 ],
+									"autostart" : [ 1 ],
+									"dstrect" : [ 0, 0, 1, 1 ],
+									"automatic" : [ 0 ],
+									"rate" : [ 1.0 ],
+									"output_texture" : [ 0 ],
+									"framereport" : [ 0 ],
+									"adapt" : [ 1 ],
 									"interp" : [ 0 ]
 								}
 
@@ -1515,30 +1516,30 @@
 									"outputmode" : [ 1 ],
 									"out_name" : [ "u001000482" ],
 									"dim" : [ 1, 1 ],
-									"time_secs" : [ 0.0 ],
+									"loopreport" : [ 0 ],
 									"moviefile" : [ "" ],
+									"usesrcrect" : [ 0 ],
 									"loopstart" : [ 0 ],
 									"looppoints" : [ 0, 0 ],
-									"position" : [ 0.0 ],
-									"rate" : [ 1.0 ],
-									"adapt" : [ 1 ],
-									"vol" : [ 1.0 ],
-									"unique" : [ 0 ],
-									"drawto" : [ "" ],
 									"colormode" : [ "argb" ],
-									"usedstrect" : [ 0 ],
-									"framereport" : [ 0 ],
-									"loopend" : [ 0 ],
-									"time" : [ 0 ],
-									"automatic" : [ 0 ],
-									"dstrect" : [ 0, 0, 1, 1 ],
-									"output_texture" : [ 0 ],
-									"usesrcrect" : [ 0 ],
-									"texture_name" : [ "u412000480" ],
+									"position" : [ 0.0 ],
+									"time_secs" : [ 0.0 ],
+									"vol" : [ 1.0 ],
 									"srcrect" : [ 0, 0, 1, 1 ],
-									"autostart" : [ 1 ],
+									"texture_name" : [ "u412000480" ],
+									"unique" : [ 0 ],
 									"engine" : [ "avf" ],
-									"loopreport" : [ 0 ],
+									"usedstrect" : [ 0 ],
+									"drawto" : [ "" ],
+									"time" : [ 0 ],
+									"loopend" : [ 0 ],
+									"autostart" : [ 1 ],
+									"dstrect" : [ 0, 0, 1, 1 ],
+									"automatic" : [ 0 ],
+									"rate" : [ 1.0 ],
+									"output_texture" : [ 0 ],
+									"framereport" : [ 0 ],
+									"adapt" : [ 1 ],
 									"interp" : [ 0 ]
 								}
 
@@ -1716,7 +1717,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "Max4VA-Title.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
-				"patcherrelativepath" : "../../Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
+				"patcherrelativepath" : "../zpatches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1730,9 +1731,9 @@
 				"name" : "m4va",
 				"default" : 				{
 					"fontname" : [ "Arial" ],
-					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
+					"fontsize" : [ 12.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontsize" : [ 12.0 ]
+					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ]
 				}
 ,
 				"parentstyle" : "",

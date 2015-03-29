@@ -1,0 +1,28 @@
+{
+	"Twitter" : 	{
+		"api_key" : "fYWHUlNyMYQLHS7LU7r8ztVix",
+		"api_secret" : "8uljfI6AOT6y5c6OyJ1UsYU76DvHrxe244xOUVZy2YFXH4doUr",
+		"access_token" : "28599351-A0V7B2X19Hc8N2x3p1JFcyBsXzi9NwmROh6vBTmjr",
+		"access_secret" : "E1X6D0WWTaXvH9zkU7TPc0MoT5QSkvk8gJwKEwzYobvos",
+		"owner" : "nnimar",
+		"owner_id" : "28599351",
+		"url" : "https://apps.twitter.com/app/6413057"
+	}
+	,
+	"Instagram" : 	{
+		"client_id" : "77e78ac634b34472a07b5344da6c3c3f",
+		"client_secret" : "dd7aa15cbff1144d0a3fadc1f45de1d6d",
+		"token" : "21342056.77e78ac.3cabc8d9f3914478870138cfcdb27951"
+	}
+	,
+	"Xively" : 	{
+		"api" : "wyJxRikw5QNrXLTvFYa4pUpX5tVc3Jpq49g8k224C5xqphBM",
+		"feed_id" : "14348",
+		"url" : "https://api.xively.com/v2/feeds/14348"
+	}	
+	,
+	"Soundcloud" : 	{
+		"api" : "af21297cf788f1b818d9597d8a54109b",
+		"secret" : "268d6fe1ec7e7676ea16cc3116b2645d"
+	}
+}

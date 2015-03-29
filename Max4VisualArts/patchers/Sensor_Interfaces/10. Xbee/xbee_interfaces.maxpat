@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -98,7 +98,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -562,13 +562,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-3",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 250.0, 73.0, 280.0, 38.0 ],
+					"patching_rect" : [ 249.0, 71.0, 297.0, 53.0 ],
 					"style" : "",
-					"text" : "see Applications>Max 6 .1>packages\n>IMIpatches > patchers > Sensor Interfaces"
+					"text" : "see Users > Shared > Max 7 > Packages\n>Max4VisualArts > patchers > Sensor Interfaces"
 				}
 
 			}

@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 2.0, 44.0, 1032.0, 790.0 ],
+		"rect" : [ 0.0, 44.0, 1028.0, 762.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,13 +40,68 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-65",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 869.5, 70.0, 59.0, 22.0 ],
+					"style" : "",
+					"text" : "s api-key"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 869.5, 9.0, 147.0, 22.0 ],
+					"style" : "default",
+					"text" : "your-soundcloud-client_id"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-11",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 121.5, 181.0, 57.0, 22.0 ],
+					"style" : "",
+					"text" : "r api-key"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 869.5, 40.0, 105.0, 22.0 ],
+					"style" : "",
+					"text" : "m4va.soundcloud"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"hidden" : 1,
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 58.0, 288.5, 108.0, 22.0 ],
+					"patching_rect" : [ 58.0, 267.0, 108.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend defaultdir"
 				}
@@ -63,7 +118,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 172.0, 288.5, 92.0, 22.0 ],
+					"patching_rect" : [ 172.0, 267.0, 92.0, 22.0 ],
 					"style" : "",
 					"text" : "loadmess /tmp/"
 				}
@@ -858,20 +913,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"id" : "obj-65",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 25.5, 202.0, 59.0, 22.0 ],
-					"style" : "",
-					"text" : "s api-key"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-61",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -907,7 +948,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 231.0, 202.0, 160.0, 22.0 ],
+					"patching_rect" : [ 231.0, 181.0, 160.0, 22.0 ],
 					"style" : "",
 					"text" : "&url=http://soundcloud.com/"
 				}
@@ -920,7 +961,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 340.5, 158.0, 98.0, 22.0 ],
+					"patching_rect" : [ 340.5, 147.5, 98.0, 22.0 ],
 					"style" : "default",
 					"text" : "soundtaiwan016"
 				}
@@ -933,7 +974,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 63.5, 468.0, 20.0, 20.0 ],
+					"patching_rect" : [ 63.5, 446.5, 20.0, 20.0 ],
 					"style" : ""
 				}
 
@@ -947,39 +988,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 216.0, 524.0, 124.0, 33.0 ],
+					"patching_rect" : [ 216.0, 502.5, 124.0, 33.0 ],
 					"style" : "",
 					"text" : "this js parses the JSON data into fields"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-15",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 446.0, 150.5, 73.0, 33.0 ],
-					"style" : "",
-					"text" : "soundcloud user ID"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-8",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 446.0, 108.0, 76.0, 33.0 ],
-					"style" : "",
-					"text" : "soundcloud API client_id"
 				}
 
 			}
@@ -1123,7 +1134,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "jit_matrix", "jit_matrix", "" ],
-					"patching_rect" : [ 25.5, 438.0, 57.0, 22.0 ],
+					"patching_rect" : [ 25.5, 416.5, 57.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.textfile"
 				}
@@ -1217,7 +1228,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 64.0, 604.0, 59.0, 22.0 ],
+					"patching_rect" : [ 64.0, 582.5, 59.0, 22.0 ],
 					"style" : "",
 					"text" : "s user_id"
 				}
@@ -1231,7 +1242,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 619.625, 78.0, 198.0, 20.0 ],
+					"patching_rect" : [ 617.625, 78.0, 198.0, 20.0 ],
 					"style" : "",
 					"text" : "get track numbers for the user ID"
 				}
@@ -1245,7 +1256,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 729.0, 573.5, 33.0, 20.0 ],
+					"patching_rect" : [ 729.0, 574.5, 33.0, 20.0 ],
 					"style" : "",
 					"text" : "title"
 				}
@@ -1259,7 +1270,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 729.0, 621.5, 48.0, 20.0 ],
+					"patching_rect" : [ 728.0, 622.5, 48.0, 20.0 ],
 					"style" : "",
 					"text" : "track id"
 				}
@@ -1472,7 +1483,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 84.5, 78.0, 106.0, 20.0 ],
+					"patching_rect" : [ 78.5, 78.0, 106.0, 20.0 ],
 					"style" : "",
 					"text" : "resolve username"
 				}
@@ -1486,7 +1497,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 216.0, 568.5, 109.0, 20.0 ],
+					"patching_rect" : [ 216.0, 547.0, 109.0, 20.0 ],
 					"style" : "",
 					"text" : "number of tracks"
 				}
@@ -1500,7 +1511,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 216.0, 604.0, 119.0, 20.0 ],
+					"patching_rect" : [ 216.0, 582.5, 119.0, 20.0 ],
 					"style" : "",
 					"text" : "soundcloud user-id "
 				}
@@ -1515,7 +1526,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 134.0, 604.0, 75.0, 22.0 ],
+					"patching_rect" : [ 134.0, 582.5, 75.0, 22.0 ],
 					"style" : "",
 					"text" : "-"
 				}
@@ -1530,7 +1541,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 159.0, 565.5, 50.0, 22.0 ],
+					"patching_rect" : [ 159.0, 544.0, 50.0, 22.0 ],
 					"style" : "",
 					"text" : "-"
 				}
@@ -1545,7 +1556,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 64.0, 499.5, 129.0, 22.0 ],
+					"patching_rect" : [ 64.0, 478.0, 129.0, 22.0 ],
 					"style" : "",
 					"text" : "read /tmp/sc-user.json"
 				}
@@ -1560,7 +1571,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 19.25, 499.5, 39.0, 22.0 ],
+					"patching_rect" : [ 19.25, 478.0, 39.0, 22.0 ],
 					"style" : "",
 					"text" : "clear"
 				}
@@ -1575,7 +1586,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 64.0, 529.5, 147.0, 22.0 ],
+					"patching_rect" : [ 64.0, 508.0, 147.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"filename" : "sc-process-user-data.js",
 						"parameter_enable" : 0
@@ -1593,7 +1604,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 25.5, 343.5, 20.0, 20.0 ],
+					"patching_rect" : [ 25.5, 322.0, 20.0, 20.0 ],
 					"style" : ""
 				}
 
@@ -1607,7 +1618,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 25.5, 369.0, 63.0, 22.0 ],
+					"patching_rect" : [ 25.5, 347.5, 63.0, 22.0 ],
 					"style" : "",
 					"text" : "delay 100"
 				}
@@ -1622,7 +1633,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 25.5, 396.0, 130.0, 22.0 ],
+					"patching_rect" : [ 25.5, 374.5, 130.0, 22.0 ],
 					"style" : "",
 					"text" : "write /tmp/sc-user.json"
 				}
@@ -1642,19 +1653,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-6",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 25.5, 158.0, 147.0, 22.0 ],
-					"style" : "default",
-					"text" : "your-soundcloud-client_id"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-4",
@@ -1662,7 +1660,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 231.5, 312.0, 22.0 ],
+					"patching_rect" : [ 12.0, 210.0, 312.0, 22.0 ],
 					"style" : "",
 					"text" : "https://api.soundcloud.com/resolve.json?consumer_key="
 				}
@@ -1734,7 +1732,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.0, 260.5, 347.5, 22.0 ],
+					"patching_rect" : [ 12.0, 239.0, 347.5, 22.0 ],
 					"style" : "",
 					"text" : "sprintf download %s%s%s%s matrix"
 				}
@@ -1749,7 +1747,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "" ],
-					"patching_rect" : [ 12.0, 315.5, 46.0, 22.0 ],
+					"patching_rect" : [ 12.0, 294.0, 46.0, 22.0 ],
 					"style" : "",
 					"text" : "t b b l"
 				}
@@ -1762,7 +1760,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 12.0, 288.5, 41.0, 22.0 ],
+					"patching_rect" : [ 12.0, 267.0, 41.0, 22.0 ],
 					"style" : "default",
 					"text" : "jit.uldl"
 				}
@@ -1776,7 +1774,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 140.0, 565.5, 69.0, 22.0 ],
+					"patching_rect" : [ 140.0, 544.0, 69.0, 22.0 ],
 					"style" : "",
 					"text" : "loadmess -"
 				}
@@ -1838,7 +1836,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 58.0, 78.0, 20.0, 20.0 ],
+					"patching_rect" : [ 55.0, 78.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"style" : "",
 					"text" : "2",
@@ -1865,7 +1863,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 593.625, 78.0, 20.0, 20.0 ],
+					"patching_rect" : [ 592.625, 78.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"style" : "",
 					"text" : "3",
@@ -1892,7 +1890,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 416.583374, 114.5, 20.0, 20.0 ],
+					"patching_rect" : [ 836.5, 9.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"style" : "",
 					"text" : "1",
@@ -1931,7 +1929,7 @@
 					"destination" : [ "obj-41", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 116.166664, 558.5, 199.5, 558.5 ],
+					"midpoints" : [ 116.166664, 537.0, 199.5, 537.0 ],
 					"source" : [ "obj-1", 1 ]
 				}
 
@@ -1941,7 +1939,7 @@
 					"destination" : [ "obj-73", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 73.5, 596.25, 199.5, 596.25 ],
+					"midpoints" : [ 73.5, 574.75, 199.5, 574.75 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -2006,6 +2004,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-109", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-75", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-11", 0 ]
 				}
 
 			}
@@ -2305,7 +2312,7 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 28.75, 524.0, 73.5, 524.0 ],
+					"midpoints" : [ 28.75, 502.5, 73.5, 502.5 ],
 					"source" : [ "obj-29", 0 ]
 				}
 
@@ -2393,16 +2400,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 131.0, 150.5, 35.0, 150.5 ],
-					"source" : [ "obj-47", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-47", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2421,16 +2418,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-75", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 35.0, 190.25, 131.0, 190.25 ],
-					"source" : [ "obj-6", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-107", 3 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2443,7 +2430,7 @@
 					"destination" : [ "obj-10", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 48.5, 428.75, 35.0, 428.75 ],
+					"midpoints" : [ 48.5, 407.25, 35.0, 407.25 ],
 					"source" : [ "obj-64", 2 ]
 				}
 
@@ -2499,6 +2486,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-76", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-65", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-8", 0 ]
 				}
 
 			}
@@ -2580,6 +2576,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "m4va.soundcloud.maxpat",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/Internet/api_configs",
+				"patcherrelativepath" : "./api_configs",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "strlen.mxo",
 				"type" : "iLaX"
 			}
@@ -2606,9 +2609,9 @@
 , 			{
 				"name" : "m4va",
 				"default" : 				{
-					"fontname" : [ "Arial" ],
 					"fontsize" : [ 12.0 ],
 					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
+					"fontname" : [ "Arial" ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
@@ -2618,11 +2621,11 @@
 , 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
+					"fontsize" : [ 14.0 ],
 					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"fontsize" : [ 14.0 ],
-					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,

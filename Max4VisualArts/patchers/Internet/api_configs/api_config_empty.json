@@ -1,0 +1,30 @@
+{
+	"Twitter" : 	{
+		"api_key" : "",
+		"api_secret" : "",
+		"access_token" : "",
+		"access_secret" : "",
+		"owner" : "",
+		"owner_id" : "",
+		"url" : ""
+	}
+	,
+	"Instagram" : 	{
+		"client_id" : "",
+		"client_secret" : "",
+		"token" : ""
+	}
+	
+	,
+	"Xively" : 	{
+		"api" : "",
+		"feed_id" : ""
+		"url" : ""
+	}
+		
+	,
+	"Soundcloud" : 	{
+		"api" : "",
+		"secret" : ""
+	}
+}
