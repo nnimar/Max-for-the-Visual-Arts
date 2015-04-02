@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -265,7 +265,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u229007993"
+					"varname" : "u358001306"
 				}
 
 			}
@@ -403,7 +403,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -499,7 +499,7 @@
 ,
 									"style" : "",
 									"text" : "autopattr",
-									"varname" : "u080007992"
+									"varname" : "u049001305"
 								}
 
 							}
@@ -594,7 +594,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 419.5, 170.5, 91.0, 35.0 ],
+					"patching_rect" : [ 375.5, 160.0, 91.0, 35.0 ],
 					"style" : "",
 					"text" : "loadmess read settings.json",
 					"varname" : "u789009280[2]"
@@ -828,12 +828,14 @@
 ,
 					"style" : "",
 					"text" : "pattrstorage @greedy 1 @fileusagemode 1 @savemode 2",
-					"varname" : "u813007984"
+					"varname" : "u875001298"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"bgcolor2" : [ 0.886275, 0.886275, 0.886275, 0.21 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.0,
 					"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -843,6 +845,7 @@
 					"bgfillcolor_type" : "gradient",
 					"fontname" : "Gill Sans",
 					"fontsize" : 20.0,
+					"gradient" : 1,
 					"id" : "obj-84",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -859,6 +862,8 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"bgcolor2" : [ 0.886275, 0.886275, 0.886275, 0.21 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.0,
 					"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -868,6 +873,7 @@
 					"bgfillcolor_type" : "gradient",
 					"fontname" : "Gill Sans",
 					"fontsize" : 20.0,
+					"gradient" : 1,
 					"id" : "obj-68",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -884,6 +890,8 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"bgcolor2" : [ 0.886275, 0.886275, 0.886275, 0.21 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.0,
 					"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -893,6 +901,7 @@
 					"bgfillcolor_type" : "gradient",
 					"fontname" : "Gill Sans",
 					"fontsize" : 20.0,
+					"gradient" : 1,
 					"id" : "obj-69",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -909,6 +918,8 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"bgcolor2" : [ 0.886275, 0.886275, 0.886275, 0.21 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.0,
 					"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -918,6 +929,7 @@
 					"bgfillcolor_type" : "gradient",
 					"fontname" : "Gill Sans",
 					"fontsize" : 20.0,
+					"gradient" : 1,
 					"id" : "obj-58",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -1056,7 +1068,7 @@
 					"destination" : [ "obj-99", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 429.0, 209.75, 84.5, 209.75 ],
+					"midpoints" : [ 385.0, 209.75, 84.5, 209.75 ],
 					"source" : [ "obj-101", 0 ]
 				}
 
@@ -1369,8 +1381,44 @@
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
+			}
  ],
-		"embedsnapshot" : 0
+		"embedsnapshot" : 0,
+		"styles" : [ 			{
+				"name" : "m4va",
+				"default" : 				{
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 12.0 ],
+					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "m4vatextbutton",
+				"default" : 				{
+					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"fontsize" : [ 14.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "simple",
+				"parentstyle" : "",
+				"multi" : 0
+			}
+ ]
 	}
 
 }

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -70,7 +70,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 14.0, 241.0, 112.0, 51.0 ],
+					"patching_rect" : [ 7.0, 240.879303, 112.0, 51.0 ],
 					"style" : "",
 					"text" : "enter the receiver's IP address"
 				}
@@ -86,7 +86,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 14.0, 321.120697, 111.0, 23.0 ],
+					"patching_rect" : [ 7.0, 321.0, 126.0, 23.0 ],
 					"style" : "",
 					"text_width" : 48.0
 				}
@@ -102,7 +102,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 14.0, 296.0, 111.0, 23.0 ],
+					"patching_rect" : [ 7.0, 295.879303, 126.0, 23.0 ],
 					"style" : "",
 					"text_width" : 39.0
 				}
@@ -137,7 +137,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -580,7 +580,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -626,7 +626,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 1,
+											"revision" : 2,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -914,12 +914,12 @@
 						"styles" : [ 							{
 								"name" : "m4vatextbutton",
 								"default" : 								{
-									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-									"fontsize" : [ 14.0 ],
 									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
+									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"fontsize" : [ 14.0 ],
+									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1015,9 +1015,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 308.0, 346.0, 181.0, 21.0 ],
+					"patching_rect" : [ 313.0, 346.0, 118.0, 21.0 ],
 					"style" : "",
-					"text" : "you can send messages here too"
+					"text" : "send messages here"
 				}
 
 			}
@@ -1029,7 +1029,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 234.0, 440.0, 24.0, 19.0 ],
+					"patching_rect" : [ 239.0, 440.0, 24.0, 19.0 ],
 					"style" : "",
 					"text" : "ms"
 				}
@@ -1044,7 +1044,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 143.0, 321.0, 61.0, 21.0 ],
+					"patching_rect" : [ 148.0, 321.0, 61.0, 21.0 ],
 					"style" : "",
 					"text" : "getlatency"
 				}
@@ -1058,7 +1058,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 130.0, 59.0, 20.0, 20.0 ],
+					"patching_rect" : [ 135.0, 59.0, 20.0, 20.0 ],
 					"style" : ""
 				}
 
@@ -1072,7 +1072,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 130.0, 85.0, 63.0, 21.0 ],
+					"patching_rect" : [ 135.0, 85.0, 63.0, 21.0 ],
 					"style" : "",
 					"text" : "qmetro 40"
 				}
@@ -1089,7 +1089,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 185.5, 440.0, 50.0, 21.0 ],
+					"patching_rect" : [ 190.5, 440.0, 50.0, 21.0 ],
 					"style" : "",
 					"triscale" : 0.9
 				}
@@ -1109,7 +1109,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -1284,7 +1284,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 169.0, 120.0, 52.0, 21.0 ],
+					"patching_rect" : [ 174.0, 120.0, 52.0, 21.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1307,7 +1307,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 129.0, 440.0, 20.0, 20.0 ],
+					"patching_rect" : [ 134.0, 440.0, 20.0, 20.0 ],
 					"style" : ""
 				}
 
@@ -1321,7 +1321,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 129.0, 414.0, 132.0, 21.0 ],
+					"patching_rect" : [ 134.0, 414.0, 132.0, 21.0 ],
 					"style" : "",
 					"text" : "route connected latency"
 				}
@@ -1336,7 +1336,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 129.0, 372.0, 198.0, 29.0 ],
+					"patching_rect" : [ 134.0, 372.0, 198.0, 29.0 ],
 					"style" : "",
 					"text" : "jit.net.send"
 				}
@@ -1351,7 +1351,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 261.0, 438.0, 106.0, 23.0 ],
+					"patching_rect" : [ 266.0, 438.0, 106.0, 23.0 ],
 					"style" : "",
 					"text" : "network latency"
 				}
@@ -1365,7 +1365,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 169.0, 164.0, 320.0, 120.0 ]
+					"patching_rect" : [ 174.0, 164.0, 320.0, 120.0 ]
 				}
 
 			}
@@ -1375,7 +1375,7 @@
 					"destination" : [ "obj-32", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 23.5, 363.5, 138.5, 363.5 ],
+					"midpoints" : [ 16.5, 363.5, 143.5, 363.5 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -1385,7 +1385,7 @@
 					"destination" : [ "obj-32", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 152.5, 363.0, 138.5, 363.0 ],
+					"midpoints" : [ 157.5, 363.0, 143.5, 363.0 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -1404,7 +1404,7 @@
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 139.5, 302.0, 152.5, 302.0 ],
+					"midpoints" : [ 144.5, 302.0, 157.5, 302.0 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -1414,7 +1414,7 @@
 					"destination" : [ "obj-18", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 139.5, 113.0, 178.5, 113.0 ],
+					"midpoints" : [ 144.5, 113.0, 183.5, 113.0 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -1424,7 +1424,7 @@
 					"destination" : [ "obj-31", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 178.5, 149.5, 178.5, 149.5 ],
+					"midpoints" : [ 183.5, 149.5, 183.5, 149.5 ],
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -1434,7 +1434,7 @@
 					"destination" : [ "obj-32", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 178.5, 152.0, 138.5, 152.0 ],
+					"midpoints" : [ 183.5, 152.0, 143.5, 152.0 ],
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -1444,7 +1444,7 @@
 					"destination" : [ "obj-32", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 23.5, 363.060364, 138.5, 363.060364 ],
+					"midpoints" : [ 16.5, 363.060364, 143.5, 363.060364 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -1510,6 +1510,10 @@
 				"patcherrelativepath" : "../zpatches",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"embedsnapshot" : 0

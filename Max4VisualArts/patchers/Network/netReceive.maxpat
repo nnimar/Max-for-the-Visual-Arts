@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 827.0, 100.0, 635.0, 443.0 ],
+		"rect" : [ 827.0, 100.0, 634.0, 464.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 13.0,
@@ -60,6 +60,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-13",
@@ -67,7 +68,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "int", "bang" ],
-					"patching_rect" : [ 459.0, 112.0, 49.0, 22.0 ],
+					"patching_rect" : [ 459.0, 112.0, 44.0, 22.0 ],
 					"style" : "",
 					"text" : "t 1 0 b"
 				}
@@ -87,7 +88,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 455.0, 247.0, 177.0, 66.0 ],
 					"style" : "",
-					"text" : "select en0 to see the IP of this computer, then use it in the\nIMI netSend patch."
+					"text" : "select en0 to see the IP of this computer, then use it in the\nm4va netSend patch."
 				}
 
 			}
@@ -95,7 +96,7 @@
 				"box" : 				{
 					"fontsize" : 14.0,
 					"id" : "obj-16",
-					"items" : [ "fe80:0:0:0:4e8d:79ff:fedf:88bc%4", ",", "192.168.0.3" ],
+					"items" : [ "fe80:0:0:0:4e8d:79ff:fedf:88bc%4", ",", "10.166.1.0" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -177,7 +178,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 40.0, 112.625, 106.0, 23.0 ],
+					"patching_rect" : [ 23.0, 106.625, 121.0, 23.0 ],
 					"style" : "",
 					"text_width" : 51.0
 				}
@@ -193,7 +194,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 25.0, 77.0, 85.0, 23.0 ],
+					"patching_rect" : [ 23.0, 79.0, 121.0, 23.0 ],
 					"style" : "",
 					"text_width" : 37.0
 				}
@@ -209,7 +210,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 407.0, 374.0, 101.0, 24.0 ],
+					"patching_rect" : [ 406.0, 398.0, 101.0, 24.0 ],
 					"style" : "",
 					"text" : "receive audio"
 				}
@@ -228,7 +229,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -445,7 +446,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 512.0, 374.0, 109.0, 24.0 ],
+					"patching_rect" : [ 511.0, 398.0, 109.0, 24.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -470,7 +471,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 367.0, 409.0, 122.0, 24.0 ],
+					"patching_rect" : [ 366.0, 433.0, 122.0, 24.0 ],
 					"style" : "",
 					"text" : "receive messages"
 				}
@@ -489,7 +490,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -535,7 +536,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 1,
+											"revision" : 2,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -997,7 +998,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 491.0, 409.0, 132.0, 24.0 ],
+					"patching_rect" : [ 490.0, 433.0, 132.0, 24.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1022,7 +1023,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 23.0, 397.0, 58.0, 34.0 ],
+					"patching_rect" : [ 23.0, 423.0, 58.0, 34.0 ],
 					"style" : ""
 				}
 
@@ -1134,7 +1135,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 23.0, 269.0, 320.0, 120.0 ]
+					"patching_rect" : [ 23.0, 287.0, 320.0, 120.0 ]
 				}
 
 			}
@@ -1171,7 +1172,7 @@
 					"destination" : [ "obj-10", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 498.5, 145.0, 468.5, 145.0 ],
+					"midpoints" : [ 493.5, 145.0, 468.5, 145.0 ],
 					"source" : [ "obj-13", 2 ]
 				}
 
@@ -1181,7 +1182,7 @@
 					"destination" : [ "obj-15", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 483.5, 145.5, 546.5, 145.5 ],
+					"midpoints" : [ 481.0, 145.5, 546.5, 145.5 ],
 					"source" : [ "obj-13", 1 ]
 				}
 
@@ -1303,6 +1304,10 @@
 				"patcherrelativepath" : "../zpatches",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"embedsnapshot" : 0
