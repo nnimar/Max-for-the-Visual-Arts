@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -146,7 +146,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -178,7 +178,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"bubble" : 1,
@@ -200,7 +199,7 @@
 								"box" : 								{
 									"fontsize" : 11.595187,
 									"id" : "obj-33",
-									"items" : [ "_10_56_5_181", ",", "_194_80_29_137", ",", "Brother_HL_2070N_series", ",", "Brother_HL_2130_series-2", ",", "EPSON_Perfection_1240", ",", "HP_Color_LaserJet_5550", ",", "HP_LaserJet_1200", ",", "HP_LaserJet_1320_series", ",", "MAIM" ],
+									"items" : [ "_10_56_5_181", ",", "_194_80_29_137", ",", "Brother_HL_2070N_series", ",", "Brother_HL_2130_series-2", ",", "EPSON_Perfection_1240", ",", "HP_Color_LaserJet_5550", ",", "HP_LaserJet_1200", ",", "HP_LaserJet_1320_series", ",", "ida_arts_local", ",", "MAIM" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -225,7 +224,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 1,
+											"revision" : 2,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
