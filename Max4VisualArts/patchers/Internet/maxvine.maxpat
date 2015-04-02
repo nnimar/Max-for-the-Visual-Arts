@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -38,6 +38,18 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 194.0, 135.0, 24.0, 24.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontsize" : 10.0,
 					"id" : "obj-9",
 					"maxclass" : "newobj",
@@ -48,7 +60,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -164,7 +176,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -796,6 +808,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-33",
@@ -803,7 +816,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 270.5, 79.0, 150.0, 33.0 ],
+					"patching_rect" : [ 260.5, 65.5, 145.0, 37.0 ],
 					"style" : "",
 					"text" : "press space bar to load new Vine video"
 				}
@@ -818,7 +831,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 194.0, 100.0, 43.0, 22.0 ],
+					"patching_rect" : [ 194.0, 105.0, 43.0, 22.0 ],
 					"style" : "",
 					"text" : "sel 32"
 				}
@@ -833,7 +846,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "int", "int", "int" ],
-					"patching_rect" : [ 194.0, 71.0, 59.5, 22.0 ],
+					"patching_rect" : [ 194.0, 73.0, 59.5, 22.0 ],
 					"style" : "",
 					"text" : "key"
 				}
@@ -847,7 +860,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 15.0, 182.0, 20.0, 20.0 ],
+					"patching_rect" : [ 15.0, 191.0, 20.0, 20.0 ],
 					"style" : ""
 				}
 
@@ -861,7 +874,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 214.0, 43.0, 22.0 ],
+					"patching_rect" : [ 15.0, 223.0, 43.0, 22.0 ],
 					"style" : "",
 					"text" : "vol $1"
 				}
@@ -893,7 +906,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 63.5, 214.0, 121.0, 22.0 ],
+					"patching_rect" : [ 63.5, 223.0, 121.0, 22.0 ],
 					"style" : "",
 					"text" : "qmetro 33 @active 1"
 				}
@@ -908,7 +921,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 194.0, 214.0, 82.0, 22.0 ],
+					"patching_rect" : [ 194.0, 223.0, 82.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend read"
 				}
@@ -923,7 +936,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 194.0, 138.0, 248.0, 22.0 ],
+					"patching_rect" : [ 194.0, 168.0, 248.0, 22.0 ],
 					"style" : "",
 					"text" : "get https://api.vineapp.com/timelines/popular"
 				}
@@ -938,7 +951,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 194.0, 176.0, 79.0, 22.0 ],
+					"patching_rect" : [ 194.0, 195.0, 79.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"filename" : "maxvine.js",
 						"parameter_enable" : 0
@@ -976,6 +989,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1004,7 +1026,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
+					"destination" : [ "obj-10", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-22", 0 ]

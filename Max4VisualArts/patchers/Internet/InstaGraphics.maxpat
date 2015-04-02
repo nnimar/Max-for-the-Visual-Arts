@@ -38,7 +38,24 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bubble" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-14",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 123.0, 98.5, 189.0, 24.0 ],
+					"presentation_rect" : [ 108.0, 96.0, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "or use the the API credentials"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
+					"fontsize" : 13.0,
 					"id" : "obj-59",
 					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
@@ -141,7 +158,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 99.5, 96.0, 22.0 ],
+					"patching_rect" : [ 26.0, 99.5, 96.0, 22.0 ],
 					"style" : "",
 					"text" : "m4va.instagram"
 				}
@@ -501,12 +518,12 @@
 						"styles" : [ 							{
 								"name" : "m4vatextbutton",
 								"default" : 								{
-									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"fontsize" : [ 14.0 ],
-									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
+									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1165,10 +1182,10 @@
 						"styles" : [ 							{
 								"name" : "m4va",
 								"default" : 								{
-									"fontname" : [ "Arial" ],
-									"fontsize" : [ 12.0 ],
+									"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1177,12 +1194,12 @@
 , 							{
 								"name" : "m4vatextbutton",
 								"default" : 								{
-									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"fontsize" : [ 14.0 ],
-									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
+									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1254,7 +1271,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 108.0, 177.0, 231.0, 24.0 ],
+					"patching_rect" : [ 113.0, 177.0, 231.0, 24.0 ],
 					"style" : "",
 					"text" : "get the most popular images right now"
 				}
@@ -1269,7 +1286,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 51.0, 177.0, 51.0, 22.0 ],
+					"patching_rect" : [ 56.0, 177.0, 51.0, 22.0 ],
 					"style" : "",
 					"text" : "popular"
 				}
@@ -1284,7 +1301,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 126.0, 142.0, 257.0, 24.0 ],
+					"patching_rect" : [ 131.0, 142.0, 257.0, 24.0 ],
 					"style" : "",
 					"text" : "2. do a search for images tagged with \"dog\""
 				}
@@ -2076,10 +2093,10 @@
 										"styles" : [ 											{
 												"name" : "m4va",
 												"default" : 												{
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 12.0 ],
+													"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
 													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ]
+													"fontname" : [ "Arial" ],
+													"fontsize" : [ 12.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -2088,12 +2105,12 @@
 , 											{
 												"name" : "m4vatextbutton",
 												"default" : 												{
-													"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-													"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-													"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 													"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+													"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+													"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 													"fontsize" : [ 14.0 ],
-													"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
+													"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+													"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -2338,10 +2355,10 @@
 						"styles" : [ 							{
 								"name" : "m4va",
 								"default" : 								{
-									"fontname" : [ "Arial" ],
-									"fontsize" : [ 12.0 ],
+									"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ]
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2350,12 +2367,12 @@
 , 							{
 								"name" : "m4vatextbutton",
 								"default" : 								{
-									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"fontsize" : [ 14.0 ],
-									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
+									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2422,7 +2439,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 33.0, 143.0, 87.0, 22.0 ],
+					"patching_rect" : [ 38.0, 143.0, 87.0, 22.0 ],
 					"style" : "",
 					"text" : "tagsearch dog"
 				}
@@ -2845,8 +2862,8 @@
 			}
 , 			{
 				"name" : "m4va.instagram.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/Toolbox/m4va_objects",
-				"patcherrelativepath" : "../Toolbox/m4va_objects",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/Internet/api_configs",
+				"patcherrelativepath" : "./api_configs",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2892,10 +2909,10 @@
 , 			{
 				"name" : "m4va",
 				"default" : 				{
-					"fontname" : [ "Arial" ],
-					"fontsize" : [ 12.0 ],
+					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 12.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2904,12 +2921,12 @@
 , 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
-					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontsize" : [ 14.0 ],
-					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
+					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

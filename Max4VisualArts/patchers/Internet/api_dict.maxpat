@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 3.0, 44.0, 719.0, 612.0 ],
+		"rect" : [ 2.0, 44.0, 719.0, 612.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 13.0,
@@ -225,8 +225,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 528.0, 414.0, 154.0, 116.0 ],
-									"style" : ""
+									"patching_rect" : [ 528.0, 414.0, 154.0, 22.0 ],
+									"style" : "",
+									"text" : "\"SE11 4TF\""
 								}
 
 							}
@@ -785,10 +786,10 @@
 						"styles" : [ 							{
 								"name" : "m4va",
 								"default" : 								{
-									"fontname" : [ "Arial" ],
 									"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
-									"fontsize" : [ 12.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -797,12 +798,12 @@
 , 							{
 								"name" : "m4vatextbutton",
 								"default" : 								{
-									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-									"fontsize" : [ 14.0 ]
+									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"fontsize" : [ 14.0 ],
+									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -849,7 +850,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 0.0, 26.0, 719.0, 586.0 ],
+						"rect" : [ 2.0, 70.0, 719.0, 586.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -892,14 +893,15 @@
 							}
 , 							{
 								"box" : 								{
+									"fontsize" : 14.0,
 									"id" : "obj-18",
-									"linecount" : 5,
+									"linecount" : 7,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 338.0, 72.5, 316.0, 74.0 ],
+									"patching_rect" : [ 338.0, 71.5, 328.0, 116.0 ],
 									"style" : "",
-									"text" : "First approach (1 and 2) is simple but the outcome is not always usuable. For example, you can get the url but not the content. The second approach (2 and 3) include a parsing method and allow you to send the result into another dictionary (5)"
+									"text" : "First approach (1 and 2) is simple but the outcome is not always usuable. For example, you can get the url but not the content. \n\nThe second approach (2 and 3) include a parsing method and allow you to send the result into another dictionary (5)"
 								}
 
 							}
@@ -912,7 +914,8 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 19.0, 516.5, 62.0, 23.0 ],
-									"style" : ""
+									"style" : "",
+									"text" : "531835"
 								}
 
 							}
@@ -952,7 +955,8 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 9.0, 213.5, 265.0, 23.0 ],
-									"style" : ""
+									"style" : "",
+									"text" : "url http://api.postcodes.io/postcodes/se16sb"
 								}
 
 							}
@@ -978,7 +982,8 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 9.0, 447.5, 185.0, 23.0 ],
-									"style" : ""
+									"style" : "",
+									"text" : "body::result::eastings 531835"
 								}
 
 							}
@@ -1503,10 +1508,10 @@
 						"styles" : [ 							{
 								"name" : "m4va",
 								"default" : 								{
-									"fontname" : [ "Arial" ],
 									"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
-									"fontsize" : [ 12.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1515,12 +1520,12 @@
 , 							{
 								"name" : "m4vatextbutton",
 								"default" : 								{
-									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-									"fontsize" : [ 14.0 ]
+									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"fontsize" : [ 14.0 ],
+									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1567,7 +1572,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 3.0, 70.0, 719.0, 586.0 ],
+						"rect" : [ 0.0, 26.0, 719.0, 586.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1597,7 +1602,6 @@
 						"showontab" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
-									"align" : 1,
 									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 									"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 									"fontsize" : 14.0,
@@ -1614,7 +1618,6 @@
 									"style" : "",
 									"text" : "json intro",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"textjustification" : 1,
 									"texton" : "Stop",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
@@ -2232,10 +2235,10 @@
 , 							{
 								"name" : "m4va",
 								"default" : 								{
-									"fontname" : [ "Arial" ],
 									"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
-									"fontsize" : [ 12.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontname" : [ "Arial" ],
+									"fontsize" : [ 12.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2244,12 +2247,12 @@
 , 							{
 								"name" : "m4vatextbutton",
 								"default" : 								{
-									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-									"fontsize" : [ 14.0 ]
+									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"fontsize" : [ 14.0 ],
+									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2296,12 +2299,12 @@
 		"styles" : [ 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"fontsize" : [ 14.0 ]
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontsize" : [ 14.0 ],
+					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
