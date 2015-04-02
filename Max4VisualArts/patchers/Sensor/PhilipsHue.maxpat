@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -430,7 +430,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 72.0, 149.0, 18.5, 22.0 ],
+					"patching_rect" : [ 72.0, 146.0, 18.5, 22.0 ],
 					"style" : "",
 					"text" : "3"
 				}
@@ -445,7 +445,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 50.0, 149.0, 18.5, 22.0 ],
+					"patching_rect" : [ 50.0, 146.0, 18.5, 22.0 ],
 					"style" : "",
 					"text" : "2"
 				}
@@ -460,7 +460,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 29.0, 149.0, 19.5, 22.0 ],
+					"patching_rect" : [ 29.0, 146.0, 19.5, 22.0 ],
 					"style" : "",
 					"text" : "1"
 				}
@@ -491,7 +491,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 28.833374, 128.0, 63.0, 18.0 ],
+					"patching_rect" : [ 28.833374, 125.0, 63.0, 18.0 ],
 					"style" : "",
 					"text" : "specific"
 				}
@@ -750,7 +750,7 @@
 					"maxclass" : "number",
 					"maximum" : 65535,
 					"minimum" : 0,
-					"mouseup" : 1,
+					"mousefilter" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -786,7 +786,7 @@
 					"maxclass" : "number",
 					"maximum" : 250,
 					"minimum" : 0,
-					"mouseup" : 1,
+					"mousefilter" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -805,7 +805,7 @@
 					"maxclass" : "number",
 					"maximum" : 250,
 					"minimum" : 0,
-					"mouseup" : 1,
+					"mousefilter" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -1220,10 +1220,10 @@
 		"styles" : [ 			{
 				"name" : "m4va",
 				"default" : 				{
-					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
+					"fontsize" : [ 12.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : [ "Arial" ],
-					"fontsize" : [ 12.0 ]
+					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",

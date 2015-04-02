@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -51,7 +51,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, -278.0 ],
-					"patching_rect" : [ 0.0, 0.0, 522.0, 59.0 ],
+					"patching_rect" : [ -24.0, 0.0, 499.0, 52.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 333.519531, 58.0 ],
 					"viewvisibility" : 1
@@ -72,12 +72,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 661.0, 78.0, 241.0, 116.0 ],
+						"rect" : [ 613.0, 325.0, 241.0, 116.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -352,7 +352,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 14.0,
+					"fontsize" : 12.0,
 					"id" : "obj-30",
 					"items" : [ "SparkFun-BT-COM0", ",", "BTGPS74R-SPP-1", ",", "Bluetooth-Modem", ",", "Bluetooth-Incoming-Port" ],
 					"maxclass" : "umenu",
@@ -360,7 +360,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 139.0, 396.0, 156.0, 24.0 ],
+					"patching_rect" : [ 139.0, 396.0, 156.0, 22.0 ],
 					"style" : "default"
 				}
 
@@ -374,7 +374,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 215.5, 109.0, 235.0, 38.0 ],
+					"patching_rect" : [ 214.5, 115.0, 235.0, 38.0 ],
 					"style" : "",
 					"text" : "126 6 (channel nb+1) 0 0 (channel1 channel2 channel3 ...) 231"
 				}
@@ -388,7 +388,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 214.5, 86.0, 67.0, 22.0 ],
+					"patching_rect" : [ 213.5, 90.0, 67.0, 22.0 ],
 					"style" : "",
 					"text" : "protocol:",
 					"underline" : 1
@@ -404,7 +404,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 146.0, 241.0, 138.0, 26.0 ],
+					"patching_rect" : [ 146.0, 240.0, 138.0, 26.0 ],
 					"style" : "",
 					"text" : "data range 0-255"
 				}
@@ -501,15 +501,13 @@
 			}
 , 			{
 				"box" : 				{
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"fontname" : "Arial Bold",
-					"fontsize" : 18.0,
+					"fontsize" : 13.0,
 					"id" : "obj-7",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 428.0, 143.0, 29.0 ],
+					"patching_rect" : [ 15.0, 428.0, 143.0, 23.0 ],
 					"style" : "",
 					"text" : "fxwdmxusbpro"
 				}
@@ -517,15 +515,13 @@
 			}
 , 			{
 				"box" : 				{
-					"color" : [ 0.75, 0.75, 0.75, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
+					"fontsize" : 13.0,
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 242.0, 125.0, 24.0 ],
+					"patching_rect" : [ 15.0, 242.0, 125.0, 23.0 ],
 					"style" : "",
 					"text" : "pak 0 0 0 0 0"
 				}
@@ -647,14 +643,18 @@
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
+			}
  ],
 		"embedsnapshot" : 0,
 		"styles" : [ 			{
 				"name" : "m4va",
 				"default" : 				{
-					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
 					"fontsize" : [ 12.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
 					"fontname" : [ "Arial" ]
 				}
 ,

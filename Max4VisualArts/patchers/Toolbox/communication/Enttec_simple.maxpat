@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -72,7 +72,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -145,7 +145,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 1,
+											"revision" : 2,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -525,16 +525,13 @@
 			}
 , 			{
 				"box" : 				{
-					"color" : [ 0.74902, 0.74902, 0.74902, 1.0 ],
-					"fontname" : "Arial Bold",
-					"fontsize" : 14.0,
 					"id" : "obj-57",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "" ],
-					"patching_rect" : [ 472.0, 357.0, 96.0, 24.0 ],
-					"style" : "",
+					"patching_rect" : [ 472.0, 357.0, 93.0, 24.0 ],
+					"style" : "default",
 					"text" : "serial a 9600"
 				}
 
@@ -633,7 +630,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 418.0, 93.0, 211.0, 22.0 ],
+					"patching_rect" : [ 417.0, 90.0, 211.0, 22.0 ],
 					"style" : "",
 					"text" : "126 6 19 0 [data] 231 (decimal)"
 				}
@@ -1239,14 +1236,18 @@
 				"name" : "Label.mxo",
 				"type" : "iLaX"
 			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
+			}
  ],
 		"embedsnapshot" : 0,
 		"styles" : [ 			{
 				"name" : "m4va",
 				"default" : 				{
-					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
 					"fontsize" : [ 12.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
 					"fontname" : [ "Arial" ]
 				}
 ,

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -46,7 +46,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 431.0, 418.124054, 98.0, 20.0 ],
+					"patching_rect" : [ 431.0, 428.124054, 98.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 42.0, 278.0, 100.0, 20.0 ],
 					"style" : "",
@@ -67,7 +67,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 448.0, 418.0, 53.0, 22.0 ],
+					"patching_rect" : [ 448.0, 428.0, 53.0, 22.0 ],
 					"style" : "",
 					"text" : "pcontrol"
 				}
@@ -83,7 +83,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 411.0, 419.0, 120.0, 22.0 ],
+					"patching_rect" : [ 411.0, 429.0, 120.0, 22.0 ],
 					"style" : "",
 					"text" : "help fxwdmxusbpro"
 				}
@@ -102,7 +102,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -176,7 +176,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 170.5, 448.0, 67.0, 22.0 ],
+					"patching_rect" : [ 178.5, 443.0, 67.0, 22.0 ],
 					"style" : "",
 					"text" : "print dump"
 				}
@@ -190,7 +190,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 130.5, 478.0, 58.0, 22.0 ],
+					"patching_rect" : [ 138.5, 473.0, 58.0, 22.0 ],
 					"style" : "",
 					"text" : "print port"
 				}
@@ -207,7 +207,7 @@
 					"oncolor" : [ 0.0, 1.0, 0.0, 1.0 ],
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 90.5, 448.0, 20.0, 20.0 ],
+					"patching_rect" : [ 98.5, 443.0, 20.0, 20.0 ],
 					"style" : ""
 				}
 
@@ -221,7 +221,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 90.5, 418.0, 99.0, 22.0 ],
+					"patching_rect" : [ 98.5, 413.0, 99.0, 22.0 ],
 					"style" : "",
 					"text" : "route status port"
 				}
@@ -236,7 +236,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 279.0, 343.0, 53.0, 22.0 ],
+					"patching_rect" : [ 279.0, 339.0, 53.0, 22.0 ],
 					"style" : "",
 					"text" : "getstate"
 				}
@@ -251,7 +251,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 189.0, 343.0, 77.0, 22.0 ],
+					"patching_rect" : [ 189.0, 339.0, 77.0, 22.0 ],
 					"style" : "",
 					"text" : "getattributes"
 				}
@@ -296,7 +296,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 99.0, 343.0, 73.0, 22.0 ],
+					"patching_rect" : [ 99.0, 339.0, 73.0, 22.0 ],
 					"style" : "",
 					"text" : "getfirmware"
 				}
@@ -311,7 +311,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 29.0, 343.0, 56.0, 22.0 ],
+					"patching_rect" : [ 29.0, 339.0, 56.0, 22.0 ],
 					"style" : "",
 					"text" : "getserial"
 				}
@@ -364,21 +364,19 @@
 			}
 , 			{
 				"box" : 				{
-					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 13.0,
 					"id" : "obj-60",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "list", "" ],
-					"patching_rect" : [ 10.5, 383.0, 99.0, 22.0 ],
+					"patching_rect" : [ 10.5, 383.0, 107.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"mode" : 0,
 						"num_channels" : 512
 					}
 ,
-					"style" : "",
+					"style" : "default",
 					"text" : "imp.dmx.usbpro"
 				}
 
@@ -449,7 +447,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 431.0, 448.0, 98.0, 20.0 ],
+					"patching_rect" : [ 431.0, 453.0, 98.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 57.0, 293.0, 100.0, 20.0 ],
 					"style" : "",
@@ -471,7 +469,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 419.0, 449.0, 53.0, 22.0 ],
+					"patching_rect" : [ 419.0, 454.0, 53.0, 22.0 ],
 					"style" : "",
 					"text" : "pcontrol"
 				}
@@ -487,7 +485,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 418.0, 448.0, 113.0, 22.0 ],
+					"patching_rect" : [ 418.0, 453.0, 113.0, 22.0 ],
 					"style" : "",
 					"text" : "load Enttec_simple"
 				}
@@ -507,7 +505,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -3533,6 +3531,26 @@
 								}
 
 							}
+ ],
+						"styles" : [ 							{
+								"name" : "m4vatextbutton",
+								"default" : 								{
+									"fontsize" : [ 14.0 ],
+									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "simple",
+								"parentstyle" : "",
+								"multi" : 0
+							}
  ]
 					}
 ,
@@ -3577,7 +3595,7 @@
 					"oncolor" : [ 0.0, 1.0, 0.0, 1.0 ],
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 40.5, 174.0, 20.0, 20.0 ],
+					"patching_rect" : [ 43.5, 175.0, 20.0, 20.0 ],
 					"prototypename" : "green",
 					"style" : ""
 				}
@@ -3592,23 +3610,21 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 70.5, 174.0, 119.0, 22.0 ],
+					"patching_rect" : [ 76.5, 174.0, 119.0, 22.0 ],
 					"style" : ""
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 13.0,
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 10.5, 144.0, 79.0, 22.0 ],
-					"style" : "",
+					"patching_rect" : [ 10.5, 144.0, 85.0, 23.0 ],
+					"style" : "default",
 					"text" : "dmxusbpro"
 				}
 
@@ -3699,7 +3715,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 196.0, 174.0, 20.0, 20.0 ],
+					"patching_rect" : [ 201.0, 175.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"style" : "",
 					"text" : "2",
@@ -3781,7 +3797,7 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 130.0, 201.0, 101.5, 201.0, 101.5, 134.0, 20.0, 134.0 ],
+					"midpoints" : [ 136.0, 201.0, 101.5, 201.0, 101.5, 134.0, 20.0, 134.0 ],
 					"source" : [ "obj-3", 1 ]
 				}
 
@@ -3957,6 +3973,10 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "dmxusbpro.mxo",
 				"type" : "iLaX"
 			}
@@ -3969,9 +3989,9 @@
 		"styles" : [ 			{
 				"name" : "m4va",
 				"default" : 				{
-					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
 					"fontsize" : [ 12.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
 					"fontname" : [ "Arial" ]
 				}
 ,

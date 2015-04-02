@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -92,7 +92,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -708,7 +708,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 7.0, 221.0, 110.0, 22.0 ],
+					"patching_rect" : [ 7.0, 227.0, 110.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -732,7 +732,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 7.0, 248.0, 97.0, 35.0 ],
+					"patching_rect" : [ 7.0, 254.0, 97.0, 35.0 ],
 					"style" : "",
 					"text" : "jit.window bulge @fsmenubar 0"
 				}
@@ -792,7 +792,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 7.0, 180.0, 125.0, 35.0 ],
+					"patching_rect" : [ 7.0, 182.0, 125.0, 35.0 ],
 					"style" : "",
 					"text" : "jit.gl.render @erase_color 0 0 0 1"
 				}
@@ -840,7 +840,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -1309,7 +1309,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 59.0, 132.147247, 229.0 ],
+					"patching_rect" : [ 3.0, 59.0, 135.0, 237.0 ],
 					"proportion" : 0.39,
 					"rounded" : 30,
 					"style" : ""
@@ -1392,15 +1392,14 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-4::obj-4::obj-20" : [ "live.tab[1]", "live.tab[1]", 0 ],
 			"obj-4::obj-4::obj-21" : [ "number", "number", 0 ],
-			"obj-4::obj-4::obj-18" : [ "number[1]", "number[1]", 0 ]
+			"obj-4::obj-4::obj-18" : [ "number[1]", "number[1]", 0 ],
+			"obj-4::obj-4::obj-20" : [ "live.tab[1]", "live.tab[1]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "demovideo.maxpat",
-				"bootpath" : "/Applications/Max.app/Contents/Resources/C74/help/jitter",
-				"patcherrelativepath" : "../../../../../../../Applications/Max.app/Contents/Resources/C74/help/jitter",
+				"bootpath" : "C74:/help/jitter",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1411,15 +1410,19 @@
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
+			}
  ],
 		"embedsnapshot" : 0,
 		"styles" : [ 			{
 				"name" : "m4va",
 				"default" : 				{
 					"fontsize" : [ 12.0 ],
-					"fontname" : [ "Arial" ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ]
+					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",
@@ -1430,10 +1433,10 @@
 				"default" : 				{
 					"fontsize" : [ 14.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
+					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
