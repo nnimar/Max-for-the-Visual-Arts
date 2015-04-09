@@ -82,7 +82,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 423.0, 478.0, 65.0, 24.0 ],
+					"patching_rect" : [ 425.0, 480.0, 65.0, 24.0 ],
 					"style" : "",
 					"text" : "unpack"
 				}
@@ -187,7 +187,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 161.5, 170.0, 82.0, 24.0 ],
+					"patching_rect" : [ 161.5, 173.0, 82.0, 24.0 ],
 					"style" : "",
 					"text" : "dict.viewer"
 				}
@@ -503,7 +503,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 52.5, 117.0, 39.0, 23.0 ],
+					"patching_rect" : [ 52.5, 120.0, 39.0, 23.0 ],
 					"style" : "",
 					"text" : "clear"
 				}
@@ -515,7 +515,7 @@
 					"maxclass" : "dict.view",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 51.5, 173.0, 104.0, 103.0 ],
+					"patching_rect" : [ 51.5, 176.0, 104.0, 103.0 ],
 					"style" : ""
 				}
 
@@ -662,7 +662,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "dictionary", "", "", "" ],
-					"patching_rect" : [ 32.5, 144.0, 59.0, 22.0 ],
+					"patching_rect" : [ 32.5, 147.0, 59.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"parameter_enable" : 0
@@ -679,7 +679,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 48.5, 170.0, 110.0, 106.0 ],
+					"patching_rect" : [ 48.5, 173.0, 110.0, 106.0 ],
 					"style" : ""
 				}
 
@@ -691,7 +691,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 402.0, 480.0, 20.0, 20.0 ],
+					"patching_rect" : [ 404.0, 482.0, 20.0, 20.0 ],
 					"style" : ""
 				}
 
@@ -765,7 +765,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 433.0, 619.0, 74.0, 22.0 ],
-					"style" : ""
+					"style" : "",
+					"text" : "a b coo 34"
 				}
 
 			}
@@ -1632,7 +1633,7 @@
 					"destination" : [ "obj-22", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 411.5, 508.5, 247.5, 508.5 ],
+					"midpoints" : [ 413.5, 508.5, 247.5, 508.5 ],
 					"source" : [ "obj-47", 0 ]
 				}
 
@@ -1746,10 +1747,10 @@
 		"styles" : [ 			{
 				"name" : "m4va",
 				"default" : 				{
-					"fontname" : [ "Arial" ],
 					"fontsize" : [ 12.0 ],
-					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : [ "Arial" ],
+					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1758,12 +1759,12 @@
 , 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
-					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"fontsize" : [ 14.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

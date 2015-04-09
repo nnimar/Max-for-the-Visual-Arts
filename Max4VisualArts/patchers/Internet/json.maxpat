@@ -135,8 +135,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 19.0, 225.0, 387.0, 23.0 ],
-									"style" : "",
-									"text" : "Price obj:dictionary:u265001026 obj:dictionary:u655001027"
+									"style" : ""
 								}
 
 							}
@@ -450,7 +449,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-3",
-									"items" : [ "Title", ",", "Author", ",", "Genre", ",", "Detail", ",", "Price" ],
+									"items" : "<empty>",
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -483,7 +482,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 3,
 									"numoutlets" : 2,
-									"outlettype" : [ "clear", "" ],
+									"outlettype" : [ "", "" ],
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
@@ -875,7 +874,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-7",
-									"items" : "example",
+									"items" : [ "bicycle", ",", "example" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -1019,7 +1018,6 @@
 					}
 ,
 					"patching_rect" : [ 831.0, 428.0, 114.0, 22.0 ],
-					"presentation_rect" : [ 831.0, 425.0, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1923,7 +1921,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 468.0, 87.0, 459.0, 53.0 ],
+					"patching_rect" : [ 467.0, 68.0, 459.0, 53.0 ],
 					"style" : "",
 					"text" : "Double click on the dict object. This is a classical example that includes objects (Title, Author, ...), nested object (see Detail {}) and nested arrays (Price [ { } ])."
 				}
@@ -1946,20 +1944,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial Bold",
-					"fontsize" : 18.0,
-					"id" : "obj-4",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 6.0, 60.0, 187.0, 27.0 ],
-					"style" : "",
-					"text" : "The JSON structure"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-10",
@@ -1967,7 +1951,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.0, 87.0, 444.0, 53.0 ],
+					"patching_rect" : [ 5.0, 68.0, 444.0, 53.0 ],
 					"style" : "",
 					"text" : "JSON (JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate."
 				}
@@ -2341,10 +2325,10 @@
 		"styles" : [ 			{
 				"name" : "m4va",
 				"default" : 				{
-					"fontname" : [ "Arial" ],
 					"fontsize" : [ 12.0 ],
-					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : [ "Arial" ],
+					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2353,12 +2337,12 @@
 , 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
-					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"fontsize" : [ 14.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

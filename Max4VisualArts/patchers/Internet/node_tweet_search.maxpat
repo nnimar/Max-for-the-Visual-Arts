@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -37,6 +37,62 @@
 		"style" : "simple",
 		"subpatcher_template" : "simple",
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
+					"fontsize" : 13.0,
+					"id" : "obj-59",
+					"legacytextcolor" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 140.6875, 377.0, 137.5, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 254.0, 309.5, 79.0, 17.0 ],
+					"style" : "",
+					"text" : "launch config-twitter",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"texton" : "Stop",
+					"textoncolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-7",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 140.6875, 377.0, 103.0, 22.0 ],
+					"style" : "",
+					"text" : "config-twitter.json"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 140.6875, 377.0, 82.0, 22.0 ],
+					"style" : "",
+					"text" : "imi.docloader"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-6",
 					"maxclass" : "newobj",
@@ -74,7 +130,7 @@
 					"patching_rect" : [ 286.15625, 377.0, 136.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 239.0, 294.5, 79.0, 17.0 ],
-					"style" : "default",
+					"style" : "",
 					"text" : "launch nodeJS source",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"texton" : "Stop",
@@ -130,7 +186,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 13.0,
 					"id" : "obj-46",
@@ -199,7 +255,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -415,10 +471,10 @@
 , 							{
 								"name" : "m4va",
 								"default" : 								{
-									"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
+									"fontsize" : [ 12.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontname" : [ "Arial" ],
-									"fontsize" : [ 12.0 ]
+									"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -427,12 +483,12 @@
 , 							{
 								"name" : "m4vatextbutton",
 								"default" : 								{
-									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"fontsize" : [ 14.0 ],
+									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontsize" : [ 14.0 ],
-									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -472,7 +528,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -541,10 +597,10 @@
 , 							{
 								"name" : "m4va",
 								"default" : 								{
-									"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
+									"fontsize" : [ 12.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontname" : [ "Arial" ],
-									"fontsize" : [ 12.0 ]
+									"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -553,12 +609,12 @@
 , 							{
 								"name" : "m4vatextbutton",
 								"default" : 								{
-									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"fontsize" : [ 14.0 ],
+									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontsize" : [ 14.0 ],
-									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -599,7 +655,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -806,14 +862,44 @@
 							}
  ],
 						"styles" : [ 							{
+								"name" : "AudioStatus_Menu",
+								"default" : 								{
+									"bgfillcolor" : 									{
+										"type" : "color",
+										"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
+										"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
+										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39,
+										"autogradient" : 0
+									}
+
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "m4va",
+								"default" : 								{
+									"fontsize" : [ 12.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontname" : [ "Arial" ],
+									"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
 								"name" : "m4vatextbutton",
 								"default" : 								{
-									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"fontsize" : [ 14.0 ],
+									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontsize" : [ 14.0 ],
-									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -912,6 +998,8 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"bgcolor2" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0,
 					"bgfillcolor_color" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
@@ -921,6 +1009,7 @@
 					"bgfillcolor_type" : "color",
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
+					"gradient" : 1,
 					"id" : "obj-10",
 					"linecount" : 2,
 					"maxclass" : "message",
@@ -935,7 +1024,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "node tweet search", "install NodeJs before using this patch (see tutorial)" ],
+					"args" : [ "node tweet search", "install NodeJS before using this patch (see tutorial)" ],
 					"bgmode" : 1,
 					"border" : 0,
 					"clickthrough" : 1,
@@ -1143,6 +1232,24 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-59", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
  ],
 		"dependency_cache" : [ 			{
 				"name" : "Max4VA-Title.maxpat",
@@ -1189,10 +1296,10 @@
 , 			{
 				"name" : "m4va",
 				"default" : 				{
-					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
+					"fontsize" : [ 12.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontname" : [ "Arial" ],
-					"fontsize" : [ 12.0 ]
+					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1201,12 +1308,12 @@
 , 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
-					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"fontsize" : [ 14.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontsize" : [ 14.0 ],
-					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
