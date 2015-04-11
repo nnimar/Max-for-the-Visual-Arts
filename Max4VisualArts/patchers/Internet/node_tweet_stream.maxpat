@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 0.0, 44.0, 587.0, 520.0 ],
+		"rect" : [ 0.0, 45.0, 587.0, 520.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -139,8 +139,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 12.25, 419.0, 347.25, 22.0 ],
-					"style" : "",
-					"text" : "\"Uh oh: HTTP 406\""
+					"style" : ""
 				}
 
 			}
@@ -178,9 +177,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 247.5, 494.0, 99.0, 22.0 ],
+					"patching_rect" : [ 247.5, 494.0, 110.0, 22.0 ],
 					"style" : "",
-					"text" : "twitter_stream.js"
+					"text" : "twit_stream_text.js"
 				}
 
 			}
@@ -253,9 +252,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 122.25, 252.0, 306.0, 23.0 ],
+					"patching_rect" : [ 122.25, 252.0, 319.0, 23.0 ],
 					"style" : "",
-					"text" : "sprintf /usr/local/bin/node \\\\\\\"%s/twitter_stream.js\\\\\\\""
+					"text" : "sprintf /usr/local/bin/node \\\\\\\"%s/twit_stream_text.js\\\\\\\""
 				}
 
 			}
@@ -271,7 +270,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -499,12 +498,12 @@
 , 							{
 								"name" : "m4vatextbutton",
 								"default" : 								{
-									"fontsize" : [ 14.0 ],
-									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
+									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"fontsize" : [ 14.0 ],
+									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -544,7 +543,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -625,12 +624,12 @@
 , 							{
 								"name" : "m4vatextbutton",
 								"default" : 								{
-									"fontsize" : [ 14.0 ],
-									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
+									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"fontsize" : [ 14.0 ],
+									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -671,12 +670,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 594.0, 44.0, 697.0, 348.0 ],
+						"rect" : [ 594.0, 45.0, 697.0, 348.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -715,12 +714,12 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 2,
+											"revision" : 3,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 595.0, 44.0, 392.0, 545.0 ],
+										"rect" : [ 595.0, 45.0, 392.0, 545.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -1248,12 +1247,12 @@
 , 											{
 												"name" : "m4vatextbutton",
 												"default" : 												{
-													"fontsize" : [ 14.0 ],
-													"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-													"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-													"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 													"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-													"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
+													"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+													"fontsize" : [ 14.0 ],
+													"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+													"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+													"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -1413,30 +1412,14 @@
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-9",
-									"linecount" : 2,
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 268.333313, 116.0, 163.0, 35.0 ],
-									"style" : "",
-									"text" : "set status \"tweeting from Max through nodeJS... test3\""
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-39",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 6,
-									"outlettype" : [ "bang", "bang", "bang", "bang", "bang", "bang" ],
-									"patching_rect" : [ 17.0, 55.0, 647.333252, 22.0 ],
+									"numoutlets" : 5,
+									"outlettype" : [ "bang", "bang", "bang", "bang", "bang" ],
+									"patching_rect" : [ 17.0, 55.0, 522.111084, 22.0 ],
 									"style" : "",
-									"text" : "t b b b b b b"
+									"text" : "t b b b b b"
 								}
 
 							}
@@ -1640,15 +1623,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-9", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-39", 2 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-3", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -1662,16 +1636,6 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-8", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-26", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"midpoints" : [ 277.833313, 200.0, 26.5, 200.0 ],
-									"source" : [ "obj-9", 0 ]
 								}
 
 							}
@@ -1691,12 +1655,12 @@
 , 							{
 								"name" : "m4vatextbutton",
 								"default" : 								{
-									"fontsize" : [ 14.0 ],
-									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
+									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"fontsize" : [ 14.0 ],
+									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1827,7 +1791,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 12.25, 292.0, 395.0, 38.0 ],
 					"style" : "",
-					"text" : "/usr/local/bin/node \\\"/Users/Shared/Max 7/Packages/Max4VisualArts/javascript/nodejs/twitter_stream.js\\\""
+					"text" : "/usr/local/bin/node \\\"/Users/Shared/Max 7/Packages/Max4VisualArts/javascript/nodejs/twit_stream_text.js\\\""
 				}
 
 			}
@@ -2112,12 +2076,12 @@
 , 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
-					"fontsize" : [ 14.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
+					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"fontsize" : [ 14.0 ],
+					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
