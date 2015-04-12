@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 0.0, 44.0, 581.0, 523.0 ],
+		"rect" : [ 0.0, 45.0, 658.0, 525.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,22 @@
 		"subpatcher_template" : "simple",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-9",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 512.5, 127.0, 109.0, 35.0 ],
+					"style" : "",
+					"text" : "tweeting from Max through nodeJS..."
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
 					"fontsize" : 13.0,
 					"id" : "obj-59",
@@ -47,7 +63,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 130.0, 494.0, 127.5, 22.0 ],
+					"patching_rect" : [ 207.5, 495.0, 127.5, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 239.0, 294.5, 79.0, 17.0 ],
 					"style" : "",
@@ -70,7 +86,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 130.0, 494.0, 103.0, 22.0 ],
+					"patching_rect" : [ 207.5, 495.0, 103.0, 22.0 ],
 					"style" : "",
 					"text" : "config-twitter.json"
 				}
@@ -86,7 +102,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 130.0, 494.0, 82.0, 22.0 ],
+					"patching_rect" : [ 207.5, 495.0, 82.0, 22.0 ],
 					"style" : "",
 					"text" : "imi.docloader"
 				}
@@ -103,7 +119,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 262.5, 494.0, 137.0, 22.0 ],
+					"patching_rect" : [ 340.0, 495.0, 137.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 239.0, 294.5, 79.0, 17.0 ],
 					"style" : "",
@@ -126,9 +142,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 262.5, 494.0, 91.0, 22.0 ],
+					"patching_rect" : [ 340.0, 495.0, 128.0, 22.0 ],
 					"style" : "",
-					"text" : "upload-tweet.js"
+					"text" : "node_tweet_upload.js"
 				}
 
 			}
@@ -142,7 +158,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 262.5, 494.0, 82.0, 22.0 ],
+					"patching_rect" : [ 340.0, 495.0, 82.0, 22.0 ],
 					"style" : "",
 					"text" : "imi.docloader"
 				}
@@ -160,7 +176,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 404.8125, 494.0, 167.6875, 22.0 ],
+					"patching_rect" : [ 482.3125, 495.0, 167.6875, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 419.0, 50.5, 79.0, 17.0 ],
 					"style" : "",
@@ -185,7 +201,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 327.5, 484.0, 245.0, 31.0 ],
+					"patching_rect" : [ 405.0, 485.0, 245.0, 31.0 ],
 					"style" : "",
 					"text" : ";\rmax launchbrowser https://dev.twitter.com/rest/public"
 				}
@@ -193,6 +209,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-28",
@@ -200,9 +217,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 122.25, 375.0, 300.0, 23.0 ],
+					"patching_rect" : [ 122.25, 375.0, 325.0, 23.0 ],
 					"style" : "",
-					"text" : "sprintf /usr/local/bin/node \\\\\\\"%s/upload-tweet.js\\\\\\\""
+					"text" : "sprintf /usr/local/bin/node \\\\\\\"%s/node_tweet_upload\\\\\\\""
 				}
 
 			}
@@ -234,12 +251,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 588.0, 44.0, 502.0, 228.0 ],
+						"rect" : [ 588.0, 45.0, 502.0, 228.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -450,10 +467,10 @@
 , 							{
 								"name" : "m4va",
 								"default" : 								{
-									"fontsize" : [ 12.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
 									"fontname" : [ "Arial" ],
-									"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ]
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontsize" : [ 12.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -462,12 +479,12 @@
 , 							{
 								"name" : "m4vatextbutton",
 								"default" : 								{
-									"fontsize" : [ 14.0 ],
-									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
+									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+									"fontsize" : [ 14.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -507,12 +524,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 588.0, 44.0, 587.0, 389.0 ],
+						"rect" : [ 663.0, 45.0, 587.0, 389.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -541,15 +558,16 @@
 						"subpatcher_template" : "simple",
 						"boxes" : [ 							{
 								"box" : 								{
+									"fontname" : "Arial",
 									"fontsize" : 14.0,
 									"id" : "obj-9",
 									"linecount" : 23,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 13.0, 9.0, 567.0, 366.0 ],
+									"patching_rect" : [ 13.0, 9.0, 697.0, 366.0 ],
 									"style" : "",
-									"text" : "This patch requires NodeJS (http://nodejs.org) and node-twitter (npm install node-twitter) \n\n1. Install NodeJS (http://nodejs.org)\n\n2. Install node-twitter: npm install node-twitter\n\n3. Create a Twitter Developper account: https://dev.twitter.com\n\n4. Create an app: https://apps.twitter.com \n\n5. Access level: give it read and write, same with the token\n\n6. Go to manage keys and access tokens (API) and copy them\n\n7. Insert the Consumer Key (API Key), Consumer Secret (API Secret), Access Token \nand Access Token Secret in the config-twitter.json file.\n\n8. Read more about the extremly complicated protocol that is OAuth (and then stop) https://dev.twitter.com/oauth/overview/introduction\n\n9. Test node in the terminal: node upload-tweet.js\n\n10. Then use the Max patch… "
+									"text" : "This patch requires NodeJS and node-twitter  \n\n1. Install NodeJS (http://nodejs.org)\n\n2. Install node-twitter: npm install node-twitter\n\n3. Create a Twitter Developper account: https://dev.twitter.com\n\n4. Create an app: https://apps.twitter.com \n\n5. Access level: give it read and write, same with the token\n\n6. Go to manage keys and access tokens (API) and copy them\n\n7. Launch <config-twitter>, insert the Consumer Key (API Key), Consumer Secret \n(API Secret), Access Token and Access Token Secret in the config-twitter.json file.\n\n8. Read more about the extremly complicated protocol that is OAuth (and then stop) https://dev.twitter.com/oauth/overview/introduction\n\n9. Test node in the terminal: node upload-tweet.js\n\n10. Then use the Max patch… "
 								}
 
 							}
@@ -576,10 +594,10 @@
 , 							{
 								"name" : "m4va",
 								"default" : 								{
-									"fontsize" : [ 12.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
 									"fontname" : [ "Arial" ],
-									"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ]
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontsize" : [ 12.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -588,12 +606,12 @@
 , 							{
 								"name" : "m4vatextbutton",
 								"default" : 								{
-									"fontsize" : [ 14.0 ],
-									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
+									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+									"fontsize" : [ 14.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -634,7 +652,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -785,6 +803,50 @@
 							}
  ],
 						"styles" : [ 							{
+								"name" : "AudioStatus_Menu",
+								"default" : 								{
+									"bgfillcolor" : 									{
+										"type" : "color",
+										"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
+										"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
+										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39,
+										"autogradient" : 0
+									}
+
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "m4va",
+								"default" : 								{
+									"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
+									"fontname" : [ "Arial" ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"fontsize" : [ 12.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "m4vatextbutton",
+								"default" : 								{
+									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+									"fontsize" : [ 14.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
 								"name" : "simple",
 								"parentstyle" : "",
 								"multi" : 0
@@ -812,19 +874,19 @@
 					"fontsize" : 13.0,
 					"id" : "obj-17",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 586.0, 44.0, 442.0, 255.0 ],
+						"rect" : [ 663.0, 45.0, 555.0, 247.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -853,12 +915,51 @@
 						"subpatcher_template" : "simple",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-6",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 412.333313, 61.0, 59.0, 22.0 ],
+									"style" : "",
+									"text" : "tosymbol"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-3",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 412.333313, 87.0, 133.0, 22.0 ],
+									"style" : "",
+									"text" : "sprintf set status \\\"%s\\\""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-5",
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 412.333313, 33.0, 22.0, 22.0 ],
+									"style" : ""
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-4",
 									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 59.0, 6.0, 333.0, 33.0 ],
+									"patching_rect" : [ 49.0, 6.5, 234.0, 33.0 ],
 									"style" : "",
 									"text" : "export a JSON file for node with the status and the path to the media "
 								}
@@ -920,7 +1021,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 268.333313, 116.0, 163.0, 35.0 ],
 									"style" : "",
-									"text" : "set status \"tweeting from Max through nodeJS... test3\""
+									"text" : "set status \"tweeting from Max through nodeJS... \""
 								}
 
 							}
@@ -1043,6 +1144,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-9", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-3", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-8", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -1079,6 +1189,24 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-6", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-5", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-6", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-13", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -1100,12 +1228,12 @@
 						"styles" : [ 							{
 								"name" : "m4vatextbutton",
 								"default" : 								{
-									"fontsize" : [ 14.0 ],
-									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
+									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+									"fontsize" : [ 14.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1155,22 +1283,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 393.25, 415.0, 127.0, 40.0 ],
+					"patching_rect" : [ 455.0, 415.0, 127.0, 40.0 ],
 					"style" : "",
 					"text" : "send instructions to the terminal"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-21",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 72.0, 67.5, 283.0, 33.0 ],
-					"style" : "",
-					"text" : "write tweet and path to JSON (1), create image (2), name it 'image' (3), export (4), send to twitter (5)"
 				}
 
 			}
@@ -1235,15 +1350,15 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 12.25, 415.0, 373.0, 38.0 ],
+					"patching_rect" : [ 12.25, 415.0, 435.0, 38.0 ],
 					"style" : "",
-					"text" : "/usr/local/bin/node \\\"/Users/Shared/Max 7/Packages/Max4VisualArts/javascript/nodejs/upload-tweet.js\\\""
+					"text" : "/usr/local/bin/node \\\"/Users/Shared/Max 7/Packages/Max4VisualArts/javascript/nodejs/node_tweet_upload\\\""
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "node tweet upload (simple)", "install NodeJs before using this patch (see tutorial)" ],
+					"args" : [ "node tweet upload (node-twitter)", "install NodeJs before using this patch (see tutorial)" ],
 					"bgmode" : 1,
 					"border" : 0,
 					"clickthrough" : 1,
@@ -1283,6 +1398,7 @@
 				"box" : 				{
 					"id" : "obj-5",
 					"maxclass" : "jit.pwindow",
+					"name" : "u526003154",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
@@ -1375,6 +1491,35 @@
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1,
 					"varname" : "textbutton"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"bgcolor" : [ 1.0, 0.788235, 0.470588, 1.0 ],
+					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
+					"fontname" : "Arial Bold",
+					"fontsize" : 13.0,
+					"hint" : "",
+					"id" : "obj-12",
+					"ignoreclick" : 1,
+					"legacytextcolor" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 630.0, 134.5, 20.0, 20.0 ],
+					"rounded" : 60.0,
+					"style" : "",
+					"text" : "1",
+					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ],
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textovercolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1,
+					"varname" : "textbutton[1]"
 				}
 
 			}
@@ -1493,7 +1638,7 @@
 					"destination" : [ "obj-10", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 131.75, 406.0, 375.75, 406.0 ],
+					"midpoints" : [ 131.75, 406.0, 437.75, 406.0 ],
 					"source" : [ "obj-28", 0 ]
 				}
 
@@ -1571,6 +1716,15 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-9", 0 ]
+				}
+
+			}
  ],
 		"dependency_cache" : [ 			{
 				"name" : "Max4VA-Title.maxpat",
@@ -1617,10 +1771,10 @@
 , 			{
 				"name" : "m4va",
 				"default" : 				{
-					"fontsize" : [ 12.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
 					"fontname" : [ "Arial" ],
-					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ]
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontsize" : [ 12.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1629,12 +1783,12 @@
 , 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
-					"fontsize" : [ 14.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"fontsize" : [ 14.0 ]
 				}
 ,
 				"parentstyle" : "",
