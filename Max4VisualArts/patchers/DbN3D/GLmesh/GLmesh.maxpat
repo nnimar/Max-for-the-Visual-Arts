@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 3,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 0.0, 44.0, 440.0, 603.0 ],
+		"rect" : [ 0.0, 45.0, 440.0, 603.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 13.0,
@@ -245,7 +245,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -293,7 +293,7 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 12.0, 572.0, 100.0, 24.0 ],
+					"patching_rect" : [ 9.0, 572.0, 100.0, 24.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -432,7 +432,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.0, 147.0, 236.0, 22.0 ],
+					"patching_rect" : [ 193.0, 146.0, 236.0, 22.0 ],
 					"style" : "",
 					"text" : "gridshapes to mesh (matrixoutput)"
 				}
@@ -959,7 +959,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -1040,7 +1040,7 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 119.0, 572.0, 90.0, 24.0 ],
+					"patching_rect" : [ 116.0, 572.0, 90.0, 24.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1208,7 +1208,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.0, 172.0, 156.0, 22.0 ],
+					"patching_rect" : [ 193.0, 171.0, 156.0, 22.0 ],
 					"style" : "",
 					"text" : "noise (random) to mesh"
 				}
@@ -1264,7 +1264,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 193.0, 68.0, 196.0, 22.0 ],
+					"patching_rect" : [ 193.0, 67.0, 196.0, 22.0 ],
 					"style" : "",
 					"text" : "simple matrix to mesh (line)"
 				}
@@ -1653,12 +1653,12 @@
 		"styles" : [ 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
-					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"fontsize" : [ 14.0 ],
-					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

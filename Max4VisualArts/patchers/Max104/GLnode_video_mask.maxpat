@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 3,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1.0, 44.0, 735.0, 530.0 ],
+		"rect" : [ 1.0, 45.0, 735.0, 530.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 13.0,
@@ -38,7 +38,7 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"args" : [ "GLnode video mask", "render two video a GLnode and a gridshape to a GLtexture (using @name and @capture) and mix with a GLslab" ],
+					"args" : [ "GLnode video mask", "render two video to GLnode and a gridshape to a GLtexture (using @name and @capture) and mix" ],
 					"bgmode" : 1,
 					"border" : 0,
 					"clickthrough" : 1,
@@ -51,7 +51,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, -278.0 ],
-					"patching_rect" : [ 0.0, 0.0, 620.0, 56.0 ],
+					"patching_rect" : [ 0.0, 0.0, 666.0, 56.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -7.0, 12.0, 487.519531, 73.0 ],
 					"viewvisibility" : 1
@@ -83,7 +83,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 156.348022, 209.251862, 65.0, 20.0 ],
+					"patching_rect" : [ 156.348022, 233.251862, 65.0, 20.0 ],
 					"style" : "",
 					"text" : "loadmess 1"
 				}
@@ -130,7 +130,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 158.348022, 67.251862, 65.0, 20.0 ],
+					"patching_rect" : [ 158.348022, 91.251862, 65.0, 20.0 ],
 					"style" : "",
 					"text" : "loadmess 1"
 				}
@@ -165,7 +165,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -242,7 +242,6 @@
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
-						"fontsize" : 12.0,
 						"globalpatchername" : "",
 						"style" : "",
 						"tags" : ""
@@ -264,7 +263,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 25.0, 393.0, 105.0, 37.0 ],
+					"patching_rect" : [ 25.0, 421.0, 102.147247, 37.0 ],
 					"style" : "",
 					"text" : "render subvid (sub-context)"
 				}
@@ -279,7 +278,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 392.0, 494.0, 86.0, 24.0 ],
+					"patching_rect" : [ 420.5, 494.0, 86.0, 24.0 ],
 					"style" : "",
 					"text" : "final output"
 				}
@@ -294,7 +293,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 468.0, 460.0, 136.0, 24.0 ],
+					"patching_rect" : [ 420.5, 461.0, 136.0, 24.0 ],
 					"style" : "",
 					"text" : "blend using multiply"
 				}
@@ -342,7 +341,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -498,7 +497,6 @@
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
-						"fontsize" : 12.0,
 						"globalpatchername" : "",
 						"style" : "",
 						"tags" : ""
@@ -518,7 +516,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 446.0, 373.0, 45.0, 22.0 ],
+					"patching_rect" : [ 392.0, 371.0, 45.0, 22.0 ],
 					"style" : "",
 					"text" : "r bang"
 				}
@@ -537,7 +535,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 640.0, 400.0, 50.0, 22.0 ],
+					"patching_rect" : [ 586.0, 398.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -551,7 +549,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_gl_texture" ],
-					"patching_rect" : [ 446.0, 430.0, 213.0, 22.0 ],
+					"patching_rect" : [ 392.0, 428.0, 213.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.gl.slab.gauss6x"
 				}
@@ -566,7 +564,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 446.0, 400.0, 186.0, 24.0 ],
+					"patching_rect" : [ 392.0, 398.0, 186.0, 24.0 ],
 					"style" : "",
 					"text" : "jit.gl.texture @name mask"
 				}
@@ -581,7 +579,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 134.0, 494.0, 254.0, 24.0 ],
+					"patching_rect" : [ 134.0, 494.0, 277.0, 24.0 ],
 					"style" : "",
 					"text" : "jit.gl.videoplane @transform_reset 2"
 				}
@@ -596,7 +594,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 134.0, 461.0, 331.0, 24.0 ],
+					"patching_rect" : [ 134.0, 461.0, 277.0, 24.0 ],
 					"style" : "",
 					"text" : "jit.gl.slab @file co.multiply.jxs"
 				}
@@ -688,7 +686,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 138.244202, 290.142548, 225.0, 35.0 ],
+					"patching_rect" : [ 138.244202, 292.142548, 225.0, 35.0 ],
 					"style" : "",
 					"text" : "jit.gl.videoplane sub2 @scale -0.5 0.5 1. @position 0.4 0. 0."
 				}
@@ -810,7 +808,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 138.244202, 147.142548, 221.0, 35.0 ],
+					"patching_rect" : [ 138.244202, 151.142548, 221.0, 35.0 ],
 					"style" : "",
 					"text" : "jit.gl.videoplane sub2 @scale 0.5 0.5 1. @position -0.6 0. 0."
 				}
@@ -826,23 +824,20 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 134.0, 373.0, 229.0, 22.0 ],
+					"patching_rect" : [ 134.0, 401.0, 229.0, 22.0 ],
 					"style" : ""
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"color" : [ 0.836957, 0.836957, 0.836957, 1.0 ],
-					"fontname" : "Arial Bold",
-					"fontsize" : 14.0,
 					"id" : "obj-3",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "jit_gl_texture", "", "" ],
-					"patching_rect" : [ 134.0, 400.0, 248.0, 24.0 ],
-					"style" : "",
+					"patching_rect" : [ 134.0, 428.0, 229.0, 23.0 ],
+					"style" : "default",
 					"text" : "jit.gl.node @name sub2 @capture 1"
 				}
 
@@ -979,7 +974,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 639.0, 400.0, 70.0, 20.0 ],
+					"patching_rect" : [ 585.0, 398.0, 70.0, 20.0 ],
 					"style" : "",
 					"text" : "loadmess 0.6"
 				}
@@ -1009,7 +1004,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 9.0, 214.0, 67.0, 35.0 ],
+					"patching_rect" : [ 9.0, 214.0, 70.0, 35.0 ],
 					"style" : ""
 				}
 
@@ -1086,7 +1081,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -1706,7 +1701,6 @@
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
-						"fontsize" : 12.0,
 						"globalpatchername" : "",
 						"style" : "",
 						"tags" : ""
@@ -2205,17 +2199,51 @@
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
+			}
  ],
 		"embedsnapshot" : 0,
 		"styles" : [ 			{
+				"name" : "AudioStatus_Menu",
+				"default" : 				{
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
+						"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "m4va",
+				"default" : 				{
+					"fontsize" : [ 12.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : [ "Arial" ],
+					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
 					"fontsize" : [ 14.0 ],
-					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
