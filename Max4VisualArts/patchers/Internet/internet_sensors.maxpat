@@ -276,11 +276,11 @@
 								"name" : "m4vatextbutton",
 								"default" : 								{
 									"fontsize" : [ 14.0 ],
+									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
+									"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -490,9 +490,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 168.5, 205.388885, 221.0, 22.0 ],
+					"patching_rect" : [ 168.5, 205.388885, 272.0, 22.0 ],
 					"style" : "",
-					"text" : "intro to API wth dictionary (JSON)"
+					"text" : "intro to API wth dictionary (Dict and JSON)"
 				}
 
 			}
@@ -1177,11 +1177,11 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 262.366669, 95.0, 20.0 ],
+					"patching_rect" : [ 8.0, 262.611115, 96.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 51.5, 179.5, 79.0, 17.0 ],
 					"style" : "",
-					"text" : "xively_report",
+					"text" : "data_sparkfun",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 0,
 					"texton" : "Stop",
@@ -1202,9 +1202,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 260.5, 89.0, 20.0 ],
+					"patching_rect" : [ 8.0, 262.611115, 96.0, 20.0 ],
 					"style" : "",
-					"text" : "load xively_report"
+					"text" : "load data_sparkfun"
 				}
 
 			}
@@ -1340,7 +1340,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 168.5, 259.611115, 192.0, 22.0 ],
+					"patching_rect" : [ 168.5, 261.611115, 192.0, 22.0 ],
 					"style" : "",
 					"text" : "an exchange API (using dict)"
 				}
@@ -1842,9 +1842,9 @@
 				"name" : "m4va",
 				"default" : 				{
 					"fontsize" : [ 12.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
 					"fontname" : [ "Arial" ],
-					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ]
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1854,11 +1854,11 @@
 				"name" : "m4vatextbutton",
 				"default" : 				{
 					"fontsize" : [ 14.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

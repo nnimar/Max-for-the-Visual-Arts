@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 3,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 503.0, 44.0, 783.0, 657.0 ],
+		"rect" : [ 499.0, 45.0, 783.0, 657.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -153,7 +153,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 513.875, 115.0, 157.25, 22.0 ],
+					"patching_rect" : [ 513.875, 116.0, 157.25, 22.0 ],
 					"style" : "",
 					"text" : "(1) substitute message"
 				}
@@ -183,7 +183,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 460.0, 115.0, 50.0, 24.0 ],
-					"style" : ""
+					"style" : "",
+					"text" : "apple"
 				}
 
 			}
@@ -442,8 +443,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 17.0, 393.0, 81.0, 24.0 ],
-					"style" : ""
+					"patching_rect" : [ 15.0, 393.0, 81.0, 24.0 ],
+					"style" : "",
+					"text" : "shell"
 				}
 
 			}
@@ -576,7 +578,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 43.0, 422.0, 82.0, 24.0 ],
-					"style" : ""
+					"style" : "",
+					"text" : "Shelfish"
 				}
 
 			}
@@ -664,7 +667,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 60.0, 587.0, 54.0, 24.0 ],
-					"style" : ""
+					"style" : "",
+					"text" : "abcx5"
 				}
 
 			}
@@ -678,7 +682,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 38.0, 558.0, 50.0, 24.0 ],
-					"style" : ""
+					"style" : "",
+					"text" : "abc20"
 				}
 
 			}
@@ -737,7 +742,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 169.875, 218.0, 69.0, 24.0 ],
-					"style" : ""
+					"style" : "",
+					"text" : "cde"
 				}
 
 			}
@@ -751,7 +757,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 121.5, 167.0, 50.0, 24.0 ],
-					"style" : ""
+					"style" : "",
+					"text" : "abc20"
 				}
 
 			}
@@ -765,7 +772,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 60.75, 117.0, 43.0, 24.0 ],
-					"style" : ""
+					"style" : "",
+					"text" : "2"
 				}
 
 			}
@@ -1250,17 +1258,21 @@
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
+			}
  ],
 		"embedsnapshot" : 0,
 		"styles" : [ 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"fontsize" : [ 14.0 ]
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontsize" : [ 14.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
