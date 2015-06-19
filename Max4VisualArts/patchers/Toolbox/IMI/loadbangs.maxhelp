@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 3,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -156,7 +156,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 288.0, 489.0, 19.0, 22.0 ],
+					"patching_rect" : [ 288.0, 484.0, 19.0, 22.0 ],
 					"style" : "",
 					"text" : "0"
 				}
@@ -533,15 +533,16 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-11",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.0, 293.0, 103.0, 22.0 ],
+					"patching_rect" : [ 12.0, 264.0, 44.0, 22.0 ],
 					"style" : "",
-					"text" : "print a @popup 1"
+					"text" : "print a"
 				}
 
 			}
@@ -865,7 +866,7 @@
 					"destination" : [ "obj-21", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 297.5, 516.0, 316.0, 516.0, 316.0, 392.0, 21.5, 392.0 ],
+					"midpoints" : [ 297.5, 511.0, 316.0, 511.0, 316.0, 392.0, 21.5, 392.0 ],
 					"source" : [ "obj-8", 0 ]
 				}
 

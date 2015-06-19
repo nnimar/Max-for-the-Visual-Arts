@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 100.0, 100.0, 502.0, 443.0 ],
+		"rect" : [ 100.0, 100.0, 494.0, 443.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -146,7 +146,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -224,7 +224,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 2,
+											"revision" : 3,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -434,6 +434,12 @@
 													"source" : [ "obj-3", 0 ]
 												}
 
+											}
+ ],
+										"styles" : [ 											{
+												"name" : "simple",
+												"parentstyle" : "",
+												"multi" : 0
 											}
  ]
 									}
@@ -785,6 +791,7 @@
 								"box" : 								{
 									"id" : "obj-5",
 									"maxclass" : "jit.pwindow",
+									"name" : "u442001597",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],

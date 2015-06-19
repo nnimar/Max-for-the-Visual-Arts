@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 3,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -413,7 +413,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 69.0, 390.0, 53.0, 24.0 ],
+					"patching_rect" : [ 69.0, 387.0, 53.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -427,7 +427,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 69.0, 419.0, 50.0, 24.0 ],
+					"patching_rect" : [ 69.0, 416.0, 50.0, 24.0 ],
 					"style" : "",
 					"text" : "set $1"
 				}
@@ -637,7 +637,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 3,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -949,10 +949,10 @@
 						"styles" : [ 							{
 								"name" : "m4va",
 								"default" : 								{
-									"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
-									"fontsize" : [ 12.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontname" : [ "Arial" ]
+									"fontname" : [ "Arial" ],
+									"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
+									"fontsize" : [ 12.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1541,7 +1541,7 @@
 					"destination" : [ "obj-33", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 384.109009, 92.0, 253.140991, 92.0 ],
+					"midpoints" : [ 384.109009, 95.0, 253.140991, 95.0 ],
 					"source" : [ "obj-24", 0 ]
 				}
 
@@ -1551,7 +1551,7 @@
 					"destination" : [ "obj-33", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 348.75, 92.0, 253.140991, 92.0 ],
+					"midpoints" : [ 348.75, 95.0, 253.140991, 95.0 ],
 					"source" : [ "obj-25", 0 ]
 				}
 
@@ -1561,7 +1561,7 @@
 					"destination" : [ "obj-33", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 288.25, 92.0, 253.140991, 92.0 ],
+					"midpoints" : [ 288.25, 95.0, 253.140991, 95.0 ],
 					"source" : [ "obj-26", 0 ]
 				}
 
@@ -1983,9 +1983,57 @@
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
+			}
  ],
 		"embedsnapshot" : 0,
 		"styles" : [ 			{
+				"name" : "AudioStatus_Menu",
+				"default" : 				{
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
+						"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "m4va",
+				"default" : 				{
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : [ "Arial" ],
+					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
+					"fontsize" : [ 12.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "m4vatextbutton",
+				"default" : 				{
+					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontsize" : [ 14.0 ],
+					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
 				"name" : "simple",
 				"parentstyle" : "",
 				"multi" : 0

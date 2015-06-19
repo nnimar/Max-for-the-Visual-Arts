@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 100.0, 100.0, 825.0, 544.0 ],
+		"rect" : [ 100.0, 100.0, 1148.0, 441.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -38,6 +38,137 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
+					"fontsize" : 13.0,
+					"id" : "obj-5",
+					"legacytextcolor" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 71.0, 412.0, 100.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 239.0, 294.5, 79.0, 17.0 ],
+					"style" : "",
+					"text" : "open getnet.sh",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"texton" : "Stop",
+					"textoncolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+					"usebgoncolor" : 1,
+					"usetextovercolor" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-9",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 75.0, 412.0, 60.0, 22.0 ],
+					"style" : "",
+					"text" : "getnet.sh"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-12",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 75.0, 412.0, 82.0, 22.0 ],
+					"style" : "",
+					"text" : "imi.docloader"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 7,
+							"minor" : 0,
+							"revision" : 3,
+							"architecture" : "x86",
+							"modernui" : 1
+						}
+,
+						"rect" : [ 937.0, 174.0, 283.0, 298.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"boxes" : [ 							{
+								"box" : 								{
+									"fontsize" : 14.0,
+									"id" : "obj-9",
+									"linecount" : 17,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 14.0, 11.0, 255.0, 272.0 ],
+									"style" : "",
+									"text" : "Public IP: 2.219.49.210\nHostname: are-u-human\n \nWired Ethernet (en0)\n-----------------------\nIP Address: inactive\nMAC Address: 10:dd:b1:a1:b5:28\n \nWireless Ethernet (en1)\n-----------------------\nIP Address: 192.168.0.6 (DHCP)\nSubnet Mask: 255.255.255.0\nRouter: 192.168.0.1\nDNS Server: 192.168.0.1\nSearch Domains: Home\nMAC Address: 4c:8d:79:df:88:bc\nSpeed: 13 MBit/s"
+								}
+
+							}
+ ],
+						"lines" : [  ]
+					}
+,
+					"patching_rect" : [ 574.0, 287.0, 64.0, 24.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"style" : "",
+						"tags" : ""
+					}
+,
+					"style" : "",
+					"text" : "p tutorial"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-23",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -60,22 +191,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 724.5, 61.5, 90.0, 37.0 ],
-					"presentation_rect" : [ 532.0, 72.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "bash application"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-9",
-					"linecount" : 17,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 946.0, 76.0, 250.0, 272.0 ],
-					"style" : "",
-					"text" : "Public IP: 2.219.49.210\nHostname: are-u-human\n \nWired Ethernet (en0)\n-----------------------\nIP Address: inactive\nMAC Address: 10:dd:b1:a1:b5:28\n \nWireless Ethernet (en1)\n-----------------------\nIP Address: 192.168.0.6 (DHCP)\nSubnet Mask: 255.255.255.0\nRouter: 192.168.0.1\nDNS Server: 192.168.0.1\nSearch Domains: Home\nMAC Address: 4c:8d:79:df:88:bc\nSpeed: 13 MBit/s"
 				}
 
 			}
@@ -95,7 +212,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-3",
-					"items" : [ "2.219.49.210", ",", "are-u-human", ",", "------------", ",", "No Ethernet", ",", "10:dd:b1:a1:b5:28", ",", "------------", ",", "Wifi", ",", "192.168.0.6 (DHCP)", ",", "192.168.0.1", ",", "4c:8d:79:df:88:bc", ",", "26 MBit/s" ],
+					"items" : [ "2.219.75.77", ",", "are-u-human", ",", "------------", ",", "No Ethernet", ",", "10:dd:b1:a1:b5:28", ",", "------------", ",", "Wifi", ",", "192.168.0.7 (DHCP)", ",", "192.168.0.1", ",", "4c:8d:79:df:88:bc", ",", "5 MBit/s" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -240,9 +357,9 @@
 								"name" : "m4va",
 								"default" : 								{
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontsize" : [ 12.0 ],
+									"fontname" : [ "Arial" ],
 									"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
-									"fontname" : [ "Arial" ]
+									"fontsize" : [ 12.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -289,7 +406,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 669.0, 145.0, 71.0, 22.0 ],
+					"patching_rect" : [ 669.0, 140.0, 71.0, 22.0 ],
 					"style" : "",
 					"text" : "viewsource"
 				}
@@ -304,7 +421,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 650.0, 178.0, 155.0, 29.0 ],
+					"patching_rect" : [ 650.0, 181.0, 155.0, 29.0 ],
 					"style" : "",
 					"text" : "mxj shellAccess"
 				}
@@ -676,11 +793,11 @@
 								"name" : "m4vatextbutton",
 								"default" : 								{
 									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"fontsize" : [ 14.0 ],
 									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
+									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -717,7 +834,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 445.0, 421.0, 129.0, 38.0 ],
+					"patching_rect" : [ 1008.0, 215.0, 129.0, 38.0 ],
 					"style" : "",
 					"text" : "read  the fourth line, second word"
 				}
@@ -733,7 +850,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 9.0, 514.0, 61.0, 21.0 ],
+					"patching_rect" : [ 7.0, 413.0, 61.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 140.0, 486.5, 79.0, 17.0 ],
 					"style" : "default",
@@ -756,7 +873,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 507.0, 275.0, 31.0 ],
+					"patching_rect" : [ 8.0, 406.0, 275.0, 31.0 ],
 					"style" : "",
 					"text" : ";\rmax launchbrowser http://nmap.org/download.html#macosx"
 				}
@@ -771,7 +888,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 472.0, 263.0, 38.0 ],
+					"patching_rect" : [ 5.0, 371.0, 263.0, 38.0 ],
 					"style" : "",
 					"text" : "To use nmap, you need to install\nit from the <more> folder or download it :"
 				}
@@ -786,7 +903,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 440.0, 274.0, 110.0, 24.0 ],
+					"patching_rect" : [ 1003.0, 68.0, 110.0, 24.0 ],
 					"style" : "",
 					"text" : "ifconfig (Unix)"
 				}
@@ -817,7 +934,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 299.0, 483.0, 93.0, 24.0 ],
+					"patching_rect" : [ 862.0, 277.0, 93.0, 24.0 ],
 					"style" : "",
 					"text" : "loadmess set"
 				}
@@ -832,7 +949,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 291.0, 391.0, 71.0, 24.0 ],
+					"patching_rect" : [ 854.0, 185.0, 71.0, 24.0 ],
 					"style" : "",
 					"text" : "delay 200"
 				}
@@ -847,7 +964,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 374.0, 483.0, 69.0, 24.0 ],
+					"patching_rect" : [ 937.0, 277.0, 69.0, 24.0 ],
 					"style" : "",
 					"text" : "route inet"
 				}
@@ -862,9 +979,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 299.0, 514.0, 94.0, 24.0 ],
+					"patching_rect" : [ 862.0, 308.0, 94.0, 24.0 ],
 					"style" : "",
-					"text" : "192.168.0.6"
+					"text" : "192.168.0.7"
 				}
 
 			}
@@ -877,7 +994,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 374.0, 454.0, 64.0, 24.0 ],
+					"patching_rect" : [ 937.0, 248.0, 64.0, 24.0 ],
 					"style" : "",
 					"text" : "zl slice 2"
 				}
@@ -892,7 +1009,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 374.0, 421.0, 65.0, 24.0 ],
+					"patching_rect" : [ 937.0, 215.0, 65.0, 24.0 ],
 					"style" : "",
 					"text" : "route set"
 				}
@@ -908,7 +1025,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 413.0, 339.0, 105.0, 24.0 ],
+					"patching_rect" : [ 976.0, 133.0, 105.0, 24.0 ],
 					"style" : "",
 					"text" : "loadmess clear"
 				}
@@ -923,7 +1040,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "", "cr" ],
-					"patching_rect" : [ 359.0, 339.0, 49.0, 24.0 ],
+					"patching_rect" : [ 922.0, 133.0, 49.0, 24.0 ],
 					"style" : "",
 					"text" : "t b l cr"
 				}
@@ -938,7 +1055,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 291.0, 421.0, 44.0, 24.0 ],
+					"patching_rect" : [ 854.0, 215.0, 44.0, 24.0 ],
 					"style" : "",
 					"text" : "line 5"
 				}
@@ -953,7 +1070,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "bang", "int" ],
-					"patching_rect" : [ 374.0, 391.0, 46.0, 24.0 ],
+					"patching_rect" : [ 937.0, 185.0, 46.0, 24.0 ],
 					"style" : "",
 					"text" : "text"
 				}
@@ -1030,7 +1147,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 8.0, 139.0, 122.0, 24.0 ],
-					"style" : ""
+					"style" : "",
+					"text" : "192.168.0.7"
 				}
 
 			}
@@ -1070,7 +1188,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 440.0, 301.0, 130.0, 38.0 ],
+					"patching_rect" : [ 1003.0, 95.0, 130.0, 38.0 ],
 					"style" : "",
 					"text" : "display info on en1\n(ethernet interface)"
 				}
@@ -1085,7 +1203,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 359.0, 278.0, 77.0, 23.0 ],
+					"patching_rect" : [ 922.0, 70.0, 77.0, 23.0 ],
 					"style" : "",
 					"text" : "ifconfig en1"
 				}
@@ -1100,7 +1218,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 359.0, 306.0, 78.0, 29.0 ],
+					"patching_rect" : [ 922.0, 100.0, 78.0, 29.0 ],
 					"style" : "",
 					"text" : "shell"
 				}
@@ -1109,7 +1227,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-6",
-					"items" : [ "fe80:0:0:0:4e8d:79ff:fedf:88bc%5", ",", "192.168.0.6" ],
+					"items" : [ "fd92:febe:cdac:0:6561:e12d:e59:d1b0", ",", "fd92:febe:cdac:0:4e8d:79ff:fedf:88bc", ",", "fe80:0:0:0:4e8d:79ff:fedf:88bc%4", ",", "192.168.0.7" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1703,6 +1821,26 @@
 								}
 
 							}
+ ],
+						"styles" : [ 							{
+								"name" : "m4vatextbutton",
+								"default" : 								{
+									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"fontsize" : [ 14.0 ],
+									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "simple",
+								"parentstyle" : "",
+								"multi" : 0
+							}
  ]
 					}
 ,
@@ -1724,7 +1862,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-30",
-					"items" : "192.168.0.6",
+					"items" : [ "192.168.0.2", ",", "192.168.0.3", ",", "192.168.0.7", ",", "192.168.0.8" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1754,7 +1892,7 @@
 				"box" : 				{
 					"fontsize" : 12.0,
 					"id" : "obj-16",
-					"items" : [ "awdl0", ",", "en1", ",", "lo0" ],
+					"items" : [ "utun0", ",", "awdl0", ",", "en1", ",", "lo0" ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"numinlets" : 1,
@@ -1817,7 +1955,7 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 678.5, 98.0, 659.5, 98.0 ],
+					"midpoints" : [ 678.5, 171.0, 659.5, 171.0 ],
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -1882,7 +2020,7 @@
 					"destination" : [ "obj-4", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 300.5, 450.0, 365.0, 450.0, 365.0, 381.0, 383.5, 381.0 ],
+					"midpoints" : [ 863.5, 244.0, 928.0, 244.0, 928.0, 175.0, 946.5, 175.0 ],
 					"source" : [ "obj-21", 0 ]
 				}
 
@@ -1929,7 +2067,7 @@
 					"destination" : [ "obj-4", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 398.5, 381.0, 383.5, 381.0 ],
+					"midpoints" : [ 961.5, 175.0, 946.5, 175.0 ],
 					"source" : [ "obj-28", 2 ]
 				}
 
@@ -1948,7 +2086,7 @@
 					"destination" : [ "obj-50", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 368.5, 376.0, 300.5, 376.0 ],
+					"midpoints" : [ 931.5, 170.0, 863.5, 170.0 ],
 					"source" : [ "obj-28", 0 ]
 				}
 
@@ -1986,7 +2124,7 @@
 					"destination" : [ "obj-4", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 422.5, 381.5, 383.5, 381.5 ],
+					"midpoints" : [ 985.5, 175.5, 946.5, 175.5 ],
 					"source" : [ "obj-35", 0 ]
 				}
 
@@ -2066,6 +2204,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -2109,11 +2256,27 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-9", 0 ]
+				}
+
+			}
  ],
 		"dependency_cache" : [ 			{
 				"name" : "Max4VA-Title.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
 				"patcherrelativepath" : "../../zpatches",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "imi.docloader.maxpat",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/Toolbox/imi_objects",
+				"patcherrelativepath" : "../imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2128,6 +2291,50 @@
  ],
 		"embedsnapshot" : 0,
 		"styles" : [ 			{
+				"name" : "AudioStatus_Menu",
+				"default" : 				{
+					"bgfillcolor" : 					{
+						"type" : "color",
+						"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
+						"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39,
+						"autogradient" : 0
+					}
+
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "m4va",
+				"default" : 				{
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : [ "Arial" ],
+					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
+					"fontsize" : [ 12.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "m4vatextbutton",
+				"default" : 				{
+					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontsize" : [ 14.0 ],
+					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
 				"name" : "simple",
 				"parentstyle" : "",
 				"multi" : 0
