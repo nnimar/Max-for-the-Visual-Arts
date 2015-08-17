@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 2,
+			"revision" : 4,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 0.0, 44.0, 490.0, 628.0 ],
+		"rect" : [ 0.0, 45.0, 490.0, 628.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -50,7 +50,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 4,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -667,10 +667,10 @@
 						"styles" : [ 							{
 								"name" : "m4va",
 								"default" : 								{
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"fontsize" : [ 12.0 ],
 									"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
-									"fontname" : [ "Arial" ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"parentstyle" : "",
@@ -773,12 +773,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 4,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 532.0, 79.0, 306.0, 573.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -813,7 +813,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 426.0, 77.0, 22.0 ],
+									"patching_rect" : [ 8.0, 385.0, 77.0, 22.0 ],
 									"style" : "",
 									"text" : "loadmess 1"
 								}
@@ -826,7 +826,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 141.0, 340.0, 175.0, 47.0 ],
+									"patching_rect" : [ 99.0, 299.0, 175.0, 47.0 ],
 									"style" : "",
 									"text" : "check if we are playing the last clip.  if so, we can repeat the playlist if desired."
 								}
@@ -839,7 +839,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "bang" ],
-									"patching_rect" : [ 66.5, 279.5, 54.5, 22.0 ],
+									"patching_rect" : [ 24.5, 238.5, 54.5, 22.0 ],
 									"style" : "",
 									"text" : "t i b"
 								}
@@ -852,7 +852,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.5, 501.0, 35.0, 22.0 ],
+									"patching_rect" : [ 8.5, 460.0, 35.0, 22.0 ],
 									"style" : "",
 									"text" : "gate"
 								}
@@ -864,7 +864,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 80.0, 455.5, 47.0, 20.0 ],
+									"patching_rect" : [ 38.0, 414.5, 47.0, 20.0 ],
 									"style" : "",
 									"text" : "repeat"
 								}
@@ -878,7 +878,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 50.0, 455.5, 24.0, 24.0 ],
+									"patching_rect" : [ 8.0, 414.5, 24.0, 24.0 ],
 									"style" : ""
 								}
 
@@ -891,7 +891,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 102.0, 545.0, 50.0, 22.0 ],
+									"patching_rect" : [ 60.0, 504.0, 50.0, 22.0 ],
 									"style" : ""
 								}
 
@@ -903,7 +903,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 102.0, 370.0, 29.5, 22.0 ],
+									"patching_rect" : [ 60.0, 329.0, 29.5, 22.0 ],
 									"style" : "",
 									"text" : "+ 1"
 								}
@@ -916,7 +916,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 66.5, 370.0, 29.5, 22.0 ],
+									"patching_rect" : [ 24.5, 329.0, 29.5, 22.0 ],
 									"style" : "",
 									"text" : "1"
 								}
@@ -929,7 +929,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 102.0, 311.0, 126.0, 22.0 ],
+									"patching_rect" : [ 60.0, 270.0, 126.0, 22.0 ],
 									"style" : "",
 									"text" : "v playlist_clip_count"
 								}
@@ -942,7 +942,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 66.5, 340.0, 54.5, 22.0 ],
+									"patching_rect" : [ 24.5, 299.0, 54.5, 22.0 ],
 									"style" : "",
 									"text" : "sel"
 								}
@@ -956,7 +956,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 66.5, 245.5, 50.0, 22.0 ],
+									"patching_rect" : [ 24.5, 204.5, 50.0, 22.0 ],
 									"style" : ""
 								}
 
@@ -969,7 +969,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 66.5, 174.0, 50.0, 22.0 ],
+									"patching_rect" : [ 24.5, 133.0, 50.0, 22.0 ],
 									"style" : ""
 								}
 
@@ -981,7 +981,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 174.5, 174.0, 162.0, 22.0 ],
+									"patching_rect" : [ 132.5, 133.0, 162.0, 22.0 ],
 									"style" : "",
 									"text" : "v playlist_clip_last_started"
 								}
@@ -994,7 +994,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 174.5, 140.0, 24.0, 24.0 ],
+									"patching_rect" : [ 132.5, 99.0, 24.0, 24.0 ],
 									"style" : ""
 								}
 
@@ -1006,7 +1006,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 66.5, 211.0, 127.0, 22.0 ],
+									"patching_rect" : [ 24.5, 170.0, 127.0, 22.0 ],
 									"style" : "",
 									"text" : "if $i1 == $i2 then $i1"
 								}
@@ -1019,7 +1019,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 66.5, 100.0, 44.0, 22.0 ],
+									"patching_rect" : [ 24.5, 59.0, 44.0, 22.0 ],
 									"style" : "",
 									"text" : "unjoin"
 								}
@@ -1033,7 +1033,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 66.5, 40.0, 30.0, 30.0 ],
+									"patching_rect" : [ 24.5, 14.0, 30.0, 30.0 ],
 									"style" : ""
 								}
 
@@ -1045,7 +1045,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 102.0, 627.0, 30.0, 30.0 ],
+									"patching_rect" : [ 60.0, 540.0, 25.0, 25.0 ],
 									"style" : ""
 								}
 
@@ -1092,7 +1092,7 @@
 									"destination" : [ "obj-69", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 76.0, 130.5, 184.0, 130.5 ],
+									"midpoints" : [ 34.0, 89.5, 142.0, 89.5 ],
 									"source" : [ "obj-59", 0 ]
 								}
 
@@ -1192,7 +1192,7 @@
 									"destination" : [ "obj-87", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 60.0, 533.5, 111.5, 533.5 ],
+									"midpoints" : [ 18.0, 492.5, 69.5, 492.5 ],
 									"source" : [ "obj-81", 0 ]
 								}
 
@@ -1442,31 +1442,31 @@
 									"outputmode" : [ 1 ],
 									"out_name" : [ "u001000482" ],
 									"dim" : [ 1, 1 ],
-									"loopreport" : [ 0 ],
-									"drawto" : [ "" ],
-									"dstrect" : [ 0, 0, 1, 1 ],
-									"output_texture" : [ 0 ],
-									"framereport" : [ 0 ],
-									"automatic" : [ 0 ],
+									"usesrcrect" : [ 0 ],
+									"position" : [ 0.0 ],
 									"loopstart" : [ 0 ],
 									"looppoints" : [ 0, 0 ],
-									"interp" : [ 0 ],
-									"adapt" : [ 1 ],
-									"colormode" : [ "argb" ],
-									"usesrcrect" : [ 0 ],
-									"moviefile" : [ "" ],
-									"position" : [ 0.0 ],
-									"texture_name" : [ "u412000480" ],
+									"automatic" : [ 0 ],
 									"vol" : [ 1.0 ],
-									"time_secs" : [ 0.0 ],
 									"unique" : [ 0 ],
-									"loopend" : [ 0 ],
+									"time_secs" : [ 0.0 ],
+									"adapt" : [ 1 ],
 									"srcrect" : [ 0, 0, 1, 1 ],
-									"usedstrect" : [ 0 ],
-									"autostart" : [ 1 ],
-									"rate" : [ 1.0 ],
+									"interp" : [ 0 ],
+									"output_texture" : [ 0 ],
 									"engine" : [ "avf" ],
-									"time" : [ 0 ]
+									"time" : [ 0 ],
+									"usedstrect" : [ 0 ],
+									"loopend" : [ 0 ],
+									"autostart" : [ 1 ],
+									"dstrect" : [ 0, 0, 1, 1 ],
+									"colormode" : [ "argb" ],
+									"texture_name" : [ "u412000480" ],
+									"rate" : [ 1.0 ],
+									"framereport" : [ 0 ],
+									"drawto" : [ "" ],
+									"moviefile" : [ "" ],
+									"loopreport" : [ 0 ]
 								}
 
 							}
@@ -1479,31 +1479,31 @@
 									"outputmode" : [ 1 ],
 									"out_name" : [ "u001000482" ],
 									"dim" : [ 1, 1 ],
-									"loopreport" : [ 0 ],
-									"drawto" : [ "" ],
-									"dstrect" : [ 0, 0, 1, 1 ],
-									"output_texture" : [ 0 ],
-									"framereport" : [ 0 ],
-									"automatic" : [ 0 ],
+									"usesrcrect" : [ 0 ],
+									"position" : [ 0.0 ],
 									"loopstart" : [ 0 ],
 									"looppoints" : [ 0, 0 ],
-									"interp" : [ 0 ],
-									"adapt" : [ 1 ],
-									"colormode" : [ "argb" ],
-									"usesrcrect" : [ 0 ],
-									"moviefile" : [ "" ],
-									"position" : [ 0.0 ],
-									"texture_name" : [ "u412000480" ],
+									"automatic" : [ 0 ],
 									"vol" : [ 1.0 ],
-									"time_secs" : [ 0.0 ],
 									"unique" : [ 0 ],
-									"loopend" : [ 0 ],
+									"time_secs" : [ 0.0 ],
+									"adapt" : [ 1 ],
 									"srcrect" : [ 0, 0, 1, 1 ],
-									"usedstrect" : [ 0 ],
-									"autostart" : [ 1 ],
-									"rate" : [ 1.0 ],
+									"interp" : [ 0 ],
+									"output_texture" : [ 0 ],
 									"engine" : [ "avf" ],
-									"time" : [ 0 ]
+									"time" : [ 0 ],
+									"usedstrect" : [ 0 ],
+									"loopend" : [ 0 ],
+									"autostart" : [ 1 ],
+									"dstrect" : [ 0, 0, 1, 1 ],
+									"colormode" : [ "argb" ],
+									"texture_name" : [ "u412000480" ],
+									"rate" : [ 1.0 ],
+									"framereport" : [ 0 ],
+									"drawto" : [ "" ],
+									"moviefile" : [ "" ],
+									"loopreport" : [ 0 ]
 								}
 
 							}
@@ -1516,31 +1516,31 @@
 									"outputmode" : [ 1 ],
 									"out_name" : [ "u001000482" ],
 									"dim" : [ 1, 1 ],
-									"loopreport" : [ 0 ],
-									"drawto" : [ "" ],
-									"dstrect" : [ 0, 0, 1, 1 ],
-									"output_texture" : [ 0 ],
-									"framereport" : [ 0 ],
-									"automatic" : [ 0 ],
+									"usesrcrect" : [ 0 ],
+									"position" : [ 0.0 ],
 									"loopstart" : [ 0 ],
 									"looppoints" : [ 0, 0 ],
-									"interp" : [ 0 ],
-									"adapt" : [ 1 ],
-									"colormode" : [ "argb" ],
-									"usesrcrect" : [ 0 ],
-									"moviefile" : [ "" ],
-									"position" : [ 0.0 ],
-									"texture_name" : [ "u412000480" ],
+									"automatic" : [ 0 ],
 									"vol" : [ 1.0 ],
-									"time_secs" : [ 0.0 ],
 									"unique" : [ 0 ],
-									"loopend" : [ 0 ],
+									"time_secs" : [ 0.0 ],
+									"adapt" : [ 1 ],
 									"srcrect" : [ 0, 0, 1, 1 ],
-									"usedstrect" : [ 0 ],
-									"autostart" : [ 1 ],
-									"rate" : [ 1.0 ],
+									"interp" : [ 0 ],
+									"output_texture" : [ 0 ],
 									"engine" : [ "avf" ],
-									"time" : [ 0 ]
+									"time" : [ 0 ],
+									"usedstrect" : [ 0 ],
+									"loopend" : [ 0 ],
+									"autostart" : [ 1 ],
+									"dstrect" : [ 0, 0, 1, 1 ],
+									"colormode" : [ "argb" ],
+									"texture_name" : [ "u412000480" ],
+									"rate" : [ 1.0 ],
+									"framereport" : [ 0 ],
+									"drawto" : [ "" ],
+									"moviefile" : [ "" ],
+									"loopreport" : [ 0 ]
 								}
 
 							}
@@ -1715,9 +1715,26 @@
 			}
  ],
 		"dependency_cache" : [ 			{
+				"name" : "sophie.mov",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/media/Video",
+				"type" : "MooV",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "drift.mov",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/media/Video",
+				"type" : "MooV",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cityroom.mov",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/media/Video",
+				"type" : "MooV",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "Max4VA-Title.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
-				"patcherrelativepath" : "../zpatches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1730,10 +1747,10 @@
 		"styles" : [ 			{
 				"name" : "m4va",
 				"default" : 				{
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 12.0 ],
 					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
-					"fontname" : [ "Arial" ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",

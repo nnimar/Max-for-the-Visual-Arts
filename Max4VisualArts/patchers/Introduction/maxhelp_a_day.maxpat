@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 5,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 0.0, 44.0, 504.0, 284.0 ],
+		"rect" : [ 0.0, 45.0, 504.0, 284.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -233,12 +233,12 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 166.0, 435.0, 99.422852, 41.515625 ],
+					"patching_rect" : [ 166.0, 435.0, 141.068359, 41.515625 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 101.0, 99.422852, 41.515625 ],
+					"presentation_rect" : [ 13.0, 101.0, 141.068359, 41.515625 ],
 					"rounded" : 20.0,
 					"style" : "",
-					"text" : "bondo",
+					"text" : "coll_tools",
 					"textcolor" : [ 0.15, 0.15, 0.15, 1.0 ],
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -289,7 +289,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 166.0, 348.0, 98.0, 22.0 ],
 					"style" : "",
-					"text" : "help bondo"
+					"text" : "help coll_tools"
 				}
 
 			}
@@ -492,7 +492,7 @@
 							}
 , 							{
 								"key" : 22,
-								"value" : [ "sprintf", "imi_sprintf" ]
+								"value" : [ "sprintf", "sprintf_help" ]
 							}
 , 							{
 								"key" : 23,
@@ -572,7 +572,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 15.0, 348.0, 83.0, 22.0 ],
 					"style" : "",
-					"text" : "help buddy"
+					"text" : "help coll"
 				}
 
 			}
@@ -589,12 +589,12 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 17.0, 435.0, 97.738274, 41.515625 ],
+					"patching_rect" : [ 17.0, 435.0, 61.014648, 41.515625 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 91.0, 180.0, 97.738274, 41.515625 ],
+					"presentation_rect" : [ 91.0, 180.0, 61.014648, 41.515625 ],
 					"rounded" : 20.0,
 					"style" : "",
-					"text" : "buddy",
+					"text" : "coll",
 					"textcolor" : [ 0.15, 0.15, 0.15, 1.0 ],
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -873,7 +873,6 @@
 		"dependency_cache" : [ 			{
 				"name" : "Max4VA-Title.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
-				"patcherrelativepath" : "../zpatches",
 				"type" : "JSON",
 				"implicit" : 1
 			}

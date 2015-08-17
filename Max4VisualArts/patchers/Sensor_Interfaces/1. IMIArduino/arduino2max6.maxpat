@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 4,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1.0, 44.0, 461.0, 514.0 ],
+		"rect" : [ 1.0, 45.0, 461.0, 514.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 13.0,
@@ -245,7 +245,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 4,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -571,12 +571,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 4,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 580.0, 44.0, 385.0, 501.0 ],
+						"rect" : [ 468.0, 45.0, 385.0, 501.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -624,7 +624,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 13.0, 40.0, 89.0, 20.0 ],
+									"patching_rect" : [ 13.0, 40.0, 89.0, 22.0 ],
 									"style" : "",
 									"text" : "route port read"
 								}
@@ -656,7 +656,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 0,
-											"revision" : 1,
+											"revision" : 4,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -972,7 +972,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 290.0, 267.0, 71.0, 20.0 ],
+									"patching_rect" : [ 290.0, 267.0, 71.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -996,7 +996,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "bang" ],
-									"patching_rect" : [ 206.0, 103.0, 67.0, 20.0 ],
+									"patching_rect" : [ 206.0, 103.0, 67.0, 22.0 ],
 									"style" : "",
 									"text" : "onebang 1"
 								}
@@ -1023,7 +1023,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 206.0, 131.0, 37.0, 18.0 ],
+									"patching_rect" : [ 206.0, 131.0, 37.0, 22.0 ],
 									"style" : "",
 									"text" : "reset"
 								}
@@ -1038,7 +1038,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "clear" ],
-									"patching_rect" : [ 206.0, 156.0, 53.0, 20.0 ],
+									"patching_rect" : [ 206.0, 156.0, 53.0, 22.0 ],
 									"style" : "",
 									"text" : "t 0 clear"
 								}
@@ -1053,7 +1053,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 75.0, 386.0, 57.0, 20.0 ],
+									"patching_rect" : [ 75.0, 386.0, 57.0, 22.0 ],
 									"style" : "",
 									"text" : "pipe 100"
 								}
@@ -1068,7 +1068,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "bang", "" ],
-									"patching_rect" : [ 13.0, 131.0, 51.0, 20.0 ],
+									"patching_rect" : [ 13.0, 131.0, 51.0, 22.0 ],
 									"style" : "",
 									"text" : "t s b s"
 								}
@@ -1084,7 +1084,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 75.0, 357.0, 39.0, 20.0 ],
+									"patching_rect" : [ 75.0, 357.0, 39.0, 22.0 ],
 									"style" : ""
 								}
 
@@ -1098,7 +1098,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 75.0, 327.0, 106.0, 20.0 ],
+									"patching_rect" : [ 75.0, 327.0, 106.0, 22.0 ],
 									"style" : "",
 									"text" : "zl reg"
 								}
@@ -1125,7 +1125,7 @@
 									"numinlets" : 5,
 									"numoutlets" : 4,
 									"outlettype" : [ "int", "", "", "int" ],
-									"patching_rect" : [ 162.0, 296.0, 78.0, 20.0 ],
+									"patching_rect" : [ 162.0, 296.0, 78.0, 22.0 ],
 									"style" : "",
 									"text" : "counter 0 10"
 								}
@@ -1140,7 +1140,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
-									"patching_rect" : [ 45.0, 207.0, 78.0, 20.0 ],
+									"patching_rect" : [ 45.0, 207.0, 78.0, 22.0 ],
 									"style" : "",
 									"text" : "regexp usb.*"
 								}
@@ -1155,7 +1155,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 13.0, 103.0, 49.0, 20.0 ],
+									"patching_rect" : [ 13.0, 103.0, 49.0, 22.0 ],
 									"style" : "",
 									"text" : "zl iter 1"
 								}
@@ -1170,7 +1170,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 12.0, 422.0, 98.0, 20.0 ],
+									"patching_rect" : [ 12.0, 422.0, 98.0, 22.0 ],
 									"style" : "",
 									"text" : "prepend append"
 								}
@@ -1519,7 +1519,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 4,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -1701,7 +1701,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 4,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -1996,7 +1996,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 4,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -2091,7 +2091,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 4,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -2631,19 +2631,21 @@
 		"dependency_cache" : [ 			{
 				"name" : "imi.docloader.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/Toolbox/imi_objects",
-				"patcherrelativepath" : "../../Toolbox/imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Max4VA-Title.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
-				"patcherrelativepath" : "../../zpatches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "shell.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "strlen.mxo",
 				"type" : "iLaX"
 			}
  ],
