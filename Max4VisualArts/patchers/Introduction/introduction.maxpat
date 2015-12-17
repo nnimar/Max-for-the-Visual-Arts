@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 6,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 0.0, 44.0, 475.0, 498.0 ],
+		"rect" : [ 0.0, 45.0, 475.0, 498.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -145,12 +145,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 6,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 479.0, 44.0, 404.0, 199.0 ],
+						"rect" : [ 479.0, 45.0, 404.0, 199.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -501,7 +501,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, 396.0, 137.0, 38.0 ],
+					"patching_rect" : [ 31.0, 386.0, 137.0, 38.0 ],
 					"style" : "",
 					"text" : "delay a bang before passing it on"
 				}
@@ -558,7 +558,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 118.0, 144.0, 65.0, 24.0 ],
 					"style" : "",
-					"text" : "message"
+					"text" : "bang"
 				}
 
 			}
@@ -582,7 +582,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 396.0, 97.0, 52.0, 20.0 ],
+					"patching_rect" : [ 393.0, 98.0, 52.0, 20.0 ],
 					"style" : "",
 					"text" : "float (f)"
 				}
@@ -618,12 +618,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 6,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 483.0, 44.0, 406.0, 255.0 ],
+						"rect" : [ 483.0, 45.0, 406.0, 255.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 14.0,
@@ -898,7 +898,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 251.0, 396.0, 161.0, 38.0 ],
+					"patching_rect" : [ 277.0, 386.0, 161.0, 38.0 ],
 					"style" : "",
 					"text" : "metro outputs a bang at regular intervals"
 				}
@@ -1027,7 +1027,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 396.0, 43.0, 65.0, 20.0 ],
+					"patching_rect" : [ 393.0, 43.0, 65.0, 20.0 ],
 					"style" : "",
 					"text" : "integer (i)"
 				}
@@ -1042,7 +1042,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 321.0, 45.0, 48.0, 33.0 ],
+					"patching_rect" : [ 317.0, 45.0, 48.0, 33.0 ],
 					"style" : "",
 					"text" : "toggle\nbox (t)"
 				}
@@ -1056,7 +1056,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 237.0, 45.0, 64.0, 20.0 ],
+					"patching_rect" : [ 232.0, 45.0, 64.0, 20.0 ],
 					"style" : "",
 					"text" : "button (b)"
 				}
@@ -1070,7 +1070,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 133.0, 44.0, 83.0, 20.0 ],
+					"patching_rect" : [ 130.0, 44.0, 83.0, 20.0 ],
 					"style" : "",
 					"text" : "message (m)"
 				}
@@ -1084,7 +1084,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 13.0, 44.0, 70.0, 20.0 ],
+					"patching_rect" : [ 9.0, 44.0, 70.0, 20.0 ],
 					"style" : "",
 					"text" : "object (n)"
 				}
@@ -1128,7 +1128,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 321.0, 17.0, 23.0, 23.0 ],
+					"patching_rect" : [ 321.0, 16.0, 27.0, 27.0 ],
 					"style" : ""
 				}
 

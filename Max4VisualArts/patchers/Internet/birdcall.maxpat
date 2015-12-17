@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 0,
-			"revision" : 2,
+			"minor" : 1,
+			"revision" : 0,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1.0, 44.0, 715.0, 771.0 ],
+		"rect" : [ 1.0, 45.0, 713.0, 748.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -137,8 +137,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 2,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -502,10 +502,10 @@
 						"styles" : [ 							{
 								"name" : "m4va",
 								"default" : 								{
-									"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
+									"fontsize" : [ 12.0 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontname" : [ "Arial" ],
-									"fontsize" : [ 12.0 ]
+									"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"parentstyle" : "",
@@ -514,10 +514,10 @@
 , 							{
 								"name" : "m4vatextbutton",
 								"default" : 								{
+									"fontsize" : [ 14.0 ],
 									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontsize" : [ 14.0 ],
 									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
 								}
@@ -578,21 +578,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-5",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 450.699951, 588.0, 65.0, 22.0 ],
-					"style" : "",
-					"text" : "r stop-bird"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -601,7 +586,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 365.0, 627.0, 74.0, 22.0 ],
+					"patching_rect" : [ 365.0, 601.0, 74.0, 22.0 ],
 					"style" : "",
 					"text" : "pak read url"
 				}
@@ -617,7 +602,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 365.0, 728.0, 77.0, 36.0 ],
+					"patching_rect" : [ 365.0, 702.0, 77.0, 36.0 ],
 					"style" : ""
 				}
 
@@ -629,7 +614,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 501.0, 627.0, 206.0, 23.0 ],
+					"patching_rect" : [ 501.0, 600.0, 206.0, 23.0 ],
 					"style" : ""
 				}
 
@@ -643,7 +628,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 450.699951, 627.0, 36.0, 23.0 ],
+					"patching_rect" : [ 450.699951, 600.0, 36.0, 23.0 ],
 					"style" : "",
 					"text" : "stop"
 				}
@@ -658,7 +643,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 365.0, 666.0, 71.0, 23.0 ],
+					"patching_rect" : [ 365.0, 640.0, 71.0, 23.0 ],
 					"style" : "",
 					"text" : "jit.qt.movie"
 				}
@@ -895,7 +880,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 365.0, 696.5, 70.5, 23.5 ]
+					"patching_rect" : [ 365.0, 670.5, 70.5, 23.5 ]
 				}
 
 			}
@@ -1141,7 +1126,7 @@
 					"destination" : [ "obj-160", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 510.5, 659.0, 374.5, 659.0 ],
+					"midpoints" : [ 510.5, 633.0, 374.5, 633.0 ],
 					"source" : [ "obj-135", 0 ]
 				}
 
@@ -1151,7 +1136,7 @@
 					"destination" : [ "obj-160", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 460.199951, 659.5, 374.5, 659.5 ],
+					"midpoints" : [ 460.199951, 633.5, 374.5, 633.5 ],
 					"source" : [ "obj-155", 0 ]
 				}
 
@@ -1188,7 +1173,7 @@
 					"destination" : [ "obj-160", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 374.5, 653.0, 374.5, 653.0 ],
+					"midpoints" : [ 374.5, 627.0, 374.5, 627.0 ],
 					"source" : [ "obj-166", 0 ]
 				}
 
@@ -1199,15 +1184,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-18", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-155", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-5", 0 ]
 				}
 
 			}
@@ -1242,7 +1218,6 @@
 		"dependency_cache" : [ 			{
 				"name" : "Max4VA-Title.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
-				"patcherrelativepath" : "../zpatches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1251,14 +1226,14 @@
 				"type" : "iLaX"
 			}
  ],
-		"embedsnapshot" : 0,
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "m4va",
 				"default" : 				{
-					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
+					"fontsize" : [ 12.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : [ "Arial" ],
-					"fontsize" : [ 12.0 ]
+					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",

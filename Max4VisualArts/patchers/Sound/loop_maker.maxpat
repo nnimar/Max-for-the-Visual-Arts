@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 6,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 0.0, 44.0, 679.0, 584.0 ],
+		"rect" : [ 0.0, 45.0, 600.0, 584.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 13.0,
@@ -131,7 +131,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 6,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -364,7 +364,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 573.0, 557.0, 99.0, 21.0 ],
+					"patching_rect" : [ 492.0, 556.0, 99.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 716.0, 268.0, 79.0, 17.0 ],
 					"style" : "",
@@ -388,7 +388,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 573.0, 557.0, 80.0, 19.0 ],
+					"patching_rect" : [ 492.0, 556.0, 80.0, 19.0 ],
 					"style" : "",
 					"text" : "load buffer_help~"
 				}
@@ -404,7 +404,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 573.0, 557.0, 44.0, 19.0 ],
+					"patching_rect" : [ 492.0, 556.0, 44.0, 19.0 ],
 					"style" : "",
 					"text" : "pcontrol"
 				}
@@ -437,7 +437,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 286.0, 556.0, 89.0, 20.0 ],
+					"patching_rect" : [ 286.0, 557.0, 89.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 372.0, 155.0, 100.0, 20.0 ],
 					"style" : "",
@@ -459,7 +459,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 287.0, 556.0, 35.0, 20.0 ],
+					"patching_rect" : [ 287.0, 557.0, 35.0, 20.0 ],
 					"style" : "",
 					"text" : "open"
 				}
@@ -475,7 +475,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 288.0, 556.0, 48.0, 20.0 ],
+					"patching_rect" : [ 288.0, 557.0, 48.0, 20.0 ],
 					"style" : "",
 					"text" : "pcontrol"
 				}
@@ -496,7 +496,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 6,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -862,7 +862,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 287.0, 556.0, 51.0, 20.0 ],
+					"patching_rect" : [ 287.0, 557.0, 51.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1048,7 +1048,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 90.0, 274.0, 44.0, 24.0 ],
+					"patching_rect" : [ 94.0, 274.0, 44.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -1075,7 +1075,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 236.0, 153.0, 20.0, 20.0 ],
+					"patching_rect" : [ 236.0, 155.0, 20.0, 20.0 ],
 					"style" : ""
 				}
 
@@ -1510,7 +1510,6 @@
 		"dependency_cache" : [ 			{
 				"name" : "Max4VA-Title.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
-				"patcherrelativepath" : "../zpatches",
 				"type" : "JSON",
 				"implicit" : 1
 			}

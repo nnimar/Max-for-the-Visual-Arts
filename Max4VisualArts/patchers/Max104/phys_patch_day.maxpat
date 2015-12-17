@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 5,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 0.0, 44.0, 457.0, 407.0 ],
+		"rect" : [ 0.0, 45.0, 457.0, 407.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 13.0,
@@ -67,7 +67,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 180.0, 326.5, 209.0, 38.0 ],
+					"patching_rect" : [ 180.0, 331.5, 209.0, 38.0 ],
 					"style" : "",
 					"text" : "inverse kinematic (IK) with phys and model (day 10)"
 				}
@@ -81,7 +81,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 180.0, 302.5, 161.0, 22.0 ],
+					"patching_rect" : [ 180.0, 303.5, 161.0, 22.0 ],
 					"style" : "",
 					"text" : "snake simulation (day 9)"
 				}
@@ -116,7 +116,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 326.5, 100.0, 21.0 ],
+					"patching_rect" : [ 11.0, 331.5, 100.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 83.0, 320.5, 79.0, 17.0 ],
 					"style" : "",
@@ -160,7 +160,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 301.5, 100.0, 21.0 ],
+					"patching_rect" : [ 11.0, 303.5, 100.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 18.0, 290.5, 79.0, 17.0 ],
 					"style" : "",
@@ -227,7 +227,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 180.0, 276.5, 177.0, 22.0 ],
+					"patching_rect" : [ 180.0, 275.5, 177.0, 22.0 ],
 					"style" : "",
 					"text" : "phys ghost to paint (day 8)"
 				}
@@ -321,7 +321,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 209.5, 100.0, 21.0 ],
+					"patching_rect" : [ 11.0, 207.5, 100.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 34.0, 434.5, 79.0, 17.0 ],
 					"style" : "",
@@ -448,12 +448,12 @@
 					"fontsize" : 10.0,
 					"hidden" : 1,
 					"id" : "obj-48",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 140.0, 365.0, 311.0, 45.0 ],
+					"patching_rect" : [ 36.0, 370.5, 416.0, 33.0 ],
 					"style" : "",
 					"text" : ";\rmax launchbrowser http://cycling74.com/2012/09/19/00-physics-patch-a-day/"
 				}
@@ -551,7 +551,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 180.0, 208.5, 216.0, 22.0 ],
+					"patching_rect" : [ 180.0, 206.5, 216.0, 22.0 ],
 					"style" : "",
 					"text" : "phys.multiple force matrix (day 6)"
 				}
@@ -893,9 +893,12 @@
 		"dependency_cache" : [ 			{
 				"name" : "Max4VA-Title.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
-				"patcherrelativepath" : "../zpatches",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"embedsnapshot" : 0

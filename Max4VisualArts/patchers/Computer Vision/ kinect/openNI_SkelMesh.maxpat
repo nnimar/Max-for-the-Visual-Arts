@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 0,
-			"revision" : 2,
+			"minor" : 1,
+			"revision" : 0,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 0.0, 44.0, 862.0, 475.0 ],
+		"rect" : [ 0.0, 45.0, 862.0, 475.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 11.0,
@@ -174,7 +174,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1193.0, 16.0, 121.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 65.0, 421.5, 121.0, 17.0 ],
+					"presentation_rect" : [ 28.0, 418.5, 121.0, 17.0 ],
 					"style" : "",
 					"text" : "reset output window"
 				}
@@ -189,7 +189,7 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 1173.0, 16.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 40.0, 418.5, 20.0, 20.0 ],
+					"presentation_rect" : [ 4.5, 416.5, 20.0, 20.0 ],
 					"style" : ""
 				}
 
@@ -219,9 +219,10 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 790.0, 245.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 251.5, 58.0, 100.0, 20.0 ],
+					"presentation_rect" : [ 757.200012, 81.0, 100.0, 20.0 ],
 					"style" : "",
 					"text" : "Save Preset",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -302,6 +303,7 @@
 					"presentation_rect" : [ 698.0, 320.75, 60.0, 17.0 ],
 					"style" : "",
 					"text" : "Read File",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -318,7 +320,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 167.5, 475.0, 167.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 261.0, 93.5, 167.0, 22.0 ],
+					"presentation_rect" : [ 258.0, 94.0, 167.0, 22.0 ],
 					"style" : "",
 					"text" : "KINECT CONTROLS "
 				}
@@ -352,7 +354,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1151.0, 319.0, 63.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 491.5, 88.0, 65.0, 20.0 ],
+					"presentation_rect" : [ 487.5, 93.0, 65.0, 20.0 ],
 					"style" : "",
 					"text" : "FLOOR"
 				}
@@ -406,6 +408,7 @@
 					"presentation_rect" : [ 487.75, 345.75, 100.0, 15.0 ],
 					"style" : "",
 					"text" : "Select Folder",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
 				}
@@ -738,8 +741,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 2,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -2237,8 +2240,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 2,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -2283,8 +2286,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 0,
-											"revision" : 2,
+											"minor" : 1,
+											"revision" : 0,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -3315,7 +3318,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 983.0, 105.0, 76.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 23.0, 356.5, 76.0, 17.0 ],
+					"presentation_rect" : [ 5.5, 366.5, 76.0, 17.0 ],
 					"style" : "",
 					"text" : "disp. 0 state"
 				}
@@ -3331,7 +3334,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1160.5, 105.0, 76.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 200.5, 356.5, 76.0, 17.0 ],
+					"presentation_rect" : [ 183.0, 366.5, 76.0, 17.0 ],
 					"style" : "",
 					"text" : "disp. 1 state"
 				}
@@ -3347,7 +3350,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1145.0, 200.0, 75.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 185.0, 418.5, 75.0, 17.0 ],
+					"presentation_rect" : [ 164.5, 418.5, 75.0, 17.0 ],
 					"style" : "",
 					"text" : "set display"
 				}
@@ -3364,7 +3367,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 983.0, 75.0, 386.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 23.0, 326.5, 386.0, 20.0 ],
+					"presentation_rect" : [ 5.5, 326.5, 386.0, 20.0 ],
 					"style" : "",
 					"text" : "SET OUTPUT DISPLAY"
 				}
@@ -3475,8 +3478,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 2,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -3727,7 +3730,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1223.5, 200.0, 150.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 263.5, 418.5, 150.0, 17.0 ],
+					"presentation_rect" : [ 246.0, 418.5, 150.0, 17.0 ],
 					"style" : "",
 					"text" : "current state"
 				}
@@ -3746,8 +3749,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 2,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -4146,8 +4149,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 0,
-											"revision" : 2,
+											"minor" : 1,
+											"revision" : 0,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -4598,8 +4601,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 0,
-											"revision" : 2,
+											"minor" : 1,
+											"revision" : 0,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -5817,7 +5820,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1145.0, 219.0, 50.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 185.0, 437.5, 50.0, 19.0 ],
+					"presentation_rect" : [ 167.5, 437.5, 50.0, 19.0 ],
 					"style" : ""
 				}
 
@@ -5832,7 +5835,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1223.5, 225.0, 150.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 263.5, 443.5, 150.0, 17.0 ],
+					"presentation_rect" : [ 246.0, 443.5, 150.0, 17.0 ],
 					"style" : "",
 					"text" : "1280 x 1024 32 bit 75Hz"
 				}
@@ -5852,7 +5855,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 983.0, 132.943481, 162.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 23.0, 384.443481, 162.0, 23.0 ],
+					"presentation_rect" : [ 5.5, 384.443481, 162.0, 23.0 ],
 					"style" : ""
 				}
 
@@ -5871,7 +5874,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1160.5, 132.943481, 213.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 200.5, 384.443481, 213.0, 23.0 ],
+					"presentation_rect" : [ 183.0, 384.443481, 213.0, 23.0 ],
 					"style" : ""
 				}
 
@@ -6299,7 +6302,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1343.25, 692.75, 83.25, 41.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.5, 312.5, 421.5, 158.0 ],
+					"presentation_rect" : [ -12.0, 312.5, 421.5, 158.0 ],
 					"proportion" : 0.39,
 					"rounded" : 20,
 					"style" : ""
@@ -7325,14 +7328,13 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-81::obj-49" : [ "toggle", "toggle", 0 ],
-			"obj-61" : [ "toggle[1]", "toggle[1]", 0 ]
+			"obj-61" : [ "toggle[1]", "toggle[1]", 0 ],
+			"obj-81::obj-49" : [ "toggle", "toggle", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "Max4VA-Title.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
-				"patcherrelativepath" : "../../zpatches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -7345,16 +7347,16 @@
 				"type" : "iLaX"
 			}
  ],
-		"embedsnapshot" : 0,
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
-					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontsize" : [ 14.0 ],
-					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
+					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

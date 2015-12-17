@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 0,
-			"revision" : 1,
+			"minor" : 1,
+			"revision" : 0,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -85,7 +85,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 460.0, 289.0, 67.0, 20.0 ],
+					"patching_rect" : [ 439.0, 287.0, 67.0, 20.0 ],
 					"style" : "",
 					"text" : "help jit.repos"
 				}
@@ -114,7 +114,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 443.0, 289.0, 85.0, 20.0 ],
+					"patching_rect" : [ 439.0, 287.0, 85.0, 20.0 ],
 					"style" : "",
 					"text" : "help jit.scanwrap"
 				}
@@ -143,7 +143,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 440.0, 289.0, 78.0, 20.0 ],
+					"patching_rect" : [ 439.0, 287.0, 78.0, 20.0 ],
 					"style" : "",
 					"text" : "help jit.dimmap"
 				}
@@ -172,7 +172,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 445.0, 289.0, 86.0, 20.0 ],
+					"patching_rect" : [ 441.0, 287.0, 86.0, 20.0 ],
 					"style" : "",
 					"text" : "help jit.transpose"
 				}
@@ -233,7 +233,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 441.0, 289.0, 113.0, 20.0 ],
+					"patching_rect" : [ 439.0, 287.0, 113.0, 20.0 ],
 					"style" : "",
 					"text" : "load jit_concat.maxpat"
 				}
@@ -304,7 +304,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 440.0, 289.0, 63.0, 20.0 ],
+					"patching_rect" : [ 441.0, 287.0, 63.0, 20.0 ],
 					"style" : "",
 					"text" : "load jit_rota"
 				}
@@ -420,9 +420,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 437.0, 289.0, 131.0, 20.0 ],
+					"patching_rect" : [ 437.0, 289.0, 111.0, 20.0 ],
 					"style" : "",
-					"text" : "load IMI_submatrix.maxpat"
+					"text" : "load submatrix.maxpat"
 				}
 
 			}
@@ -676,19 +676,21 @@
 		"dependency_cache" : [ 			{
 				"name" : "imimatrix2.png",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/Sources/images",
-				"patcherrelativepath" : "../Sources/images",
 				"type" : "PNG ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Max4VA-Title.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
-				"patcherrelativepath" : "../zpatches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
+			}
  ],
-		"embedsnapshot" : 0,
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "simple",
 				"parentstyle" : "",

@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 0,
-			"revision" : 1,
+			"minor" : 1,
+			"revision" : 0,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1.0, 44.0, 493.0, 401.0 ],
+		"rect" : [ 1.0, 45.0, 493.0, 401.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -142,7 +142,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 199.0, 201.0, 82.0, 24.0 ],
 					"style" : "",
-					"text" : "bandanna"
+					"text" : "helms"
 				}
 
 			}
@@ -203,8 +203,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 1,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -346,7 +346,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 316.0, 404.0, 98.0, 21.0 ],
 									"style" : "",
-									"text" : "zygotes"
+									"text" : "hello"
 								}
 
 							}
@@ -1155,12 +1155,15 @@
 		"dependency_cache" : [ 			{
 				"name" : "Max4VA-Title.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
-				"patcherrelativepath" : "../zpatches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
+			}
  ],
-		"embedsnapshot" : 0,
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "simple",
 				"parentstyle" : "",

@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 6,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 2.0, 44.0, 426.0, 472.0 ],
+		"rect" : [ 0.0, 45.0, 426.0, 472.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -77,7 +77,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 142.0, 182.0, 20.0, 20.0 ],
+					"patching_rect" : [ 142.0, 178.0, 20.0, 20.0 ],
 					"style" : ""
 				}
 
@@ -185,7 +185,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 6,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -607,7 +607,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 50.0, 266.0, 89.0, 24.0 ],
+					"patching_rect" : [ 50.0, 276.0, 89.0, 24.0 ],
 					"style" : "",
 					"text" : "play sound"
 				}
@@ -638,7 +638,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "bang" ],
-					"patching_rect" : [ 142.0, 267.0, 94.0, 22.0 ],
+					"patching_rect" : [ 142.0, 277.0, 94.0, 22.0 ],
 					"style" : "",
 					"text" : "play~ soundzzz"
 				}
@@ -653,7 +653,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "bang" ],
-					"patching_rect" : [ 142.0, 243.0, 36.0, 22.0 ],
+					"patching_rect" : [ 142.0, 247.0, 36.0, 22.0 ],
 					"style" : "",
 					"text" : "line~"
 				}
@@ -668,7 +668,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 270.0, 211.0, 33.0, 22.0 ],
+					"patching_rect" : [ 270.0, 205.0, 33.0, 22.0 ],
 					"style" : "",
 					"text" : "stop"
 				}
@@ -683,7 +683,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 270.0, 185.0, 63.0, 22.0 ],
+					"patching_rect" : [ 270.0, 178.0, 63.0, 22.0 ],
 					"style" : "",
 					"text" : "delay 500"
 				}
@@ -773,7 +773,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "bang" ],
-					"patching_rect" : [ 158.0, 352.0, 50.0, 22.0 ],
+					"patching_rect" : [ 244.0, 352.0, 50.0, 22.0 ],
 					"style" : "",
 					"text" : "line~"
 				}
@@ -788,7 +788,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 142.0, 382.0, 34.5, 22.0 ],
+					"patching_rect" : [ 142.0, 382.0, 121.0, 22.0 ],
 					"style" : "",
 					"text" : "*~"
 				}
@@ -803,7 +803,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 142.0, 211.0, 94.0, 22.0 ],
+					"patching_rect" : [ 142.0, 205.0, 94.0, 22.0 ],
 					"style" : "",
 					"text" : "0, 20000 20000"
 				}
@@ -906,7 +906,7 @@
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 253.5, 342.0, 167.5, 342.0 ],
+					"midpoints" : [ 253.5, 342.0, 253.5, 342.0 ],
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -925,7 +925,7 @@
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 344.5, 342.5, 167.5, 342.5 ],
+					"midpoints" : [ 344.5, 342.5, 253.5, 342.5 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -1063,9 +1063,12 @@
 		"dependency_cache" : [ 			{
 				"name" : "Max4VA-Title.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
-				"patcherrelativepath" : "../zpatches",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"embedsnapshot" : 0,

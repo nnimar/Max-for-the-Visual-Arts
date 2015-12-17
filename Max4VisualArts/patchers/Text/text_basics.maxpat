@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 0,
-			"revision" : 5,
+			"minor" : 1,
+			"revision" : 0,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -214,7 +214,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 637.0, 428.0, 32.5, 20.0 ],
+					"patching_rect" : [ 637.0, 423.5, 32.5, 20.0 ],
 					"style" : "",
 					"text" : "atoi"
 				}
@@ -527,7 +527,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 622.0, 428.0, 94.0, 20.0 ],
+					"patching_rect" : [ 627.0, 428.0, 94.0, 20.0 ],
 					"style" : "",
 					"text" : "regexp_tutorial"
 				}
@@ -575,7 +575,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 627.0, 428.0, 69.0, 20.0 ],
+					"patching_rect" : [ 633.0, 428.0, 69.0, 20.0 ],
 					"style" : "",
 					"text" : "sprintf_help"
 				}
@@ -591,7 +591,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 623.0, 428.0, 43.0, 20.0 ],
+					"patching_rect" : [ 629.0, 428.0, 43.0, 20.0 ],
 					"style" : "",
 					"text" : "textedit"
 				}
@@ -607,9 +607,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 626.0, 428.0, 56.0, 20.0 ],
+					"patching_rect" : [ 628.0, 428.0, 56.0, 20.0 ],
 					"style" : "",
-					"text" : "IMI_jit_lcd"
+					"text" : "jit_lcd"
 				}
 
 			}
@@ -1014,7 +1014,7 @@
 				"type" : "iLaX"
 			}
  ],
-		"embedsnapshot" : 0,
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "simple",
 				"parentstyle" : "",

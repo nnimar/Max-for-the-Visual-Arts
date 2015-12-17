@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 6,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -120,7 +120,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -228,7 +228,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 6,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -335,7 +335,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 6.0, 141.0, 659.0, 107.0 ],
 					"style" : "",
-					"text" : "The patches which start with M4VA were made or improved by Nicolas Maréchal. Others were great solutions found on the http://cycling74.com/forums/ or\nborrowed from Max's evangelists Peter Elsea, Robert Ramirez, Andrew Benson, Luke DuBois and Sam Tarakajian, thanks for their great tutorials and support to \nthe non tilda (!~) users."
+					"text" : "The patches starting with M4VA were made or improved by Nicolas Maréchal. Others were great solutions found on the http://cycling74.com/forums/ or\nborrowed from Max's evangelists Peter Elsea, Robert Ramirez, Andrew Benson, Luke DuBois and Sam Tarakajian, thanks for their great tutorials and support to \nthe non tilda (!~) users."
 				}
 
 			}
@@ -392,7 +392,6 @@
 		"dependency_cache" : [ 			{
 				"name" : "Max4VA-Title.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
-				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}

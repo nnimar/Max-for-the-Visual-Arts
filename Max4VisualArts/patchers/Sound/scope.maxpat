@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 2,
+			"revision" : 6,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 2.0, 44.0, 1060.0, 555.0 ],
+		"rect" : [ 2.0, 45.0, 1060.0, 555.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 13.0,
@@ -113,7 +113,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 322.0, 246.0, 50.0, 22.0 ],
+					"patching_rect" : [ 322.0, 256.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -173,7 +173,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 583.0, 270.5, 53.0, 23.0 ],
+					"patching_rect" : [ 583.0, 272.5, 53.0, 23.0 ],
 					"style" : ""
 				}
 
@@ -263,7 +263,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 6,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -975,11 +975,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-11",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 6.0, 364.0, 225.0, 22.0 ],
+					"patching_rect" : [ 6.0, 364.0, 138.0, 35.0 ],
 					"style" : "",
 					"text" : "jit.graph @mode 0 @frgb 255 255 20 20"
 				}
@@ -995,7 +996,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 6.0, 394.0, 147.0, 49.0 ],
+					"patching_rect" : [ 6.0, 407.0, 147.0, 49.0 ],
 					"style" : "",
 					"text" : "jit.window zscope2 @rect 600 300 1200 550 @pos 1080 320"
 				}
@@ -1012,7 +1013,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 712.0, 417.0, 332.0, 134.0 ],
+					"patching_rect" : [ 713.0, 417.0, 332.0, 134.0 ],
 					"scroll" : 2,
 					"sono" : 1,
 					"sonomedcolor" : [ 0.0, 0.74902, 0.498039, 1.0 ],
@@ -1056,20 +1057,15 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.866667, 0.866667, 0.866667, 1.0 ],
-					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"htricolor" : [ 0.87, 0.82, 0.24, 1.0 ],
 					"id" : "obj-23",
 					"maxclass" : "number",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 63.0, 224.0, 37.0, 22.0 ],
+					"patching_rect" : [ 55.5, 218.0, 38.0, 22.0 ],
 					"style" : "",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"triscale" : 0.9
 				}
 
@@ -1083,7 +1079,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "int", "int" ],
-					"patching_rect" : [ 109.0, 225.0, 83.0, 22.0 ],
+					"patching_rect" : [ 109.0, 220.0, 83.0, 22.0 ],
 					"style" : "",
 					"text" : "unpack 0 0 0"
 				}
@@ -1113,7 +1109,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 109.0, 167.0, 72.0, 54.0 ]
+					"patching_rect" : [ 109.0, 162.0, 72.0, 54.0 ]
 				}
 
 			}
@@ -1125,7 +1121,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 62.0, 205.0, 40.0, 20.0 ],
+					"patching_rect" : [ 54.5, 199.0, 40.0, 20.0 ],
 					"style" : "",
 					"text" : "alpha"
 				}
@@ -1838,7 +1834,7 @@
 					"destination" : [ "obj-16", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 300.5, 118.0, 721.5, 118.0 ],
+					"midpoints" : [ 300.5, 118.0, 722.5, 118.0 ],
 					"source" : [ "obj-47", 0 ]
 				}
 
@@ -1942,7 +1938,6 @@
 		"dependency_cache" : [ 			{
 				"name" : "Max4VA-Title.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
-				"patcherrelativepath" : "../zpatches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1955,12 +1950,12 @@
 		"styles" : [ 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
-					"fontsize" : [ 14.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
+					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"fontsize" : [ 14.0 ]
 				}
 ,
 				"parentstyle" : "",

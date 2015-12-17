@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 2,
+			"revision" : 6,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 0.0, 44.0, 537.0, 406.0 ],
+		"rect" : [ 0.0, 45.0, 537.0, 406.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 13.0,
@@ -37,6 +37,21 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"id" : "obj-6",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 249.0, 335.0, 269.0, 22.0 ],
+					"presentation_rect" : [ 249.0, 332.0, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "GIThub repositories for the Xbee libraries"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"args" : [ "m4va xbee interfaces" ],
 					"bgmode" : 1,
@@ -98,7 +113,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 2,
+							"revision" : 6,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -338,33 +353,6 @@
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
-					"id" : "obj-20",
-					"legacytextcolor" : 1,
-					"maxclass" : "textbutton",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 309.0, 349.0, 85.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 311.0, 418.0, 79.0, 17.0 ],
-					"style" : "",
-					"text" : "maxbee mxj",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"texton" : "Stop",
-					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"usebgoncolor" : 1,
-					"usetextovercolor" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
-					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
 					"id" : "obj-12",
 					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
@@ -372,7 +360,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 235.0, 349.0, 64.0, 20.0 ],
+					"patching_rect" : [ 124.5, 335.0, 64.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 341.0, 419.0, 79.0, 17.0 ],
 					"style" : "",
@@ -399,11 +387,11 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 94.0, 349.0, 132.0, 20.0 ],
+					"patching_rect" : [ 15.0, 335.0, 97.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 716.0, 268.0, 79.0, 17.0 ],
 					"style" : "",
-					"text" : "arduino xbee library",
+					"text" : "xbee arduino",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -424,9 +412,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 16.0, 342.0, 318.0, 33.0 ],
+					"patching_rect" : [ 15.0, 365.0, 343.0, 33.0 ],
 					"style" : "",
-					"text" : ";\rmax launchbrowser http://code.google.com/p/xbee-arduino/"
+					"text" : ";\rmax launchbrowser https://github.com/andrewrapp/xbee-arduino"
 				}
 
 			}
@@ -493,20 +481,6 @@
 					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial Italic",
-					"fontsize" : 14.0,
-					"id" : "obj-6",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 41.0, 378.0, 421.0, 22.0 ],
-					"style" : "",
-					"text" : "It is recommended to read the article on the Xbee in the IMI Wiki !"
 				}
 
 			}
@@ -638,32 +612,15 @@
 					"fontname" : "Verdana",
 					"fontsize" : 10.0,
 					"hidden" : 1,
-					"id" : "obj-21",
-					"linecount" : 2,
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 18.0, 341.0, 306.0, 33.0 ],
-					"style" : "",
-					"text" : ";\rmax launchbrowser http://blog.lib.umn.edu/ali/2009xbee/"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Verdana",
-					"fontsize" : 10.0,
-					"hidden" : 1,
 					"id" : "obj-15",
 					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 18.0, 341.0, 295.0, 33.0 ],
+					"patching_rect" : [ 38.0, 365.0, 320.0, 33.0 ],
 					"style" : "",
-					"text" : ";\rmax launchbrowser http://code.google.com/p/xbee-api/"
+					"text" : ";\rmax launchbrowser https://github.com/andrewrapp/xbee-api"
 				}
 
 			}
@@ -760,15 +717,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-21", 0 ],
-					"disabled" : 0,
-					"hidden" : 1,
-					"source" : [ "obj-20", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
@@ -827,7 +775,6 @@
 		"dependency_cache" : [ 			{
 				"name" : "Max4VA-Title.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
-				"patcherrelativepath" : "../../zpatches",
 				"type" : "JSON",
 				"implicit" : 1
 			}

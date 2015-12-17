@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 2,
+			"revision" : 6,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 0.0, 44.0, 737.0, 459.0 ],
+		"rect" : [ 0.0, 45.0, 736.0, 449.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 14.0,
@@ -281,10 +281,10 @@
 					"name" : "patching_rules.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ -5914.0, 0.0 ],
+					"offset" : [ -4734.0, 0.0 ],
 					"patching_rect" : [ 3.0, 210.0, 588.0, 313.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 140.274536, 70.0, 589.0, 370.0 ],
+					"presentation_rect" : [ 140.274536, 70.0, 589.0, 373.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -293,7 +293,7 @@
 				"box" : 				{
 					"fontface" : 1,
 					"fontsize" : 18.0,
-					"htabcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+					"htabcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"id" : "obj-10",
 					"maxclass" : "tab",
 					"numinlets" : 1,
@@ -304,7 +304,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 70.0, 124.0, 373.0 ],
 					"style" : "",
-					"tabcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
+					"tabcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 					"tabs" : [ "object", "experiment", "hack", "manual", "bang", "filter", "route", "automatise", "clean", "optimise", "construction", "version" ]
 				}
 
@@ -548,21 +548,18 @@
 		"dependency_cache" : [ 			{
 				"name" : "patching_rules.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
-				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "past2.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/Toolbox/imi_objects",
-				"patcherrelativepath" : "../Toolbox/imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Max4VA-Title.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
-				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}

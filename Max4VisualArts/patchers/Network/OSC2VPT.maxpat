@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 6,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 0.0, 44.0, 746.0, 461.0 ],
+		"rect" : [ 0.0, 45.0, 746.0, 461.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 13.0,
@@ -130,7 +130,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 6,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -439,7 +439,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 6,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -689,7 +689,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 230.0, 400.0, 308.0, 53.0 ],
+					"patching_rect" : [ 176.170593, 402.0, 308.0, 53.0 ],
 					"style" : "",
 					"text" : "send OSC message over the network\n\"localhost\" is this computer (same as 127.0.0.1)\n\"6666\" is the port used by VPT"
 				}
@@ -704,7 +704,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 172.0, 363.0, 259.0, 24.0 ],
+					"patching_rect" : [ 135.670593, 365.0, 259.0, 24.0 ],
 					"style" : "",
 					"text" : "translate from Max to OSC network protocol"
 				}
@@ -730,6 +730,7 @@
 				"box" : 				{
 					"floatoutput" : 1,
 					"id" : "obj-35",
+					"knobshape" : 5,
 					"maxclass" : "slider",
 					"min" : -1.0,
 					"numinlets" : 1,
@@ -747,6 +748,7 @@
 				"box" : 				{
 					"floatoutput" : 1,
 					"id" : "obj-34",
+					"knobshape" : 5,
 					"maxclass" : "slider",
 					"min" : -1.0,
 					"numinlets" : 1,
@@ -764,6 +766,7 @@
 				"box" : 				{
 					"floatoutput" : 1,
 					"id" : "obj-33",
+					"knobshape" : 5,
 					"maxclass" : "slider",
 					"min" : -1.0,
 					"numinlets" : 1,
@@ -781,6 +784,7 @@
 				"box" : 				{
 					"floatoutput" : 1,
 					"id" : "obj-32",
+					"knobshape" : 5,
 					"maxclass" : "slider",
 					"min" : -1.0,
 					"numinlets" : 1,
@@ -932,13 +936,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 18.0,
+					"fontsize" : 14.0,
 					"id" : "obj-4",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "OSCTimeTag" ],
-					"patching_rect" : [ 15.0, 361.0, 154.0, 29.0 ],
+					"patching_rect" : [ 7.0, 365.0, 122.0, 24.0 ],
 					"style" : "",
 					"text" : "opensoundcontrol"
 				}
@@ -962,12 +966,12 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 18.77372,
+					"fontsize" : 14.0,
 					"id" : "obj-12",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.383881, 397.206085, 209.0, 29.0 ],
+					"patching_rect" : [ 7.383881, 402.0, 158.0, 24.0 ],
 					"style" : "",
 					"text" : "udpsend localhost 6666"
 				}
@@ -1265,14 +1269,12 @@
 		"dependency_cache" : [ 			{
 				"name" : "dot.for.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/externals/tools/dot_20121204/control/dot.for",
-				"patcherrelativepath" : "../../externals/tools/dot_20121204/control/dot.for",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Max4VA-Title.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
-				"patcherrelativepath" : "../zpatches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1280,17 +1282,21 @@
 				"name" : "OpenSoundControl.mxo",
 				"type" : "iLaX"
 			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
+			}
  ],
 		"embedsnapshot" : 0,
 		"styles" : [ 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
-					"fontsize" : [ 14.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"fontsize" : [ 14.0 ]
 				}
 ,
 				"parentstyle" : "",

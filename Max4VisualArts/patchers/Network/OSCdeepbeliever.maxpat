@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 6,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ -2.0, 44.0, 622.0, 331.0 ],
+		"rect" : [ 0.0, 45.0, 611.0, 331.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -81,7 +81,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 402.0, 197.0, 96.0, 22.0 ],
 					"style" : "",
-					"text" : "/abaya"
+					"text" : "/gasmask"
 				}
 
 			}
@@ -196,7 +196,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 11.0, 232.0, 93.0, 22.0 ],
 					"style" : "",
-					"text" : "cloak"
+					"text" : "\"mosquito net\""
 				}
 
 			}
@@ -437,7 +437,7 @@
 					"destination" : [ "obj-13", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 20.5, 109.0, 210.5, 109.0 ],
+					"midpoints" : [ 20.5, 110.0, 210.5, 110.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -485,7 +485,7 @@
 					"destination" : [ "obj-35", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 20.5, 110.5, 488.0, 110.5 ],
+					"midpoints" : [ 20.5, 109.5, 488.0, 109.5 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -513,14 +513,12 @@
 		"dependency_cache" : [ 			{
 				"name" : "imi.apploader2.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/Toolbox/imi_objects",
-				"patcherrelativepath" : "../Toolbox/imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Max4VA-Title.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
-				"patcherrelativepath" : "../zpatches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -537,12 +535,12 @@
 		"styles" : [ 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
-					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontsize" : [ 14.0 ]
+					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"fontsize" : [ 14.0 ],
+					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
