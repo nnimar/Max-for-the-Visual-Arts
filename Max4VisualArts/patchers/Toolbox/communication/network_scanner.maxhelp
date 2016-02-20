@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 2.0, 45.0, 1148.0, 441.0 ],
+		"rect" : [ 100.0, 100.0, 1148.0, 441.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -37,6 +37,82 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-26",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 7,
+							"minor" : 1,
+							"revision" : 0,
+							"architecture" : "x86",
+							"modernui" : 1
+						}
+,
+						"rect" : [ 454.0, 365.0, 292.0, 209.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 15,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 14.0,
+									"id" : "obj-15",
+									"linecount" : 10,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 16.0, 15.0, 246.0, 163.0 ],
+									"style" : "",
+									"text" : "lo (localhost)\n\nen (ethernet interface)\n\nvnic (virtual network interface)\n\nAWDL (Apple Wireless Direct Link) is a low latency/high speed WiFi peer-to peer-connection Apple uses for AirDrop, GameKit, AirPlay, ..."
+								}
+
+							}
+ ],
+						"lines" : [  ]
+					}
+,
+					"patching_rect" : [ 359.0, 206.0, 241.0, 24.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"style" : "",
+						"tags" : ""
+					}
+,
+					"style" : "",
+					"text" : "p tutorial"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgcolor" : [ 0.311041, 0.314599, 0.318357, 1.0 ],
 					"fontsize" : 13.0,
@@ -153,7 +229,7 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 574.0, 287.0, 64.0, 24.0 ],
+					"patching_rect" : [ 650.0, 318.0, 114.0, 24.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -212,7 +288,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-3",
-					"items" : [ "2.219.75.77", ",", "are-u-human", ",", "------------", ",", "No Ethernet", ",", "10:dd:b1:a1:b5:28", ",", "------------", ",", "Wifi", ",", "192.168.0.7 (DHCP)", ",", "192.168.0.1", ",", "4c:8d:79:df:88:bc", ",", "5 MBit/s" ],
+					"items" : [ "2.220.167.77", ",", "are-u-human", ",", "------------", ",", "No Ethernet", ",", "10:dd:b1:a1:b5:28", ",", "------------", ",", "Wifi", ",", "192.168.0.7 (DHCP)", ",", "192.168.0.1", ",", "4c:8d:79:df:88:bc", ",", "26 MBit/s" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -242,7 +318,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 527.0, 225.0, 213.0, 219.0 ],
+						"rect" : [ 900.0, 175.0, 213.0, 219.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -356,10 +432,10 @@
 						"styles" : [ 							{
 								"name" : "m4va",
 								"default" : 								{
-									"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
-									"fontname" : [ "Arial" ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontsize" : [ 12.0 ]
+									"fontsize" : [ 12.0 ],
+									"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"parentstyle" : "",
@@ -792,12 +868,12 @@
 						"styles" : [ 							{
 								"name" : "m4vatextbutton",
 								"default" : 								{
-									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"fontsize" : [ 14.0 ],
 									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-									"fontsize" : [ 14.0 ]
+									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1146,7 +1222,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 8.0, 139.0, 122.0, 24.0 ],
-					"style" : ""
+					"style" : "",
+					"text" : "192.168.0.7"
 				}
 
 			}
@@ -1159,21 +1236,6 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 111.0, 70.0, 20.0, 20.0 ],
 					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"id" : "obj-15",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 359.0, 206.0, 241.0, 38.0 ],
-					"style" : "",
-					"text" : "lo (localhost), en (ethernet interface), vnic (virtual network interface)"
 				}
 
 			}
@@ -1225,7 +1287,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-6",
-					"items" : [ "fd92:febe:cdac:0:6561:e12d:e59:d1b0", ",", "fd92:febe:cdac:0:4e8d:79ff:fedf:88bc", ",", "fe80:0:0:0:4e8d:79ff:fedf:88bc%4", ",", "192.168.0.7" ],
+					"items" : [ "fd0b:1b54:49aa:1:993e:d0bc:27aa:1fcd", ",", "fd0b:1b54:49aa:1:4e8d:79ff:fedf:88bc", ",", "fd92:febe:cdac:0:317c:f330:55c2:3e07", ",", "fd92:febe:cdac:0:4e8d:79ff:fedf:88bc", ",", "fe80:0:0:0:4e8d:79ff:fedf:88bc%4", ",", "192.168.0.7" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1823,12 +1885,12 @@
 						"styles" : [ 							{
 								"name" : "m4vatextbutton",
 								"default" : 								{
-									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"fontsize" : [ 14.0 ],
 									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-									"fontsize" : [ 14.0 ]
+									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1860,7 +1922,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-30",
-					"items" : [ "192.168.0.2", ",", "192.168.0.3", ",", "192.168.0.7", ",", "192.168.0.8" ],
+					"items" : [ "192.168.0.7", ",", "192.168.0.8", ",", "192.168.0.22", ",", "192.168.0.24", ",", "192.168.0.27", ",", "192.168.0.28" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1890,7 +1952,7 @@
 				"box" : 				{
 					"fontsize" : 12.0,
 					"id" : "obj-16",
-					"items" : [ "utun0", ",", "awdl0", ",", "en1", ",", "lo0" ],
+					"items" : [ "awdl0", ",", "en1", ",", "lo0" ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"numinlets" : 1,
@@ -2307,10 +2369,10 @@
 , 			{
 				"name" : "m4va",
 				"default" : 				{
-					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
-					"fontname" : [ "Arial" ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontsize" : [ 12.0 ]
+					"fontsize" : [ 12.0 ],
+					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",
@@ -2319,12 +2381,12 @@
 , 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontsize" : [ 14.0 ],
 					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"fontsize" : [ 14.0 ]
+					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
