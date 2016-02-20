@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 0,
-			"revision" : 1,
+			"minor" : 1,
+			"revision" : 0,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1.0, 44.0, 939.0, 565.0 ],
+		"rect" : [ 1.0, 45.0, 939.0, 565.0 ],
 		"bgcolor" : [ 0.509804, 0.509804, 0.509804, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -188,7 +188,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 33.0, 175.0, 124.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 73.0, 511.0, 426.0, 23.0 ],
+					"presentation_rect" : [ 73.0, 523.0, 426.0, 23.0 ],
 					"style" : "",
 					"tabcolor" : [ 0.690196, 0.690196, 0.690196, 1.0 ],
 					"tabs" : [ "Off", "All", "PRY", "XYZ", "IR" ],
@@ -601,7 +601,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 539.0, 451.0, 324.0, 210.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 593.0, 340.0, 325.0, 208.0 ],
+					"presentation_rect" : [ 593.0, 340.0, 325.0, 219.0 ],
 					"proportion" : 0.39,
 					"rounded" : 0,
 					"style" : ""
@@ -657,8 +657,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 1,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -910,8 +910,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 1,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -1163,8 +1163,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 1,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -1416,8 +1416,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 1,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -1669,8 +1669,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 1,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -2064,8 +2064,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 1,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -2208,8 +2208,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 1,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -2269,8 +2269,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 0,
-											"revision" : 1,
+											"minor" : 1,
+											"revision" : 0,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -2546,8 +2546,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 0,
-											"revision" : 1,
+											"minor" : 1,
+											"revision" : 0,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -2823,8 +2823,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 0,
-											"revision" : 1,
+											"minor" : 1,
+											"revision" : 0,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -3100,8 +3100,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 0,
-											"revision" : 1,
+											"minor" : 1,
+											"revision" : 0,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -3722,8 +3722,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 1,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -4067,7 +4067,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 35.0, 224.0, 185.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 215.0, 480.0, 164.0, 22.0 ],
+					"presentation_rect" : [ 215.0, 492.0, 164.0, 22.0 ],
 					"style" : "",
 					"text" : "print data to Max window"
 				}
@@ -4538,6 +4538,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.294118, 1.0, 0.584314, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_color" : [ 0.294118, 1.0, 0.584314, 1.0 ],
 					"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -4668,7 +4669,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 198.0, 591.0, 259.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 239.0, 140.0, 272.0, 27.0 ],
+					"presentation_rect" : [ 195.0, 138.0, 272.0, 27.0 ],
 					"style" : "",
 					"text" : "Raw IR camera position tracking"
 				}
@@ -4719,7 +4720,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 38.0, 168.0, 113.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 204.0, 478.0, 181.0, 25.0 ],
+					"presentation_rect" : [ 204.0, 490.0, 181.0, 25.0 ],
 					"proportion" : 0.39,
 					"rounded" : 0,
 					"style" : ""
@@ -4737,7 +4738,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 32.0, 164.0, 153.0, 79.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 25.0, 469.0, 563.0, 79.0 ],
+					"presentation_rect" : [ 25.0, 469.0, 562.0, 90.0 ],
 					"proportion" : 0.39,
 					"rounded" : 0,
 					"style" : ""
@@ -4791,7 +4792,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 194.0, 588.0, 269.0, 31.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 239.0, 136.0, 269.0, 31.0 ],
+					"presentation_rect" : [ 195.0, 134.0, 269.0, 31.0 ],
 					"proportion" : 0.39,
 					"rounded" : 0,
 					"style" : ""
@@ -5461,7 +5462,6 @@
 		"dependency_cache" : [ 			{
 				"name" : "imi.docloader.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/Toolbox/imi_objects",
-				"patcherrelativepath" : "../../Toolbox/imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -5474,7 +5474,7 @@
 				"type" : "iLaX"
 			}
  ],
-		"embedsnapshot" : 0
+		"autosave" : 0
 	}
 
 }

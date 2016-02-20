@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 0,
-			"revision" : 1,
+			"minor" : 1,
+			"revision" : 0,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 100.0, 100.0, 563.0, 571.0 ],
+		"rect" : [ 2.0, 45.0, 563.0, 571.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -20,11 +20,11 @@
 		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
-		"toolbarvisible" : 0,
+		"toolbarvisible" : 1,
 		"lefttoolbarpinned" : 0,
 		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 1,
 		"toolbars_unpinned_last_save" : 7,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
@@ -237,7 +237,7 @@
 				"box" : 				{
 					"id" : "obj-28",
 					"maxclass" : "number",
-					"mouseup" : 1,
+					"mousefilter" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -831,89 +831,81 @@
 		"dependency_cache" : [ 			{
 				"name" : "imi.splitscale.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/Toolbox/imi_objects",
-				"patcherrelativepath" : "../imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "imi.avgmap.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/Toolbox/imi_objects",
-				"patcherrelativepath" : "../imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "past2.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/Toolbox/imi_objects",
-				"patcherrelativepath" : "../imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.smooth.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/externals/tools/dot_20121204/filters/dot.smooth",
-				"patcherrelativepath" : "../../../externals/tools/dot_20121204/filters/dot.smooth",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "f0.average_tempo.pat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/externals/tools/f0.abs110216",
-				"patcherrelativepath" : "../../../externals/tools/f0.abs110216",
 				"type" : "maxb",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "laverage.mxb",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/externals/sound/St.ools/St.ools/abhaXions",
-				"patcherrelativepath" : "../../../externals/sound/St.ools/St.ools/abhaXions",
 				"type" : "maxb",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "St.Average.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/externals/sound/St.ools/St.ools",
-				"patcherrelativepath" : "../../../externals/sound/St.ools/St.ools",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "splitter.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/externals/sound/St.ools/St.ools/abhaXions",
-				"patcherrelativepath" : "../../../externals/sound/St.ools/St.ools/abhaXions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "roudone.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/externals/sound/St.ools/St.ools/abhaXions",
-				"patcherrelativepath" : "../../../externals/sound/St.ools/St.ools/abhaXions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "revzi.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/externals/sound/St.ools/St.ools/abhaXions",
-				"patcherrelativepath" : "../../../externals/sound/St.ools/St.ools/abhaXions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dot.median.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/externals/tools/dot_20121204/filters/dot.median",
-				"patcherrelativepath" : "../../../externals/tools/dot_20121204/filters/dot.median",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Max4VA-Title.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
-				"patcherrelativepath" : "../../zpatches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
+			}
  ],
-		"embedsnapshot" : 0
+		"autosave" : 0
 	}
 
 }

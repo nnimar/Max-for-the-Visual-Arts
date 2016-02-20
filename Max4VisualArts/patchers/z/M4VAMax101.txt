@@ -1,6 +1,6 @@
 1, -----------------------;
 2, <category> 1 Introduction;
-3, introduction "intro to Max";
+3, m4va_introduction "intro to Max";
 4, max_sandpit "max sandpit";
 5, maxhelp_a_day "patch a day, healthy everyday";
 6, credits "credits";

@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 0,
-			"revision" : 1,
+			"minor" : 1,
+			"revision" : 0,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 0.0, 44.0, 947.0, 473.0 ],
+		"rect" : [ 0.0, 45.0, 947.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 13.0,
@@ -20,11 +20,11 @@
 		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
-		"toolbarvisible" : 0,
+		"toolbarvisible" : 1,
 		"lefttoolbarpinned" : 0,
 		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 1,
 		"toolbars_unpinned_last_save" : 7,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
@@ -70,8 +70,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 1,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -87,12 +87,12 @@
 						"gridsnaponopen" : 1,
 						"objectsnaponopen" : 1,
 						"statusbarvisible" : 2,
-						"toolbarvisible" : 0,
+						"toolbarvisible" : 1,
 						"lefttoolbarpinned" : 0,
 						"toptoolbarpinned" : 0,
 						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
+						"bottomtoolbarpinned" : 1,
+						"toolbars_unpinned_last_save" : 7,
 						"tallnewobj" : 0,
 						"boxanimatetime" : 200,
 						"enablehscroll" : 1,
@@ -157,7 +157,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 274.0, 162.0, 58.0, 24.0 ],
+					"patching_rect" : [ 281.0, 162.0, 58.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 4,
 					"presentation_rect" : [ 388.0, 76.0, 36.0, 64.0 ],
@@ -190,7 +190,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 541.0, 446.0, 50.0, 22.0 ],
+					"patching_rect" : [ 548.0, 446.0, 50.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 545.0, 393.0, 50.0, 22.0 ],
 					"style" : ""
@@ -208,7 +208,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 473.0, 446.0, 50.0, 22.0 ],
+					"patching_rect" : [ 480.0, 446.0, 50.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 477.0, 393.0, 50.0, 22.0 ],
 					"style" : ""
@@ -226,7 +226,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 406.0, 446.0, 50.0, 22.0 ],
+					"patching_rect" : [ 413.0, 446.0, 50.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 410.0, 393.0, 50.0, 22.0 ],
 					"style" : ""
@@ -244,7 +244,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 338.0, 446.0, 50.0, 22.0 ],
+					"patching_rect" : [ 345.0, 446.0, 50.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 342.0, 393.0, 50.0, 22.0 ],
 					"style" : ""
@@ -261,7 +261,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 338.0, 298.0, 259.0, 123.0 ],
+					"patching_rect" : [ 345.0, 298.0, 259.0, 123.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 342.0, 245.0, 259.0, 123.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
@@ -278,7 +278,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 351.0, 273.0, 262.0, 20.0 ],
+					"patching_rect" : [ 358.0, 273.0, 262.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 353.0, 219.0, 246.0, 33.0 ],
@@ -296,7 +296,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "float", "float", "float", "float" ],
-					"patching_rect" : [ 338.0, 425.0, 222.0, 19.0 ],
+					"patching_rect" : [ 345.0, 425.0, 222.0, 19.0 ],
 					"style" : "",
 					"text" : "unpack 0. 0. 0. 0."
 				}
@@ -311,7 +311,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 338.0, 209.0, 174.0, 24.0 ],
+					"patching_rect" : [ 345.0, 209.0, 174.0, 24.0 ],
 					"style" : "",
 					"text" : "OSC-route /motion/angles"
 				}
@@ -329,8 +329,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 1,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -346,12 +346,12 @@
 						"gridsnaponopen" : 1,
 						"objectsnaponopen" : 1,
 						"statusbarvisible" : 2,
-						"toolbarvisible" : 0,
+						"toolbarvisible" : 1,
 						"lefttoolbarpinned" : 0,
 						"toptoolbarpinned" : 0,
 						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
+						"bottomtoolbarpinned" : 1,
+						"toolbars_unpinned_last_save" : 7,
 						"tallnewobj" : 0,
 						"boxanimatetime" : 200,
 						"enablehscroll" : 1,
@@ -534,8 +534,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 0,
-											"revision" : 1,
+											"minor" : 1,
+											"revision" : 0,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -551,12 +551,12 @@
 										"gridsnaponopen" : 1,
 										"objectsnaponopen" : 1,
 										"statusbarvisible" : 2,
-										"toolbarvisible" : 0,
+										"toolbarvisible" : 1,
 										"lefttoolbarpinned" : 0,
 										"toptoolbarpinned" : 0,
 										"righttoolbarpinned" : 0,
-										"bottomtoolbarpinned" : 0,
-										"toolbars_unpinned_last_save" : 0,
+										"bottomtoolbarpinned" : 1,
+										"toolbars_unpinned_last_save" : 7,
 										"tallnewobj" : 0,
 										"boxanimatetime" : 200,
 										"enablehscroll" : 1,
@@ -794,7 +794,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 226.0, 164.0, 45.0, 22.0 ],
+					"patching_rect" : [ 233.0, 164.0, 45.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -818,7 +818,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 134.0, 162.0, 58.0, 24.0 ],
+					"patching_rect" : [ 141.0, 162.0, 58.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 4,
 					"presentation_rect" : [ 266.0, 72.0, 36.0, 64.0 ],
@@ -855,7 +855,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 370.0, 164.0, 22.0, 22.0 ],
+					"patching_rect" : [ 377.0, 164.0, 22.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -869,7 +869,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 32.0, 164.0, 98.0, 22.0 ],
+					"patching_rect" : [ 39.0, 164.0, 98.0, 22.0 ],
 					"style" : "",
 					"text" : "OSC-route /wii/1"
 				}
@@ -884,7 +884,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 85.0, 63.0, 78.0, 24.0 ],
+					"patching_rect" : [ 92.0, 63.0, 78.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 363.0, 19.0, 57.0, 37.0 ],
@@ -904,7 +904,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 235.0, 446.0, 50.0, 22.0 ],
+					"patching_rect" : [ 242.0, 446.0, 50.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 826.0, 311.0, 50.0, 22.0 ],
 					"style" : ""
@@ -922,7 +922,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 167.0, 446.0, 50.0, 22.0 ],
+					"patching_rect" : [ 174.0, 446.0, 50.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 762.0, 311.0, 50.0, 22.0 ],
 					"style" : ""
@@ -940,7 +940,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 100.0, 446.0, 50.0, 22.0 ],
+					"patching_rect" : [ 107.0, 446.0, 50.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 698.0, 311.0, 50.0, 22.0 ],
 					"style" : ""
@@ -958,7 +958,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 32.0, 446.0, 50.0, 22.0 ],
+					"patching_rect" : [ 39.0, 446.0, 50.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 630.0, 312.0, 50.0, 22.0 ],
 					"style" : ""
@@ -975,7 +975,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 32.0, 298.0, 259.0, 123.0 ],
+					"patching_rect" : [ 39.0, 298.0, 259.0, 123.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 624.0, 182.0, 259.0, 123.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
@@ -992,7 +992,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 46.0, 274.0, 268.0, 20.0 ],
+					"patching_rect" : [ 53.0, 274.0, 268.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 637.0, 151.0, 246.0, 33.0 ],
@@ -1010,7 +1010,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "float", "float", "float", "float" ],
-					"patching_rect" : [ 32.0, 425.0, 222.0, 19.0 ],
+					"patching_rect" : [ 39.0, 425.0, 222.0, 19.0 ],
 					"style" : "",
 					"text" : "unpack 0. 0. 0. 0."
 				}
@@ -1029,8 +1029,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 1,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -1046,12 +1046,12 @@
 						"gridsnaponopen" : 1,
 						"objectsnaponopen" : 1,
 						"statusbarvisible" : 2,
-						"toolbarvisible" : 0,
+						"toolbarvisible" : 1,
 						"lefttoolbarpinned" : 0,
 						"toptoolbarpinned" : 0,
 						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
+						"bottomtoolbarpinned" : 1,
+						"toolbars_unpinned_last_save" : 7,
 						"tallnewobj" : 0,
 						"boxanimatetime" : 200,
 						"enablehscroll" : 1,
@@ -1145,7 +1145,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 32.0, 241.0, 72.0, 22.0 ],
+					"patching_rect" : [ 39.0, 241.0, 72.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1169,7 +1169,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 392.0, 164.0, 49.0, 24.0 ],
+					"patching_rect" : [ 399.0, 164.0, 49.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
 					"presentation_rect" : [ 397.0, 90.0, 36.0, 51.0 ],
@@ -1187,7 +1187,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 32.0, 99.0, 80.0, 22.0 ],
+					"patching_rect" : [ 39.0, 99.0, 80.0, 22.0 ],
 					"style" : "",
 					"text" : "prepend port"
 				}
@@ -1195,6 +1195,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0,
 					"bgfillcolor_color" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
@@ -1210,7 +1211,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 4.0, 62.0, 75.0, 29.0 ],
+					"patching_rect" : [ 11.0, 62.0, 75.0, 29.0 ],
 					"pattrmode" : 1,
 					"presentation" : 1,
 					"presentation_rect" : [ 356.0, 43.0, 75.0, 29.0 ],
@@ -1228,7 +1229,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 32.0, 209.0, 121.0, 24.0 ],
+					"patching_rect" : [ 39.0, 209.0, 121.0, 24.0 ],
 					"style" : "",
 					"text" : "OSC-route /accel"
 				}
@@ -1243,7 +1244,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 32.0, 125.0, 100.0, 22.0 ],
+					"patching_rect" : [ 39.0, 125.0, 100.0, 22.0 ],
 					"style" : "",
 					"text" : "udpreceive 9000"
 				}
@@ -1259,7 +1260,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 4.0, 62.0, 60.0, 22.0 ],
+					"patching_rect" : [ 11.0, 62.0, 60.0, 22.0 ],
 					"style" : "",
 					"text" : "loadbang"
 				}
@@ -1311,7 +1312,7 @@
 					"destination" : [ "obj-32", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 41.5, 198.5, 347.5, 198.5 ],
+					"midpoints" : [ 48.5, 198.5, 354.5, 198.5 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -1348,7 +1349,7 @@
 					"destination" : [ "obj-14", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 41.5, 152.5, 379.5, 152.5 ],
+					"midpoints" : [ 48.5, 152.5, 386.5, 152.5 ],
 					"source" : [ "obj-113", 0 ]
 				}
 
@@ -1358,7 +1359,7 @@
 					"destination" : [ "obj-21", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 41.5, 152.5, 235.5, 152.5 ],
+					"midpoints" : [ 48.5, 152.5, 242.5, 152.5 ],
 					"source" : [ "obj-113", 0 ]
 				}
 
@@ -1485,7 +1486,7 @@
 					"destination" : [ "obj-19", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 41.5, 285.0, 41.5, 285.0 ],
+					"midpoints" : [ 48.5, 285.0, 48.5, 285.0 ],
 					"source" : [ "obj-51", 0 ]
 				}
 
@@ -1512,28 +1513,24 @@
 		"dependency_cache" : [ 			{
 				"name" : "imi.docloader.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/Toolbox/imi_objects",
-				"patcherrelativepath" : "../../Toolbox/imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "wii-osculator.jpg",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/Sources/images",
-				"patcherrelativepath" : "../../Sources/images",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "wii-data.jpg",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/Sources/images",
-				"patcherrelativepath" : "../../Sources/images",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Max4VA-Title.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
-				"patcherrelativepath" : "../../zpatches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1545,8 +1542,12 @@
 				"name" : "OSC-route.mxo",
 				"type" : "iLaX"
 			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
+			}
  ],
-		"embedsnapshot" : 0
+		"autosave" : 0
 	}
 
 }

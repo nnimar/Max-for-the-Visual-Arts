@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 0,
-			"revision" : 6,
+			"minor" : 1,
+			"revision" : 0,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -144,8 +144,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 6,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -501,9 +501,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 31.0, 386.0, 137.0, 38.0 ],
+					"patching_rect" : [ 31.0, 386.0, 164.0, 38.0 ],
 					"style" : "",
-					"text" : "delay a bang before passing it on"
+					"text" : "delay a \"bang\" message before passing it on"
 				}
 
 			}
@@ -617,8 +617,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 6,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -898,9 +898,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 277.0, 386.0, 161.0, 38.0 ],
+					"patching_rect" : [ 277.0, 386.0, 156.0, 38.0 ],
 					"style" : "",
-					"text" : "metro outputs a bang at regular intervals"
+					"text" : "metro outputs a \"bang\" \nat regular intervals"
 				}
 
 			}
@@ -1396,7 +1396,7 @@
 			}
  ],
 		"dependency_cache" : [  ],
-		"embedsnapshot" : 0
+		"autosave" : 0
 	}
 
 }

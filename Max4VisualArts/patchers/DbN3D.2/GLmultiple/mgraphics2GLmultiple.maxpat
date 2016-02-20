@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 0,
-			"revision" : 1,
+			"minor" : 1,
+			"revision" : 0,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1.0, 44.0, 593.0, 523.0 ],
+		"rect" : [ 1.0, 45.0, 593.0, 523.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 13.0,
@@ -20,12 +20,12 @@
 		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
-		"toolbarvisible" : 0,
+		"toolbarvisible" : 1,
 		"lefttoolbarpinned" : 0,
 		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
+		"bottomtoolbarpinned" : 1,
+		"toolbars_unpinned_last_save" : 7,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
@@ -70,8 +70,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 1,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -87,12 +87,12 @@
 						"gridsnaponopen" : 1,
 						"objectsnaponopen" : 1,
 						"statusbarvisible" : 2,
-						"toolbarvisible" : 0,
+						"toolbarvisible" : 1,
 						"lefttoolbarpinned" : 0,
 						"toptoolbarpinned" : 0,
 						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
+						"bottomtoolbarpinned" : 1,
+						"toolbars_unpinned_last_save" : 7,
 						"tallnewobj" : 0,
 						"boxanimatetime" : 200,
 						"enablehscroll" : 1,
@@ -115,7 +115,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 127.0, 47.0, 246.0, 51.0 ],
 									"style" : "",
-									"text" : "to understand, we use the jit.matrix (dimension of 1, filled with 0.5) rather than jit.noise (dim 100, random numbers)"
+									"text" : "to understand, we use the jit.matrix (dimension of 1, filled with 0.6) rather than jit.noise (dim 100, random numbers)"
 								}
 
 							}
@@ -129,7 +129,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 5.0, 3.0, 395.0, 22.0 ],
 									"style" : "",
-									"text" : "GLmultiple will place and scale your images (or graphic here). "
+									"text" : "How does GLmultiple places and scales your images ?"
 								}
 
 							}
@@ -145,7 +145,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 144.0, 151.0, 254.0, 51.0 ],
 									"style" : "",
-									"text" : "take the value from the matrix (in[0]), then multiply by 2 and substract 1. :\nexample : 0.5 * 2 - 1. = 0."
+									"text" : "take the value from the matrix (in[0]), then multiply by 2 and substract 1. :\nexample : 0.6 * 2 - 1. = 0.2"
 								}
 
 							}
@@ -188,7 +188,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 28.0, 95.0, 87.0, 20.0 ],
+									"patching_rect" : [ 28.0, 95.0, 87.0, 22.0 ],
 									"style" : "",
 									"text" : "imi.matrix2cell"
 								}
@@ -233,7 +233,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 7.0, 199.0, 87.0, 20.0 ],
+									"patching_rect" : [ 7.0, 199.0, 87.0, 22.0 ],
 									"style" : "",
 									"text" : "imi.matrix2cell"
 								}
@@ -248,7 +248,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 7.0, 167.0, 133.0, 20.0 ],
+									"patching_rect" : [ 7.0, 167.0, 133.0, 22.0 ],
 									"style" : "",
 									"text" : "jit.expr @expr in[0]*2-1"
 								}
@@ -263,7 +263,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 7.0, 64.0, 115.0, 20.0 ],
+									"patching_rect" : [ 7.0, 64.0, 115.0, 22.0 ],
 									"style" : "",
 									"text" : "jit.matrix 3 float32 1"
 								}
@@ -278,9 +278,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 7.0, 34.0, 93.0, 18.0 ],
+									"patching_rect" : [ 7.0, 34.0, 93.0, 22.0 ],
 									"style" : "",
-									"text" : "setall 0.5, bang"
+									"text" : "setall 0.6, bang"
 								}
 
 							}
@@ -449,8 +449,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 1,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -466,12 +466,12 @@
 						"gridsnaponopen" : 1,
 						"objectsnaponopen" : 1,
 						"statusbarvisible" : 2,
-						"toolbarvisible" : 0,
+						"toolbarvisible" : 1,
 						"lefttoolbarpinned" : 0,
 						"toptoolbarpinned" : 0,
 						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
+						"bottomtoolbarpinned" : 1,
+						"toolbars_unpinned_last_save" : 7,
 						"tallnewobj" : 0,
 						"boxanimatetime" : 200,
 						"enablehscroll" : 1,
@@ -1632,35 +1632,36 @@
 		"dependency_cache" : [ 			{
 				"name" : "jit.gl.slab.gauss6x.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Examples/jitter-examples/render/slab",
-				"patcherrelativepath" : "../../../../../Examples/jitter-examples/render/slab",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "imi.matrix2cell.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/Toolbox/imi_objects",
-				"patcherrelativepath" : "../../Toolbox/imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Max4VA-Title.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
-				"patcherrelativepath" : "../../zpatches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
+			}
  ],
-		"embedsnapshot" : 0,
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
-					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"fontsize" : [ 14.0 ],
-					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
+					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"fontsize" : [ 14.0 ]
 				}
 ,
 				"parentstyle" : "",

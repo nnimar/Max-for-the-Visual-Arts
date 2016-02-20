@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 0,
-			"revision" : 2,
+			"minor" : 1,
+			"revision" : 0,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1.0, 44.0, 719.0, 489.0 ],
+		"rect" : [ 1.0, 45.0, 719.0, 489.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -20,12 +20,12 @@
 		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
-		"toolbarvisible" : 0,
+		"toolbarvisible" : 1,
 		"lefttoolbarpinned" : 0,
 		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
+		"bottomtoolbarpinned" : 1,
+		"toolbars_unpinned_last_save" : 7,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
@@ -61,12 +61,11 @@
 , 			{
 				"box" : 				{
 					"bubblepoint" : 0.22,
-					"fontname" : "Arial",
 					"id" : "obj-12",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 180.5, 314.0, 289.0, 20.0 ],
+					"patching_rect" : [ 180.5, 316.0, 289.0, 18.0 ],
 					"style" : "default",
 					"text" : "create the response dict so that it is available for use"
 				}
@@ -74,13 +73,12 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
 					"id" : "obj-10",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "dictionary", "", "", "" ],
-					"patching_rect" : [ 96.0, 314.0, 70.0, 22.0 ],
+					"patching_rect" : [ 96.0, 316.0, 70.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"parameter_enable" : 0
@@ -88,58 +86,6 @@
 ,
 					"style" : "default",
 					"text" : "dict data1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"bubblepoint" : 0.22,
-					"id" : "obj-4",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 417.0, 129.25, 70.0, 25.0 ],
-					"style" : "default",
-					"text" : "London"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-3",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 381.166656, 124.0, 28.5, 28.5 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"data" : 					{
-						"http_method" : "get",
-						"url" : "api.openweathermap.org/data/2.5/weather?q=London,uk",
-						"response_dict" : "data1",
-						"parse_type" : "json"
-					}
-,
-					"fontname" : "Arial",
-					"id" : "obj-1",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 4,
-					"outlettype" : [ "dictionary", "", "", "" ],
-					"patching_rect" : [ 381.0, 163.0, 89.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"embed" : 1,
-						"parameter_enable" : 0
-					}
-,
-					"style" : "default",
-					"text" : "dict @embed 1"
 				}
 
 			}
@@ -296,13 +242,12 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
 					"id" : "obj-39",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 620.833313, 408.0, 88.0, 22.0 ],
+					"patching_rect" : [ 620.833313, 408.0, 88.0, 20.0 ],
 					"style" : "default",
 					"text" : "dict.unpack all:"
 				}
@@ -358,13 +303,12 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
 					"id" : "obj-34",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 413.833344, 408.0, 165.0, 22.0 ],
+					"patching_rect" : [ 413.833344, 408.0, 165.0, 20.0 ],
 					"style" : "default",
 					"text" : "dict.unpack deg: speed: gust:"
 				}
@@ -452,13 +396,12 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
 					"id" : "obj-21",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 12.5, 232.0, 32.0, 22.0 ],
+					"patching_rect" : [ 12.5, 232.0, 32.0, 20.0 ],
 					"style" : "default",
 					"text" : "t b l"
 				}
@@ -466,13 +409,12 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
 					"id" : "obj-17",
 					"maxclass" : "newobj",
 					"numinlets" : 4,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 38.333332, 352.0, 229.0, 22.0 ],
+					"patching_rect" : [ 38.333332, 352.0, 229.0, 20.0 ],
 					"style" : "default",
 					"text" : "route body::main body::wind body::clouds"
 				}
@@ -480,13 +422,12 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
 					"id" : "obj-14",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 38.333332, 408.0, 330.0, 22.0 ],
+					"patching_rect" : [ 38.333332, 408.0, 330.0, 20.0 ],
 					"style" : "default",
 					"text" : "dict.unpack temp: pressure: temp_min: temp_max: humidity:"
 				}
@@ -494,13 +435,12 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
 					"id" : "obj-13",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 43.5, 274.0, 265.0, 22.0 ],
+					"patching_rect" : [ 43.5, 274.0, 265.0, 20.0 ],
 					"style" : "default",
 					"text" : "get body::main, get body::wind, get body::clouds"
 				}
@@ -508,13 +448,12 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
 					"id" : "obj-18",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "dictionary", "", "", "" ],
-					"patching_rect" : [ 26.0, 316.0, 51.0, 22.0 ],
+					"patching_rect" : [ 26.0, 316.0, 51.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"parameter_enable" : 0
@@ -536,9 +475,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 43.5, 69.0, 315.0, 69.0 ],
+					"patching_rect" : [ 43.5, 69.0, 334.0, 69.0 ],
 					"style" : "",
-					"text" : "We fetch the current weather conditions for San Francisco.  Since we know the response body is in json format, we set \"parse_type\" to \"json\". This will parse the json text into a usable dictionary.",
+					"text" : "We fetch the current weather conditions for London.  Since we know the response body is in json format, we set \"parse_type\" to \"json\". This will parse the json text into a usable dictionary.",
 					"textcolor" : [ 0.27672, 0.35666, 0.382985, 1.0 ]
 				}
 
@@ -559,18 +498,17 @@
 				"box" : 				{
 					"data" : 					{
 						"http_method" : "get",
-						"url" : "http://api.openweathermap.org/data/2.5/weather?id=8f1889875717c4c4518d1e0b6eaefe2e&mode=json",
+						"url" : "http://api.openweathermap.org/data/2.5/weather?q=London,uk&units=metric&APPID=ad9b91df7dd6cfb856fd14d9eb7eebff",
 						"response_dict" : "data1",
 						"parse_type" : "json"
 					}
 ,
-					"fontname" : "Arial",
 					"id" : "obj-35",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "dictionary", "", "", "" ],
-					"patching_rect" : [ 12.5, 163.0, 89.0, 22.0 ],
+					"patching_rect" : [ 13.0, 176.0, 89.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
 						"parameter_enable" : 0
@@ -583,13 +521,12 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "dictionary", "" ],
-					"patching_rect" : [ 12.5, 205.0, 152.0, 22.0 ],
+					"patching_rect" : [ 12.5, 205.0, 152.0, 20.0 ],
 					"style" : "default",
 					"text" : "maxurl 2"
 				}
@@ -597,16 +534,6 @@
 			}
  ],
 		"lines" : [ 			{
-				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 390.5, 194.5, 22.0, 194.5 ],
-					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
 					"disabled" : 0,
@@ -729,15 +656,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-3", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-31", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -794,7 +712,6 @@
 		"dependency_cache" : [ 			{
 				"name" : "Max4VA-Title.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
-				"patcherrelativepath" : "../zpatches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -803,13 +720,13 @@
 				"type" : "iLaX"
 			}
  ],
-		"embedsnapshot" : 0,
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "m4va",
 				"default" : 				{
-					"fontname" : [ "Arial" ],
 					"fontsize" : [ 12.0 ],
 					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
+					"fontname" : [ "Arial" ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
@@ -819,12 +736,12 @@
 , 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
+					"fontsize" : [ 14.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"fontsize" : [ 14.0 ],
-					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

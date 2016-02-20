@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 0,
-			"revision" : 6,
+			"minor" : 1,
+			"revision" : 0,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 945.0, 295.0, 640.0, 480.0 ],
+		"rect" : [ 945.0, 295.0, 379.0, 333.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -43,7 +43,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 89.0, 199.0, 73.0, 22.0 ],
+					"patching_rect" : [ 86.0, 199.0, 73.0, 22.0 ],
 					"style" : "",
 					"text" : "fromsymbol"
 				}
@@ -85,7 +85,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 91.0, 68.0, 94.0, 29.0 ],
+					"patching_rect" : [ 86.0, 68.0, 94.0, 29.0 ],
 					"style" : "",
 					"text" : "shell"
 				}
@@ -99,7 +99,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 91.0, 285.0, 236.0, 20.0 ],
+					"patching_rect" : [ 86.0, 285.0, 236.0, 20.0 ],
 					"style" : "",
 					"text" : "GMT: Tue, 1 Sept 2015, 22:58:28"
 				}
@@ -112,7 +112,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 91.0, 245.0, 89.0, 22.0 ],
+					"patching_rect" : [ 86.0, 245.0, 89.0, 22.0 ],
 					"style" : "",
 					"text" : "shell2UTCtime"
 				}
@@ -176,7 +176,7 @@
 				"type" : "iLaX"
 			}
  ],
-		"embedsnapshot" : 0,
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "simple",
 				"parentstyle" : "",

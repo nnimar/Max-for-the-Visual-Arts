@@ -2,28 +2,40 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 5,
+			"major" : 7,
 			"minor" : 1,
-			"revision" : 9
+			"revision" : 0,
+			"architecture" : "x86",
+			"modernui" : 1
 		}
 ,
-		"rect" : [ 0.0, 44.0, 244.0, 350.0 ],
+		"rect" : [ 0.0, 45.0, 244.0, 350.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 0.0, 44.0, 244.0, 350.0 ],
-		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 0,
+		"gridonopen" : 1,
 		"gridsize" : [ 5.0, 5.0 ],
-		"gridsnaponopen" : 0,
-		"toolbarvisible" : 0,
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
+		"statusbarvisible" : 2,
+		"toolbarvisible" : 1,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 1,
+		"toolbars_unpinned_last_save" : 7,
+		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
-		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
+		"description" : "",
+		"digest" : "",
+		"tags" : "",
+		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
@@ -33,7 +45,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 101.0, 185.0, 131.0, 34.0 ],
+					"patching_rect" : [ 101.0, 185.0, 131.0, 33.0 ],
+					"style" : "",
 					"text" : "set max width and/or height. default is 1280"
 				}
 
@@ -47,7 +60,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, 314.0, 164.0, 34.0 ],
+					"patching_rect" : [ 10.0, 314.0, 164.0, 33.0 ],
+					"style" : "",
 					"text" : "patch by peter nyboer\npete@lividinstruments.com"
 				}
 
@@ -61,7 +75,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 11.0, 8.0, 150.0, 34.0 ],
+					"patching_rect" : [ 11.0, 8.0, 150.0, 33.0 ],
+					"style" : "",
 					"text" : "drop several files if you want to batch process"
 				}
 
@@ -74,8 +89,10 @@
 					"maxclass" : "number",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "int", "bang" ],
-					"patching_rect" : [ 105.0, 117.0, 50.0, 20.0 ]
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 105.0, 117.0, 50.0, 22.0 ],
+					"style" : ""
 				}
 
 			}
@@ -87,8 +104,10 @@
 					"maxclass" : "number",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "int", "bang" ],
-					"patching_rect" : [ 168.0, 117.0, 50.0, 20.0 ]
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 168.0, 117.0, 50.0, 22.0 ],
+					"style" : ""
 				}
 
 			}
@@ -101,7 +120,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 168.0, 142.0, 59.0, 18.0 ],
+					"patching_rect" : [ 168.0, 142.0, 59.0, 22.0 ],
+					"style" : "",
 					"text" : "height $1"
 				}
 
@@ -115,7 +135,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 105.0, 142.0, 55.0, 18.0 ],
+					"patching_rect" : [ 105.0, 142.0, 55.0, 22.0 ],
+					"style" : "",
 					"text" : "width $1"
 				}
 
@@ -129,13 +150,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 117.0, 83.0, 20.0 ],
+					"patching_rect" : [ 10.0, 117.0, 83.0, 22.0 ],
+					"style" : "",
 					"text" : "prepend read"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-8",
@@ -144,7 +167,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 103.0, 239.0, 80.0, 36.0 ]
+					"patching_rect" : [ 103.0, 239.0, 80.0, 35.0 ],
+					"style" : ""
 				}
 
 			}
@@ -166,8 +190,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 10.0, 46.0, 157.0, 54.0 ],
-					"types" : [  ]
+					"patching_rect" : [ 10.0, 46.0, 157.0, 54.0 ]
 				}
 
 			}
@@ -180,7 +203,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 10.0, 192.0, 83.0, 20.0 ],
+					"patching_rect" : [ 10.0, 192.0, 83.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"filename" : "resizepic.js",
+						"parameter_enable" : 0
+					}
+,
+					"style" : "",
 					"text" : "js resizepic.js"
 				}
 
@@ -189,8 +218,8 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -198,6 +227,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 19.5, 226.5, 112.5, 226.5 ],
 					"source" : [ "obj-1", 0 ]
@@ -207,6 +237,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 177.5, 177.0, 19.5, 177.0 ],
 					"source" : [ "obj-13", 0 ]
@@ -216,8 +247,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ],
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -225,8 +256,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ],
 					"source" : [ "obj-17", 0 ]
 				}
 
@@ -234,8 +265,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -243,6 +274,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 114.5, 177.0, 19.5, 177.0 ],
 					"source" : [ "obj-4", 0 ]
@@ -252,13 +284,21 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [  ],
 					"source" : [ "obj-6", 0 ]
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "resizepic.js",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/Toolbox/images/resizepic",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

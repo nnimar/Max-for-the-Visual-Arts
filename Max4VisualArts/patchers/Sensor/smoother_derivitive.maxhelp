@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 0,
-			"revision" : 1,
+			"minor" : 1,
+			"revision" : 0,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 100.0, 100.0, 679.0, 571.0 ],
+		"rect" : [ 4.0, 45.0, 679.0, 571.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -178,8 +178,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 1,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -291,8 +291,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 1,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -425,8 +425,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 1,
+							"minor" : 1,
+							"revision" : 0,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -1115,47 +1115,45 @@
 		"dependency_cache" : [ 			{
 				"name" : "delta.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/CNMAT-CNMAT-MMJ-Depot-v3.1.0-0/patchers/basic_programming",
-				"patcherrelativepath" : "../../../CNMAT-CNMAT-MMJ-Depot-v3.1.0-0/patchers/basic_programming",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "badge.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/CNMAT-CNMAT-MMJ-Depot-v3.1.0-0/patchers/depot_support",
-				"patcherrelativepath" : "../../../CNMAT-CNMAT-MMJ-Depot-v3.1.0-0/patchers/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "uc_license.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/CNMAT-CNMAT-MMJ-Depot-v3.1.0-0/patchers/depot_support",
-				"patcherrelativepath" : "../../../CNMAT-CNMAT-MMJ-Depot-v3.1.0-0/patchers/depot_support",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cnmat_blue.gif",
 				"bootpath" : "/Users/Shared/Max 7/Packages/CNMAT-CNMAT-MMJ-Depot-v3.1.0-0/patchers/depot_support",
-				"patcherrelativepath" : "../../../CNMAT-CNMAT-MMJ-Depot-v3.1.0-0/patchers/depot_support",
 				"type" : "GIFf",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "onepole.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/CNMAT-CNMAT-MMJ-Depot-v3.1.0-0/patchers/data_transformation",
-				"patcherrelativepath" : "../../../CNMAT-CNMAT-MMJ-Depot-v3.1.0-0/patchers/data_transformation",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Max4VA-Title.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
-				"patcherrelativepath" : "../zpatches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
+			}
  ],
-		"embedsnapshot" : 0
+		"autosave" : 0
 	}
 
 }

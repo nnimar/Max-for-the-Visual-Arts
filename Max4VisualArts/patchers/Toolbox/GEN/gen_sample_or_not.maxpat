@@ -2,30 +2,40 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 6,
-			"minor" : 0,
-			"revision" : 5
+			"major" : 7,
+			"minor" : 1,
+			"revision" : 0,
+			"architecture" : "x86",
+			"modernui" : 1
 		}
 ,
-		"rect" : [ 25.0, 69.0, 759.0, 357.0 ],
+		"rect" : [ 3.0, 45.0, 759.0, 357.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 0,
+		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 0,
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
-		"toolbarvisible" : 0,
+		"toolbarvisible" : 1,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 1,
+		"toolbars_unpinned_last_save" : 7,
+		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
-		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
+		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-11",
@@ -50,13 +60,21 @@
 			}
 , 			{
 				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
 					"id" : "obj-3",
+					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "demovideo.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 21.0, 19.0, 230.0, 125.0 ]
+					"patching_rect" : [ 21.0, 19.0, 230.0, 125.0 ],
+					"viewvisibility" : 1
 				}
 
 			}
@@ -72,31 +90,42 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 6,
-							"minor" : 0,
-							"revision" : 5
+							"major" : 7,
+							"minor" : 1,
+							"revision" : 0,
+							"architecture" : "x86",
+							"modernui" : 1
 						}
 ,
 						"rect" : [ 593.0, 373.0, 235.0, 150.0 ],
 						"bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
+						"editing_bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"gridonopen" : 0,
+						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 0,
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
 						"statusbarvisible" : 2,
-						"toolbarvisible" : 0,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 1,
+						"toolbars_unpinned_last_save" : 7,
+						"tallnewobj" : 0,
 						"boxanimatetime" : 200,
-						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
 						"devicewidth" : 0.0,
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -107,6 +136,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 119.0, 12.0, 30.0, 20.0 ],
+									"style" : "",
 									"text" : "in 1"
 								}
 
@@ -120,6 +150,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 119.0, 100.0, 37.0, 20.0 ],
+									"style" : "",
 									"text" : "out 2"
 								}
 
@@ -134,6 +165,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 30.0, 12.0, 30.0, 20.0 ],
+									"style" : "",
 									"text" : "in 1"
 								}
 
@@ -148,6 +180,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 62.0, 12.0, 38.0, 20.0 ],
+									"style" : "",
 									"text" : "norm"
 								}
 
@@ -162,6 +195,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 30.0, 50.0, 51.0, 20.0 ],
+									"style" : "",
 									"text" : "sample"
 								}
 
@@ -175,6 +209,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 30.0, 100.0, 37.0, 20.0 ],
+									"style" : "",
 									"text" : "out 1"
 								}
 
@@ -216,19 +251,11 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "sample.mxo",
-								"type" : "iLaX"
-							}
-, 							{
-								"name" : "norm.mxo",
-								"type" : "iLaX"
-							}
  ]
 					}
 ,
-					"patching_rect" : [ 21.0, 168.0, 232.0, 20.0 ],
+					"patching_rect" : [ 21.0, 168.0, 232.0, 22.0 ],
+					"style" : "",
 					"text" : "jit.gen"
 				}
 
@@ -242,7 +269,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 392.0, 21.0, 362.0, 324.0 ],
+					"patching_rect" : [ 392.0, 21.0, 362.0, 315.0 ],
+					"style" : "",
 					"text" : "In the gen world, the only thing you connect to the input of [sample] is an [in] operator. It won't let you connect anything else by design. The [in] operators represent two different concepts simultaneously, which is probably what's causing some confusion. They are:\n\n1) The current pixel/cell being processed\n2) a proxy for the entire input matrix/texture\n\nWhen you connect [in] to any operator except [sample], you're connecting the current pixel being processed to that operator (1). \n\nWhen you connect [in] to [sample], you're connecting the entire input matrix to it (2). This is because [sample] can pull an arbitrary pixel from a given input. All other ops can only work with the current pixel flowing through the gen patcher.\n\nIn your genjit patches, I noticed you had [in 1] -> [sample] with a [norm] connected to the second [sample] inlet. You actually don't need this. It's equivalent to [in 1] --> [out 1]\n\nWesley Smith\n\n"
 				}
 
@@ -278,18 +306,18 @@
  ],
 		"parameters" : 		{
 			"obj-3::obj-4::obj-20" : [ "live.tab[1]", "live.tab[1]", 0 ],
-			"obj-3::obj-4::obj-21" : [ "number", "number", 0 ],
-			"obj-3::obj-4::obj-18" : [ "number[1]", "number[1]", 0 ]
+			"obj-3::obj-4::obj-18" : [ "number[1]", "number[1]", 0 ],
+			"obj-3::obj-4::obj-21" : [ "number", "number", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "demovideo.maxpat",
-				"bootpath" : "/Applications/Max6/Cycling '74/jitter-help",
-				"patcherrelativepath" : "../../../../../Applications/Max6/Cycling '74/jitter-help",
+				"bootpath" : "C74:/help/jitter",
 				"type" : "JSON",
 				"implicit" : 1
 			}
- ]
+ ],
+		"autosave" : 0
 	}
 
 }
