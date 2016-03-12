@@ -11,7 +11,7 @@
 13, text_alpha "text + alpha layer";
 14, type_text "typing text in a window";
 15, text_oulipo "max and litterature";
-16, coll2text2d "a simple patch to place text";
+16, basictext2d "a simple patch to use text";
 17, text_passingtime "interactive text patch";
 20, -----------------------;
 
