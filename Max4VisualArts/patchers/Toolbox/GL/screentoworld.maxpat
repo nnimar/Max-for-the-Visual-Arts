@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 1,
-			"revision" : 0,
+			"minor" : 2,
+			"revision" : 1,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 2.0, 45.0, 541.0, 603.0 ],
+		"rect" : [ 2.0, 45.0, 663.0, 509.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,28 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [ "m4va screentoworld", "converts screen coordinates to world coordinates, control a gridshape sphere with a mouse" ],
+					"bgmode" : 1,
+					"border" : 0,
+					"clickthrough" : 1,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-1",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "Max4VA-Title.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, -278.0 ],
+					"patching_rect" : [ 1.0, 0.5, 576.0, 58.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ -22.0, -3.0, 487.519531, 73.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -45,7 +67,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 151.0, 210.0, 237.0, 24.0 ],
+					"patching_rect" : [ 341.0, 228.0, 237.0, 24.0 ],
 					"style" : "",
 					"text" : "enable @ortho for flat rendering (not z)"
 				}
@@ -63,8 +85,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 1,
-							"revision" : 0,
+							"minor" : 2,
+							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -105,7 +127,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 5.0, 197.0, 535.0, 48.0 ],
+									"patching_rect" : [ 5.0, 197.0, 535.0, 47.0 ],
 									"style" : "",
 									"text" : "Returns an array containing the x, y, and depth screen coordinates associated with a given world coordinate. The depth value is typically specified in the range 0.-1. where 0 is the near clipping plane, and 1. is the far clipping plane."
 								}
@@ -119,7 +141,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 5.0, 169.0, 159.0, 23.0 ],
+									"patching_rect" : [ 5.0, 169.0, 159.0, 22.0 ],
 									"style" : "",
 									"text" : "worldtoscreen (x, y, z)"
 								}
@@ -133,7 +155,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 5.0, 6.0, 150.0, 23.0 ],
+									"patching_rect" : [ 5.0, 6.0, 150.0, 22.0 ],
 									"style" : "",
 									"text" : "screentoworld (x,y) "
 								}
@@ -148,7 +170,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 5.0, 32.0, 540.0, 103.0 ],
+									"patching_rect" : [ 5.0, 32.0, 543.0, 100.0 ],
 									"style" : "",
 									"text" : "Returns an array containing the x, y, and z world coordinates associated with a given screen pixel using the same the depth from the camera as 0,0,0. Optionally a third depth arg may be specified, which may be useful for hit detection and other applications. The depth value is typically specified in the range 0.-1. where 0 is the near clipping plane, and 1. is the far clipping plane. The worldtoscreen method can be used to determine the depth value of a given world coordinate, and the depthatpixel method can be used to determine the depth value associated with the currently rendered pixel at a given absolute screen coordinate."
 								}
@@ -158,7 +180,7 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 460.0, 573.0, 72.0, 24.0 ],
+					"patching_rect" : [ 581.0, 476.0, 72.0, 24.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -185,8 +207,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 1,
-							"revision" : 0,
+							"minor" : 2,
+							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -773,7 +795,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 10.0, 241.0, 102.0, 22.0 ],
+					"patching_rect" : [ 10.0, 259.0, 102.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -796,42 +818,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 9.574097, 266.638458, 138.0, 22.0 ],
+					"patching_rect" : [ 10.0, 286.0, 142.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.window screen2world"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 3,
-					"fontname" : "Arial",
-					"fontsize" : 20.899994,
-					"id" : "obj-8",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 3.0, 343.0, 30.0 ],
-					"style" : "",
-					"text" : "IMI screentoworld",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"varname" : "autohelp_top_title"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.754705,
-					"id" : "obj-34",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 28.0, 528.0, 21.0 ],
-					"style" : "",
-					"text" : "converts screen coordinates to world coordinates, control a gridshape sphere with a mouse",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"varname" : "autohelp_top_digest"
 				}
 
 			}
@@ -845,7 +834,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 173.0, 66.0, 239.0, 22.0 ],
+					"patching_rect" : [ 173.0, 75.0, 239.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -860,7 +849,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 173.0, 104.0, 240.0, 22.0 ],
+					"patching_rect" : [ 173.0, 113.0, 240.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -875,7 +864,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 173.0, 85.0, 240.0, 22.0 ],
+					"patching_rect" : [ 173.0, 94.0, 240.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -889,7 +878,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 173.0, 130.0, 308.0, 22.0 ],
+					"patching_rect" : [ 173.0, 139.0, 308.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.gl.camera @lookat 0. 0. 0. @near_clip 1 @far_clip 50"
 				}
@@ -905,7 +894,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 173.0, 156.0, 264.0, 35.0 ],
+					"patching_rect" : [ 173.0, 165.0, 264.0, 35.0 ],
 					"style" : "",
 					"text" : "jit.gl.gridshape @shape plane @poly_mode 1 1 @scale 1.5 1.5 1.5"
 				}
@@ -921,7 +910,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 194.0, 374.0, 78.0, 22.0 ],
+					"patching_rect" : [ 277.333344, 396.0, 78.0, 22.0 ],
 					"style" : "",
 					"text_width" : 51.0
 				}
@@ -936,7 +925,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 25.0, 162.0, 53.0, 22.0 ],
+					"patching_rect" : [ 25.0, 171.0, 53.0, 22.0 ],
 					"style" : "",
 					"text" : "r render"
 				}
@@ -950,7 +939,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 26.0, 573.0, 55.0, 22.0 ],
+					"patching_rect" : [ 14.0, 418.0, 55.0, 22.0 ],
 					"style" : "",
 					"text" : "s render"
 				}
@@ -965,7 +954,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 178.0, 339.0, 176.0, 22.0 ],
+					"patching_rect" : [ 261.333344, 361.0, 176.0, 22.0 ],
 					"style" : "",
 					"text" : "pak position 0. 0. 0."
 				}
@@ -981,7 +970,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 178.0, 402.0, 177.0, 76.0 ],
+					"patching_rect" : [ 261.333344, 424.0, 177.0, 76.0 ],
 					"style" : "",
 					"text" : "jit.gl.gridshape @shape sphere @dim 70 70 @color 1. 1. 1. @scale 0.15 0.15 0.15 @lighting_enable 1 @smooth_shading 1"
 				}
@@ -998,7 +987,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 230.0, 309.0, 50.0, 22.0 ],
+					"patching_rect" : [ 366.0, 316.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -1014,7 +1003,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 177.0, 309.0, 50.0, 22.0 ],
+					"patching_rect" : [ 313.0, 316.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -1030,7 +1019,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 283.0, 309.0, 50.0, 22.0 ],
+					"patching_rect" : [ 419.0, 316.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -1044,7 +1033,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "float", "float", "float" ],
-					"patching_rect" : [ 177.0, 281.0, 125.0, 22.0 ],
+					"patching_rect" : [ 313.0, 288.0, 125.0, 22.0 ],
 					"style" : "",
 					"text" : "unpack f f f"
 				}
@@ -1061,7 +1050,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 392.0, 309.0, 50.0, 22.0 ],
+					"patching_rect" : [ 528.0, 316.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -1077,7 +1066,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 339.0, 309.0, 50.0, 22.0 ],
+					"patching_rect" : [ 475.0, 316.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -1093,7 +1082,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 445.0, 309.0, 50.0, 22.0 ],
+					"patching_rect" : [ 581.0, 316.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -1107,7 +1096,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "float", "float", "float" ],
-					"patching_rect" : [ 339.0, 281.0, 125.0, 22.0 ],
+					"patching_rect" : [ 475.0, 288.0, 125.0, 22.0 ],
 					"style" : "",
 					"text" : "unpack f f f"
 				}
@@ -1122,7 +1111,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 37.0, 188.0, 115.0, 22.0 ],
+					"patching_rect" : [ 37.0, 199.0, 115.0, 22.0 ],
 					"style" : "",
 					"text" : "worldtoscreen 0 0 0"
 				}
@@ -1137,7 +1126,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 177.0, 252.0, 342.0, 22.0 ],
+					"patching_rect" : [ 313.0, 259.0, 342.0, 22.0 ],
 					"style" : "",
 					"text" : "route screentoworld worldtoscreen"
 				}
@@ -1156,7 +1145,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 207.0, 516.0, 50.0, 22.0 ],
+					"patching_rect" : [ 195.0, 361.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -1170,7 +1159,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "int", "int" ],
-					"patching_rect" : [ 86.0, 516.0, 103.0, 22.0 ],
+					"patching_rect" : [ 74.0, 361.0, 103.0, 22.0 ],
 					"style" : "",
 					"text" : "unpack i i i"
 				}
@@ -1185,7 +1174,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 26.0, 546.0, 200.0, 22.0 ],
+					"patching_rect" : [ 14.0, 391.0, 200.0, 22.0 ],
 					"style" : "",
 					"text" : "pak screentoworld 200 150 f"
 				}
@@ -1199,7 +1188,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.0, 66.0, 21.0, 21.0 ],
+					"patching_rect" : [ 10.0, 75.0, 21.0, 21.0 ],
 					"style" : ""
 				}
 
@@ -1213,7 +1202,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 10.0, 95.0, 65.0, 22.0 ],
+					"patching_rect" : [ 10.0, 104.0, 65.0, 22.0 ],
 					"style" : "",
 					"text" : "qmetro 40"
 				}
@@ -1228,7 +1217,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 86.0, 487.0, 78.0, 22.0 ],
+					"patching_rect" : [ 74.0, 332.0, 78.0, 22.0 ],
 					"style" : "",
 					"text" : "route mouse"
 				}
@@ -1243,7 +1232,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 10.0, 212.0, 139.0, 22.0 ],
+					"patching_rect" : [ 10.0, 230.0, 322.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.gl.render"
 				}
@@ -1258,7 +1247,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "erase" ],
-					"patching_rect" : [ 10.0, 120.0, 69.0, 22.0 ],
+					"patching_rect" : [ 10.0, 129.0, 69.0, 22.0 ],
 					"style" : "",
 					"text" : "t b b erase"
 				}
@@ -1273,28 +1262,10 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 59.0, 157.147247, 233.0 ],
+					"patching_rect" : [ 2.0, 69.5, 157.147247, 247.0 ],
 					"proportion" : 0.39,
 					"rounded" : 30,
 					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 180.0,
-					"background" : 1,
-					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
-					"id" : "obj-36",
-					"maxclass" : "panel",
-					"mode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 537.0, 47.0 ],
-					"proportion" : 0.39,
-					"style" : "",
-					"varname" : "autohelp_top_panel[1]"
 				}
 
 			}
@@ -1331,7 +1302,7 @@
 					"destination" : [ "obj-29", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 454.5, 507.0, 216.5, 507.0 ],
+					"midpoints" : [ 590.5, 349.0, 204.5, 349.0 ],
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -1368,7 +1339,6 @@
 					"destination" : [ "obj-9", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 138.074097, 476.319214, 95.5, 476.319214 ],
 					"source" : [ "obj-142", 1 ]
 				}
 
@@ -1378,7 +1348,6 @@
 					"destination" : [ "obj-51", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 139.5, 244.5, 186.5, 244.5 ],
 					"source" : [ "obj-17", 1 ]
 				}
 
@@ -1388,7 +1357,7 @@
 					"destination" : [ "obj-17", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 69.5, 151.5, 19.5, 151.5 ],
+					"midpoints" : [ 69.5, 160.5, 19.5, 160.5 ],
 					"source" : [ "obj-18", 2 ]
 				}
 
@@ -1542,7 +1511,7 @@
 					"destination" : [ "obj-13", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 348.0, 279.0, 348.5, 279.0 ],
+					"midpoints" : [ 484.0, 286.0, 484.5, 286.0 ],
 					"source" : [ "obj-51", 1 ]
 				}
 
@@ -1575,7 +1544,17 @@
 
 			}
  ],
-		"dependency_cache" : [  ],
+		"dependency_cache" : [ 			{
+				"name" : "Max4VA-Title.maxpat",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
+			}
+ ],
 		"autosave" : 0
 	}
 
