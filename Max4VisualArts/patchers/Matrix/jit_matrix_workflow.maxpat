@@ -3,7 +3,7 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 0,
+			"minor" : 2,
 			"revision" : 1,
 			"architecture" : "x86",
 			"modernui" : 1
@@ -68,7 +68,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 476.0, 106.0, 20.0 ],
+					"patching_rect" : [ 27.0, 474.0, 106.0, 20.0 ],
 					"style" : "",
 					"text" : "load gen_code_index"
 				}
@@ -110,9 +110,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 32.0, 476.0, 66.0, 20.0 ],
+					"patching_rect" : [ 27.0, 474.0, 66.0, 20.0 ],
 					"style" : "",
-					"text" : "load IMI_iter"
+					"text" : "load iter"
 				}
 
 			}
@@ -165,7 +165,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 29.0, 476.0, 76.0, 20.0 ],
+					"patching_rect" : [ 27.0, 474.0, 76.0, 20.0 ],
 					"style" : "",
 					"text" : "load matrix_06"
 				}
@@ -181,7 +181,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 27.0, 476.0, 87.0, 20.0 ],
+					"patching_rect" : [ 24.0, 474.0, 87.0, 20.0 ],
 					"style" : "",
 					"text" : "load gen_vs_expr"
 				}
@@ -262,9 +262,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 34.0, 476.0, 78.0, 20.0 ],
+					"patching_rect" : [ 24.0, 474.0, 78.0, 20.0 ],
 					"style" : "",
-					"text" : "load IMI_jitexpr"
+					"text" : "load jitexpr"
 				}
 
 			}
@@ -537,19 +537,21 @@
 		"dependency_cache" : [ 			{
 				"name" : "matrix_workflow.jpg",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/Sources/images",
-				"patcherrelativepath" : "../Sources/images",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Max4VA-Title.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
-				"patcherrelativepath" : "../zpatches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
+			}
  ],
-		"embedsnapshot" : 0,
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "simple",
 				"parentstyle" : "",

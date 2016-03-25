@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 0,
+			"minor" : 2,
 			"revision" : 1,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 630.0, 44.0, 748.0, 530.0 ],
+		"rect" : [ 630.0, 45.0, 748.0, 530.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 13.0,
@@ -20,12 +20,12 @@
 		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
-		"toolbarvisible" : 0,
+		"toolbarvisible" : 1,
 		"lefttoolbarpinned" : 0,
 		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
+		"bottomtoolbarpinned" : 1,
+		"toolbars_unpinned_last_save" : 7,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
@@ -129,7 +129,7 @@
 					"bblend" : 100,
 					"bgcolor" : [ 0.992218, 0.992218, 0.992218, 1.0 ],
 					"cols" : 3,
-					"colwidth" : 25,
+					"colwidth" : 99,
 					"fblend" : 100,
 					"fontface" : 0,
 					"fontname" : "Arial",
@@ -144,8 +144,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
 					"outmode" : 2,
-					"patching_rect" : [ 588.0, 335.0, 106.0, 61.0 ],
-					"precision" : 0,
+					"patching_rect" : [ 588.0, 335.0, 151.0, 59.0 ],
 					"rowheight" : 20,
 					"rows" : 3,
 					"savemode" : 1,
@@ -410,7 +409,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 383.0, 47.0, 332.0, 27.0 ],
+					"patching_rect" : [ 334.0, 46.0, 332.0, 27.0 ],
 					"style" : "",
 					"text" : "A matrix is simply organized information."
 				}
@@ -421,28 +420,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 18.0,
 					"id" : "obj-24",
-					"linecount" : 4,
+					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 383.0, 88.0, 358.0, 87.0 ],
+					"patching_rect" : [ 334.0, 87.0, 405.0, 107.0 ],
 					"style" : "",
-					"text" : "Jitter supports matrices of data type can be 8-bit integer (\"char\"), 32-bit integer (\"long\"), 32-bit floating point (\"float32\"), or 64-bit floating point (\"float64\")."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 0.0,
-					"bgcolor" : [ 0.836957, 0.836957, 0.836957, 1.0 ],
-					"id" : "obj-36",
-					"maxclass" : "panel",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 381.0, 43.0, 363.0, 138.0 ],
-					"proportion" : 0.39,
-					"style" : ""
+					"text" : "Jitter supports matrices of data type can be \nchar data (8-bit integer, value 0 and 255)\nlong data (32-bit integer, +/- 2,147,483,647)\n32-bit floating point (6 to 9 significant decimals)\n64-bit floating point (15 to 17 significant decimals)"
 				}
 
 			}
@@ -670,19 +654,21 @@
 		"dependency_cache" : [ 			{
 				"name" : "imi.matrix2cell.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/Toolbox/imi_objects",
-				"patcherrelativepath" : "../Toolbox/imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Max4VA-Title.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
-				"patcherrelativepath" : "../zpatches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
+			}
  ],
-		"embedsnapshot" : 0,
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "simple",
 				"parentstyle" : "",

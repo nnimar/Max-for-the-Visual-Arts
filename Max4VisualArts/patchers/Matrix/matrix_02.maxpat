@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 0,
+			"minor" : 2,
 			"revision" : 1,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 631.0, 44.0, 711.0, 421.0 ],
+		"rect" : [ 631.0, 45.0, 711.0, 421.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 13.0,
@@ -60,248 +60,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"id" : "obj-4",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patcher" : 					{
-						"fileversion" : 1,
-						"appversion" : 						{
-							"major" : 7,
-							"minor" : 0,
-							"revision" : 1,
-							"architecture" : "x86",
-							"modernui" : 1
-						}
-,
-						"rect" : [ 955.0, 186.0, 404.0, 279.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 18.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
-						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 0,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"boxes" : [ 							{
-								"box" : 								{
-									"bblend" : 100,
-									"bgcolor" : [ 0.992218, 0.992218, 0.992218, 1.0 ],
-									"cols" : 1,
-									"colwidth" : 280,
-									"fblend" : 100,
-									"fontface" : 0,
-									"fontname" : "Arial",
-									"fontsize" : 16.0,
-									"hcellcolor" : [ 0.836576, 0.836576, 0.933852, 1.0 ],
-									"headercolor" : [ 0.743191, 0.743191, 0.743191, 1.0 ],
-									"hscroll" : 0,
-									"hsync" : 0,
-									"id" : "obj-4",
-									"maxclass" : "jit.cellblock",
-									"numinlets" : 2,
-									"numoutlets" : 4,
-									"outlettype" : [ "list", "", "", "" ],
-									"outmode" : 2,
-									"patching_rect" : [ 46.0, 131.0, 320.0, 21.0 ],
-									"precision" : 0,
-									"rowheight" : 20,
-									"rows" : 1,
-									"savemode" : 1,
-									"selsync" : 0,
-									"vscroll" : 0,
-									"vsync" : 0
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 18.0,
-									"id" : "obj-3",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 151.0, 190.0, 141.0, 27.0 ],
-									"style" : "",
-									"text" : "visualise planes"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bblend" : 100,
-									"bgcolor" : [ 0.992218, 0.992218, 0.992218, 1.0 ],
-									"cols" : 1,
-									"colwidth" : 250,
-									"fblend" : 100,
-									"fontface" : 0,
-									"fontname" : "Arial",
-									"fontsize" : 16.0,
-									"hcellcolor" : [ 0.836576, 0.836576, 0.933852, 1.0 ],
-									"headercolor" : [ 0.743191, 0.743191, 0.743191, 1.0 ],
-									"hscroll" : 0,
-									"hsync" : 0,
-									"id" : "obj-42",
-									"maxclass" : "jit.cellblock",
-									"numinlets" : 2,
-									"numoutlets" : 4,
-									"outlettype" : [ "list", "", "", "" ],
-									"outmode" : 2,
-									"patching_rect" : [ 21.0, 234.0, 324.0, 21.0 ],
-									"precision" : 0,
-									"rowheight" : 20,
-									"rows" : 1,
-									"savemode" : 1,
-									"selsync" : 0,
-									"vscroll" : 0,
-									"vsync" : 0
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 18.0,
-									"id" : "obj-1",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 21.0, 190.0, 125.0, 29.0 ],
-									"style" : "",
-									"text" : "imi.matrix2cell"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 18.0,
-									"id" : "obj-2",
-									"linecount" : 2,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 232.0, 68.0, 128.0, 47.0 ],
-									"style" : "",
-									"text" : "1 x 1 matrix with 10 planes"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 18.0,
-									"id" : "obj-15",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 21.0, 68.0, 200.0, 29.0 ],
-									"style" : "",
-									"text" : "jit.matrix here 10 char 1"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 18.0,
-									"id" : "obj-13",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 21.0, 29.0, 166.0, 29.0 ],
-									"style" : "",
-									"text" : "1 2 3 4 5 6 7 8 9 10"
-								}
-
-							}
- ],
-						"lines" : [ 							{
-								"patchline" : 								{
-									"destination" : [ "obj-42", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-1", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-15", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-13", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-1", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-15", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-4", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-15", 0 ]
-								}
-
-							}
- ],
-						"styles" : [ 							{
-								"name" : "simple",
-								"parentstyle" : "",
-								"multi" : 0
-							}
- ]
-					}
-,
-					"patching_rect" : [ 153.0, 391.5, 64.0, 24.0 ],
-					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"fontsize" : 18.0,
-						"globalpatchername" : "",
-						"style" : "",
-						"tags" : ""
-					}
-,
-					"style" : "",
-					"text" : "p planes"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontface" : 2,
 					"fontname" : "Arial Bold",
 					"fontsize" : 14.0,
@@ -309,7 +67,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 482.0, 295.0, 192.0, 22.0 ],
+					"patching_rect" : [ 469.0, 243.0, 192.0, 22.0 ],
 					"style" : "",
 					"text" : "planes(4) dimension(10 10)"
 				}
@@ -324,7 +82,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 493.0, 349.0, 155.0, 22.0 ],
+					"patching_rect" : [ 480.0, 297.0, 155.0, 22.0 ],
 					"style" : "",
 					"text" : "name (vid) type (char)"
 				}
@@ -342,13 +100,13 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
+							"minor" : 2,
 							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 1082.0, 108.0, 273.0, 65.0 ],
+						"rect" : [ 1347.0, 45.0, 273.0, 65.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 13.0,
@@ -445,7 +203,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 463.0, 320.0, 210.0, 29.0 ],
+					"patching_rect" : [ 450.0, 268.0, 210.0, 29.0 ],
 					"style" : "",
 					"text" : "jit.matrix vid 4 char 10 10"
 				}
@@ -521,7 +279,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
+							"minor" : 2,
 							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
@@ -851,7 +609,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 7.0, 44.0, 393.0, 328.0 ],
 					"style" : "",
-					"text" : "A digital image is represented as a matrix with numbers representing each pixel.\n\nTypically, images are saved with 8 bits, so there are 256 values to choose from (char).\n\nColours are represented in ARGB where A is the alpha channel (transparency) and RGB is the red, green, blue.\n\nThus to represent a colour image, it is necessary with 4 values for each pixel (planes)\n\nA jitter matrix is 4 planes, x by y dimension (the resolution) with values between 0 and 255 to describe every pixels. "
+					"text" : "A digital image is represented as a matrix with numbers representing each pixel.\n\nTypically, images are saved with 8 bits, so there are 255 values to choose from (char).\n\nColours are represented in ARGB where A is the alpha channel (transparency) and RGB is the red, green, blue.\n\nThus to represent a colour image, it is necessary with 4 values for each pixel (planes)\n\nA jitter matrix is 4 planes, x by y dimension (the resolution) with values between 0 and 255 to describe every pixels. "
 				}
 
 			}
@@ -889,21 +647,17 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "imi.matrix2cell.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/Toolbox/imi_objects",
-				"patcherrelativepath" : "../Toolbox/imi_objects",
+				"name" : "Max4VA-Title.maxpat",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Max4VA-Title.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
-				"patcherrelativepath" : "../zpatches",
-				"type" : "JSON",
-				"implicit" : 1
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
 			}
  ],
-		"embedsnapshot" : 0,
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "simple",
 				"parentstyle" : "",

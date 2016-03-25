@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 0,
+			"minor" : 2,
 			"revision" : 1,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 631.0, 44.0, 689.0, 716.0 ],
+		"rect" : [ 631.0, 45.0, 689.0, 716.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 13.0,
@@ -20,12 +20,12 @@
 		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
-		"toolbarvisible" : 0,
+		"toolbarvisible" : 1,
 		"lefttoolbarpinned" : 0,
 		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 15,
+		"bottomtoolbarpinned" : 1,
+		"toolbars_unpinned_last_save" : 7,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
@@ -37,6 +37,23 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"bubble" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-22",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 463.0, 86.5, 122.0, 37.0 ],
+					"presentation_rect" : [ 411.0, 136.0, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "monkey.png has an alpha channel"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"args" : [ "jitter unpack planes", "unpack quicktime video into A R G B" ],
 					"bgmode" : 1,
@@ -98,7 +115,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 382.0, 93.0, 118.0, 24.0 ],
+					"patching_rect" : [ 339.0, 93.0, 118.0, 24.0 ],
 					"style" : "",
 					"text" : "read monkey.png"
 				}
@@ -140,7 +157,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 261.0, 93.0, 114.0, 24.0 ],
+					"patching_rect" : [ 218.0, 93.0, 114.0, 24.0 ],
 					"style" : "",
 					"text" : "read sophie.mov"
 				}
@@ -155,7 +172,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 127.0, 93.0, 126.0, 24.0 ],
+					"patching_rect" : [ 84.0, 93.0, 126.0, 24.0 ],
 					"style" : "",
 					"text" : "read colorbars.png"
 				}
@@ -438,21 +455,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"id" : "obj-22",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 82.0, 93.0, 41.0, 24.0 ],
-					"style" : "",
-					"text" : "read"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-26",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -558,7 +560,7 @@
 					"destination" : [ "obj-28", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 136.5, 134.0, 20.5, 134.0 ],
+					"midpoints" : [ 93.5, 134.0, 20.5, 134.0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -713,17 +715,7 @@
 					"destination" : [ "obj-28", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 91.5, 125.0, 20.5, 125.0 ],
-					"source" : [ "obj-22", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-28", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 391.5, 134.0, 20.5, 134.0 ],
+					"midpoints" : [ 348.5, 134.0, 20.5, 134.0 ],
 					"source" : [ "obj-23", 0 ]
 				}
 
@@ -781,7 +773,7 @@
 					"destination" : [ "obj-28", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 270.5, 134.0, 20.5, 134.0 ],
+					"midpoints" : [ 227.5, 134.0, 20.5, 134.0 ],
 					"source" : [ "obj-34", 0 ]
 				}
 
@@ -838,12 +830,15 @@
 		"dependency_cache" : [ 			{
 				"name" : "Max4VA-Title.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
-				"patcherrelativepath" : "../zpatches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
+			}
  ],
-		"embedsnapshot" : 0,
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "simple",
 				"parentstyle" : "",
