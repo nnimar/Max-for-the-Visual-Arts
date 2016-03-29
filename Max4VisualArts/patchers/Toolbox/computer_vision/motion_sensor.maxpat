@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 1,
-			"revision" : 0,
+			"minor" : 2,
+			"revision" : 1,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -38,34 +38,23 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"fontface" : 3,
-					"fontname" : "Arial",
-					"fontsize" : 20.871338,
-					"id" : "obj-7",
-					"maxclass" : "comment",
-					"numinlets" : 1,
+					"args" : [ "cv motion sensor", "a simple motion sensor using jit.3m (mean) or cv.jit.sum (add pixels)" ],
+					"bgmode" : 1,
+					"border" : 0,
+					"clickthrough" : 1,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-24",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "Max4VA-Title.maxpat",
+					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 179.0, 30.0 ],
-					"style" : "",
-					"text" : "motion sensor",
-					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
-					"varname" : "autohelp_top_title"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.754705,
-					"id" : "obj-22",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 29.0, 512.0, 21.0 ],
-					"style" : "",
-					"text" : "a simple motion sensor using jit.3m (mean) or cv.jit.sum (add pixels)",
-					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
-					"varname" : "autohelp_top_digest"
+					"offset" : [ 0.0, -278.0 ],
+					"patching_rect" : [ 0.0, 0.0, 482.0, 56.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ -22.0, -3.0, 487.519531, 73.0 ],
+					"viewvisibility" : 1
 				}
 
 			}
@@ -80,7 +69,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 140.0, 294.0, 84.0, 22.0 ],
+					"patching_rect" : [ 154.0, 295.0, 84.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -94,7 +83,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 140.0, 266.0, 61.0, 22.0 ],
+					"patching_rect" : [ 154.0, 267.0, 61.0, 22.0 ],
 					"style" : "",
 					"text" : "cv.jit.sum"
 				}
@@ -110,7 +99,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 189.0, 326.0, 50.0, 22.0 ],
+					"patching_rect" : [ 203.0, 327.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -122,7 +111,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 140.0, 410.0, 60.0, 60.0 ],
+					"patching_rect" : [ 154.0, 411.0, 60.0, 60.0 ],
 					"style" : ""
 				}
 
@@ -136,7 +125,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 140.0, 381.0, 54.0, 22.0 ],
+					"patching_rect" : [ 154.0, 382.0, 54.0, 22.0 ],
 					"style" : "",
 					"text" : "togedge"
 				}
@@ -151,7 +140,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 140.0, 353.452667, 68.0, 22.0 ],
+					"patching_rect" : [ 154.0, 354.452667, 68.0, 22.0 ],
 					"style" : "",
 					"text" : ">= 100000"
 				}
@@ -168,7 +157,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 52.0, 326.0, 50.0, 22.0 ],
+					"patching_rect" : [ 66.0, 327.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -180,7 +169,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 25.0, 410.0, 60.0, 60.0 ],
+					"patching_rect" : [ 39.0, 411.0, 60.0, 60.0 ],
 					"style" : ""
 				}
 
@@ -194,7 +183,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 25.0, 381.0, 54.0, 22.0 ],
+					"patching_rect" : [ 39.0, 382.0, 54.0, 22.0 ],
 					"style" : "",
 					"text" : "togedge"
 				}
@@ -209,7 +198,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 25.0, 353.452667, 46.0, 22.0 ],
+					"patching_rect" : [ 39.0, 354.452667, 46.0, 22.0 ],
 					"style" : "",
 					"text" : ">= 2."
 				}
@@ -226,7 +215,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 25.0, 294.0, 84.0, 22.0 ],
+					"patching_rect" : [ 39.0, 295.0, 84.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -240,7 +229,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 11.0, 266.452667, 59.5, 22.0 ],
+					"patching_rect" : [ 25.0, 267.452667, 59.5, 22.0 ],
 					"style" : "",
 					"text" : "jit.3m"
 				}
@@ -255,7 +244,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 11.0, 228.452667, 103.0, 22.0 ],
+					"patching_rect" : [ 25.0, 229.452667, 103.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.op @op absdiff"
 				}
@@ -391,24 +380,6 @@
 				}
 
 			}
-, 			{
-				"box" : 				{
-					"angle" : 180.0,
-					"background" : 1,
-					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
-					"id" : "obj-29",
-					"maxclass" : "panel",
-					"mode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 598.0, 49.0 ],
-					"proportion" : 0.39,
-					"style" : "",
-					"varname" : "autohelp_top_panel[1]"
-				}
-
-			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -515,7 +486,7 @@
 					"destination" : [ "obj-32", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 20.5, 256.729126, 286.856262, 256.729126 ],
+					"midpoints" : [ 34.5, 256.729126, 286.856262, 256.729126 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -525,7 +496,7 @@
 					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 20.5, 256.726318, 149.5, 256.726318 ],
+					"midpoints" : [ 34.5, 257.726318, 163.5, 257.726318 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -609,18 +580,60 @@
 					"destination" : [ "obj-2", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 20.5, 222.0, 104.5, 222.0 ],
+					"midpoints" : [ 20.5, 222.0, 118.5, 222.0 ],
 					"source" : [ "obj-9", 0 ]
 				}
 
 			}
  ],
 		"dependency_cache" : [ 			{
+				"name" : "Max4VA-Title.maxpat",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "cv.jit.sum.mxo",
 				"type" : "iLaX"
 			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
+			}
  ],
-		"autosave" : 0
+		"autosave" : 0,
+		"styles" : [ 			{
+				"name" : "m4va",
+				"default" : 				{
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 12.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "m4vatextbutton",
+				"default" : 				{
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"fontsize" : [ 14.0 ],
+					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "simple",
+				"parentstyle" : "",
+				"multi" : 0
+			}
+ ]
 	}
 
 }

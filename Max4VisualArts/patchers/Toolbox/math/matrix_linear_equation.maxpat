@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 1,
-			"revision" : 0,
+			"minor" : 2,
+			"revision" : 1,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 2.0, 45.0, 579.0, 288.0 ],
+		"rect" : [ 2.0, 45.0, 579.0, 302.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,13 +38,35 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [ "matrix linear equations", "three linear equations with three variables" ],
+					"bgmode" : 1,
+					"border" : 0,
+					"clickthrough" : 1,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-62",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "Max4VA-Title.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, -278.0 ],
+					"patching_rect" : [ 0.0, 0.0, 488.0, 56.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ -7.0, 12.0, 487.519531, 73.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial Bold",
 					"fontsize" : 12.0,
 					"id" : "obj-8",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 262.0, 250.0, 19.0, 20.0 ],
+					"patching_rect" : [ 262.0, 260.0, 19.0, 20.0 ],
 					"style" : "",
 					"text" : "z"
 				}
@@ -58,7 +80,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 262.0, 231.0, 19.0, 20.0 ],
+					"patching_rect" : [ 262.0, 241.0, 19.0, 20.0 ],
 					"style" : "",
 					"text" : "y"
 				}
@@ -72,42 +94,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 262.0, 214.0, 19.0, 20.0 ],
+					"patching_rect" : [ 262.0, 224.0, 19.0, 20.0 ],
 					"style" : "",
 					"text" : "x"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 3,
-					"fontname" : "Arial",
-					"fontsize" : 20.871338,
-					"id" : "obj-9",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 3.0, 327.0, 30.0 ],
-					"style" : "",
-					"text" : "matrix linear equations",
-					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
-					"varname" : "autohelp_top_title"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.754705,
-					"id" : "obj-10",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 29.0, 325.0, 21.0 ],
-					"style" : "",
-					"text" : "three linear equations with three variables",
-					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
-					"varname" : "autohelp_top_digest"
 				}
 
 			}
@@ -120,7 +109,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 202.0, 156.0, 74.0 ],
+					"patching_rect" : [ 8.0, 212.0, 156.0, 74.0 ],
 					"style" : "",
 					"text" : "here is the equation :\n\nx +10y -3z = 5\n2x - y +2z = 2\n-x +y +z = -3"
 				}
@@ -128,13 +117,13 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial Bold",
+					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-21",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 303.0, 60.0, 167.0, 20.0 ],
+					"patching_rect" : [ 303.0, 70.0, 157.0, 20.0 ],
 					"style" : "",
 					"text" : "2) solve linear system here"
 				}
@@ -142,13 +131,13 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial Bold",
+					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-20",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 28.0, 60.0, 130.0, 20.0 ],
+					"patching_rect" : [ 28.0, 70.0, 121.0, 20.0 ],
 					"style" : "",
 					"text" : "1) load matrices first"
 				}
@@ -166,7 +155,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
-					"patching_rect" : [ 280.0, 214.0, 69.0, 58.0 ],
+					"patching_rect" : [ 280.0, 224.0, 69.0, 58.0 ],
 					"rows" : 3,
 					"vscroll" : 0
 				}
@@ -179,7 +168,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 280.0, 60.0, 20.0, 20.0 ],
+					"patching_rect" : [ 280.0, 70.0, 20.0, 20.0 ],
 					"style" : ""
 				}
 
@@ -191,7 +180,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 6.0, 60.0, 20.0, 20.0 ],
+					"patching_rect" : [ 6.0, 70.0, 20.0, 20.0 ],
 					"style" : ""
 				}
 
@@ -205,7 +194,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 280.0, 178.0, 173.5, 22.0 ],
+					"patching_rect" : [ 280.0, 188.0, 173.5, 22.0 ],
 					"style" : "",
 					"text" : "jit.la.mult"
 				}
@@ -220,7 +209,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6.0, 110.0, 146.0, 22.0 ],
+					"patching_rect" : [ 6.0, 120.0, 146.0, 22.0 ],
 					"style" : "",
 					"text" : "1. 10. -3. 2. -1. 2. -1. 1. 1."
 				}
@@ -235,7 +224,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 6.0, 142.0, 44.0, 22.0 ],
+					"patching_rect" : [ 6.0, 152.0, 44.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.fill b"
 				}
@@ -250,7 +239,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 166.5, 110.0, 51.0, 22.0 ],
+					"patching_rect" : [ 166.5, 120.0, 51.0, 22.0 ],
 					"style" : "",
 					"text" : "5. 2. -3."
 				}
@@ -265,7 +254,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 166.5, 142.0, 44.0, 22.0 ],
+					"patching_rect" : [ 166.5, 152.0, 44.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.fill a"
 				}
@@ -280,7 +269,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 434.5, 110.0, 137.0, 22.0 ],
+					"patching_rect" : [ 434.5, 120.0, 137.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.matrix a 1 float32 1 3"
 				}
@@ -295,7 +284,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 280.0, 110.0, 137.0, 22.0 ],
+					"patching_rect" : [ 280.0, 120.0, 137.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.matrix b 1 float32 3 3"
 				}
@@ -310,27 +299,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 280.0, 142.0, 72.0, 22.0 ],
+					"patching_rect" : [ 280.0, 152.0, 72.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.la.inverse"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 180.0,
-					"background" : 1,
-					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
-					"id" : "obj-29",
-					"maxclass" : "panel",
-					"mode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1.0, 2.0, 577.0, 49.0 ],
-					"proportion" : 0.39,
-					"style" : "",
-					"varname" : "autohelp_top_panel[1]"
 				}
 
 			}
@@ -367,7 +338,7 @@
 					"destination" : [ "obj-12", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 15.5, 94.5, 176.0, 94.5 ],
+					"midpoints" : [ 15.5, 104.5, 176.0, 104.5 ],
 					"source" : [ "obj-17", 0 ]
 				}
 
@@ -386,7 +357,7 @@
 					"destination" : [ "obj-6", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 289.5, 97.0, 444.0, 97.0 ],
+					"midpoints" : [ 289.5, 107.0, 444.0, 107.0 ],
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -405,7 +376,7 @@
 					"destination" : [ "obj-15", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 289.5, 174.0, 289.5, 174.0 ],
+					"midpoints" : [ 289.5, 184.0, 289.5, 184.0 ],
 					"source" : [ "obj-30", 0 ]
 				}
 
@@ -429,8 +400,24 @@
 
 			}
  ],
-		"dependency_cache" : [  ],
-		"autosave" : 0
+		"dependency_cache" : [ 			{
+				"name" : "Max4VA-Title.maxpat",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0,
+		"styles" : [ 			{
+				"name" : "simple",
+				"parentstyle" : "",
+				"multi" : 0
+			}
+ ]
 	}
 
 }
