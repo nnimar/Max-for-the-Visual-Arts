@@ -3,7 +3,7 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 0,
+			"minor" : 2,
 			"revision" : 1,
 			"architecture" : "x86",
 			"modernui" : 1
@@ -168,6 +168,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 1.0, 0.501961, 0.0, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.79,
 					"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -177,6 +178,7 @@
 					"bgfillcolor_type" : "gradient",
 					"fontname" : "Arial Bold",
 					"fontsize" : 9.0,
+					"gradient" : 0,
 					"hidden" : 1,
 					"id" : "obj-30",
 					"maxclass" : "message",
@@ -243,7 +245,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 20.0, 52.0, 203.0, 18.0 ],
 					"style" : "",
-					"text" : "Nicolas Marechal, v2.51 (5/2015)",
+					"text" : "Nicolas Marechal, v2.54 (10/2016)",
 					"textcolor" : [ 0.277516, 0.278843, 0.36965, 1.0 ]
 				}
 
@@ -263,7 +265,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
+							"minor" : 2,
 							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
@@ -615,6 +617,7 @@
 , 			{
 				"box" : 				{
 					"align" : 1,
+					"bgcolor" : [ 0.701961, 0.701961, 0.701961, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_color" : [ 0.701961, 0.701961, 0.701961, 1.0 ],
 					"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -643,6 +646,7 @@
 , 			{
 				"box" : 				{
 					"align" : 1,
+					"bgcolor" : [ 0.858824, 0.858824, 0.858824, 0.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_color" : [ 0.858824, 0.858824, 0.858824, 0.0 ],
 					"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -705,7 +709,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
+							"minor" : 2,
 							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
@@ -1057,6 +1061,7 @@
 , 			{
 				"box" : 				{
 					"align" : 1,
+					"bgcolor" : [ 0.701961, 0.701961, 0.701961, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_color" : [ 0.701961, 0.701961, 0.701961, 1.0 ],
 					"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1085,6 +1090,7 @@
 , 			{
 				"box" : 				{
 					"align" : 1,
+					"bgcolor" : [ 0.858824, 0.858824, 0.858824, 0.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_color" : [ 0.858824, 0.858824, 0.858824, 0.0 ],
 					"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1147,7 +1153,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
+							"minor" : 2,
 							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
@@ -1499,6 +1505,7 @@
 , 			{
 				"box" : 				{
 					"align" : 1,
+					"bgcolor" : [ 0.701961, 0.701961, 0.701961, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_color" : [ 0.701961, 0.701961, 0.701961, 1.0 ],
 					"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1527,6 +1534,7 @@
 , 			{
 				"box" : 				{
 					"align" : 1,
+					"bgcolor" : [ 0.858824, 0.858824, 0.858824, 0.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_color" : [ 0.858824, 0.858824, 0.858824, 0.0 ],
 					"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1589,7 +1597,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
+							"minor" : 2,
 							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
@@ -1941,6 +1949,7 @@
 , 			{
 				"box" : 				{
 					"align" : 1,
+					"bgcolor" : [ 0.701961, 0.701961, 0.701961, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_color" : [ 0.701961, 0.701961, 0.701961, 1.0 ],
 					"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -1969,6 +1978,7 @@
 , 			{
 				"box" : 				{
 					"align" : 1,
+					"bgcolor" : [ 0.858824, 0.858824, 0.858824, 0.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_color" : [ 0.858824, 0.858824, 0.858824, 0.0 ],
 					"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -2032,7 +2042,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
+							"minor" : 2,
 							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
@@ -2384,6 +2394,7 @@
 , 			{
 				"box" : 				{
 					"align" : 1,
+					"bgcolor" : [ 0.701961, 0.701961, 0.701961, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_color" : [ 0.701961, 0.701961, 0.701961, 1.0 ],
 					"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -2412,6 +2423,7 @@
 , 			{
 				"box" : 				{
 					"align" : 1,
+					"bgcolor" : [ 0.858824, 0.858824, 0.858824, 0.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_color" : [ 0.858824, 0.858824, 0.858824, 0.0 ],
 					"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -2474,7 +2486,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
+							"minor" : 2,
 							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
@@ -2826,6 +2838,7 @@
 , 			{
 				"box" : 				{
 					"align" : 1,
+					"bgcolor" : [ 0.701961, 0.701961, 0.701961, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_color" : [ 0.701961, 0.701961, 0.701961, 1.0 ],
 					"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -2854,6 +2867,7 @@
 , 			{
 				"box" : 				{
 					"align" : 1,
+					"bgcolor" : [ 0.858824, 0.858824, 0.858824, 0.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_color" : [ 0.858824, 0.858824, 0.858824, 0.0 ],
 					"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -2895,7 +2909,7 @@
 					"patching_rect" : [ 30.0, 121.0, 209.0, 155.0 ],
 					"style" : "",
 					"tabcolor" : [ 0.0, 0.0, 0.0, 0.188235 ],
-					"tabs" : [ "introduction", "max_sandpit", "maxhelp_a_day", "credits" ],
+					"tabs" : [ "m4va_introduction", "max_sandpit", "maxhelp_a_day", "credits" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[1]"
 				}
@@ -3042,7 +3056,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
+							"minor" : 2,
 							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
@@ -3113,6 +3127,7 @@
 							}
 , 							{
 								"box" : 								{
+									"bgcolor" : [ 0.545098, 0.85098, 0.592157, 1.0 ],
 									"bgfillcolor_angle" : 270.0,
 									"bgfillcolor_autogradient" : 0.79,
 									"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -3122,6 +3137,7 @@
 									"bgfillcolor_type" : "gradient",
 									"fontname" : "Arial Bold",
 									"fontsize" : 10.435669,
+									"gradient" : 0,
 									"id" : "obj-25",
 									"maxclass" : "message",
 									"numinlets" : 2,
@@ -3172,6 +3188,7 @@
 							}
 , 							{
 								"box" : 								{
+									"bgcolor" : [ 0.545098, 0.85098, 0.592157, 1.0 ],
 									"bgfillcolor_angle" : 270.0,
 									"bgfillcolor_autogradient" : 0.79,
 									"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -3181,6 +3198,7 @@
 									"bgfillcolor_type" : "gradient",
 									"fontname" : "Arial Bold",
 									"fontsize" : 10.435669,
+									"gradient" : 0,
 									"id" : "obj-7",
 									"maxclass" : "message",
 									"numinlets" : 2,
@@ -3723,6 +3741,7 @@
 							}
 , 							{
 								"box" : 								{
+									"bgcolor" : [ 0.545098, 0.85098, 0.592157, 1.0 ],
 									"bgfillcolor_angle" : 270.0,
 									"bgfillcolor_autogradient" : 0.79,
 									"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -3732,6 +3751,7 @@
 									"bgfillcolor_type" : "gradient",
 									"fontname" : "Arial Bold",
 									"fontsize" : 10.435669,
+									"gradient" : 0,
 									"id" : "obj-6",
 									"maxclass" : "message",
 									"numinlets" : 2,
@@ -3746,6 +3766,7 @@
 							}
 , 							{
 								"box" : 								{
+									"bgcolor" : [ 0.545098, 0.85098, 0.592157, 1.0 ],
 									"bgfillcolor_angle" : 270.0,
 									"bgfillcolor_autogradient" : 0.79,
 									"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -3755,6 +3776,7 @@
 									"bgfillcolor_type" : "gradient",
 									"fontname" : "Arial Bold",
 									"fontsize" : 10.435669,
+									"gradient" : 0,
 									"id" : "obj-5",
 									"maxclass" : "message",
 									"numinlets" : 2,
@@ -4580,7 +4602,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 425.0, 48.0, 57.0, 19.0 ],
+					"patching_rect" : [ 425.0, 48.0, 57.0, 17.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -5268,33 +5290,29 @@
 		"dependency_cache" : [ 			{
 				"name" : "M4VAMax101.txt",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/z",
-				"patcherrelativepath" : "../../../../../../Users/Shared/Max 7/Packages/Max4VisualArts/patchers/z",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "M4VAMax102.txt",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/z",
-				"patcherrelativepath" : "../../../../../../Users/Shared/Max 7/Packages/Max4VisualArts/patchers/z",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "M4VAMax103.txt",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/z",
-				"patcherrelativepath" : "../../../../../../Users/Shared/Max 7/Packages/Max4VisualArts/patchers/z",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "M4VAMax104.txt",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/z",
-				"patcherrelativepath" : "../../../../../../Users/Shared/Max 7/Packages/Max4VisualArts/patchers/z",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
  ],
-		"embedsnapshot" : 0
+		"autosave" : 0
 	}
 
 }

@@ -1,0 +1,17 @@
+Canon2Syphon
+faceOSC
+faceShiftOSC
+KinectA_Mac_0.2
+KVL_Kinect_Tracker
+mapperGUI 2.4.0
+OSCseq
+OSCtest
+Ps3EYE_multicam
+Send-Multi-Touches
+Sensebloom
+Synapse
+Syphon Recorder
+SyphonCamera-r9
+touchosc-editor-1.5.6
+tsps
+TUIO_kinect
