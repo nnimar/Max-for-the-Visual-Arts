@@ -7,7 +7,7 @@ Version history
 
 2.54 - October 2016 (release 3)
 
-New patches: -
+Ready for the new Max package format.
 
 Bugs: cleaned the matrix category, cleaned the toolbox folder
 
