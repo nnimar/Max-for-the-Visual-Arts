@@ -162,7 +162,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 303.0, 48.0, 121.0, 17.0 ],
 					"style" : "",
-					"text" : "Max for the Visual Arts v2.51"
+					"text" : "Max for the Visual Arts v2.54"
 				}
 
 			}
