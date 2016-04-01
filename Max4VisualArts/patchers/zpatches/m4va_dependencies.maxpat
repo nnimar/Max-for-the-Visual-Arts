@@ -52,7 +52,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 581.0, 45.0, 554.0, 314.0 ],
+						"rect" : [ 581.0, 45.0, 554.0, 351.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -82,13 +82,13 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-12",
-									"linecount" : 21,
+									"linecount" : 24,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 9.0, 11.0, 529.0, 288.0 ],
+									"patching_rect" : [ 9.0, 11.0, 529.0, 328.0 ],
 									"style" : "",
-									"text" : "m4va dependencies\n\nBecause of its nature, this package heavily depends on the work of others. The first patch, m4va dependencies has links to the extensions, abstractions, patches and applications that we use. \n\nPlease take the time to install those to avoid the frustration of non working patches. \n\nMost of these add-ons are 32 bit only, so make sure that you are running Max in 32 bits mode (use \"Get Info\" in the finder to change the Max application opening preferences)\n\n- The first group is currently available from the package manager (Max 7). \n\n- In the essentials group, some will require that you create a package for them.\n(see here: https://docs.cycling74.com/max7/vignettes/packages). \n\n- The applications group can be installed in the apps folder in the Max4Visual Arts package so the links to applicacations in the patches will work.\n\n- The payware group contains one software (osculator) that is essential is you want to use the Wii reliably with Max. DmxusbPro is an extension to use the DMX protocol in your projects (although they are some free solutions as well)."
+									"text" : "m4va dependencies\n\nBecause of its nature, this package heavily depends on the work of others. The first patch, m4va dependencies has links to the extensions, abstractions, patches and applications that we use. \n\nPlease take the time to install those to avoid the frustration of non working patches. \n\nMost of these add-ons are 32 bit only, so make sure that you are running Max in 32 bits mode (use \"Get Info\" in the finder to change the Max application opening preferences)\n\n- The first group is currently available from the package manager (Max 7). \n\n- In the essentials group, some will require that you create a package for them.\n(see here: https://docs.cycling74.com/max7/vignettes/packages). \n\n- The applications group can be installed in the apps folder in the Max4Visual Arts package so the links to applicacations in the patches will work.\n\n- The payware group contains one software (osculator) that is essential is you want to use the Wii reliably with Max. DmxusbPro is an extension to use the DMX protocol in your projects (although they are some free solutions as well).\n\nFinally, we use applescript / osascript on certain patches, make sure that is activated \n(https://support.apple.com/en-gb/HT202802)"
 								}
 
 							}

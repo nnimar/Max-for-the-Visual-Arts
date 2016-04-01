@@ -14,7 +14,7 @@ Run the main patch _M4VA_help from the Extras menu. Also in the Extras menu, loo
 The Max4VisualArts package is located in the /Users/Shared/Max 7/Packages/. From version 2.50, the patches have been optimised to work with Max 7, most should work in Max 6 and some will work in Max 5 but they are no longer supported. Version 2.55 is the first version compatible with the new Package Manager in Max 7. It’s a work in progress !
 
 *********************
-m4va dependencies
+Dependencies
 
 Because of its nature, this package heavily depends on the work of others. The first patch, m4va dependencies has links to the extensions, abstractions, patches and applications that we use. 
 
@@ -29,12 +29,15 @@ Please take the time to install those to avoid the frustration of non working pa
 
 - The payware group contains one software (osculator) that is essential is you want to use the Wii reliably with Max. DmxusbPro is an extension to use the DMX protocol in your projects (although they are some free solutions as well).
 
+Finally, we use applescript / osascript on certain patches, make sure that is activated 
+(https://support.apple.com/en-gb/HT202802)
+
 *********************
 incompatibilities
 
 Most of these add-ons are 32 bit only, so make sure that you are running Max in 32 bits mode (use "Get Info" in the finder to change the Max application opening preferences). 
 
-We use these patches on a Mac, there might be incompatibilities on a PC.
+We use these patches on a Mac, there might be incompatibilities on a PC. That is particularly true with some of the Applecscripts that we use. 
 
 *********************
 Credits
