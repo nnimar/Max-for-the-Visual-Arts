@@ -33,11 +33,11 @@ Finally, we use applescript / osascript on certain patches, make sure that is ac
 (https://support.apple.com/en-gb/HT202802)
 
 *********************
-incompatibilities
+Incompatibilities
 
 Most of these add-ons are 32 bit only, so make sure that you are running Max in 32 bits mode (use "Get Info" in the finder to change the Max application opening preferences). 
 
-We use these patches on a Mac, there might be incompatibilities on a PC. That is particularly true with some of the Applecscripts that we use. 
+We use these patches on a Mac, there might be incompatibilities on a PC. That is particularly true with some of the Applescripts that we use. 
 
 *********************
 Credits
