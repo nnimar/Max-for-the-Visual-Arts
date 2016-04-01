@@ -20,12 +20,12 @@
 		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
-		"toolbarvisible" : 0,
+		"toolbarvisible" : 1,
 		"lefttoolbarpinned" : 0,
 		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
+		"bottomtoolbarpinned" : 1,
+		"toolbars_unpinned_last_save" : 7,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
@@ -58,7 +58,7 @@
 					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 167.0, 366.0, 89.166687, 22.0 ],
 					"style" : "",
-					"text" : "sel 0"
+					"text" : "sel 3"
 				}
 
 			}

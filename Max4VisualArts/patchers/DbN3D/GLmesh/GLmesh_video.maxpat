@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 0,
+			"minor" : 2,
 			"revision" : 1,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 2.0, 44.0, 675.0, 489.0 ],
+		"rect" : [ 2.0, 45.0, 675.0, 494.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 14.0,
@@ -20,12 +20,12 @@
 		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
-		"toolbarvisible" : 0,
+		"toolbarvisible" : 1,
 		"lefttoolbarpinned" : 0,
 		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
+		"bottomtoolbarpinned" : 1,
+		"toolbars_unpinned_last_save" : 7,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
@@ -69,7 +69,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 521.0, 464.5, 148.0, 20.0 ],
+					"patching_rect" : [ 521.0, 465.5, 148.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 544.0, 343.5, 79.0, 17.0 ],
 					"style" : "",
@@ -93,7 +93,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 521.0, 466.5, 149.0, 21.0 ],
+					"patching_rect" : [ 521.0, 467.5, 149.0, 21.0 ],
 					"style" : "",
 					"text" : "load GLmesh_video2coord"
 				}
@@ -172,7 +172,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
+							"minor" : 2,
 							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
@@ -189,12 +189,12 @@
 						"gridsnaponopen" : 1,
 						"objectsnaponopen" : 1,
 						"statusbarvisible" : 2,
-						"toolbarvisible" : 0,
+						"toolbarvisible" : 1,
 						"lefttoolbarpinned" : 0,
 						"toptoolbarpinned" : 0,
 						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
+						"bottomtoolbarpinned" : 1,
+						"toolbars_unpinned_last_save" : 7,
 						"tallnewobj" : 0,
 						"boxanimatetime" : 200,
 						"enablehscroll" : 1,
@@ -793,7 +793,6 @@
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
-						"fontsize" : 12.0,
 						"globalpatchername" : "",
 						"style" : "",
 						"tags" : ""
@@ -815,7 +814,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 587.0, 439.5, 79.0, 19.0 ],
+					"patching_rect" : [ 587.0, 440.5, 79.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 701.0, 253.0, 79.0, 17.0 ],
 					"style" : "",
@@ -839,7 +838,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 552.0, 439.0, 52.0, 21.0 ],
+					"patching_rect" : [ 552.0, 440.0, 52.0, 21.0 ],
 					"style" : "",
 					"text" : "pcontrol"
 				}
@@ -855,7 +854,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 553.0, 442.0, 117.0, 20.0 ],
+					"patching_rect" : [ 553.0, 443.0, 117.0, 20.0 ],
 					"style" : "",
 					"text" : "load 3Dextrude.maxpat"
 				}
@@ -1756,21 +1755,24 @@
 		"dependency_cache" : [ 			{
 				"name" : "Max4VA-Title.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
-				"patcherrelativepath" : "../../zpatches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
+			}
  ],
-		"embedsnapshot" : 0,
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
-					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontsize" : [ 14.0 ],
 					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
+					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

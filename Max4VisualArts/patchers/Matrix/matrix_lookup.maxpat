@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 1,
-			"revision" : 0,
+			"minor" : 2,
+			"revision" : 1,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -103,8 +103,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 1,
-							"revision" : 0,
+							"minor" : 2,
+							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -514,7 +514,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 45.0, 165.0, 38.0 ],
+					"patching_rect" : [ 7.0, 65.0, 165.0, 38.0 ],
 					"style" : "",
 					"text" : "a matrix can be used as \na lookup table of data"
 				}

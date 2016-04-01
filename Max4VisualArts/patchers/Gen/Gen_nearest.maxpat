@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 0,
+			"minor" : 2,
 			"revision" : 1,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1.0, 44.0, 454.0, 512.0 ],
+		"rect" : [ 1.0, 45.0, 454.0, 512.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -20,12 +20,12 @@
 		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
-		"toolbarvisible" : 0,
+		"toolbarvisible" : 1,
 		"lefttoolbarpinned" : 0,
 		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
+		"bottomtoolbarpinned" : 1,
+		"toolbars_unpinned_last_save" : 7,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
@@ -37,6 +37,53 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.595187,
+					"id" : "obj-11",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 30.0, 113.0, 129.0, 21.0 ],
+					"style" : "",
+					"text" : "read sophie.mov"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"hidden" : 1,
+					"id" : "obj-12",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 30.0, 113.0, 62.0, 20.0 ],
+					"style" : "",
+					"text" : "loadmess 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"hidden" : 1,
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 30.0, 113.0, 81.0, 20.0 ],
+					"style" : "",
+					"text" : "imi.movieloader"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"args" : [ "Gen_nearest (Wesley Smith)", "the nearest operator grabs the value of the cell of a matrix you direct it to. " ],
 					"bgmode" : 1,
@@ -70,7 +117,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
+							"minor" : 2,
 							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
@@ -87,12 +134,12 @@
 						"gridsnaponopen" : 1,
 						"objectsnaponopen" : 1,
 						"statusbarvisible" : 2,
-						"toolbarvisible" : 0,
+						"toolbarvisible" : 1,
 						"lefttoolbarpinned" : 0,
 						"toptoolbarpinned" : 0,
 						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
+						"bottomtoolbarpinned" : 1,
+						"toolbars_unpinned_last_save" : 7,
 						"tallnewobj" : 0,
 						"boxanimatetime" : 200,
 						"enablehscroll" : 1,
@@ -148,21 +195,6 @@
 					"patching_rect" : [ 335.0, 177.0, 79.0, 22.0 ],
 					"style" : "",
 					"text" : "size 400 300"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-12",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 27.0, 113.0, 99.0, 22.0 ],
-					"style" : "",
-					"text" : "read sophie.mov"
 				}
 
 			}
@@ -234,7 +266,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
+							"minor" : 2,
 							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
@@ -253,12 +285,12 @@
 						"gridsnaponopen" : 1,
 						"objectsnaponopen" : 1,
 						"statusbarvisible" : 2,
-						"toolbarvisible" : 0,
+						"toolbarvisible" : 1,
 						"lefttoolbarpinned" : 0,
 						"toptoolbarpinned" : 0,
 						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
+						"bottomtoolbarpinned" : 1,
+						"toolbars_unpinned_last_save" : 7,
 						"tallnewobj" : 0,
 						"boxanimatetime" : 200,
 						"enablehscroll" : 1,
@@ -536,7 +568,25 @@
 					"destination" : [ "obj-4", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
 					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 1 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-13", 1 ]
 				}
 
 			}
@@ -590,19 +640,34 @@
 		"dependency_cache" : [ 			{
 				"name" : "Max4VA-Title.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
-				"patcherrelativepath" : "../zpatches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "imi.movieloader.maxpat",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/Toolbox/imi_objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "IMIMovies.txt",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/z",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
+			}
  ],
-		"embedsnapshot" : 0,
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "m4va",
 				"default" : 				{
-					"fontsize" : [ 12.0 ],
-					"fontname" : [ "Arial" ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ]
+					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 12.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -611,12 +676,12 @@
 , 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
-					"fontsize" : [ 14.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontsize" : [ 14.0 ],
 					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
+					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

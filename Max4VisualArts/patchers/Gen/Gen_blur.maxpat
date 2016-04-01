@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 0,
-			"revision" : 6,
+			"minor" : 2,
+			"revision" : 1,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -20,12 +20,12 @@
 		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
-		"toolbarvisible" : 0,
+		"toolbarvisible" : 1,
 		"lefttoolbarpinned" : 0,
 		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
+		"bottomtoolbarpinned" : 1,
+		"toolbars_unpinned_last_save" : 7,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
@@ -37,6 +37,53 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.595187,
+					"id" : "obj-4",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 160.244202, 97.0, 129.0, 21.0 ],
+					"style" : "",
+					"text" : "read sophie.mov"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"hidden" : 1,
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 176.0, 97.0, 62.0, 20.0 ],
+					"style" : "",
+					"text" : "loadmess 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"hidden" : 1,
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 176.0, 97.0, 81.0, 20.0 ],
+					"style" : "",
+					"text" : "imi.movieloader"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"args" : [ "Gen_blur (Wesley Smith)", "cf.gaussian.2p.jxs shader/slab ported to gl.pix" ],
 					"bgmode" : 1,
@@ -101,8 +148,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 6,
+							"minor" : 2,
+							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -120,12 +167,12 @@
 						"gridsnaponopen" : 1,
 						"objectsnaponopen" : 1,
 						"statusbarvisible" : 2,
-						"toolbarvisible" : 0,
+						"toolbarvisible" : 1,
 						"lefttoolbarpinned" : 0,
 						"toptoolbarpinned" : 0,
 						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
+						"bottomtoolbarpinned" : 1,
+						"toolbars_unpinned_last_save" : 7,
 						"tallnewobj" : 0,
 						"boxanimatetime" : 200,
 						"enablehscroll" : 1,
@@ -316,8 +363,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 6,
+							"minor" : 2,
+							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -335,12 +382,12 @@
 						"gridsnaponopen" : 1,
 						"objectsnaponopen" : 1,
 						"statusbarvisible" : 2,
-						"toolbarvisible" : 0,
+						"toolbarvisible" : 1,
 						"lefttoolbarpinned" : 0,
 						"toptoolbarpinned" : 0,
 						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
+						"bottomtoolbarpinned" : 1,
+						"toolbars_unpinned_last_save" : 7,
 						"tallnewobj" : 0,
 						"boxanimatetime" : 200,
 						"enablehscroll" : 1,
@@ -601,8 +648,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 6,
+							"minor" : 2,
+							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -618,12 +665,12 @@
 						"gridsnaponopen" : 1,
 						"objectsnaponopen" : 1,
 						"statusbarvisible" : 2,
-						"toolbarvisible" : 0,
+						"toolbarvisible" : 1,
 						"lefttoolbarpinned" : 0,
 						"toptoolbarpinned" : 0,
 						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
+						"bottomtoolbarpinned" : 1,
+						"toolbars_unpinned_last_save" : 7,
 						"tallnewobj" : 0,
 						"boxanimatetime" : 200,
 						"enablehscroll" : 1,
@@ -1219,12 +1266,12 @@
 						"styles" : [ 							{
 								"name" : "m4vatextbutton",
 								"default" : 								{
-									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"fontsize" : [ 14.0 ],
 									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-									"fontsize" : [ 14.0 ]
+									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1261,7 +1308,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 262.348022, 98.247772, 38.0, 22.0 ],
+					"patching_rect" : [ 295.348022, 97.0, 38.0, 22.0 ],
 					"style" : "",
 					"text" : "read"
 				}
@@ -1287,36 +1334,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"id" : "obj-45",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 340.348022, 98.247772, 33.0, 22.0 ],
-					"style" : "",
-					"text" : "stop"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-46",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 302.348022, 98.247772, 34.0, 22.0 ],
-					"style" : "",
-					"text" : "start"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-16",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -1325,21 +1342,6 @@
 					"patching_rect" : [ 143.244202, 66.995911, 45.0, 22.0 ],
 					"style" : "",
 					"text" : "r bang"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-13",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 159.347992, 98.247772, 100.0, 22.0 ],
-					"style" : "",
-					"text" : "read sophie.mov"
 				}
 
 			}
@@ -1448,11 +1450,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
+					"destination" : [ "obj-4", 1 ],
 					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 168.847992, 123.995911, 152.744202, 123.995911 ],
-					"source" : [ "obj-13", 0 ]
+					"hidden" : 1,
+					"source" : [ "obj-13", 1 ]
 				}
 
 			}
@@ -1497,7 +1498,7 @@
 					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 271.848022, 124.149307, 152.744202, 124.149307 ],
+					"midpoints" : [ 304.848022, 124.149307, 152.744202, 124.149307 ],
 					"source" : [ "obj-28", 0 ]
 				}
 
@@ -1516,18 +1517,7 @@
 					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 349.848022, 123.995911, 152.744202, 123.995911 ],
-					"source" : [ "obj-45", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 311.848022, 123.995911, 152.744202, 123.995911 ],
-					"source" : [ "obj-46", 0 ]
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}
@@ -1568,6 +1558,15 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
  ],
 		"dependency_cache" : [ 			{
 				"name" : "Max4VA-Title.maxpat",
@@ -1576,20 +1575,44 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "imi.movieloader.maxpat",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/Toolbox/imi_objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "IMIMovies.txt",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/z",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "strlen.mxo",
 				"type" : "iLaX"
 			}
  ],
-		"embedsnapshot" : 0,
+		"autosave" : 0,
 		"styles" : [ 			{
+				"name" : "m4va",
+				"default" : 				{
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 12.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontsize" : [ 14.0 ],
 					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"fontsize" : [ 14.0 ]
+					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

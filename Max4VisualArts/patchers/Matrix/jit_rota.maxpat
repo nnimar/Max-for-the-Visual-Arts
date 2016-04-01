@@ -20,11 +20,11 @@
 		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
-		"toolbarvisible" : 0,
+		"toolbarvisible" : 1,
 		"lefttoolbarpinned" : 0,
 		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 1,
 		"toolbars_unpinned_last_save" : 15,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
@@ -48,7 +48,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 406.0, 517.5, 102.0, 20.0 ],
+					"patching_rect" : [ 406.0, 511.5, 102.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 866.0, 418.0, 79.0, 17.0 ],
 					"style" : "",
@@ -94,7 +94,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 406.0, 517.5, 52.0, 21.0 ],
+					"patching_rect" : [ 406.0, 511.5, 52.0, 21.0 ],
 					"style" : "",
 					"text" : "pcontrol"
 				}
@@ -110,7 +110,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 406.0, 517.5, 98.0, 20.0 ],
+					"patching_rect" : [ 406.0, 511.5, 98.0, 20.0 ],
 					"style" : "",
 					"text" : "load gen_examples"
 				}
@@ -281,12 +281,12 @@
 						"gridsnaponopen" : 1,
 						"objectsnaponopen" : 1,
 						"statusbarvisible" : 2,
-						"toolbarvisible" : 0,
+						"toolbarvisible" : 1,
 						"lefttoolbarpinned" : 0,
 						"toptoolbarpinned" : 0,
 						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
+						"bottomtoolbarpinned" : 1,
+						"toolbars_unpinned_last_save" : 7,
 						"tallnewobj" : 0,
 						"boxanimatetime" : 200,
 						"enablehscroll" : 1,
@@ -1738,11 +1738,11 @@
 		"styles" : [ 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontsize" : [ 14.0 ]
 				}
 ,

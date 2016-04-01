@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 0,
-			"revision" : 0,
+			"minor" : 2,
+			"revision" : 1,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1.0, 45.0, 387.0, 376.0 ],
+		"rect" : [ 1.0, 45.0, 380.0, 330.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 18.0,
@@ -38,28 +38,49 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"bgcolor" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"bgoncolor" : [ 0.55, 0.55, 0.55, 1.0 ],
 					"fontsize" : 14.0,
-					"id" : "obj-6",
+					"id" : "obj-1",
 					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 315.0, 348.5, 60.0, 20.0 ],
+					"patching_rect" : [ 305.0, 302.0, 61.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 701.0, 253.0, 79.0, 17.0 ],
-					"rounded" : 20.0,
+					"presentation_rect" : [ 256.0, 275.5, 79.0, 17.0 ],
 					"style" : "",
 					"text" : "more...",
-					"textcolor" : [ 0.15, 0.15, 0.15, 1.0 ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"texton" : "Stop",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textovercolor" : [ 0.1, 0.1, 0.1, 1.0 ],
+					"textovercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "jit.fill" ],
+					"bgmode" : 1,
+					"border" : 0,
+					"clickthrough" : 1,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-62",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "Max4VA-Title.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, -278.0 ],
+					"patching_rect" : [ 0.0, 0.0, 356.0, 35.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ -7.0, 12.0, 487.519531, 73.0 ],
+					"viewvisibility" : 1
 				}
 
 			}
@@ -73,7 +94,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 288.0, 352.0, 87.0, 16.0 ],
+					"patching_rect" : [ 283.0, 302.0, 87.0, 20.0 ],
 					"style" : "",
 					"text" : "help jit.fill.maxpat"
 				}
@@ -89,7 +110,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 289.0, 349.0, 52.0, 20.0 ],
+					"patching_rect" : [ 305.0, 302.0, 52.0, 21.0 ],
 					"style" : "",
 					"text" : "pcontrol"
 				}
@@ -105,7 +126,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 237.0, 164.0, 140.0, 20.0 ],
+					"patching_rect" : [ 237.0, 164.0, 140.0, 22.0 ],
 					"style" : "",
 					"text" : "loadmess rowheight 54"
 				}
@@ -121,26 +142,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 237.0, 187.0, 129.0, 20.0 ],
+					"patching_rect" : [ 237.0, 187.0, 129.0, 22.0 ],
 					"style" : "",
 					"text" : "loadmess colwidth 54"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 3,
-					"fontname" : "Arial",
-					"fontsize" : 20.871338,
-					"id" : "obj-24",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 4.0, 4.0, 150.0, 30.0 ],
-					"style" : "",
-					"text" : "IMI jit.fill",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"varname" : "autohelp_top_title"
 				}
 
 			}
@@ -230,26 +234,17 @@
 				}
 
 			}
-, 			{
-				"box" : 				{
-					"angle" : 180.0,
-					"background" : 1,
-					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
-					"id" : "obj-25",
-					"maxclass" : "panel",
-					"mode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2.0, 2.0, 383.0, 33.0 ],
-					"proportion" : 0.39,
-					"style" : "",
-					"varname" : "autohelp_top_panel[1]"
+ ],
+		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-1", 0 ]
 				}
 
 			}
- ],
-		"lines" : [ 			{
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
 					"disabled" : 0,
@@ -303,18 +298,39 @@
 				}
 
 			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "Max4VA-Title.maxpat",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
+				"type" : "JSON",
+				"implicit" : 1
+			}
 , 			{
-				"patchline" : 				{
-					"destination" : [ "obj-26", 0 ],
-					"disabled" : 0,
-					"hidden" : 1,
-					"source" : [ "obj-6", 0 ]
-				}
-
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
 			}
  ],
-		"dependency_cache" : [  ],
-		"embedsnapshot" : 0
+		"autosave" : 0,
+		"styles" : [ 			{
+				"name" : "m4vatextbutton",
+				"default" : 				{
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontsize" : [ 14.0 ],
+					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "simple",
+				"parentstyle" : "",
+				"multi" : 0
+			}
+ ]
 	}
 
 }

@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 0,
+			"minor" : 2,
 			"revision" : 1,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1.0, 44.0, 594.0, 500.0 ],
+		"rect" : [ 1.0, 45.0, 594.0, 500.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 13.0,
@@ -20,12 +20,12 @@
 		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
-		"toolbarvisible" : 0,
+		"toolbarvisible" : 1,
 		"lefttoolbarpinned" : 0,
 		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
+		"bottomtoolbarpinned" : 1,
+		"toolbars_unpinned_last_save" : 7,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
@@ -105,7 +105,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
+							"minor" : 2,
 							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
@@ -122,12 +122,12 @@
 						"gridsnaponopen" : 1,
 						"objectsnaponopen" : 1,
 						"statusbarvisible" : 2,
-						"toolbarvisible" : 0,
+						"toolbarvisible" : 1,
 						"lefttoolbarpinned" : 0,
 						"toptoolbarpinned" : 0,
 						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
+						"bottomtoolbarpinned" : 1,
+						"toolbars_unpinned_last_save" : 7,
 						"tallnewobj" : 0,
 						"boxanimatetime" : 200,
 						"enablehscroll" : 1,
@@ -723,12 +723,12 @@
 						"styles" : [ 							{
 								"name" : "m4vatextbutton",
 								"default" : 								{
-									"fontsize" : [ 14.0 ],
+									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"fontsize" : [ 14.0 ],
 									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
+									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -746,7 +746,6 @@
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
-						"fontsize" : 12.0,
 						"globalpatchername" : "",
 						"style" : "",
 						"tags" : ""
@@ -822,13 +821,12 @@
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 12.0,
 					"id" : "obj-13",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 234.5, 464.0, 107.0, 22.0 ],
+					"patching_rect" : [ 234.5, 464.0, 113.0, 23.0 ],
 					"style" : "default",
 					"text" : "jit.gl.nurbs display"
 				}
@@ -865,14 +863,13 @@
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 12.0,
 					"id" : "obj-10",
 					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 8.0, 258.0, 108.0, 35.0 ],
+					"patching_rect" : [ 8.0, 258.0, 110.0, 38.0 ],
 					"style" : "default",
 					"text" : "jit.window display @fsmenubar 0"
 				}
@@ -880,14 +877,13 @@
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 12.0,
 					"id" : "obj-9",
 					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 8.0, 189.0, 137.0, 35.0 ],
+					"patching_rect" : [ 8.0, 189.0, 147.0, 38.0 ],
 					"style" : "default",
 					"text" : "jit.gl.render display @erase_color 1. 1. 1. 1."
 				}
@@ -923,13 +919,12 @@
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 12.0,
 					"id" : "obj-3",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "jit_gl_texture", "", "" ],
-					"patching_rect" : [ 234.5, 430.5, 251.0, 22.0 ],
+					"patching_rect" : [ 234.5, 430.5, 269.0, 23.0 ],
 					"style" : "default",
 					"text" : "jit.gl.node display @name node2 @capture 1"
 				}
@@ -937,14 +932,13 @@
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 12.0,
 					"id" : "obj-36",
 					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 234.5, 377.0, 233.0, 35.0 ],
+					"patching_rect" : [ 234.5, 377.0, 237.0, 38.0 ],
 					"style" : "default",
 					"text" : "jit.gl.videoplane node2 @depth_enable 0 @blend_enable 1 @layer 2"
 				}
@@ -952,14 +946,13 @@
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 12.0,
 					"id" : "obj-27",
 					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "jit_gl_texture", "", "" ],
-					"patching_rect" : [ 234.5, 300.0, 204.0, 35.0 ],
+					"patching_rect" : [ 234.5, 300.0, 218.0, 38.0 ],
 					"style" : "default",
 					"text" : "jit.gl.node node2 @name node1 @capture 1 @erase_color 0. 0. 0. 0."
 				}
@@ -967,14 +960,13 @@
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 12.0,
 					"id" : "obj-35",
 					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 170.5, 98.0, 288.0, 35.0 ],
+					"patching_rect" : [ 170.5, 98.0, 288.0, 38.0 ],
 					"style" : "default",
 					"text" : "jit.gl.gridshape node1 @color 1. 0. 0. 1. @scale 0.2 @depth_enable 0 @blend_enable 1"
 				}
@@ -982,14 +974,13 @@
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 12.0,
 					"id" : "obj-49",
 					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 167.0, 249.0, 253.0, 35.0 ],
+					"patching_rect" : [ 167.0, 249.0, 273.0, 38.0 ],
 					"style" : "default",
 					"text" : "jit.gl.videoplane node2 @scale 1.33 @blend_enable 1 @depth_enable 0 @layer 1"
 				}
@@ -1079,7 +1070,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 58.0, 145.147247, 239.0 ],
+					"patching_rect" : [ 3.0, 58.0, 155.147247, 242.0 ],
 					"proportion" : 0.39,
 					"rounded" : 30,
 					"style" : ""
@@ -1283,19 +1274,22 @@
 		"dependency_cache" : [ 			{
 				"name" : "Max4VA-Title.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
-				"patcherrelativepath" : "../zpatches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
+			}
  ],
-		"embedsnapshot" : 0,
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "m4va",
 				"default" : 				{
-					"fontsize" : [ 12.0 ],
-					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : [ "Arial" ]
+					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 12.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1304,12 +1298,12 @@
 , 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
-					"fontsize" : [ 14.0 ],
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontsize" : [ 14.0 ],
 					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
+					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

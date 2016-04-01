@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 0,
+			"minor" : 2,
 			"revision" : 1,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1.0, 44.0, 596.0, 538.0 ],
+		"rect" : [ 1.0, 45.0, 596.0, 538.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -20,12 +20,12 @@
 		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
-		"toolbarvisible" : 0,
+		"toolbarvisible" : 1,
 		"lefttoolbarpinned" : 0,
 		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
+		"bottomtoolbarpinned" : 1,
+		"toolbars_unpinned_last_save" : 7,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
@@ -48,7 +48,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 145.0, 510.0, 169.0, 20.0 ],
+					"patching_rect" : [ 145.0, 512.0, 169.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 175.0, 552.0, 79.0, 17.0 ],
 					"style" : "",
@@ -72,7 +72,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 145.0, 513.0, 126.0, 19.0 ],
+					"patching_rect" : [ 145.0, 515.0, 126.0, 19.0 ],
 					"style" : "",
 					"text" : "load GLcamera_screenworld"
 				}
@@ -88,7 +88,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 145.0, 513.0, 44.0, 19.0 ],
+					"patching_rect" : [ 145.0, 515.0, 44.0, 19.0 ],
 					"style" : "",
 					"text" : "pcontrol"
 				}
@@ -106,7 +106,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 320.0, 510.0, 99.0, 20.0 ],
+					"patching_rect" : [ 320.0, 512.0, 99.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 219.0, 615.0, 79.0, 17.0 ],
 					"style" : "",
@@ -130,7 +130,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 321.0, 510.0, 86.0, 19.0 ],
+					"patching_rect" : [ 321.0, 512.0, 86.0, 19.0 ],
 					"style" : "",
 					"text" : "load GLcamera_IK"
 				}
@@ -146,7 +146,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 366.0, 510.0, 44.0, 19.0 ],
+					"patching_rect" : [ 366.0, 512.0, 44.0, 19.0 ],
 					"style" : "",
 					"text" : "pcontrol"
 				}
@@ -164,7 +164,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 424.0, 510.0, 163.0, 20.0 ],
+					"patching_rect" : [ 424.0, 512.0, 163.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 761.0, 313.0, 79.0, 17.0 ],
 					"style" : "",
@@ -188,7 +188,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 424.0, 512.0, 129.0, 19.0 ],
+					"patching_rect" : [ 424.0, 514.0, 129.0, 19.0 ],
 					"style" : "",
 					"text" : "load GLgridshape_roundtable"
 				}
@@ -204,7 +204,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 425.0, 510.0, 44.0, 19.0 ],
+					"patching_rect" : [ 425.0, 512.0, 44.0, 19.0 ],
 					"style" : "",
 					"text" : "pcontrol"
 				}
@@ -333,7 +333,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
+							"minor" : 2,
 							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
@@ -350,12 +350,12 @@
 						"gridsnaponopen" : 1,
 						"objectsnaponopen" : 1,
 						"statusbarvisible" : 2,
-						"toolbarvisible" : 0,
+						"toolbarvisible" : 1,
 						"lefttoolbarpinned" : 0,
 						"toptoolbarpinned" : 0,
 						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
+						"bottomtoolbarpinned" : 1,
+						"toolbars_unpinned_last_save" : 7,
 						"tallnewobj" : 0,
 						"boxanimatetime" : 200,
 						"enablehscroll" : 1,
@@ -1489,7 +1489,6 @@
 		"dependency_cache" : [ 			{
 				"name" : "Max4VA-Title.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
-				"patcherrelativepath" : "../../Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1498,14 +1497,14 @@
 				"type" : "iLaX"
 			}
  ],
-		"embedsnapshot" : 0,
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "m4va",
 				"default" : 				{
-					"fontsize" : [ 12.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
-					"fontname" : [ "Arial" ]
+					"fontname" : [ "Arial" ],
+					"fontsize" : [ 12.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1514,12 +1513,12 @@
 , 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontsize" : [ 14.0 ],
-					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
 					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
+					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
