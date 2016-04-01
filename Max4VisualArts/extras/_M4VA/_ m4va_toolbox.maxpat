@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1.0, 45.0, 582.0, 571.0 ],
+		"rect" : [ 1.0, 44.0, 585.0, 806.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -25,7 +25,7 @@
 		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
 		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
+		"toolbars_unpinned_last_save" : 7,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
@@ -39,22 +39,6 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 11.595187,
-					"hidden" : 1,
-					"id" : "obj-35",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 404.0, 37.0, 88.0, 21.0 ],
-					"style" : "",
-					"text" : "col 0 width 160"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"hidden" : 1,
 					"id" : "obj-10",
@@ -62,7 +46,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 516.0, 545.0, 52.0, 20.0 ],
+					"patching_rect" : [ 234.0, 782.0, 60.0, 20.0 ],
 					"style" : "",
 					"text" : "loadbang"
 				}
@@ -78,7 +62,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 91.0, 38.0, 54.0, 20.0 ],
+					"patching_rect" : [ 90.0, 37.0, 54.0, 20.0 ],
 					"style" : "",
 					"text" : "delay 500"
 				}
@@ -94,9 +78,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 423.0, 545.0, 94.0, 20.0 ],
+					"patching_rect" : [ 232.0, 782.0, 81.0, 20.0 ],
 					"style" : "",
-					"text" : "read plugins.txt"
+					"text" : "read toolbox.txt"
 				}
 
 			}
@@ -276,7 +260,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 205.0, 38.0, 35.0, 20.0 ],
+					"patching_rect" : [ 204.0, 37.0, 35.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -301,7 +285,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 336.0, 38.0, 62.0, 20.0 ],
+					"patching_rect" : [ 335.0, 37.0, 62.0, 20.0 ],
 					"style" : "",
 					"text" : "loadmess 1"
 				}
@@ -317,7 +301,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7.0, 544.0, 95.0, 20.0 ],
+					"patching_rect" : [ 3.0, 782.0, 96.0, 20.0 ],
 					"style" : "",
 					"text" : "sprintf %s.maxhelp"
 				}
@@ -333,7 +317,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 102.0, 545.0, 70.0, 20.0 ],
+					"patching_rect" : [ 97.0, 782.0, 74.0, 20.0 ],
 					"style" : "",
 					"text" : "prepend load"
 				}
@@ -349,7 +333,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 124.0, 545.0, 47.0, 20.0 ],
+					"patching_rect" : [ 98.0, 782.0, 48.0, 20.0 ],
 					"style" : "",
 					"text" : "pcontrol"
 				}
@@ -365,7 +349,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 4.0, 543.0, 55.0, 20.0 ],
+					"patching_rect" : [ 2.0, 782.0, 50.0, 20.0 ],
 					"style" : "",
 					"text" : "zl slice 2"
 				}
@@ -381,7 +365,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 245.0, 39.0, 88.0, 20.0 ],
+					"patching_rect" : [ 244.0, 38.0, 88.0, 20.0 ],
 					"style" : "",
 					"text" : "mode selmode $1"
 				}
@@ -397,9 +381,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 4.0, 38.0, 81.0, 20.0 ],
+					"patching_rect" : [ 10.0, 37.0, 73.0, 20.0 ],
 					"style" : "",
-					"text" : "refer ploverview"
+					"text" : "refer itoolbox"
 				}
 
 			}
@@ -413,7 +397,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 149.0, 38.0, 52.0, 20.0 ],
+					"patching_rect" : [ 148.0, 37.0, 52.0, 20.0 ],
 					"style" : "",
 					"text" : "loadbang"
 				}
@@ -429,19 +413,19 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 340.0, 543.0, 76.0, 20.0 ],
+					"patching_rect" : [ 171.0, 782.0, 63.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0
 					}
 ,
 					"style" : "",
-					"text" : "coll ploverview"
+					"text" : "coll itoolbox"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"coldef" : [ [ 1, 468, 1, 1.0, 1.0, 1.0, 1.0, 1, 4177855.75, 4177855.75, 4177855.75, 1.0, -1, 2, 1 ], [ 0, 155, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ] ],
+					"coldef" : [ [ 1, 468, 1, 1.0, 1.0, 1.0, 1.0, 1, 4177855.75, 4177855.75, 4177855.75, 1.0, -1, 2, 1 ], [ 0, 160, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ] ],
 					"cols" : 2,
 					"colwidth" : 120,
 					"fgcolor" : [ 0.0, 0.0, 0.0, 0.913725 ],
@@ -455,9 +439,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
-					"patching_rect" : [ 5.0, 63.0, 574.0, 501.0 ],
+					"patching_rect" : [ 3.0, 64.0, 577.0, 738.0 ],
 					"rowhead" : 1,
-					"rows" : 27,
+					"rows" : 40,
 					"savemode" : 1,
 					"vscroll" : 0
 				}
@@ -465,52 +449,23 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 3,
-					"fontname" : "Arial",
-					"fontsize" : 20.871338,
-					"id" : "obj-11",
-					"maxclass" : "comment",
-					"numinlets" : 1,
+					"args" : [ "m4va toolbox", "useful tools for patching in Max/MSP (click on the object name to open" ],
+					"bgmode" : 1,
+					"border" : 0,
+					"clickthrough" : 1,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-6",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "Max4VA-Title.maxpat",
+					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 4.0, 239.0, 30.0 ],
-					"style" : "",
-					"text" : "Plugins overview",
-					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
-					"varname" : "autohelp_top_title"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.754705,
-					"id" : "obj-12",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 31.0, 443.0, 21.0 ],
-					"style" : "",
-					"text" : "Useful plugins for animating in Max/MSP (click on the object name to open)",
-					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
-					"varname" : "autohelp_top_digest"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 180.0,
-					"background" : 1,
-					"grad1" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"grad2" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
-					"id" : "obj-39",
-					"maxclass" : "panel",
-					"mode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 3.0, 576.0, 52.0 ],
-					"proportion" : 0.39,
-					"style" : "",
-					"varname" : "autohelp_top_panel[1]"
+					"offset" : [ 0.0, -278.0 ],
+					"patching_rect" : [ 0.0, 0.0, 485.0, 65.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ -22.0, -3.0, 487.519531, 73.0 ],
+					"viewvisibility" : 1
 				}
 
 			}
@@ -547,7 +502,7 @@
 					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 214.5, 60.5, 14.5, 60.5 ],
+					"midpoints" : [ 213.5, 59.5, 12.5, 59.5 ],
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -575,7 +530,7 @@
 					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 254.5, 60.5, 14.5, 60.5 ],
+					"midpoints" : [ 253.5, 59.5, 12.5, 59.5 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -586,15 +541,6 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-33", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
-					"disabled" : 0,
-					"hidden" : 1,
-					"source" : [ "obj-35", 0 ]
 				}
 
 			}
@@ -636,11 +582,22 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "plugins.txt",
+				"name" : "Max4VA-Title.maxpat",
+				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "toolbox.txt",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/z",
 				"patcherrelativepath" : "../z",
 				"type" : "TEXT",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "strlen.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"embedsnapshot" : 0

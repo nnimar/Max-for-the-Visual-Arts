@@ -3,7 +3,7 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 0,
+			"minor" : 2,
 			"revision" : 1,
 			"architecture" : "x86",
 			"modernui" : 1
@@ -47,7 +47,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
+							"minor" : 2,
 							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
@@ -314,11 +314,11 @@
 								"name" : "m4vatextbutton",
 								"default" : 								{
 									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"fontsize" : [ 14.0 ],
 									"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
+									"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
+									"fontsize" : [ 14.0 ],
+									"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -332,7 +332,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 123.0, 147.0, 63.0, 22.0 ],
+					"patching_rect" : [ 101.0, 120.0, 63.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -433,7 +433,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 40.600002, 314.0, 33.0, 18.0 ],
+					"patching_rect" : [ 449.0, 314.0, 33.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 219.0, 38.0, 40.0, 18.0 ],
 					"style" : "",
@@ -451,9 +451,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.0, 313.0, 590.0, 20.0 ],
+					"patching_rect" : [ 6.0, 313.0, 629.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 38.0, 367.0, 20.0 ],
+					"presentation_rect" : [ 8.0, 38.0, 368.0, 20.0 ],
 					"style" : "",
 					"text" : "no text",
 					"textcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
@@ -518,6 +518,7 @@
 					"destination" : [ "obj-20", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
+					"midpoints" : [ 110.5, 155.5, 458.5, 155.5 ],
 					"source" : [ "obj-26", 0 ]
 				}
 
@@ -572,7 +573,7 @@
 					"destination" : [ "obj-20", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
-					"midpoints" : [ 206.5, 97.0, 50.100002, 97.0 ],
+					"midpoints" : [ 206.5, 97.0, 458.5, 97.0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -583,7 +584,7 @@
 				"type" : "iLaX"
 			}
  ],
-		"embedsnapshot" : 0,
+		"autosave" : 0,
 		"bgfillcolor_type" : "gradient",
 		"bgfillcolor_color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
 		"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],

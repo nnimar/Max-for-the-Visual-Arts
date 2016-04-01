@@ -27,7 +27,6 @@
 41, <category> 5 Sensors;
 42, arduino_interfaces "arduino interfaces";
 43, wii_interfaces "wii interfaces";
-44, xbee_interfaces "wireless interfaces";
 45, misc_interfaces "misc interfaces and protocols";
 46, osc_protocol "introduction to open sound control (OSC)";
 47, sensors_tools "sensor tools";
