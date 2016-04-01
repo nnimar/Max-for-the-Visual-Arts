@@ -20,7 +20,6 @@
 25, GLpix_colourFX "various colour effects";
 26, BadTV "badTV effect";
 27, FFTmatrix "FFT matrix effect";
-28, h.lines "generate a mesh of lines from a movie";
 30, -----------------------;
 31, <category> 4 DbN2D;
 32, mgraphics_motion "motion using counter";

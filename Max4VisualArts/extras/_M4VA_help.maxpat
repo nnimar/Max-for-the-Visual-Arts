@@ -160,9 +160,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 303.0, 48.0, 121.0, 17.0 ],
+					"patching_rect" : [ 303.0, 48.0, 130.0, 17.0 ],
 					"style" : "",
-					"text" : "Max for the Visual Arts v2.54"
+					"text" : "Max for the Visual Arts v2.55.01"
 				}
 
 			}
@@ -245,7 +245,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 20.0, 52.0, 203.0, 18.0 ],
 					"style" : "",
-					"text" : "Nicolas Marechal, v2.54 (10/2016)",
+					"text" : "Nicolas Marechal, v2.55.01 (4/2016)",
 					"textcolor" : [ 0.277516, 0.278843, 0.36965, 1.0 ]
 				}
 
@@ -2878,7 +2878,7 @@
 					"fontsize" : 10.435669,
 					"id" : "obj-47",
 					"ignoreclick" : 1,
-					"items" : [ ",", "intro to Max", ",", "max sandpit", ",", "patch a day, healthy everyday", ",", "credits" ],
+					"items" : [ ",", "links to the dependencies", ",", "intro to Max", ",", "max sandpit", ",", "patch a day, healthy everyday", ",", "credits" ],
 					"maxclass" : "umenu",
 					"menumode" : 1,
 					"numinlets" : 1,
@@ -2909,7 +2909,7 @@
 					"patching_rect" : [ 30.0, 121.0, 209.0, 155.0 ],
 					"style" : "",
 					"tabcolor" : [ 0.0, 0.0, 0.0, 0.188235 ],
-					"tabs" : [ "m4va_introduction", "max_sandpit", "maxhelp_a_day", "credits" ],
+					"tabs" : [ "m4va_dependencies", "m4va_introduction", "max_sandpit", "maxhelp_a_day", "credits" ],
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"varname" : "tab[1]"
 				}

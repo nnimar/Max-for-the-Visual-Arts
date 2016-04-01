@@ -36,6 +36,5 @@ Jitter2Syphon, "basic patch to use Syphon";
 netSend, "send video, audio, messages over a local network";
 video_output, "send a video matrix through to the firewire output";
 asyncread_export, "asyncread export (with antialiasing)";
-jitwebimage, "load an image from the web";
 jit.gl.hap, "use the hap compression";
  

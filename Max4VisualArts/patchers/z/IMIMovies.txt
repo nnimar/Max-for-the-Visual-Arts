@@ -1,9 +1,9 @@
-1, sophie.mov;
-2, hapticanna.mov;
-3, ears.mov;
-4, sacre.aif;
-5, bell.aif;
-6, cityroom.mov;
+1, countdown.mov;
+2, dvkite.mov;
+3, crashtest.mov;
+4, isthatyou.aiff;
+5, cherokee.aif;
+6, dust.mp4;
 7, monkey.png;
 8, dozer.mov;
 9, background.mov;
