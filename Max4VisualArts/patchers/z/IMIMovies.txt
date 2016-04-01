@@ -7,7 +7,7 @@
 7, monkey.png;
 8, dozer.mov;
 9, background.mov;
-10, alpha.mov;
+10, monkey.png;
 11, Bubbles.mov;
 12, drift.mov;
 13, binaryman.mov;
