@@ -36,10 +36,14 @@ function doInstallation {
 		
 		if [[ $whichVersion == 4 ]]; then
 			
-			cp -R "$InstallFolder/Max4VisualArts/patchers" "$M4VApatches" && echo -ne "... patchers\n";
-			cp -R "$InstallFolder/Max4VisualArts/media" "$M4VApatches" && echo -ne "... media\n";
 			cp -R "$InstallFolder/Max4VisualArts/apps" "$M4VApatches" && echo -ne "... applications.\n";
-			cp "$InstallFolder/Max4VisualArts/_M4VA_Read me.rtf" "$M4VApatches" && echo -ne "... read_me file\n";	
+			cp -R "$InstallFolder/Max4VisualArts/media" "$M4VApatches" && echo -ne "... media\n";
+			cp -R "$InstallFolder/Max4VisualArts/patchers" "$M4VApatches" && echo -ne "... patchers\n";
+			cp -R "$InstallFolder/Max4VisualArts/java" "$M4VAjava" && echo -ne "... java\n";
+			cp -R "$InstallFolder/Max4VisualArts/javascript" "$M4VAjavascript" && echo -ne "... javascript\n";
+			cp "$InstallFolder/Max4VisualArts/README.txt" "$M4VApatches" ";	
+			cp "$InstallFolder/Max4VisualArts/LICENSE.txt" "$M4VApatches" ";
+			cp "$InstallFolder/Max4VisualArts/VERSION.txt" "$M4VApatches" && echo -ne "... read_me files\n";
 			echo ""
 			echo -ne "- Install Max for Visual Arts help in $M4VAextra \n";
 			cp -R "$InstallFolder/Max4VisualArts/extras" "$M4VAextra" && echo -ne "... help\n";
