@@ -5,7 +5,7 @@ n.marechal@lcc.arts.ac.uk
 *********************
 Intro
 
-Max for the Visual Arts is a self-learning tool and a repository for the Max patches made or used on the BA interaction design arts (IDA) and the MA interactive design communication (IDC) at the London College of Communication (University of the Arts London, United Kingdom)
+Max for the Visual Arts is a self-learning tool and a repository for the Max patches made or used on the BA interaction design arts (IDA) and the MA interactive design communication (IDC) at the London College of Communication (University of the Arts London, United Kingdom).
 
 There are two releases of the patch, the complete version (available on request to educators) and the GIT version (https://github.com/imi/Max-for-the-Visual-Arts). The GIT is a light version where the externals, java, media and the applications folders are not included (some links in the patches will not work but you should be able to find them easily). 
 
@@ -20,14 +20,14 @@ Because of its nature, this package heavily depends on the work of others. The f
 
 Please take the time to install those to avoid the frustration of non working patches. 
 
-- The first group is currently available from the package manager (Max 7). 
+- The first group is currently available from the package manager (In Max 7, choose File then Show Package Manager). 
 
 - In the essentials group, some will require that you create a package for them.
 (see here: https://docs.cycling74.com/max7/vignettes/packages). 
 
 - The applications group can be installed in the apps folder in the Max4Visual Arts package so the links to applicacations in the patches will work.
 
-- The payware group contains one software (osculator) that is essential is you want to use the Wii reliably with Max. DmxusbPro is an extension to use the DMX protocol in your projects (although they are some free solutions as well).
+- The payware group contains one software (osculator) that is essential is you want to use the Wii reliably with Max. DmxusbPro is an extension to use the DMX protocol in your projects (they are some free solutions as well).
 
 Finally, we use applescript / osascript on certain patches, make sure that is activated 
 (https://support.apple.com/en-gb/HT202802)

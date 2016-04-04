@@ -7,14 +7,14 @@ Version history
 
 2.55.01 - April 2016
 
-This is the first version for cycling'74 package manager. It's now a seprate branch from the main installer. 
+This is the first version for cycling'74 package manager. It's now a separate branch from the main installer. 
 
 See the readme for more information: https://github.com/imi/Max-for-the-Visual-Arts/blob/master/Max4VisualArts/README.txt
 
 *********************
 2.54 - March 2016 
 
-Ready for the new Max package format.
+Getting ready for the new Max package format.
 
 Bugs: cleaned the matrix category, cleaned the toolbox folder, more cleaning…
 
