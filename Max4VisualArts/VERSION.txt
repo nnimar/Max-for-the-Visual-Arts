@@ -5,6 +5,11 @@ n.marechal@lcc.arts.ac.uk
 *********************
 Version history
 
+2.55.02 - April 2016
+
+strenln is now javascript
+
+*********************
 2.55.01 - April 2016
 
 This is the first version for cycling'74 package manager. It's now a separate branch from the main installer. 
