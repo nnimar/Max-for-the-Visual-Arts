@@ -47,7 +47,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 463.0, 86.5, 122.0, 37.0 ],
-					"presentation_rect" : [ 411.0, 136.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "monkey.png has an alpha channel"
 				}
@@ -447,7 +446,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "jit_matrix", "jit_matrix", "jit_matrix", "jit_matrix", "" ],
-					"patching_rect" : [ 11.0, 304.0, 675.0, 24.0 ],
+					"patching_rect" : [ 11.0, 321.0, 675.0, 24.0 ],
 					"style" : "",
 					"text" : "jit.unpack 4"
 				}

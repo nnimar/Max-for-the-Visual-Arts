@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 1,
-			"revision" : 0,
+			"minor" : 2,
+			"revision" : 1,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -47,8 +47,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 1,
-							"revision" : 0,
+							"minor" : 2,
+							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -438,8 +438,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 1,
-							"revision" : 0,
+							"minor" : 2,
+							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -556,8 +556,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 1,
-											"revision" : 0,
+											"minor" : 2,
+											"revision" : 1,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -877,8 +877,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 1,
-											"revision" : 0,
+											"minor" : 2,
+											"revision" : 1,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -1423,7 +1423,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "m4va JSON and the dict object", "json is very easy to use thanks to the new dict functionality in Max 6 / 7" ],
+					"args" : [ "m4va JSON and the dict object", "json is very easy to use thanks to the new dict functionality from Max 6" ],
 					"bgmode" : 1,
 					"border" : 0,
 					"clickthrough" : 1,
@@ -1493,14 +1493,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-6",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 772.0, 281.0, 117.0, 35.0 ],
-					"style" : "",
-					"text" : "Price[1]::type \"Kindle Edition\""
+					"patching_rect" : [ 772.0, 281.0, 117.0, 22.0 ],
+					"style" : ""
 				}
 
 			}
@@ -1539,14 +1537,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-13",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 720.0, 355.0, 89.0, 35.0 ],
-					"style" : "",
-					"text" : "\"Kindle Edition\""
+					"patching_rect" : [ 720.0, 355.0, 89.0, 22.0 ],
+					"style" : ""
 				}
 
 			}
@@ -1635,8 +1631,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 1,
-							"revision" : 0,
+							"minor" : 2,
+							"revision" : 1,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -2224,12 +2220,14 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-35",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 538.0, 281.0, 117.0, 22.0 ],
-					"style" : ""
+					"patching_rect" : [ 538.0, 281.0, 117.0, 35.0 ],
+					"style" : "",
+					"text" : "Title \"The Cuckoo's Calling\""
 				}
 
 			}
@@ -2414,12 +2412,14 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-62",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 486.0, 355.0, 89.0, 22.0 ],
-					"style" : ""
+					"patching_rect" : [ 486.0, 355.0, 89.0, 35.0 ],
+					"style" : "",
+					"text" : "\"The Cuckoo's Calling\""
 				}
 
 			}
@@ -2718,9 +2718,9 @@
 				"name" : "m4va",
 				"default" : 				{
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontsize" : [ 12.0 ],
+					"fontname" : [ "Arial" ],
 					"bgcolor" : [ 0.788235, 0.8, 0.843137, 0.0 ],
-					"fontname" : [ "Arial" ]
+					"fontsize" : [ 12.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2729,12 +2729,12 @@
 , 			{
 				"name" : "m4vatextbutton",
 				"default" : 				{
-					"fontsize" : [ 14.0 ],
-					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"accentcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"elementcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
-					"selectioncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ]
+					"bgcolor" : [ 0.264542, 0.246412, 0.247132, 1.0 ],
+					"fontsize" : [ 14.0 ]
 				}
 ,
 				"parentstyle" : "",

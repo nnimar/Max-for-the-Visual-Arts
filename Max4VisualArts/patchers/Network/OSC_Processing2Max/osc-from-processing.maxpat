@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 0,
-			"revision" : 1,
+			"minor" : 2,
+			"revision" : 2,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 524.0, 44.0, 407.0, 212.0 ],
+		"rect" : [ 524.0, 45.0, 442.0, 209.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 13.0,
@@ -20,12 +20,12 @@
 		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
-		"toolbarvisible" : 0,
+		"toolbarvisible" : 1,
 		"lefttoolbarpinned" : 0,
 		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
+		"bottomtoolbarpinned" : 1,
+		"toolbars_unpinned_last_save" : 7,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
@@ -38,7 +38,7 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"args" : [ "OSC from processing", "receives osc from processing" ],
+					"args" : [ "OSC from processing (Zachary Seldess)", "receives osc from processing" ],
 					"bgmode" : 1,
 					"border" : 0,
 					"clickthrough" : 1,
@@ -51,7 +51,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, -278.0 ],
-					"patching_rect" : [ 0.0, 0.0, 336.0, 52.0 ],
+					"patching_rect" : [ 0.0, 0.0, 436.0, 52.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -22.0, -3.0, 487.519531, 73.0 ],
 					"viewvisibility" : 1
@@ -70,7 +70,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 259.0, 154.0, 135.0, 20.0 ],
+					"patching_rect" : [ 301.0, 154.0, 135.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 221.0, 105.0, 79.0, 17.0 ],
 					"style" : "",
@@ -96,7 +96,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 223.0, 181.0, 171.0, 20.0 ],
+					"patching_rect" : [ 265.0, 181.0, 171.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 254.0, 309.5, 79.0, 17.0 ],
 					"style" : "",
@@ -120,7 +120,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 223.0, 180.5, 100.0, 22.0 ],
+					"patching_rect" : [ 265.0, 180.5, 100.0, 22.0 ],
 					"style" : "",
 					"text" : "osc_to_Max.pde"
 				}
@@ -135,7 +135,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 223.0, 180.5, 82.0, 22.0 ],
+					"patching_rect" : [ 265.0, 180.5, 82.0, 22.0 ],
 					"style" : "",
 					"text" : "imi.docloader"
 				}
@@ -154,8 +154,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 1,
+							"minor" : 2,
+							"revision" : 2,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -171,12 +171,12 @@
 						"gridsnaponopen" : 1,
 						"objectsnaponopen" : 1,
 						"statusbarvisible" : 2,
-						"toolbarvisible" : 0,
+						"toolbarvisible" : 1,
 						"lefttoolbarpinned" : 0,
 						"toptoolbarpinned" : 0,
 						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
+						"bottomtoolbarpinned" : 1,
+						"toolbars_unpinned_last_save" : 7,
 						"tallnewobj" : 0,
 						"boxanimatetime" : 200,
 						"enablehscroll" : 1,
@@ -280,7 +280,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 261.0, 155.0, 45.0, 22.0 ],
+					"patching_rect" : [ 303.0, 155.0, 45.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -303,7 +303,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 157.0, 172.0, 19.0, 20.0 ],
+					"patching_rect" : [ 178.0, 172.0, 19.0, 20.0 ],
 					"style" : "",
 					"text" : "y"
 				}
@@ -317,7 +317,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.0, 172.0, 19.0, 20.0 ],
+					"patching_rect" : [ 87.0, 172.0, 19.0, 20.0 ],
 					"style" : "",
 					"text" : "x"
 				}
@@ -334,7 +334,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 97.0, 170.0, 56.0, 24.0 ],
+					"patching_rect" : [ 118.0, 170.0, 56.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -379,7 +379,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "float" ],
-					"patching_rect" : [ 28.0, 129.0, 88.0, 24.0 ],
+					"patching_rect" : [ 28.0, 129.0, 109.0, 24.0 ],
 					"style" : "",
 					"text" : "unpack 0. 0."
 				}
@@ -468,14 +468,12 @@
 		"dependency_cache" : [ 			{
 				"name" : "imi.docloader.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/Toolbox/imi_objects",
-				"patcherrelativepath" : "../../Toolbox/imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Max4VA-Title.maxpat",
 				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
-				"patcherrelativepath" : "../../zpatches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -488,7 +486,7 @@
 				"type" : "iLaX"
 			}
  ],
-		"embedsnapshot" : 0
+		"autosave" : 0
 	}
 
 }
