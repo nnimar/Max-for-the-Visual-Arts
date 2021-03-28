@@ -1,11 +1,11 @@
 Max for the Visual Arts (m4va)
 by Nicolas Marechal
-n.marechal@lcc.arts.ac.uk
+nmarechal@fcu.edu.tw
 
 *********************
 Intro
 
-Max for the Visual Arts is a self-learning tool and a repository for the Max patches made or used on the BA interaction design arts (IDA) and the MA interactive design communication (IDC) at the London College of Communication (University of the Arts London, United Kingdom).
+Max for the Visual Arts is a self-learning tool and a repository for Max patches that I use to teach Max in the context of Interaction Design. 
 
 There are two releases of the patch, the complete version (available on request to educators) and the GIT version (https://github.com/imi/Max-for-the-Visual-Arts). The GIT is a light version where the externals, java, media and the applications folders are not included (some links in the patches will not work but you should be able to find them easily). 
 
@@ -35,8 +35,6 @@ Finally, we use applescript / osascript on certain patches, make sure that is ac
 *********************
 Incompatibilities
 
-Most of these add-ons are 32 bit only, so make sure that you are running Max in 32 bits mode (use "Get Info" in the finder to change the Max application opening preferences). 
-
 We use these patches on a Mac, there might be incompatibilities on a PC. That is particularly true with some of the Applescripts that we use. 
 
 *********************
@@ -46,7 +44,7 @@ The patches starting with M4VA were made or improved by Nicolas Maréchal. Other
 
 Credits also goes to the students who have contributed to this project through their research, their project or simply a request for clarification. 
 
-Particular thanks to: 
+Particular thanks to previous students at the University of the Arts London and the Royal College of Art; 
 Jonathan Emralino, James Gilpin, Holly Yoon (2008)
 Kim Jeong-Hoon, Maximo Recio, Tobias Revell, Ayesha Sowani (2009)
 Richard Harvey, Sin-Yee Hau, Pen Ho Lau Chun, Libby Mor, Eri Sawatari, Kayleigh Thomson, Anastasia Vikhornova, Penny Webb, Darren Wong (2010)
