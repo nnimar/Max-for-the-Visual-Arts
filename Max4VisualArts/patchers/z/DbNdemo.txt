@@ -1,6 +1,5 @@
 Chlandi2D, "Chlandi plate simulation 2D";
 Chlandi3D, "Chlandi plate simulation 3D";
-Dood_Harmony_Drawing, "procedural drawing";
 Lightpaint, "lightpainter";
 ÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐ,"";
 euclid, "Euclidean rhythm generator";
@@ -23,4 +22,3 @@ function_graph, "procedural basis functions graph";
 3dextrude, "3D extrusion";
 ÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐÐ,"";
 GLNurbs_sound, "GL Nurbs with sound";
-PennyDrops, "ink writer";

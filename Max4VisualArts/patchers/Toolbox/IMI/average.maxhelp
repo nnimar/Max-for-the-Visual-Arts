@@ -2,40 +2,18 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
-			"minor" : 1,
+			"major" : 9,
+			"minor" : 0,
 			"revision" : 0,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 2.0, 45.0, 563.0, 571.0 ],
-		"bglocked" : 0,
-		"openinpresentation" : 0,
-		"default_fontsize" : 12.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial",
-		"gridonopen" : 1,
+		"classnamespace" : "box",
+		"rect" : [ 100.0, 100.0, 563.0, 571.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
 		"bottomtoolbarpinned" : 1,
 		"toolbars_unpinned_last_save" : 7,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
-		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"args" : [ "m4va average", "different ways of calculating the average" ],
@@ -46,6 +24,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-34",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "Max4VA-Title.maxpat",
 					"numinlets" : 0,
@@ -53,7 +32,7 @@
 					"offset" : [ 0.0, -278.0 ],
 					"patching_rect" : [ 0.5, -2.0, 486.0, 55.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -22.0, -3.0, 487.519531, 73.0 ],
+					"presentation_rect" : [ -22.0, -3.0, 487.519530999999972, 73.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -67,7 +46,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 232.0, 254.0, 107.0, 22.0 ],
-					"style" : "",
 					"text" : "median"
 				}
 
@@ -81,7 +59,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 285.0, 220.0, 107.0, 22.0 ],
-					"style" : "",
 					"text" : "bucket average"
 				}
 
@@ -113,7 +90,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 11.0, 294.0, 169.0, 39.0 ],
-					"style" : "",
 					"text" : "calculate the average of a list"
 				}
 
@@ -139,8 +115,7 @@
 					"setminmax" : [ 0.0, 127.0 ],
 					"setstyle" : 3,
 					"settype" : 0,
-					"slidercolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-					"style" : ""
+					"slidercolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
 				}
 
 			}
@@ -166,11 +141,10 @@
 					"fontsize" : 12.0,
 					"id" : "obj-26",
 					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "float" ],
 					"patching_rect" : [ 12.0, 97.0, 89.0, 22.0 ],
-					"style" : "",
 					"text" : "dot.median 30"
 				}
 
@@ -185,7 +159,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 241.0, 122.0, 88.0, 24.0 ],
-					"style" : "",
 					"text" : "drunk 40 8"
 				}
 
@@ -199,7 +172,7 @@
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 241.0, 64.0, 20.0, 20.0 ],
-					"style" : ""
+					"svg" : ""
 				}
 
 			}
@@ -213,7 +186,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 241.0, 92.0, 70.0, 24.0 ],
-					"style" : "",
 					"text" : "metro 25"
 				}
 
@@ -256,9 +228,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 241.0, 191.0, 111.0, 24.0 ],
-					"style" : "",
 					"text" : "St.Average 30 1"
 				}
 
@@ -273,7 +244,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 112.0, 327.0, 67.0, 24.0 ],
-					"style" : "",
 					"text" : "1 3 7 12"
 				}
 
@@ -288,7 +258,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 54.0, 327.0, 51.0, 24.0 ],
-					"style" : "",
 					"text" : "60 73"
 				}
 
@@ -330,9 +299,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 11.0, 364.0, 70.0, 24.0 ],
-					"style" : "",
 					"text" : "laverage"
 				}
 
@@ -349,7 +317,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 12.0, 430.0, 230.0, 39.0 ],
-					"style" : "",
 					"text" : "gives an average tempo of the last bangs"
 				}
 
@@ -394,7 +361,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 202.0, 532.0, 50.0, 24.0 ],
-					"style" : "",
 					"text" : "bpm"
 				}
 
@@ -409,7 +375,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 59.0, 532.0, 45.0, 24.0 ],
-					"style" : "",
 					"text" : "ms"
 				}
 
@@ -424,7 +389,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 44.0, 462.0, 81.0, 24.0 ],
-					"style" : "",
 					"text" : "tap tempo"
 				}
 
@@ -435,11 +399,10 @@
 					"fontsize" : 14.0,
 					"id" : "obj-14",
 					"maxclass" : "newobj",
-					"numinlets" : 3,
+					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "float", "float" ],
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 10.0, 501.0, 163.0, 24.0 ],
-					"style" : "",
 					"text" : "f0.average_tempo 4 120"
 				}
 
@@ -451,8 +414,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 10.0, 459.0, 32.0, 32.0 ],
-					"style" : ""
+					"parameter_enable" : 0,
+					"patching_rect" : [ 10.0, 459.0, 32.0, 32.0 ]
 				}
 
 			}
@@ -467,8 +430,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 322.0, 294.0, 217.0, 39.0 ],
-					"style" : "",
+					"patching_rect" : [ 309.0, 288.0, 217.0, 39.0 ],
 					"text" : "two usefull patches for galvanic sensor"
 				}
 
@@ -483,7 +445,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 372.0, 325.0, 106.0, 24.0 ],
-					"style" : "",
 					"text" : "input 450 - 550"
 				}
 
@@ -498,7 +459,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 398.0, 499.0, 157.0, 24.0 ],
-					"style" : "",
 					"text" : "number between 0 to 10"
 				}
 
@@ -513,7 +473,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"patching_rect" : [ 322.0, 470.0, 82.0, 24.0 ],
-					"style" : "",
 					"text" : "imi.avgmap"
 				}
 
@@ -528,8 +487,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 322.0, 500.0, 50.0, 24.0 ],
-					"style" : ""
+					"patching_rect" : [ 322.0, 500.0, 50.0, 24.0 ]
 				}
 
 			}
@@ -543,8 +501,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 322.0, 440.0, 50.0, 24.0 ],
-					"style" : ""
+					"patching_rect" : [ 322.0, 440.0, 50.0, 24.0 ]
 				}
 
 			}
@@ -559,7 +516,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 321.0, 440.0, 107.0, 24.0 ],
-					"style" : "",
 					"text" : "loadmess 1024"
 				}
 
@@ -575,8 +531,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 321.0, 393.0, 50.0, 24.0 ],
-					"style" : ""
+					"patching_rect" : [ 321.0, 393.0, 50.0, 24.0 ]
 				}
 
 			}
@@ -590,8 +545,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 321.0, 326.0, 46.0, 24.0 ],
-					"style" : ""
+					"patching_rect" : [ 321.0, 326.0, 46.0, 24.0 ]
 				}
 
 			}
@@ -605,7 +559,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 321.0, 360.0, 192.0, 24.0 ],
-					"style" : "",
 					"text" : "imi.splitscale 500 50 0.1 0.75"
 				}
 
@@ -619,7 +572,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 321.0, 326.0, 85.0, 22.0 ],
-					"style" : "",
 					"text" : "loadmess 500"
 				}
 
@@ -628,8 +580,6 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-14", 1 ]
 				}
 
@@ -637,8 +587,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -646,8 +594,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -655,8 +601,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"midpoints" : [ 121.5, 356.0, 20.5, 356.0 ],
 					"source" : [ "obj-16", 0 ]
 				}
@@ -665,8 +609,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"midpoints" : [ 63.5, 356.0, 20.5, 356.0 ],
 					"source" : [ "obj-19", 0 ]
 				}
@@ -675,8 +617,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -684,8 +624,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-21", 0 ]
 				}
 
@@ -693,8 +631,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-22", 0 ]
 				}
 
@@ -702,8 +638,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-25", 0 ]
 				}
 
@@ -711,8 +645,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
+					"order" : 1,
 					"source" : [ "obj-26", 0 ]
 				}
 
@@ -720,9 +653,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-33", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"midpoints" : [ 21.5, 123.5, 199.5, 123.5 ],
+					"order" : 0,
 					"source" : [ "obj-26", 0 ]
 				}
 
@@ -730,9 +662,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"midpoints" : [ 250.5, 183.0, 230.0, 183.0, 230.0, 65.0, 21.5, 65.0 ],
+					"order" : 1,
 					"source" : [ "obj-28", 0 ]
 				}
 
@@ -740,8 +671,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-29", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
+					"order" : 0,
 					"source" : [ "obj-28", 0 ]
 				}
 
@@ -749,8 +679,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-27", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-29", 0 ]
 				}
 
@@ -758,8 +686,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-30", 0 ]
 				}
 
@@ -767,8 +693,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-32", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-31", 0 ]
 				}
 
@@ -776,8 +700,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-30", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-32", 0 ]
 				}
 
@@ -785,8 +707,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-44", 0 ]
 				}
 
@@ -794,7 +714,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-47", 0 ],
-					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-45", 0 ]
 				}
@@ -803,8 +722,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-44", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-47", 0 ]
 				}
 
@@ -812,8 +729,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -821,88 +736,75 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
-					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-8", 0 ]
 				}
 
 			}
  ],
+		"originid" : "pat-741",
 		"dependency_cache" : [ 			{
-				"name" : "imi.splitscale.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/Toolbox/imi_objects",
+				"name" : "Max4VA-Title.maxpat",
+				"bootpath" : "~/Documents/Max 9/Packages/Max for the Visual Arts/patchers/zpatches",
+				"patcherrelativepath" : "../../zpatches",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dot.float.sanitize.maxpat",
+				"bootpath" : "~/Documents/Max 9/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : "../../../../Digital Orchestra Toolbox/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dot.mean.sliding.maxpat",
+				"bootpath" : "~/Documents/Max 9/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : "../../../../Digital Orchestra Toolbox/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dot.median.sliding.maxpat",
+				"bootpath" : "~/Documents/Max 9/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : "../../../../Digital Orchestra Toolbox/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dot.window.sliding.maxpat",
+				"bootpath" : "~/Documents/Max 9/Packages/Digital Orchestra Toolbox/patchers",
+				"patcherrelativepath" : "../../../../Digital Orchestra Toolbox/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "imi.avgmap.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/Toolbox/imi_objects",
+				"bootpath" : "~/Documents/Max 9/Packages/Max for the Visual Arts/patchers/Toolbox/imi_objects",
+				"patcherrelativepath" : "../imi_objects",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "imi.splitscale.maxpat",
+				"bootpath" : "~/Documents/Max 9/Packages/Max for the Visual Arts/patchers/Toolbox/imi_objects",
+				"patcherrelativepath" : "../imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "past2.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/Toolbox/imi_objects",
+				"bootpath" : "~/Documents/Max 9/Packages/Max for the Visual Arts/patchers/Toolbox/imi_objects",
+				"patcherrelativepath" : "../imi_objects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dot.smooth.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/externals/tools/dot_20121204/filters/dot.smooth",
-				"type" : "JSON",
+				"name" : "strlen.js",
+				"bootpath" : "~/Documents/Max 9/Packages/Max for the Visual Arts/javascript",
+				"patcherrelativepath" : "../../../javascript",
+				"type" : "TEXT",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "f0.average_tempo.pat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/externals/tools/f0.abs110216",
-				"type" : "maxb",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "laverage.mxb",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/externals/sound/St.ools/St.ools/abhaXions",
-				"type" : "maxb",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "St.Average.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/externals/sound/St.ools/St.ools",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "splitter.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/externals/sound/St.ools/St.ools/abhaXions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "roudone.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/externals/sound/St.ools/St.ools/abhaXions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "revzi.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/externals/sound/St.ools/St.ools/abhaXions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "dot.median.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/externals/tools/dot_20121204/filters/dot.median",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Max4VA-Title.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/Max4VisualArts/patchers/zpatches",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "strlen.mxo",
-				"type" : "iLaX"
 			}
  ],
 		"autosave" : 0

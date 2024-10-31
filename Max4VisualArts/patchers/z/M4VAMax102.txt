@@ -19,7 +19,6 @@
 22, xml "use XML with Max";
 23, json "use JSON with Max";
 24, regexp_tutorial "regular expression";
-25, twitter_read "read the twitter api"; 
 26, internet_sensors "use the internet to get data"; 
 30, -----------------------;
 
@@ -37,7 +36,6 @@
 44, background_removal "background removal";
 45, v.regions "softVNS v.region object";
 46, faceOSC "an interface to faceOSC";
-47, TSPSosc "an interface to TSPS";
 50, -----------------------;
 
 51, <category> 6 CV_Objects;
@@ -46,5 +44,4 @@
 55, cv_centroid "return the center mass (and the mass)";
 56, cv_jit.blobs "blob detections";
 57, cv_misc "miscellaneous cv";
-54, kinect "tools to use the kinect";
 60, -----------------------;

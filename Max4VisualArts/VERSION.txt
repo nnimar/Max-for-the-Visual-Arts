@@ -1,6 +1,13 @@
 Max for the Visual Arts (m4va)
 by Nicolas Marechal
-n.marechal@lcc.arts.ac.uk
+nmarechal@o365.fcu.edu.tw
+
+*********************
+Version history
+
+2.60 - November 2022
+
+Changed the jit.qt.movie / jit.qt.grab to jit.movie / jit.grab
 
 *********************
 Version history
