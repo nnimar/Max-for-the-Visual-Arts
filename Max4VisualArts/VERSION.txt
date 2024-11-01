@@ -5,9 +5,10 @@ nmarechal@o365.fcu.edu.tw
 *********************
 Version history
 
-2.60 - November 2022
+2.60 - November 2024
 
 Changed the jit.qt.movie / jit.qt.grab to jit.movie / jit.grab
+Removed old patches (Kinect, Twitter, ...) 
 
 *********************
 Version history
