@@ -5,10 +5,10 @@ nmarechal@o365.fcu.edu.tw
 *********************
 Version history
 
-2.60 - November 2024
+2.60 - November 2024 (Max 9 compatibility)
 
-Changed the jit.qt.movie / jit.qt.grab to jit.movie / jit.grab
-Removed old patches (Kinect, Twitter, ...) 
+Compatibility changes: all the jit.qt.movie and jit.qt.grab have been replace by jit.movie / jit.grab
+Removed many old patches (Kinect, Twitter, ...) 
 
 *********************
 Version history
@@ -20,7 +20,7 @@ strenln is now javascript.
 *********************
 2.55.1 - April 2016
 
-This is the first version for cycling'74 package manager. It's now a separate branch from the main installer. 
+This is the first version compatible with Cycling'74 Package Manager. 
 
 See the readme for more information: https://github.com/imi/Max-for-the-Visual-Arts/blob/master/Max4VisualArts/README.txt
 
@@ -39,8 +39,6 @@ Externals: Hap Codec v. 9, oscjavaformax v. 9
 It's the return of the bottom bar (pre-Max 7 style) thanks to Thomas Günzel's Search and Replace. 
 
 Bugs: Aesthetical bugs, openWeather, openWeather_maxurl (due to a change to the API)
-
-Externals: Mubu 1.8.11, eijes 3.2.4, zsa descriptor 1.1.1
 
 *********************
 2.52 - October 2015
@@ -75,10 +73,6 @@ New patches: openNI_GLmodel (kinect), GLsketch_translate (DbN), openNI_GLmultipl
 
 Updates: TSPSosc (computer vision), openNI_practice (kinect), openNI_GLgridshape (kinect), tweening (imi toolbox), IMI_multi_sound_player (sound), SyphonEye (grab), GLcamera (Max104). GLsyphon (exhibition), IMI_videograb.
 
-Applications: TSPS 1.34, TSPS multicam 1.34
-
-Externals: MubU for Max 1.78
-
 Packages: jit.gl.hap (version 1.0.3)
 
 *********************
@@ -87,8 +81,6 @@ Packages: jit.gl.hap (version 1.0.3)
 New: mira_camera, mira_grid, mira_sound_mixer (IMI misc interfaces), IMI_mira_space_mapping (projection), GLgridshape2syphon, GLnode2syphon (IMI_GLsyphon), imi.matrixset (IMI toolbox), FFTMatrix (Effects), imi.encoder (toolbox), kinect2GLgridshape (kinect), kinectSkelMesh (kinect), freenect-touch, text_encoding (toolbox), kinect tools (computer vision > kinect), ChladniGen (DbNDemo), Swarm (DbNDemo), grab_hotspot (Grab), phys_forcesystem (Max104>Phys>Phys.multiple), matrix_control (IMI_multi_sound_player), blend_text2D (IMI compositing modes), blend_text3D (IMI compositing modes), sliding_light (matrix positioning), vectorMover, vectorBouncer (GLanimation), phys_collision (Max 104), GLanimation (GLgridshape): anim.line, anim.bline, anim.path, anim.path2, anim.path3, Syphon_client+ (GLsyphon tools>grab2syphon), openNI_practice (kinect), Gen_scalebias, GLmesh_catch~.
 
 Updates: imi.looptheloop (v007), IMI_text_alpha, IMI_video_grab, kinect, jit.openni help, jit.synapse help, _IMI_help advanced (Max104 only), kinect, ESC_fullscreen+ (v009).
-
-Externals:, filesys0.2.5, jruby_for_max-1.0.2, wsserver-v0-1-1, MubuForMax 1.74, Syphon beta3, BlackMagic Syphon, twitter4j-4.0.1 (to use with searchtweet 1.1), net.loadbang.scripting-1.1.1 (to use with Jython), Mira 1.1.7.
 
 Applications (apps folder): Syphon recorder (version 12), IPCAM2SYPHON_0.9
 
@@ -103,8 +95,6 @@ New: mgraphics_text_alpha, mgraphics_translate, IMI_text_oulipo (text), Catadela
 
 Update: Randomness (toolbox), IMI_arduino_sensors (sensors), function interpolation (toolbox), tweening (IMI sensors tools), delta_detect (IMI sensors tools), OSCuino package, maxuino patch (arduino sensors), re-organised the OSC patches in IMI_osc (sensors), imi.looptheloop (v006), IMI_arduino_interfaces, IMIoscuinoSerial (v003), IMI_loadbangs (Global>IMI_toolbox).
 
-Externals: CNMAT_Externals 1.0-68, MMJ (3.1), Vipr (video streaming), MAAD, TouchOSC editor v1.6, OSCseq 1.03
-
 Packages: jit.gl.hap, Mira 1.1.6
 
 Bugs: past2, mini maxuimi
@@ -115,10 +105,6 @@ Bugs: past2, mini maxuimi
 New: imi.movieloader 0.2 (toolbox) , exhibition_tools (templates & sensors tools), IMI_dict (IMI toolbox), bfg_intro (DbN2D>GLMesh), queries (file > new file browser), Max_style_guide 002 (global), grab_position (video grab), IMI_json (internet), IMI_json+ (internet) IMI_xively2json (internet), PhilipsHue (sensors>misc sensors), PattrSave (toolbox), CSV2Matrix (toolbox), phys_patch_a_day (physics), GLmultiple_textures+ (GLmultiple), Gen_phys2mesh (physics), GLmesh_transparency (GLmesh), serial call-response (arduino interfaces).
 
 Update: the movies are now loaded from the IMIMovies.txt file (IMIpatches/patchers/z folder), Improved compatibility for the GIT version, re-organised introduction and global, Arduino programs updates (LED on during the void setup, LED off during the void loop), IMI arduino2max 003 (Sensors), IMI arduino2max6 003 (Sensors), IMI_capsense2max12 003 (Sensors), maxuimi and mini_maxuimi (compatibility with maxuino 16), re-organised the imi_tooldbox, tabbed IMI_multi_sound_player, SensorBox and SensorBox Mux.
-
-Externals: MuBuForMax 1.6.7, gf-1.6.8, maxuino_b016, searchtweet 1.1, aka.leapmotion 0.2, PhidgetLED-64, PhidgetAdvancedServo-8 (misc interfaces), IPcam2syphon, JRuby 1.01, PHI Launchpad InOut 1.03.
-
-Package: Mira
 
 Bugs: IMI_quicktime, IMI_simple_video_player, IMI_videograb, Lightpaint-example (DbN Demo) and many other adjustements and bugs corrected. Use light grey rather than dark grey as a background for a better legibility of the main screen. Replaced ajm.ruby by jruby in the ajm objects.
 
@@ -133,8 +119,6 @@ Update: jit.lcd is being replaced by jit.mgraphics (in progress), reorganised GL
 
 Package: jit.gl.hap, TapTools 4.0 b2 (IMI version).
 
-Externals: Shell (6.1 update), VIPR (encode/decode video data).
-
 Applications (apps folder): OSCseq 1.0.2, OSCTestApp 0.2.4, simpleKinect.
 
 Bugs: tighter to the imi style guide, patchers default font size to Arial 12, replaced the slide object where there is a 6.1 slide bug. Many minor bugs corrected.
@@ -148,8 +132,6 @@ New: GLsketch_join (DbN3D), Wii_accelerometer (IMI_wii_interfaces), boid2d2GLmes
 
 Update: reorganised GLmultiple, reorganised and updated Matrix, small updates to the Arduino programs.
 
-Externals: Can-Tools (some)
-
 Bugs: changed from loadbang > fsmenubar 0 to @fsmenubar 0 in the jit window, hoping to solve the GL mad window bug !
 
 *********************
@@ -158,8 +140,6 @@ Bugs: changed from loadbang > fsmenubar 0 to @fsmenubar 0 in the jit window, hop
 New: scope (sound toolbox), framediff with zones (computer vision>c74_camera_data> frame_difference), phys_hinge+ (physics>phys_basics), simple_probability (imi toolbox), GLmesh_video2coord (GLmesh>GLmesh video), Iannix (IMI_misc_interfaces), kinect-a to Max (kinect), freenect moments (kinect), freenect tracking (kinect), bodybuilder (kinect), GLsketch_capture+ (DbN3D), GLsketchtex_capture (DbN3D), cv2draw (cv_misc), cv_feature2GLdraw (cv2draw), cv_feature2GLdraw+ (cv2draw), GLmultiple_queries (GLmultiple), analyzer_in_practice (_sound_toolbox>analyzer~), GLgridshape_svf (GLgridshape), GLgridshape_fffb (GLgridshape), cv_learn (cv_misc), cv_threshold (cv_misc), cv_multitouch (cv_misc), phys_membrane (physics>phys_multiple), phys_string (physics>phys_multiple), cv_faces2camera (cv_faces.findreplace), cv_faces2GL (cv_faces.findreplace), cv_faces2GL2 (cv_faces.findreplace), cv_feature2GLdraw (cv_misc), cv_feature2GLdraw+ (cv_misc), OSCuino, Wii_accelerometer.
 
 Update: reorganised the kinect category and added ressources (Max102>Computer Vision), fiddle~help, new sounds in the media folder, IMI_pachube2OSC to IMI_cosm2OSC, GLmesh_shatter, cv.jit.label (@mode 0), cv.jit.label (@mode 1), cv.jit blobs bounds, cv.jit.blobs centroids, jitwebimage, GLpicker (GLcamera), arduino2max, arduino2max multiple.
-
-Externals: SadamLib 30/12/2012, jit.openni 0.86 (install zigfu from the more folder), searchtweets, imp.artnet 0.9, KinectA (version 0.2), Osceleton (with Kinect via Osceleton), TUIOKinect, PM1_piezo-translator (sound toolbox), Jon Bellona's Kinect helpers, zns.apan (sound toolbox), timeline (IMI_iCinema), TapTools 4b1 (needs Jamoma 0.5.7 or higher), dot_20121204, o.dot 1.2.11.
 
 Bugs: removed the twitter read (doesn't work with the current Twitter API) and replaced them with a searchtweets. Replaced tap.ascii by atoi and tap.itoa by itoa. Repaired the jitter overview patch, few minor bugs corrected. The old .help files have been update to .maxhelp for a better compatibility, mistakes in the jit.expr+ patch. AJK and AKA.wiiremote not compatible with 10.8.
 
@@ -179,11 +159,7 @@ IMI space mapping (rev 007), IMI_video_two_screens (rev 013), IMI video grab+ (g
 
 Externals: Mubu Gesture Follower 1.6.3, Maxuino 014, SadamLib 27/7/2012, osculator.js (James Drake), Olaoutput 0.6 (needs the OLA application), dmxusbpro-1.4.1 (DEMO).
 
-Applications: OSCseq 0.9.18, TouchOSC 1.5.6
-
 Bugs: shell.maxhelp and applescripts calls (mountain lion doesn't seems to like the <arch i386> cmd), removed max showmenubar; and max hidemenubar; from p ESC-fullscreen as it seemed to cause a nasty bug with graphic card (since Max 6) + a lot of tweaking, improved connexions and simplification in the description or the Max code.
-
-More: Tap.Tools 3.64, FTM 2.6.0 beta, Sane for OS X 10.7, nmap 6.01
 
 *********************
 2.21 - May 2012
@@ -191,8 +167,6 @@ More: Tap.Tools 3.64, FTM 2.6.0 beta, Sane for OS X 10.7, nmap 6.01
 New: IMI_OSC2Millumin (exhibition), IMI_multi-layer_anim (exhibition), IMI_space_mapping_poly (exhibition), IMI_video-output (toolbox), imi.oneint (onebang for integers), jit.anim_video (exhibition>IMI_multi-layered_video), GLmodel2texture (GLmisc), GLnurbs_ctlmatrix (GLnurbs), gencoord_expr_gen (IMI.jit.expression), text3d2alpha (text), GLmesh tutorial (11 patches in DbN), Camera2Phys2D (Toolbox>3D), IMI_maxhelp_a_day (introduction), GLisosurf, GLgridshape_camera, max2arduino (arduino interfaces), GLrender_techniques (GLgridshape>layers), video_maks_alphablend, video_mask (layers).
 
 Updates: IMI_lcd_processing (multiple, collision and mouse control), IMI_netReceive, IMI_netSend, cv_HSflow (p hsflow2bang), imi.matrix2cell (rev 002), IMI_texture, Arduino programs to Arduino 1.0 (.ino), re-organised GLnurbs and GLmesh (and added links to Andrew Benson's recipes), GLgridshape, GLsketch_command, IMI_compositing_modes, IMI_video_twoscreens, IMI_video_player3MASTER, IMI_video_player3SLAVE.
-
-Externals: Mubu Gesture Follower 1.5 beta7, jit.freenect.grab_rc5, Xbee4Max
 
 Bugs: removed help for jasch's round, rtc's help for minus
 
@@ -211,8 +185,6 @@ Externals: xray.jit.cellvalue updtate by Wes for h.line, Syphon Beta 2 r2, Sypho
 
 Bugs: IMI_simple_video_player+, GLsketch_assemble, ESC-fullscreen (rev 5) to correct the "fsmenubar" bug, "panel" bug, shell, applescripts and other links updated to the Max6 folder.
 
-More (optional installs): eijes 3.0beta1 (compatibility with Max6)
-
 Incompatible with Max 6: Cosm
 
 *********************
@@ -221,10 +193,6 @@ Incompatible with Max 6: Cosm
 New: imi.looptheloop, imi.frameconv, imi.debug, imi.seqbang, IMI space mapping (exhibition, new version), videomap02 (space mapping's slave patch), matrix_collision, iCinema-03,  h.line (effect), live_grid, IMI_OSCResolume
 
 Updates: iCinema-01, iCinema-02, cv_HSflow (p hsflow2bang)
-
-Externals: zsa.descriptors_1.0GM3
-
-More (optional installs): Jamoma 0.56b4, JamomaUserLib (19/12/2011), eijes 3.0beta1
 
 *********************
 2.14 - January 2012
@@ -247,8 +215,6 @@ Bugs: the "bug hunting" version: many links and cosmetic bugs, added a different
 New: sketchpad (DbN3D), polar_cartesian (imi_toolbox), IMI_2d_poltocar (imi_toolbox>polar_cartesian), 3d_cartopol (imi_toolbox>polar_cartesian), IMI_xml (Internet), poly~movie (IMI jit.qt.movie), FaceOSC (computer vision), Touch OSC tutorial by Nathan Bowen (sensors>IMI misc interfaces), Metasynth~ by Luke DuBois (sound toolbox).
 
 Updates: IMI_filtering_change, IMI_quicktime in practice, Max patching rules (005), face2gridshape (toolbox>computer vision), regexp tutorial (internet), J-F Charles spectral transformation (Expo'74).
-
-Externals: VPT 6r05 (08/2011), Sadam Library (08/2011), GF-Mubu.1.3.3.beta (gesture follower), dot_max5 (10/2011).
 
 Bugs: corrected the link to the Twitter API, repaired the link to polymovie.maxpat
 
@@ -282,10 +248,6 @@ Toolbox (Extra>_IMI>toolbox): Max2iTunes (sound), 3D head_navigation (3D), textu
 
 Updates: v.region (computer vision), IMI_gridshape (added gridshape axis), better actionscript to access the sensor and the toolbox folders.
 
-Externals: eijes library (2.01), x-ray.jit, FantaStickv2.3 and MMF-Fantastick for iPhone (Sensors)
-
-Externals updates: zsa.descriptors (1.0GM), CNMAT-Everything (April 2011)
-
 *************
 2.08 - May 2011
 
@@ -294,8 +256,6 @@ New: IMI_coll2text2d, IMI_coll2text2d+, IMI_xbee_interfaces (AT and API mode), I
 Toolbox: numbers, text2text_fade, twitscoop
 
 Updates: Computer Vision (102), uldl2regexp (now reloads properly)
-
-Externals: openTSPS (Computer Vision), aka.speech, TUIO_MaxMSP, maxbee 0.2 (IMI version works on Mac - in progress), polybuffer_beta3_M (now works), ajh.wiiremote alpha 1.6, aka.wiiremote-b7
 
 More folder: FTM 2.5 (beta 20), Cyclops 1.4
 
@@ -310,8 +270,6 @@ Updates: IMI_gridshape (103), IMI_multi-layered video (103), IMI_max2printer, IM
 
 The list_toolbox, the misc_toolbox and the sound_toolbox are in the Extra>IMI folder.
 
-Externals: jfc-spectral-tutorials (see freeze in the sound toolbox), ARToolKit (Augmented Reality), mbrola4max (voice synthesis), fileout 1.1
-
 More folder has some optional Externals for Max: 
 Jamoma 0.5.2, FTM 2.5 (beta 19) and Tap.Tools 3.2.0 (payware).
 
@@ -321,7 +279,6 @@ Jamoma 0.5.2, FTM 2.5 (beta 19) and Tap.Tools 3.2.0 (payware).
 New patches: IMI colourtrack (computer vision), renderMaster + SceneProcess (effects), IMI_quickpractice (jit.qt.movie in practice).
 
 Updates: IMI_jit.qt.movie, IM_ jit.qt.movie+
-Externals update: c74 version 1.4, VPT 5.1
 
 Corrections and other bugs: arduino2max now works as expected + many minor corrections.
 
@@ -335,8 +292,6 @@ New imi.objects: imi_fullscreen (pos x, pos y, size x, size y), imi.draw (center
 Update: revised version of the ESC-fullscreen (002) with options for the fsaa, depthbuffer, position and size. Revised the DbN tutorial with more on jit.expression, fractals, nurbs, glmultiple, screentoworld, cosm, noise2lcd (iter and spill), matrix_lookup, a better twitter_read (xml to coll) and Luke Hall's regexp_tutorial.
 
 New Externals: Cosm (Mad Professor version / February 2010), sa.function (function curve), sfmarker (read markers from sound files), sadamLib_2010-12-07, jit.freenect.grab_rc1 (kinect driver), GF 0.39 (IRCAM's real-time following and recognition of gestures), udmx (DMX library), boids objects (bird flight and animal flock simulator), mass spring damper, sc-max0.21, threshold~ (monitors input signal and outputs bangs when the signal exceeds a specified value).
-
-Externals update: ajm 0.91, CNMAT everything (9/2010), Messenger 1.5, CVjit 1.72
 
 More folder (in the Max 5 folder) has some extra Externals for Max: FTM.2.5.0.BETA.18-Max5, Jamoma-0.5.1 and Tap.Tools-3.2.0 (payware).
 
@@ -381,8 +336,6 @@ Bugs: Maxuino link corrected, various bugs fix and improvements.
 
 Patches: AudioVideoAnalysis (Computer Vision), matrix_positioning, matrix_kaleidoscope (Matrix), badTV (effect), counter/uzi/line, table, modulo, jit.expr+ (DbNtools), DbN Random and Drawing tutorial (DbN3D), twitter read (Internet)
 
-Externals: f0.abstractions (090922), c74(v1.3), fiddle~/bonk~/sigmund~ (CRCA), boid, box2d, shell UB (replaces aka.shell)
-
 Updates: Reorganisation of Max 101 / Max 103 in the main IMI_help, CNMAT, Maxuino 008
 
 Bugs: Corrected some install bug.
@@ -424,7 +377,6 @@ video player for two or three screens (exhibition), GL.slab, ShaderOverview_v001
 Externals: CNMAT object, CV.jit tools, AJM tools, Jasch objects, Lobjects, f0, dot objects, jr abstractions, the Pelado objects and the v001 shaders (see the ShaderOverview_v001 in the effects)
 Media: ring.mov / sophie.mov / tom.mov (from IMAL / Brussels).
 
-Externals updates: HC Gilje's VPT is now version 4.1
 The IMI sound players now work independently from the sensors interfaces. 
 Use the IMI_basic_interfaces.maxpat patch to connect your patch with sensors.
 
@@ -438,8 +390,6 @@ Complete reorganisation of the categories and addition of tabs to separate the b
 
 Themes: CV objects, Exhibition, Grab, Internet, Introduction, LCD, Matrix, Sensor, Text. 
 
-Externals: z.abstraction, HC Gilje's Video Projection Tool 4.01 
-(http://hcgilje.wordpress.com/resources/video-projection-tools/), aka.shell.
 New objects included from Andrew Benson’s Jitter Night Course.
 
 *********************
@@ -448,14 +398,9 @@ New objects included from Andrew Benson’s Jitter Night Course.
 Initial release of the IMI Max patches. It contains 6 categories: Global, Sound, Video, Effects, Projection 
 and Computer vision. It is made of 23 patches.
 
-Externals installed: dot_max5_20091015, maxtoolbox 14, sfmarkers~, max object thesaurus
-
 The installer is based on by Emannuel Jourdan's installer for the eijes objects 
 The patch structure is provided by Cycling74's new help system.
 
 *********************
 Contact: Nicolas Marechal
-lecturer in physical computing and design prototyping
-London College of Communication
-University of the Arts London
-n.marechal@lcc.arts.ac.uk
+nmarechal@o365.fcu.edu.tw
