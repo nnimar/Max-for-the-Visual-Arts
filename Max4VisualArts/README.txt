@@ -41,7 +41,7 @@ We use these patches on a Mac, there might be incompatibilities on a PC. That is
 *********************
 Credits
 
-The patches starting with M4VA were made or improved by Nicolas Maréchal. Others were great solutions found on the http://cycling74.com/forums/ or borrowed from Max's evangelists Peter Elsea, Robert Ramirez, Andrew Benson, Luke DuBois, Sam Tarakajian, etc. Thanks for their great tutorials and support to the non tilda (!~) users.
+The patches starting with M4VA were made or improved by Nicolas Marechal. Others were great solutions found on the http://cycling74.com/forums/ or borrowed from Max's evangelists Peter Elsea, Robert Ramirez, Andrew Benson, Luke DuBois, Sam Tarakajian, etc. Thanks for their great tutorials and support to the non tilda (!~) users.
 
 Credits also goes to the students who have contributed to this project through their research, their project or simply a request for clarification. 
 
