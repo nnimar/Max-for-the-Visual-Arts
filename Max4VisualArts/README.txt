@@ -12,7 +12,7 @@ Run the main patch _M4VA_help from the Extras menu. Also in the Extras menu, loo
 The Max4VisualArts package is located in the /Users/Shared/Max 7/Packages/. From version 2.50, the patches have been optimised to work with Max 7, most should work in Max 6 and some will work in Max 5 but they are no longer supported. 
 
 Version 2.55 is the first version compatible with the new Package Manager in Max 7.
-Version 2.60 has been tested with Max 9. 
+Version 2.60 has been tested with Max 8 and Max 9. 
 
 *********************
 Dependencies
